@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Betriebseinnahmen & Betriebsausgaben",
+  "quelle_note": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben.md",
+  "karten": [
+    {
+      "id": "est-betriebseinnahmen-betriebsausgaben-01",
+      "frage": "Was sind Betriebseinnahmen, was sind Betriebsausgaben?",
+      "antwort": "Betriebseinnahmen: betrieblich veranlasst Wertzugänge in Geld oder geldwerten Vorteilen (mittelbarer Zusammenhang genügt, widerrechtlicher Bezug schadet nicht).\nBetriebsausgabe (§ 4 Abs 4): durch den Betrieb veranlasst Aufwendungen/Ausgaben."
+    },
+    {
+      "id": "est-betriebseinnahmen-betriebsausgaben-02",
+      "frage": "Wann sind Betriebseinnahmen/-ausgaben zu erfassen?",
+      "antwort": "BV-Vergleich (§ 4 Abs 1 & § 5): im Zeitpunkt des Entstehens.\nEAR (§ 4 Abs 3): im Zeitpunkt des Zufluss"
+    },
+    {
+      "id": "est-betriebseinnahmen-betriebsausgaben-03",
+      "frage": "Wird der Empfänger einer Betriebsausgabe nicht genannt - welche Folge?",
+      "antwort": "Die Aufwendungen werden nicht als Betriebsausgabe anerkannt - selbst wenn die betriebliche Veranlassung unbestritten und die Ausgabe tatsächlich getätigt wurde (§ 162 BAO)."
+    },
+    {
+      "id": "est-betriebseinnahmen-betriebsausgaben-04",
+      "frage": "Nennen Sie Beispiele für § 4 Abs 4-Betriebsausgaben.",
+      "antwort": "Pflichtversicherungsbeiträge, vertragliche Pensionskassenbeiträge, Zuwendungen an den Betriebsratfonds (bis 3 %), Aus-/Fortbildung/Umschulung, werbewirksame Katastrophenspenden."
+    },
+    {
+      "id": "est-betriebseinnahmen-betriebsausgaben-05",
+      "frage": "Welche Kosten entstehen bei betrieblich veranlassten Reisen?",
+      "antwort": "Fahrtkosten (Bahn, Taxi, Flug); zusätzlich Verpflegungs- und Nächtigungsmehraufwand ohne Nachweis bis zu den Sätzen des § 26 Z 4."
+    }
+  ]
+}

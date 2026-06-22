@@ -1,0 +1,22 @@
+{
+  "fach": "BAO",
+  "thema": "Ermessen",
+  "quelle_note": "Bundesabgabenordnung/Ermessen.md",
+  "karten": [
+    {
+      "id": "bao-ermessen-01",
+      "frage": "Durch welche beiden Kriterien wird das Ermessen bestimmt?",
+      "antwort": "**Billigkeit** (berechtigte Interessen der Partei) und **Zweckmäßigkeit** (öffentliches Interesse der Behörde). Die Entscheidung ist nach diesen Kriterien zu **begründen**."
+    },
+    {
+      "id": "bao-ermessen-02",
+      "frage": "Was versteht man unter Ermessen und woran erkennt man es?",
+      "antwort": "Ein **Entscheidungsspielraum** zwischen mehreren Möglichkeiten innerhalb der Ermessengrenzen; die Übung ist immer zu begründen. Erkennbar an *kann, darf, ist zulässig*."
+    },
+    {
+      "id": "bao-ermessen-03",
+      "frage": "Nennen Sie 5 Ermessensentscheidungen.",
+      "antwort": "- Verspätungszuschlag (§135)\n- Zwangsstrafe (§ 111)\n- Bescheidaufhebung (§ 299)\n- Wiederaufnahme (§ 303)\n- Wahl der Schätzungsmethode."
+    }
+  ]
+}

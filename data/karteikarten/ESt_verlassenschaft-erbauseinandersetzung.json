@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Verlassenschaft & Erbauseinandersetzung",
+  "quelle_note": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung.md",
+  "karten": [
+    {
+      "id": "est-verlassenschaft-erbauseinandersetzung-01",
+      "frage": "Wem werden Einkünfte ab dem Todestag zugerechnet?",
+      "antwort": "Unmittelbar den Erben, nicht dem ruhenden Nachlass."
+    },
+    {
+      "id": "est-verlassenschaft-erbauseinandersetzung-02",
+      "frage": "Wann gehen Verlustvorträge auf die Erben über?",
+      "antwort": "Nur wenn der verlustverursachende Betrieb von Todes wegen und zu Buchwerten übernommen wird."
+    },
+    {
+      "id": "est-verlassenschaft-erbauseinandersetzung-03",
+      "frage": "In welchen Fällen geht der Verlustvortrag NICHT über?",
+      "antwort": "Schenkung unter Lebenden, Veräußerung/Aufgabe zu Lebzeiten, Erbschaftskauf, anteilige Erbteilung-Veräußerung."
+    },
+    {
+      "id": "est-verlassenschaft-erbauseinandersetzung-04",
+      "frage": "Was geschieht bei Tod eines Freiberuflers?",
+      "antwort": "Betriebsaufgabe nur, wen KEIN Betrieb auf den Erben übergeht (zB Röntgeninstitut, das vom Erben übernommen wird, ist keine Betriebsaufgabe)."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DP Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="app-header">
+    <div class="header-inner">
+      <button class="wordmark" id="wordmark" aria-label="Zur Startseite">
+        <span class="wm-title">DP Quiz</span>
+        <span class="wm-sub">Dienstprüfung</span>
+      </button>
+      <div class="header-right">
+        <div class="countdown" id="countdown"></div>
+        <button class="theme-btn" id="theme-btn" aria-label="Theme wechseln"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ════════ LANDING ════════ -->
+    <div id="screen-landing" class="screen active">
+      <h1>Dienstprüfung üben</h1>
+      <p class="screen-sub">Wähle ein Modul, um mit dem Lernen zu beginnen.</p>
+
+      <div class="modul-grid">
+        <button class="modul-card" id="card-mc">
+          <div class="modul-icon">◉</div>
+          <div class="modul-titel">MC-Quiz</div>
+          <div class="modul-desc" id="mc-desc">Multiple-Choice-Fragen</div>
+        </button>
+
+        <button class="modul-card" id="card-fc">
+          <div class="modul-icon">▤</div>
+          <div class="modul-titel">Karteikarten</div>
+          <div class="modul-desc" id="fc-desc">Active Recall mit deinen Notizen</div>
+        </button>
+
+        <button class="modul-card disabled" id="card-ns" disabled>
+          <div class="modul-badge">bald verfügbar</div>
+          <div class="modul-icon">❒</div>
+          <div class="modul-titel">Nachschlagewerk</div>
+          <div class="modul-desc">Vault als digitales Nachschlagewerk</div>
+        </button>
+      </div>
+
+      <div class="dashboard" id="dashboard"></div>
+    </div>
+
+    <!-- ════════ MC: AUSWAHL ════════ -->
+    <div id="screen-start" class="screen">
+      <button class="back-link" data-back>← Startseite</button>
+      <h1>Test zusammenstellen</h1>
+      <p class="screen-sub">Wähle die Fächer und lege die Fragenanzahl fest. Fragen und Antworten werden bei jedem Lauf neu gemischt.</p>
+
+      <div class="section-header">
+        <span class="section-label">Fächer</span>
+        <div class="section-actions">
+          <button class="ghost-sm" id="btn-alle-an">Alle</button>
+          <button class="ghost-sm" id="btn-alle-ab">Keine</button>
+        </div>
+      </div>
+      <div id="fach-liste"></div>
+
+      <div class="sticky-bar">
+        <span class="sticky-label" id="sticky-label">Keine Fächer gewählt</span>
+        <button class="btn-primary" id="btn-start" disabled>Test starten</button>
+      </div>
+
+      <div id="verlauf-bereich" class="hidden">
+        <div class="section-label" style="margin:32px 0 12px">Verlauf</div>
+        <div id="verlauf-liste"></div>
+      </div>
+    </div>
+
+    <!-- ════════ MC: QUIZ ════════ -->
+    <div id="screen-quiz" class="screen">
+      <div class="quiz-meta">
+        <div class="quiz-meta-left">
+          <span class="meta-pos" id="meta-pos"></span>
+          <span class="fach-pill" id="fach-pill"></span>
+        </div>
+        <span class="meta-pct" id="meta-pct"></span>
+      </div>
+      <div class="progress-wrap"><div class="progress-fill" id="progress-fill"></div></div>
+      <h2 id="frage-text"></h2>
+      <div id="optionen-liste"></div>
+      <div id="erklaerung-box" class="hidden">
+        <div class="erk-header"><span class="verdikt-pill" id="verdikt-pill"></span></div>
+        <div class="erk-text" id="erk-text"></div>
+      </div>
+      <div class="quiz-footer">
+        <button class="btn-ghost" id="btn-abbrechen">Abbrechen</button>
+        <button class="btn-primary" id="btn-bestaetigen" disabled>Antwort bestätigen</button>
+      </div>
+      <div class="kb-hints"><span class="mono-sm">1–4 wählen &nbsp;·&nbsp; Enter bestätigen / weiter</span></div>
+    </div>
+
+    <!-- ════════ MC: AUSWERTUNG ════════ -->
+    <div id="screen-auswertung" class="screen">
+      <div class="results-hero">
+        <div class="results-label">Ergebnis</div>
+        <div class="results-pct" id="results-pct"></div>
+        <div class="results-count" id="results-count"></div>
+      </div>
+      <div id="fach-balken" class="hidden"></div>
+      <div id="success-banner" class="hidden success-banner">Alle Fragen richtig ✓</div>
+      <div id="nachbesprechung" class="hidden"></div>
+      <div style="text-align:center;margin-top:40px">
+        <button class="btn-primary" id="btn-neu">Neuer Test</button>
+      </div>
+    </div>
+
+    <!-- ════════ KARTEIKARTEN: AUSWAHL ════════ -->
+    <div id="screen-fc-select" class="screen">
+      <button class="back-link" data-back>← Startseite</button>
+      <h1>Karteikarten üben</h1>
+      <p class="screen-sub">Wähle Fächer und optional einzelne Themen. Die Karten werden bei jeder Runde neu gemischt.</p>
+
+      <div class="section-header">
+        <span class="section-label">Fächer & Themen</span>
+        <div class="section-actions">
+          <button class="ghost-sm" id="fc-alle-an">Alle</button>
+          <button class="ghost-sm" id="fc-alle-ab">Keine</button>
+        </div>
+      </div>
+      <div id="fc-fach-liste"></div>
+
+      <div class="sticky-bar">
+        <span class="sticky-label" id="fc-sticky-label">Keine Themen gewählt</span>
+        <button class="btn-primary" id="fc-start" disabled>Karten üben</button>
+      </div>
+
+      <div id="fc-verlauf-bereich" class="hidden">
+        <div class="section-label" style="margin:32px 0 12px">Verlauf</div>
+        <div id="fc-verlauf-liste"></div>
+      </div>
+    </div>
+
+    <!-- ════════ KARTEIKARTEN: KARTE ════════ -->
+    <div id="screen-fc-card" class="screen">
+      <div class="quiz-meta">
+        <div class="quiz-meta-left">
+          <span class="meta-pos" id="fc-pos"></span>
+          <span class="fach-pill" id="fc-fach-pill"></span>
+        </div>
+        <span class="meta-pct" id="fc-thema"></span>
+      </div>
+      <div class="progress-wrap"><div class="progress-fill" id="fc-progress"></div></div>
+
+      <div class="flashcard" id="flashcard">
+        <div class="fc-seite-label" id="fc-seite-label">Frage</div>
+        <div class="fc-inhalt" id="fc-inhalt"></div>
+        <div class="fc-flip-hint" id="fc-flip-hint">Klicken oder Leertaste zum Aufdecken</div>
+      </div>
+
+      <div class="fc-footer">
+        <button class="btn-ghost" id="fc-abbrechen">Abbrechen</button>
+        <div class="fc-bewertung hidden" id="fc-bewertung">
+          <button class="btn-no" id="fc-nicht">Nicht gewusst</button>
+          <button class="btn-ok" id="fc-gewusst">Gewusst</button>
+        </div>
+        <button class="btn-primary" id="fc-aufdecken">Antwort zeigen</button>
+      </div>
+      <div class="kb-hints"><span class="mono-sm" id="fc-kb-hint">Leertaste aufdecken</span></div>
+    </div>
+
+    <!-- ════════ KARTEIKARTEN: AUSWERTUNG ════════ -->
+    <div id="screen-fc-results" class="screen">
+      <div class="results-hero">
+        <div class="results-label">Runde abgeschlossen</div>
+        <div class="results-pct" id="fc-res-pct"></div>
+        <div class="results-count" id="fc-res-count"></div>
+      </div>
+      <div id="fc-success" class="hidden success-banner">Alle Karten gewusst ✓</div>
+      <div id="fc-nachschau" class="hidden"></div>
+      <div style="text-align:center;margin-top:40px">
+        <button class="btn-primary" id="fc-neu">Neue Runde</button>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

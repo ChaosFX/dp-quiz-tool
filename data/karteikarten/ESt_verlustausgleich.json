@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Verlustausgleich",
+  "quelle_note": "Einkommensteuer/Verlustausgleich.md",
+  "karten": [
+    {
+      "id": "est-verlustausgleich-01",
+      "frage": "Was versteht man unter horizontalem und vertikalem Verlustausgleich?",
+      "antwort": "Horizontal = Ausgleich innerhalb **derselben Einkunftsart**.\nVertikal = Ausgleich mit positiven Einkünften aus **anderen Einkunftsarten**."
+    },
+    {
+      "id": "est-verlustausgleich-02",
+      "frage": "Welche Verluste sind steuerlich unbeachtlich?",
+      "antwort": "Verluste außerhalb der Einkunftsarten (Spielverluste, Privatvermögen) und Liebhaberei-Verluste."
+    },
+    {
+      "id": "est-verlustausgleich-03",
+      "frage": "Was sind Wartetastenverluste?",
+      "antwort": "Verluste aus beteiligungsbezogenen oder branchenbezogenen Verboten -> nur mit späteren positiven Einkünften derselben Einkunftsquelle verrechenbar."
+    },
+    {
+      "id": "est-verlustausgleich-04",
+      "frage": "Welche besonderen Verlustausgleichsverbote gibt es?",
+      "antwort": "Absolutes Verbot: Einkünfte aus Leistungen (§ 29 EStG).\nRelatives Verbot: Spekulationsgeschäfte (nur mit Spekulationsüberschüssen).\nEingeschränkt: private Grundstückveräußerungen."
+    }
+  ]
+}

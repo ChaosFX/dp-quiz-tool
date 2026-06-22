@@ -1,0 +1,32 @@
+{
+  "fach": "KöSt",
+  "thema": "Beginn & Ende der Steuerpflicht",
+  "quelle_note": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht.md",
+  "karten": [
+    {
+      "id": "koest-beginn-ende-der-steuerpflicht-01",
+      "frage": "Wann beginnt die unbeschränkte Steuerpflicht einer inländischen Kapitalgesellschaft?",
+      "antwort": "Sobald die **Rechtsgrundlage festgestellt** ist (Gründungsvertrag) **und** sie **erstmals nach außen** auftritt - also mit dem **wirtschaftlichen** (nicht zivilrechtlichen) Entstehen. Diese Phase = **Vorkörperschaft**."
+    },
+    {
+      "id": "koest-beginn-ende-der-steuerpflicht-02",
+      "frage": "Was unterscheidet Vorkörperschaft und Vorgründungsgesellschaft?",
+      "antwort": "**Vorkörperschaft:** Gründungsvertrag besteht bereits, KapGes \"im Werden\" -> KöSt-Subjekt.\n**Vorgründungsgesellschaft:** dient erst der Vereinbarung der Gründung -> ist eine PersGes (GesbR)."
+    },
+    {
+      "id": "koest-beginn-ende-der-steuerpflicht-03",
+      "frage": "Was passiert, wenn die GmbH nie eingetragen wird?",
+      "antwort": "Die Vorkörperschaft wird als **Personengesellschaft** besteuert; wegen des Durchgriffsprinzips sind die **Gesellschafter** Steuersubjekt (Aufteilung per Feststellungsbescheid)."
+    },
+    {
+      "id": "koest-beginn-ende-der-steuerpflicht-04",
+      "frage": "Beendet die Löschung im Firmenbuch die Steuerpflicht?",
+      "antwort": "**Nein**. Erst die **Vollbeendigung** (Abwicklung aller Rechtsverhältnisse, Vermögensübergang) beendet die Steuerpflicht. \nBei Liquidation/Insolvenz erst mit Abschluss des Verfahrens, nachträgliches Vermögen lässt sie wieder aufleben."
+    },
+    {
+      "id": "koest-beginn-ende-der-steuerpflicht-05",
+      "frage": "Wann liegen zwei Steuerklärungen in einem Jahr vor?",
+      "antwort": "Beim **unterjährigen** Ein- oder Austritt in die/aus der unbeschränkte(n) Steuerpflicht -> zwei getrennte Steuerabschnitte."
+    }
+  ]
+}

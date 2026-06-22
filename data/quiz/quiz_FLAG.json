@@ -1,0 +1,149 @@
+{
+  "fach": "FLAG",
+  "fragen": [
+    {
+      "id": "flag-01",
+      "frage": "Welche Grundvoraussetzungen müssen für einen Anspruch auf Familienbeihilfe nach dem FLAG 1967 u.a. vorliegen?",
+      "optionen": [
+        "Insbesondere ein Wohnsitz oder gewöhnlicher Aufenthalt im Inland sowie eine entsprechende Beziehung (insb. Haushaltszugehörigkeit oder überwiegende Kostentragung) zum anspruchsvermittelnden Kind",
+        "Es genügt jede beliebige verwandtschaftliche Beziehung unabhängig vom Wohnsitz",
+        "Familienbeihilfe steht ausschließlich leiblichen Eltern zu, niemals anderen Bezugsberechtigten",
+        "Ein Anspruch auf Familienbeihilfe setzt immer ein eigenes Einkommen des Kindes voraus"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Grundvoraussetzung für den Anspruch auf Familienbeihilfe ist u.a. ein Wohnsitz oder gewöhnlicher Aufenthalt im Inland der antragstellenden Person sowie eine ausreichende Beziehung zum Kind, insbesondere die Haushaltszugehörigkeit oder – wenn diese fehlt – die überwiegende Tragung der Unterhaltskosten."
+    },
+    {
+      "id": "flag-02",
+      "frage": "Was bedeutet Haushaltszugehörigkeit im Zusammenhang mit dem primären Anspruch auf Familienbeihilfe?",
+      "optionen": [
+        "Das Kind gehört zum gemeinsamen Haushalt einer Person, wodurch diese Person grundsätzlich vorrangig (primär) anspruchsberechtigt ist, gegenüber einer Person, die nur überwiegend die Kosten trägt (sekundärer Anspruch)",
+        "Haushaltszugehörigkeit hat keinerlei Einfluss auf die Anspruchsberechtigung",
+        "Der sekundäre Anspruch geht dem primären Anspruch immer vor",
+        "Haushaltszugehörigkeit betrifft ausschließlich minderjährige Kinder unter 10 Jahren"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Gehört ein Kind dem Haushalt einer Person an, ist primär diese Person anspruchsberechtigt (Haushaltszugehörigkeit als vorrangiges Kriterium); fehlt eine Haushaltszugehörigkeit, kommt subsidiär (sekundär) die Person in Betracht, die überwiegend die Unterhaltskosten des Kindes trägt."
+    },
+    {
+      "id": "flag-03",
+      "frage": "Die Eltern XY haben drei Kinder und lassen sich scheiden. Nach der Scheidung wohnen die Kinder bei der Mutter, der Vater besucht sie jedes zweite Wochenende. Wer erhält grundsätzlich die Familienbeihilfe?",
+      "optionen": [
+        "Die Kindsmutter, da die Kinder ihrem Haushalt angehören (Haushaltszugehörigkeit als vorrangiges Kriterium)",
+        "Der Kindsvater, da er ursprünglich Bezieher der Familienbeihilfe war",
+        "Beide Elternteile erhalten automatisch jeweils die Hälfte der Familienbeihilfe",
+        "Keiner der beiden Elternteile, da nach der Scheidung jeder Anspruch erlischt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Da die Kinder nach der Scheidung im Haushalt der Mutter leben, ist die Mutter aufgrund der Haushaltszugehörigkeit primär anspruchsberechtigt; der Vater, der die Kinder nur an Wochenenden besucht, ist nicht haushaltszugehörig und hat daher keinen vorrangigen Anspruch."
+    },
+    {
+      "id": "flag-04",
+      "frage": "Welche relevanten Anspruchsvoraussetzungen bestehen im Verhältnis zwischen Kind und Antragsteller?",
+      "optionen": [
+        "Insbesondere ein im Gesetz definiertes Verwandtschafts- oder Pflegeverhältnis (z.B. leibliches Kind, Adoptiv- oder Pflegekind) sowie ggf. das Vorliegen einer Berufsausbildung bzw. eines anderen Anspruchstatbestandes je nach Alter des Kindes",
+        "Es kommt ausschließlich auf die genetische Abstammung an, andere Konstellationen sind ausgeschlossen",
+        "Ein Anspruch besteht nur bei leiblichen Kindern unter 6 Jahren",
+        "Das Verhältnis zwischen Kind und Antragsteller ist für den Anspruch ohne jede Bedeutung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Das FLAG erkennt verschiedene Beziehungsformen zwischen Kind und Antragsteller an, u.a. leibliche Kinder, Adoptivkinder und Pflegekinder; je nach Alter des Kindes sind zusätzlich bestimmte Anspruchsvoraussetzungen (z.B. Berufsausbildung bei volljährigen Kindern) zu erfüllen."
+    },
+    {
+      "id": "flag-05",
+      "frage": "Welche Ausschließungsgründe vom Bezug der Familienbeihilfe sieht das FLAG u.a. vor?",
+      "optionen": [
+        "Z.B. ein dauerhafter Auslandsaufenthalt des Kindes außerhalb der EU/des EWR (mit Ausnahmen), Strafvollzug des Kindes oder eigenes ausreichendes Einkommen des Kindes oberhalb der Zuverdienstgrenze",
+        "Es gibt im FLAG keine Ausschließungsgründe, die Familienbeihilfe steht immer uneingeschränkt zu",
+        "Ein Ausschließungsgrund liegt bereits dann vor, wenn das Kind volljährig ist, unabhängig von weiteren Umständen",
+        "Familienbeihilfe entfällt automatisch, sobald das Kind ein eigenes Bankkonto besitzt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Zu den Ausschließungsgründen zählen u.a. ein ständiger Aufenthalt des Kindes im Ausland außerhalb bestimmter begünstigter Staaten (mit Ausnahmen, z.B. für Studienzwecke), die Verbüßung einer Freiheitsstrafe sowie das Überschreiten der für volljährige Kinder geltenden Zuverdienstgrenze (Einkommensgrenze)."
+    },
+    {
+      "id": "flag-06",
+      "frage": "Wie lange besteht grundsätzlich Anspruch auf Familienbeihilfe, wenn ein Kind im Juni maturiert und ab September den Zivildienst antritt?",
+      "optionen": [
+        "Der Anspruch besteht regelmäßig auch über die Schulausbildung hinaus bis zum Antritt des Zivildienstes weiter (Zwischenzeitenregelung), danach entfällt der Anspruch grundsätzlich für die Dauer des Zivildienstes",
+        "Der Anspruch endet sofort mit dem letzten Schultag im Juni ohne jede Übergangsregelung",
+        "Familienbeihilfe steht während des gesamten Zivildienstes unverändert weiter zu",
+        "Mit der Matura erlischt der Anspruch endgültig und unwiderruflich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Für die Zeit zwischen Ende der Schulausbildung (Matura) und dem Beginn einer weiteren Berufsausbildung bzw. des Zivildienstes besteht unter den Voraussetzungen der sogenannten Zwischenzeitenregelung regelmäßig ein befristeter Weiterbezug der Familienbeihilfe; mit Antritt des Zivildienstes selbst entfällt der Anspruch jedoch grundsätzlich, da dieser keine Berufsausbildung im Sinne des FLAG darstellt."
+    },
+    {
+      "id": "flag-07",
+      "frage": "Unter welchen Voraussetzungen wird Familienbeihilfe für volljährige Kinder zwischen 18 und 24 (bzw. bis 25) Jahren grundsätzlich weitergewährt?",
+      "optionen": [
+        "Insbesondere bei Absolvierung einer Berufsausbildung (z.B. Studium), eines freiwilligen Auslandsjahres oder bei Ableistung des Zivildienstes mit entsprechender Verlängerung der Bezugsdauer",
+        "Familienbeihilfe für volljährige Kinder steht ausnahmslos bis zum 25. Lebensjahr ohne jede weitere Voraussetzung zu",
+        "Ein Weiterbezug ist nach Erreichen der Volljährigkeit grundsätzlich generell ausgeschlossen",
+        "Es kommt ausschließlich auf das Bestehen eines Dienstverhältnisses des Kindes an"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Für volljährige Kinder kann Familienbeihilfe insbesondere bei Vorliegen einer Berufsausbildung (z.B. Studium) bis zur Vollendung des 24. (bzw. unter bestimmten Voraussetzungen 25.) Lebensjahres weiter gewährt werden; auch ein freiwilliges soziales/ökologisches Jahr oder die Ableistung des Zivildienstes können zu einer entsprechenden Verlängerung führen."
+    },
+    {
+      "id": "flag-08",
+      "frage": "Was gilt als schädliche Handlung im Hinblick auf das Studium für den Familienbeihilfenanspruch?",
+      "optionen": [
+        "Z.B. ein mehrmaliger (insbesondere wiederholter) Studienwechsel oder ein Studienwechsel nach einer bestimmten Anzahl von Semestern, der zu einer Unterbrechung oder zum Verlust des Anspruchs führen kann",
+        "Jeder Studienwechsel, unabhängig von Zeitpunkt und Häufigkeit, ist für den Anspruch vollkommen unschädlich",
+        "Eine Verlängerung des Studiums um ein Semester führt automatisch zum endgültigen Anspruchsverlust",
+        "Schädliche Handlungen betreffen ausschließlich den Studienort, nicht die Studienrichtung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Als schädlich für den Familienbeihilfenanspruch gilt insbesondere ein Studienwechsel, der zu spät (nach einer bestimmten Anzahl von Semestern) oder zu häufig (mehr als einmal) erfolgt, da dies regelmäßig zu einer Unterbrechung des Anspruchs bzw. zu einer Anrechnung der bisherigen Studienzeit führt."
+    },
+    {
+      "id": "flag-09",
+      "frage": "Welche Voraussetzungen gelten grundsätzlich für den Bezug der erhöhten Familienbeihilfe bei Kindern mit Behinderung?",
+      "optionen": [
+        "Insbesondere ein durch ein Gutachten des Sozialministeriumservice (BSB) festgestellter Grad der Behinderung von mindestens 50 % bzw. eine festgestellte voraussichtlich dauernde Erwerbsunfähigkeit",
+        "Die erhöhte Familienbeihilfe steht jedem Kind unabhängig vom Vorliegen einer Behinderung automatisch zu",
+        "Es genügt eine formlose Selbsteinschätzung der Eltern ohne ärztliches Gutachten",
+        "Erhöhte Familienbeihilfe wird nur bei körperlichen, niemals bei psychischen Beeinträchtigungen gewährt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Voraussetzung für den Bezug der erhöhten Familienbeihilfe ist regelmäßig ein durch ein Gutachten des Sozialministeriumservice festgestellter Grad der Behinderung von mindestens 50 % bzw. eine festgestellte erhebliche Behinderung bzw. voraussichtlich dauernde Erwerbsunfähigkeit des Kindes."
+    },
+    {
+      "id": "flag-10",
+      "frage": "Welche Bindungswirkung hat das BSB-Gutachten für die Beurteilung des Behinderungsgrades durch die Familienbeihilfenstelle?",
+      "optionen": [
+        "Die Finanzverwaltung ist bei der Beurteilung des Behinderungsgrades grundsätzlich an das Gutachten des Sozialministeriumservice gebunden",
+        "Das BSB-Gutachten ist für die Familienbeihilfenstelle völlig unverbindlich und kann frei übergangen werden",
+        "Es existiert keine Zusammenarbeit zwischen Sozialministeriumservice und Finanzverwaltung",
+        "Die Bindungswirkung gilt nur, wenn das Gutachten zugunsten des Antragstellers ausfällt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Für die Beurteilung des Grades der Behinderung bzw. der Erwerbsunfähigkeit eines Kindes ist die Familienbeihilfenstelle grundsätzlich an das Gutachten des Sozialministeriumservice (BSB) gebunden; eigene medizinische Einschätzungen der Abgabenbehörde treten dahinter zurück."
+    },
+    {
+      "id": "flag-11",
+      "frage": "Welche Folgen kann ein unrechtmäßiger Bezug von Familienbeihilfe haben?",
+      "optionen": [
+        "Eine Rückforderung der zu Unrecht bezogenen Beträge gegenüber der bezugsberechtigten Person",
+        "Ein unrechtmäßiger Bezug bleibt grundsätzlich ohne jede Konsequenz",
+        "Eine Rückforderung ist nur bei vorsätzlichem Handeln möglich, nicht bei bloßem Irrtum",
+        "Der unrechtmäßige Bezug führt automatisch zu einem lebenslangen Ausschluss von der Familienbeihilfe"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wird Familienbeihilfe zu Unrecht bezogen (z.B. weil eine Anspruchsvoraussetzung nachträglich weggefallen ist oder von Anfang an nicht vorlag), kann die Behörde die zu Unrecht ausbezahlten Beträge von der bezugsberechtigten Person zurückfordern."
+    },
+    {
+      "id": "flag-12",
+      "frage": "Was umfasst die Mitteilung über den Bezug der Familienbeihilfe gegenüber dem Antragsteller?",
+      "optionen": [
+        "Eine formlose Mitteilung über die Gewährung der Familienbeihilfe, im Unterschied zu einem förmlichen Abweisungsbescheid bei Ablehnung des Antrags",
+        "Sie ist mit einem Abweisungsbescheid inhaltlich identisch",
+        "Eine Mitteilung wird nur bei negativer Erledigung des Antrags versendet",
+        "Mitteilungen über den Bezug sind im FLAG nicht vorgesehen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wird einem Antrag auf Familienbeihilfe stattgegeben, erfolgt regelmäßig eine formlose Mitteilung über den Bezug; wird der Antrag hingegen ganz oder teilweise abgelehnt, ist darüber ein förmlicher (mit Rechtsmittel bekämpfbarer) Abweisungsbescheid zu erlassen."
+    }
+  ]
+}

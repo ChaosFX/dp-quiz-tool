@@ -1,0 +1,47 @@
+{
+  "fach": "USt",
+  "thema": "Leistungsbegriff USt",
+  "quelle_note": "Umsatzsteuer/Leistungsbegriff USt.md",
+  "karten": [
+    {
+      "id": "ust-leistungsbegriff-ust-01",
+      "frage": "Aus welchen zwei Arten besteht eine Leistung iSd UStG?",
+      "antwort": "Lieferung (§ 3) und sonstigen Leistungen (§ 3a). Eine sonstige Leistung ist jede Leistung, die keine Lieferung ist."
+    },
+    {
+      "id": "ust-leistungsbegriff-ust-02",
+      "frage": "Was ist eine Lieferung?",
+      "antwort": "Die Verschaffung der Verfügungsmacht an einem Gegenstand - einvernehmliche, endgültige Übertragung von Substanz, Wert und Ertrag (wirtschaftliches Eigentum genügt)."
+    },
+    {
+      "id": "ust-leistungsbegriff-ust-03",
+      "frage": "Ist die Zustellung gekaufter Waren eine Lieferung?",
+      "antwort": "Nein - sie ist eine sonstige Leistung (Güterbeförderung). Nicht mit dem Alltagsbegriff verwechseln."
+    },
+    {
+      "id": "ust-leistungsbegriff-ust-04",
+      "frage": "Wann ist eine Lieferung verwirklicht?",
+      "antwort": "Mit dem Erfüllungsgeschäft (Verschaffung der Verfügungsmacht), nicht mit Vertragsabschluss oder Zahlung."
+    },
+    {
+      "id": "ust-leistungsbegriff-ust-05",
+      "frage": "Was besagt der Grundsatz der Einheitlichkeit der Leistung?",
+      "antwort": "Ein einheitlicher Vorgang wird nicht aufgespalten. Unselbständige Nebenleistungen teilen das umsatzsteuerliche Schicksal (insb. den Steuersatz) der Haupleistung."
+    },
+    {
+      "id": "ust-leistungsbegriff-ust-06",
+      "frage": "Wie prüft man, ob eine unselbständige Nebenleistung vorliegt?",
+      "antwort": "Sie hat für den Kunden keinen eigenen Zweck, sondern ist nur Mittel, um die Hauptleistung optimal in Anspruch zu nehmen (EuGH \"CPP\")."
+    },
+    {
+      "id": "ust-leistungsbegriff-ust-07",
+      "frage": "Worin unterscheiden sich Werklieferung und Werkleistung?",
+      "antwort": "Werklieferung: Unternehmer stellt mind. einen Hauptstoff bei -> Lieferung (§ 3).\nWerkleistung: nur Nebenstoffe -> sonstige Leistung (§ 3a)."
+    },
+    {
+      "id": "ust-leistungsbegriff-ust-08",
+      "frage": "Warum ist die Abgrenzung Werklieferung/Werkleistung praktisch wichtig?",
+      "antwort": "Weil sich Leistungsort, Steuersatz, Befreiungen unterscheiden - und bei grenzüberschreitenden Werklieferungen Reverse Charge greift."
+    }
+  ]
+}

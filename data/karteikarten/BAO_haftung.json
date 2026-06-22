@@ -1,0 +1,27 @@
+{
+  "fach": "BAO",
+  "thema": "Haftung",
+  "quelle_note": "Bundesabgabenordnung/Haftung.md",
+  "karten": [
+    {
+      "id": "bao-haftung-01",
+      "frage": "Was versteht man unter Haftung?",
+      "antwort": "Das **Einstehenmüssen für eine fremde Schuld**."
+    },
+    {
+      "id": "bao-haftung-02",
+      "frage": "Unterschied persönliche vs. sachliche Haftung?",
+      "antwort": "**Persönlich:** Haftungsbescheid (§ 224), Zugriff auf das Vermögen, Ermessen."
+    },
+    {
+      "id": "bao-haftung-03",
+      "frage": "Haftet der Gesellschafter einer OG für die Abgabenschulden seiner OG?",
+      "antwort": "**Ja** - ein OG-Gesellschafter haftet **unbeschränkt** (§ 12 BAO i.V.m. § 128 UGB). Keine Ausfallhaftung, kein Verschulden nötig."
+    },
+    {
+      "id": "bao-haftung-04",
+      "frage": "Wofür haftet der Erwerber eines Unternehmens?",
+      "antwort": "Für betriebsbezogene Abgaben (z.B. USt), soweit sie auf die Zeit **seit Beginn des Letzten vor der Übereignung liegenden Kalenderjahres** entfallen, sowie für **Steuerabzugsbeträge** (LSt, KESt) desselben Zeitraums - **begrenzt** mit dem Wert der übertragenen Gegenstände."
+    }
+  ]
+}

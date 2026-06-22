@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Persönliche Einkommenszurechnung",
+  "quelle_note": "Einkommensteuer/Persönliche Einkommenszurechnung.md",
+  "karten": [
+    {
+      "id": "est-persoenliche-einkommenszurechnung-01",
+      "frage": "Wem werden Einkünfte zugerechnet?",
+      "antwort": "Demjenigen, dem die Einkunftsquelle zuzurechnen ist - der das Unternehmerrisiko trägt und die Marktchancen nutzen kann."
+    },
+    {
+      "id": "est-persoenliche-einkommenszurechnung-02",
+      "frage": "Welche Tätigkeiten gelten als höchstpersönlich?",
+      "antwort": "Künstler, Schriftsteller, Wissenschaftler, Sportler, Vortragende (taxative Aufzählung: nur 5 Berufsgruppen)."
+    },
+    {
+      "id": "est-persoenliche-einkommenszurechnung-03",
+      "frage": "Wann erfolgt eine Direktzurechnung bei Zwischenschaltung einer GmbH?",
+      "antwort": "Wenn die GmbH (1) selbst keine Marktchancen nutzen kann UND (2) über keinen eigenständigen, sich abhebenden Betrieb verfügt (kumulativ)."
+    },
+    {
+      "id": "est-persoenliche-einkommenszurechnung-04",
+      "frage": "Wann liegt wirtschaftliches Eigentum vor?",
+      "antwort": "Wenn jemand die Herrschaft gleich einem Eigentümer ausübt - positive Befugnisse (Gebrauch, Veränderung, Veräußerung) UND negative Befugnisse (Ausschluss Dritter, auch gegenüber dem zvilirechtlichen Eigentümer) dauerhaft."
+    }
+  ]
+}

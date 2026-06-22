@@ -1,0 +1,47 @@
+{
+  "fach": "USt",
+  "thema": "Überblick & Wesen UStG",
+  "quelle_note": "Umsatzsteuer/Überblick & Wesen UStG.md",
+  "karten": [
+    {
+      "id": "ust-ueberblick-wesen-ustg-01",
+      "frage": "Was ist der Unterschied zwischen Steuerträger und Steuerschuldner?",
+      "antwort": "**Steuerschuldner** = leistender Unternehmer (führt USt ans FA ab).\n**Steuerträger** = Letztverbraucher (trägt die wirtschaftliche Last)."
+    },
+    {
+      "id": "ust-ueberblick-wesen-ustg-02",
+      "frage": "Was bedeutet Allphasen-Netto-System mit Vorsteuerabzug?",
+      "antwort": "Jeder Umsatz wird auf jeder Wirtschaftsstufe besteuert, aber nur den Nettobetrag (Entgelt). Der Unternehmer kann die ihm in Rechnung gestellte USt als Vorsteuer abziehen -> innerhalb der Unternehmerkette neutral."
+    },
+    {
+      "id": "ust-ueberblick-wesen-ustg-03",
+      "frage": "Wie berechnet sich die Zahllast?",
+      "antwort": "USt auf Ausgangleistungen minus Vorsteuer aus Eingangsleistungen. Ist das Ergebnis negativ -> Gutschrift vom Finanzamt."
+    },
+    {
+      "id": "ust-ueberblick-wesen-ustg-04",
+      "frage": "Was ist das Entgelt als Bemessungsgrundlage?",
+      "antwort": "Alles, was der Leistungsempfänger aufzuwenden hat, um die Leistung zu erhalten - ohne USt (= Nettobetrag)."
+    },
+    {
+      "id": "ust-ueberblick-wesen-ustg-05",
+      "frage": "Was ist der Unterschied zwischen Soll- und Istbesteuerung?",
+      "antwort": "**Soll:** Steuerschuld entsteht mit Leistungserbringung (unabhängig von Zahlung).\n**Ist:** Steuerschuld entsteht erst mit Vereinnahmung des Entgelts."
+    },
+    {
+      "id": "ust-ueberblick-wesen-ustg-06",
+      "frage": "Was gilt bei einer Anzahlung - und warum heißt es \"Mindest-Istbesteuerung\"?",
+      "antwort": "Bei beiden Besteuerungsarten entsteht die Steuerschuld mit Vereinnahmung der Anzahlung. Auch Sollbesteuerer müssen hier nach Ist-Prinzip erfassen -> daher \"Mindest-Ist\"."
+    },
+    {
+      "id": "ust-ueberblick-wesen-ustg-07",
+      "frage": "Wann ist die UVA fällig?",
+      "antwort": "Am 15. des zweitfolgenden Monats (zB UVA Jänner -> fällig 15. März)."
+    },
+    {
+      "id": "ust-ueberblick-wesen-ustg-08",
+      "frage": "Was versteht man unter dem Vorsoll?",
+      "antwort": "Die Summe aller unterjährig gemeldeten Zahllasten/Gutschriften aus den UVAs, die in der Jahresveranlagung dem Jahresergebnis gegenübergestellt wird."
+    }
+  ]
+}

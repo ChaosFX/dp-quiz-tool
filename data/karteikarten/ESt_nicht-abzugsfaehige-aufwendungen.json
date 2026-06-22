@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Nicht abzugsfähige Aufwendungen",
+  "quelle_note": "Einkommensteuer/Nicht abzugsfähige Aufwendungen.md",
+  "karten": [
+    {
+      "id": "est-nicht-abzugsfaehige-aufwendungen-01",
+      "frage": "Was ist das Aufteilungsverbot?",
+      "antwort": "Gemischt (privat/betrieblich) veranlasste Aufwendungen sind nur abziehbar, wenn die betriebliche Veranlassung eindeutig im Vordergrund steht. Sonst: gesamter Aufwand nicht abzugsfähig."
+    },
+    {
+      "id": "est-nicht-abzugsfaehige-aufwendungen-02",
+      "frage": "Wie sind Bewirtungsspesen zu behandeln?",
+      "antwort": "100 % (Bestandteil der Leistung), 50 % (werbewirksam, Repräsentation untergeordnet) oder 0 % (Repräsentation)."
+    },
+    {
+      "id": "est-nicht-abzugsfaehige-aufwendungen-03",
+      "frage": "Was bedeutet Angemessenheitsprüfung, für welche WG?",
+      "antwort": "Grds. keine Prüfung. Ausnahme: bestimmte in § 20 aufgezählte WG (zB. PKW - Luxustangente € 40.000) dem Grunde und der Höhe nach."
+    },
+    {
+      "id": "est-nicht-abzugsfaehige-aufwendungen-04",
+      "frage": "Was sind Personensteuern, was Betriebssteuern?",
+      "antwort": "Personensteuer (ESt, nicht abzugsfähig nach Abs 1 Z 6) knüpfen an die Person; Betriebssteuern (z.B. Grundsteuer betrieblicher Liegenschaften) sind abzugsfähige Betriebsausgaben."
+    },
+    {
+      "id": "est-nicht-abzugsfaehige-aufwendungen-05",
+      "frage": "Welche Bedeutung hat das Abzugsverbot bei endbesteuerten Einkünften?",
+      "antwort": "Bei Einkünften mit besonderem Steuersatz (§ 27a, § 30a) sind die damit zusammenhängenden Aufwendungen nicht abzugsfähig (§ 20 Abs 2) - der feste Satz gilt den Aufwand mit ab."
+    }
+  ]
+}

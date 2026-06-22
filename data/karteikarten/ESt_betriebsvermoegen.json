@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Betriebsvermögen",
+  "quelle_note": "Einkommensteuer/Betriebsvermögen.md",
+  "karten": [
+    {
+      "id": "est-betriebsvermoegen-01",
+      "frage": "Welche Arten von Vermögen gibt es im Steuerrecht?",
+      "antwort": "Notwendiges Betriebsvermögen, notwendiges Privatvermögen, gewillkürtes Betriebsvermögen. (Im Bilanzaufbau zusätzlich: Anlagevermögen, Umlaufvermögen, Eigenkapital, Schulden)."
+    },
+    {
+      "id": "est-betriebsvermoegen-02",
+      "frage": "Wie erfolgt die Zuordnung bei gemischt genutzten WG?",
+      "antwort": "Bewegliche WG: Überwiegensgrundsatz (>50% = 100% BV, <50% = PV)\nGebäude/Liegenschaften: nach tatsächlicher betrieblicher Nutzung (Aufteilung), geringfügige Nutzung <20% bleibt unberücksichtigt."
+    },
+    {
+      "id": "est-betriebsvermoegen-03",
+      "frage": "Wann liegt gewillkürtes Betriebsvermögen vor?",
+      "antwort": "Bei § 5-Ermittlung, wenn ein WG (weder notwendiges BV noch PV) durch Willensakt in die Bücher aufgenommen wird und dem Betrieb förderlich sein kann."
+    },
+    {
+      "id": "est-betriebsvermoegen-04",
+      "frage": "Was ist eine Bilanzberichtigung, was eine Bilanzänderung?",
+      "antwort": "Berichtigung: unzulässiger -> zulässiger Ansatz (Pflicht).\nÄnderung: zulässiger -> anderer zulässiger Ansatz (braucht nach Einreichung FA-Zustimmung, sofort wirtschaftlich begründet)."
+    },
+    {
+      "id": "est-betriebsvermoegen-05",
+      "frage": "Wie werden WG des Anlagevermögens behandelt?",
+      "antwort": "Grds. zu aktivieren. \nAusnahmen: GWG (≤ € 1.000 Sofortabsetzung),\nselbst hergestellte unkörperliche WG (Aktivierungsverbot)."
+    }
+  ]
+}

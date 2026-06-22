@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Vermeidung von Doppelbesteuerung",
+  "quelle_note": "Einkommensteuer/Vermeidung von Doppelbesteuerung.md",
+  "karten": [
+    {
+      "id": "est-vermeidung-von-doppelbesteuerung-01",
+      "frage": "Wie kann Doppelbesteuerung vermieden werden?",
+      "antwort": "Durch DBA (Befreiungsmethode oder Anrechnungsmethode) oder einseitig durch § 48 BAO wenn kein DBA besteht."
+    },
+    {
+      "id": "est-vermeidung-von-doppelbesteuerung-02",
+      "frage": "Was ist der Progressionsvorbehalt?",
+      "antwort": "Bei der Befreiungsmethode werden ausländische Einkünfte zwar befreit, aber zur Berechnung des Durchschnittssteuersatzes mitgezählt -> höherer Steuersatz auf die Inlandseinkünfte."
+    },
+    {
+      "id": "est-vermeidung-von-doppelbesteuerung-03",
+      "frage": "Was ist der Anrechnungshöchstbetrag?",
+      "antwort": "Die anrechenbare ausländische Steuer ist begrenzt auf: ESt x Auslandseinkünfte / Einkommen.\nÜbersteigt die ausländische Steuer diesen Betrag, gibt es keinen Anrechnungsvortrag."
+    },
+    {
+      "id": "est-vermeidung-von-doppelbesteuerung-04",
+      "frage": "Wann gilt § 48 BAO?",
+      "antwort": "Wenn kein DBA besteht. Das BMF kann einseitig die Doppelbesteuerung beseitigen - steht aber im Ermessen des BMF."
+    },
+    {
+      "id": "est-vermeidung-von-doppelbesteuerung-05",
+      "frage": "Woran wird der Mittelpunkt der Lebensinteressen gemessen?",
+      "antwort": "Am Gesamtbild: Familie, Beruf, Religion, Kultur, persönliche Interessen.\nPersönliche Beziehungen > wirtschaftliche Beziehungen."
+    }
+  ]
+}

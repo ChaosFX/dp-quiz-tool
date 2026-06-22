@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Überblick & Wesen der Einkommensteuer",
+  "quelle_note": "Einkommensteuer/Überblick & Wesen ESt.md",
+  "karten": [
+    {
+      "id": "est-ueberblick-wesen-der-einkommensteuer-01",
+      "frage": "Weshalb ist die ESt eine direkte Steuer?",
+      "antwort": "Weil der Steuerschuldner und Steuerträger dieselbe Person sind."
+    },
+    {
+      "id": "est-ueberblick-wesen-der-einkommensteuer-02",
+      "frage": "Welche Erhebungsformen gibt es?",
+      "antwort": "Veranlagte ESt (Jahresveranlagung), Steuerabzug (Lohnsteuer, KESt) und Selbstberechnung (ImmoESt) - sowie der Steuerabzug § 99 bei bestimmten beschränkt Steuerpflichtigen."
+    },
+    {
+      "id": "est-ueberblick-wesen-der-einkommensteuer-03",
+      "frage": "Wer unterliegt der ESt?",
+      "antwort": "Nur natürliche Personen (§ 1). \nJuristische Personen -> KöSt, \nPersonengesellschaften -> kein Steuersubjekt (Mitunternehmer)"
+    },
+    {
+      "id": "est-ueberblick-wesen-der-einkommensteuer-04",
+      "frage": "Worauf baut die ESt-System auf?",
+      "antwort": "Persönliche Steuerpflicht -> sachliche Steuerpflicht (Einkunftsarten)\n-> Einkommensermittlung -> Tarif.\nTragende Prinzipien: u.a. Leistungsfähigkeit, Nettoprinzip, synthetische Besteuerung."
+    }
+  ]
+}

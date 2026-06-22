@@ -1,0 +1,47 @@
+{
+  "fach": "USt",
+  "thema": "Unternehmer, Unternehmen",
+  "quelle_note": "Rechtsquellen/UStG/§ 2 UStG.md",
+  "karten": [
+    {
+      "id": "ust-unternehmer-unternehmen-01",
+      "frage": "Wer ist Unternehmer im umsatzsteuerlichen Sinn?",
+      "antwort": "Wer eine gewerbliche oder berufliche Tätigkeit selbständig, nachhaltig und mit Einnahmenerzielungsabsicht ausübt."
+    },
+    {
+      "id": "ust-unternehmer-unternehmen-02",
+      "frage": "Erklären Sie \"selbständig\".",
+      "antwort": "Keine Weisungsgebundenheit (kein persönliches Weisungsrecht über Art/Mittel/Zeit/Ort) und Vorliegen eines Unternehmerrisikos. Negativ definiert in § 2 Abs 2."
+    },
+    {
+      "id": "ust-unternehmer-unternehmen-03",
+      "frage": "Was bedeutet \"nachhaltig\".",
+      "antwort": "Wiederholungsabsicht - auch eine einmalige Handlung mit objektiver Wiederholungsabsicht oder ein Dauerzustand (zB Vermietung) genügt."
+    },
+    {
+      "id": "ust-unternehmer-unternehmen-04",
+      "frage": "Wann sind KöR Unternehmer?",
+      "antwort": "Nur im Rahmen ihrer Betriebe gewerblicher Art, land-/forstwirtschaftlicher Betriebe und fiktiver BgA. Der Hoheitsbereich ist nichtunternehmerisch."
+    },
+    {
+      "id": "ust-unternehmer-unternehmen-05",
+      "frage": "Wann beginnt und endet die Unternehmereigenschaft?",
+      "antwort": "Beginn: mit Aufnahme der Tätigkeit, bereits Vorbereitungshandlungen genügen.\nEnde: mit vollständiger Liquidierung."
+    },
+    {
+      "id": "ust-unternehmer-unternehmen-06",
+      "frage": "Was sind Grund-, Hilfs- und Nebeneinkünfte?",
+      "antwort": "Grundgeschäft = Hauptzweck;\nHilfsgeschäft = Folge der Haupttätigkeit (zB AV-Verkauf);\nNebengeschäft = Ausfluss mit wirtschaftl. Zusammenhang."
+    },
+    {
+      "id": "ust-unternehmer-unternehmen-07",
+      "frage": "Wie ist die österreichische UID aufgebaut und wofür dient sie?",
+      "antwort": "ATU + 8 Ziffern; dient als \"Unternehmerausweis\" und zum Nachweis der Unternehmereigenschaft (v.a. grenzübschreitend)."
+    },
+    {
+      "id": "ust-unternehmer-unternehmen-08",
+      "frage": "Welche Unternehmer erhalten die UID nur auf Antrag?",
+      "antwort": "Atypische Erwerber / Schwellenerwerber (zB Kleinunternehmer, Ärzte, pauschalierte LuF, jur. Personen ohne Unternehmereigenschaft) - Formular U15."
+    }
+  ]
+}

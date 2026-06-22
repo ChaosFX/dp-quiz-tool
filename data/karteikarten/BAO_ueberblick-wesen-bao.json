@@ -1,0 +1,27 @@
+{
+  "fach": "BAO",
+  "thema": "Überblick & Wesen BAO",
+  "quelle_note": "Bundesabgabenordnung/Überblick & Wesen BAO.md",
+  "karten": [
+    {
+      "id": "bao-ueberblick-wesen-bao-01",
+      "frage": "Wozu dient die BAO und in welchem Verhältnis steht sie zu den Einzelsteuergesetzen?",
+      "antwort": "Sie ist das allgemeine **Verfahrensrecht** (Entlastung der Einzelgesetze, Vereinheitlichung). Kein Materiengesetz ist alleine anwendbar; **speziellere** Verfahrensregel im Materiengesetz **gehen der BAO vor**."
+    },
+    {
+      "id": "bao-ueberblick-wesen-bao-02",
+      "frage": "Gilt die BAO nur für Bundesabgaben?",
+      "antwort": "Nein - auch für **Landes- und Gemeindeabgaben** sowie im Amtshilfeverfahren."
+    },
+    {
+      "id": "bao-ueberblick-wesen-bao-03",
+      "frage": "Ist das Finanzstrafgesetz eine Abgabenvorschrift?",
+      "antwort": "**Nein**."
+    },
+    {
+      "id": "bao-ueberblick-wesen-bao-04",
+      "frage": "Nennen Sie die Abgabenbehörden des Bundes.",
+      "antwort": "BMF, Finanzamt Österreich, Finanzamt für Großbetriebe, Zollamt Österreich."
+    }
+  ]
+}

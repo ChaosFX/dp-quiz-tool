@@ -1,0 +1,37 @@
+{
+  "fach": "ESt",
+  "thema": "Einnahmen-Ausgaben-Rechnung (EAR)",
+  "quelle_note": "Einkommensteuer/Einnahmen Ausgaben Rechnung.md",
+  "karten": [
+    {
+      "id": "est-einnahmen-ausgaben-rechnung-ear-01",
+      "frage": "Wie werden bei der EAR Betriebseinnahmen und Betriebsausgaben erfasst?",
+      "antwort": "Nach dem Zufluss-Abfluss-Prinzip - im Zeitpunkt der Vereinnahmung bzw. Verausgabung, nicht beim Entstehen."
+    },
+    {
+      "id": "est-einnahmen-ausgaben-rechnung-ear-02",
+      "frage": "Wie werden WG des Anlagevermögens bei der EAR behandelt?",
+      "antwort": "Das Zufluss-Abfluss-Prinzip gilt nicht: AV ist zu aktivieren und über die AfA abzuschreiben. Bei Veräußerung sind Erlös (Betriebseinnahme) und Restbuchwert (Betriebsausgabe) zu erfassen."
+    },
+    {
+      "id": "est-einnahmen-ausgaben-rechnung-ear-03",
+      "frage": "Wie wird die USt bei der EAR behandelt?",
+      "antwort": "Wahl zwischen Bruttomethode (USt als Betriebseinnahme/-ausgabe)\nund Nettomethode (USt als durchlaufender Posten, außer Ansatz)."
+    },
+    {
+      "id": "est-einnahmen-ausgaben-rechnung-ear-04",
+      "frage": "Was sind durchlaufende Posten?",
+      "antwort": "Beträge, die im Namen und für Rechnung eines Dritten vereinnahmt/verausgabt werden (z.B. USt bei Nettomethode, Gerichtsgebühren) - sowie reine Geldbewegungen wie Darlehen."
+    },
+    {
+      "id": "est-einnahmen-ausgaben-rechnung-ear-05",
+      "frage": "Welche Auswirkung haben Einlagen und Entnahmen?",
+      "antwort": "Geldbewegung erfolgsneutral. \nSachentnahmen (AV + UV): Betriebseinnahme zum Teilwert (Grund+Boden: Buchwert).\nSacheinlagen Waren: Betriebsausgabe zum Teilwert;\nAV: aktivieren zum Teilwert (wirkt über AfA)."
+    },
+    {
+      "id": "est-einnahmen-ausgaben-rechnung-ear-06",
+      "frage": "Welche Bestimmungen gelten bei der EAR nicht?",
+      "antwort": "Rückstellungen, Teilwertabschreibung (AfaA bleibt möglich) und Rechnungsabgrenzungsposten."
+    }
+  ]
+}

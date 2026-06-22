@@ -1,0 +1,22 @@
+{
+  "fach": "BAO",
+  "thema": "Wirtschaftliche Betrachtungsweise",
+  "quelle_note": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise.md",
+  "karten": [
+    {
+      "id": "bao-wirtschaftliche-betrachtungsweise-01",
+      "frage": "Was besagt die wirtschaftliche Betrachtungsweise?",
+      "antwort": "Maßgeblich ist der **wahre wirtschaftliche Gehalt** eines Sachverhalts, nicht die zivilrechtliche Form - Ausfluss der Gleichmäßigkeit der Besteuerung, ggf. auch zugunsten des Abgabepflichtigen."
+    },
+    {
+      "id": "bao-wirtschaftliche-betrachtungsweise-02",
+      "frage": "Erläutern Sie Unterschied und Gemeinsamkeit von Missbrauch uns Scheingeschäft.",
+      "antwort": "**Missbrauch:** das gewünschte Ergebnis wird über einen unangemessenen/ungewöhnlichen Weg erreicht; keine außersteuerlichen Gründe.\n**Scheingeschäft:** der Abgabenpflichtige will das vorgeschobene Geschäft gar nicht (absolut) oder will das eigentliche verdecken (relativ).\n**Gemeinsam:** es zählt jeweils der **tatsächliche Sachverhalt in wB**."
+    },
+    {
+      "id": "bao-wirtschaftliche-betrachtungsweise-03",
+      "frage": "Wo gilt nicht die wB, sondern die formalrechtliche Betrachtungsweise?",
+      "antwort": "Bei **Gebühren und Verkehrssteuern**."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "fach": "DBA",
+  "fragen": [
+    {
+      "id": "dba-01",
+      "frage": "Was versteht man unter internationaler Doppelbesteuerung?",
+      "optionen": [
+        "Denselben Steuerpflichtigen bzw. dasselbe Steuersubstrat treffende Besteuerung durch zwei oder mehr Staaten für denselben Zeitraum, wenn sowohl der Ansässigkeitsstaat als auch der Quellenstaat ein Besteuerungsrecht beanspruchen",
+        "Eine Besteuerung, die ausschließlich innerhalb eines einzigen Staates zweimal erfolgt",
+        "Doppelbesteuerung bedeutet, dass überhaupt keine Steuer anfällt",
+        "Der Begriff betrifft ausschließlich die Umsatzsteuer"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Internationale Doppelbesteuerung entsteht, wenn zwei (oder mehr) Staaten aufgrund ihrer jeweiligen nationalen Steuerrechtsordnungen gleichzeitig ein Besteuerungsrecht für dasselbe Einkommen oder Vermögen desselben Steuerpflichtigen beanspruchen – typischerweise weil der Ansässigkeitsstaat das Welteinkommen und der Quellenstaat die dort erzielten Einkünfte besteuern will."
+    },
+    {
+      "id": "dba-02",
+      "frage": "Wozu dienen Doppelbesteuerungsabkommen (DBA)?",
+      "optionen": [
+        "Sie regeln zwischen zwei Vertragsstaaten, welcher Staat für bestimmte Einkünfte das (vorrangige) Besteuerungsrecht hat bzw. wie eine bereits eingetretene Doppelbesteuerung vermieden wird",
+        "DBA schaffen ein völlig neues, eigenständiges Steuerrecht unabhängig vom nationalen Recht",
+        "DBA dienen ausschließlich der Festlegung von Zollsätzen",
+        "DBA betreffen ausschließlich die Umsatzsteuer zwischen den Vertragsstaaten"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Doppelbesteuerungsabkommen sind bilaterale völkerrechtliche Verträge zwischen zwei Staaten, die regeln, welcher Staat für bestimmte Einkunftsarten das Besteuerungsrecht hat (Zuteilungsregeln) bzw. wie eine andernfalls eintretende Doppelbesteuerung durch geeignete Methoden vermieden wird."
+    },
+    {
+      "id": "dba-03",
+      "frage": "Was ist das OECD-Musterabkommen (OECD-MA) und welche Bedeutung hat es?",
+      "optionen": [
+        "Ein von der OECD entwickeltes Mustervertragswerk, an dem sich die meisten bilateralen DBA in Aufbau und Inhalt orientieren",
+        "Ein unmittelbar in jedem Staat geltendes, supranationales Steuergesetz",
+        "Das OECD-MA hat ausschließlich Empfehlungscharakter für die Umsatzsteuer",
+        "Das OECD-MA ersetzt sämtliche bilateralen DBA vollständig"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Das OECD-Musterabkommen ist ein von der OECD erarbeitetes Mustervertragswerk, das als Vorlage für die meisten zwischenstaatlichen DBA dient; es selbst ist kein unmittelbar geltendes Recht, sondern eine Orientierungshilfe für den Abschluss und die Auslegung tatsächlicher bilateraler Abkommen."
+    },
+    {
+      "id": "dba-04",
+      "frage": "Wie ist ein DBA nach dem OECD-MA grundsätzlich aufgebaut?",
+      "optionen": [
+        "Es enthält u.a. einen Geltungsbereich, Begriffsbestimmungen (z.B. Ansässigkeit, Betriebsstätte), Zuteilungsregeln für einzelne Einkunftsarten sowie Methoden zur Vermeidung der Doppelbesteuerung",
+        "Ein DBA besteht ausschließlich aus einer einzigen, allgemein gehaltenen Generalklausel ohne weitere Gliederung",
+        "DBA enthalten keine Definitionen, sondern verweisen ausschließlich auf das jeweilige nationale Recht",
+        "Der Aufbau eines DBA ist von Staat zu Staat völlig unterschiedlich ohne jedes gemeinsame Muster"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Ein DBA nach dem OECD-MA gliedert sich typischerweise in Bestimmungen zum Geltungsbereich, allgemeine Begriffsbestimmungen (u.a. Ansässigkeit Art. 4, Betriebsstätte Art. 5), die eigentlichen Zuteilungsregeln für die einzelnen Einkunftsarten (Art. 6–21) sowie Methoden zur Vermeidung der Doppelbesteuerung (Art. 23)."
+    },
+    {
+      "id": "dba-05",
+      "frage": "Was ist eine Ansässigkeitsbescheinigung und wofür wird sie benötigt?",
+      "optionen": [
+        "Eine von der zuständigen Steuerbehörde ausgestellte Bestätigung, dass eine Person in diesem Staat im Sinne des DBA ansässig ist – sie wird häufig benötigt, um DBA-Vergünstigungen (z.B. reduzierte Quellensteuer) im anderen Vertragsstaat in Anspruch zu nehmen",
+        "Eine Bescheinigung über den Wohnsitz, die für die Erlangung der Staatsbürgerschaft benötigt wird",
+        "Eine Ansässigkeitsbescheinigung hat im internationalen Steuerrecht keine praktische Bedeutung",
+        "Sie wird ausschließlich für die Beantragung eines Visums verwendet"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Ansässigkeitsbescheinigung bestätigt amtlich, in welchem Staat eine Person im Sinne des jeweiligen DBA als ansässig gilt; sie wird typischerweise benötigt, um im Quellenstaat eine Reduktion oder Befreiung von der Quellensteuer entsprechend den DBA-Bestimmungen zu erlangen."
+    },
+    {
+      "id": "dba-06",
+      "frage": "Was besagt die sogenannte Drei-Stufen-Theorie bei der Lösung eines internationalen Steuerfalls?",
+      "optionen": [
+        "Zunächst ist die Steuerpflicht nach nationalem Recht zu prüfen, danach das Besteuerungsrecht nach dem DBA zu klären, und abschließend erfolgt die konkrete Steuerberechnung wieder nach nationalem Recht",
+        "Es handelt sich um ein Verfahren zur Berechnung der Umsatzsteuer bei Exporten",
+        "Die Drei-Stufen-Theorie betrifft ausschließlich die Sozialversicherung",
+        "Sie beschreibt drei verschiedene Arten von Doppelbesteuerungsabkommen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Nach der Drei-Stufen-Theorie wird ein internationaler Steuerfall in drei Schritten gelöst: (1) Prüfung, ob nach nationalem Recht überhaupt eine Steuerpflicht besteht (steuerbar), (2) Prüfung, welchem Staat nach dem DBA das Besteuerungsrecht zugewiesen wird, und (3) die konkrete Ermittlung der Steuer erfolgt wieder nach den Vorschriften des jeweils zur Besteuerung berechtigten Staates."
+    },
+    {
+      "id": "dba-07",
+      "frage": "Welche Reihenfolge ist bei der Prüfung eines internationalen Steuerfalls grundsätzlich einzuhalten?",
+      "optionen": [
+        "Zuerst die Prüfung der Steuerbarkeit nach nationalem Recht, dann die Klärung des Besteuerungsrechts nach dem DBA, abschließend die konkrete Steuerberechnung nach nationalem Recht",
+        "Die Reihenfolge ist beliebig und ohne Bedeutung für das Ergebnis",
+        "Zuerst ist immer ausschließlich das DBA zu prüfen, das nationale Recht ist irrelevant",
+        "Die Steuerberechnung erfolgt immer vor der Prüfung der Steuerbarkeit"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Entsprechend der Drei-Stufen-Theorie ist zunächst zu prüfen, ob ein Sachverhalt nach nationalem Recht überhaupt steuerbar ist; erst danach wird geklärt, welchem Staat das DBA das Besteuerungsrecht zuweist; die eigentliche Steuerberechnung erfolgt anschließend wieder nach dem nationalen Recht des berechtigten Staates."
+    },
+    {
+      "id": "dba-08",
+      "frage": "Welche Methoden zur Vermeidung der Doppelbesteuerung sieht Art 23 OECD-MA grundsätzlich vor?",
+      "optionen": [
+        "Die Befreiungsmethode (mit Progressionsvorbehalt) und die Anrechnungsmethode",
+        "Ausschließlich die vollständige Steuerfreistellung ohne jede weitere Methode",
+        "Nur die Anrechnungsmethode, die Befreiungsmethode ist im OECD-MA nicht vorgesehen",
+        "Es gibt keine im OECD-MA vorgesehenen Methoden zur Vermeidung der Doppelbesteuerung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Art. 23 OECD-MA sieht im Wesentlichen zwei Methoden vor: die Befreiungsmethode (Einkünfte werden im Ansässigkeitsstaat freigestellt, idR unter Progressionsvorbehalt) und die Anrechnungsmethode (die im Quellenstaat gezahlte Steuer wird auf die Steuer im Ansässigkeitsstaat angerechnet)."
+    },
+    {
+      "id": "dba-09",
+      "frage": "Was bedeutet 'Progressionsvorbehalt' bei der Befreiungsmethode?",
+      "optionen": [
+        "Die im Ausland erzielten und im Inland befreiten Einkünfte werden zur Ermittlung des anzuwendenden Durchschnittssteuersatzes für das übrige Einkommen dennoch berücksichtigt, ohne selbst nochmals direkt besteuert zu werden",
+        "Progressionsvorbehalt bedeutet, dass ausländische Einkünfte zusätzlich voll besteuert werden",
+        "Es handelt sich um eine vollständige Befreiung ohne jede Auswirkung auf den Steuersatz",
+        "Der Progressionsvorbehalt betrifft ausschließlich Einkünfte aus Kapitalvermögen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Beim Progressionsvorbehalt bleiben die im Ausland erzielten Einkünfte im Inland zwar von der unmittelbaren Besteuerung befreit, werden aber zur Bestimmung des Steuersatzes (Progression) für das übrige, im Inland steuerpflichtige Einkommen miteinbezogen, wodurch sich für dieses ein höherer Durchschnittssteuersatz ergeben kann."
+    },
+    {
+      "id": "dba-10",
+      "frage": "Was sind Zuteilungsregeln (Art 6-21 OECD-MA) im Grundsatz?",
+      "optionen": [
+        "Bestimmungen, die für einzelne Einkunftsarten (z.B. unbewegliches Vermögen, Unternehmensgewinne, Dividenden, Zinsen, Arbeitseinkommen) festlegen, welchem Staat (Quellen- oder Ansässigkeitsstaat) das Besteuerungsrecht (ganz oder teilweise) zukommt",
+        "Regeln zur Verteilung des Steueraufkommens zwischen Bund und Ländern innerhalb eines Staates",
+        "Bestimmungen, die ausschließlich die Höhe der Umsatzsteuer regeln",
+        "Zuteilungsregeln betreffen ausschließlich Erbschaften und Schenkungen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Zuteilungsregeln des OECD-MA (Art. 6 bis 21) ordnen für die einzelnen Einkunftskategorien (z.B. Einkünfte aus unbeweglichem Vermögen, Unternehmensgewinne, Dividenden, Zinsen, Lizenzgebühren, unselbständige Arbeit) jeweils zu, welcher der beiden Vertragsstaaten das (ausschließliche oder mit dem anderen Staat geteilte) Besteuerungsrecht hat."
+    },
+    {
+      "id": "dba-11",
+      "frage": "Welche Bedeutung hat eine Betriebsstätte im Sinne des DBA-Rechts (Art 5 OECD-MA)?",
+      "optionen": [
+        "Begründet ein Unternehmen im Tätigkeitsstaat eine Betriebsstätte, hat dieser Staat regelmäßig (zumindest teilweise) das Recht, die der Betriebsstätte zurechenbaren Unternehmensgewinne zu besteuern",
+        "Eine Betriebsstätte hat im internationalen Steuerrecht keinerlei Bedeutung",
+        "Eine Betriebsstätte führt automatisch zur vollständigen Steuerfreiheit im Quellenstaat",
+        "Der Betriebsstättenbegriff betrifft ausschließlich Privatpersonen, nie Unternehmen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Begründet ein Unternehmen in einem anderen Staat eine Betriebsstätte (z.B. eine feste Geschäftseinrichtung), erhält dieser Tätigkeitsstaat nach Art. 5 iVm Art. 7 OECD-MA grundsätzlich das Recht, die der Betriebsstätte zuzurechnenden Gewinne (anteilig) zu besteuern, während der übrige Unternehmensgewinn dem Ansässigkeitsstaat zugewiesen bleibt."
+    }
+  ]
+}

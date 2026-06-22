@@ -1,0 +1,845 @@
+{
+  "fach": "ESt",
+  "fragen": [
+    {
+      "id": "est-01",
+      "frage": "Was ist die Bemessungsgrundlage der Einkommensteuer?",
+      "optionen": [
+        "Der Umsatz des Steuerpflichtigen",
+        "Das Einkommen des Steuerpflichtigen im Sinne des § 2 EStG",
+        "Ausschließlich die betrieblichen Einkünfte",
+        "Das Vermögen zum Jahresende"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Bemessungsgrundlage der Einkommensteuer ist das Einkommen gemäß § 2 EStG, das sich aus der Summe der Einkünfte aus den sieben Einkunftsarten nach Verlustausgleich und Abzug von Sonderausgaben, außergewöhnlichen Belastungen etc. ergibt."
+    },
+    {
+      "id": "est-02",
+      "frage": "Was sind die Voraussetzungen für die unbeschränkte Steuerpflicht?",
+      "optionen": [
+        "Wohnsitz oder gewöhnlicher Aufenthalt im Inland",
+        "Ausschließlich die österreichische Staatsbürgerschaft",
+        "Ein inländisches Bankkonto",
+        "Eine Gewerbeberechtigung in Österreich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Unbeschränkt steuerpflichtig ist nach § 1 Abs. 2 EStG, wer im Inland einen Wohnsitz oder seinen gewöhnlichen Aufenthalt hat; die unbeschränkte Steuerpflicht erstreckt sich auf das Welteinkommen."
+    },
+    {
+      "id": "est-03",
+      "frage": "Was unterscheidet beschränkte von unbeschränkter Steuerpflicht?",
+      "optionen": [
+        "Bei beschränkter Steuerpflicht unterliegen nur bestimmte inländische Einkünfte (§ 98 EStG) der österreichischen Besteuerung, nicht das Welteinkommen",
+        "Es gibt keinen Unterschied zwischen beiden Formen",
+        "Beschränkte Steuerpflicht betrifft nur Körperschaften",
+        "Bei beschränkter Steuerpflicht entfällt jede Steuerpflicht in Österreich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Beschränkt steuerpflichtige Personen (ohne Wohnsitz/gewöhnlichen Aufenthalt im Inland) unterliegen nur mit ihren inländischen Einkünften iSd § 98 EStG der österreichischen Einkommensteuer, im Gegensatz zur unbeschränkten Steuerpflicht mit dem Welteinkommen."
+    },
+    {
+      "id": "est-04",
+      "frage": "Was bedeutet 'Vermeidung der Doppelbesteuerung' im Zusammenhang mit Progressionsvorbehalt und Anrechnungsmethode?",
+      "optionen": [
+        "Beim Progressionsvorbehalt werden ausländische Einkünfte von der österreichischen Steuer befreit, erhöhen aber den anzuwendenden Steuersatz; bei der Anrechnungsmethode wird die ausländische Steuer auf die österreichische Steuer angerechnet",
+        "Beide Methoden führen zum exakt gleichen steuerlichen Ergebnis in jedem Fall",
+        "Progressionsvorbehalt bedeutet vollständige Steuerfreiheit ohne jede Auswirkung auf den Steuersatz",
+        "Die Anrechnungsmethode kommt in Österreich generell nicht zur Anwendung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei der Befreiungsmethode mit Progressionsvorbehalt bleiben ausländische Einkünfte in Österreich steuerfrei, erhöhen aber den Durchschnittssteuersatz für das übrige Einkommen; bei der Anrechnungsmethode wird die im Ausland gezahlte Steuer auf die österreichische Steuerschuld angerechnet."
+    },
+    {
+      "id": "est-05",
+      "frage": "Welche sieben Einkunftsarten kennt das EStG?",
+      "optionen": [
+        "Nur betriebliche Einkünfte (LuF, selbständige Arbeit, Gewerbebetrieb)",
+        "Land- und Forstwirtschaft, selbständige Arbeit, Gewerbebetrieb, nichtselbständige Arbeit, Kapitalvermögen, Vermietung und Verpachtung, sonstige Einkünfte",
+        "Nur Einkünfte aus unselbständiger Arbeit und Kapitalvermögen",
+        "Es gibt keine fixe Anzahl an Einkunftsarten im EStG"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 2 Abs. 3 EStG zählt sieben Einkunftsarten auf: drei betriebliche (LuF, selbständige Arbeit, Gewerbebetrieb) und vier außerbetriebliche/Überschusseinkünfte (nichtselbständige Arbeit, Kapitalvermögen, Vermietung und Verpachtung, sonstige Einkünfte)."
+    },
+    {
+      "id": "est-06",
+      "frage": "Was bedeutet horizontaler Verlustausgleich im Unterschied zum vertikalen?",
+      "optionen": [
+        "Horizontaler Ausgleich erfolgt innerhalb derselben Einkunftsart zwischen verschiedenen Einkunftsquellen, vertikaler Ausgleich zwischen verschiedenen Einkunftsarten",
+        "Es handelt sich um Synonyme ohne inhaltlichen Unterschied",
+        "Horizontaler Ausgleich betrifft nur Verluste aus Kapitalvermögen",
+        "Vertikaler Ausgleich ist in Österreich generell unzulässig"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Innerbetrieblicher Verlustausgleich erfolgt innerhalb eines Betriebes, horizontaler Verlustausgleich zwischen Einkunftsquellen derselben Einkunftsart, und vertikaler Verlustausgleich zwischen verschiedenen Einkunftsarten."
+    },
+    {
+      "id": "est-07",
+      "frage": "Was sind Wartetastenverluste?",
+      "optionen": [
+        "Verluste, die sofort und unbeschränkt mit jeder Einkunftsart verrechnet werden können",
+        "Verluste, deren Verrechnung gesetzlich eingeschränkt ist und die erst mit künftigen Gewinnen derselben Einkunftsquelle verrechnet werden dürfen",
+        "Verluste, die nach 5 Jahren automatisch verfallen",
+        "Ein Synonym für den Gewinnfreibetrag"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Wartetastenverluste sind Verluste, deren sofortige Verrechnung mit anderen Einkünften gesetzlich beschränkt ist (z.B. bei kapitalistischen Mitunternehmern); sie 'warten' gleichsam auf künftige Gewinne aus derselben Einkunftsquelle, mit denen sie verrechnet werden können."
+    },
+    {
+      "id": "est-08",
+      "frage": "Was sind die Voraussetzungen für den Verlustvortrag nach § 18 EStG?",
+      "optionen": [
+        "Ein Verlustvortrag setzt grundsätzlich ordnungsgemäße Gewinnermittlung (Bilanzierung bzw. unter bestimmten Voraussetzungen auch EAR) und ist zeitlich grundsätzlich unbegrenzt vortragsfähig",
+        "Verlustvorträge sind in Österreich generell ausgeschlossen",
+        "Ein Verlustvortrag ist nur bei Körperschaften möglich, nicht bei natürlichen Personen",
+        "Verluste verfallen spätestens nach einem Jahr"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Verluste aus betrieblichen Einkunftsarten können bei ordnungsgemäßer Gewinnermittlung grundsätzlich zeitlich unbegrenzt vorgetragen und mit künftigen positiven Einkünften verrechnet werden, soweit keine besonderen Beschränkungen greifen."
+    },
+    {
+      "id": "est-09",
+      "frage": "Wann liegt ein abweichendes Wirtschaftsjahr vor und unter welchen Voraussetzungen ist es möglich?",
+      "optionen": [
+        "Ein abweichendes Wirtschaftsjahr ist der vom Kalenderjahr abweichende Gewinnermittlungszeitraum, der insbesondere bei buchführungspflichtigen Gewerbetreibenden bzw. bestimmten anderen Fällen zulässig ist",
+        "Ein abweichendes Wirtschaftsjahr ist in Österreich generell verboten",
+        "Es betrifft ausschließlich Einkünfte aus Vermietung und Verpachtung",
+        "Jeder Steuerpflichtige kann sein Wirtschaftsjahr beliebig und ohne Einschränkung wählen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Ein vom Kalenderjahr abweichendes Wirtschaftsjahr (§ 2 Abs. 5 EStG) ist insbesondere für buchführungspflichtige Gewerbetreibende unter bestimmten Voraussetzungen zulässig (z.B. wenn dies aus betrieblichen Gründen sachgerecht ist); bei Land- und Forstwirten gibt es eigene Regelungen."
+    },
+    {
+      "id": "est-10",
+      "frage": "Was besagt das Zufluss-Abfluss-Prinzip des § 19 EStG (mit welchen Ausnahmen)?",
+      "optionen": [
+        "Einnahmen und Ausgaben sind grundsätzlich in jenem Kalenderjahr zu erfassen, in dem sie tatsächlich zu-/abfließen, mit Ausnahmen u.a. für regelmäßig wiederkehrende Zahlungen nahe dem Jahreswechsel",
+        "Es gilt ausschließlich für Bilanzierer, niemals für Einnahmen-Ausgaben-Rechner",
+        "Das Zufluss-Abfluss-Prinzip wurde im EStG vollständig abgeschafft",
+        "Es bezieht sich ausschließlich auf Einkünfte aus Kapitalvermögen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Nach dem Zufluss-Abfluss-Prinzip (§ 19 EStG) sind Einnahmen und Ausgaben grundsätzlich in jenem Jahr zu erfassen, in dem sie tatsächlich zu- bzw. abfließen; eine wichtige Ausnahme betrifft regelmäßig wiederkehrende Einnahmen/Ausgaben kurz vor bzw. nach dem Jahreswechsel (15-Tage-Regel)."
+    },
+    {
+      "id": "est-11",
+      "frage": "Welche Gewinnermittlungsarten kennt das EStG?",
+      "optionen": [
+        "Betriebsvermögensvergleich (§ 4 Abs. 1 bzw. § 5), Einnahmen-Ausgaben-Rechnung (§ 4 Abs. 3) und Pauschalierung",
+        "Ausschließlich die doppelte Buchführung",
+        "Nur die Einnahmen-Ausgaben-Rechnung ist im EStG vorgesehen",
+        "Es gibt keine unterschiedlichen Gewinnermittlungsarten"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Das EStG kennt als Gewinnermittlungsarten den Betriebsvermögensvergleich (Bilanzierung, § 4 Abs. 1 bzw. § 5), die Einnahmen-Ausgaben-Rechnung (§ 4 Abs. 3) sowie unter bestimmten Voraussetzungen verschiedene Formen der Pauschalierung (§ 17)."
+    },
+    {
+      "id": "est-12",
+      "frage": "Wann besteht Buchführungspflicht nach § 189 UGB bzw. §§ 124, 125 BAO?",
+      "optionen": [
+        "Buchführungspflicht besteht insbesondere bei Überschreiten bestimmter Umsatzgrenzen oder bei im Firmenbuch eingetragenen Unternehmern",
+        "Buchführungspflicht besteht für jeden Steuerpflichtigen unabhängig von Umsatz oder Rechtsform",
+        "Buchführungspflicht ist in Österreich generell abgeschafft",
+        "Nur Körperschaften unterliegen einer Buchführungspflicht"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Buchführungspflicht besteht u.a. bei im Firmenbuch eingetragenen Unternehmern sowie bei Überschreiten der unternehmensrechtlichen Umsatzschwellen (§ 189 UGB), was über §§ 124, 125 BAO auch abgabenrechtliche Bedeutung hat."
+    },
+    {
+      "id": "est-13",
+      "frage": "Was zählt zum Betriebsvermögen eines Unternehmers (z.B. eines Installateurs)?",
+      "optionen": [
+        "Wirtschaftsgüter, die dem Betrieb dienen oder zu dienen bestimmt sind, unabhängig vom zivilrechtlichen Eigentum",
+        "Ausschließlich Gegenstände, die im Eigentum des Unternehmens als juristische Person stehen",
+        "Jeder Gegenstand im Haushalt des Unternehmers automatisch",
+        "Nur Bargeld und Bankguthaben zählen zum Betriebsvermögen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Zum Betriebsvermögen zählen Wirtschaftsgüter, die dem Betrieb objektiv erkennbar dienen oder zu dienen bestimmt sind (notwendiges Betriebsvermögen) bzw. unter bestimmten Voraussetzungen gewillkürtes Betriebsvermögen; ein PKW mit überwiegender betrieblicher Nutzung (z.B. über 50 %) zählt idR zum (notwendigen) Betriebsvermögen."
+    },
+    {
+      "id": "est-14",
+      "frage": "Wie ist bei gemischter (betrieblicher und privater) Nutzung eines beweglichen Wirtschaftsguts wie einem PKW mit 55 % betrieblicher Nutzung grundsätzlich vorzugehen?",
+      "optionen": [
+        "Bei überwiegender betrieblicher Nutzung (>50 %) zählt das Wirtschaftsgut zur Gänze zum Betriebsvermögen, der Privatanteil ist als Entnahme/Privatanteil auszuscheiden",
+        "Bei jeder gemischten Nutzung ist das Wirtschaftsgut zur Gänze Privatvermögen",
+        "Eine Aufteilung ist bei beweglichen Wirtschaftsgütern generell nicht vorgesehen",
+        "Nur bei genau 50 % betrieblicher Nutzung erfolgt eine Zuordnung zum Betriebsvermögen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei beweglichen Wirtschaftsgütern erfolgt die Zuordnung zum Betriebs- oder Privatvermögen grundsätzlich nach der überwiegenden Nutzung; bei einer betrieblichen Nutzung von 55 % zählt das Wirtschaftsgut zur Gänze zum Betriebsvermögen, wobei der private Nutzungsanteil (Privatanteil) bei den Aufwendungen auszuscheiden ist."
+    },
+    {
+      "id": "est-15",
+      "frage": "Welche Geschäftsvorgänge haben bei einem § 5-Ermittler unmittelbar Auswirkung auf den steuerlichen Gewinn?",
+      "optionen": [
+        "Nur Geschäftsvorgänge, die das Eigenkapital verändern (z.B. Aufwendungen, Erträge), nicht aber der bloße Aktivtausch (z.B. Zahlung einer Lieferantenforderung per Banküberweisung)",
+        "Jede Zahlung wirkt sich sofort auf den Gewinn aus, unabhängig von ihrer bilanziellen Natur",
+        "Nur Bareinnahmen wirken sich auf den Gewinn aus",
+        "Bei § 5-Ermittlern gibt es keine Gewinnauswirkung durch Geschäftsvorgänge, nur durch die Bilanz am Jahresende"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei bilanzierenden (§ 5-)Ermittlern wirkt sich z.B. die Zahlung einer Lieferantenverbindlichkeit per Banküberweisung (Aktivtausch: Verbindlichkeit sinkt, Bankguthaben sinkt) nicht auf den Gewinn aus, da dadurch das Eigenkapital nicht verändert wird; gewinnwirksam sind hingegen Aufwendungen, Erträge und ähnliche eigenkapitalverändernde Vorgänge."
+    },
+    {
+      "id": "est-16",
+      "frage": "Welche Bewertungsmaßstäbe nennt § 6 EStG u.a.?",
+      "optionen": [
+        "Anschaffungskosten, Herstellungskosten, Teilwert, gemeiner Wert, fiktive Anschaffungskosten",
+        "Ausschließlich den Verkehrswert",
+        "Nur den Buchwert ohne weitere Differenzierung",
+        "Marktwert und Einheitswert als einzige Maßstäbe"
+      ],
+      "korrekt": 0,
+      "erklaerung": "§ 6 EStG nennt als zentrale Bewertungsmaßstäbe u.a. Anschaffungskosten, Herstellungskosten, Teilwert, gemeinen Wert und fiktive Anschaffungskosten, die je nach Sachverhalt (z.B. Anschaffung, Einlage, Entnahme) zur Anwendung kommen."
+    },
+    {
+      "id": "est-17",
+      "frage": "Welche Bewertungsgrundsätze sind allgemein zu beachten (z.B. Einzelbewertung, Going-Concern, Vorsichtsprinzip)?",
+      "optionen": [
+        "Einzelbewertung, Werterhellung, Bewertungsstetigkeit, Going-Concern-Prinzip, Vorsichtsprinzip und Wertzusammenhang",
+        "Es existiert nur ein einziger allgemeiner Bewertungsgrundsatz",
+        "Diese Grundsätze gelten ausschließlich für Körperschaften",
+        "Das Vorsichtsprinzip wurde im österreichischen Steuerrecht abgeschafft"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Zu den allgemeinen Bewertungsgrundsätzen zählen u.a. die Einzelbewertung (jedes Wirtschaftsgut wird einzeln bewertet), das Going-Concern-Prinzip (Fortführung des Unternehmens wird unterstellt), das Vorsichtsprinzip sowie Werterhellung, Bewertungsstetigkeit und Wertzusammenhang."
+    },
+    {
+      "id": "est-18",
+      "frage": "Ein PKW kostet 20.000 EUR und wird am 18.8. angeschafft. Wie wird die AfA im Anschaffungsjahr berechnet?",
+      "optionen": [
+        "Volle Jahres-AfA, da die Anschaffung im ersten Halbjahr erfolgte",
+        "Halbjahres-AfA, da die Inbetriebnahme in der zweiten Jahreshälfte erfolgte – somit die Hälfte der Jahres-AfA",
+        "Es kann im Anschaffungsjahr überhaupt keine AfA geltend gemacht werden",
+        "Es ist die volle Jahres-AfA unabhängig vom Anschaffungszeitpunkt anzusetzen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Erfolgt die Inbetriebnahme in der zweiten Jahreshälfte (hier: 18.8.), steht im Jahr der Anschaffung nur die Halbjahres-AfA zu, also die Hälfte des Jahresbetrages der linearen Abschreibung."
+    },
+    {
+      "id": "est-19",
+      "frage": "Welche Besonderheiten gelten für die Gebäudeabschreibung (§ 8 Abs. 1 EStG)?",
+      "optionen": [
+        "Für Gebäude gelten gesetzlich festgelegte AfA-Sätze, die je nach Nutzung (z.B. betrieblich vs. zu Wohnzwecken vermietet) unterschiedlich hoch sein können",
+        "Gebäude können in Österreich steuerlich nicht abgeschrieben werden",
+        "Für Gebäude gilt ausschließlich die degressive AfA",
+        "Die Gebäude-AfA ist unabhängig von der Nutzungsart immer gleich hoch"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Für Gebäude sieht § 8 Abs. 1 EStG gesetzlich festgelegte AfA-Sätze vor, die sich u.a. nach der Nutzungsart des Gebäudes (z.B. unmittelbar gewerbliche Nutzung vs. Vermietung zu Wohnzwecken) unterscheiden."
+    },
+    {
+      "id": "est-20",
+      "frage": "Was ist bei der Abschreibung von PKW (§ 8 Abs. 6 EStG) grundsätzlich zu beachten?",
+      "optionen": [
+        "Für PKW gilt grundsätzlich eine gesetzlich vorgegebene Mindestnutzungsdauer, zudem ist die Luxustangente (Angemessenheitsprüfung) zu beachten",
+        "PKW können in jedem Fall sofort zur Gänze abgeschrieben werden",
+        "Für PKW gibt es keinerlei Sonderregelungen gegenüber anderem Anlagevermögen",
+        "Die Nutzungsdauer von PKW kann frei vom Steuerpflichtigen festgelegt werden"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei PKW gilt grundsätzlich eine im Gesetz vorgesehene Nutzungsdauer (idR 8 Jahre); zusätzlich ist die Angemessenheitsprüfung (Luxustangente) zu beachten, wonach Anschaffungskosten über einer bestimmten Grenze steuerlich nicht (voll) abzugsfähig sind."
+    },
+    {
+      "id": "est-21",
+      "frage": "Was umfasst die Luxustangente bei PKW (Angemessenheitsprüfung)?",
+      "optionen": [
+        "Die Begrenzung der steuerlich anzuerkennenden Anschaffungskosten eines PKW auf einen gesetzlich festgelegten Höchstbetrag; darüberhinausgehende, wertabhängige Aufwendungen (z.B. anteilige Versicherung, Kaskoprämie) sind anteilig zu kürzen",
+        "Eine vollständige steuerliche Anerkennung sämtlicher PKW-Kosten unabhängig vom Kaufpreis",
+        "Sie betrifft ausschließlich die Umsatzsteuer, nicht die Einkommensteuer",
+        "Die Luxustangente betrifft nur Motorräder, nicht PKW"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Luxustangente begrenzt die steuerlich anzuerkennenden Anschaffungskosten eines PKW auf einen gesetzlichen Höchstbetrag; wertabhängige (an die Anschaffungskosten gekoppelte) Aufwendungen wie z.B. Kaskoversicherung sind im entsprechenden Verhältnis zu kürzen, AfA und Zinsen ebenso."
+    },
+    {
+      "id": "est-22",
+      "frage": "Was sind geringwertige Wirtschaftsgüter (GWG) nach § 13 EStG und wie werden sie steuerlich behandelt?",
+      "optionen": [
+        "Wirtschaftsgüter mit Anschaffungskosten bis zu einer gesetzlich festgelegten Grenze, die sofort als Betriebsausgabe abgesetzt werden können, statt über die Nutzungsdauer verteilt zu werden",
+        "GWG müssen zwingend über mindestens 10 Jahre abgeschrieben werden",
+        "GWG betreffen ausschließlich immaterielle Wirtschaftsgüter",
+        "Es gibt im EStG keine Regelung zu geringwertigen Wirtschaftsgütern"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Geringwertige Wirtschaftsgüter (§ 13 EStG) mit Anschaffungs- oder Herstellungskosten bis zu einem gesetzlich festgelegten Grenzbetrag können wahlweise sofort als Betriebsausgabe abgesetzt werden, anstatt über die AfA verteilt zu werden."
+    },
+    {
+      "id": "est-23",
+      "frage": "Welche Voraussetzungen gelten für die Basispauschalierung nach § 17 EStG?",
+      "optionen": [
+        "Sie ist u.a. an eine Umsatzgrenze gebunden und ermöglicht die pauschale Ermittlung der Betriebsausgaben mit einem bestimmten Prozentsatz der Umsätze",
+        "Sie steht jedem Steuerpflichtigen unabhängig von der Umsatzhöhe offen",
+        "Die Basispauschalierung betrifft ausschließlich Einkünfte aus Kapitalvermögen",
+        "Bei der Basispauschalierung müssen trotzdem alle Belege einzeln gesammelt und vorgelegt werden"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Basispauschalierung (§ 17 Abs. 1 EStG) setzt voraus, dass eine im Gesetz festgelegte Umsatzgrenze nicht überschritten wird; die Betriebsausgaben können dann pauschal mit einem bestimmten Prozentsatz der Umsätze (je nach Tätigkeit unterschiedlich hoch) angesetzt werden."
+    },
+    {
+      "id": "est-24",
+      "frage": "Eine Sängerin hat 27.000 EUR Einnahmen im Jahr. Kann sie pauschalieren, und wenn ja wie?",
+      "optionen": [
+        "Sie liegt unter der für die Basispauschalierung maßgeblichen Umsatzgrenze und kann daher die Betriebsausgaben pauschal nach § 17 EStG ermitteln",
+        "Eine Pauschalierung ist für Künstler grundsätzlich ausgeschlossen",
+        "Pauschalierung ist nur bei Einnahmen über 100.000 EUR möglich",
+        "Es ist immer zwingend eine vollständige Bilanzierung erforderlich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Da die Einnahmen von 27.000 EUR deutlich unter der für die Basispauschalierung maßgeblichen Umsatzgrenze liegen, kann grundsätzlich pauschaliert werden; die Betriebsausgaben werden dann mit dem für die Tätigkeit jeweils vorgesehenen Prozentsatz der Einnahmen angesetzt."
+    },
+    {
+      "id": "est-25",
+      "frage": "Was versteht man unter dem investitionsbedingten Gewinnfreibetrag (§ 10 EStG)?",
+      "optionen": [
+        "Einen Freibetrag, der zusätzlich zum Grundfreibetrag bei Tätigung begünstigter Investitionen geltend gemacht werden kann, wobei bestimmte Wirtschaftsgüter (z.B. PKW, ausgenommen bestimmte Elektrofahrzeuge) davon ausgeschlossen sind",
+        "Einen Freibetrag, der unabhängig von jeder Investition automatisch zusteht",
+        "Der Gewinnfreibetrag steht nur Körperschaften zu",
+        "Der investitionsbedingte Gewinnfreibetrag ersetzt die AfA vollständig"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Über den Grundfreibetrag hinaus kann der investitionsbedingte Gewinnfreibetrag bei Anschaffung begünstigter abnutzbarer körperlicher Wirtschaftsgüter oder bestimmter Wertpapiere geltend gemacht werden; bestimmte Wirtschaftsgüter wie PKW (mit Ausnahme von Fahrzeugen mit einem CO2-Emissionswert von 0 g/km) sind davon ausgeschlossen."
+    },
+    {
+      "id": "est-26",
+      "frage": "Ein Gasthaus kauft einen PKW, Küchengeräte und eine Gebrauchtware. Was kann nicht als investitionsbedingter Gewinnfreibetrag geltend gemacht werden?",
+      "optionen": [
+        "Der PKW, da PKW (außer mit CO2-Wert 0 g/km) sowie gebrauchte Wirtschaftsgüter von der Begünstigung ausgeschlossen sind",
+        "Die Küchengeräte sind generell ausgeschlossen",
+        "Sämtliche der genannten Investitionen sind uneingeschränkt begünstigungsfähig",
+        "Nur neu angeschaffte, aber keine gebrauchten Küchengeräte sind jemals begünstigt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Vom investitionsbedingten Gewinnfreibetrag ausgeschlossen sind u.a. PKW (außer mit CO2-Emissionswert von 0 g/km) sowie gebrauchte Wirtschaftsgüter; die Küchengeräte (sofern neu und körperlich, mit Nutzungsdauer über einem Jahr) wären hingegen grundsätzlich begünstigungsfähig."
+    },
+    {
+      "id": "est-27",
+      "frage": "Welche Aufwendungen sind im Rahmen der Einnahmen-Ausgaben-Rechnung typischerweise als Betriebsausgabe abzugsfähig?",
+      "optionen": [
+        "Betrieblich veranlasste Aufwendungen wie z.B. Betriebsmiete und Sozialversicherungsbeiträge des Unternehmers (im betrieblichen Zusammenhang), nicht jedoch rein private Aufwendungen wie ein Kirchenbeitrag",
+        "Jegliche private Lebenshaltungskosten sind ebenfalls abzugsfähig",
+        "Nur Aufwendungen über 1.000 EUR können als Betriebsausgabe geltend gemacht werden",
+        "Sozialversicherungsbeiträge sind nie als Betriebsausgabe abzugsfähig"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Betrieblich veranlasste Aufwendungen wie Betriebsmiete oder die betrieblichen Pflichtversicherungsbeiträge des Unternehmers sind als Betriebsausgaben abzugsfähig; ein Kirchenbeitrag ist hingegen eine private Ausgabe (ggf. als Sonderausgabe relevant), keine Betriebsausgabe."
+    },
+    {
+      "id": "est-28",
+      "frage": "Welche Aufwendungen sind nach § 20 EStG grundsätzlich nicht abzugsfähig?",
+      "optionen": [
+        "U.a. Kosten der privaten Lebensführung, Repräsentationsaufwendungen und (mit Ausnahmen) Aufwendungen für ein häusliches Arbeitszimmer",
+        "Sämtliche betrieblich veranlassten Aufwendungen ohne Ausnahme",
+        "Ausschließlich Personalaufwand",
+        "§ 20 EStG enthält keine Aufzählung nicht abzugsfähiger Aufwendungen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "§ 20 EStG zählt u.a. Kosten der privaten Lebensführung, Repräsentationsaufwendungen (mit Ausnahme bestimmter Bewirtungsspesen zu 50 %) sowie unter bestimmten Voraussetzungen Aufwendungen für ein häusliches Arbeitszimmer als nicht abzugsfähig auf."
+    },
+    {
+      "id": "est-29",
+      "frage": "Unter welchen Voraussetzungen kann ein häusliches Arbeitszimmer steuerlich abzugsfähig sein?",
+      "optionen": [
+        "Wenn es den Mittelpunkt der gesamten betrieblichen und beruflichen Tätigkeit des Steuerpflichtigen bildet",
+        "Ein häusliches Arbeitszimmer ist unter keinen Umständen abzugsfähig",
+        "Es genügt, dass das Zimmer gelegentlich beruflich genutzt wird",
+        "Die Abzugsfähigkeit hängt ausschließlich von der Raumgröße ab"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Aufwendungen für ein häusliches Arbeitszimmer sind nur dann abzugsfähig, wenn es den Mittelpunkt der gesamten betrieblichen und beruflichen Tätigkeit des Steuerpflichtigen darstellt; ansonsten greift das grundsätzliche Abzugsverbot des § 20 EStG."
+    },
+    {
+      "id": "est-30",
+      "frage": "Was versteht man unter Repräsentationsaufwendungen und wie werden Bewirtungsspesen steuerlich behandelt?",
+      "optionen": [
+        "Repräsentationsaufwendungen sind grundsätzlich nicht abzugsfähig; Bewirtungsspesen aus geschäftlichem Anlass können unter bestimmten Voraussetzungen zu 50 % abgezogen werden",
+        "Repräsentationsaufwendungen sind immer zu 100 % abzugsfähig",
+        "Bewirtungsspesen sind grundsätzlich überhaupt nicht abzugsfähig, auch nicht teilweise",
+        "Es gibt keine gesetzliche Regelung zu Repräsentationsaufwendungen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Repräsentationsaufwendungen unterliegen grundsätzlich einem Abzugsverbot; eine wichtige Ausnahme stellt die Bewirtung von Geschäftsfreunden dar, bei der unter den gesetzlichen Voraussetzungen (Nachweis der betrieblichen/beruflichen Veranlassung sowie der Werbewirksamkeit) 50 % der Kosten abzugsfähig sind."
+    },
+    {
+      "id": "est-31",
+      "frage": "Sind Spenden grundsätzlich als Betriebsausgabe/Sonderausgabe abzugsfähig?",
+      "optionen": [
+        "Spenden an bestimmte begünstigte Einrichtungen sind unter den gesetzlichen Voraussetzungen bis zu einem Höchstausmaß abzugsfähig",
+        "Sämtliche Spenden sind ohne jede Einschränkung in voller Höhe abzugsfähig",
+        "Spenden sind im österreichischen Steuerrecht grundsätzlich nicht abzugsfähig",
+        "Nur Spenden an ausländische Organisationen sind abzugsfähig"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Spenden an im Gesetz genannte begünstigte Einrichtungen (z.B. bestimmte gemeinnützige, mildtätige Organisationen) sind unter den jeweiligen Voraussetzungen bis zu einem Höchstausmaß (i.d.R. orientiert am Gewinn bzw. Einkommen) abzugsfähig."
+    },
+    {
+      "id": "est-32",
+      "frage": "Sind Schmier- und Bestechungsgelder steuerlich abzugsfähig?",
+      "optionen": [
+        "Nein, Schmier- und Bestechungsgelder sind vom Betriebsausgabenabzug ausgeschlossen",
+        "Ja, sie sind wie jede andere Betriebsausgabe uneingeschränkt abzugsfähig",
+        "Sie sind nur bei Auslandsgeschäften abzugsfähig",
+        "Die Abzugsfähigkeit hängt von der Höhe des Betrages ab"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Schmier- und Bestechungsgelder sind nach dem EStG vom Betriebsausgabenabzug ausgeschlossen, um zu verhindern, dass strafbares Verhalten durch steuerliche Abzugsfähigkeit begünstigt wird."
+    },
+    {
+      "id": "est-33",
+      "frage": "Wie ist das Entgelt für Arbeits- oder Werkleistungen über 500.000 EUR (Managergehälter) steuerlich zu behandeln?",
+      "optionen": [
+        "Der diesen Betrag übersteigende Teil ist beim auszahlenden Unternehmen nicht als Betriebsausgabe abzugsfähig",
+        "Managergehälter sind unabhängig von ihrer Höhe immer voll abzugsfähig",
+        "Diese Regelung betrifft ausschließlich Einkünfte aus Kapitalvermögen",
+        "Managergehälter sind generell steuerfrei"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Entgelte für Arbeits- oder Werkleistungen, die 500.000 EUR pro Person und Wirtschaftsjahr übersteigen, sind beim leistenden Unternehmen insoweit nicht als Betriebsausgabe abzugsfähig (sog. 'Managergehälter-Deckelung')."
+    },
+    {
+      "id": "est-34",
+      "frage": "Was regelt die sogenannte 'Generalklausel' zu Ausgaben im Zusammenhang mit steuerfreien Einnahmen (§ 20 Abs. 2 EStG)?",
+      "optionen": [
+        "Ausgaben, die in unmittelbarem wirtschaftlichem Zusammenhang mit steuerfreien Einnahmen stehen, sind grundsätzlich ebenfalls nicht abzugsfähig",
+        "Ausgaben im Zusammenhang mit steuerfreien Einnahmen sind immer voll abzugsfähig",
+        "Die Generalklausel betrifft ausschließlich Einkünfte aus Vermietung und Verpachtung",
+        "Es gibt keine Regelung zu Ausgaben im Zusammenhang mit steuerfreien Einnahmen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Nach der Generalklausel des § 20 Abs. 2 EStG dürfen Ausgaben, die in unmittelbarem wirtschaftlichem Zusammenhang mit nicht steuerpflichtigen bzw. mit einem besonderen Steuersatz endbesteuerten Einnahmen stehen, nicht als Betriebsausgaben oder Werbungskosten abgezogen werden."
+    },
+    {
+      "id": "est-35",
+      "frage": "Welche gemeinsamen Merkmale haben die betrieblichen Einkunftsarten?",
+      "optionen": [
+        "Sie beruhen auf einer auf Gewinnerzielung gerichteten, selbständigen, nachhaltigen Tätigkeit mit Beteiligung am allgemeinen wirtschaftlichen Verkehr",
+        "Es gibt keine gemeinsamen Merkmale zwischen den drei betrieblichen Einkunftsarten",
+        "Betriebliche Einkunftsarten setzen stets eine Gewerbeberechtigung voraus",
+        "Nur Kapitalgesellschaften können betriebliche Einkünfte erzielen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Den betrieblichen Einkunftsarten (LuF, selbständige Arbeit, Gewerbebetrieb) ist gemeinsam, dass sie auf einer selbständigen, nachhaltigen, mit Gewinnerzielungsabsicht ausgeübten Tätigkeit beruhen, die sich als Teilnahme am allgemeinen wirtschaftlichen Verkehr darstellt."
+    },
+    {
+      "id": "est-36",
+      "frage": "Was unterscheidet Einkünfte aus selbständiger Arbeit von Einkünften aus Gewerbebetrieb?",
+      "optionen": [
+        "Einkünfte aus selbständiger Arbeit erfordern eine im Gesetz taxativ genannte (insbesondere freiberufliche) Tätigkeit oder eine ihr gleichgestellte sonstige selbständige Tätigkeit, während Gewerbebetrieb eine selbständige Tätigkeit ist, die nicht LuF oder selbständige Arbeit ist",
+        "Es gibt zwischen beiden Einkunftsarten keinen inhaltlichen Unterschied",
+        "Selbständige Arbeit setzt zwingend eine Gewerbeberechtigung voraus",
+        "Gewerbebetrieb umfasst ausschließlich Tätigkeiten von Freiberuflern"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Einkünfte aus selbständiger Arbeit (§ 22 EStG) betreffen insbesondere die im Gesetz aufgezählten freiberuflichen Tätigkeiten (z.B. Ärzte, Rechtsanwälte) sowie sonstige selbständige Tätigkeiten; Einkünfte aus Gewerbebetrieb (§ 23 EStG) erfassen demgegenüber alle übrigen selbständigen, nachhaltigen Tätigkeiten mit Gewinnabsicht, die nicht LuF oder selbständige Arbeit sind."
+    },
+    {
+      "id": "est-37",
+      "frage": "Welche Mitunternehmerschaftsformen gibt es typischerweise (z.B. OG, KG, GesnbR, atypisch stille Gesellschaft)?",
+      "optionen": [
+        "Offene Gesellschaft, Kommanditgesellschaft, Gesellschaft nach bürgerlichem Recht sowie die atypisch stille Gesellschaft sind typische Mitunternehmerschaftsformen",
+        "Mitunternehmerschaften können ausschließlich in Form einer GmbH bestehen",
+        "Es gibt im österreichischen Steuerrecht keine unterschiedlichen Formen von Mitunternehmerschaften",
+        "Eine Mitunternehmerschaft setzt zwingend eine Eintragung als Aktiengesellschaft voraus"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Typische Mitunternehmerschaften sind insbesondere die OG, die KG, die Gesellschaft nach bürgerlichem Recht (GesnbR) sowie die atypisch stille Gesellschaft, bei der der stille Gesellschafter (anders als beim echten stillen Gesellschafter) am Vermögen und an den stillen Reserven beteiligt ist."
+    },
+    {
+      "id": "est-38",
+      "frage": "Wer gilt als kapitalistischer Mitunternehmer und welche Besonderheit ist damit verbunden?",
+      "optionen": [
+        "Ein Mitunternehmer, der keine ausgeprägte Mitunternehmerinitiative entfaltet (z.B. kein Stimmrecht, keine Geschäftsführungsbefugnis) und dessen Haftung beschränkt ist – für ihn gelten besondere Verlustverwertungsbeschränkungen (Wartetastenverluste)",
+        "Ein Mitunternehmer, der zwingend zur Geschäftsführung berechtigt sein muss",
+        "Kapitalistische Mitunternehmer haften stets unbeschränkt",
+        "Der Begriff betrifft ausschließlich Körperschaften als Gesellschafter"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Als kapitalistischer Mitunternehmer gilt insbesondere ein Mitunternehmer mit eingeschränkter Mitunternehmerinitiative und beschränkter Haftung (z.B. ein Kommanditist ohne Geschäftsführungsbefugnis); für ihn sind Verluste über die Wartetastenregelung des § 23a EStG nur eingeschränkt sofort verrechenbar."
+    },
+    {
+      "id": "est-39",
+      "frage": "Wie erfolgt die Gewinnverteilung bei einer Mitunternehmerschaft grundsätzlich?",
+      "optionen": [
+        "Nach dem Gesellschaftsvertrag bzw. mangels Vereinbarung nach den gesetzlichen Bestimmungen (z.B. unter Berücksichtigung von Vorabvergütungen und Kapitalverhältnissen)",
+        "Immer zwingend zu gleichen Teilen, unabhängig vom Gesellschaftsvertrag",
+        "Ausschließlich nach der Anzahl der Gesellschafter ohne Berücksichtigung von Kapitalanteilen",
+        "Die Gewinnverteilung ist steuerlich irrelevant"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Gewinnverteilung richtet sich primär nach dem Gesellschaftsvertrag (z.B. Vorabvergütungen für Geschäftsführung, anschließende Verteilung nach Kapitalanteilen); mangels Vereinbarung gelten subsidiär die gesetzlichen Bestimmungen."
+    },
+    {
+      "id": "est-40",
+      "frage": "Welches Verfahren kommt zur Feststellung der Einkünfte einer Mitunternehmerschaft zur Anwendung?",
+      "optionen": [
+        "Das Feststellungsverfahren nach § 188 BAO, bei dem die Einkünfte einheitlich und gesondert festgestellt werden",
+        "Jeder Mitunternehmer erklärt seinen Anteil völlig unabhängig in einem eigenen, nicht miteinander verbundenen Verfahren",
+        "Es gibt für Mitunternehmerschaften kein eigenes Feststellungsverfahren",
+        "Das Feststellungsverfahren betrifft ausschließlich Körperschaften"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Einkünfte einer Mitunternehmerschaft werden im Feststellungsverfahren nach § 188 BAO einheitlich und gesondert festgestellt; diese Feststellung ist für die Einkommensteuerbescheide der einzelnen Mitunternehmer bindend."
+    },
+    {
+      "id": "est-41",
+      "frage": "Was versteht man unter dem Veräußerungsgewinn nach § 24 EStG?",
+      "optionen": [
+        "Den Gewinn, der bei der Veräußerung oder Aufgabe eines (Teil-)Betriebes oder Mitunternehmeranteils entsteht, ermittelt als Differenz zwischen Veräußerungserlös und Buchwert (zuzüglich Veräußerungskosten)",
+        "Den laufenden Gewinn aus dem operativen Geschäftsbetrieb",
+        "Ausschließlich den Gewinn aus dem Verkauf von Privatvermögen",
+        "Veräußerungsgewinne kommen im EStG nicht vor"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Veräußerungsgewinn (§ 24 EStG) entsteht bei Veräußerung oder Aufgabe eines (Teil-)Betriebes oder Mitunternehmeranteils und errechnet sich grundsätzlich als Differenz zwischen Veräußerungserlös (abzüglich Veräußerungskosten) und dem Buchwert des Betriebsvermögens im Zeitpunkt der Veräußerung."
+    },
+    {
+      "id": "est-42",
+      "frage": "Was unterscheidet eine Betriebsveräußerung von einer Betriebsaufgabe?",
+      "optionen": [
+        "Bei der Betriebsveräußerung wird der Betrieb als Ganzes entgeltlich an einen Erwerber übertragen, bei der Betriebsaufgabe wird die betriebliche Tätigkeit eingestellt und die Wirtschaftsgüter werden entnommen oder einzeln veräußert",
+        "Beide Begriffe bezeichnen denselben Vorgang ohne inhaltlichen Unterschied",
+        "Eine Betriebsaufgabe ist steuerlich stets begünstigter als eine Betriebsveräußerung",
+        "Eine Betriebsveräußerung liegt nur bei unentgeltlicher Übertragung vor"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei der Betriebsveräußerung wird der gesamte Betrieb entgeltlich an einen Erwerber übertragen, während bei der Betriebsaufgabe die betriebliche Tätigkeit beendet und die Wirtschaftsgüter ins Privatvermögen überführt (entnommen) oder im Rahmen der Aufgabe einzeln veräußert werden."
+    },
+    {
+      "id": "est-43",
+      "frage": "Welche Begünstigungen können für Veräußerungsgewinne nach §§ 24 Abs. 4, 37 EStG u.a. zur Anwendung kommen?",
+      "optionen": [
+        "Z.B. ein Freibetrag sowie unter bestimmten Voraussetzungen ein begünstigter Steuersatz (Hälftesteuersatz bzw. Verteilung auf drei Jahre)",
+        "Veräußerungsgewinne unterliegen stets dem vollen Tarif ohne jede Begünstigung",
+        "Begünstigungen stehen ausschließlich Körperschaften zu",
+        "Es existiert keine Begünstigung für Veräußerungsgewinne im EStG"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Für Veräußerungsgewinne können u.a. ein Freibetrag (§ 24 Abs. 4 EStG) sowie unter bestimmten Voraussetzungen (z.B. Erreichen einer Altersgrenze, Erwerbsunfähigkeit oder Tod) eine begünstigte Besteuerung nach § 37 EStG (z.B. Verteilung auf drei Jahre oder Hälftesteuersatz) zur Anwendung kommen."
+    },
+    {
+      "id": "est-44",
+      "frage": "Was regelt die Gebäudebegünstigung bei Betriebsaufgabe (§ 24 Abs. 6 EStG)?",
+      "optionen": [
+        "Unter bestimmten Voraussetzungen kann auf Antrag die Besteuerung der im Gebäude enthaltenen stillen Reserven bei Betriebsaufgabe unterbleiben, wenn das Gebäude zukünftig als Hauptwohnsitz dient bzw. bestimmte Voraussetzungen erfüllt sind",
+        "Gebäude sind bei Betriebsaufgabe immer von der Besteuerung ausgenommen, ohne jede Voraussetzung",
+        "Die Gebäudebegünstigung betrifft ausschließlich unbebaute Grundstücke",
+        "Es gibt keine besondere Regelung für Gebäude bei Betriebsaufgabe"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei Betriebsaufgabe kann unter den Voraussetzungen des § 24 Abs. 6 EStG auf Antrag von der Besteuerung der stillen Reserven des Gebäudes abgesehen werden, insbesondere wenn der Steuerpflichtige das Gebäude zur Befriedigung seines dringenden Wohnbedürfnisses nutzt bzw. die übrigen gesetzlichen Voraussetzungen erfüllt sind."
+    },
+    {
+      "id": "est-45",
+      "frage": "Was sind Werbungskosten (§ 16 EStG)?",
+      "optionen": [
+        "Aufwendungen oder Ausgaben zur Erwerbung, Sicherung oder Erhaltung der Einnahmen bei den außerbetrieblichen (Überschuss-)Einkunftsarten",
+        "Ein anderer Begriff für Betriebsausgaben bei betrieblichen Einkunftsarten",
+        "Werbungskosten betreffen ausschließlich Einkünfte aus Kapitalvermögen",
+        "Werbungskosten sind im EStG nicht definiert"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Werbungskosten (§ 16 EStG) sind das Pendant zu den Betriebsausgaben bei den außerbetrieblichen Einkunftsarten (z.B. nichtselbständige Arbeit, Vermietung und Verpachtung) – Aufwendungen oder Ausgaben zur Erwerbung, Sicherung oder Erhaltung der Einnahmen."
+    },
+    {
+      "id": "est-46",
+      "frage": "Was bedeutet Subsidiarität bei den Einkünften aus Kapitalvermögen (§ 27 EStG)?",
+      "optionen": [
+        "Einkünfte, die ihrer Art nach unter § 27 EStG fallen würden, gehören vorrangig zu einer anderen Einkunftsart, wenn sie tatsächlich im Rahmen eines Betriebes anfallen (z.B. betriebliche Kapitalvermögenserträge zählen zu den betrieblichen Einkünften)",
+        "Kapitalvermögenseinkünfte gehen jeder anderen Einkunftsart immer vor",
+        "Subsidiarität bedeutet, dass Kapitaleinkünfte niemals besteuert werden",
+        "Der Begriff betrifft ausschließlich ausländische Kapitalerträge"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Subsidiarität der Einkünfte aus Kapitalvermögen bedeutet, dass solche Erträge, soweit sie einem Betriebsvermögen zuzurechnen sind, vorrangig der jeweiligen betrieblichen Einkunftsart zugeordnet werden und nicht als eigenständige außerbetriebliche Kapitaleinkünfte erfasst werden."
+    },
+    {
+      "id": "est-47",
+      "frage": "Was bedeutet Endbesteuerung im Zusammenhang mit der Kapitalertragsteuer (KESt)?",
+      "optionen": [
+        "Durch den KESt-Abzug ist die Einkommensteuer für bestimmte Kapitalerträge grundsätzlich abgegolten, eine zusätzliche Veranlagung ist regelmäßig nicht erforderlich",
+        "Endbesteuerung bedeutet, dass auf Kapitalerträge generell keine Steuer anfällt",
+        "Endbesteuerte Erträge müssen zwingend zusätzlich im Rahmen der Veranlagung nochmals versteuert werden",
+        "Endbesteuerung betrifft ausschließlich Einkünfte aus Vermietung und Verpachtung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei endbesteuerten Kapitalerträgen ist mit dem KESt-Abzug die Einkommensteuer grundsätzlich abgegolten (Endbesteuerungswirkung); eine Aufnahme in die Steuererklärung ist daher regelmäßig nicht erforderlich, außer der Steuerpflichtige macht von der Regelbesteuerungsoption Gebrauch."
+    },
+    {
+      "id": "est-48",
+      "frage": "Was versteht man unter Spar- und Wertpapiererträgen iSd § 27 Abs. 1 Z 2 EStG?",
+      "optionen": [
+        "Zinserträge aus Sparbüchern und ähnlichen Veranlagungen sowie bestimmte Erträge aus Forderungswertpapieren",
+        "Ausschließlich Dividenden aus Aktien",
+        "Diese Kategorie umfasst nur Erträge aus Kryptowährungen",
+        "Spar- und Wertpapiererträge sind im EStG nicht als eigene Kategorie vorgesehen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "§ 27 Abs. 1 Z 2 EStG erfasst u.a. Zinserträge aus Geldeinlagen und Forderungswertpapieren bei Kreditinstituten – diese sogenannten Spar- und Wertpapiererträge unterliegen typischerweise dem KESt-Abzug mit Endbesteuerungswirkung."
+    },
+    {
+      "id": "est-49",
+      "frage": "Was bedeutet die 'Regelbesteuerungsoption' bei Einkünften aus Kapitalvermögen (§§ 27a, 97 EStG)?",
+      "optionen": [
+        "Der Steuerpflichtige kann beantragen, dass Kapitalerträge nicht mit dem besonderen Steuersatz, sondern im Rahmen der Veranlagung mit dem allgemeinen Tarif besteuert werden, falls dies günstiger ist – die einbehaltene KESt wird dann angerechnet",
+        "Die Regelbesteuerungsoption ist verpflichtend für alle Kapitalerträge anzuwenden",
+        "Sie bewirkt die generelle Steuerfreiheit aller Kapitalerträge",
+        "Die Option steht ausschließlich Körperschaften offen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Mit der Regelbesteuerungsoption kann beantragt werden, dass Kapitalerträge anstelle des besonderen Steuersatzes (idR 27,5 %) im Rahmen der Veranlagung mit dem progressiven Tarif erfasst werden, was insbesondere bei niedrigem Gesamteinkommen günstiger sein kann; die einbehaltene KESt wird dabei angerechnet bzw. erstattet."
+    },
+    {
+      "id": "est-50",
+      "frage": "Welcher Steuersatz kommt bei privater Vermietung im Regelfall zur Anwendung?",
+      "optionen": [
+        "Einkünfte aus privater Vermietung und Verpachtung unterliegen grundsätzlich dem normalen progressiven Einkommensteuertarif, nicht einem besonderen festen Steuersatz",
+        "Sie unterliegen immer einem einheitlichen Steuersatz von 27,5 %",
+        "Private Vermietungseinkünfte sind grundsätzlich steuerfrei",
+        "Es kommt immer der Steuersatz von 25 % zur Anwendung wie bei Körperschaften"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Einkünfte aus Vermietung und Verpachtung (§ 28 EStG) unterliegen – anders als bestimmte Kapitalerträge oder private Grundstücksveräußerungen – grundsätzlich dem normalen progressiven Einkommensteuertarif des § 33 EStG."
+    },
+    {
+      "id": "est-51",
+      "frage": "Wie wird die AfA-Bemessungsgrundlage bei Vermietung und Verpachtung grundsätzlich ermittelt (§ 16 Abs. 1 Z 8 EStG)?",
+      "optionen": [
+        "Grundsätzlich anhand der (fortgeführten) Anschaffungs- oder Herstellungskosten des Gebäudes, ggf. unter Anwendung gesetzlicher Pauschalsätze zur Aufteilung von Grund und Boden",
+        "Ausschließlich anhand des aktuellen Verkehrswertes zum Zeitpunkt der Vermietung",
+        "Es gibt für die AfA bei Vermietungsobjekten keine eigene Bemessungsgrundlage",
+        "Die AfA-Bemessungsgrundlage entspricht immer dem Einheitswert"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die AfA bei Einkünften aus Vermietung und Verpachtung wird grundsätzlich von den (fortgeführten) Anschaffungs- oder Herstellungskosten des Gebäudes bemessen, wobei der nicht abschreibbare Grundanteil entweder nachgewiesen oder nach den gesetzlichen Pauschalsätzen ausgeschieden werden kann."
+    },
+    {
+      "id": "est-52",
+      "frage": "Worin liegt der Unterschied zwischen Herstellungsaufwand, Instandsetzung und Instandhaltung bei vermieteten Gebäuden?",
+      "optionen": [
+        "Herstellungsaufwand führt zu einer wesentlichen Verbesserung/Erweiterung und wird aktiviert, Instandsetzung erhöht den Nutzwert wesentlich (idR verteilt absetzbar), Instandhaltung dient der laufenden Erhaltung und ist regelmäßig sofort absetzbar",
+        "Es handelt sich um drei Synonyme ohne unterschiedliche steuerliche Behandlung",
+        "Nur Instandhaltungsaufwand ist steuerlich überhaupt relevant",
+        "Herstellungsaufwand ist immer sofort zur Gänze absetzbar wie Instandhaltung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Herstellungsaufwand (wesentliche Verbesserung/Erweiterung) ist regelmäßig zu aktivieren und über die Nutzungsdauer abzuschreiben; Instandsetzungsaufwand (wesentliche Erhöhung des Nutzungswertes oder der Nutzungsdauer) ist bei Vermietung idR verteilt auf mehrere Jahre abzusetzen; Instandhaltungsaufwand (laufende Erhaltung) ist grundsätzlich sofort als Werbungskosten abzugsfähig."
+    },
+    {
+      "id": "est-53",
+      "frage": "Wie wirkt sich eine unentgeltliche Übertragung eines vermieteten Gebäudes auf bereits laufende Fünfzehntelabsetzungen (Instandsetzungsaufwand) aus?",
+      "optionen": [
+        "Der Rechtsnachfolger führt die laufenden Fünfzehntelabsetzungen des Rechtsvorgängers grundsätzlich fort",
+        "Sämtliche offenen Fünfzehntel gehen durch die unentgeltliche Übertragung verloren und können nicht fortgesetzt werden",
+        "Der Rechtsnachfolger muss zwingend neu zu laufen beginnen mit einer vollen Fünfzehntelfrist",
+        "Fünfzehntelabsetzungen sind bei unentgeltlicher Übertragung generell unzulässig"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei unentgeltlichem Erwerb (z.B. Schenkung, Erbschaft) eines vermieteten Gebäudes führt der Rechtsnachfolger nach den Grundsätzen der Buchwertfortführung auch bereits laufende, auf Fünfzehntel verteilte Instandsetzungsaufwendungen des Rechtsvorgängers fort."
+    },
+    {
+      "id": "est-54",
+      "frage": "Welche sonstigen Einkünfte iSd § 29 EStG gibt es u.a.?",
+      "optionen": [
+        "Z.B. bestimmte Renten, Einkünfte aus privaten Grundstücksveräußerungen, Einkünfte aus Leistungen sowie Funktionsgebühren",
+        "Sonstige Einkünfte iSd § 29 EStG umfassen ausschließlich Einkünfte aus nichtselbständiger Arbeit",
+        "§ 29 EStG kennt keine konkret aufgezählten Tatbestände",
+        "Sonstige Einkünfte betreffen nur juristische Personen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Zu den sonstigen Einkünften nach § 29 EStG zählen u.a. bestimmte wiederkehrende Bezüge (Renten, § 29 Z 1), Einkünfte aus privaten Grundstücksveräußerungen (§ 30), Einkünfte aus Leistungen (§ 29 Z 3) sowie Funktionsgebühren (§ 29 Z 4)."
+    },
+    {
+      "id": "est-55",
+      "frage": "Welcher Steuersatz kommt bei Einkünften aus privaten Grundstücksveräußerungen (Immo-ESt) im Regelfall zur Anwendung?",
+      "optionen": [
+        "Grundsätzlich der besondere feste Steuersatz für Grundstücksveräußerungen anstelle des progressiven Tarifs, sofern nicht zur Regelbesteuerung optiert wird",
+        "Immer der volle progressive Tarif ohne jede Sonderregelung",
+        "Private Grundstücksveräußerungen sind in Österreich generell steuerfrei",
+        "Es gilt zwingend der Körperschaftsteuersatz von 23 %"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Einkünfte aus privaten Grundstücksveräußerungen unterliegen grundsätzlich einem besonderen festen Steuersatz (Immobilienertragsteuer) anstelle des progressiven Tarifs; auf Antrag kann zur Regelbesteuerung optiert werden, wenn dies günstiger ist."
+    },
+    {
+      "id": "est-56",
+      "frage": "Welche Befreiungstatbestände kennt die Immobilienertragsteuer u.a.?",
+      "optionen": [
+        "Z.B. die Hauptwohnsitzbefreiung sowie die Herstellerbefreiung für selbst hergestellte Gebäude",
+        "Es gibt keine Befreiungstatbestände von der Immo-ESt",
+        "Befreiungen stehen ausschließlich Körperschaften zu",
+        "Eine Befreiung ist nur bei Grundstücken im Ausland möglich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wichtige Befreiungstatbestände sind insbesondere die Hauptwohnsitzbefreiung (bei Eigennutzung als Hauptwohnsitz unter bestimmten Fristen) und die Herstellerbefreiung (für selbst hergestellte Gebäude, soweit sie nicht der gewerblichen Vermietung dienten – der Grund und Boden ist davon ausgenommen)."
+    },
+    {
+      "id": "est-57",
+      "frage": "Die Herstellerbefreiung gilt für ein Gebäude. Was gilt für den dazugehörigen Grund und Boden bei Veräußerung?",
+      "optionen": [
+        "Der Grund und Boden ist von der Herstellerbefreiung ausgenommen und unterliegt bei Veräußerung grundsätzlich der Immo-ESt (sofern keine andere Befreiung wie die Hauptwohnsitzbefreiung greift)",
+        "Der Grund und Boden ist automatisch in jedem Fall mitbefreit",
+        "Grund und Boden unterliegt nie der Immobilienertragsteuer",
+        "Die Herstellerbefreiung betrifft ausschließlich den Grund und Boden, nicht das Gebäude"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Herstellerbefreiung (§ 30 Abs. 2 Z 2 EStG) erfasst nur das selbst hergestellte Gebäude, nicht den dazugehörigen Grund und Boden; dieser ist daher gesondert zu beurteilen und unterliegt bei Veräußerung der Immo-ESt, sofern keine andere Befreiung (z.B. Hauptwohnsitzbefreiung) zur Anwendung kommt."
+    },
+    {
+      "id": "est-58",
+      "frage": "Wie wird grundsätzlich zwischen Alt- und Neuvermögen bei der Ermittlung der Einkünfte aus Grundstücksveräußerungen unterschieden?",
+      "optionen": [
+        "Altvermögen sind Grundstücke, die zu einem bestimmten gesetzlich festgelegten Stichtag bereits nicht mehr steuerverfangen waren – für sie gelten pauschale Ermittlungsregelungen; Neuvermögen unterliegt der regulären Gewinnermittlung nach tatsächlichen Anschaffungskosten",
+        "Es gibt keinen Unterschied zwischen Alt- und Neuvermögen im EStG",
+        "Altvermögen bezeichnet ausschließlich Grundstücke im Betriebsvermögen",
+        "Die Unterscheidung betrifft ausschließlich bewegliche Wirtschaftsgüter"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Für sogenanntes Altvermögen (am Stichtag 31.3.2012 nicht mehr steuerverfangene Grundstücke) gelten pauschale Regelungen zur Einkünfteermittlung (Differenz aus Veräußerungserlös und einem pauschalen Prozentsatz davon als fiktive Anschaffungskosten); bei Neuvermögen ist die tatsächliche Differenz zwischen Veräußerungserlös und Anschaffungskosten (adaptiert um Herstellungs-/Instandsetzungsaufwand und AfA) maßgeblich."
+    },
+    {
+      "id": "est-59",
+      "frage": "Was gilt für Werbungskosten/Betriebsausgaben im Zusammenhang mit Herstellungs-/Instandsetzungsaufwand bei einem Zinshaus, das (noch) nicht vermietet wird?",
+      "optionen": [
+        "Die Aufwendungen sind mangels Erzielung von Einkünften (noch) nicht als Werbungskosten abzugsfähig, sondern zählen zu den Anschaffungs-/Herstellungskosten, die erst bei einer späteren Veräußerung relevant werden",
+        "Die Aufwendungen können sofort in voller Höhe als Werbungskosten abgesetzt werden, auch ohne aktuelle Vermietung",
+        "Solche Aufwendungen sind generell steuerlich irrelevant und gehen verloren",
+        "Es kommt ausschließlich auf die Höhe des Aufwands an, nicht auf das Vorliegen einer Vermietung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wird ein Gebäude (noch) nicht vermietet, fehlt der für Werbungskosten erforderliche Veranlassungszusammenhang mit Einkünften; Herstellungs- bzw. Instandsetzungsaufwendungen zählen in einem solchen Fall zu den Anschaffungs-/Herstellungskosten und sind erst im Rahmen einer späteren Veräußerung (z.B. bei der Ermittlung der Einkünfte aus privater Grundstücksveräußerung) zu berücksichtigen, nicht als laufende Werbungskosten."
+    },
+    {
+      "id": "est-60",
+      "frage": "Was versteht man unter Funktionsgebühren (§ 29 Z 4 EStG)?",
+      "optionen": [
+        "Bezüge von Funktionären öffentlich-rechtlicher Körperschaften für ihre Funktionsausübung, die als sonstige Einkünfte erfasst werden, soweit sie nicht einer anderen Einkunftsart zuzurechnen sind",
+        "Gebühren, die für die Eintragung ins Firmenbuch zu entrichten sind",
+        "Ein anderer Begriff für Verkehrsabsetzbetrag",
+        "Funktionsgebühren betreffen ausschließlich Einkünfte aus Kapitalvermögen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Funktionsgebühren (§ 29 Z 4 EStG) sind Bezüge, die Funktionäre öffentlich-rechtlicher Körperschaften für die Ausübung ihrer Funktion erhalten und die, soweit sie nicht bereits einer anderen Einkunftsart (z.B. nichtselbständige Arbeit) zuzuordnen sind, als sonstige Einkünfte erfasst werden."
+    },
+    {
+      "id": "est-61",
+      "frage": "Wie ist der Steuertarif des § 33 EStG grundsätzlich aufgebaut?",
+      "optionen": [
+        "Als Stufentarif mit progressiv ansteigenden Grenzsteuersätzen für verschiedene Einkommensstufen",
+        "Als einheitlicher (linearer) Steuersatz unabhängig von der Einkommenshöhe",
+        "Der Steuertarif richtet sich ausschließlich nach dem Familienstand",
+        "Es existiert kein einheitlicher gesetzlicher Tarif"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Einkommensteuertarif des § 33 EStG ist als Stufentarif ausgestaltet: Mit steigendem Einkommen kommen für die jeweils übersteigenden Beträge höhere Grenzsteuersätze zur Anwendung (Progression)."
+    },
+    {
+      "id": "est-62",
+      "frage": "Was bewirken Progressionsermäßigungen für bestimmte Einkünfte nach §§ 37, 38 EStG?",
+      "optionen": [
+        "Für bestimmte außerordentliche Einkünfte (z.B. bestimmte Veräußerungsgewinne, Verwertung von Patentrechten) wird die Steuerprogression durch begünstigte Besteuerungsformen (z.B. Verteilung auf mehrere Jahre, Hälftesteuersatz) abgemildert",
+        "Progressionsermäßigungen führen zu einer generellen Erhöhung des Steuersatzes",
+        "Sie betreffen ausschließlich laufende, regelmäßig wiederkehrende Einkünfte",
+        "§§ 37, 38 EStG regeln ausschließlich die Umsatzsteuer"
+      ],
+      "korrekt": 0,
+      "erklaerung": "§§ 37, 38 EStG sehen für bestimmte außerordentliche bzw. über mehrere Jahre erwirtschaftete Einkünfte (z.B. bestimmte Veräußerungsgewinne, Einkünfte aus der Verwertung von Patentrechten) Progressionsermäßigungen vor, um die durch den Zusammenballung verursachte erhöhte steuerliche Belastung abzumildern."
+    },
+    {
+      "id": "est-63",
+      "frage": "Peter ist Gesellschafter-Geschäftsführer der P-GmbH und zu 25 % beteiligt. Welcher Einkunftsart sind seine Geschäftsführerbezüge typischerweise zuzuordnen?",
+      "optionen": [
+        "Einkünfte aus nichtselbständiger Arbeit (bei Vorliegen eines Dienstverhältnisses bzw. der entsprechenden Voraussetzungen)",
+        "Einkünfte aus selbständiger Arbeit in jedem Fall, unabhängig von der Beteiligungshöhe",
+        "Einkünfte aus Gewerbebetrieb",
+        "Einkünfte aus Kapitalvermögen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei einer Beteiligung von 25 % – also nicht \"mehr als 25 %\" und damit unterhalb der für eine \"wesentliche Beteiligung\" iSd § 22 Z 2 EStG maßgeblichen Grenze – und Vorliegen der übrigen Voraussetzungen eines Dienstverhältnisses werden die Geschäftsführerbezüge eines Gesellschafter-Geschäftsführers regelmäßig den Einkünften aus nichtselbständiger Arbeit zugeordnet; bei einer Beteiligung von mehr als 25 % kämen die Einkünfte nach § 22 Z 2 EStG (sonstige selbständige Arbeit) in Betracht."
+    },
+    {
+      "id": "est-64",
+      "frage": "Was trifft auf beschränkt steuerpflichtige Personen im Hinblick auf den Lohnsteuerabzug zu (§§ 98–102 EStG)?",
+      "optionen": [
+        "Beschränkt Steuerpflichtige unterliegen nur mit ihren inländischen Einkünften der Besteuerung, wobei für bestimmte Einkünfte (z.B. von Grenzgängern) eigene Regelungen zu Steuerabzug und Veranlagung bestehen",
+        "Beschränkt Steuerpflichtige sind von jeder österreichischen Besteuerung generell ausgenommen",
+        "Beschränkt Steuerpflichtige werden stets wie unbeschränkt Steuerpflichtige mit ihrem Welteinkommen besteuert",
+        "Für beschränkt Steuerpflichtige gibt es keine speziellen Regelungen im EStG"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Beschränkt Steuerpflichtige unterliegen nur mit den in § 98 EStG aufgezählten inländischen Einkünften der österreichischen Besteuerung; für bestimmte Konstellationen (z.B. Grenzgänger, Künstler/Sportler) bestehen besondere Vorschriften zum Steuerabzug bzw. zur Veranlagung (§§ 99 bis 102 EStG)."
+    },
+    {
+      "id": "est-65",
+      "frage": "Wie sind Einkommen, Einkünfte und Einnahmen begrifflich voneinander abzugrenzen?",
+      "optionen": [
+        "Einnahmen sind Zuflüsse, aus denen nach Abzug von Ausgaben/Werbungskosten die Einkünfte einer Einkunftsart resultieren; das Einkommen ergibt sich als Summe aller Einkünfte abzüglich weiterer Abzugsposten (z.B. Sonderausgaben)",
+        "Alle drei Begriffe sind im EStG vollkommen gleichbedeutend",
+        "Das Einkommen ist stets identisch mit dem Umsatz eines Unternehmens",
+        "Einkünfte sind immer höher als Einnahmen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Einnahmen sind die Bruttozuflüsse; durch Abzug der damit verbundenen Ausgaben bzw. Werbungskosten ergeben sich die Einkünfte einer Einkunftsart; das Einkommen schließlich ist die Summe aller (positiven und negativen) Einkünfte abzüglich weiterer Abzugsposten wie Sonderausgaben und außergewöhnliche Belastungen – die Bemessungsgrundlage für den Steuertarif."
+    },
+    {
+      "id": "est-66",
+      "frage": "Eine Bäuerin erzielt Einkünfte aus Land- und Forstwirtschaft mit einem Einheitswert/Umsatz, der über der für die Pauschalierung relevanten Grenze liegt. Welche Gewinnermittlungsart kommt typischerweise zur Anwendung?",
+      "optionen": [
+        "Bei Überschreiten der für die Pauschalierung maßgeblichen Grenzen kommt die Gewinnermittlung durch Betriebsvermögensvergleich oder Einnahmen-Ausgaben-Rechnung (§ 4 Abs. 1 bzw. Abs. 3 EStG) zur Anwendung",
+        "Land- und Forstwirte unterliegen ausschließlich der Pauschalierung, unabhängig von der Betriebsgröße",
+        "Es gibt für Land- und Forstwirte keine Gewinnermittlungsvorschriften",
+        "Land- und Forstwirte ermitteln den Gewinn ausschließlich nach § 5 EStG"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Übersteigt ein land- und forstwirtschaftlicher Betrieb die für die Pauschalierung (Vollpauschalierung/Teilpauschalierung) maßgeblichen Grenzen, ist der Gewinn nach den allgemeinen Vorschriften zu ermitteln, regelmäßig im Wege des Betriebsvermögensvergleichs nach § 4 Abs. 1 EStG oder der Einnahmen-Ausgaben-Rechnung."
+    },
+    {
+      "id": "est-67",
+      "frage": "Sind endbesteuerte Einkünfte aus Kapitalvermögen den 'Einkünften' iSd § 2 Abs. 2 EStG zuzurechnen?",
+      "optionen": [
+        "Ja, auch endbesteuerte Kapitaleinkünfte zählen begrifflich zu den Einkünften iSd § 2 EStG, werden aber durch den KESt-Abzug regelmäßig nicht zusätzlich in die Veranlagung beim Gesamteinkommen einbezogen, soweit keine Regelbesteuerung erfolgt",
+        "Endbesteuerte Kapitalerträge sind überhaupt keine Einkünfte im Sinne des EStG",
+        "Endbesteuerte Kapitalerträge erhöhen immer das zu veranlagende Einkommen zusätzlich zur KESt",
+        "Die Frage der Zurechnung zu § 2 Abs. 2 EStG ist gesetzlich nicht geregelt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Auch endbesteuerte Kapitalerträge sind systematisch Einkünfte iSd § 2 EStG; aufgrund der Endbesteuerungswirkung werden sie aber regelmäßig nicht zusätzlich im Rahmen der Veranlagung dem übrigen (progressiv besteuerten) Einkommen hinzugerechnet, es sei denn es wird zur Regelbesteuerung optiert."
+    },
+    {
+      "id": "est-68",
+      "frage": "Ein Kirchenbeitrag von 750 EUR wird geleistet. Bis zu welchem Höchstbetrag ist dieser grundsätzlich als Sonderausgabe abzugsfähig?",
+      "optionen": [
+        "Nur bis zu dem im Gesetz festgelegten Höchstbetrag (der niedriger als 750 EUR ist) – der darüberhinausgehende Teil ist steuerlich nicht abzugsfähig",
+        "Der gesamte Betrag von 750 EUR ist in voller Höhe abzugsfähig, da es keinen Höchstbetrag gibt",
+        "Kirchenbeiträge sind generell nicht als Sonderausgabe abzugsfähig",
+        "Es ist immer der gesamte gezahlte Betrag unabhängig von gesetzlichen Grenzen anzusetzen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Kirchenbeiträge sind als Sonderausgabe nur bis zu einem gesetzlich festgelegten Höchstbetrag abzugsfähig; übersteigt der tatsächlich geleistete Betrag (hier 750 EUR) diesen Höchstbetrag, kann nur der Höchstbetrag steuerlich berücksichtigt werden."
+    },
+    {
+      "id": "est-69",
+      "frage": "Was versteht man unter 'Innenumsätzen' im Zusammenhang mit der Gewinnermittlung (z.B. bei mehreren Betrieben oder verbundenen Bereichen)?",
+      "optionen": [
+        "Umsätze bzw. Leistungsverrechnungen innerhalb desselben Steuersubjekts (z.B. zwischen verschiedenen Betriebsteilen), die steuerlich grundsätzlich nicht gewinnwirksam sind",
+        "Innenumsätze sind ein anderer Begriff für Auslandsumsätze",
+        "Innenumsätze betreffen ausschließlich umsatzsteuerliche Aspekte ohne jede einkommensteuerliche Relevanz",
+        "Jeder Innenumsatz erhöht automatisch den steuerpflichtigen Gewinn"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Innenumsätze sind Leistungsbeziehungen innerhalb ein und desselben Steuersubjekts (z.B. zwischen verschiedenen Teilbetrieben eines Einzelunternehmers); da es sich nicht um Geschäfte mit Dritten handelt, sind sie für die steuerliche Gewinnermittlung grundsätzlich neutral und nicht gewinnerhöhend zu erfassen."
+    },
+    {
+      "id": "est-70",
+      "frage": "Wie wird der investitionsbedingte Gewinnfreibetrag berechnet, wenn z.B. von einem Gewinn von 93.000 EUR der Grundfreibetrag (für die ersten 30.000 EUR) bereits automatisch zusteht und für den übersteigenden Gewinn begünstigte Investitionen (hier 55.000 EUR, da der PKW nicht begünstigt ist) getätigt wurden?",
+      "optionen": [
+        "Der investitionsbedingte Gewinnfreibetrag wird auf Basis der tatsächlich getätigten begünstigten Investitionen (hier 55.000 EUR) und des dafür anwendbaren Prozentsatzes der jeweiligen Staffel berechnet, begrenzt durch den verbleibenden Gewinn nach Grundfreibetrag",
+        "Der investitionsbedingte Gewinnfreibetrag wird unabhängig von der Höhe der Investitionen immer pauschal mit 13 % des Gesamtgewinns angesetzt",
+        "Da bereits ein Grundfreibetrag zusteht, kann kein investitionsbedingter Gewinnfreibetrag mehr geltend gemacht werden",
+        "Der PKW darf trotz fehlender Begünstigung in die Berechnung des investitionsbedingten Gewinnfreibetrages einbezogen werden"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Über den automatisch zustehenden Grundfreibetrag hinaus kann der investitionsbedingte Gewinnfreibetrag im Ausmaß der tatsächlich getätigten begünstigten Investitionen geltend gemacht werden (hier ohne den nicht begünstigten PKW), wobei sich der anzuwendende Prozentsatz nach der jeweiligen Gewinnstaffel (gestaffelt von 15 % bis 13 % bzw. niedriger bei höheren Gewinnen) richtet und durch den verbleibenden Gewinn gedeckelt ist."
+    }
+  ]
+}

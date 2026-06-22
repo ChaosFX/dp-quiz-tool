@@ -1,0 +1,173 @@
+{
+  "fach": "FinStrG",
+  "fragen": [
+    {
+      "id": "finstrg-01",
+      "frage": "Welche Schuldform erfordert § 34 FinStrG (grob fahrlässige Abgabenverkürzung)?",
+      "optionen": [
+        "Vorsatz (Wissentlichkeit)",
+        "Leichte Fahrlässigkeit",
+        "Grobe Fahrlässigkeit",
+        "Bedingter Vorsatz reicht nicht aus"
+      ],
+      "korrekt": 2,
+      "erklaerung": "§ 34 FinStrG verlangt grobe Fahrlässigkeit als Schuldform. Das ist eine ungewöhnliche und auffallende Sorgfaltsverletzung, bei der der Eintritt des Erfolges als wahrscheinlich (nicht bloß möglich) vorhersehbar war."
+    },
+    {
+      "id": "finstrg-02",
+      "frage": "Welche Schuldform ist beim Grundtatbestand der Abgabenhinterziehung nach § 33 FinStrG erforderlich?",
+      "optionen": [
+        "Grobe Fahrlässigkeit genügt",
+        "Vorsatz, wobei für die Verkürzung Wissentlichkeit erforderlich ist",
+        "Leichte Fahrlässigkeit genügt",
+        "Es ist keine bestimmte Schuldform erforderlich"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 33 FinStrG verlangt Vorsatz; hinsichtlich des Verkürzungserfolges ist nach hA Wissentlichkeit (dolus directus 2. Grades) erforderlich, hinsichtlich der Pflichtverletzung reicht bedingter Vorsatz."
+    },
+    {
+      "id": "finstrg-03",
+      "frage": "Jemand gibt bewusst eine falsche Jahreserklärung ab, weil er finanzielle Schwierigkeiten hat. Es ist ihm bewusst, dass die Erklärung falsch ist, er findet sich aber damit ab. Welche Norm ist einschlägig?",
+      "optionen": [
+        "§ 34 FinStrG – grob fahrlässige Abgabenverkürzung",
+        "§ 33 FinStrG – Abgabenhinterziehung",
+        "§ 49 FinStrG – Finanzordnungswidrigkeit",
+        "Keine Strafbarkeit, da nur Schwierigkeiten vorlagen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das 'Sich-Abfinden' mit der Unrichtigkeit beschreibt bedingten Vorsatz (dolus eventualis), der für die Pflichtverletzung nach § 33 FinStrG ausreicht; in Kombination mit dem bewussten Abgeben einer falschen Erklärung liegt Abgabenhinterziehung vor."
+    },
+    {
+      "id": "finstrg-04",
+      "frage": "Welche Täterschaftsformen kennt das FinStrG?",
+      "optionen": [
+        "Nur unmittelbare Täterschaft",
+        "Unmittelbarer Täter, Bestimmungstäter und Beitragstäter",
+        "Nur Bestimmungstäter und Beitragstäter",
+        "Haupttäter und Mittäter ohne weitere Unterscheidung"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 11 FinStrG unterscheidet drei Täterschaftsformen: unmittelbarer Täter (führt die Tat selbst aus), Bestimmungstäter (veranlasst einen anderen zur Tat) und Beitragstäter (leistet sonst einen Beitrag zur Tatausführung)."
+    },
+    {
+      "id": "finstrg-05",
+      "frage": "Welche Voraussetzungen müssen für eine wirksame Selbstanzeige nach § 29 FinStrG u.a. erfüllt sein?",
+      "optionen": [
+        "Darlegung der Verfehlung, Offenlegung der bedeutsamen Umstände und fristgerechte Entrichtung der verkürzten Beträge",
+        "Es genügt die bloße mündliche Ankündigung gegenüber dem Sachbearbeiter",
+        "Die Selbstanzeige muss erst nach Beginn einer Betriebsprüfung erfolgen",
+        "Eine Selbstanzeige ist nur bei Finanzvergehen mit Vorsatz möglich, nicht bei Fahrlässigkeit"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wesentliche Voraussetzungen sind u.a. Darlegung der Verfehlung, Offenlegung aller bedeutsamen Umstände, Täternennung, keine Sperrgründe (z.B. bereits erfolgte Tatentdeckung oder laufende Prüfungshandlungen) und die fristgerechte Entrichtung der verkürzten Beträge."
+    },
+    {
+      "id": "finstrg-06",
+      "frage": "Wie hoch ist die Strafdrohung bei Finanzordnungswidrigkeiten nach §§ 49–52 FinStrG grundsätzlich ausgestaltet?",
+      "optionen": [
+        "Ausschließlich Freiheitsstrafe",
+        "Ausschließlich Geldstrafe bis zu einem im Gesetz festgelegten Höchstbetrag bzw. Prozentsatz des Verkürzungsbetrages",
+        "Es ist überhaupt keine Sanktion vorgesehen, nur eine Ermahnung",
+        "Lebenslange Geldstrafe ohne Obergrenze"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Finanzordnungswidrigkeiten werden grundsätzlich mit Geldstrafe geahndet, deren Höhe sich je nach Tatbestand (z.B. § 49 FinStrG) an einem Höchstbetrag oder einem Prozentsatz des nicht entrichteten Betrages orientiert."
+    },
+    {
+      "id": "finstrg-07",
+      "frage": "Welche Arten von Strafen kann das FinStrG für Finanzvergehen vorsehen?",
+      "optionen": [
+        "Nur Geldstrafe",
+        "Geldstrafe und (bei gerichtlich strafbaren Delikten) Freiheitsstrafe",
+        "Nur Freiheitsstrafe",
+        "Nur Verwarnung ohne weitere Konsequenz"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das FinStrG sieht primär Geldstrafen vor; bei besonders schweren, gerichtlich zu ahndenden Finanzvergehen (z.B. Abgabenbetrug, bandenmäßige Begehung) ist auch eine Freiheitsstrafe möglich."
+    },
+    {
+      "id": "finstrg-08",
+      "frage": "Was zählt zu den Aufgaben der Finanzpolizei?",
+      "optionen": [
+        "Ausschließlich die Erlassung von Abgabenbescheiden",
+        "Kontroll- und Überwachungstätigkeiten zur Bekämpfung von Sozial- und Steuerbetrug (z.B. Kontrollen vor Ort, Schwerpunktaktionen)",
+        "Nur die Vertretung der Finanzverwaltung vor Gericht",
+        "Ausschließlich die interne Revision des Finanzamtes"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Finanzpolizei führt u.a. Kontrollen vor Ort durch (z.B. Baustellen-, Lokal- oder Marktkontrollen), bekämpft Sozialbetrug und Schwarzarbeit und unterstützt bei der Aufdeckung von Finanzvergehen."
+    },
+    {
+      "id": "finstrg-09",
+      "frage": "Wann liegt bereits eine Verfolgungshandlung im Sinne des FinStrG vor?",
+      "optionen": [
+        "Erst mit der rechtskräftigen Verurteilung",
+        "Bereits bei nach außen erkennbaren behördlichen Schritten wie Einleitung des Strafverfahrens, Beschuldigtenladung oder einer Prüfung nach § 99 FinStrG",
+        "Erst wenn der Abgabepflichtige eine Selbstanzeige erstattet",
+        "Eine bloße Buchungsmitteilung kann niemals eine Verfolgungshandlung darstellen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Verfolgungshandlungen sind nach außen erkennbare Amtshandlungen einer zuständigen Behörde gegen eine bestimmte Person wegen eines konkreten Tatverdachts, z.B. Einleitung des Strafverfahrens, Beschuldigtenladung oder eine Prüfung gem. § 99 FinStrG. Auch eine entsprechend gestaltete Buchungsmitteilung kann je nach Fall darunterfallen."
+    },
+    {
+      "id": "finstrg-10",
+      "frage": "Welche Befugnisse stehen der Finanzstrafbehörde im Ermittlungsverfahren typischerweise zu?",
+      "optionen": [
+        "Beschlagnahme und Hausdurchsuchung (unter den gesetzlichen Voraussetzungen)",
+        "Folter zur Beweismittelbeschaffung",
+        "Verhängung von Schubhaft durch die Finanzstrafbehörde",
+        "Unbegrenzte Überwachung ohne jede gesetzliche Grundlage"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Finanzstrafbehörde stehen u.a. Beschlagnahme und (unter gerichtlicher Mitwirkung) Hausdurchsuchung als Zwangsmittel zur Verfügung. Folter und Schubhaft sind keine Befugnisse der Finanzstrafbehörde."
+    },
+    {
+      "id": "finstrg-11",
+      "frage": "Ist § 39 FinStrG (Abgabenbetrug) ausschließlich gerichtlich zu ahnden?",
+      "optionen": [
+        "Ja, § 39 FinStrG fällt in die gerichtliche Zuständigkeit",
+        "Nein, ausschließlich die Finanzstrafbehörde ist zuständig",
+        "Es hängt vom strafbestimmenden Wertbetrag ab, aber das Gericht ist nie zuständig",
+        "Die Zuständigkeit liegt immer beim Bundesfinanzgericht"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Abgabenbetrug nach § 39 FinStrG ist ein gerichtlich strafbares Finanzvergehen und fällt damit stets in die Zuständigkeit des Gerichts, unabhängig vom Wertbetrag."
+    },
+    {
+      "id": "finstrg-12",
+      "frage": "Welche Rechte hat ein Beschuldigter im Finanzstrafverfahren?",
+      "optionen": [
+        "Er muss in jedem Fall aussagen",
+        "Er hat u.a. das Recht, nicht auszusagen, sowie das Recht auf einen Verteidiger und ggf. einen Dolmetscher",
+        "Er hat kein Recht auf Beiziehung eines Verteidigers",
+        "Ein Dolmetscher steht ihm in keinem Fall zu"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Dem Beschuldigten stehen grundlegende Verfahrensrechte zu: das Recht, die Aussage zu verweigern, das Recht auf Beiziehung eines Verteidigers sowie bei Bedarf das Recht auf einen Dolmetscher."
+    },
+    {
+      "id": "finstrg-13",
+      "frage": "Was ist die Aufgabe der Geschäftsstelle für Finanzstrafsachen?",
+      "optionen": [
+        "Sie erstellt ausschließlich die Lohnverrechnung der Finanzämter",
+        "Sie unterstützt die Finanzstrafbehörde organisatorisch und administrativ bei der Abwicklung von Finanzstrafverfahren",
+        "Sie ist für die Veranlagung der Einkommensteuer zuständig",
+        "Sie vertritt ausschließlich die Republik Österreich bei Zivilprozessen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Geschäftsstelle für Finanzstrafsachen übernimmt organisatorische und administrative Unterstützungsaufgaben im Zusammenhang mit der Abwicklung von Finanzstrafverfahren bei der zuständigen Finanzstrafbehörde."
+    },
+    {
+      "id": "finstrg-14",
+      "frage": "Welche Qualifikation sieht das FinStrG für bandenmäßige Begehung bzw. Abgabenbetrug vor?",
+      "optionen": [
+        "Es gibt keine Strafverschärfung, der Strafrahmen bleibt immer gleich",
+        "§§ 38a und 39 FinStrG sehen strafverschärfende Qualifikationen für bandenmäßige Begehung bzw. Abgabenbetrug vor",
+        "Bandenmäßige Begehung führt automatisch zur Straffreiheit",
+        "Diese Qualifikationen betreffen ausschließlich Finanzordnungswidrigkeiten"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 38a FinStrG regelt die Qualifikation der bandenmäßigen Begehung, § 39 FinStrG den Abgabenbetrug – beide sehen im Vergleich zum Grunddelikt verschärfte Strafdrohungen vor."
+    }
+  ]
+}

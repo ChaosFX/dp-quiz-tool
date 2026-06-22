@@ -1,0 +1,47 @@
+{
+  "fach": "KöSt",
+  "thema": "Überblick & Wesen KöSt",
+  "quelle_note": "Körperschaftsteuer/Überblick & Wesen KöSt.md",
+  "karten": [
+    {
+      "id": "koest-ueberblick-wesen-koest-01",
+      "frage": "Welche drei Personentypen kennt das Ertragsteuerrecht - und wer ist Steuersubjekt?",
+      "antwort": "Natürliche Person (Subjekt des EStG), Personengesellschaft (**kein** eigenes Steuersubjekt -> Durchgriffsprinzip) und Körperschaft (Subjekt des KStG -> Trennungsprinzip)."
+    },
+    {
+      "id": "koest-ueberblick-wesen-koest-02",
+      "frage": "Was besagt das Trennungsprinzip - und worin unterscheidet es sich von Durchgriffsprinzip?",
+      "antwort": "**Trennung:** Körperschaft und Gesellschafter sind getrennte Steuersubjekte; Verträge zwischen ihnen werden anerkannt.\n**Durchgriff (Mitunternehmerschaft):** Einkünfte werden direkt den Gesellschafter zugrechnet; Verträge werden nicht anerkannt (-> Sonderbetriebseinnahmen)."
+    },
+    {
+      "id": "koest-ueberblick-wesen-koest-03",
+      "frage": "Wie prüft man, ob ein Vertrag zwischen Körperschaft und Gesellschafter steuerlich anerkannt wird?",
+      "antwort": "Über die **Angehörigenjudikatur**: Publizität, klarer Inhalt, Fremdvergleich. **Alle drei** Kriterien müssen erfüllt sein, sonst verdeckte Ausschüttung/Einlage."
+    },
+    {
+      "id": "koest-ueberblick-wesen-koest-04",
+      "frage": "Erkläre die zweistufige Besteuerung an einem Zahlenbeispiel.",
+      "antwort": "Gewinn GmbH 250.000 -> Ebene 1: 23 % KöSt = 57.500.\nAusschüttung des versteuerten Gewinns (zB. 100.00) -> Ebene 2: 27,5 % KESt = 27.500\nNetto 72.500 beim Gesellschafter (endbesteuert)."
+    },
+    {
+      "id": "koest-ueberblick-wesen-koest-05",
+      "frage": "Welche Einkünfte hat der Gesellschafter bei Vergütung für Arbeitsleistung?",
+      "antwort": "Mit org. Eingliederung & Beteiligung > 25 % -> **selbständige Arbeit** (§ 22 Z 2). Mit Eingliederung & ≤ 25 % -> **nichtselbständige Arbeit**. Ohne Eingliederung (Werkvertrag, gewerberechtl. GF) -> i.d.R. **Gewerbebetrieb**."
+    },
+    {
+      "id": "koest-ueberblick-wesen-koest-06",
+      "frage": "Was ist die Beteiligungsertragsbefreiung und welches Problem löst sie?",
+      "antwort": "§ 10 KStG: Empfangene Ausschüttungen sind bei einer juristischen Person KöSt-frei. Verhindern die **Mehrfachbesteuerung** desselben Gewinns in Beteiligungsketten."
+    },
+    {
+      "id": "koest-ueberblick-wesen-koest-07",
+      "frage": "Wann besteht KESt-(Be)freiung, wenn eine Körperschaft Gesellschafter ist?",
+      "antwort": "Beteiligung **10 % - 100 %** -> KESt-Befreiung § 94 Z 2 EStG. Beteiligung **< 10  %** -> KESt-Pflichtig, aber Wahlrecht § 93 Abs 1a EStG (ab 2024: 23 % statt 27,5 %); die KESt ist anrechen-/erstattbar."
+    },
+    {
+      "id": "koest-ueberblick-wesen-koest-08",
+      "frage": "Was bewirkt § 7 Abs 3 KStG?",
+      "antwort": "**Einkünftetransformation**: Bei buchführungspflichtigen Körperschaften gelten sämtliche Einkünfte als Einkünfte aus Gewerbebetrieb."
+    }
+  ]
+}

@@ -1,0 +1,1518 @@
+{
+  "nodes": [
+    {
+      "id": "Bundesabgabenordnung/BAO-Merksätze",
+      "label": "BAO – Merksätze (laufende Sammlung)",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/BAO-Merksätze.md"
+    },
+    {
+      "id": "Bundesabgabenordnung/Ermessen",
+      "label": "Ermessen",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Ermessen.md"
+    },
+    {
+      "id": "Bundesabgabenordnung/Haftung",
+      "label": "Haftung",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Haftung.md"
+    },
+    {
+      "id": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
+      "label": "Wirtschaftliche Betrachtungsweise",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise.md"
+    },
+    {
+      "id": "Bundesabgabenordnung/Überblick & Wesen BAO",
+      "label": "Überblick & Wesen BAO",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Überblick & Wesen BAO.md"
+    },
+    {
+      "id": "Einkommensteuer/AfA",
+      "label": "AfA - Absetzung für Abnutzung (§§ 7, 8)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/AfA.md"
+    },
+    {
+      "id": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
+      "label": "Betriebseinnahmen & Betriebsausgaben",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben.md"
+    },
+    {
+      "id": "Einkommensteuer/Betriebsvermögen",
+      "label": "Betriebsvermögen",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Betriebsvermögen.md"
+    },
+    {
+      "id": "Einkommensteuer/Betriebsvermögensvergleich",
+      "label": "Betriebsvermögensvergleich (BV-Vergleich)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Betriebsvermögensvergleich.md"
+    },
+    {
+      "id": "Einkommensteuer/Bewertung Wirtschaftsgüter",
+      "label": "Bewertung der Wirtschaftsgüter (§ 6)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Bewertung Wirtschaftsgüter.md"
+    },
+    {
+      "id": "Einkommensteuer/Buchführungspflicht",
+      "label": "Buchführungspflicht",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Buchführungspflicht.md"
+    },
+    {
+      "id": "Einkommensteuer/Einkunftsarten",
+      "label": "Einkunftsarten (Überblick)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Einkunftsarten.md"
+    },
+    {
+      "id": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "label": "Einnahmen-Ausgaben-Rechnung (EAR)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Einnahmen Ausgaben Rechnung.md"
+    },
+    {
+      "id": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "label": "Gewinnermittlung - Überblick",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Gewinnermittlung - Überblick.md"
+    },
+    {
+      "id": "Einkommensteuer/ImmoESt",
+      "label": "ImmoESt",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/ImmoESt.md"
+    },
+    {
+      "id": "Einkommensteuer/Liebhaberei",
+      "label": "Liebhaberei",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Liebhaberei.md"
+    },
+    {
+      "id": "Einkommensteuer/Nicht abzugsfähige Aufwendungen",
+      "label": "Nicht abzugsfähige Aufwendungen",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Nicht abzugsfähige Aufwendungen.md"
+    },
+    {
+      "id": "Einkommensteuer/Pauschalierung",
+      "label": "Pauschalierung",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Pauschalierung.md"
+    },
+    {
+      "id": "Einkommensteuer/Persönliche Einkommenszurechnung",
+      "label": "Persönliche Einkommenszurechnung",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Persönliche Einkommenszurechnung.md"
+    },
+    {
+      "id": "Einkommensteuer/Persönliche Steuerpflicht",
+      "label": "Persönliche Steuerpflicht",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Persönliche Steuerpflicht.md"
+    },
+    {
+      "id": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "label": "Prinzipien der Einkommensteuer",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Prinzipien der Einkommensteuer.md"
+    },
+    {
+      "id": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
+      "label": "Sachliche Steuerpflicht Einkommen",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Sachliche Steuerpflicht Einkommen.md"
+    },
+    {
+      "id": "Einkommensteuer/Sonderausgaben",
+      "label": "Sonderausgaben",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Sonderausgaben.md"
+    },
+    {
+      "id": "Einkommensteuer/Steuerbefreiungen",
+      "label": "Steuerbefreiungen (§ 3 EStG)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Steuerbefreiungen.md"
+    },
+    {
+      "id": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung",
+      "label": "Verlassenschaft & Erbauseinandersetzung",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung.md"
+    },
+    {
+      "id": "Einkommensteuer/Verlustausgleich",
+      "label": "Verlustausgleich",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Verlustausgleich.md"
+    },
+    {
+      "id": "Einkommensteuer/Verlustvortrag",
+      "label": "Verlustvortrag",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Verlustvortrag.md"
+    },
+    {
+      "id": "Einkommensteuer/Vermeidung von Doppelbesteuerung",
+      "label": "Vermeidung von Doppelbesteuerung",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Vermeidung von Doppelbesteuerung.md"
+    },
+    {
+      "id": "Einkommensteuer/Verträge Nahe Angehörige",
+      "label": "Verträge Nahe Angehörige",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Verträge Nahe Angehörige.md"
+    },
+    {
+      "id": "Einkommensteuer/Zeitliche Zurechnung",
+      "label": "Zeitliche Zurechnung",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Zeitliche Zurechnung.md"
+    },
+    {
+      "id": "Einkommensteuer/Überblick & Wesen ESt",
+      "label": "Überblick & Wesen der Einkommensteuer",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Überblick & Wesen ESt.md"
+    },
+    {
+      "id": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht",
+      "label": "Beginn & Ende der Steuerpflicht",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht.md"
+    },
+    {
+      "id": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "label": "Betriebe gewerblicher Art (BgA)",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA).md"
+    },
+    {
+      "id": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
+      "label": "Persönliche Steuerpflicht KöSt",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt.md"
+    },
+    {
+      "id": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "label": "Steuerbefreiungen KöSt",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Steuerbefreiungen KöSt.md"
+    },
+    {
+      "id": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "label": "Überblick & Wesen KöSt",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Überblick & Wesen KöSt.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 1 BAO",
+      "label": "Anwendungsbereich (§§ 1 - 3)",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 1 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 12 BAO",
+      "label": "Gesellschafterhaftung",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 12 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 14 BAO",
+      "label": "Betriebserwerberhaftung",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 14 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 19 BAO",
+      "label": "Gesamtrechtsnachfolge",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 19 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 20 BAO",
+      "label": "Ermessen",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 20 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 21 BAO",
+      "label": "Wirtschaftliche Betrachtungsweise",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 21 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 26 BAO",
+      "label": "Wohnsitz",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 26 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 4 BAO",
+      "label": "Abgabenanspruch",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 4 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 6 BAO",
+      "label": "Gesamtschuld",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 6 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 9 BAO",
+      "label": "Vertreterhaftung",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 9 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 1 EStG",
+      "label": "Persönliche Steuerpflicht",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 1 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 18 EStG",
+      "label": "Sonderausgaben",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 18 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 19 EStG",
+      "label": "Zeitliche Zuordnung",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 19 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 2 EStG",
+      "label": "Einkommen",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 2 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 20 EStG",
+      "label": "Nicht abzugsfähige Aufwendungen",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 20 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 3 EStG",
+      "label": "Steuerbefreiungen",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 3 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 4 EStG",
+      "label": "§ 4 EStG - Gewinn, Betriebsausgaben",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 4 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 5 EStG",
+      "label": "§ 5 EStG - Gewinnermittlung (RLP Gewerbetreibende)",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 5 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/KStG/§ 1 KStG",
+      "label": "Persönliche Steuerpflicht",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 1 KStG.md"
+    },
+    {
+      "id": "Rechtsquellen/KStG/§ 2 KStG",
+      "label": "Betrieb gewerblicher Art einer Körperschaft öffentlichen Rechts",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 2 KStG.md"
+    },
+    {
+      "id": "Rechtsquellen/KStG/§ 4 KStG",
+      "label": "Beginn und Ende der Steuerpflicht",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 4 KStG.md"
+    },
+    {
+      "id": "Rechtsquellen/KStG/§ 5 KStG",
+      "label": "Persönliche Steuerbefreiungen",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 5 KStG.md"
+    },
+    {
+      "id": "Rechtsquellen/UStG/§ 1 UStG",
+      "label": "Steuerbare Umsätze",
+      "fach": "USt",
+      "pfad": "Rechtsquellen/UStG/§ 1 UStG.md"
+    },
+    {
+      "id": "Rechtsquellen/UStG/§ 2 UStG",
+      "label": "Unternehmer, Unternehmen",
+      "fach": "USt",
+      "pfad": "Rechtsquellen/UStG/§ 2 UStG.md"
+    },
+    {
+      "id": "Umsatzsteuer/Leistungsbegriff USt",
+      "label": "Leistungsbegriff USt",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Leistungsbegriff USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Steuerbare Tatbestände USt",
+      "label": "Steuerbare Tatbestände § 1 UStG",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Steuerbare Tatbestände USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Unternehmer USt",
+      "label": "Unternehmer",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Unternehmer USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Überblick & Wesen UStG",
+      "label": "Überblick & Wesen UStG",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Überblick & Wesen UStG.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bundesabgabenordnung/Ermessen",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Ermessen",
+      "target": "Rechtsquellen/BAO/§ 6 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Ermessen",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Ermessen",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Haftung",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Haftung",
+      "target": "Rechtsquellen/BAO/§ 9 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Haftung",
+      "target": "Rechtsquellen/BAO/§ 12 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Haftung",
+      "target": "Rechtsquellen/BAO/§ 14 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Haftung",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Haftung",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
+      "target": "Rechtsquellen/BAO/§ 21 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
+      "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
+    },
+    {
+      "source": "Bundesabgabenordnung/Überblick & Wesen BAO",
+      "target": "Rechtsquellen/BAO/§ 1 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Überblick & Wesen BAO",
+      "target": "Umsatzsteuer/Überblick & Wesen UStG"
+    },
+    {
+      "source": "Bundesabgabenordnung/Überblick & Wesen BAO",
+      "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Bundesabgabenordnung/Überblick & Wesen BAO",
+      "target": "Einkommensteuer/Überblick & Wesen ESt"
+    },
+    {
+      "source": "Bundesabgabenordnung/Überblick & Wesen BAO",
+      "target": "Rechtsquellen/BAO/§ 4 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Überblick & Wesen BAO",
+      "target": "Rechtsquellen/BAO/§ 6 BAO"
+    },
+    {
+      "source": "Einkommensteuer/AfA",
+      "target": "Einkommensteuer/Bewertung Wirtschaftsgüter"
+    },
+    {
+      "source": "Einkommensteuer/AfA",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/AfA",
+      "target": "Einkommensteuer/Persönliche Einkommenszurechnung"
+    },
+    {
+      "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
+      "target": "Einkommensteuer/Nicht abzugsfähige Aufwendungen"
+    },
+    {
+      "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
+      "target": "Einkommensteuer/Zeitliche Zurechnung"
+    },
+    {
+      "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Einkommensteuer/AfA"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Einkommensteuer/Bewertung Wirtschaftsgüter"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögensvergleich",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögensvergleich",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögensvergleich",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögensvergleich",
+      "target": "Einkommensteuer/Buchführungspflicht"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögensvergleich",
+      "target": "Einkommensteuer/Bewertung Wirtschaftsgüter"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögensvergleich",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögensvergleich",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
+      "target": "Einkommensteuer/AfA"
+    },
+    {
+      "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Buchführungspflicht",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Buchführungspflicht",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Buchführungspflicht",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Einkommensteuer/Buchführungspflicht",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Buchführungspflicht",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Einkunftsarten",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Einkunftsarten",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Einkunftsarten",
+      "target": "Einkommensteuer/Liebhaberei"
+    },
+    {
+      "source": "Einkommensteuer/Einkunftsarten",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Einkommensteuer/Zeitliche Zurechnung"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Einkommensteuer/Buchführungspflicht"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Rechtsquellen/EStG/§ 19 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Einkommensteuer/AfA"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Einkommensteuer/ImmoESt"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Einkommensteuer/Pauschalierung"
+    },
+    {
+      "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Einkommensteuer/Zeitliche Zurechnung"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Einkommensteuer/Pauschalierung"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Einkommensteuer/Buchführungspflicht"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Liebhaberei",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Einkommensteuer/Liebhaberei",
+      "target": "Einkommensteuer/Verlustausgleich"
+    },
+    {
+      "source": "Einkommensteuer/Liebhaberei",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Nicht abzugsfähige Aufwendungen",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Nicht abzugsfähige Aufwendungen",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Einkommensteuer/Nicht abzugsfähige Aufwendungen",
+      "target": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben"
+    },
+    {
+      "source": "Einkommensteuer/Nicht abzugsfähige Aufwendungen",
+      "target": "Einkommensteuer/Steuerbefreiungen"
+    },
+    {
+      "source": "Einkommensteuer/Nicht abzugsfähige Aufwendungen",
+      "target": "Einkommensteuer/Sonderausgaben"
+    },
+    {
+      "source": "Einkommensteuer/Pauschalierung",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Pauschalierung",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Einkommensteuer/Pauschalierung",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Persönliche Einkommenszurechnung",
+      "target": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung"
+    },
+    {
+      "source": "Einkommensteuer/Persönliche Einkommenszurechnung",
+      "target": "Einkommensteuer/Verträge Nahe Angehörige"
+    },
+    {
+      "source": "Einkommensteuer/Persönliche Einkommenszurechnung",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Einkommensteuer/Persönliche Einkommenszurechnung",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Persönliche Steuerpflicht",
+      "target": "Rechtsquellen/EStG/§ 1 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Persönliche Steuerpflicht",
+      "target": "Rechtsquellen/BAO/§ 26 BAO"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Einkommensteuer/ImmoESt"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Einkommensteuer/Sonderausgaben"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Rechtsquellen/EStG/§ 18 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Einkommensteuer/Verlustausgleich"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Einkommensteuer/Zeitliche Zurechnung"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Einkommensteuer/Verlustvortrag"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Einkommensteuer/Persönliche Steuerpflicht"
+    },
+    {
+      "source": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
+      "target": "Einkommensteuer/Persönliche Steuerpflicht"
+    },
+    {
+      "source": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
+      "target": "Einkommensteuer/Liebhaberei"
+    },
+    {
+      "source": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
+      "target": "Einkommensteuer/Verlustausgleich"
+    },
+    {
+      "source": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
+      "target": "Einkommensteuer/Sonderausgaben"
+    },
+    {
+      "source": "Einkommensteuer/Steuerbefreiungen",
+      "target": "Rechtsquellen/EStG/§ 3 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Steuerbefreiungen",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Steuerbefreiungen",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Einkommensteuer/Steuerbefreiungen",
+      "target": "Einkommensteuer/Nicht abzugsfähige Aufwendungen"
+    },
+    {
+      "source": "Einkommensteuer/Steuerbefreiungen",
+      "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
+    },
+    {
+      "source": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung",
+      "target": "Einkommensteuer/Persönliche Einkommenszurechnung"
+    },
+    {
+      "source": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung",
+      "target": "Einkommensteuer/Verlustvortrag"
+    },
+    {
+      "source": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung",
+      "target": "Einkommensteuer/Verträge Nahe Angehörige"
+    },
+    {
+      "source": "Einkommensteuer/Verlustausgleich",
+      "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
+    },
+    {
+      "source": "Einkommensteuer/Verlustausgleich",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Verlustausgleich",
+      "target": "Einkommensteuer/Liebhaberei"
+    },
+    {
+      "source": "Einkommensteuer/Verlustausgleich",
+      "target": "Einkommensteuer/Verlustvortrag"
+    },
+    {
+      "source": "Einkommensteuer/Verlustausgleich",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Einkommensteuer/Verlustvortrag",
+      "target": "Einkommensteuer/Sonderausgaben"
+    },
+    {
+      "source": "Einkommensteuer/Verlustvortrag",
+      "target": "Rechtsquellen/EStG/§ 18 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Verlustvortrag",
+      "target": "Einkommensteuer/Verlustausgleich"
+    },
+    {
+      "source": "Einkommensteuer/Verlustvortrag",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Einkommensteuer/Vermeidung von Doppelbesteuerung",
+      "target": "Rechtsquellen/EStG/§ 1 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Vermeidung von Doppelbesteuerung",
+      "target": "Einkommensteuer/Persönliche Steuerpflicht"
+    },
+    {
+      "source": "Einkommensteuer/Verträge Nahe Angehörige",
+      "target": "Einkommensteuer/Persönliche Einkommenszurechnung"
+    },
+    {
+      "source": "Einkommensteuer/Verträge Nahe Angehörige",
+      "target": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung"
+    },
+    {
+      "source": "Einkommensteuer/Zeitliche Zurechnung",
+      "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
+    },
+    {
+      "source": "Einkommensteuer/Zeitliche Zurechnung",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Zeitliche Zurechnung",
+      "target": "Rechtsquellen/EStG/§ 19 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Zeitliche Zurechnung",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Zeitliche Zurechnung",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Einkommensteuer/Zeitliche Zurechnung",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Einkommensteuer/Zeitliche Zurechnung",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Zeitliche Zurechnung",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Überblick & Wesen ESt",
+      "target": "Rechtsquellen/EStG/§ 1 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Überblick & Wesen ESt",
+      "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Einkommensteuer/Überblick & Wesen ESt",
+      "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
+    },
+    {
+      "source": "Einkommensteuer/Überblick & Wesen ESt",
+      "target": "Einkommensteuer/Persönliche Steuerpflicht"
+    },
+    {
+      "source": "Einkommensteuer/Überblick & Wesen ESt",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Einkommensteuer/Überblick & Wesen ESt",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Überblick & Wesen ESt",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht",
+      "target": "Rechtsquellen/KStG/§ 4 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht",
+      "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht",
+      "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Rechtsquellen/KStG/§ 2 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Rechtsquellen/KStG/§ 5 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
+      "target": "Rechtsquellen/KStG/§ 2 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht"
+    },
+    {
+      "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "target": "Rechtsquellen/KStG/§ 5 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Einkommensteuer/ImmoESt"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 1 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 1 BAO",
+      "target": "Rechtsquellen/BAO/§ 4 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 12 BAO",
+      "target": "Rechtsquellen/BAO/§ 9 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 12 BAO",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 12 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 12 BAO",
+      "target": "Rechtsquellen/BAO/§ 14 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 12 BAO",
+      "target": "Rechtsquellen/BAO/§ 19 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 14 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 14 BAO",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 14 BAO",
+      "target": "Rechtsquellen/BAO/§ 9 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 14 BAO",
+      "target": "Rechtsquellen/BAO/§ 12 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 14 BAO",
+      "target": "Rechtsquellen/BAO/§ 4 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 19 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 19 BAO",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 19 BAO",
+      "target": "Rechtsquellen/BAO/§ 12 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 19 BAO",
+      "target": "Rechtsquellen/BAO/§ 6 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 20 BAO",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 20 BAO",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 20 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 20 BAO",
+      "target": "Rechtsquellen/BAO/§ 6 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 21 BAO",
+      "target": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 21 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 21 BAO",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 4 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 4 BAO",
+      "target": "Rechtsquellen/BAO/§ 1 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 4 BAO",
+      "target": "Rechtsquellen/BAO/§ 6 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 4 BAO",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 6 BAO",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 6 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 6 BAO",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 6 BAO",
+      "target": "Rechtsquellen/BAO/§ 4 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 9 BAO",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 9 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 9 BAO",
+      "target": "Rechtsquellen/BAO/§ 12 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 9 BAO",
+      "target": "Rechtsquellen/BAO/§ 14 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 9 BAO",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 1 EStG",
+      "target": "Rechtsquellen/BAO/§ 26 BAO"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 1 EStG",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 18 EStG",
+      "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 18 EStG",
+      "target": "Einkommensteuer/Verlustvortrag"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 18 EStG",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 18 EStG",
+      "target": "Einkommensteuer/Sonderausgaben"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 18 EStG",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 18 EStG",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 19 EStG",
+      "target": "Einkommensteuer/Zeitliche Zurechnung"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 19 EStG",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 19 EStG",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 19 EStG",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 2 EStG",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 2 EStG",
+      "target": "Einkommensteuer/Sonderausgaben"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 2 EStG",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 2 EStG",
+      "target": "Einkommensteuer/Liebhaberei"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 2 EStG",
+      "target": "Einkommensteuer/Verlustausgleich"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 2 EStG",
+      "target": "Rechtsquellen/EStG/§ 1 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 2 EStG",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 2 EStG",
+      "target": "Rechtsquellen/EStG/§ 18 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 20 EStG",
+      "target": "Einkommensteuer/Nicht abzugsfähige Aufwendungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 20 EStG",
+      "target": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 20 EStG",
+      "target": "Einkommensteuer/Steuerbefreiungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 20 EStG",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 20 EStG",
+      "target": "Rechtsquellen/EStG/§ 3 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 20 EStG",
+      "target": "Rechtsquellen/EStG/§ 18 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 3 EStG",
+      "target": "Einkommensteuer/Steuerbefreiungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 3 EStG",
+      "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 3 EStG",
+      "target": "Einkommensteuer/Nicht abzugsfähige Aufwendungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 3 EStG",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 3 EStG",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Einkommensteuer/Zeitliche Zurechnung"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Einkommensteuer/Pauschalierung"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Rechtsquellen/EStG/§ 19 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 5 EStG",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 5 EStG",
+      "target": "Einkommensteuer/Buchführungspflicht"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 5 EStG",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 5 EStG",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 5 EStG",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 1 KStG",
+      "target": "Rechtsquellen/KStG/§ 2 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 1 KStG",
+      "target": "Rechtsquellen/KStG/§ 5 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 1 KStG",
+      "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 1 KStG",
+      "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 1 KStG",
+      "target": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 2 KStG",
+      "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 2 KStG",
+      "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 2 KStG",
+      "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 2 KStG",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 2 KStG",
+      "target": "Rechtsquellen/KStG/§ 5 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 2 KStG",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 4 KStG",
+      "target": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 4 KStG",
+      "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 4 KStG",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 5 KStG",
+      "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 5 KStG",
+      "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 5 KStG",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 1 UStG",
+      "target": "Rechtsquellen/UStG/§ 2 UStG"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 2 UStG",
+      "target": "Umsatzsteuer/Unternehmer USt"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 2 UStG",
+      "target": "Rechtsquellen/KStG/§ 2 KStG"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 2 UStG",
+      "target": "Umsatzsteuer/Überblick & Wesen UStG"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 2 UStG",
+      "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 2 UStG",
+      "target": "Rechtsquellen/UStG/§ 1 UStG"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 2 UStG",
+      "target": "Einkommensteuer/Liebhaberei"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
+      "target": "Rechtsquellen/UStG/§ 1 UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
+      "target": "Rechtsquellen/UStG/§ 2 UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
+      "target": "Umsatzsteuer/Überblick & Wesen UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Unternehmer USt",
+      "target": "Rechtsquellen/UStG/§ 2 UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Unternehmer USt",
+      "target": "Rechtsquellen/KStG/§ 2 KStG"
+    },
+    {
+      "source": "Umsatzsteuer/Unternehmer USt",
+      "target": "Einkommensteuer/Liebhaberei"
+    },
+    {
+      "source": "Umsatzsteuer/Unternehmer USt",
+      "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
+    },
+    {
+      "source": "Umsatzsteuer/Überblick & Wesen UStG",
+      "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
+    }
+  ]
+}

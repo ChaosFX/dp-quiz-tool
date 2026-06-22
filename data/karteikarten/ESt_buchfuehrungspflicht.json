@@ -1,0 +1,37 @@
+{
+  "fach": "ESt",
+  "thema": "Buchführungspflicht",
+  "quelle_note": "Einkommensteuer/Buchführungspflicht.md",
+  "karten": [
+    {
+      "id": "est-buchfuehrungspflicht-01",
+      "frage": "Durch welche Vorschriften ist die Buchführungspflicht geregelt?",
+      "antwort": "§ 189 UGB, §§ 124 und 125 BAO sowie § 4 Abs 1 und § 5 EStG."
+    },
+    {
+      "id": "est-buchfuehrungspflicht-02",
+      "frage": "Was bedeutet \"nachhaltig\" und \"qualifiziert\"?",
+      "antwort": "Nachhaltig: Überschreitung in 2 aufeinanderfolgenden GJ.\nQualifiziert: Überschreitung um mind. € 300.000 in einem GJ."
+    },
+    {
+      "id": "est-buchfuehrungspflicht-03",
+      "frage": "Wann beginnt die Buchführungspficht?",
+      "antwort": "Bei nachhaltigem Überschreiten im zweitfolgenden Jahr (Pufferjahr),\nbei qualifiziertem Überschreiten im darauffolgenden Jahr."
+    },
+    {
+      "id": "est-buchfuehrungspflicht-04",
+      "frage": "Wann endet die Buchführungspflicht?",
+      "antwort": "Wann der Schwellenwert in 2 aufeinanderfolgenden GJ unterschritten wird - Wegfallen im darauffolgenden Jahr.\nBei einmaligem Unterschreiten nur bei Teilbetriebsaufgabe und Unterschreitung um mind. die Hälfte."
+    },
+    {
+      "id": "est-buchfuehrungspflicht-05",
+      "frage": "Wer muss nach § 5 Gewinn ermitteln?",
+      "antwort": "Steuerpflichtige mit Einkünften aus Gewerbebetrieb, die der Rechnungslegungspflicht nach § 189 UGB unterliegen."
+    },
+    {
+      "id": "est-buchfuehrungspflicht-06",
+      "frage": "Wie kann ein Land- und Forstwirt sein Gewinn ermitteln?",
+      "antwort": "Bei Umsatz > € 700.000: § 4 Abs 1 (§ 125 BAO). \nSonst: Voll-/Teilpauschalierung, EAR oder freiwillig § 4 Abs 1"
+    }
+  ]
+}

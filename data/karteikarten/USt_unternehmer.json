@@ -1,0 +1,42 @@
+{
+  "fach": "USt",
+  "thema": "Unternehmer",
+  "quelle_note": "Umsatzsteuer/Unternehmer USt.md",
+  "karten": [
+    {
+      "id": "ust-unternehmer-01",
+      "frage": "Welche zwei Folgen hat die Unternehmereigenschaft?",
+      "antwort": "Steuerbarkeit der Umsätze (§ 1 Abs 1 Z 1) und Recht auf Vorsteuerabzug (§ 12)."
+    },
+    {
+      "id": "ust-unternehmer-02",
+      "frage": "Nennen sie die fünf Schritte des Prüfschemas.",
+      "antwort": "Unternehmerfähigkeit - gewerbliche/berufliche Tätigkeit - Nachhaltigkeit- Einnahmenerzielungsabsicht - Selbständigkeit."
+    },
+    {
+      "id": "ust-unternehmer-03",
+      "frage": "Ist ein Vermieter Unternehmer?",
+      "antwort": "Ja - Einkünfte aus V&V begründen Unternehmereigenschaft, wenn die übrigen Merkmale (insb. Nachhaltigkeit durch Dauerzustand) vorliegen. Der USt-Begriff ist eigenständig."
+    },
+    {
+      "id": "ust-unternehmer-04",
+      "frage": "Wann ist ausnahmsweise auch ein Nichtunternehmer Steuerschuldner?",
+      "antwort": "Einfuhr, ig Erwerb/Lieferung von Neufahrzeugen, ig Erwerb durch nichtunternehmerische jur. Personen, unberechtigte Rechnungsausstellung, unrichtige Angaben bei ig Lieferungen."
+    },
+    {
+      "id": "ust-unternehmer-05",
+      "frage": "Worin unterscheidet sich der Unternehmerbegriff des § 3a Abs 5 von § 2?",
+      "antwort": "Er ist  **weiter** und gilt nur für den Leistungsempfänger: erfasst auch Unternehmer mit nur nicht steuerbaren Umsätzen sowie nicht unternehmerisch tätige jur. Personen mit UID. Relevant für den Leistung sort sonstiger Leistungen."
+    },
+    {
+      "id": "ust-unternehmer-06",
+      "frage": "Wann ist eine KöR unternehmerisch tätig?",
+      "antwort": "Nur im Rahmen ihrer BgA (§ 2 KStG), land-/forstwirtschaftlicher Betriebe und fiktiver BgA. Der Hoheitsbereich ist nichtunternehmerisch."
+    },
+    {
+      "id": "ust-unternehmer-07",
+      "frage": "Was besagt der Grundsatz der Unternehmenseinheit?",
+      "antwort": "Ein Unternehmer kann nur ein Unternehmen haben - auch bei mehreren Betrieben oder Einkunftsarten."
+    }
+  ]
+}

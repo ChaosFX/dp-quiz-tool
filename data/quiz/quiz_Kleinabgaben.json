@@ -1,0 +1,137 @@
+{
+  "fach": "Kleinabgaben",
+  "fragen": [
+    {
+      "id": "klein-01",
+      "frage": "Welche Fahrzeuge unterliegen grundsätzlich der Normverbrauchsabgabe (NoVA)?",
+      "optionen": [
+        "Insbesondere PKW, Kombi und ähnliche Kraftfahrzeuge, die erstmals im Inland zugelassen werden",
+        "Ausschließlich Traktoren und andere land- und forstwirtschaftliche Fahrzeuge",
+        "Ausschließlich Flugzeuge und Wasserfahrzeuge",
+        "Fahrräder und andere nicht motorisierte Fahrzeuge"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der NoVA unterliegen insbesondere PKW, Kombinationskraftwagen und vergleichbare Kraftfahrzeuge bei erstmaliger Zulassung im Inland (bzw. bei bestimmten weiteren Tatbeständen); Fahrzeuge wie Traktoren, Flugzeuge, Wasserfahrzeuge oder Fahrräder fallen nicht unter die NoVA."
+    },
+    {
+      "id": "klein-02",
+      "frage": "Was sind die Grundlagen der NoVA hinsichtlich Tatbestand, Abgabenschuldner und Verfahren bei der Lieferung eines Kfz durch einen inländischen Fahrzeughändler?",
+      "optionen": [
+        "Steuerbarer Tatbestand ist die Lieferung eines Neufahrzeugs im Inland; Abgabenschuldner ist regelmäßig der liefernde Fahrzeughändler, der die NoVA selbst zu berechnen und abzuführen hat",
+        "Bei einer Lieferung durch einen inländischen Händler fällt grundsätzlich keine NoVA an",
+        "Abgabenschuldner ist in diesem Fall stets ausschließlich der Käufer des Fahrzeugs",
+        "Die NoVA wird bei inländischen Lieferungen ausschließlich vom Zollamt erhoben"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Liefert ein inländischer Fahrzeughändler ein NoVA-pflichtiges Fahrzeug, ist dies der maßgebliche steuerbare Tatbestand; Abgabenschuldner ist der liefernde Unternehmer (Fahrzeughändler), der die Selbstberechnung und Abfuhr der NoVA vorzunehmen hat."
+    },
+    {
+      "id": "klein-03",
+      "frage": "Was gilt grundsätzlich beim Import bzw. Erwerb eines Kfz durch eine Privatperson aus dem Ausland hinsichtlich der NoVA?",
+      "optionen": [
+        "Auch beim Import/Erwerb eines Fahrzeugs aus dem Ausland durch eine Privatperson kann NoVA-Pflicht entstehen, wobei die Privatperson selbst regelmäßig Abgabenschuldner wird und die NoVA beim zuständigen Finanzamt anzumelden hat",
+        "Beim Import durch Privatpersonen fällt unter keinen Umständen NoVA an",
+        "Die NoVA-Pflicht entfällt automatisch, sobald das Fahrzeug aus einem anderen EU-Staat stammt",
+        "Privatpersonen können niemals Abgabenschuldner der NoVA sein"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wird ein Fahrzeug durch eine Privatperson aus dem Ausland importiert bzw. erworben und im Inland erstmals zugelassen, entsteht regelmäßig NoVA-Pflicht; die Privatperson selbst wird dabei Abgabenschuldner und hat die NoVA beim zuständigen Finanzamt anzumelden und zu entrichten."
+    },
+    {
+      "id": "klein-04",
+      "frage": "Was gilt für den Erwerb eines Kfz durch einen NoVA-begünstigten Unternehmer (z.B. Fahrschule, Taxiunternehmen)?",
+      "optionen": [
+        "Bestimmte begünstigte Unternehmer können unter den gesetzlichen Voraussetzungen eine Vergütung bzw. Befreiung von der NoVA in Anspruch nehmen, abhängig von der konkreten Verwendung des Fahrzeugs",
+        "Begünstigte Unternehmer sind von der NoVA-Anmeldung generell vollständig befreit, ohne jede weitere Voraussetzung",
+        "Diese Begünstigung steht ausschließlich land- und forstwirtschaftlichen Betrieben zu",
+        "Eine Begünstigung für Unternehmer ist im NoVAG nicht vorgesehen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Für bestimmte begünstigte Verwendungszwecke (z.B. Fahrschulfahrzeuge, Taxis, bestimmte Vorführwagen) sieht das NoVAG unter den jeweils einschlägigen Voraussetzungen Befreiungen oder Vergütungstatbestände vor, die je nach tatsächlicher Verwendung des Fahrzeugs zur Anwendung kommen können."
+    },
+    {
+      "id": "klein-05",
+      "frage": "Wann kommt eine NoVA-Vergütung grundsätzlich in Betracht?",
+      "optionen": [
+        "Insbesondere wenn ein Fahrzeug, für das bereits NoVA entrichtet wurde, ins Ausland verbracht bzw. dort zugelassen wird oder andere gesetzlich vorgesehene Vergütungstatbestände vorliegen",
+        "Eine NoVA-Vergütung ist im österreichischen Recht generell nicht vorgesehen",
+        "Eine Vergütung erfolgt automatisch nach 5 Jahren Nutzungsdauer ohne weitere Voraussetzungen",
+        "Die Vergütung betrifft ausschließlich neu zugelassene Fahrzeuge"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Eine Vergütung der NoVA kommt insbesondere in Betracht, wenn ein bereits im Inland NoVA-versteuertes Fahrzeug ins Ausland verbracht und dort dauerhaft zugelassen wird, sowie bei weiteren im NoVAG vorgesehenen Vergütungstatbeständen, um eine doppelte Belastung zu vermeiden."
+    },
+    {
+      "id": "klein-06",
+      "frage": "Was ist die Werbeabgabe und worauf bezieht sie sich grundsätzlich?",
+      "optionen": [
+        "Eine Abgabe auf entgeltliche Werbeleistungen (z.B. Werbeeinschaltungen in Print, Rundfunk, Fernsehen), die nach einem bestimmten Steuersatz auf das Werbeentgelt erhoben wird",
+        "Die Werbeabgabe betrifft ausschließlich Online-Werbung, niemals klassische Medien",
+        "Es handelt sich um eine Abgabe, die ausschließlich von Konsumenten zu entrichten ist",
+        "Die Werbeabgabe ist mit der Umsatzsteuer ident und wird nicht gesondert erhoben"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Werbeabgabe erfasst entgeltliche Werbeleistungen, insbesondere Werbeeinschaltungen in klassischen Medien (Print, Rundfunk, Fernsehen); sie wird auf das dafür bezahlte Entgelt mit einem im Gesetz festgelegten Steuersatz erhoben und ist von der Digitalsteuer abzugrenzen, die digitale Werbeleistungen großer Online-Plattformen betrifft."
+    },
+    {
+      "id": "klein-07",
+      "frage": "Welche Bereiche umfassen die österreichischen Verbrauchsteuern (z.B. AlkStG, BierStG, MinStG, TabStG)?",
+      "optionen": [
+        "U.a. die Besteuerung von Alkohol, Bier, Mineralöl und Tabakwaren als verbrauchsteuerpflichtige Waren mit jeweils eigenen Gesetzen",
+        "Verbrauchsteuern betreffen ausschließlich Lebensmittel ohne Alkoholgehalt",
+        "Es gibt in Österreich keine speziellen Verbrauchsteuergesetze",
+        "Verbrauchsteuern erfassen ausschließlich Importwaren aus Drittländern"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die österreichischen Verbrauchsteuern umfassen u.a. eigene Gesetze für Alkohol (AlkStG), Bier (BierStG), Mineralöl (MinStG) und Tabakwaren (TabStG), die jeweils spezifische verbrauchsteuerpflichtige Tatbestände, Steuersätze und Verfahren für diese Warengruppen regeln."
+    },
+    {
+      "id": "klein-08",
+      "frage": "Was versteht man unter dem Steueraussetzungsverfahren bei Verbrauchsteuern (z.B. Steuerlager, registrierte Empfänger)?",
+      "optionen": [
+        "Ein Verfahren, bei dem verbrauchsteuerpflichtige Waren unter bestimmten Voraussetzungen (z.B. in zugelassenen Steuerlagern) hergestellt, gelagert und befördert werden können, ohne dass die Verbrauchsteuer bereits zu diesem Zeitpunkt entsteht – erst beim Übergang in den steuerrechtlich freien Verkehr wird die Steuer fällig",
+        "Das Steueraussetzungsverfahren bedeutet, dass auf bestimmte Waren überhaupt nie eine Verbrauchsteuer anfällt",
+        "Es betrifft ausschließlich den Import von Waren aus Drittländern, niemals die inländische Herstellung",
+        "Ein Steuerlager ist ein Synonym für ein gewöhnliches Handelslager ohne besondere Bewilligung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Im Steueraussetzungsverfahren können verbrauchsteuerpflichtige Waren (z.B. in zugelassenen Steuerlagern oder bei registrierten Empfängern) hergestellt, gelagert und unter Steueraussetzung befördert werden, ohne dass die Verbrauchsteuer bereits entsteht; die Steuerschuld entsteht erst mit dem Übergang der Ware in den steuerrechtlich freien Verkehr (z.B. bei Entnahme zum Verbrauch)."
+    },
+    {
+      "id": "klein-09",
+      "frage": "Welche Energieträger werden von den österreichischen Energieabgaben (z.B. NEHG, KohAbG, ErdgasAbG, ElAbG) grundsätzlich erfasst?",
+      "optionen": [
+        "U.a. Kohle, Erdgas und elektrische Energie sowie im Rahmen des Nationalen Emissionszertifikatehandelsgesetzes (NEHG) bestimmte CO2-emittierende Energieträger",
+        "Ausschließlich erneuerbare Energieträger wie Solar- und Windenergie",
+        "Die Energieabgaben betreffen ausschließlich den Verkehrssektor",
+        "Es gibt in Österreich keine eigenen Energieabgaben"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die österreichischen Energieabgaben erfassen u.a. Kohle (KohAbG), Erdgas (ErdgasAbG) und elektrische Energie (ElAbG); ergänzend regelt das Nationale Emissionszertifikatehandelsgesetz (NEHG) die CO2-Bepreisung für bestimmte, nicht vom EU-Emissionshandel erfasste Bereiche."
+    },
+    {
+      "id": "klein-10",
+      "frage": "Was erfasst die Flugabgabe grundsätzlich?",
+      "optionen": [
+        "Eine Abgabe auf den gewerblichen Abflug von Fluggästen von einem inländischen Flughafen, gestaffelt insbesondere nach der Entfernung des Zielortes",
+        "Eine Abgabe, die ausschließlich auf Frachtflüge erhoben wird, niemals auf Personenbeförderung",
+        "Die Flugabgabe betrifft ausschließlich Inlandsflüge innerhalb Österreichs",
+        "Es handelt sich um eine Abgabe, die von Fluggesellschaften niemals, sondern ausschließlich von den Passagieren direkt entrichtet wird"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Flugabgabe wird auf den gewerblichen Abflug von Passagieren von einem inländischen Flughafen erhoben, wobei sich die Höhe der Abgabe regelmäßig nach der Entfernung des Zielflughafens (Kurz-, Mittel- oder Langstrecke) staffelt; Schuldner der Abgabe ist regelmäßig das Luftfahrtunternehmen."
+    },
+    {
+      "id": "klein-11",
+      "frage": "Was unterscheidet die NoVA grundsätzlich von der motorbezogenen Versicherungsteuer bzw. Kraftfahrzeugsteuer?",
+      "optionen": [
+        "Die NoVA fällt grundsätzlich einmalig bei der (erstmaligen) Zulassung an, während die motorbezogene Versicherungsteuer bzw. Kraftfahrzeugsteuer laufend (regelmäßig wiederkehrend) für die Haltung des Fahrzeugs zu entrichten ist",
+        "Es handelt sich um exakt dieselbe Abgabe mit unterschiedlicher Bezeichnung",
+        "Die NoVA wird laufend erhoben, die motorbezogene Versicherungsteuer nur einmalig",
+        "Beide Abgaben betreffen ausschließlich gewerblich genutzte Fahrzeuge"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die NoVA ist eine einmalige Abgabe, die grundsätzlich bei der erstmaligen Zulassung eines Fahrzeugs im Inland anfällt, während die motorbezogene Versicherungsteuer (bei PKW, in der Kfz-Versicherungsprämie enthalten) bzw. die Kraftfahrzeugsteuer (insb. bei LKW) laufend, regelmäßig wiederkehrend für das Halten des Fahrzeugs zu entrichten ist."
+    }
+  ]
+}

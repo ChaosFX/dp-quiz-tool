@@ -1,0 +1,281 @@
+{
+  "fach": "Lohnsteuer",
+  "fragen": [
+    {
+      "id": "lst-01",
+      "frage": "In welchem Abschnitt des EStG 1988 ist die Lohnsteuer geregelt?",
+      "optionen": [
+        "Im 4. Abschnitt (Gewinnermittlung)",
+        "Im 5. Abschnitt (Steuerabzug vom Arbeitslohn)",
+        "Im 7. Abschnitt (Tarif)",
+        "Die Lohnsteuer ist in einem eigenen Lohnsteuergesetz geregelt"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Lohnsteuer ist als besondere Erhebungsform der Einkommensteuer im 5. Abschnitt des EStG 1988 (§§ 25 ff.) geregelt; ein eigenständiges Lohnsteuergesetz existiert nicht."
+    },
+    {
+      "id": "lst-02",
+      "frage": "Wodurch unterscheiden sich Einkünfte aus selbständiger und nichtselbständiger Tätigkeit grundlegend?",
+      "optionen": [
+        "Durch die Höhe des Einkommens",
+        "Durch das Vorliegen eines Dienstverhältnisses (Weisungsgebundenheit, Eingliederung in den geschäftlichen Organismus des Arbeitgebers)",
+        "Durch den Familienstand des Steuerpflichtigen",
+        "Es gibt keinen relevanten Unterschied, beide werden gleich besteuert"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Maßgeblich für ein Dienstverhältnis (§ 47 EStG) ist insbesondere die Weisungsgebundenheit und die organisatorische Eingliederung in den Betrieb des Arbeitgebers, im Gegensatz zur Selbständigkeit, die durch Unternehmerrisiko und Weisungsfreiheit gekennzeichnet ist."
+    },
+    {
+      "id": "lst-03",
+      "frage": "Was bedeutet 'Erhebungsform' im Zusammenhang mit der Lohnsteuer?",
+      "optionen": [
+        "Die Lohnsteuer wird vom Arbeitnehmer selbst per Steuererklärung entrichtet",
+        "Die Lohnsteuer wird vom Arbeitgeber im Wege des Steuerabzugs einbehalten und abgeführt",
+        "Die Lohnsteuer wird ausschließlich vom Finanzamt im Schätzungswege festgesetzt",
+        "Die Lohnsteuer ist keine Erhebungsform, sondern eine eigene Steuerart"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Lohnsteuer ist eine besondere Erhebungsform der Einkommensteuer: Der Arbeitgeber behält sie vom Arbeitslohn ein und führt sie an das Finanzamt ab (§ 47 EStG)."
+    },
+    {
+      "id": "lst-04",
+      "frage": "Wann wird bei lohnsteuerpflichtigen Einkünften typischerweise eine (Arbeitnehmer-)Veranlagung vorgenommen?",
+      "optionen": [
+        "Niemals, da die Lohnsteuer immer eine Endbesteuerung darstellt",
+        "Insbesondere wenn der Arbeitnehmer mehrere lohnsteuerpflichtige Bezüge gleichzeitig bezieht oder bestimmte Pflichtveranlagungstatbestände vorliegen",
+        "Nur wenn der Arbeitnehmer ausdrücklich widerspricht",
+        "Nur bei Arbeitnehmern mit ausländischem Wohnsitz"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Eine Veranlagung erfolgt u.a. bei Vorliegen mehrerer gleichzeitiger lohnsteuerpflichtiger Bezüge (§ 41 EStG) sowie bei anderen Pflicht- oder Antragsveranlagungstatbeständen, da der laufende Lohnsteuerabzug dies nicht immer korrekt abbildet."
+    },
+    {
+      "id": "lst-05",
+      "frage": "Was versteht man unter dem 'Lohnkonto' im Rahmen der Lohnverrechnung?",
+      "optionen": [
+        "Das private Bankkonto des Arbeitnehmers",
+        "Die vom Arbeitgeber zu führende Aufzeichnung über die für die Lohnsteuer maßgeblichen Daten jedes Arbeitnehmers",
+        "Ein Konto, das nur bei geringfügiger Beschäftigung geführt werden muss",
+        "Ein Konto, das ausschließlich die Sozialversicherungsbeiträge erfasst"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das Lohnkonto (§ 76 EStG) ist die vom Arbeitgeber für jeden Arbeitnehmer zu führende Grundaufzeichnung, aus der sich u.a. Bezüge, einbehaltene Lohnsteuer und Sozialversicherungsbeiträge ergeben – die Basis für PLA, Lohnzettel und Lohnabgabenprüfung."
+    },
+    {
+      "id": "lst-06",
+      "frage": "Welche Pflichten treffen den Arbeitgeber im Zusammenhang mit der Lohnsteuer u.a.?",
+      "optionen": [
+        "Einbehaltung, Abfuhr der Lohnsteuer sowie Ausstellung des Lohnzettels; er haftet auch für die richtige Einbehaltung",
+        "Der Arbeitgeber hat überhaupt keine abgabenrechtlichen Pflichten",
+        "Nur die Auszahlung des Nettolohns, die Lohnsteuer ist allein Sache des Arbeitnehmers",
+        "Der Arbeitgeber muss die Lohnsteuer nur einmal jährlich pauschal entrichten"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Arbeitgeber ist verpflichtet, die Lohnsteuer einzubehalten und abzuführen (§§ 78, 79 EStG), den Lohnzettel zu übermitteln (§ 84 EStG) und haftet gem. § 82 EStG für die korrekte Einbehaltung; im Rahmen einer Lohnabgabenprüfung (Schuldner, Haftung) wird dies kontrolliert."
+    },
+    {
+      "id": "lst-07",
+      "frage": "Wie wird im Rahmen einer Einnahmen-Ausgaben-Rechnung bzw. bei Werbungskosten allgemein abgegrenzt, ob Werbungskosten vorliegen?",
+      "optionen": [
+        "Jede Ausgabe eines Arbeitnehmers gilt automatisch als Werbungskosten",
+        "Es ist abzugrenzen, ob die Ausgabe beruflich veranlasst ist, oder ob es sich um (nicht abzugsfähige) Kosten der privaten Lebensführung handelt",
+        "Werbungskosten können nur in Form eines Pauschbetrages geltend gemacht werden, nie in tatsächlicher Höhe",
+        "Werbungskosten betreffen ausschließlich Selbständige, nicht Arbeitnehmer"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Werbungskosten (§ 16 EStG) müssen beruflich veranlasst sein. Maßgeblich ist die Abgrenzung zu den nicht abzugsfähigen Kosten der privaten Lebensführung (§ 20 EStG)."
+    },
+    {
+      "id": "lst-08",
+      "frage": "Was sind 'Sonderausgaben' im Sinne des § 18 EStG (ab 2020 eingeschränkt) bei Arbeitnehmern?",
+      "optionen": [
+        "Ausschließlich Kosten, die im Rahmen des Dienstverhältnisses unmittelbar vom Arbeitgeber getragen werden",
+        "Bestimmte, abschließend aufgezählte private Ausgaben, die unter bestimmten Voraussetzungen das Einkommen mindern können (z.B. bestimmte Renten/dauernde Lasten, Kirchenbeiträge, Spenden im Rahmen anderer Normen)",
+        "Beträge, die ausschließlich im Rahmen der Veranlagung von Körperschaften relevant sind",
+        "Sonderausgaben gibt es seit 2020 nicht mehr"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Sonderausgaben sind im EStG abschließend aufgezählte, im Grundsatz der privaten Sphäre zuzuordnende Ausgaben (z.B. Kirchenbeiträge bis zu einem Höchstbetrag, bestimmte Renten), die das Einkommen mindern können; seit 2020 wurde der Katalog deutlich eingeschränkt."
+    },
+    {
+      "id": "lst-09",
+      "frage": "Wann liegt eine außergewöhnliche Belastung (§ 34 EStG) vor?",
+      "optionen": [
+        "Bei jeder beliebigen privaten Ausgabe oberhalb eines bestimmten Betrages",
+        "Wenn die Belastung außergewöhnlich, zwangsläufig erwachsen ist und die wirtschaftliche Leistungsfähigkeit wesentlich beeinträchtigt",
+        "Nur wenn der Steuerpflichtige eine Behinderung hat",
+        "Außergewöhnliche Belastungen sind ausschließlich Betriebsausgaben"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Eine außergewöhnliche Belastung setzt nach § 34 EStG voraus, dass die Belastung außergewöhnlich ist, zwangsläufig erwächst und die wirtschaftliche Leistungsfähigkeit wesentlich beeinträchtigt; zusätzlich ist idR ein Selbstbehalt zu berücksichtigen, außer bei bestimmten Tatbeständen."
+    },
+    {
+      "id": "lst-10",
+      "frage": "Welche außergewöhnliche Belastung wird typischerweise OHNE Abzug eines Selbstbehaltes berücksichtigt?",
+      "optionen": [
+        "Krankheitskosten in geringer Höhe",
+        "Bestimmte Aufwendungen im Zusammenhang mit Behinderung sowie z.B. Katastrophenschäden",
+        "Jede Art von Reisekosten",
+        "Sämtliche Sonderausgaben"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Bestimmte außergewöhnliche Belastungen, etwa Mehraufwendungen wegen Behinderung (insbesondere bei Bezug erhöhter Familienbeihilfe bzw. eines Pflegegeldes) oder Katastrophenschäden, werden ohne Abzug eines Selbstbehaltes berücksichtigt."
+    },
+    {
+      "id": "lst-11",
+      "frage": "Was regelt der Steuertarif des § 33 EStG samt Absetzbeträgen in Bezug auf die Lohnsteuer?",
+      "optionen": [
+        "Ausschließlich die Höhe der Sozialversicherungsbeiträge",
+        "Den progressiven Einkommensteuertarif sowie verschiedene Absetzbeträge (z.B. Verkehrsabsetzbetrag, Alleinverdiener-/Alleinerzieherabsetzbetrag), die die Steuer direkt mindern",
+        "Nur die Höhe des 13. und 14. Monatsgehalts",
+        "Die Berechnung des Dienstgeberbeitrags zum FLAF"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 33 EStG regelt den Stufentarif der Einkommensteuer sowie diverse Absetzbeträge (u.a. Verkehrsabsetzbetrag, AVAB/AEAB, Pensionistenabsetzbetrag), welche direkt von der berechneten Steuer abgezogen werden – im Unterschied zu Freibeträgen, die die Bemessungsgrundlage mindern."
+    },
+    {
+      "id": "lst-12",
+      "frage": "Was ist der wesentliche Unterschied zwischen einem 'Freibetrag' und einem 'Absetzbetrag'?",
+      "optionen": [
+        "Es gibt keinen Unterschied, beide Begriffe werden synonym verwendet",
+        "Ein Freibetrag mindert die Bemessungsgrundlage vor Anwendung des Steuertarifs, ein Absetzbetrag mindert die bereits berechnete Steuer direkt",
+        "Ein Absetzbetrag mindert die Bemessungsgrundlage, ein Freibetrag mindert die Steuer direkt",
+        "Freibeträge gibt es nur bei der Körperschaftsteuer"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ein Freibetrag (z.B. Gewinnfreibetrag) reduziert die Bemessungsgrundlage, bevor der Tarif angewendet wird. Ein Absetzbetrag (z.B. Verkehrsabsetzbetrag) wird hingegen direkt von der bereits berechneten Steuerschuld abgezogen und wirkt daher unabhängig von der Progression gleich stark."
+    },
+    {
+      "id": "lst-13",
+      "frage": "Welche Absetzbeträge können bei (zu) geringem Einkommen ganz oder teilweise im Rahmen der SV-Rückerstattung (Negativsteuer) erstattungsfähig sein?",
+      "optionen": [
+        "Keine, eine Erstattung von Absetzbeträgen ist im österreichischen Steuerrecht generell ausgeschlossen",
+        "Bestimmte Absetzbeträge, insbesondere der Verkehrsabsetzbetrag bzw. SV-bezogene Erstattungsregelungen, können unter bestimmten Voraussetzungen zu einer Gutschrift (Negativsteuer/SV-Rückerstattung) führen",
+        "Nur der Familienbonus Plus kann jemals erstattet werden",
+        "Ausschließlich der Pensionistenabsetzbetrag ist erstattungsfähig"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Reicht die Steuerlast nicht aus, um bestimmte Absetzbeträge (insb. den Verkehrsabsetzbetrag) zur Gänze zu verwerten, kommt es unter den gesetzlichen Voraussetzungen zu einer Gutschrift in Form der SV-Rückerstattung (sogenannte Negativsteuer)."
+    },
+    {
+      "id": "lst-14",
+      "frage": "Worauf kommt es bei einer geringfügigen Beschäftigung neben anderen Einkünften (z.B. als Gesellschafter-Geschäftsführer oder neben Einkünften aus Vermietung und Verpachtung) für die steuerliche Behandlung an?",
+      "optionen": [
+        "Geringfügige Beschäftigung ist immer vollständig steuerfrei, unabhängig von weiteren Einkünften",
+        "Es kommt auf die Zusammenrechnung sämtlicher Einkünfte im Rahmen der Veranlagung an; die Geringfügigkeitsgrenze betrifft primär die Sozialversicherung, nicht automatisch die Einkommensteuerfreiheit",
+        "Geringfügige Beschäftigung darf neben anderen Einkünften gar nicht ausgeübt werden",
+        "Es ist ausschließlich die Höhe der Einkünfte aus Vermietung und Verpachtung relevant"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Geringfügigkeitsgrenze ist in erster Linie ein sozialversicherungsrechtlicher Begriff. Einkommensteuerlich werden im Rahmen der Veranlagung sämtliche Einkünfte (z.B. aus geringfügiger nichtselbständiger Tätigkeit, aus der Geschäftsführertätigkeit, aus Vermietung) zusammengerechnet und nach dem Tarif besteuert."
+    },
+    {
+      "id": "lst-15",
+      "frage": "Wann liegt bei einer Person, die neben dem Studium geringfügig in einer Rechtsanwaltskanzlei beschäftigt ist und zugleich Verluste aus einem Antiquitätenverkauf erzielt, grundsätzlich eine relevante steuerliche Konstellation vor?",
+      "optionen": [
+        "Verluste aus privatem Antiquitätenverkauf sind grundsätzlich steuerlich unbeachtlich (private Vermögenssphäre), die nichtselbständigen Einkünfte unterliegen dem Lohnsteuerabzug und ggf. der Veranlagung",
+        "Die Verluste aus dem Antiquitätenverkauf können unbegrenzt mit den nichtselbständigen Einkünften verrechnet werden",
+        "Da es sich um eine geringfügige Beschäftigung handelt, entfällt jegliche steuerliche Relevanz",
+        "Der Verkauf von Antiquitäten führt immer zu Einkünften aus Gewerbebetrieb"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der gelegentliche Verkauf privater Gegenstände (z.B. Antiquitäten aus dem Privatvermögen) fällt regelmäßig nicht unter eine steuerlich relevante Einkunftsquelle, ein Verlust daraus ist daher steuerlich unbeachtlich; die geringfügige nichtselbständige Tätigkeit unterliegt hingegen dem Lohnsteuerabzug und ist ggf. im Rahmen einer Veranlagung zu erfassen."
+    },
+    {
+      "id": "lst-16",
+      "frage": "Welche Voraussetzungen müssen für den Alleinverdienerabsetzbetrag (AVAB) u.a. vorliegen?",
+      "optionen": [
+        "Der Steuerpflichtige muss mehr als 6 Monate im Kalenderjahr mit (Ehe-)Partner in einer Partnerschaft leben und bestimmte Einkommensgrenzen des (Ehe-)Partners dürfen nicht überschritten werden, idR ist zudem zumindest ein Kind erforderlich",
+        "Der AVAB steht jeder unverheirateten Person automatisch zu",
+        "Der AVAB setzt voraus, dass beide Partner über dem Höchsteinkommen liegen",
+        "Kinder sind für den AVAB nicht relevant"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Alleinverdienerabsetzbetrag setzt eine mehr als sechsmonatige Partnerschaft im Kalenderjahr, das Nichtüberschreiten der Einkommensgrenze des (Ehe-)Partners von € 7.284,00 (2025) sowie grundsätzlich das Vorliegen mindestens eines Kindes voraus (§ 33 Abs. 4 EStG)."
+    },
+    {
+      "id": "lst-17",
+      "frage": "Unter welchen Voraussetzungen können Aufwendungen für ergonomisches Mobiliar im Homeoffice als Werbungskosten geltend gemacht werden?",
+      "optionen": [
+        "Nur wenn ein steuerlich anerkanntes häusliches Arbeitszimmer vorliegt",
+        "Wenn der Arbeitnehmer an einer bestimmten Mindestanzahl von Tagen (z.B. 26 Tage) im Kalenderjahr in der Wohnung beruflich tätig ist – ein eigenes Arbeitszimmer ist dafür nicht erforderlich",
+        "Niemals, da ergonomisches Mobiliar stets der privaten Lebensführung zugerechnet wird",
+        "Nur wenn der Arbeitgeber das Mobiliar zur Gänze finanziert hat"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Für ergonomisches Mobiliar (z.B. Schreibtisch, Drehstuhl) im Homeoffice können Werbungskosten bis zu einem bestimmten Höchstbetrag geltend gemacht werden, wenn der Arbeitnehmer an mindestens 26 Tagen im Kalenderjahr in der Wohnung tätig ist; ein steuerlich anerkanntes Arbeitszimmer ist dafür nicht erforderlich."
+    },
+    {
+      "id": "lst-18",
+      "frage": "Was versteht man unter dem 'Jahressechstel' im Rahmen der Besteuerung sonstiger Bezüge (§ 67 EStG)?",
+      "optionen": [
+        "Den Anteil der laufenden Bezüge, der monatlich an das Finanzamt abgeführt wird",
+        "Die Begrenzung, bis zu welchem Betrag sonstige Bezüge (z.B. 13./14. Gehalt) begünstigt nach dem festen Steuersatz versteuert werden können, ermittelt aus den laufenden Bezügen des Jahres",
+        "Ein Sechstel der Lohnsteuer, das pauschal jedem Arbeitnehmer erstattet wird",
+        "Ein fixer Freibetrag von 1/6 des Jahresgehalts, unabhängig von sonstigen Bezügen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das Jahressechstel begrenzt jenen Betrag an sonstigen Bezügen (insb. 13./14. Monatsbezug), der innerhalb bestimmter Grenzen begünstigt nach dem festen Steuersatz gem. § 67 EStG versteuert wird; es errechnet sich grundsätzlich als ein Sechstel der innerhalb des Kalenderjahres zugeflossenen laufenden Bezüge."
+    },
+    {
+      "id": "lst-19",
+      "frage": "Wie werden Überstundenzuschläge sowie Schmutz-, Erschwernis- und Gefahrenzulagen (SEG-Zulagen) grundsätzlich steuerlich behandelt?",
+      "optionen": [
+        "Sie sind immer zur Gänze steuerpflichtig wie der laufende Lohn",
+        "Sie können unter den Voraussetzungen des § 68 EStG bis zu bestimmten Höchstbeträgen steuerfrei belassen werden",
+        "Sie unterliegen ausschließlich der Sozialversicherung, niemals der Lohnsteuer",
+        "Es gibt dafür keine eigene gesetzliche Regelung"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 68 EStG sieht für SEG- und SFN-Zulagen sowie Überstundenzuschläge eine begünstigte, teilweise steuerfreie Behandlung vor, allerdings mit zwei getrennten Höchstbeträgen: SEG-/SFN-Zulagen sind gemeinsam bis € 400,00 monatlich steuerfrei, Zuschläge für die ersten 10 Überstunden im Monat zusätzlich bis maximal € 120,00 monatlich (höchstens 50% des Grundlohns)."
+    },
+    {
+      "id": "lst-20",
+      "frage": "Welche Funktion erfüllt der 'Lohnzettel' im System der Lohnverrechnung?",
+      "optionen": [
+        "Er dient als interne Gehaltsabrechnung und hat keine abgabenrechtliche Bedeutung",
+        "Er ist die vom Arbeitgeber elektronisch an das Finanzamt zu übermittelnde Bescheinigung über die im Kalenderjahr bezogenen Bezüge und einbehaltene Lohnsteuer, die Grundlage für Veranlagung und Kontrolle ist",
+        "Er wird nur bei Beendigung des Dienstverhältnisses ausgestellt und danach vernichtet",
+        "Er ersetzt die Einkommensteuererklärung vollständig in jedem Fall"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Der Lohnzettel ist gem. § 84 EStG vom Arbeitgeber elektronisch an das Finanzamt zu übermitteln und enthält die für die Veranlagung maßgeblichen Daten (Bezüge, einbehaltene Lohnsteuer, SV-Beiträge etc.); er bildet damit eine zentrale Grundlage sowohl für die Veranlagung als auch für etwaige Lohnkorrekturen und -prüfungen."
+    },
+    {
+      "id": "lst-21",
+      "frage": "Was ist unter einer 'Lohnkorrektur' zu verstehen?",
+      "optionen": [
+        "Eine generelle jährliche Erhöhung der Gehälter aufgrund der Inflation",
+        "Die nachträgliche Berichtigung bereits übermittelter Lohnverrechnungsdaten bzw. Lohnzettel, etwa wegen fehlerhafter Erfassung von Bezügen oder Abzügen",
+        "Die Strafe, die bei verspäteter Lohnsteuerabfuhr verhängt wird",
+        "Ein Synonym für die Lohnsteuerveranlagung des Arbeitnehmers"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Eine Lohnkorrektur bezeichnet die nachträgliche Richtigstellung fehlerhaft erfasster oder übermittelter Lohnverrechnungsdaten (z.B. unrichtig erfasste Bezüge, Sachbezüge oder Abzüge), die in weiterer Folge auch zu einer Berichtigung des Lohnzettels führen kann."
+    },
+    {
+      "id": "lst-22",
+      "frage": "Welche Leistungen des Arbeitgebers sind als 'nichtsteuerbare Leistungen' (insbesondere Reisekostenersätze) einzustufen?",
+      "optionen": [
+        "Sämtliche Geld- und Sachbezüge ohne jede Ausnahme",
+        "Leistungen, die von vornherein nicht zum steuerpflichtigen Arbeitslohn zählen, weil sie z.B. echten Auslagenersatz darstellen (etwa bestimmte Reisekostenersätze nach § 26 EStG)",
+        "Nur Bezüge, die der Arbeitnehmer in bar erhält",
+        "Ausschließlich Sachbezüge wie Dienstwagen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Nichtsteuerbare Leistungen nach § 26 EStG (z.B. bestimmte Reisekostenersätze, Auslagenersätze) zählen von vornherein nicht zu den Einkünften aus nichtselbständiger Arbeit und sind daher in die Lohnverrechnung anders einzubeziehen als steuerpflichtiger Arbeitslohn oder steuerfreie Bezüge nach § 3 EStG."
+    },
+    {
+      "id": "lst-23",
+      "frage": "Wie werden Sachbezüge (z.B. Privatnutzung eines Dienstwagens) für Zwecke der Lohnsteuer grundsätzlich bewertet?",
+      "optionen": [
+        "Sachbezüge sind immer zur Gänze steuerfrei",
+        "Sachbezüge sind mit dem ihnen zukommenden geldwerten Vorteil (idR nach der Sachbezugswerteverordnung, z.B. in Prozent des Anschaffungspreises beim Dienstwagen) zu bewerten und dem steuerpflichtigen Arbeitslohn hinzuzurechnen",
+        "Sachbezüge werden ausschließlich pauschal mit 0 Euro angesetzt",
+        "Sachbezüge unterliegen ausschließlich der Umsatzsteuer, nicht der Lohnsteuer"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Sachbezüge stellen einen Teil des Arbeitslohns dar und sind nach den Bestimmungen der Sachbezugswerteverordnung mit einem geldwerten Vorteil zu bewerten (z.B. die Privatnutzung eines arbeitgebereigenen KFZ mit einem Prozentsatz der Anschaffungskosten), der dem laufenden steuerpflichtigen Bezug hinzuzurechnen ist."
+    }
+  ]
+}

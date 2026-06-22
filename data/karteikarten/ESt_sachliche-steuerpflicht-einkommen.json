@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Sachliche Steuerpflicht Einkommen",
+  "quelle_note": "Einkommensteuer/Sachliche Steuerpflicht Einkommen.md",
+  "karten": [
+    {
+      "id": "est-sachliche-steuerpflicht-einkommen-01",
+      "frage": "Wie wird das Einkommen ermittelt?",
+      "antwort": "Gesamtbetrag der Einkünfte aus den 7 Einkunftsarten nach Verlustausgleich, minus Sonderausgaben, Verlustabzug, außergewöhnliche Belastungen und § 105 EStG Freibetrag."
+    },
+    {
+      "id": "est-sachliche-steuerpflicht-einkommen-02",
+      "frage": "Welche 7 Einkunftsarten gibt es?",
+      "antwort": "- L+F\n- selbständige Arbeit\n- Gewerbebetrieb\n- nsA\n- Kapitalvermögen\n- V+V\n- sonstige"
+    },
+    {
+      "id": "est-sachliche-steuerpflicht-einkommen-03",
+      "frage": "Was bedeutet subsidiär?",
+      "antwort": "Einkunftsarten 5-7 sind nachgeordnet gegenüber 1-4.\nErst wenn Einkunftsarten 1-4 nicht zutreffen, werden Einkunftsarten 5-7 geprüft."
+    },
+    {
+      "id": "est-sachliche-steuerpflicht-einkommen-04",
+      "frage": "Wodurch unterscheiden sich steuerbare von nicht steuerbaren Einkünften?",
+      "antwort": "Steuerbar = einer der 7 Einkunftsarten zuordenbar.\nNicht steuerbar = kein Bezug zu einer Einkunftsart (zB Erbschaft, Lotterie, Schmerzensgeld)"
+    },
+    {
+      "id": "est-sachliche-steuerpflicht-einkommen-05",
+      "frage": "Wann wirken sich Wertänderungen aus?",
+      "antwort": "Bei betrieblichen Einkünften immer. Bei außerbetrieblichen nur wenn das EStG es ausdrücklich vorsieht (zB Kapitalvermögen, private Grundstückveräußerungen)."
+    }
+  ]
+}

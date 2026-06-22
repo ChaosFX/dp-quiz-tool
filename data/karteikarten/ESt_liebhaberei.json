@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Liebhaberei",
+  "quelle_note": "Einkommensteuer/Liebhaberei.md",
+  "karten": [
+    {
+      "id": "est-liebhaberei-01",
+      "frage": "Wann ist eine Tätigkeit als Liebhaberei einzuordnen?",
+      "antwort": "Wenn mangels objektiver Merkmale kein Gesamtgewinn/-überschuss zu erwarten ist -> steuerliche Einkunftsquelle (Voluptuar)."
+    },
+    {
+      "id": "est-liebhaberei-02",
+      "frage": "Welche 3 Kategorien unterscheidet die LVO?",
+      "antwort": "§ 1 Abs 1: Einkunftsquellenvermutung (Gesamtgewinnabsicht)\n§ 1 Abs 2: Liebhabereivermutung (typische Hobbys etc.)\n§ 1 Abs 3: Unwiderlegbare Einkunftsquelle"
+    },
+    {
+      "id": "est-liebhaberei-03",
+      "frage": "Was sind die Fristen bei der Gebäudevermietung?",
+      "antwort": "Groß (>= 3 WE): 30/33 Jahre\nKlein (<= 2 WE): 25/28 Jahre"
+    },
+    {
+      "id": "est-liebhaberei-04",
+      "frage": "Was versteht man unter Änderung der Bewirtschaftung?",
+      "antwort": "Wesentliche Änderung der Wirtschaftsführung (zB Eigenbewirtschaftung -> Verpachtung) -> kann Liebhaberei in Einkunftsquelle umwandeln -> neuer Anlaufzeitraum. Frühere Ergebnisse bleiben unbeachtlich."
+    }
+  ]
+}

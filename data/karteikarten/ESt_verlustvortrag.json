@@ -1,0 +1,22 @@
+{
+  "fach": "ESt",
+  "thema": "Verlustvortrag",
+  "quelle_note": "Einkommensteuer/Verlustvortrag.md",
+  "karten": [
+    {
+      "id": "est-verlustvortrag-01",
+      "frage": "Unter welchen Voraussetzungen ist ein Verlustvortrag möglich?",
+      "antwort": "Nur betriebliche Einkunftsarten (L+F, SA, GB), ordnungsmäßige Buchführung oder EAR, noch nicht in Vorjahren berücksichtigt."
+    },
+    {
+      "id": "est-verlustvortrag-02",
+      "frage": "Was geschieht mit Verlusten die im Entstehungsjahr nicht verbraucht werden können?",
+      "antwort": "Sofern Voraussetzungen des § 18 Abs 6 vorliegen -> Vortrag in spätere Jahre als Sonderausgabe."
+    },
+    {
+      "id": "est-verlustvortrag-03",
+      "frage": "In welcher Höhe sind Verluste abzugsfähig?",
+      "antwort": "Im höchstmöglichen Ausmaß, frühestmöglich.\nKein betragsmäßige oder zeitliche Begrenzung."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Persönliche Steuerpflicht",
+  "quelle_note": "Einkommensteuer/Persönliche Steuerpflicht.md",
+  "karten": [
+    {
+      "id": "est-persoenliche-steuerpflicht-01",
+      "frage": "Welche Arten der persönlichen Steuerpflicht gibt es?",
+      "antwort": "Unbeschränkt (Wohnsitz/Aufenthalt im Inland -> Welteinkommen),\nbeschränkt (keine Ansässigkeit, aber Inlandseinkünfte § 98),\nkeine Steuerpflicht."
+    },
+    {
+      "id": "est-persoenliche-steuerpflicht-02",
+      "frage": "Unter welchen Voraussetzung liegt ein Wohnsitz vor?",
+      "antwort": "Kumulativ: Wohnung + Innehaben + Beibehalten & Benutzen (§ 26 BAO)."
+    },
+    {
+      "id": "est-persoenliche-steuerpflicht-03",
+      "frage": "Warum sind Personengesellschaften nicht ESt-pflichtig?",
+      "antwort": "Nur natürliche Personen unterliegen der ESt. Die Einkünfte der Personengesellschaft werden den Gesellschaftern zugerechnet und bei diesen besteuert."
+    },
+    {
+      "id": "est-persoenliche-steuerpflicht-04",
+      "frage": "Wann tritt gewöhnlicher Aufenthalt ein?",
+      "antwort": "Rückwirkend ab einem Inlandsaufenthalt von mehr als 6 Monaten."
+    }
+  ]
+}

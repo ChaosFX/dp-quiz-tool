@@ -1,0 +1,821 @@
+{
+  "fach": "BAO",
+  "fragen": [
+    {
+      "id": "bao-01",
+      "frage": "Wie viele Abschnitte gliedert die BAO grundsätzlich?",
+      "optionen": [
+        "4 Abschnitte",
+        "6 Abschnitte",
+        "8 Abschnitte",
+        "10 Abschnitte"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Die BAO gliedert sich in 8 Abschnitte, von den allgemeinen Bestimmungen über das Erhebungsverfahren bis zu den Straf- und Schlussbestimmungen."
+    },
+    {
+      "id": "bao-02",
+      "frage": "Was bedeutet 'Ermessen' im Sinne des § 20 BAO?",
+      "optionen": [
+        "Die Behörde kann völlig frei und willkürlich entscheiden",
+        "Die Behörde muss innerhalb der vom Gesetz gezogenen Grenzen nach Billigkeit und Zweckmäßigkeit entscheiden",
+        "Ermessen bedeutet, dass keine Entscheidung getroffen werden muss",
+        "Ermessen ist ausschließlich dem Bundesfinanzgericht vorbehalten"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ermessensentscheidungen sind nach § 20 BAO innerhalb der vom Gesetz gezogenen Grenzen nach Billigkeit (Interessen der Partei) und Zweckmäßigkeit (öffentliches Interesse) zu treffen und sind zu begründen."
+    },
+    {
+      "id": "bao-03",
+      "frage": "In welchen Bereichen sind nach der BAO typischerweise Ermessensentscheidungen möglich?",
+      "optionen": [
+        "Nur bei der Festsetzung des Steuertarifs",
+        "Z.B. bei behördlichen Fristen, bei der Wiederaufnahme nach § 303 oder bei der Verjährung nach § 209",
+        "Ermessen ist im gesamten Abgabenverfahren ausgeschlossen",
+        "Nur beim Bundesfinanzgericht, nie bei der Abgabenbehörde erster Instanz"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ermessensspielräume bestehen u.a. bei der Festsetzung behördlicher Fristen, bei der Wiederaufnahme des Verfahrens (§ 303 BAO) sowie im Zusammenhang mit Verlängerungshandlungen zur Verjährung (§ 209 BAO)."
+    },
+    {
+      "id": "bao-04",
+      "frage": "Was versteht man unter 'Haftung' im Sinne der BAO?",
+      "optionen": [
+        "Das Einstehen für die eigene Abgabenschuld",
+        "Das Einstehen für eine fremde Abgabenschuld",
+        "Die Pflicht zur Buchführung",
+        "Die Pflicht zur Akteneinsicht"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Haftung bedeutet das Einstehen für eine fremde (nicht die eigene) Abgabenschuld, z.B. die Haftung von Vertretern nach § 9 BAO für Abgabenschulden des Vertretenen."
+    },
+    {
+      "id": "bao-05",
+      "frage": "Was wird durch einen Haftungsbescheid bewirkt?",
+      "optionen": [
+        "Er begründet eine eigene Abgabenschuld des Haftungspflichtigen für sein eigenes Verhalten",
+        "Er zieht eine Person für eine fremde Abgabenschuld zur Haftung heran, für die grundsätzlich der Erstschuldner primär verantwortlich ist",
+        "Er ersetzt den Abgabenbescheid gegenüber dem eigentlichen Abgabenschuldner vollständig",
+        "Ein Haftungsbescheid kann nicht mit Rechtsmittel bekämpft werden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Mit dem Haftungsbescheid (§ 224 BAO) wird eine Person, die für eine fremde Abgabenschuld haftet (z.B. ein Vertreter nach § 9 BAO), zur Zahlung herangezogen; er ist wie ein normaler Bescheid mit Rechtsmittel bekämpfbar."
+    },
+    {
+      "id": "bao-06",
+      "frage": "Was bedeutet Gesamtschuld bzw. Gesamtrechtsnachfolge im Sinne der §§ 6, 19 BAO?",
+      "optionen": [
+        "Mehrere Personen schulden gemeinsam dieselbe Abgabe bzw. ein Rechtsnachfolger tritt zur Gänze in die abgabenrechtliche Position des Rechtsvorgängers ein",
+        "Jede Person schuldet nur einen Bruchteil unabhängig von den anderen",
+        "Gesamtschuld betrifft ausschließlich Ehepartner",
+        "Gesamtrechtsnachfolge gibt es im Abgabenrecht nicht"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei einer Gesamtschuld (§ 6 BAO) haften mehrere Personen für dieselbe Abgabenschuld; bei Gesamtrechtsnachfolge (§ 19 BAO), z.B. im Erbfall, tritt der Rechtsnachfolger umfassend in die abgabenrechtliche Stellung des Rechtsvorgängers ein."
+    },
+    {
+      "id": "bao-07",
+      "frage": "Wie ist der Wohnsitz im Sinne des § 26 BAO definiert?",
+      "optionen": [
+        "Ausschließlich der Ort der polizeilichen Meldung (Hauptwohnsitz laut Meldezettel)",
+        "Eine Wohnung unter Umständen innehaben, die darauf schließen lassen, dass die Wohnung beibehalten und benutzt wird",
+        "Nur der Ort, an dem sich der Mittelpunkt der Lebensinteressen befindet",
+        "Der Wohnsitz ist im österreichischen Abgabenrecht nicht relevant"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 26 BAO definiert den Wohnsitz unabhängig von der polizeilichen Meldung: Maßgeblich ist, ob jemand eine Wohnung unter Umständen innehat, die darauf schließen lassen, dass er sie beibehalten und benutzen wird."
+    },
+    {
+      "id": "bao-08",
+      "frage": "Was versteht man unter der 'wirtschaftlichen Betrachtungsweise' im Abgabenrecht?",
+      "optionen": [
+        "Für die Beurteilung abgabenrechtlicher Fragen ist primär der wahre wirtschaftliche Gehalt eines Sachverhalts maßgeblich, nicht nur die äußere zivilrechtliche Gestaltung",
+        "Nur die zivilrechtliche Bezeichnung eines Geschäfts ist entscheidend",
+        "Sie gilt ausschließlich im Umsatzsteuerrecht",
+        "Sie wurde durch die letzte BAO-Novelle abgeschafft"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Nach §§ 21 ff. BAO ist für die Beurteilung abgabenrechtlicher Fragen der wahre wirtschaftliche Gehalt eines Sachverhalts maßgeblich, nicht die äußere (zivilrechtliche) Erscheinungsform – damit werden u.a. Missbrauch und Scheingeschäfte erfasst."
+    },
+    {
+      "id": "bao-09",
+      "frage": "Was unterscheidet 'Missbrauch' von einem 'Scheingeschäft' im Sinne der §§ 21–24 BAO?",
+      "optionen": [
+        "Beim Scheingeschäft wird tatsächlich genau das gewollt und durchgeführt, was nach außen erklärt wird; beim Missbrauch wird eine ungewöhnliche rechtliche Gestaltung gewählt, um Abgaben zu vermeiden",
+        "Missbrauch und Scheingeschäft sind exakte Synonyme ohne inhaltlichen Unterschied",
+        "Beim Scheingeschäft fehlt der Wille, das nach außen erklärte Geschäft tatsächlich zu wollen; Missbrauch liegt bei einer ungewöhnlichen, unangemessenen rechtlichen Gestaltung zur Steuervermeidung vor",
+        "Beide Begriffe betreffen ausschließlich strafrechtliche Tatbestände"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Beim Scheingeschäft (§ 23 BAO) fehlt der Wille, das erklärte Geschäft tatsächlich zu wollen. Missbrauch (§ 22 BAO) liegt vor, wenn eine ungewöhnliche und unangemessene rechtliche Gestaltung gewählt wird, die im Wesentlichen nur der Steuervermeidung dient."
+    },
+    {
+      "id": "bao-10",
+      "frage": "Was umfasst die abgabenrechtliche Geheimhaltungspflicht nach § 48a BAO?",
+      "optionen": [
+        "Sie verpflichtet Abgabenbehörden, alle in einem Verfahren bekanntgewordenen Verhältnisse und Umstände der Abgabepflichtigen grundsätzlich geheim zu halten",
+        "Sie verpflichtet ausschließlich den Abgabepflichtigen zur Geheimhaltung gegenüber Dritten",
+        "Sie gilt nur für strafrechtlich relevante Sachverhalte",
+        "Sie wurde durch das Auskunftspflichtgesetz vollständig aufgehoben"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die abgabenrechtliche Geheimhaltungspflicht (§ 48a BAO) verpflichtet die mit Abgabenangelegenheiten befassten Organe, die ihnen bekanntgewordenen Verhältnisse und Umstände der Abgabepflichtigen geheim zu halten, soweit nicht gesetzliche Ausnahmen bestehen."
+    },
+    {
+      "id": "bao-11",
+      "frage": "Was bedeutet Befangenheit eines Organwalters nach § 76 BAO?",
+      "optionen": [
+        "Ein Organwalter ist immer befangen, sobald er einen Bescheid erlässt",
+        "Befangenheit liegt vor, wenn Umstände vorliegen, die die volle Unbefangenheit des Organwalters in Zweifel ziehen (z.B. persönliche Beteiligung oder Naheverhältnis)",
+        "Befangenheit betrifft ausschließlich Richter am Bundesfinanzgericht",
+        "Befangenheit kann nur vom Abgabepflichtigen selbst festgestellt werden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Befangenheit (§ 76 BAO) liegt vor, wenn Gründe gegeben sind, die die volle Unbefangenheit eines Organwalters in Zweifel ziehen, z.B. eigene Beteiligung an der Sache oder ein Angehörigenverhältnis zur Partei; ein befangener Organwalter hat sich der Ausübung seines Amtes zu enthalten."
+    },
+    {
+      "id": "bao-12",
+      "frage": "Wer gilt als 'Abgabepflichtiger' im Sinne der §§ 77–78 BAO?",
+      "optionen": [
+        "Nur derjenige, der tatsächlich Abgaben schuldet",
+        "Wer nach den Abgabenvorschriften zur Erfüllung abgabenrechtlicher Pflichten (z.B. Erklärungs- oder Zahlungspflichten) verpflichtet ist, unabhängig davon, ob eine konkrete Zahlungspflicht besteht",
+        "Ausschließlich natürliche Personen, niemals Körperschaften",
+        "Nur derjenige, gegen den bereits ein Bescheid erlassen wurde"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Abgabepflichtiger ist, wer nach den Abgabenvorschriften zur Erfüllung abgabenrechtlicher Pflichten verpflichtet ist (z.B. Erklärungs-, Anzeige-, Zahlungspflichten) – das umfasst auch Personen ohne aktuelle Zahlungspflicht."
+    },
+    {
+      "id": "bao-13",
+      "frage": "Wann endet die Rechts- und Handlungsfähigkeit einer natürlichen Person im Abgabenverfahren grundsätzlich?",
+      "optionen": [
+        "Mit dem Tod der Person, wobei die Gesamtrechtsnachfolge auf die Erben übergeht",
+        "Erst mit der Einantwortung der Verlassenschaft, davor besteht überhaupt keine abgabenrechtliche Relevanz",
+        "Die Handlungsfähigkeit endet nie, auch nicht mit dem Tod",
+        "Mit Erreichen des Pensionsalters"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Mit dem Tod einer natürlichen Person endet deren Rechts- und Handlungsfähigkeit; im Wege der Gesamtrechtsnachfolge (§ 19 BAO) gehen die abgabenrechtlichen Rechte und Pflichten auf die Erben bzw. den Verlassenschaftsvertreter über, was bei der Bescheidadressierung zu beachten ist."
+    },
+    {
+      "id": "bao-14",
+      "frage": "Welche Voraussetzung muss für eine gewillkürte Vollmacht nach §§ 83–84 BAO grundsätzlich erfüllt sein?",
+      "optionen": [
+        "Jede beliebige Person kann unabhängig von ihrer Befugnis als Vertreter auftreten",
+        "Bei nicht zur geschäftsmäßigen Parteienvertretung befugten Personen kann die Behörde die Vertretung zurückweisen",
+        "Eine Vollmacht muss stets notariell beglaubigt sein",
+        "Vollmachten sind im Abgabenverfahren grundsätzlich unzulässig"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Tritt eine Person als Vertreter auf, die nicht zur geschäftsmäßigen Parteienvertretung befugt ist (z.B. keine Rechtsanwalts- oder Steuerberatungsbefugnis bei entsprechender Tätigkeit), kann die Behörde diese Person von der Vertretung zurückweisen (Ablehnung)."
+    },
+    {
+      "id": "bao-15",
+      "frage": "Welche Arten von Mängeln können bei einem Anbringen (§§ 85–86a BAO) auftreten?",
+      "optionen": [
+        "Formalmängel und Inhaltsmängel",
+        "Nur Formalmängel, Inhaltsmängel gibt es im Abgabenverfahren nicht",
+        "Mängel sind ausschließlich bei mündlichen Anbringen relevant",
+        "Mängel können nur vom Bundesfinanzgericht festgestellt werden"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei Anbringen werden Formalmängel (z.B. fehlende Unterschrift) und Inhaltsmängel (z.B. fehlende gesetzlich vorgeschriebene Angaben) unterschieden; die jeweiligen Inhaltserfordernisse ergeben sich aus dem konkreten Gesetzeswortlaut."
+    },
+    {
+      "id": "bao-16",
+      "frage": "Was passiert, wenn ein Mangel eines Anbringens trotz Mängelbehebungsauftrag (§ 85 Abs. 2 BAO) nicht rechtzeitig behoben wird?",
+      "optionen": [
+        "Das Anbringen gilt als von Anfang an zurückgenommen",
+        "Es passiert nichts, das Verfahren läuft unverändert weiter",
+        "Die Behörde muss das Anbringen trotzdem inhaltlich erledigen",
+        "Der Mangel wird automatisch durch Zeitablauf geheilt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wird ein Mangel trotz Mängelbehebungsauftrags nicht fristgerecht behoben, gilt das Anbringen gemäß § 85 Abs. 2 BAO als zurückgenommen; dies ist mit Bescheid festzustellen."
+    },
+    {
+      "id": "bao-17",
+      "frage": "Wann ist ein Mängelbehebungsauftrag zwingend zu erteilen?",
+      "optionen": [
+        "Nur wenn die Behörde es für zweckmäßig hält, es liegt im freien Ermessen ohne jede Bindung",
+        "Wenn ein Anbringen einen behebbaren Formal- oder Inhaltsmangel aufweist, der die ordnungsgemäße Behandlung des Anbringens behindert",
+        "Niemals bei Eingaben von berufsmäßigen Parteienvertretern",
+        "Nur bei mündlich vorgebrachten Anbringen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ein Mängelbehebungsauftrag ist zu erteilen, wenn ein Anbringen einen behebbaren Mangel (Formal- oder Inhaltsmangel) aufweist, der einer ordnungsgemäßen Behandlung entgegensteht – die Partei ist dann unter Setzung einer Frist zur Behebung aufzufordern."
+    },
+    {
+      "id": "bao-18",
+      "frage": "Was ist eine Niederschrift im Sinne der §§ 87, 88 BAO?",
+      "optionen": [
+        "Eine interne, nicht nach außen wirksame Aktennotiz ohne Beweischarakter",
+        "Eine schriftliche Festhaltung über wichtige Amtshandlungen bzw. Aussagen (z.B. bei einer Vernehmung), die als Beweismittel dient",
+        "Ein Synonym für den Abgabenbescheid",
+        "Eine Niederschrift kann ausschließlich vom Abgabepflichtigen selbst verfasst werden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Niederschrift (§§ 87, 88 BAO) dokumentiert schriftlich den Verlauf wesentlicher Amtshandlungen, z.B. einer Vernehmung oder eines Augenscheins, und dient im Verfahren als Beweismittel."
+    },
+    {
+      "id": "bao-19",
+      "frage": "Wofür dient ein Aktenvermerk (§ 89 BAO) im Unterschied zur Niederschrift?",
+      "optionen": [
+        "Der Aktenvermerk hat dieselbe rechtliche Wirkung wie ein Bescheid",
+        "Er dient der internen Dokumentation von Vorgängen und Wahrnehmungen, für die keine Niederschrift aufzunehmen ist",
+        "Er ersetzt die Zustellung eines Bescheides",
+        "Aktenvermerke sind im Abgabenverfahren gesetzlich verboten"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ein Aktenvermerk dient der Dokumentation von Vorgängen oder Wahrnehmungen innerhalb des Abgabenverfahrens, für die keine förmliche Niederschrift vorgesehen bzw. erforderlich ist."
+    },
+    {
+      "id": "bao-20",
+      "frage": "Unter welchen Voraussetzungen besteht ein Recht auf Akteneinsicht nach § 90 BAO?",
+      "optionen": [
+        "Akteneinsicht steht jeder beliebigen Person uneingeschränkt zu",
+        "Akteneinsicht steht Parteien zu, soweit nicht gesetzliche Ausschlussgründe (z.B. Wahrung abgabenrechtlicher Geheimhaltungspflichten Dritter) entgegenstehen",
+        "Akteneinsicht ist im Abgabenverfahren generell ausgeschlossen",
+        "Akteneinsicht kann nur nach rechtskräftigem Abschluss des Verfahrens gewährt werden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Parteien steht grundsätzlich Akteneinsicht in die sie betreffenden Akten zu; Ausschlussgründe ergeben sich insbesondere aus der Wahrung der Geheimhaltungsinteressen Dritter oder aus Gründen der Amtsverschwiegenheit."
+    },
+    {
+      "id": "bao-21",
+      "frage": "Was ist eine Vorladung im Sinne des § 91 BAO?",
+      "optionen": [
+        "Eine formlose Bitte ohne Konsequenzen bei Nichtbefolgung",
+        "Eine behördliche Aufforderung zum persönlichen Erscheinen, z.B. als Zeuge, deren Nichtbefolgung Konsequenzen (z.B. Zwangsmittel) nach sich ziehen kann",
+        "Ein Synonym für den Bescheid über eine Außenprüfung",
+        "Eine Vorladung kann ausschließlich schriftlich, niemals mündlich, ergehen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Mit einer Vorladung (§ 91 BAO) wird eine Person aufgefordert, persönlich vor der Behörde zu erscheinen (z.B. als Zeuge oder Auskunftsperson); bei unbegründetem Fernbleiben können Zwangsmaßnahmen folgen."
+    },
+    {
+      "id": "bao-22",
+      "frage": "Welche Arten von behördlichen Erledigungen unterscheidet die BAO grundsätzlich?",
+      "optionen": [
+        "Nur Bescheide, alle anderen Erledigungsformen sind ausgeschlossen",
+        "Bescheide und verfahrensleitende Verfügungen sowie sonstige Erledigungen",
+        "Ausschließlich mündliche und schriftliche Erledigungen ohne weitere Differenzierung",
+        "Die BAO unterscheidet nicht zwischen verschiedenen Erledigungsarten"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die BAO unterscheidet u.a. zwischen Bescheiden (mit Rechtsmittel bekämpfbar) und verfahrensleitenden Verfügungen (§ 94 BAO, grundsätzlich nicht gesondert mit Rechtsmittel bekämpfbar) sowie weiteren Erledigungsformen."
+    },
+    {
+      "id": "bao-23",
+      "frage": "Welche Bestandteile muss ein Bescheid nach §§ 93, 96 BAO grundsätzlich enthalten?",
+      "optionen": [
+        "Nur die Unterschrift des Sachbearbeiters",
+        "U.a. Bezeichnung als Bescheid, Spruch, Begründung (soweit erforderlich), Rechtsmittelbelehrung und Angabe der erlassenden Behörde",
+        "Ausschließlich den Spruch, alle weiteren Bestandteile sind optional",
+        "Ein Bescheid benötigt keine erkennbare Behördenbezeichnung"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Zu den wesentlichen Bestandteilen eines Bescheides zählen u.a. die Bezeichnung als Bescheid, der Spruch, eine Begründung (soweit nötig), die Rechtsmittelbelehrung sowie die Angabe der erlassenden Behörde; Mängel einzelner Bestandteile können unterschiedliche Konsequenzen haben."
+    },
+    {
+      "id": "bao-24",
+      "frage": "Worauf ist bei der Bescheidadressierung in Spezialfällen wie Tod einer Partei oder Insolvenz besonders zu achten (§ 93 Abs. 2 BAO)?",
+      "optionen": [
+        "Der Bescheid kann unabhängig vom tatsächlichen Rechtsträger an eine beliebige Person adressiert werden",
+        "Der Bescheid muss an den richtigen Adressaten gerichtet werden, z.B. an die Verlassenschaft bzw. die Erben oder an den Masseverwalter im Insolvenzverfahren",
+        "In Spezialfällen entfällt die Notwendigkeit einer Bescheidadressierung gänzlich",
+        "Bei Insolvenz ist stets der ursprüngliche Schuldner persönlich Bescheidadressat, niemals der Masseverwalter"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Bei Tod der Partei ist der Bescheid an die Verlassenschaft bzw. nach Einantwortung an die Erben zu richten, bei Insolvenz ist je nach Verfahrensstadium der Masseverwalter bzw. Sanierungsverwalter zu beachten – eine falsche Adressierung kann zur Nichtigkeit des Bescheides führen."
+    },
+    {
+      "id": "bao-25",
+      "frage": "Was unterscheidet eine verfahrensleitende Verfügung (§ 94 BAO) von einem 'gewöhnlichen' Bescheid?",
+      "optionen": [
+        "Eine verfahrensleitende Verfügung ist grundsätzlich nicht gesondert mit Rechtsmittel anfechtbar, sie dient nur der Verfahrenssteuerung",
+        "Verfahrensleitende Verfügungen können immer sofort beim VwGH bekämpft werden",
+        "Es gibt keinen Unterschied, beide Begriffe sind gleichbedeutend",
+        "Verfahrensleitende Verfügungen ergehen ausschließlich mündlich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Eine verfahrensleitende Verfügung (§ 94 BAO) dient der Steuerung des Verfahrensablaufs (z.B. Anordnung eines Lokalaugenscheins) und ist im Unterschied zu einem 'gewöhnlichen' Bescheid grundsätzlich nicht gesondert mit Rechtsmittel bekämpfbar, sondern erst im Rahmen der Anfechtung der das Verfahren abschließenden Erledigung."
+    },
+    {
+      "id": "bao-26",
+      "frage": "Wann wird ein Bescheid nach § 97 BAO grundsätzlich wirksam?",
+      "optionen": [
+        "Bereits mit der internen Genehmigung durch den Sachbearbeiter",
+        "Erst mit erfolgter Zustellung an die Partei (das fristauslösende Ereignis)",
+        "Erst mit Rechtskraft des Bescheides",
+        "Ein Bescheid wird niemals 'wirksam', sondern nur 'erlassen'"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ein Bescheid wird grundsätzlich erst mit der Zustellung an die Partei wirksam (§ 97 BAO); die Zustellung ist damit das fristauslösende Ereignis für etwaige Rechtsmittelfristen."
+    },
+    {
+      "id": "bao-27",
+      "frage": "Ist das Zustellgesetz (ZustG) auf Zustellungen im Rahmen von Abgabenverfahren anwendbar?",
+      "optionen": [
+        "Nein, die BAO regelt Zustellungen vollständig eigenständig ohne Bezug zum ZustG",
+        "Ja, das ZustG ist grundsätzlich anwendbar, auch elektronische Zustellungen sind möglich",
+        "Das ZustG gilt nur für Zustellungen im Zivilprozess",
+        "Das ZustG ist nur bei Zustellungen an juristische Personen anwendbar"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das Zustellgesetz ist auf Zustellungen im Rahmen von Abgabenverfahren grundsätzlich anwendbar (§§ 98 ff. BAO verweisen darauf); daneben sind nach den Bestimmungen des ZustG auch elektronische Zustellungen möglich."
+    },
+    {
+      "id": "bao-28",
+      "frage": "Welche Konsequenz hat es, wenn der Abgabepflichtige seinen Obliegenheiten nach § 8 ZustG (Mitteilung von Abgabeort-Änderungen) nicht nachkommt?",
+      "optionen": [
+        "Es bleibt folgenlos, der Abgabepflichtige kann sich jederzeit auf die Unkenntnis der Zustellung berufen",
+        "Bei Verletzung dieser Mitteilungspflicht kann unter bestimmten Voraussetzungen eine andere Zustellart (z.B. Zustellung ohne Zustellnachweis bzw. besondere Zustellformen) zur Anwendung kommen",
+        "Die Behörde muss das Verfahren einstellen",
+        "Es kommt automatisch zu einer Wiedereinsetzung in den vorigen Stand"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Verletzt der Empfänger seine Obliegenheit, Änderungen der Abgabestelle bekanntzugeben (§ 8 ZustG), kann dies dazu führen, dass eine ansonsten erforderliche besondere Zustellart entfällt bzw. die Zustellung dennoch als bewirkt gilt."
+    },
+    {
+      "id": "bao-29",
+      "frage": "Welche Funktion hat ein Zustellungsbevollmächtigter nach § 9 ZustG?",
+      "optionen": [
+        "Er übernimmt ausschließlich die steuerliche Vertretung in der Sache selbst, nicht aber die Entgegennahme von Zustellungen",
+        "Zustellungen erfolgen wirksam an den Zustellungsbevollmächtigten anstelle der eigentlichen Partei, sofern dieser entsprechend bevollmächtigt und der Behörde bekanntgegeben wurde",
+        "Ein Zustellungsbevollmächtigter ist nur bei juristischen Personen zulässig",
+        "Die Bestellung eines Zustellungsbevollmächtigten hat keine Auswirkung auf die Wirksamkeit von Zustellungen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ist ein Zustellungsbevollmächtigter bestellt und der Behörde bekanntgegeben, hat die Zustellung an diesen zu erfolgen; sie wirkt dann wie eine Zustellung an die Partei selbst (§ 9 ZustG)."
+    },
+    {
+      "id": "bao-30",
+      "frage": "Wann ist die Bestellung eines (inländischen) Zustellungsbevollmächtigten besonders relevant (§ 10 ZustG)?",
+      "optionen": [
+        "Ausschließlich bei Zustellungen innerhalb Wiens",
+        "Insbesondere bei Zustellungen im Ausland bzw. bei im Ausland ansässigen Abgabepflichtigen (Namhaftmachung)",
+        "Sie ist generell verboten",
+        "Nur bei elektronischen Zustellungen über FinanzOnline"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 10 ZustG regelt insbesondere die Namhaftmachung eines Zustellungsbevollmächtigten bei Zustellungen ins Ausland; wird trotz Aufforderung kein Zustellungsbevollmächtigter genannt, können sich daraus Konsequenzen für die Zustellung ergeben (z.B. Zustellung durch Hinterlegung bei der Behörde)."
+    },
+    {
+      "id": "bao-31",
+      "frage": "Welche grundlegenden Zustellarten sieht das ZustG u.a. vor?",
+      "optionen": [
+        "Nur die persönliche Übergabe durch den Zusteller",
+        "U.a. Zustellung durch Übergabe, Zustellung durch Hinterlegung sowie elektronische Zustellung",
+        "Ausschließlich die Zustellung per E-Mail",
+        "Das ZustG kennt überhaupt keine unterschiedlichen Zustellarten"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das ZustG kennt verschiedene Zustellarten, u.a. die Zustellung durch persönliche Übergabe, die Zustellung durch Hinterlegung (wenn der Empfänger nicht angetroffen wird) sowie unter bestimmten Voraussetzungen die elektronische Zustellung."
+    },
+    {
+      "id": "bao-32",
+      "frage": "Wie ist das konkrete Fristende grundsätzlich zu berechnen, wenn eine Frist 'in Wochen' bestimmt ist und der Bescheid am 31.05. zugestellt wurde?",
+      "optionen": [
+        "Das Fristende richtet sich danach, an welchem Wochentag der Bescheid zugestellt wurde, und endet eine entsprechende Anzahl von Wochen später am gleichnamigen Wochentag",
+        "Fristen 'in Wochen' enden immer exakt am letzten Tag des Folgemonats",
+        "Eine Berechnung nach Wochen ist im Abgabenverfahren generell unzulässig",
+        "Das Fristende ist immer der 1. des Folgemonats"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Nach § 108 BAO endet eine nach Wochen bestimmte Frist mit Ablauf desjenigen Tages der letzten Woche, der durch seine Benennung dem für den Beginn der Frist maßgeblichen Tag (Tag der Zustellung bzw. des fristauslösenden Ereignisses) entspricht."
+    },
+    {
+      "id": "bao-33",
+      "frage": "Was ist Voraussetzung für eine Fristverlängerung nach § 110 BAO?",
+      "optionen": [
+        "Ein rechtzeitiger Antrag vor Ablauf der Frist sowie das Vorliegen berücksichtigungswürdiger Gründe",
+        "Fristverlängerungen sind im Abgabenverfahren generell ausgeschlossen",
+        "Ein Antrag kann auch nach Ablauf der Frist gestellt werden und wirkt rückwirkend",
+        "Fristverlängerungen werden nur bei behördlichen, nie bei gesetzlichen Fristen gewährt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Eine Fristverlängerung setzt grundsätzlich einen vor Ablauf der Frist gestellten Antrag sowie berücksichtigungswürdige Gründe voraus; die Bewilligung liegt im Ermessen der Behörde (§ 110 BAO), wobei behördliche Fristen verlängerbar sind, gesetzliche Fristen idR nicht."
+    },
+    {
+      "id": "bao-34",
+      "frage": "Unter welchen Voraussetzungen kann eine Zwangsstrafe nach § 111 BAO verhängt werden?",
+      "optionen": [
+        "Wenn eine Partei eine im Gesetz vorgesehene Mitwirkungspflicht (z.B. Vorlage von Unterlagen) trotz Aufforderung und angemessener Fristsetzung nicht erfüllt",
+        "Bei jeder verspäteten Zahlung einer Abgabe, unabhängig vom Grund",
+        "Nur bei vorsätzlicher Abgabenhinterziehung",
+        "Zwangsstrafen sind im österreichischen Abgabenverfahren gesetzlich nicht vorgesehen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Eine Zwangsstrafe (§ 111 BAO) kann verhängt werden, wenn eine Partei eine gesetzlich vorgesehene Mitwirkungshandlung (z.B. Auskunftserteilung, Vorlage von Unterlagen) trotz Aufforderung und Setzung einer angemessenen Frist nicht erfüllt."
+    },
+    {
+      "id": "bao-35",
+      "frage": "Welche Aussage zu Ordnungsstrafen und Mutwillensstrafen (§§ 112, 112a BAO) trifft zu?",
+      "optionen": [
+        "Beide Strafen dienen ausschließlich der Bestrafung von Abgabenhinterziehung",
+        "Ordnungsstrafen können z.B. bei ungebührlichem Verhalten in einer Amtshandlung, Mutwillensstrafen bei mutwilliger Inanspruchnahme der Behörde verhängt werden",
+        "Diese Strafen können nur vom Bundesfinanzgericht verhängt werden",
+        "Es handelt sich um Synonyme für den Verspätungszuschlag"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ordnungsstrafen (§ 112 BAO) können u.a. bei störendem oder ungebührlichem Verhalten in einer Amtshandlung verhängt werden, Mutwillensstrafen (§ 112a BAO) bei offenkundig mutwilliger Inanspruchnahme der Behörde."
+    },
+    {
+      "id": "bao-36",
+      "frage": "Welche Bedeutung hat § 119 BAO (Offenlegungs- und Wahrheitspflicht)?",
+      "optionen": [
+        "Der Abgabepflichtige muss nur jene Fragen beantworten, die ihm günstig erscheinen",
+        "Der Abgabepflichtige hat die für den Bestand und Umfang einer Abgabepflicht bedeutsamen Umstände vollständig und wahrheitsgemäß offenzulegen",
+        "Die Offenlegungspflicht betrifft ausschließlich Körperschaften, nicht natürliche Personen",
+        "§ 119 BAO regelt ausschließlich die Buchführungspflicht"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Nach § 119 BAO hat der Abgabepflichtige die für den Bestand und Umfang einer Abgabepflicht bedeutsamen Umstände vollständig und wahrheitsgemäß offenzulegen; diese Offenlegungs- und Wahrheitspflicht ist eine zentrale Mitwirkungspflicht im Abgabenverfahren."
+    },
+    {
+      "id": "bao-37",
+      "frage": "Was ist ein Verspätungszuschlag nach § 135 BAO?",
+      "optionen": [
+        "Eine zwingend mit der Abgabenschuld zu verrechnende Zinszahlung",
+        "Ein Zuschlag, der bei nicht fristgerechter Einreichung von Abgabenerklärungen im Rahmen des Ermessens bis zu einem gesetzlichen Höchstausmaß festgesetzt werden kann",
+        "Eine ausschließlich strafrechtliche Sanktion nach dem FinStrG",
+        "Ein Zuschlag, der nur bei verspäteter Zahlung, nie bei verspäteter Erklärungsabgabe, festgesetzt wird"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Wird eine Abgabenerklärung nicht fristgerecht eingereicht, kann die Behörde im Rahmen des Ermessens einen Verspätungszuschlag bis zu einem gesetzlich festgelegten Höchstausmaß festsetzen (§ 135 BAO)."
+    },
+    {
+      "id": "bao-38",
+      "frage": "Wer kommt grundsätzlich als Auskunftsperson nach § 143 BAO in Frage und welche Bestimmungen sind dabei zu beachten?",
+      "optionen": [
+        "Nur der Abgabepflichtige selbst kann Auskunftsperson sein",
+        "Auch Dritte können als Auskunftsperson herangezogen werden, wobei die Bestimmungen über Zeugen sinngemäß anwendbar sind",
+        "Auskunftspersonen sind im Abgabenverfahren nicht vorgesehen",
+        "Auskunftspersonen müssen zwingend gerichtlich beeidet werden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Als Auskunftsperson nach § 143 BAO kommen sowohl der Abgabepflichtige als auch Dritte in Betracht; dabei sind die für Zeugen geltenden Bestimmungen (z.B. Aussageverweigerungsrechte) sinngemäß maßgeblich."
+    },
+    {
+      "id": "bao-39",
+      "frage": "Wann darf die Abgabenbehörde eine Nachschau (§§ 144 ff. BAO) durchführen?",
+      "optionen": [
+        "Eine Nachschau ist gesetzlich nicht vorgesehen",
+        "Zur Wahrung abgabenrechtlicher Interessen, insbesondere zur Feststellung abgabepflichtiger Sachverhalte, unter den gesetzlich vorgesehenen Voraussetzungen",
+        "Nur nach vorheriger schriftlicher Zustimmung des Abgabepflichtigen",
+        "Ausschließlich im Rahmen eines bereits eingeleiteten Finanzstrafverfahrens"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Nachschau dient der Wahrung abgabenrechtlicher Interessen, insbesondere der Feststellung abgabepflichtiger Sachverhalte (z.B. Kassen-Nachschau), und kann unter den gesetzlichen Voraussetzungen ohne vorherige Ankündigung erfolgen."
+    },
+    {
+      "id": "bao-40",
+      "frage": "Was ist der Unterschied zwischen einer Nachschau und einer Außenprüfung (§§ 147–153 BAO)?",
+      "optionen": [
+        "Es gibt keinen Unterschied, beide Begriffe sind gleichbedeutend",
+        "Die Außenprüfung ist im Vergleich zur Nachschau ein umfassenderes, förmlicheres Prüfungsinstrument mit eigenem Prüfungsauftrag, das mehrere Zeiträume und Abgabenarten systematisch erfassen kann",
+        "Eine Außenprüfung darf nur beim Bundesfinanzgericht stattfinden",
+        "Eine Nachschau ist immer umfangreicher als eine Außenprüfung"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Außenprüfung ist ein systematisches, auf einem Prüfungsauftrag beruhendes Instrument zur umfassenden Überprüfung der Besteuerungsgrundlagen über mehrere Zeiträume/Abgabenarten, während die Nachschau eher punktuell der Feststellung einzelner Sachverhalte dient."
+    },
+    {
+      "id": "bao-41",
+      "frage": "Was bewirkt eine Schätzung der Besteuerungsgrundlagen nach § 184 BAO?",
+      "optionen": [
+        "Sie kommt nur bei vollständiger und korrekter Buchführung zur Anwendung",
+        "Wenn die Grundlagen für die Abgabenerhebung nicht ermittelt oder berechnet werden können, hat die Behörde diese im Schätzungswege zu ermitteln (z.B. bei mangelhafter Buchführung)",
+        "Eine Schätzung ist im österreichischen Abgabenrecht unzulässig",
+        "Schätzungen dürfen ausschließlich vom Bundesfinanzgericht vorgenommen werden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Können die Grundlagen für die Abgabenerhebung nicht ermittelt oder berechnet werden (z.B. wegen formeller oder materieller Mängel der Buchführung), hat die Behörde diese gemäß § 184 BAO im Schätzungswege zu ermitteln; es gibt verschiedene anerkannte Schätzungsmethoden."
+    },
+    {
+      "id": "bao-42",
+      "frage": "Für welche Konstellationen ist das Feststellungsverfahren nach § 188 BAO anwendbar?",
+      "optionen": [
+        "Ausschließlich für Einzelunternehmer",
+        "Insbesondere bei Einkünften, an denen mehrere Personen beteiligt sind, z.B. bei Mitunternehmerschaften (Personengesellschaften)",
+        "Nur bei Körperschaften",
+        "Das Feststellungsverfahren betrifft ausschließlich die Umsatzsteuer"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das Feststellungsverfahren (§ 188 BAO) kommt insbesondere bei Einkünften zur Anwendung, an denen mehrere Personen beteiligt sind (z.B. bei Mitunternehmerschaften); die Einkünfte und deren Verteilung werden einheitlich und gesondert festgestellt und binden die Einkommensteuerbescheide der Beteiligten."
+    },
+    {
+      "id": "bao-43",
+      "frage": "Was bedeutet die Bindungswirkung eines Feststellungsbescheides nach § 192 BAO?",
+      "optionen": [
+        "Der Feststellungsbescheid hat keinerlei Auswirkung auf die davon abgeleiteten Bescheide",
+        "Die im Feststellungsbescheid getroffenen Feststellungen sind für davon abgeleitete Bescheide (z.B. Einkommensteuerbescheide der Beteiligten) bindend",
+        "Die Bindungswirkung gilt nur für das laufende Kalenderjahr",
+        "Ein Feststellungsbescheid kann von den abgeleiteten Bescheiden inhaltlich frei abweichen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Feststellungsbescheide entfalten Bindungswirkung für die davon abgeleiteten Bescheide (§ 192 BAO) – die darin getroffenen Feststellungen (z.B. Höhe und Verteilung der Einkünfte) sind in den Folgebescheiden zugrunde zu legen, ohne dass diese eigenständig neu beurteilt werden."
+    },
+    {
+      "id": "bao-44",
+      "frage": "Welche Aussage trifft auf die Bemessungsverjährung nach §§ 207–209a BAO zu?",
+      "optionen": [
+        "Die Verjährungsfrist kann durch nach außen erkennbare Amtshandlungen (Verlängerungshandlungen) verlängert werden",
+        "Die Bemessungsverjährung ist absolut starr und kann unter keinen Umständen verlängert werden",
+        "Es gibt im österreichischen Abgabenrecht keine Verjährung der Abgabenfestsetzung",
+        "Verlängerungshandlungen verkürzen die Verjährungsfrist"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die grundsätzliche Verjährungsfrist (idR 5 Jahre, bei hinterzogenen Abgaben länger) kann durch nach außen erkennbare Amtshandlungen zur Geltendmachung des Abgabenanspruchs (Verlängerungshandlungen) jeweils um ein Jahr verlängert werden."
+    },
+    {
+      "id": "bao-45",
+      "frage": "Was bedeutet 'Fälligkeit' im Sinne des § 210 BAO?",
+      "optionen": [
+        "Der Zeitpunkt, ab dem die Abgabenbehörde verpflichtet ist, einen Bescheid zu erlassen",
+        "Der Zeitpunkt, ab dem eine Abgabenschuld zu entrichten ist; ab diesem Zeitpunkt können bei Nichtzahlung Säumnisfolgen eintreten",
+        "Der Zeitpunkt, an dem die Verjährungsfrist zu laufen beginnt",
+        "Fälligkeit hat im Abgabenverfahren keine eigenständige Bedeutung"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Fälligkeit (§ 210 BAO) bezeichnet den Zeitpunkt, ab dem eine Abgabenschuld zu entrichten ist. Wird zu diesem Zeitpunkt nicht (vollständig) gezahlt, können Säumnisfolgen wie der Säumniszuschlag eintreten."
+    },
+    {
+      "id": "bao-46",
+      "frage": "Was ist der Zweck der Aussetzung der Einhebung nach § 212a BAO?",
+      "optionen": [
+        "Sie soll verhindern, dass eine strittige Abgabe bereits vor Erledigung einer Bescheidbeschwerde eingehoben werden muss",
+        "Sie führt zum endgültigen Erlöschen der Abgabenschuld",
+        "Sie ist nur bei rechtskräftigen Bescheiden möglich",
+        "Sie bewirkt eine automatische Verlängerung der Rechtsmittelfrist"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Aussetzung der Einhebung (§ 212a BAO) soll dem Beschwerdeführer ermöglichen, eine strittige Abgabennachforderung erst nach rechtskräftiger Erledigung der Bescheidbeschwerde entrichten zu müssen, sofern die gesetzlichen Voraussetzungen vorliegen (z.B. keine Erfolglosigkeit der Beschwerde von vornherein)."
+    },
+    {
+      "id": "bao-47",
+      "frage": "Was regeln Zahlungserleichterungen nach § 212 BAO?",
+      "optionen": [
+        "Die endgültige Befreiung von einer Abgabenschuld",
+        "Die Möglichkeit, auf Antrag eine Stundung oder Ratenzahlung der Abgabenschuld zu gewähren, wenn die sofortige Entrichtung mit erheblichen Härten verbunden wäre",
+        "Die generelle Verlängerung der Bemessungsverjährungsfrist",
+        "Ausschließlich die Aussetzung der Einhebung bei Beschwerden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Zahlungserleichterungen (§ 212 BAO) ermöglichen es, auf Antrag eine Stundung oder Ratenzahlung der Abgabenschuld zu bewilligen, wenn die sofortige volle Entrichtung mit erheblichen Härten verbunden wäre und die Einbringlichkeit der Abgabe dadurch nicht gefährdet wird."
+    },
+    {
+      "id": "bao-48",
+      "frage": "Wann entsteht grundsätzlich die Pflicht zur Entrichtung eines Säumniszuschlages nach § 217 BAO?",
+      "optionen": [
+        "Wenn eine Abgabe nicht spätestens am Fälligkeitstag entrichtet wird",
+        "Erst nach Ablauf der Bemessungsverjährungsfrist",
+        "Nur bei vorsätzlicher Nichtentrichtung",
+        "Ein Säumniszuschlag fällt nur bei der Umsatzsteuer an"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wird eine Abgabe nicht spätestens am Fälligkeitstag entrichtet, entsteht grundsätzlich die Verpflichtung zur Entrichtung eines Säumniszuschlages (§ 217 BAO), der gestaffelt sein kann; unter bestimmten Voraussetzungen kann ein Antrag auf Nichtfestsetzung gestellt werden."
+    },
+    {
+      "id": "bao-49",
+      "frage": "Was ist ein Rückstandsausweis (§ 229 BAO) und wofür wird er benötigt?",
+      "optionen": [
+        "Er dokumentiert ausstehende Abgabenschulden und bildet die Grundlage für die Einleitung des Vollstreckungsverfahrens",
+        "Er ist ein Synonym für den Abgabenbescheid",
+        "Er wird nur bei Selbstbemessungsabgaben ausgestellt",
+        "Er hat im Vollstreckungsverfahren keine rechtliche Bedeutung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Rückstandsausweis (§ 229 BAO) weist fällige und nicht entrichtete Abgabenschuldigkeiten aus und bildet den Exekutionstitel, auf dessen Grundlage das Vollstreckungsverfahren eingeleitet werden kann."
+    },
+    {
+      "id": "bao-50",
+      "frage": "Wofür dient ein Sicherstellungsauftrag (§ 232 BAO)?",
+      "optionen": [
+        "Zur dauerhaften Befreiung von einer Abgabenschuld",
+        "Zur Sicherung der Einbringung einer noch nicht endgültig feststehenden, aber dem Grunde nach feststellbaren Abgabenschuld, bevor diese fällig oder vollstreckbar ist",
+        "Er ersetzt den ordentlichen Abgabenbescheid vollständig",
+        "Er ist ausschließlich im Finanzstrafverfahren von Bedeutung"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Mit einem Sicherstellungsauftrag (§ 232 BAO) kann die Behörde bereits vor Fälligkeit bzw. Vollstreckbarkeit einer (der Höhe nach noch nicht endgültig feststehenden) Abgabenschuld Sicherungsmaßnahmen anordnen, um deren Einbringlichkeit zu sichern, wenn Gefahr im Verzug besteht."
+    },
+    {
+      "id": "bao-51",
+      "frage": "Wie ist die Zulässigkeit einer Bescheidbeschwerde u.a. zu prüfen?",
+      "optionen": [
+        "Beschwerden sind gegen jede behördliche Erledigung uneingeschränkt zulässig",
+        "Es ist u.a. zu prüfen, ob überhaupt ein mit Beschwerde anfechtbarer Bescheid vorliegt – gegen bloß verfahrensleitende Verfügungen ist grundsätzlich keine gesonderte Beschwerde zulässig",
+        "Die Zulässigkeit hängt ausschließlich vom Streitwert ab",
+        "Eine Beschwerde ist nur bei Bescheiden über 10.000 Euro zulässig"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Bei der Zulässigkeitsprüfung ist u.a. zu beurteilen, ob eine mit Bescheidbeschwerde bekämpfbare Erledigung (Bescheid) vorliegt; gegen bloß verfahrensleitende Verfügungen (§ 94 BAO) ist grundsätzlich keine gesonderte Beschwerde möglich."
+    },
+    {
+      "id": "bao-52",
+      "frage": "Wie lange beträgt die Beschwerdefrist nach § 245 BAO grundsätzlich, und ist eine Verlängerung möglich?",
+      "optionen": [
+        "Ein Monat ab Zustellung des Bescheides, eine Fristverlängerung ist auf Antrag möglich",
+        "Eine Woche ab Zustellung, eine Verlängerung ist ausgeschlossen",
+        "Sechs Monate ab Zustellung, ohne Verlängerungsmöglichkeit",
+        "Die Beschwerdefrist beträgt generell drei Jahre"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Beschwerdefrist beträgt grundsätzlich einen Monat ab Zustellung des Bescheides (§ 245 BAO); auf begründeten Antrag kann diese Frist verlängert werden."
+    },
+    {
+      "id": "bao-53",
+      "frage": "Wo ist eine Bescheidbeschwerde nach § 246 BAO grundsätzlich einzubringen?",
+      "optionen": [
+        "Unmittelbar beim Bundesfinanzgericht",
+        "Bei der Abgabenbehörde, die den angefochtenen Bescheid erlassen hat",
+        "Bei einer beliebigen Abgabenbehörde in Österreich",
+        "Beim Verwaltungsgerichtshof"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Bescheidbeschwerde ist bei jener Abgabenbehörde einzubringen, die den angefochtenen Bescheid erlassen hat (§ 246 BAO); diese legt die Beschwerde gegebenenfalls dem Bundesfinanzgericht vor."
+    },
+    {
+      "id": "bao-54",
+      "frage": "Welche Inhaltserfordernisse muss eine Bescheidbeschwerde nach § 250 BAO erfüllen?",
+      "optionen": [
+        "Sie muss u.a. den angefochtenen Bescheid bezeichnen, die beantragte Änderung sowie eine Begründung enthalten",
+        "Es genügt die formlose Erklärung 'Ich bin nicht einverstanden'",
+        "Eine Begründung ist niemals erforderlich",
+        "Die Bezeichnung des angefochtenen Bescheides ist verzichtbar"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Eine Bescheidbeschwerde muss u.a. den angefochtenen Bescheid bezeichnen, die beantragte Änderung angeben und eine Begründung enthalten (§ 250 BAO); fehlen diese Inhaltserfordernisse, kommt das Mängelbehebungsverfahren nach § 85 Abs. 2 BAO zur Anwendung."
+    },
+    {
+      "id": "bao-55",
+      "frage": "Welches Beschwerdevorbringen ist gegen einen abgeleiteten Bescheid nach § 252 BAO möglich, wenn sich die Beschwerde gegen die Höhe der im Grundlagenbescheid getroffenen Feststellungen richtet?",
+      "optionen": [
+        "Der abgeleitete Bescheid kann mit der Begründung angefochten werden, die im Grundlagenbescheid (Feststellungsbescheid) getroffenen Feststellungen seien unrichtig",
+        "Der abgeleitete Bescheid kann nicht mit der Begründung angefochten werden, die Feststellungen im zugrunde liegenden Feststellungsbescheid seien unrichtig – dies ist im Verfahren gegen den Feststellungsbescheid selbst geltend zu machen",
+        "Abgeleitete Bescheide können generell nicht angefochten werden",
+        "Es gibt keinen Unterschied zwischen Grundlagenbescheid und abgeleitetem Bescheid"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Wegen der Bindungswirkung des Feststellungsbescheides (§ 192 BAO) kann gemäß § 252 BAO im Verfahren gegen den abgeleiteten Bescheid nicht (mehr) eingewendet werden, die im Grundlagenbescheid getroffenen Feststellungen seien unrichtig; dies ist im Beschwerdeverfahren gegen den Feststellungsbescheid selbst zu klären."
+    },
+    {
+      "id": "bao-56",
+      "frage": "Welche Wirkung hat eine Bescheidbeschwerde grundsätzlich auf die Einhebung der strittigen Abgabe (§§ 254, 212a BAO)?",
+      "optionen": [
+        "Die Einbringung einer Beschwerde hemmt automatisch und in jedem Fall die Einhebung der Abgabe",
+        "Eine Beschwerde hat grundsätzlich keine hemmende Wirkung auf die Einhebung; eine Hemmung kann jedoch über einen gesonderten Antrag auf Aussetzung der Einhebung erreicht werden",
+        "Eine Beschwerde führt automatisch zur Aufhebung des angefochtenen Bescheides",
+        "Die hemmende Wirkung tritt nur bei Beschwerden gegen Strafbescheide ein"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Eine Bescheidbeschwerde hat grundsätzlich keine aufschiebende (hemmende) Wirkung auf die Einhebung der strittigen Abgabe; eine solche Hemmung kann durch einen gesonderten Antrag auf Aussetzung der Einhebung nach § 212a BAO erreicht werden."
+    },
+    {
+      "id": "bao-57",
+      "frage": "Unter welchen Voraussetzungen ist ein Verzicht auf die Beschwerde nach § 255 BAO möglich?",
+      "optionen": [
+        "Ein Verzicht ist jederzeit und formlos durch schlüssiges Verhalten möglich",
+        "Der Verzicht muss schriftlich oder zur Niederschrift erklärt werden und führt dazu, dass eine danach eingebrachte Beschwerde als unzulässig zurückzuweisen ist",
+        "Ein Verzicht auf eine Beschwerde ist im österreichischen Abgabenverfahren generell unzulässig",
+        "Ein einmal erklärter Verzicht kann jederzeit formlos widerrufen werden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ein Verzicht auf die Beschwerde (§ 255 BAO) ist schriftlich oder zur Niederschrift zu erklären; nach wirksamem Verzicht ist eine dennoch eingebrachte Beschwerde als unzulässig zurückzuweisen."
+    },
+    {
+      "id": "bao-58",
+      "frage": "Was geschieht bei einer Zurücknahme der Beschwerde nach § 256 BAO?",
+      "optionen": [
+        "Das Verfahren wird automatisch beim Bundesfinanzgericht fortgesetzt",
+        "Die Beschwerde gilt als gegenstandslos, was mit Beschwerdevorentscheidung (BVE) festzustellen ist",
+        "Die Zurücknahme hat keinerlei rechtliche Wirkung",
+        "Eine Zurücknahme ist im Abgabenverfahren nicht vorgesehen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Wird eine Beschwerde zurückgenommen, ist sie gemäß § 256 BAO als gegenstandslos zu erklären; dies erfolgt im Wege einer entsprechenden Beschwerdevorentscheidung (BVE)."
+    },
+    {
+      "id": "bao-59",
+      "frage": "Was zählt zu den Formalerledigungen nach §§ 260, 261, 263 Abs. 1 BAO?",
+      "optionen": [
+        "Z.B. die Zurückweisung einer unzulässigen oder die Gegenstandsloserklärung einer zurückgenommenen Beschwerde",
+        "Ausschließlich die inhaltliche Stattgabe einer Beschwerde",
+        "Formalerledigungen betreffen nur das Verfahren vor dem VwGH",
+        "Es handelt sich um Synonyme für Sachentscheidungen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Formalerledigungen sind Erledigungen, mit denen ohne inhaltliche Auseinandersetzung über die Sache entschieden wird, z.B. die Zurückweisung einer unzulässigen oder nicht fristgerecht eingebrachten Beschwerde oder die Erklärung der Gegenstandslosigkeit bei Zurücknahme."
+    },
+    {
+      "id": "bao-60",
+      "frage": "Wann ist eine Beschwerdevorentscheidung (BVE) nach § 262 BAO zwingend zu erlassen, und welche Ausnahmen gibt es?",
+      "optionen": [
+        "Eine BVE ist immer zwingend zu erlassen, Ausnahmen gibt es keine",
+        "Grundsätzlich ist über eine Beschwerde mit BVE zu entscheiden, es sei denn es liegt eine im Gesetz vorgesehene Ausnahme vor (z.B. Antrag auf unmittelbare Vorlage an das BFG)",
+        "Eine BVE darf niemals erlassen werden, da ausschließlich das BFG zuständig ist",
+        "Eine BVE ist nur bei Beschwerden gegen Feststellungsbescheide vorgesehen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Grundsätzlich hat die Abgabenbehörde über eine Bescheidbeschwerde mittels BVE zu entscheiden; Ausnahmen bestehen u.a., wenn rechtzeitig ein Antrag auf unmittelbare Vorlage der Beschwerde an das Bundesfinanzgericht gestellt wurde (§ 262 Abs. 2 ff. BAO)."
+    },
+    {
+      "id": "bao-61",
+      "frage": "Was kennzeichnet das Säumnisbeschwerdeverfahren nach § 284 BAO in Grundzügen?",
+      "optionen": [
+        "Es betrifft ausschließlich die verspätete Zahlung von Abgaben durch den Abgabepflichtigen",
+        "Es ermöglicht der Partei, bei Untätigkeit der Behörde (Verletzung der Entscheidungspflicht) eine Entscheidung beim Bundesfinanzgericht zu erwirken",
+        "Es handelt sich um ein rein verwaltungsinternes Verfahren ohne Möglichkeit der gerichtlichen Durchsetzung",
+        "Eine Säumnisbeschwerde kann nur von der Behörde selbst erhoben werden"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das Säumnisbeschwerdeverfahren dient dazu, bei Verletzung der Entscheidungspflicht durch die Abgabenbehörde (z.B. wird über eine Beschwerde nicht innerhalb der gesetzlichen Frist entschieden) eine Entscheidung durch das Bundesfinanzgericht zu erwirken."
+    },
+    {
+      "id": "bao-62",
+      "frage": "Was ist ein Vorlageantrag nach § 264 BAO und wann kommt er zur Anwendung?",
+      "optionen": [
+        "Ein Antrag, mit dem nach einer Beschwerdevorentscheidung die Vorlage der Beschwerde an das Bundesfinanzgericht begehrt wird",
+        "Ein Antrag, mit dem erstmals eine Beschwerde bei der Behörde eingebracht wird",
+        "Ein Antrag auf Akteneinsicht",
+        "Ein Antrag, der ausschließlich im Finanzstrafverfahren existiert"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Ist die Partei mit der Beschwerdevorentscheidung nicht einverstanden, kann sie innerhalb der gesetzlichen Frist einen Vorlageantrag stellen (§ 264 BAO), mit dem die Vorlage der Beschwerde an das Bundesfinanzgericht zur (nochmaligen) Entscheidung begehrt wird."
+    },
+    {
+      "id": "bao-63",
+      "frage": "Wie lässt sich der Instanzenzug einer Bescheidbeschwerde vom Erstbescheid bis zum Höchstgericht grob skizzieren?",
+      "optionen": [
+        "Erstbescheid → Beschwerde an die Abgabenbehörde (ggf. mit BVE) → Vorlageantrag/Vorlage an das Bundesfinanzgericht → außerordentliche Revision an den VwGH bzw. Beschwerde an den VfGH",
+        "Erstbescheid → unmittelbar an den VfGH, alle anderen Stufen entfallen",
+        "Erstbescheid → unmittelbar rechtskräftig, ein Instanzenzug existiert im Abgabenverfahren nicht",
+        "Erstbescheid → Bezirksgericht → Landesgericht → Oberster Gerichtshof"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der typische Rechtsmittelweg verläuft vom Erstbescheid über die Bescheidbeschwerde an die Abgabenbehörde (ggf. mit Beschwerdevorentscheidung), bei Nichteinverständnis über einen Vorlageantrag an das Bundesfinanzgericht und in letzter Instanz ggf. über Revision an den VwGH bzw. Beschwerde an den VfGH."
+    },
+    {
+      "id": "bao-64",
+      "frage": "Welche Bescheidänderungstitel kennt die BAO u.a. in §§ 293–302?",
+      "optionen": [
+        "Nur die Wiederaufnahme des Verfahrens",
+        "U.a. Berichtigung wegen offensichtlicher Unrichtigkeiten (§ 293), Wiederaufnahme des Verfahrens (§ 303) sowie weitere besondere Abänderungs- und Aufhebungstitel",
+        "Bescheide können nach Rechtskraft unter keinen Umständen mehr geändert werden",
+        "Es gibt nur einen einzigen einheitlichen Abänderungstitel ohne Differenzierung"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die BAO sieht mehrere unterschiedliche Bescheidänderungstitel vor, z.B. die Berichtigung wegen offensichtlicher Unrichtigkeiten (§ 293 BAO) oder die Wiederaufnahme des Verfahrens (§§ 303 ff. BAO), die jeweils unterschiedliche Voraussetzungen haben."
+    },
+    {
+      "id": "bao-65",
+      "frage": "Unter welchen Voraussetzungen ist eine Wiederaufnahme des Verfahrens nach §§ 303–307 BAO grundsätzlich möglich?",
+      "optionen": [
+        "Wenn z.B. Tatsachen oder Beweismittel neu hervorkommen, die im abgeschlossenen Verfahren ohne grobes Verschulden der Partei nicht geltend gemacht werden konnten und die Kenntnis allein oder iVm dem sonstigen Ergebnis einen im Spruch anders lautenden Bescheid herbeigeführt hätte",
+        "Eine Wiederaufnahme ist nach Rechtskraft eines Bescheides ausnahmslos ausgeschlossen",
+        "Eine Wiederaufnahme erfolgt automatisch nach Ablauf von einem Jahr",
+        "Wiederaufnahme ist nur bei Bescheiden über die Umsatzsteuer möglich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Wiederaufnahme des Verfahrens (§ 303 BAO) ist u.a. möglich, wenn Tatsachen oder Beweismittel neu hervorkommen (Neuerungstatbestand), die im Verfahren ohne grobes Verschulden der Partei nicht geltend gemacht werden konnten, und die Kenntnis einen im Spruch anders lautenden Bescheid herbeigeführt hätte."
+    },
+    {
+      "id": "bao-66",
+      "frage": "Welche zeitliche Grenze setzt § 302 BAO für eine Bescheidänderung nach Wiederaufnahme bzw. anderen Abänderungstiteln grundsätzlich?",
+      "optionen": [
+        "Bescheidänderungen sind zeitlich völlig unbegrenzt möglich",
+        "Bescheidänderungen sind grundsätzlich nur innerhalb der Verjährungsfrist zulässig, mit bestimmten gesetzlich vorgesehenen Verlängerungen für besondere Konstellationen",
+        "Es gibt keine zeitliche Grenze, solange der Abgabepflichtige zustimmt",
+        "Bescheidänderungen müssen stets innerhalb von 14 Tagen erfolgen"
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 302 BAO regelt, dass Bescheidänderungen grundsätzlich nur innerhalb der Verjährungsfrist zulässig sind, wobei für bestimmte Konstellationen (z.B. nach § 303 iVm besonderen Fristen) gesetzlich geregelte Verlängerungen bestehen."
+    },
+    {
+      "id": "bao-67",
+      "frage": "Was ist Voraussetzung für eine Wiedereinsetzung in den vorigen Stand nach §§ 308–310 BAO?",
+      "optionen": [
+        "Die Partei muss durch ein unvorhergesehenes oder unabwendbares Ereignis ohne grobes Verschulden an der Einhaltung einer Frist gehindert gewesen sein und den Antrag fristgerecht stellen",
+        "Eine Wiedereinsetzung ist im Abgabenverfahren generell nicht vorgesehen",
+        "Eine Wiedereinsetzung kann ohne jede Frist jederzeit beantragt werden",
+        "Grobes Verschulden der Partei ist für eine Wiedereinsetzung unschädlich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Eine Wiedereinsetzung in den vorigen Stand setzt voraus, dass die Partei durch ein unvorhergesehenes oder unabwendbares Ereignis ohne ihr grobes Verschulden gehindert war, eine Frist einzuhalten; der Antrag ist innerhalb einer gesetzlichen Frist nach Wegfall des Hindernisses zu stellen (§§ 308 ff. BAO)."
+    },
+    {
+      "id": "bao-68",
+      "frage": "Wie ist der Aufbau der österreichischen Finanzverwaltung (Abgabenbehörden, § 49 BAO) grob zu skizzieren?",
+      "optionen": [
+        "Es gibt nur eine einzige zentrale Abgabenbehörde ohne weitere Untergliederung",
+        "Mehrstufiger Aufbau mit unterschiedlichen Abgabenbehörden des Bundes mit jeweils eigenen Zuständigkeiten je nach Materie",
+        "Die Finanzverwaltung besteht ausschließlich aus Gerichten",
+        "Abgabenbehörden sind ausschließlich auf Gemeindeebene angesiedelt"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Die Finanzverwaltung ist mehrstufig organisiert mit verschiedenen Abgabenbehörden des Bundes, die je nach Materie (z.B. Veranlagung, Betrugsbekämpfung) unterschiedliche Zuständigkeiten haben (§ 49 BAO)."
+    }
+  ]
+}

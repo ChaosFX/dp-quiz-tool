@@ -1,0 +1,47 @@
+{
+  "fach": "USt",
+  "thema": "Steuerbare Tatbestände § 1 UStG",
+  "quelle_note": "Umsatzsteuer/Steuerbare Tatbestände USt.md",
+  "karten": [
+    {
+      "id": "ust-steuerbare-tatbestaende-1-ustg-01",
+      "frage": "Was bedeutet der Begriff \"steuerbar\"?",
+      "antwort": "Ein Sachverhalt ist steuerbar, wenn einer der vier Tatbestände des § 1 (bzw. Art 1) vorliegen -> das UStG ist anwendbar. Andernfalls ist er nicht steuerbar."
+    },
+    {
+      "id": "ust-steuerbare-tatbestaende-1-ustg-02",
+      "frage": "Zählen Sie die 4 steuerbaren Tatbestände auf.",
+      "antwort": "1. Lieferung & sonstige Leistungen (§ 1 Abs 1 Z 1)\n2. Eigenverbrauch (§ 1 Abs 1 Z 2)\n3. Einfuhr (§ 1 Abs 1 Z 3)\n4. innergemeinschaftlicher Erwerb (Art 1)"
+    },
+    {
+      "id": "ust-steuerbare-tatbestaende-1-ustg-03",
+      "frage": "Welche Voraussetzungen müssen bei § 1 Abs 1 Z 1 kumulativ vorliegen?",
+      "antwort": "Lieferung/sonstige Leistung - Unternehmer - im Inland - gegen Entgelt - im Rahmen seines Unternehmens (U-I-E-R)."
+    },
+    {
+      "id": "ust-steuerbare-tatbestaende-1-ustg-04",
+      "frage": "In welcher Kennzahl werden steuerbare Umsätze idR erfasst?",
+      "antwort": "KZ 000 (steuerbare Leistungen) bzw. KZ 001 (Eigenverbrauch)."
+    },
+    {
+      "id": "ust-steuerbare-tatbestaende-1-ustg-05",
+      "frage": "Beschreiben Sie die Einfuhr- und worin unterscheidet sie sich von Z 1?",
+      "antwort": "Gegenstand gelangt aus dem Drittland ins Inland und wird zum freien Verkehr abgefertigt (-> EUSt). Unterschied: Es ist keine Unternehmereigenschaft nötig, auch Private unterliegen der EUSt."
+    },
+    {
+      "id": "ust-steuerbare-tatbestaende-1-ustg-06",
+      "frage": "Beschreiben Sie einen innergemeinschaftlichen Erwerb.",
+      "antwort": "Wareneinkauf eines Unternehmers von einem Unternehmen aus einem anderen EU-Mitgliedstaat mit Warenbewegung über die Grenze -> Besteuerung im Bestimmungsland (Erwerbseuer statt EUSt)."
+    },
+    {
+      "id": "ust-steuerbare-tatbestaende-1-ustg-07",
+      "frage": "Was bedeuten Inland, Ausland, Gemeinschaftsgebiet und Drittland?",
+      "antwort": "Inland = Bundesgebiet\nAusland = alles außerhalb des Inlands\nGemeinschaftsgebiet = EU-Mitgliedsstaaten (Nordirland)\nDrittland = nicht EU"
+    },
+    {
+      "id": "ust-steuerbare-tatbestaende-1-ustg-08",
+      "frage": "Was ist der Unterschied zwischen echter und unechter Steuerbefreiung?",
+      "antwort": "Echt steuerfrei = MIT Vorsteuerabzug (zB. Ausfuhrlierferung, ig Lieferung).\nUnecht steuerfrei = OHNE Vorsteuerabzug (zB. Kleinunternehmer, Arzt, Grundstücksverkauf)\n-> Details in Steuerbefreiung USt"
+    }
+  ]
+}

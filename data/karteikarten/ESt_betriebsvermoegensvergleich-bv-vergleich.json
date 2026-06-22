@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Betriebsvermögensvergleich (BV-Vergleich)",
+  "quelle_note": "Einkommensteuer/Betriebsvermögensvergleich.md",
+  "karten": [
+    {
+      "id": "est-betriebsvermoegensvergleich-bv-vergleich-01",
+      "frage": "Was versteht man unter Betriebsvermögensvergleich?",
+      "antwort": "Die Gewinnermittlung als Unterschiedsbetrag zwischen End- und Anfangs-Betriebsvermögen, neutralisiert um Entnahmen (+) und Einlagen (-), auf Basis doppelter Buchführung."
+    },
+    {
+      "id": "est-betriebsvermoegensvergleich-bv-vergleich-02",
+      "frage": "Warum werden Entnahmen und Einlagen hinzugerechnet bzw. abgezogen?",
+      "antwort": "Weil sie das Betriebsvermögen aus außerbetrieblichen Gründen verändern. Durch die Neutralisierung wird nur der betrieblich verursachte Vermögenszuwachs besteuert."
+    },
+    {
+      "id": "est-betriebsvermoegensvergleich-bv-vergleich-03",
+      "frage": "Wodurch unterscheidet sich § 5 von § 4 Abs 1?",
+      "antwort": "- § 5: gewillkürtes BV möglich, \n Rückstellungen/RAP zwingend,\n abweichendes WJ möglich.\n- § 4 Abs 1: nur notwendiges BV,\n Wahlrecht bei Rückstellung,\n steuerliche Bewertung,\n WJ = Kalenderjahr."
+    },
+    {
+      "id": "est-betriebsvermoegensvergleich-bv-vergleich-04",
+      "frage": "Was sind die Grundsätze ordnungsmäßiger Buchführung?",
+      "antwort": "Formelle (vollständig, richtig, zeitgerecht, geordnet) und\nmaterielle Grundsätze (Bilanzzusammenhang, Bilanzkontinuität, Bilanzwahrheit, Bilanzklarheit)."
+    },
+    {
+      "id": "est-betriebsvermoegensvergleich-bv-vergleich-05",
+      "frage": "Was bedeutet das Maßgeblichkeitsprinzip?",
+      "antwort": "Bei § 5 ist die Unternehmensbilanz für die Steuerbilanz maßgeblich - die unternehmensrechtlichen GoB sind zusätzlich zu beachten, soweit das Steuerrecht nicht zwingend vorgeht."
+    }
+  ]
+}

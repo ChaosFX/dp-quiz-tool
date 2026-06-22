@@ -1,0 +1,37 @@
+{
+  "fach": "KöSt",
+  "thema": "Betriebe gewerblicher Art (BgA)",
+  "quelle_note": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA).md",
+  "karten": [
+    {
+      "id": "koest-betriebe-gewerblicher-art-bga-01",
+      "frage": "Warum gibt es überhaupt den Betrieb gewerblicher Art?",
+      "antwort": "Zur **Gleichmäßigkeit der Besteuerung**: Privatwirtschaftliche Gewinne einer KöR sollen nicht anders besteuert werden als die privater Unternehmen. Daher wird die gewerbliche Tätigkeit als eigener Betrieb herausgelöst und besteuert."
+    },
+    {
+      "id": "koest-betriebe-gewerblicher-art-bga-02",
+      "frage": "Welche drei Voraussetzungen muss ein BgA erfüllen?",
+      "antwort": "1. Wirtschaftlich selbständig Einrichtung\n2. nachhaltige privatwirtschaftliche Tätigkeit von wirtschaftlichem Gewicht (Umsatz > € 2.900)\n3. Erziehung von Einnahmen/anderen wirtschaftlichen Vorteilen"
+    },
+    {
+      "id": "koest-betriebe-gewerblicher-art-bga-03",
+      "frage": "Sind Gewinnabsicht und Beteiligung am allgemeinen wirtschaftlichen Verkehr nötig?",
+      "antwort": "**Nein** - beides ist nicht erforderlich. Es genügen **Einnahmen** (Leistungen können auch zu/unter Selbstkosten erbracht werden). Ohne Gegenleistung jedoch kein BgA."
+    },
+    {
+      "id": "koest-betriebe-gewerblicher-art-bga-04",
+      "frage": "Gilt für einen BgA die Liebhaberei?",
+      "antwort": "Nein. Die Tätigkeit eines BgA gilt **stets als Gewerbebetrieb**, eine Liebhabereibetrachtung ist ausgeschlossen."
+    },
+    {
+      "id": "koest-betriebe-gewerblicher-art-bga-05",
+      "frage": "Verlustausgleich zwischen mehreren BgA?",
+      "antwort": "Grundsätzlich **nein** (jeder BgA = eigenes Steuersubjekt). \n**Ausnahme:** organisatorisch zusammengefasste, einheitlich geleitete **Versorgungsbetriebe**."
+    },
+    {
+      "id": "koest-betriebe-gewerblicher-art-bga-06",
+      "frage": "Wie wird ein Mischbetrieb behandelt?",
+      "antwort": "Nach der **überwiegenden Zweckbestimmung**: \nüberwiegt das Hoheitliche -> ganzer Betrieb Hoheitsbetrieb;\nüberwiegt das Erwerbswirtschaftliche -> ganzer Betrieb steuerpflichtiger BgA."
+    }
+  ]
+}

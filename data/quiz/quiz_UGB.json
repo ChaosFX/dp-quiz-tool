@@ -1,0 +1,101 @@
+{
+  "fach": "UGB",
+  "fragen": [
+    {
+      "id": "ugb-01",
+      "frage": "Welche Gesellschafter haften bei einer Aktiengesellschaft (AG)?",
+      "optionen": [
+        "Die Aktionäre haften grundsätzlich nur beschränkt mit ihrer Einlage, nicht mit ihrem Privatvermögen",
+        "Aktionäre haften immer unbeschränkt mit ihrem gesamten Privatvermögen",
+        "Aktionäre haften gar nicht, auch nicht mit ihrer Einlage",
+        "Die Haftung der Aktionäre hängt von der Höhe ihrer Beteiligung ab"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Aktionäre haften bei einer AG grundsätzlich nur beschränkt mit ihrer geleisteten Einlage; eine darüberhinausgehende persönliche Haftung mit dem Privatvermögen besteht nicht."
+    },
+    {
+      "id": "ugb-02",
+      "frage": "Wer haftet bei einer Kommanditgesellschaft (KG) beschränkt und wer unbeschränkt?",
+      "optionen": [
+        "Der Kommanditist haftet beschränkt mit seiner Einlage, der Komplementär haftet unbeschränkt mit seinem gesamten Vermögen",
+        "Beide Gesellschafter einer KG haften immer unbeschränkt",
+        "Beide Gesellschafter einer KG haften immer nur beschränkt",
+        "Der Komplementär haftet beschränkt, der Kommanditist unbeschränkt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei der KG haftet der Kommanditist nur beschränkt bis zur Höhe seiner im Firmenbuch eingetragenen Hafteinlage, während der Komplementär als unbeschränkt haftender Gesellschafter mit seinem gesamten Vermögen für die Gesellschaftsschulden einsteht."
+    },
+    {
+      "id": "ugb-03",
+      "frage": "Wie haftet ein Gesellschafter einer GmbH grundsätzlich für die Schulden der Gesellschaft?",
+      "optionen": [
+        "Beschränkt, grundsätzlich nur mit der von ihm zu leistenden Stammeinlage, nicht mit seinem sonstigen Privatvermögen",
+        "Unbeschränkt mit seinem gesamten Privatvermögen wie ein Komplementär",
+        "Ein GmbH-Gesellschafter haftet überhaupt nicht, auch nicht mit der Stammeinlage",
+        "Die Haftung richtet sich ausschließlich nach der Anzahl der Geschäftsführer"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Gesellschafter einer GmbH haften grundsätzlich nur beschränkt mit ihrer Stammeinlage; das Privatvermögen ist davon (von Sonderfällen wie z.B. Durchgriffshaftung abgesehen) nicht betroffen."
+    },
+    {
+      "id": "ugb-04",
+      "frage": "Wer haftet bei einer Offenen Gesellschaft (OG) für die Gesellschaftsschulden?",
+      "optionen": [
+        "Sämtliche Gesellschafter haften unbeschränkt, persönlich und solidarisch mit ihrem gesamten Vermögen",
+        "Bei der OG haftet kein Gesellschafter persönlich",
+        "Nur ein einzelner, im Gesellschaftsvertrag bestimmter Gesellschafter haftet, alle anderen sind beschränkt",
+        "Die Haftung bei der OG ist immer auf die eingebrachte Einlage beschränkt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei der Offenen Gesellschaft (OG) haften alle Gesellschafter unbeschränkt, persönlich und solidarisch (gesamtschuldnerisch) mit ihrem gesamten Vermögen für die Verbindlichkeiten der Gesellschaft."
+    },
+    {
+      "id": "ugb-05",
+      "frage": "Wie lange müssen Geschäftsunterlagen (Bücher und Aufzeichnungen) grundsätzlich aufbewahrt werden?",
+      "optionen": [
+        "Grundsätzlich 7 Jahre",
+        "1 Jahr",
+        "3 Jahre",
+        "30 Jahre"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bücher, Aufzeichnungen und die dazugehörigen Belege sind grundsätzlich 7 Jahre aufzubewahren; für bestimmte Unterlagen (z.B. im Zusammenhang mit Grundstücken) können längere Aufbewahrungsfristen gelten."
+    },
+    {
+      "id": "ugb-06",
+      "frage": "Welche der folgenden Gesellschaftsformen zählen zu den Personengesellschaften?",
+      "optionen": [
+        "OG und KG",
+        "GmbH und AG",
+        "Nur die AG",
+        "Ausschließlich die GmbH"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Personengesellschaften sind insbesondere die Offene Gesellschaft (OG) und die Kommanditgesellschaft (KG), bei denen die persönliche Mitwirkung und Haftung der Gesellschafter im Vordergrund steht; GmbH und AG sind hingegen Kapitalgesellschaften."
+    },
+    {
+      "id": "ugb-07",
+      "frage": "Wer zählt zu den Körperschaften öffentlichen Rechts?",
+      "optionen": [
+        "Z.B. ein Bundesland sowie bestimmte Sozialversicherungsträger",
+        "Eine GmbH",
+        "Eine Aktiengesellschaft",
+        "Ein Einzelunternehmer"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Körperschaften öffentlichen Rechts sind insbesondere Gebietskörperschaften wie Bund, Länder und Gemeinden sowie bestimmte Selbstverwaltungskörper (z.B. Sozialversicherungsträger, Kammern); GmbH und AG sind hingegen privatrechtliche Kapitalgesellschaften."
+    },
+    {
+      "id": "ugb-08",
+      "frage": "Bei welchen Gesellschaftsformen gilt das Trennungsprinzip?",
+      "optionen": [
+        "Bei GmbH und AG, da sie als eigenständige juristische Personen von ihren Gesellschaftern getrennt besteuert werden",
+        "Bei OG und KG, da diese eigene Steuersubjekte für die Ertragsteuer sind",
+        "Das Trennungsprinzip gilt für alle Gesellschaftsformen gleichermaßen ohne Unterschied",
+        "Trennungsprinzip und Durchgriffsprinzip sind Synonyme"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Das Trennungsprinzip gilt für Kapitalgesellschaften wie GmbH und AG, die als eigenständige juristische Personen unabhängig von ihren Gesellschaftern selbst körperschaftsteuerpflichtig sind; bei Personengesellschaften wie OG und KG gilt hingegen das Durchgriffsprinzip, bei dem das Ergebnis unmittelbar den Gesellschaftern zugerechnet wird."
+    }
+  ]
+}

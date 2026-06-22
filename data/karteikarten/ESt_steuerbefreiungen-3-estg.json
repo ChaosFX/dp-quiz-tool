@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Steuerbefreiungen (§ 3 EStG)",
+  "quelle_note": "Einkommensteuer/Steuerbefreiungen.md",
+  "karten": [
+    {
+      "id": "est-steuerbefreiungen-3-estg-01",
+      "frage": "Gibt es persönliche Befreiung im EStG?",
+      "antwort": "Nein. Das EStG kennt nur sachliche Befreiungen."
+    },
+    {
+      "id": "est-steuerbefreiungen-3-estg-02",
+      "frage": "Welche Befreiungsmethoden gibt es?",
+      "antwort": "Befreiung von Einnahmen (mit Abzug nach § 20 Abs 2) und\nBefreiung von Einkünften (als Freibetrag, Freigrenze oder \nbetraglich unbegrenzte Befreiungen)"
+    },
+    {
+      "id": "est-steuerbefreiungen-3-estg-03",
+      "frage": "In welche Gruppen lassen sich die Steuerbefreiungen einteilen?",
+      "antwort": "1. Subventionen und Transferzahlungen der öffentlichen Hand\n2. Steuerfreie Leistungen des Arbeitgebers an Arbeitnehmer\n3. Sonstige Befreiungen"
+    },
+    {
+      "id": "est-steuerbefreiungen-3-estg-04",
+      "frage": "Was ist der Unterschied zwischen Freibetrag und Freigrenze?",
+      "antwort": "Freibetrag: wird immer abgezogen.\nFreigrenze: minder die Bemessungsgrundlage nur, wenn sie nicht überschritten wird - bei Überschreiten ist der gesamte Betrag steuerpflichtig."
+    },
+    {
+      "id": "est-steuerbefreiungen-3-estg-05",
+      "frage": "Was ist der besondere Progressionsvorbehalt?",
+      "antwort": "Bei steuerfreiem Arbeitslosengeld/Notstandshilfe werden die übrigen Einkünfte auf den Restzeitraum hochgerechnet, wodurch sich ein höherer Steuersatz für die steuerpflichtigen Einkünfte ergibt."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "fach": "ESt",
+  "thema": "Zeitliche Zurechnung",
+  "quelle_note": "Einkommensteuer/Zeitliche Zurechnung.md",
+  "karten": [
+    {
+      "id": "est-zeitliche-zurechnung-01",
+      "frage": "Wer kann ein abweichendes Wirtschaftsjahr wählen?",
+      "antwort": "Nur **rechnungslegungspflichtige Gewerbetreibende** (§ 5 EStG) und **buchführende Land- und Forstwirte** - mit vorheriger bescheidmäßiger Zustimmung des FA aus gewichtigen betrieblichen Gründen."
+    },
+    {
+      "id": "est-zeitliche-zurechnung-02",
+      "frage": "Was ist ein Rumpfwirtschaftsjahr?",
+      "antwort": "Ein Wirtschaftsjahr, das kürzer als 12 Monate ist - entsteht bei Betriebseröffung/-aufgabe bei Umstellung des WJ auf einen anderen Stichtag."
+    },
+    {
+      "id": "est-zeitliche-zurechnung-03",
+      "frage": "Wann wird der Gewinn bei abweichenden WJ erfasst?",
+      "antwort": "Im Kalenderjahr, in dem das Wirtschaftsjahr **endet** (§ 2 Abs 5 EStG). Enden zwei WJ in einem KJ -> beide Gewinne diesem Veranlagungszeitraum zuzurechnen."
+    },
+    {
+      "id": "est-zeitliche-zurechnung-04",
+      "frage": "Wann ist eine Einnahme zugeflossen?",
+      "antwort": "Sobald der Empfänger tatsächlich und wirtschaftlich darüber verfügen kann (frei verfügen kann)."
+    },
+    {
+      "id": "est-zeitliche-zurechnung-05",
+      "frage": "Was sind regelmäßig wiederkehrende Einnahmen?",
+      "antwort": "Einnahmen, die mindestens 3 mal hintereinander in annähernd gleichen Zeiträumen erfolgen (Gleichartigkeit, nicht gleiche Höhe). \nBei Zahlung kurz vor/nach Jahresende: Zuordnung zum wirtschaftlich zugehörigen Kalenderjahr."
+    },
+    {
+      "id": "est-zeitliche-zurechnung-06",
+      "frage": "Wann gilt das Verteilungsgebot des § 19 Abs 3?",
+      "antwort": "Bei Vorauszahlungen für Beratungs-, Fremdmittel-, Garantie-, Miet-, Treuhand-, Vermittlungs-, Vertriebs- und Verwaltungskosten, sofern sie nicht nur das laufenden und folgende Jahr betreffen."
+    },
+    {
+      "id": "est-zeitliche-zurechnung-07",
+      "frage": "Wie unterscheiden sich Sollgrundsatz und Zufluss-Abfluss?",
+      "antwort": "Sollgrundsatz (BV-Vergleich): Erfassung im **Entstehungsjahr** (Aufwand/Erträge).\nZufluss-Abfluss (EAR, Überschussrechnung): Erfassung im Jahr der **Vereinnahmung/Verausgabung**."
+    }
+  ]
+}

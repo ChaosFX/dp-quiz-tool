@@ -1,0 +1,32 @@
+{
+  "fach": "KöSt",
+  "thema": "Persönliche Steuerpflicht KöSt",
+  "quelle_note": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt.md",
+  "karten": [
+    {
+      "id": "koest-persoenliche-steuerpflicht-koest-01",
+      "frage": "An welches Merkmal knüpft die KöSt für die persönliche Steuerpflicht an?",
+      "antwort": "An **Sitz** oder **Ort der Geschäftsleitung** im Inland ( nicht an Wohnsitz/Aufenthalt). Einer der beiden Tatbestände genügt für die unbeschränkte Steuerpflicht."
+    },
+    {
+      "id": "koest-persoenliche-steuerpflicht-koest-02",
+      "frage": "Welche drei Gruppen sind nach § 1 Abs 2 KStG unbeschränkt steuerpflichtig?",
+      "antwort": "1. Juristische Personen des privaten Rechts\n2. Betriebe gewerblicher Art von KöR (§ 2 KStG)\n3. nichtrechtsfähige Personenvereinigungen/Zweckvermögen (§ 3 KStG, nur subsidiär)."
+    },
+    {
+      "id": "koest-persoenliche-steuerpflicht-koest-03",
+      "frage": "Unbeschränkt vs. beschränkt - welcher Einkommensumfang?",
+      "antwort": "Unbeschränkt = **Welteinkommen** (In- und Ausland).\nBeschränkt = **nur inländische Einkünfte**."
+    },
+    {
+      "id": "koest-persoenliche-steuerpflicht-koest-04",
+      "frage": "Wodurch unterscheiden sich beschränkte Steuerpflicht 1. und 2. Art?",
+      "antwort": "**1. Art:** ausländische (vergleichbare) Körperschaften mit Inlandseinkünften iSd § 98 EStG.\n**2. Art:** inländische KöR bzw. befreite Körperschaften mit bestimmten Kapitaleinkünften und Grundstückveräußerungen."
+    },
+    {
+      "id": "koest-persoenliche-steuerpflicht-koest-05",
+      "frage": "Wie wird eine KöR steuerlich eingeordnet?",
+      "antwort": "Hoheitsbetrieb -> nicht steuerpflichtig;\nBetrieb gewerblicher Art -> unbeschränkt;\nKapitaleinkünfte/Grundstückveräußerungen -> beschränkt (2. Art)."
+    }
+  ]
+}

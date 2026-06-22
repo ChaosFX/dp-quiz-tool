@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Gewinnermittlung - Überblick",
+  "quelle_note": "Einkommensteuer/Gewinnermittlung - Überblick.md",
+  "karten": [
+    {
+      "id": "est-gewinnermittlung-ueberblick-01",
+      "frage": "Welche Arten der Gewinnermittlung gibt es?",
+      "antwort": "BV-Vergleich nach § 4 Abs 1, \nBV-Vergleich nach § 5,\nEinnahmen-Ausgaben-Rechnung nach § 4 Abs 3,\nsowie Besteuerung nach Durchschnittsätzen / Pauschalierung nach § 17 + VO."
+    },
+    {
+      "id": "est-gewinnermittlung-ueberblick-02",
+      "frage": "Wie ist der Gewinn im EStG definiert?",
+      "antwort": "Der durch doppelte Buchführung ermittelte Unterschiedsbetrag zwischen dem Betriebsvermögen am Schluss des Wirtschaftsjahres und dem am Schluss des vorangegangen Wirtschaftsjahre - nicht gekürzt durch Entnahmen, nicht erhöht durch Einlagen."
+    },
+    {
+      "id": "est-gewinnermittlung-ueberblick-03",
+      "frage": "Wodurch unterscheidet sich § 5 von § 4 Abs 1?",
+      "antwort": "§ 5 (RLP Gewerbetreibende): gewillkürtes BV möglich, abweichendes Wirtschaftsjahr möglich, Maßgeblichkeit der UGB-Bilanz.\n§ 4 Abs 1: kein gewillkürtes BV."
+    },
+    {
+      "id": "est-gewinnermittlung-ueberblick-04",
+      "frage": "Was versteht man unter Totalgewinngleichheit?",
+      "antwort": "§ 4 Abs 1 und EAR (§  Abs 3) führen über die gesamte Betriebsdauer zum gleichen Totalgewinn -nur die Periodenergebnisse unterscheiden sich (Soll vs. Ist)."
+    }
+  ]
+}

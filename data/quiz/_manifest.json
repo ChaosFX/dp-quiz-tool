@@ -1,0 +1,16 @@
+{
+  "dateien": [
+    "quiz_BAO.json",
+    "quiz_Bewertung.json",
+    "quiz_DBA.json",
+    "quiz_ESt.json",
+    "quiz_FLAG.json",
+    "quiz_FinStrG.json",
+    "quiz_Kleinabgaben.json",
+    "quiz_KoeSt.json",
+    "quiz_Kundenservice.json",
+    "quiz_Lohnsteuer.json",
+    "quiz_UGB.json",
+    "quiz_USt.json"
+  ]
+}

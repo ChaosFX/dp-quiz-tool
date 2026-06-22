@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Pauschalierung",
+  "quelle_note": "Einkommensteuer/Pauschalierung.md",
+  "karten": [
+    {
+      "id": "est-pauschalierung-01",
+      "frage": "Welche Pauschalierungsmethoden unterscheidet man?",
+      "antwort": "Teilpauschalierung (vereinfachte EAR, nur Ausgaben pauschaliert) und Vollpauschalierung (Gewinn pauschaliert, gilt als Bilanzierung)."
+    },
+    {
+      "id": "est-pauschalierung-02",
+      "frage": "Wer kann die Basispauschalierung anwenden?",
+      "antwort": "Selbständig Tätige (§22) und Gewerbetreibende (§23) mit Vorjahresumsatz ≤ € 320.000, ohne Buchführung(spflicht), bei Ausweis in der Steuererklärung."
+    },
+    {
+      "id": "est-pauschalierung-03",
+      "frage": "Wie hoch ist der Basispauschalsatz?",
+      "antwort": "6 % (höchstens € 19.200) für Beratung, wissenschaftliche, schriftstellerische, vortragende, unterrichtende Tätigkeiten;\nsonst 13,5 % (höchstens € 43.200)."
+    },
+    {
+      "id": "est-pauschalierung-04",
+      "frage": "Welche Ausgaben sind neben dem Basispauschale abziehbar?",
+      "antwort": "Warneingang, Löhne/Fremdlöhne, Pflichtversicherungsbeiträge, Arbeitsplatzpauschale, Reise- und Fahrtkosten (mit Kostenersatz)."
+    },
+    {
+      "id": "est-pauschalierung-05",
+      "frage": "Was sind die Eckdaten der Kleinunternehmerpauschalierung?",
+      "antwort": "Pauschale BA: 45 % (max € 24.750),\nDienstleistungsbetriebe 20 % (max € 11.000).\nAnknüpfung an USt-Kleinunternehmerbefreiung (€ 55.000 brutto, 10 % Toleranz)."
+    }
+  ]
+}

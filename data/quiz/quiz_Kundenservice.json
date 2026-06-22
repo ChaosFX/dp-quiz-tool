@@ -1,0 +1,65 @@
+{
+  "fach": "Kundenservice",
+  "fragen": [
+    {
+      "id": "ks-01",
+      "frage": "Was zeichnet eine moderne Behördensprache nach den Schreibleitsätzen grundsätzlich aus?",
+      "optionen": [
+        "Klare, verständliche und möglichst einfache Formulierungen anstelle komplizierter Schachtelsätze und unnötiger Fachbegriffe, soweit fachlich vertretbar",
+        "Möglichst lange, komplexe Schachtelsätze, um Genauigkeit zu demonstrieren",
+        "Eine Sprache, die ausschließlich aus Paragraphenverweisen ohne erläuternden Text besteht",
+        "Behördensprache sollte sich bewusst von der Alltagssprache der Bürger:innen abheben"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Moderne Behördensprache zielt auf Verständlichkeit ab: kurze, klare Sätze, Vermeidung unnötiger Fachausdrücke oder deren verständliche Erklärung, sowie eine Struktur, die es Bürger:innen erleichtert, das Anliegen der Behörde nachzuvollziehen."
+    },
+    {
+      "id": "ks-02",
+      "frage": "Wie kann man eine Bitte gegenüber einer Bürgerin/einem Bürger positiv formulieren, ohne dass sie wie ein Befehl wirkt?",
+      "optionen": [
+        "Durch eine höfliche, freundliche Formulierung mit Begründung des Anliegens, anstelle einer kurzen, unbegründeten Anweisung im Imperativ",
+        "Indem man ausschließlich kurze Befehlssätze ohne jede Erläuterung verwendet",
+        "Indem man komplett auf jede Bitte verzichtet und nur Fakten mitteilt",
+        "Eine positive Formulierung ist im Behördenkontext nicht möglich"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Eine positiv formulierte Bitte erklärt nachvollziehbar, warum eine Mitwirkung der Bürgerin/des Bürgers notwendig ist, und verwendet einen höflichen, wertschätzenden Ton anstelle einer knappen, befehlsartigen Aufforderung, was die Akzeptanz und Kooperationsbereitschaft erhöht."
+    },
+    {
+      "id": "ks-03",
+      "frage": "Welche Qualitätskriterien und Erfolgsfaktoren tragen zu einer guten 'Visitenkarte' der Finanzverwaltung im Kundenkontakt bei?",
+      "optionen": [
+        "Z.B. Freundlichkeit, Verständlichkeit, Erreichbarkeit und ein professioneller, lösungsorientierter Umgang mit Anliegen der Bürger:innen",
+        "Eine möglichst lange Bearbeitungsdauer, um Gründlichkeit zu signalisieren",
+        "Ein bewusst distanzierter, unpersönlicher Kommunikationsstil",
+        "Ausschließlich die schnelle Erledigung unabhängig von der Qualität der Information"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Zu den zentralen Qualitätskriterien für eine positive 'Visitenkarte' der Finanzverwaltung zählen u.a. Freundlichkeit im Auftreten, verständliche Kommunikation, gute Erreichbarkeit sowie ein professioneller und lösungsorientierter Umgang mit den Anliegen der Bürger:innen."
+    },
+    {
+      "id": "ks-04",
+      "frage": "Was regelt der Erlass des BMF vom 16.03.2022 (2022-0.200.550) im Wesentlichen?",
+      "optionen": [
+        "Einheitliche Standards im Kundenservice der Finanzverwaltung, u.a. zu Kommunikation und Umgang mit Bürgeranliegen",
+        "Ausschließlich interne Personalfragen ohne Bezug zum Kundenkontakt",
+        "Er regelt ausschließlich die Bearbeitung von Beschwerden gegen Bescheide",
+        "Der Erlass betrifft ausschließlich die elektronische Aktenführung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der genannte Erlass legt einheitliche Standards für das Kundenservice der Finanzverwaltung fest, um eine konsistente und qualitativ hochwertige Kommunikation mit Bürger:innen sicherzustellen, etwa hinsichtlich Sprache, Erreichbarkeit und Verhalten im Kundenkontakt."
+    },
+    {
+      "id": "ks-05",
+      "frage": "Welche Tipps können den telefonischen Kontakt mit Kund:innen unterstützen?",
+      "optionen": [
+        "Z.B. eine freundliche Begrüßung, aktives Zuhören, klare und verständliche Ausdrucksweise sowie eine strukturierte Gesprächsführung",
+        "Möglichst schnelles, monotones Sprechen ohne Rücksicht auf das Verständnis der/des Anrufenden",
+        "Das Gespräch sollte möglichst kurz gehalten werden, unabhängig davon, ob das Anliegen geklärt wurde",
+        "Fachbegriffe sollten ohne jede Erklärung verwendet werden, um Kompetenz zu zeigen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Für einen guten telefonischen Kontakt sind u.a. eine freundliche Begrüßung, aktives Zuhören, eine klare und für Laien verständliche Ausdrucksweise sowie eine strukturierte Gesprächsführung wichtig, um Anliegen effizient und zur Zufriedenheit der Bürger:innen zu klären."
+    }
+  ]
+}

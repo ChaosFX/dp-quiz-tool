@@ -1,0 +1,17 @@
+{
+  "fach": "ESt",
+  "thema": "Prinzipien der Einkommensteuer",
+  "quelle_note": "Einkommensteuer/Prinzipien der Einkommensteuer.md",
+  "karten": [
+    {
+      "id": "est-prinzipien-der-einkommensteuer-01",
+      "frage": "Wo wird das Nettoprinzip druchbrochen?",
+      "antwort": "Bei endbesteuerten Kapitalerträgen, ausländischen Kapitalerträgen und privaten Grundstücksveräußerungen."
+    },
+    {
+      "id": "est-prinzipien-der-einkommensteuer-02",
+      "frage": "Was bedeutet \"disponibles Einkommen\"?",
+      "antwort": "Das frei verfügbare Einkommen nach Abzug des Existenzminimums und außergewöhnlichen Belastungen - das, was tatsächlich der Steuer unterliegen soll."
+    }
+  ]
+}

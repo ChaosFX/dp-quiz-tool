@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Verträge Nahe Angehörige",
+  "quelle_note": "Einkommensteuer/Verträge Nahe Angehörige.md",
+  "karten": [
+    {
+      "id": "est-vertraege-nahe-angehoerige-01",
+      "frage": "Welche 3 Voraussetzungen müssen Verträge zwischen nahen Angehörigen erfüllen?",
+      "antwort": "1. Publizität (nach außen ausreichend zum Ausdruck)\n2. Eindeutig klarer Inhalt\n3. Fremdvergleich (auch unter Fremden so abgeschlossen)\nAlle drei **kumulativ**!"
+    },
+    {
+      "id": "est-vertraege-nahe-angehoerige-02",
+      "frage": "Wann liegt ein familienhaftes Verhältnis vor?",
+      "antwort": "Wenn jemand ohne rechtliche Verpflichtung tätig ist und das Entgelt nicht von vornherein bestimmt ist (zB Kind im Betrieb der Eltern gegen Taschengeld)."
+    },
+    {
+      "id": "est-vertraege-nahe-angehoerige-03",
+      "frage": "Sind Mietverträge zwischen Ehegatten anerkannt?",
+      "antwort": "Nein, die Vermietung der gemeinsamen Ehewohnung ist in allen Varianten steuerlich nicht anzuerkennen."
+    },
+    {
+      "id": "est-vertraege-nahe-angehoerige-04",
+      "frage": "Was ist die eheliche Beistandspflicht?",
+      "antwort": "§ 90 ABGB: Mitwirkung im Erwerb des anderen Ehegatten.\n§ 98 ABGB: Anspruch auf angemessene Vergütung - diese ist aber familienhafte bedingt und NICHT als Betriebsausgabe abzugsfähig."
+    }
+  ]
+}

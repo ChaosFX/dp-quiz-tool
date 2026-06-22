@@ -1,0 +1,125 @@
+{
+  "fach": "Bewertung",
+  "fragen": [
+    {
+      "id": "bew-01",
+      "frage": "Welche Abgaben werden vom Bewertungsgesetz (BewG) nach § 1 BewG geregelt?",
+      "optionen": [
+        "Das BewG gilt für die Bewertung von Vermögen für jene Bundesabgaben, die auf bewertungsrechtliche Vorschriften verweisen, z.B. im Zusammenhang mit Grundsteuer, Grunderwerbsteuer und weiteren Abgaben",
+        "Das BewG regelt ausschließlich die Einkommensteuer",
+        "Das BewG ist ausschließlich für die Umsatzsteuer relevant",
+        "Das BewG findet ausschließlich bei Erbschaften Anwendung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Das Bewertungsgesetz enthält allgemeine Bewertungsvorschriften, die immer dann zur Anwendung kommen, wenn andere Abgabengesetze (z.B. im Zusammenhang mit Grundsteuer, Grunderwerbsteuer, Bodenwertabgabe) auf die Bewertungsvorschriften des BewG verweisen."
+    },
+    {
+      "id": "bew-02",
+      "frage": "Welche Vermögensarten unterscheidet das BewG grundsätzlich?",
+      "optionen": [
+        "U.a. land- und forstwirtschaftliches Vermögen, Grundvermögen sowie Betriebsvermögen, die jeweils nach eigenen Regeln bewertet werden",
+        "Das BewG kennt nur eine einzige, einheitliche Vermögensart ohne weitere Unterscheidung",
+        "Vermögensarten betreffen ausschließlich bewegliches Vermögen",
+        "Land- und forstwirtschaftliches Vermögen ist im BewG nicht vorgesehen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Das BewG unterscheidet insbesondere zwischen land- und forstwirtschaftlichem Vermögen, Grundvermögen (bebaute und unbebaute Grundstücke) und Betriebsvermögen, für die jeweils eigene Bewertungsvorschriften (§§ 29 ff. BewG für luf Vermögen und Grundvermögen) gelten."
+    },
+    {
+      "id": "bew-03",
+      "frage": "Was versteht man unter dem gemeinen Wert im Sinne des § 10 BewG?",
+      "optionen": [
+        "Den Preis, der im gewöhnlichen Geschäftsverkehr bei einer Veräußerung eines Wirtschaftsgutes nach seiner Beschaffenheit zu erzielen wäre, unter Außerachtlassung ungewöhnlicher oder persönlicher Verhältnisse",
+        "Den ursprünglichen Anschaffungspreis ohne jede Wertanpassung",
+        "Den Einheitswert eines Grundstücks zum letzten Hauptfeststellungszeitpunkt",
+        "Der gemeine Wert ist ein veralteter Begriff ohne heutige Bedeutung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der gemeine Wert (§ 10 BewG) ist der Preis, der bei einer Veräußerung des Wirtschaftsgutes im gewöhnlichen Geschäftsverkehr nach seiner Beschaffenheit erzielbar wäre; ungewöhnliche oder persönliche Verhältnisse (z.B. eine Zwangslage des Veräußerers) bleiben dabei außer Betracht."
+    },
+    {
+      "id": "bew-04",
+      "frage": "Welche Bedeutung hat die Kaufpreissammlung im Zusammenhang mit der Bewertung (§§ 10, 12, 32 BewG)?",
+      "optionen": [
+        "Sie enthält Daten über tatsächlich erzielte Kaufpreise (z.B. von Grundstücken), die als Vergleichsmaßstab zur Ermittlung des gemeinen Wertes herangezogen werden können",
+        "Die Kaufpreissammlung dient ausschließlich statistischen Zwecken ohne jede steuerliche Relevanz",
+        "Es handelt sich um eine Sammlung historischer Anschaffungskosten von Unternehmen",
+        "Die Kaufpreissammlung betrifft ausschließlich bewegliche Wirtschaftsgüter"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Kaufpreissammlung dokumentiert tatsächlich am Markt erzielte Kaufpreise (insbesondere für Grundstücke) und dient als wichtige Vergleichsgrundlage bei der Ermittlung des gemeinen Wertes im Rahmen der Bewertung."
+    },
+    {
+      "id": "bew-05",
+      "frage": "Wie werden Kapitalforderungen und Schulden nach § 14 BewG grundsätzlich bewertet?",
+      "optionen": [
+        "Grundsätzlich mit dem Nennwert, sofern nicht besondere Umstände (z.B. Uneinbringlichkeit, Unverzinslichkeit) einen abweichenden Wertansatz rechtfertigen",
+        "Kapitalforderungen sind grundsätzlich generell mit Null anzusetzen",
+        "Es ist immer der ursprüngliche Vertragswert ohne jede Anpassung heranzuziehen",
+        "Kapitalforderungen werden nach dem BewG nicht bewertet"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Kapitalforderungen und Schulden sind nach § 14 BewG grundsätzlich mit dem Nennwert anzusetzen; abweichende Bewertungen können sich insbesondere bei Uneinbringlichkeit, besonderen Verzinsungsverhältnissen oder bei unverzinslichen, erst künftig fälligen Forderungen ergeben."
+    },
+    {
+      "id": "bew-06",
+      "frage": "Welche Arten von Kapitalforderungen unterscheidet § 15 BewG hinsichtlich der Verzinsung?",
+      "optionen": [
+        "Verzinsliche und unverzinsliche Kapitalforderungen, die unterschiedlich zu bewerten sind",
+        "Es gibt nach § 15 BewG keine Unterscheidung nach der Verzinsung",
+        "Nur verzinsliche Forderungen sind nach dem BewG überhaupt bewertbar",
+        "Unverzinsliche Forderungen sind immer mit dem doppelten Nennwert anzusetzen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "§ 15 BewG unterscheidet zwischen verzinslichen und unverzinslichen Kapitalforderungen; während verzinsliche Forderungen regelmäßig mit dem Nennwert bewertet werden, sind unverzinsliche, erst künftig fällige Forderungen unter Berücksichtigung einer Abzinsung zu bewerten."
+    },
+    {
+      "id": "bew-07",
+      "frage": "Wie werden wiederkehrende Nutzungen und Leistungen (z.B. Renten) nach §§ 15-17 BewG bewertet?",
+      "optionen": [
+        "Mit einem kapitalisierten Wert, der unter Berücksichtigung von Laufzeit, Höhe und ggf. statistischer Wahrscheinlichkeiten (z.B. Lebenserwartung) berechnet wird; dafür existiert ein eigenes Berechnungsprogramm im Intranet/auf der BMF-Homepage",
+        "Wiederkehrende Nutzungen und Leistungen werden generell mit dem einfachen Jahresbetrag ohne jede Kapitalisierung angesetzt",
+        "Diese Bewertungsform ist im BewG nicht vorgesehen",
+        "Es wird stets ein pauschaler Wert von 10.000 EUR angesetzt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Wiederkehrende Nutzungen und Leistungen (z.B. Renten, Wohnrechte) werden nach §§ 15–17 BewG mit einem kapitalisierten Wert bewertet, der von Laufzeit, Höhe und – bei lebenslangen Leistungen – statistischen Faktoren wie der Lebenserwartung abhängt; zur Berechnung steht ein entsprechendes Programm im Intranet bzw. auf der BMF-Homepage zur Verfügung."
+    },
+    {
+      "id": "bew-08",
+      "frage": "Was umfasst der Bewertungsgegenstand 'Grundvermögen' nach §§ 29 ff BewG im Überblick?",
+      "optionen": [
+        "Bebaute und unbebaute Grundstücke, die nach den besonderen Vorschriften des BewG für Grundvermögen bewertet werden",
+        "Ausschließlich landwirtschaftlich genutzte Flächen",
+        "Bewegliche Wirtschaftsgüter wie Maschinen und Fahrzeuge",
+        "Grundvermögen umfasst ausschließlich Wertpapiere und Beteiligungen"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Zum Grundvermögen zählen bebaute und unbebaute Grundstücke, die nach den besonderen, im BewG vorgesehenen Regeln (im Überblick §§ 29 ff. BewG) bewertet werden – im Unterschied zum land- und forstwirtschaftlichen Vermögen und zum Betriebsvermögen."
+    },
+    {
+      "id": "bew-09",
+      "frage": "In welchen Bereichen außerhalb des unmittelbaren Bewertungsrechts spielen Einheitswerte eine Rolle?",
+      "optionen": [
+        "U.a. bei der Einkommensteuer (z.B. pauschalierte Land- und Forstwirtschaft), der Grunderwerbsteuer, der Grundsteuer, der Bodenwertabgabe, dem BSVG sowie im Zusammenhang mit dem Grundbuch (GGG)",
+        "Einheitswerte haben außerhalb des BewG keinerlei praktische Bedeutung mehr",
+        "Einheitswerte sind ausschließlich für die Umsatzsteuer relevant",
+        "Einheitswerte betreffen ausschließlich bewegliche Wirtschaftsgüter"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Einheitswerte haben über das Bewertungsrecht hinaus vielfältige Bedeutung, u.a. als Bemessungsgrundlage oder Anknüpfungspunkt bei der pauschalierten Land- und Forstwirtschaft im EStG, bei der Grunderwerbsteuer, der Grundsteuer, der Bodenwertabgabe, im Sozialversicherungsrecht der Landwirte (BSVG) sowie bei bestimmten Gebühren im Zusammenhang mit dem Grundbuch (GGG)."
+    },
+    {
+      "id": "bew-10",
+      "frage": "Was wird unter 'Bedingungen und Befristungen' im bewertungsrechtlichen Kontext (§§ 4-8 BewG) verstanden?",
+      "optionen": [
+        "Regelungen darüber, wie Wirtschaftsgüter zu bewerten sind, deren Bestand oder Wegfall von einem zukünftigen ungewissen Ereignis (Bedingung) oder einem bestimmten Zeitpunkt (Befristung) abhängt",
+        "Bedingungen und Befristungen betreffen ausschließlich Verträge im Zivilrecht ohne steuerliche Relevanz",
+        "Diese Bestimmungen regeln ausschließlich die Fälligkeit von Steuerzahlungen",
+        "Es handelt sich um Synonyme für den gemeinen Wert"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die §§ 4–8 BewG regeln die bewertungsrechtliche Behandlung von Wirtschaftsgütern oder Lasten, deren Entstehen, Bestehen oder Erlöschen von einer aufschiebenden oder auflösenden Bedingung bzw. von einer Befristung abhängt, um eine sachgerechte Bewertung trotz dieser Unsicherheit zu ermöglichen."
+    }
+  ]
+}

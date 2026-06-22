@@ -1,0 +1,37 @@
+{
+  "fach": "ESt",
+  "thema": "Bewertung der Wirtschaftsgüter (§ 6)",
+  "quelle_note": "Einkommensteuer/Bewertung Wirtschaftsgüter.md",
+  "karten": [
+    {
+      "id": "est-bewertung-der-wirtschaftsgueter-6-01",
+      "frage": "Nennen Sie die Bewertungsmaßstäbe des EStG.",
+      "antwort": "Anschaffungskosten, Herstellungskosten, Teilwert, gemeiner Wert, Buchwert (sowie fiktive AK)."
+    },
+    {
+      "id": "est-bewertung-der-wirtschaftsgueter-6-02",
+      "frage": "Was versteht man unter Teilwert und gemeinem Wert?",
+      "antwort": "Teilwert: Betrag, den ein Erwerber des ganzen Betriebs im Gesamtkaufpreis für das einzelnen WG ansetzen würde (Going-Concern).\nGemeiner Wert: im gewöhnlichen Geschäftsverkehr erzielbarer Verkaufspreis, ohne ungewöhnliche/persönliche Verhältnisse, ohne USt/Nebenkosten."
+    },
+    {
+      "id": "est-bewertung-der-wirtschaftsgueter-6-03",
+      "frage": "Welche Wertprinzipien gibt es?",
+      "antwort": "Bedingtes Niederstwerprinzip (AV), strenges Niederstwertpinzip (UV), Höchstwertprinzip (Verbindlichkeiten). Bei § 5 jeweils zwingend, bei § 4 Abs 1 Wahlrecht."
+    },
+    {
+      "id": "est-bewertung-der-wirtschaftsgueter-6-04",
+      "frage": "Was ist das Realisationsprinzip?",
+      "antwort": "Gewinne dürfen erst bei ihrer Realisierung ausgewiesen werden (Teil des Vorsichtsprinzips; Gegenstück: Imparitätsprinzip für drohende Verluste)."
+    },
+    {
+      "id": "est-bewertung-der-wirtschaftsgueter-6-05",
+      "frage": "Was bedeutet der Grundsatz des Wertzusammenhangs?",
+      "antwort": "Bindung an frühere Bilanzansätze. Uneingeschränkt (abnutzbares AV): Zuschreibungsverbot. Eingeschränkt (nicht abnutzbares AV, UV): Zuschreibung nur bis zu den ursprünglichen AK/HK."
+    },
+    {
+      "id": "est-bewertung-der-wirtschaftsgueter-6-06",
+      "frage": "Wie werden Entnahmen bewertet?",
+      "antwort": "Mit dem Teilwert im Zeitpunkt der Entnahme (Grund und Boden mit dem Buchwert)."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Einkunftsarten (Überblick)",
+  "quelle_note": "Einkommensteuer/Einkunftsarten.md",
+  "karten": [
+    {
+      "id": "est-einkunftsarten-ueberblick-01",
+      "frage": "Welche 7 Einkunftsarten gibt es?",
+      "antwort": "L+F (§ 21), selbständige Arbeit (§ 22), Gewerbebetrieb (§ 23), nsA (§ 25), Kapitalvermögen (§ 27), V+V (§ 28), sonstige (§ 29)."
+    },
+    {
+      "id": "est-einkunftsarten-ueberblick-02",
+      "frage": "In welche Gruppe lassen sich die Einkunftsarten einteilen?",
+      "antwort": "1. Betrieblich (1-3) vs. außerbetrieblich (4-7)-\n2. Haupteinkunftsarten (1-4) vs. Nebeneinkunftsarten (5-7)."
+    },
+    {
+      "id": "est-einkunftsarten-ueberblick-03",
+      "frage": "Was bedeutet subsidär?",
+      "antwort": "Die Nebeneinkunftsarten (5-7) sind den Haupteinkunftsarten (1-4) nachgeordnet - erst prüfen, ob 1-4 vorliegen."
+    },
+    {
+      "id": "est-einkunftsarten-ueberblick-04",
+      "frage": "Welche Merkmale bestimmen die betrieblichen Einkunftsarten?",
+      "antwort": "Selbständigkeit,\nNachhaltigkeit,\nGewinnabsicht,\nBeteiligung am allgemeinen wirtschaftlichen Verkehr,\nüber Vermögensverwaltung hinausgehend."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "fach": "KöSt",
+  "thema": "Steuerbefreiungen KöSt",
+  "quelle_note": "Körperschaftsteuer/Steuerbefreiungen KöSt.md",
+  "karten": [
+    {
+      "id": "koest-steuerbefreiungen-koest-01",
+      "frage": "Wo stehen die persönlichen und wo die sachlichen Befreiungen?",
+      "antwort": "**Persönliche** (Teil-)Befreiungen: **§ 5 KStG** (zudem §§ 6, 6a, 6b). \n**Sachliche** Befreiungen: **§ 10 KStG** (Beteiligungsertragsbefreiung)."
+    },
+    {
+      "id": "koest-steuerbefreiungen-koest-02",
+      "frage": "Wonach wird die Gemeinnützigkeit geprüft - und für welche Rechtsformen?",
+      "antwort": "Nach den **§§ 34-47 BAO**; einheitlich für Vereine, Kapitalgesellschaften und Genossenschaften."
+    },
+    {
+      "id": "koest-steuerbefreiungen-koest-03",
+      "frage": "Was ist ein begünstigungsschädlicher Betrieb und welche Folge hat er?",
+      "antwort": "Eine wirtschaftliche Tätigkeit, die nicht mehr unmittelbar dem begünstigten Zweck dient und/oder im Wettbewerb steht. \nFolge: **Besteuerung dieser Tätigkeit** oder **Verlust der Befreiung** insgesamt."
+    },
+    {
+      "id": "koest-steuerbefreiungen-koest-04",
+      "frage": "Was passiert mit den stillen Reserven beim Verlust der Befreiung?",
+      "antwort": "Aufwertung der Wirtschaftsgüter auf den **gemeinen Wert** -> die in der befreiten Zeit gebildeten **stillen Reserven werden entsteuert.**"
+    },
+    {
+      "id": "koest-steuerbefreiungen-koest-05",
+      "frage": "Welche fünf Voraussetzungen gelten für die Befreiung von Geselligkeitsveranstaltungen (§ 5 Z 12 KStG)?",
+      "antwort": "Ausschließlich gesellige Veranstaltungen · entgeltlich · materielle Förderung eines BAO-Zwecks (§§ 35, 37, 38) · nachweisliche Mittelverwendung · **≤ 72 Stunden** pro Kalenderjahr."
+    }
+  ]
+}
