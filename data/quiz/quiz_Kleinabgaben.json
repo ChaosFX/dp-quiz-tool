@@ -132,6 +132,150 @@
       ],
       "korrekt": 0,
       "erklaerung": "Die NoVA ist eine einmalige Abgabe, die grundsätzlich bei der erstmaligen Zulassung eines Fahrzeugs im Inland anfällt, während die motorbezogene Versicherungsteuer (bei PKW, in der Kfz-Versicherungsprämie enthalten) bzw. die Kraftfahrzeugsteuer (insb. bei LKW) laufend, regelmäßig wiederkehrend für das Halten des Fahrzeugs zu entrichten ist."
+    },
+    {
+      "id": "klein-12",
+      "frage": "Zählen Verbrauchsteuern zu den indirekten Steuern?",
+      "optionen": [
+        "Ja, weil Steuerschuldner und wirtschaftlicher Steuerträger auseinanderfallen – die Steuerlast wird über den Preis auf den Endverbraucher überwälzt",
+        "Nein, Verbrauchsteuern sind direkte Steuern, weil sie den Endverbraucher unmittelbar belasten",
+        "Das hängt vom jeweiligen Verbrauchsteuergesetz ab; manche sind direkt, manche indirekt",
+        "Verbrauchsteuern gelten als neutrale Steuern und sind weder direkt noch indirekt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Verbrauchsteuern sind indirekte Steuern: Steuerschuldner (z.B. Hersteller oder Importeur) und wirtschaftlicher Steuerträger (Endverbraucher) sind verschiedene Personen. Der Steuerschuldner überwälzt die Abgabe über den Preis auf den Konsumenten."
+    },
+    {
+      "id": "klein-13",
+      "frage": "Nach welchem Prinzip werden Verbrauchsteuern im gewerblichen Bereich erhoben?",
+      "optionen": [
+        "Nach dem Bestimmungslandprinzip – die Steuer wird im Land des Verbrauchs erhoben",
+        "Nach dem Ursprungslandprinzip – die Steuer wird im Herstellungsland erhoben",
+        "Im gewerblichen Bereich gilt kein einheitliches Prinzip; es entscheidet der Herstellungsort",
+        "Im gewerblichen Bereich gilt das Bestimmungslandprinzip nur für Drittstaatenwaren, nicht für EU-Waren"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Im gewerblichen Bereich – und im Steueraussetzungsverfahren – gilt das Bestimmungslandprinzip: Die Verbrauchsteuer wird in dem Land erhoben, in dem die Ware endgültig verbraucht wird. Im privaten Reiseverkehr innerhalb der EU gilt hingegen das Ursprungslandprinzip."
+    },
+    {
+      "id": "klein-14",
+      "frage": "Gilt im privaten Reiseverkehr innerhalb der EU das Ursprungslandprinzip?",
+      "optionen": [
+        "Ja, Waren für den persönlichen Bedarf werden im Abgangsland (Ursprungsland) versteuert; es gibt keine formellen Mengengrenzen, aber EU-Orientierungsmengen ab denen ein kommerzieller Zweck vermutet wird",
+        "Nein, auch im Privatreiseverkehr gilt das Bestimmungslandprinzip",
+        "Im privaten Reiseverkehr fallen grundsätzlich keine Verbrauchsteuern an",
+        "Das Ursprungslandprinzip gilt nur für Alkohol, nicht für andere Verbrauchsgüter"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Im privaten Reiseverkehr innerhalb der EU gilt das Ursprungslandprinzip: Waren für den eigenen Bedarf werden im Abgangsland versteuert und können steuerfrei mitgenommen werden. Die EU sieht jedoch Orientierungsmengen vor (z.B. 10 l Spirituosen, 800 Zigaretten), ab denen ein gewerblicher Zweck vermutet wird. Bei Einfuhr aus Drittstaaten gelten strikte Freigrenzen."
+    },
+    {
+      "id": "klein-15",
+      "frage": "Sind Verbrauchsteuern Selbstbemessungsabgaben?",
+      "optionen": [
+        "Ja, der Steuerpflichtige berechnet die Abgabe selbst, gibt eine Steueranmeldung ab und entrichtet die Steuer ohne vorherigen Bescheid",
+        "Nein, Verbrauchsteuern werden stets durch einen Festsetzungsbescheid des Finanzamts erhoben",
+        "Nur die Biersteuer ist eine Selbstbemessungsabgabe; alle anderen Verbrauchsteuern werden bescheidmäßig festgesetzt",
+        "Selbstbemessung ist bei Verbrauchsteuern verboten, weil die Gefahr der Steuerhinterziehung zu groß ist"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Verbrauchsteuern sind Selbstbemessungsabgaben: Der Steuerpflichtige berechnet die Abgabe eigenständig, gibt eine Steueranmeldung (keine Steuererklärung im engeren Sinn) ab und entrichtet die Steuer ohne vorherigen Bescheid des Finanzamts. Das Finanzamt kann die Steuer nachträglich prüfen und bescheidmäßig festsetzen."
+    },
+    {
+      "id": "klein-16",
+      "frage": "Entsteht die Verbrauchsteuerschuld im Steueraussetzungsverfahren bereits bei der Herstellung der Ware?",
+      "optionen": [
+        "Nein, die Steuerschuld entsteht erst bei der Überführung in den steuerrechtlich freien Verkehr, nicht bei der Herstellung",
+        "Ja, die Steuerschuld entsteht bereits im Moment der Herstellung, auch wenn die Ware im Steuerlager verbleibt",
+        "Die Steuerschuld entsteht bei der Herstellung, wird aber bis zum Verkauf gestundet",
+        "Im Steueraussetzungsverfahren entsteht überhaupt keine Steuerschuld"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Im Steueraussetzungsverfahren ist die Entstehung der Steuerschuld aufgeschoben (suspendiert), solange sich die Ware in einem zugelassenen Steuerlager befindet oder unter Steueraussetzung befördert wird. Die Steuerschuld entsteht erst mit der Überführung in den freien Verkehr – nicht bei der Herstellung."
+    },
+    {
+      "id": "klein-17",
+      "frage": "Wann entsteht die Verbrauchsteuerschuld?",
+      "optionen": [
+        "Mit der Überführung der Ware in den steuerrechtlich freien Verkehr, z.B. durch Entnahme aus dem Steuerlager oder Einfuhr aus einem Drittland ohne anschließendes Steueraussetzungsverfahren",
+        "Bereits bei der Herstellung der verbrauchsteuerpflichtigen Ware",
+        "Erst wenn der Endkunde die Ware tatsächlich verbraucht",
+        "Mit dem Verkauf der Ware durch den Hersteller an den Großhändler"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Verbrauchsteuerschuld entsteht mit der Überführung in den steuerrechtlich freien Verkehr. Typische Entstehungstatbestände sind: Entnahme aus dem Steuerlager ohne Anschluss an ein weiteres Steueraussetzungsverfahren, Unregelmäßigkeiten bei der Beförderung unter Steueraussetzung sowie die Einfuhr aus einem Drittland. Nicht maßgeblich ist weder die Herstellung noch der tatsächliche Endverbrauch."
+    },
+    {
+      "id": "klein-18",
+      "frage": "Bemisst sich die Alkoholsteuer nach dem geleisteten Kaufpreis (z.B. 20 % des Entgelts)?",
+      "optionen": [
+        "Nein, die Alkoholsteuer ist eine Mengensteuer und bemisst sich nach der Menge des reinen Alkohols in Hektoliter Alkohol (hl A)",
+        "Ja, die Alkoholsteuer beträgt 20 % des erzielten Verkaufspreises",
+        "Die Alkoholsteuer wird als Prozentsatz des Einkaufspreises des Herstellers berechnet",
+        "Die Bemessungsgrundlage ist der Zuckergehalt des Ausgangsstoffs, nicht der Alkoholgehalt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Alkoholsteuer ist eine Mengensteuer, keine Wertsteuer. Sie bemisst sich nach der Menge des enthaltenen reinen Alkohols (Ethanol) in Hektoliter Alkohol (hl A) – unabhängig vom Verkaufspreis. Ein prozentualer Ansatz vom Entgelt (wie bei der Umsatzsteuer) ist nicht vorgesehen."
+    },
+    {
+      "id": "klein-19",
+      "frage": "Unterliegen Alkoholwaren, die nach Österreich eingeführt werden, der österreichischen Alkoholsteuer?",
+      "optionen": [
+        "Ja, sowohl Einfuhren aus Drittländern als auch Überführungen aus anderen EU-Mitgliedstaaten in den freien Verkehr unterliegen der Alkoholsteuer",
+        "Nein, eingeführte Alkoholwaren sind stets von der österreichischen Alkoholsteuer befreit",
+        "Nur Einfuhren aus Drittländern sind steuerpflichtig; EU-Waren sind generell befreit",
+        "Alkoholwaren aus der EU unterliegen ausschließlich der Steuer des Herkunftslandes"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Alkoholwaren unterliegen bei Einfuhr aus Drittstaaten bzw. bei Überführung aus dem EU-Ausland in den österreichischen freien Verkehr der österreichischen Alkoholsteuer (§ 3 AlkStG). Es gilt das Bestimmungslandprinzip: Die Steuer wird in dem Land erhoben, in dem die Ware verbraucht wird."
+    },
+    {
+      "id": "klein-20",
+      "frage": "Für wen gilt das vereinfachte Abfindungsverfahren bei der Alkoholsteuer?",
+      "optionen": [
+        "Für Abfindungsbrennereien, die bestimmte Produktionsmengen nicht überschreiten und daher nicht den Vorschriften für Verschlussbrennereien (z.B. Steuerlager) unterliegen",
+        "Für alle Brennereien gleichermaßen, unabhängig von der produzierten Menge",
+        "Ausschließlich für gewerbliche Großbrennereien mit mehr als 100 hl Jahresproduktion",
+        "Das Abfindungsverfahren ist für Verschlussbrennereien vorgesehen, nicht für Abfindungsbrennereien"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Das vereinfachte Abfindungsverfahren gilt für Abfindungsbrennereien, die bestimmte gesetzliche Mengengrenzen nicht überschreiten. Sie müssen ihren Alkohol nicht in einem bewilligten Steuerlager (wie Verschlussbrennereien) herstellen und unterliegen vereinfachten Anmelde- und Abrechnungspflichten."
+    },
+    {
+      "id": "klein-21",
+      "frage": "Bemisst sich die Biersteuer nach dem Verkaufspreis (z.B. 20 % des Entgelts)?",
+      "optionen": [
+        "Nein, die Biersteuer ist eine Mengensteuer, die sich nach dem Stammwürzegehalt in Grad Plato (°P) und dem Alkoholgehalt bemisst",
+        "Ja, die Biersteuer beträgt 20 % des Nettokaufpreises",
+        "Die Biersteuer wird als Prozentsatz des Rohstoffeinsatzes (Malz, Hopfen) berechnet",
+        "Bemessungsgrundlage ist ausschließlich das Verkaufsvolumen in Hektoliter, unabhängig vom Alkohol- oder Plato-Gehalt"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Biersteuer ist wie die Alkoholsteuer eine Mengensteuer, keine Wertsteuer. Die Bemessungsgrundlage ist der Stammwürzegehalt in Grad Plato (°P) – ein Maß für den Gehalt an gelösten Stoffen (vor allem Malzzucker) in der Würze vor der Gärung. Ein Prozentsatz vom Kaufpreis ist nicht vorgesehen."
+    },
+    {
+      "id": "klein-22",
+      "frage": "Wird die Biersteuer auch auf alkoholfreies Bier erhoben?",
+      "optionen": [
+        "Nein, alkoholfreies Bier (unter 0,5 % vol.) unterliegt nicht der Biersteuer; ab einem gewissen Alkoholgehalt – z.B. bei Radler – kann Steuerpflicht entstehen",
+        "Ja, die Biersteuer fällt auf alle als Bier bezeichneten Getränke an, unabhängig vom Alkoholgehalt",
+        "Alkoholfreies Bier ist nur dann steuerpflichtig, wenn es aus Malz hergestellt wird",
+        "Die Biersteuer gilt ausschließlich für Importbier, nicht für inländisch produziertes alkoholfreies Bier"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Alkoholfreies Bier mit einem Alkoholgehalt unter 0,5 % vol. unterliegt nicht der Biersteuer, weil es die gesetzliche Mindestschwelle nicht erreicht. Getränke mit einem höheren Alkoholgehalt – wie ein klassischer Radler – können hingegen bereits der Biersteuerpflicht unterliegen, sofern sie die weiteren Tatbestandsmerkmale erfüllen."
+    },
+    {
+      "id": "klein-23",
+      "frage": "Nach welcher Größe wird die Biersteuer berechnet?",
+      "optionen": [
+        "Nach dem Stammwürzegehalt in Grad Plato (°P) – einem Maß für den gelösten Feststoffgehalt (insbesondere Malzzucker) in der Würze vor der Gärung",
+        "Ausschließlich nach dem Alkoholgehalt in Volumenprozent (% vol.) des fertigen Bieres",
+        "Nach dem Volumen in Hektoliter, multipliziert mit einem einheitlichen Steuersatz unabhängig vom Plato-Gehalt",
+        "Nach dem Rohstoffeinsatz (Malzmenge) pro Produktionseinheit"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Bemessungsgrundlage der Biersteuer ist der Stammwürzegehalt in Grad Plato (°P). Grad Plato misst den Anteil gelöster Feststoffe – vor allem Malzzucker – in der Bierwürze vor der Gärung. Je höher der Plato-Gehalt, desto höher die Biersteuer. Der Alkoholgehalt des fertigen Bieres ist zwar mittelbar relevant, aber Grad Plato ist die primäre Berechnungsgröße."
     }
   ]
 }
