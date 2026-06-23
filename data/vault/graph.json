@@ -199,6 +199,12 @@
       "pfad": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA).md"
     },
     {
+      "id": "Körperschaftsteuer/Gemeinnützige Körperschaft",
+      "label": "Gemeinnützige Körperschaft",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Gemeinnützige Körperschaft.md"
+    },
+    {
       "id": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
       "label": "Persönliche Steuerpflicht KöSt",
       "fach": "KöSt",
@@ -251,6 +257,18 @@
       "label": "Wirtschaftliche Betrachtungsweise",
       "fach": "BAO",
       "pfad": "Rechtsquellen/BAO/§ 21 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 22 BAO",
+      "label": "Missbrauch",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 22 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 23 BAO",
+      "label": "Scheingeschäfte",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 23 BAO.md"
     },
     {
       "id": "Rechtsquellen/BAO/§ 26 BAO",
@@ -433,6 +451,14 @@
     {
       "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
       "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
+      "target": "Rechtsquellen/BAO/§ 22 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
+      "target": "Rechtsquellen/BAO/§ 23 BAO"
     },
     {
       "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
@@ -996,10 +1022,30 @@
     },
     {
       "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaft"
+    },
+    {
+      "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
       "target": "Rechtsquellen/KStG/§ 1 KStG"
     },
     {
       "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Rechtsquellen/KStG/§ 5 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaft",
+      "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaft",
+      "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaft",
+      "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaft",
       "target": "Rechtsquellen/KStG/§ 5 KStG"
     },
     {
@@ -1029,6 +1075,10 @@
     {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
       "target": "Rechtsquellen/KStG/§ 5 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaft"
     },
     {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
@@ -1144,7 +1194,47 @@
     },
     {
       "source": "Rechtsquellen/BAO/§ 21 BAO",
+      "target": "Rechtsquellen/BAO/§ 22 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 21 BAO",
+      "target": "Rechtsquellen/BAO/§ 23 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 21 BAO",
       "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 22 BAO",
+      "target": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 22 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 22 BAO",
+      "target": "Rechtsquellen/BAO/§ 21 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 22 BAO",
+      "target": "Rechtsquellen/BAO/§ 23 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 23 BAO",
+      "target": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 23 BAO",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 23 BAO",
+      "target": "Rechtsquellen/BAO/§ 21 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 23 BAO",
+      "target": "Rechtsquellen/BAO/§ 22 BAO"
     },
     {
       "source": "Rechtsquellen/BAO/§ 4 BAO",
@@ -1441,6 +1531,10 @@
     {
       "source": "Rechtsquellen/KStG/§ 5 KStG",
       "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 5 KStG",
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaft"
     },
     {
       "source": "Rechtsquellen/KStG/§ 5 KStG",

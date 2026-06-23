@@ -1,0 +1,52 @@
+{
+  "fach": "KöSt",
+  "thema": "Gemeinnützige Körperschaft",
+  "quelle_note": "Körperschaftsteuer/Gemeinnützige Körperschaft.md",
+  "karten": [
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-01",
+      "frage": "Worauf verweist § 5 Z 6 KStG, und was bewirkt die Befreiung?",
+      "antwort": "Auf die **§§ 34 - 47 BAO**. Verfolgt eine Körperschaft begünstigte Zwecke, **wechselt** sie von der unbeschränkten in die **beschränkte** Steuerpflicht."
+    },
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-02",
+      "frage": "Welche Voraussetzungen nennt § 34 Abs 1 BAO?",
+      "antwort": "Ausschließlich, unmittelbar, nach Satzung und tatsächlicher Geschäftsführung Verfolgung begünstigter Zwecke; Sitz/Geschäftsleitung in EU/EWR (sonst überwiegend Inlandsförderung)"
+    },
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-03",
+      "frage": "Wann ist die \"Allgemeinheit\" gefördert - und wann nicht?",
+      "antwort": "Wann der Personenkries **nicht dauernd klein** ist. Schädlich: geschlossenen Mitgliederzahl, Bindung an Unternehmen/Familie, örtliche/berufliche Einschränkung. Unschädlich: kleiner Kreis wegen objektiver Merkmale (seltene Erkrankung)."
+    },
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-04",
+      "frage": "Nenne die vier Bereiche des Lösungsrasters und ihre Besteuerung.",
+      "antwort": "**Vereinsbereich** (beschränkt 2. Art); **unentbehrlicher HB** (§ 45 Abs 2 - steuerfrei); **entbehrlicher HB** (§ 45 Abs 1 - steuerpflichtig, Freibetrag); **begünstigungsschädlicher GB/Gewerbe/LuF** (§ 44, 45 Abs 3 - steuerpflichtig + gefährdet die Gesamtbegünstigung)."
+    },
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-05",
+      "frage": "Voraussetzungen des unentbehrlichen Hilfsbetriebs (§ 45 Abs 2)?",
+      "antwort": "Gesamtrichtung auf den Zweck; Zweck nur so erreichbar; kein über das Unvermeidbare hinausgehender Wettbewerb. Folge: **steuerfrei**."
+    },
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-06",
+      "frage": "Wann ist ein \"kleines Vereinsfest\" ein entbehrlicher Hilfsbetrieb (§ 45 Abs 1a)?",
+      "antwort": "Organisation überwiegend durch Mitglieder, Künstler ≤ € 1.000 / Stunde, Gesamtdauer ≤ 72 Stunden/Jahr."
+    },
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-07",
+      "frage": "Welche zwei Mechanismen verhindern den Verlust der Gesamtbegünstigung?",
+      "antwort": "Die **Umsatzgrenze € 100.000** (§ 45a BAO, alle begünstigungsschädlichen Betriebe zusammen) und die **Ausnahmegenehmigung** des Finanzamts (§ 44 Abs 2 BAO)."
+    },
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-08",
+      "frage": "Wie wird ein unteilbarer Mischbetrieb eingestuft?",
+      "antwort": "Nach dem Umsatzanteil des begünstigungsschädlichen Teils: < 25 % -> unentbehrlich; 25 - 50 % -> entbehrlich; > 50 % -> begünstigungsschädlich."
+    },
+    {
+      "id": "koest-gemeinnuetzige-koerperschaft-09",
+      "frage": "Wie funktioniert der Freibetrag nach § 23 KStG?",
+      "antwort": "€ 10.000 Abzug von steuerpflichtigen Einkünften; nicht bei begünstigungsschädlichen Betrieben ohne Ausnahme; Vortrag bis 10 Jahre (10 %-Grenze im Entstehungs-, 5 %-Grenze im Verrechnungsjahr)."
+    }
+  ]
+}
