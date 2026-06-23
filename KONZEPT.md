@@ -364,31 +364,81 @@ Parsing-Logik:
   wählt zunächst alle Antworten, die er für richtig hält.
 - Ein **„Auswerten"-Button** erscheint (und ist erst nach Auswahl von
   mindestens einer Option aktiv) — erst nach Klick darauf wird ausgewertet.
-- Auswertungslogik: Eine Multiple-Choice-Frage gilt als **richtig**, wenn
-  genau alle korrekten Optionen angekreuzt sind und keine falschen
-  angekreuzt wurden (kein Teilpunkt-System in v1).
-- Visuelles Feedback nach Auswertung:
-  - **Grün** = korrekt ausgewählte Option (war richtig und wurde angekreuzt)
-  - **Rot** = falsch ausgewählte Option (war falsch, wurde aber angekreuzt)
-  - **Orange/Gelb** = vergessene korrekte Option (war richtig, wurde aber
-    nicht angekreuzt)
-  - Nicht ausgewählte, falsche Optionen bleiben neutral
-- Die `erklaerung` wird nach dem Auswerten eingeblendet.
-- Navigation zur nächsten Frage erst nach Auswertung möglich.
+
+#### Partial Credit Bewertung (Multiple-Choice)
+
+**Formel — Ansatz C: jede Option zählt einzeln**
+
+```
+Punkte = (richtig angekreuzte + richtig NICHT-angekreuzte) / alle Optionen gesamt
+```
+
+Konkret: Für jede der N Optionen wird geprüft ob die Entscheidung
+(angekreuzt / nicht angekreuzt) korrekt war:
+- Option korrekt + angekreuzt     → +1 Punkt
+- Option falsch  + nicht angekreuzt → +1 Punkt
+- Option korrekt + nicht angekreuzt → +0 Punkte (vergessen)
+- Option falsch  + angekreuzt     → +0 Punkte (falsch angekreuzt)
+
+Ergebnis: Wert zwischen 0.0 und 1.0 (nie negativ, 1.0 = perfekt)
+
+**Beispiel:** 7 Optionen, davon 3 korrekt.
+Nutzer kreuzt 2 richtige + 0 falsche an (1 richtige vergessen):
+- 2 richtig angekreuzt = +2
+- 4 richtig nicht-angekreuzt (die falschen Optionen) = +4
+- 1 richtige nicht angekreuzt = +0
+- Ergebnis: 6/7 = **86 %**
+
+**Anzeige pro Frage nach dem Auswerten:**
+`„2/3 richtigen Antworten gefunden — 86 %"`
+(Zähler = richtig angekreuzte, Nenner = alle korrekten Optionen,
+Prozent = Formel oben)
+
+**Visuelles Feedback nach Auswertung:**
+- **Grün** = korrekte Option, wurde angekreuzt ✓
+- **Orange** = korrekte Option, wurde vergessen (nicht angekreuzt)
+- **Rot** = falsche Option, wurde fälschlicherweise angekreuzt ✗
+- **Neutral** = falsche Option, korrekt nicht angekreuzt (kein Highlighting)
+
+#### Einfluss auf den Gesamt-Score
+
+Partial Credit fließt in den Gesamt-Score ein — eine Multiple-Choice-Frage
+zählt nicht binär 0 oder 1, sondern mit ihrem berechneten Partial-Credit-Wert
+(z. B. 0.86 für 86 %):
+
+```
+Gesamt-Score = Summe aller Einzelpunkte / Anzahl Fragen gesamt
+```
+
+**Anzeige im Gesamt-Score:**
+- Primär als Prozentwert: z. B. „Score: 78 %"
+- Sekundär als Info: z. B. „(davon 12 vollständig richtig,
+  6 teilweise richtig, 5 falsch)"
+
+**In der Falsch-Liste der Endauswertung** erscheinen:
+- Fragen mit Partial Credit < 1.0 (also auch teilweise richtige)
+- Markierung welche Optionen angekreuzt waren vs. welche korrekt gewesen
+  wären, mit denselben Farben wie beim Feedback (grün/orange/rot)
+- Schwellenwert: Fragen mit Partial Credit = 1.0 (perfekt) erscheinen
+  **nicht** in der Falsch-Liste
 
 ### 5.4 Endauswertung
-- Gesamt-Score (z. B. „18 / 23 richtig", inkl. Prozentanzeige).
+- **Gesamt-Score** als Prozentwert (z. B. „Score: 78 %"), berechnet als
+  Summe aller Einzelpunkte (Single-Choice: 0 oder 1; Multiple-Choice:
+  Partial-Credit-Wert 0.0–1.0) geteilt durch Anzahl Fragen gesamt.
+- Sekundäre Anzeige: z. B. „12 vollständig richtig, 6 teilweise richtig,
+  5 falsch" — gibt einen schnellen Überblick über die Verteilung.
 - Aufschlüsselung nach Fach, falls mehrere Fächer getestet wurden.
 - Bei Fächern mit `abschnitt`-Feld (z. B. BAO): optionale Aufschlüsselung
-  auch nach Abschnitt (z. B. „§§ 1–4: 4/5 richtig").
-- Liste aller **falsch beantworteten Fragen** mit:
+  auch nach Abschnitt (z. B. „§§ 1–4: 4.5/5 Punkte").
+- **Falsch-Liste** (Partial Credit < 1.0): alle nicht perfekt beantworteten
+  Fragen mit:
   - der gestellten Frage
-  - bei Single-Choice: der eigenen (falschen) Antwort + der korrekten Antwort
-  - bei Multiple-Choice: welche Optionen angekreuzt waren (inkl. Markierung
-    welche davon falsch waren) + alle korrekten Optionen
+  - bei Single-Choice: eigene Antwort + korrekte Antwort
+  - bei Multiple-Choice: Optionen farblich markiert (grün/orange/rot wie
+    beim Feedback während der Frage) + erreichte Punktzahl dieser Frage
   - der Erklärung
-- Kein separater „Falsche nochmal üben"-Modus in v1 (Möglichkeit für
-  spätere Erweiterung, siehe Punkt 7).
+- Fragen mit Partial Credit = 1.0 erscheinen nicht in der Falsch-Liste.
 
 ### 5.5 Persistenz (localStorage)
 - Gespeichert werden soll:
@@ -516,16 +566,19 @@ den Vault zu.
       Flip-Mechanik und „Gewusst"/„Nicht gewusst"-Einschätzung
 - [x] Karteikarten-Verlauf wird separat vom MC-Quiz-Verlauf in localStorage
       gespeichert und bleibt nach Browser-Neustart erhalten
-- [x] Projekt ist als Git-Repository angelegt mit sinnvollem `.gitignore`
-- [x] `README.md` im Projektordner erklärt wie der lokale Dev-Server
+- [ ] Projekt ist als Git-Repository angelegt mit sinnvollem `.gitignore`
+- [ ] `README.md` im Projektordner erklärt wie der lokale Dev-Server
       gestartet wird und wie das Deployment auf GitHub Pages funktioniert
-- [x] Alle `fetch()`-Pfade sind relativ (`./data/quiz/...`), sodass das
+- [ ] Alle `fetch()`-Pfade sind relativ (`./data/quiz/...`), sodass das
       Tool lokal (localhost) und auf GitHub Pages/Netlify ohne Anpassung läuft
-- [x] Multiple-Choice-Fragen (`typ: "multiple"`) werden mit Checkboxen statt
+- [ ] Multiple-Choice-Fragen (`typ: "multiple"`) werden mit Checkboxen statt
       Radio-Buttons dargestellt, mit „Auswerten"-Button und dreifarbigem
-      Feedback (grün = richtig angekreuzt / rot = falsch angekreuzt /
-      orange = vergessene korrekte Option) nach der Auswertung
-- [x] Abwärtskompatibilität: Fragen ohne `typ`-Feld werden als `"single"`
+      Feedback (grün = richtig angekreuzt / orange = vergessen /
+      rot = falsch angekreuzt) nach der Auswertung
+- [ ] Partial Credit (Ansatz C): Gesamt-Score berücksichtigt anteilige Punkte
+      für Multiple-Choice-Fragen (0.0–1.0 pro Frage); Endauswertung zeigt
+      Prozentwert + Aufschlüsselung (vollständig richtig / teilweise / falsch)
+- [ ] Abwärtskompatibilität: Fragen ohne `typ`-Feld werden als `"single"`
       behandelt — alle bestehenden JSON-Files funktionieren ohne Änderung
 
 ---

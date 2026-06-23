@@ -1,173 +1,623 @@
 {
   "fach": "FinStrG",
+  "quelle": "FinStrG Übungsfragen Grundkurs (mit Lösungen)",
+  "hinweis": "Echte Kursübungsfragen. Fragen mit typ='multiple' erfordern das Ankreuzen aller richtigen Antworten.",
   "fragen": [
     {
-      "id": "finstrg-01",
-      "frage": "Welche Schuldform erfordert § 34 FinStrG (grob fahrlässige Abgabenverkürzung)?",
+      "id": "finstrg-ue-01",
+      "typ": "multiple",
+      "frage": "Welche Aussage zum Finanzstrafrecht trifft zu?",
       "optionen": [
-        "Vorsatz (Wissentlichkeit)",
-        "Leichte Fahrlässigkeit",
-        "Grobe Fahrlässigkeit",
-        "Bedingter Vorsatz reicht nicht aus"
+        "Finanzvergehen werden ausschließlich vom Zollamt Österreich verfolgt.",
+        "Finanzvergehen werden ausschließlich vom Amt für Betrugsbekämpfung verfolgt.",
+        "Finanzvergehen werden ausschließlich von Gerichten verfolgt.",
+        "Finanzvergehen werden von Finanzstrafbehörden und Gerichten verfolgt.",
+        "Finanzvergehen werden von Finanzstrafbehörden, Gerichten und Magistraten verfolgt.",
+        "Finanzvergehen werden ausschließlich von Finanzämtern verfolgt."
       ],
-      "korrekt": 2,
-      "erklaerung": "§ 34 FinStrG verlangt grobe Fahrlässigkeit als Schuldform. Das ist eine ungewöhnliche und auffallende Sorgfaltsverletzung, bei der der Eintritt des Erfolges als wahrscheinlich (nicht bloß möglich) vorhersehbar war."
+      "korrekt": [
+        3,
+        4
+      ],
+      "erklaerung": "Finanzvergehen werden je nach strafbestimmendem Wertbetrag und Deliktsart von den Finanzstrafbehörden (verwaltungsbehördliches Verfahren) oder von den Gerichten (gerichtliches Finanzstrafverfahren) verfolgt; in bestimmten Konstellationen sind auch Magistrate als Finanzstrafbehörden tätig."
     },
     {
-      "id": "finstrg-02",
-      "frage": "Welche Schuldform ist beim Grundtatbestand der Abgabenhinterziehung nach § 33 FinStrG erforderlich?",
+      "id": "finstrg-ue-02",
+      "typ": "multiple",
+      "frage": "Welche Voraussetzungen muss eine strafbefreiende Selbstanzeige erfüllen?",
       "optionen": [
-        "Grobe Fahrlässigkeit genügt",
-        "Vorsatz, wobei für die Verkürzung Wissentlichkeit erforderlich ist",
-        "Leichte Fahrlässigkeit genügt",
-        "Es ist keine bestimmte Schuldform erforderlich"
+        "Darlegung der Verfehlung",
+        "Offenlegung der maßgeblichen Umstände",
+        "Täternennung",
+        "Rechtzeitige Entrichtung der verkürzten Abgaben"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Die strafbefreiende Selbstanzeige (§ 29 FinStrG) verlangt die Darlegung der Verfehlung, die Offenlegung der bedeutsamen Umstände, die Täternennung (für wen die Selbstanzeige wirken soll) sowie die rechtzeitige tatsächliche Entrichtung der verkürzten Abgaben."
+    },
+    {
+      "id": "finstrg-ue-03",
+      "typ": "single",
+      "frage": "Wer eine Freiheitsstrafe nicht antreten möchte, der kann stattdessen auch gemeinnützige Leistungen erbringen",
+      "optionen": [
+        "Richtig",
+        "Falsch"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 33 FinStrG verlangt Vorsatz; hinsichtlich des Verkürzungserfolges ist nach hA Wissentlichkeit (dolus directus 2. Grades) erforderlich, hinsichtlich der Pflichtverletzung reicht bedingter Vorsatz."
+      "erklaerung": "Falsch — eine Ersatzfreiheitsstrafe wird bei Uneinbringlichkeit der Geldstrafe vollzogen; gemeinnützige Leistungen sind im Finanzstrafrecht nicht als Wahlmöglichkeit anstelle einer Freiheitsstrafe vorgesehen."
     },
     {
-      "id": "finstrg-03",
-      "frage": "Jemand gibt bewusst eine falsche Jahreserklärung ab, weil er finanzielle Schwierigkeiten hat. Es ist ihm bewusst, dass die Erklärung falsch ist, er findet sich aber damit ab. Welche Norm ist einschlägig?",
+      "id": "finstrg-ue-04",
+      "typ": "multiple",
+      "frage": "Welche Grundsätze gelten im Finanzstrafrecht?",
       "optionen": [
-        "§ 34 FinStrG – grob fahrlässige Abgabenverkürzung",
-        "§ 33 FinStrG – Abgabenhinterziehung",
-        "§ 49 FinStrG – Finanzordnungswidrigkeit",
-        "Keine Strafbarkeit, da nur Schwierigkeiten vorlagen"
+        "Nulla poena sine lege",
+        "In dubio pro reo",
+        "Nemo tenetur",
+        "Ne bis in idem",
+        "Vertragsfreiheit"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Im Finanzstrafrecht gelten die rechtsstaatlichen Grundsätze nulla poena sine lege (keine Strafe ohne Gesetz), in dubio pro reo (im Zweifel für den Angeklagten), nemo tenetur se ipsum accusare (niemand muss sich selbst belasten) und ne bis in idem (keine Doppelbestrafung). Vertragsfreiheit ist ein zivilrechtlicher Grundsatz, kein Strafrechtsprinzip."
+    },
+    {
+      "id": "finstrg-ue-05",
+      "typ": "single",
+      "frage": "Wann beginnt der Versuch eines Finanzvergehens?",
+      "optionen": [
+        "Bereits mit dem Tatentschluss",
+        "Mit einer Ausführungshandlung",
+        "Erst bei Eintritt des Erfolges",
+        "Mit Vorbereitungshandlungen"
       ],
       "korrekt": 1,
-      "erklaerung": "Das 'Sich-Abfinden' mit der Unrichtigkeit beschreibt bedingten Vorsatz (dolus eventualis), der für die Pflichtverletzung nach § 33 FinStrG ausreicht; in Kombination mit dem bewussten Abgeben einer falschen Erklärung liegt Abgabenhinterziehung vor."
+      "erklaerung": "Der Versuch beginnt mit einer Ausführungshandlung, also sobald der Täter die Tat tatsächlich auszuführen beginnt — der bloße Tatentschluss oder Vorbereitungshandlungen genügen noch nicht."
     },
     {
-      "id": "finstrg-04",
+      "id": "finstrg-ue-06",
+      "typ": "single",
+      "frage": "Wer muss im Finanzstrafverfahren die Schuld beweisen?",
+      "optionen": [
+        "Der Beschuldigte muss seine Unschuld beweisen",
+        "Die Finanzstrafbehörde",
+        "Der Steuerberater",
+        "Das Bundesfinanzgericht"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Es gilt der Amtswegigkeitsgrundsatz und die Unschuldsvermutung — die Finanzstrafbehörde muss die Schuld des Beschuldigten nachweisen, nicht der Beschuldigte seine Unschuld."
+    },
+    {
+      "id": "finstrg-ue-07",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zum Vorsatz sind richtig?",
+      "optionen": [
+        "Eventualvorsatz liegt vor, wenn der Täter die Tat ernstlich für möglich hält und sich damit abfindet.",
+        "Wissentlichkeit bedeutet, dass der Täter den Erfolg für gewiss hält.",
+        "Absichtlichkeit liegt vor, wenn es dem Täter gerade darauf ankommt.",
+        "Eventualvorsatz setzt voraus, dass der Täter den Erfolg für gewiss hält."
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Eventualvorsatz (bedingter Vorsatz) liegt vor, wenn der Täter die Verwirklichung ernstlich für möglich hält und sich damit abfindet; Wissentlichkeit bedeutet, dass er den Erfolg für gewiss hält; Absichtlichkeit liegt vor, wenn es dem Täter gerade darauf ankommt. Der Erfolg muss bei Eventualvorsatz gerade NICHT für gewiss gehalten werden."
+    },
+    {
+      "id": "finstrg-ue-08",
+      "typ": "single",
+      "frage": "Welche Aussage zur groben Fahrlässigkeit trifft zu?",
+      "optionen": [
+        "Grobe Fahrlässigkeit liegt bereits bei jedem Versehen vor.",
+        "Grobe Fahrlässigkeit setzt ein ungewöhnliches und auffallendes Außerachtlassen der Sorgfalt voraus.",
+        "Grobe Fahrlässigkeit ist mit Vorsatz gleichzusetzen.",
+        "Grobe Fahrlässigkeit ist im Finanzstrafrecht bedeutungslos."
+      ],
+      "korrekt": 1,
+      "erklaerung": "Grobe Fahrlässigkeit setzt ein ungewöhnliches und auffallendes Außerachtlassen der gebotenen Sorgfalt voraus — sie liegt nicht bei jedem leichten Versehen vor und ist auch nicht mit Vorsatz gleichzusetzen."
+    },
+    {
+      "id": "finstrg-ue-09",
+      "typ": "multiple",
+      "frage": "Wann beginnt die Verfolgungsverjährung?",
+      "optionen": [
+        "Mit Abschluss der mit Strafe bedrohten Tätigkeit",
+        "Mit der Entdeckung des Finanzvergehens",
+        "Mit dem Eintritt des Taterfolges, wenn zum Tatbestand ein Erfolg gehört",
+        "Mit der Einleitung des Finanzstrafverfahrens"
+      ],
+      "korrekt": [
+        0,
+        2
+      ],
+      "erklaerung": "Die Verfolgungsverjährung beginnt mit Abschluss der mit Strafe bedrohten Tätigkeit; gehört zum Tatbestand ein Erfolg (Erfolgsdelikt), beginnt sie erst mit dessen Eintritt. Die Entdeckung oder Verfahrenseinleitung ist nicht maßgeblich."
+    },
+    {
+      "id": "finstrg-ue-10",
+      "typ": "multiple",
       "frage": "Welche Täterschaftsformen kennt das FinStrG?",
       "optionen": [
-        "Nur unmittelbare Täterschaft",
-        "Unmittelbarer Täter, Bestimmungstäter und Beitragstäter",
-        "Nur Bestimmungstäter und Beitragstäter",
-        "Haupttäter und Mittäter ohne weitere Unterscheidung"
+        "Unmittelbarer Täter",
+        "Bestimmungstäter",
+        "Beitragstäter"
       ],
-      "korrekt": 1,
-      "erklaerung": "§ 11 FinStrG unterscheidet drei Täterschaftsformen: unmittelbarer Täter (führt die Tat selbst aus), Bestimmungstäter (veranlasst einen anderen zur Tat) und Beitragstäter (leistet sonst einen Beitrag zur Tatausführung)."
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Das FinStrG kennt drei Täterschaftsformen: den unmittelbaren Täter (führt die Tat selbst aus), den Bestimmungstäter (bestimmt einen anderen zur Tat) und den Beitragstäter (leistet einen sonstigen Tatbeitrag)."
     },
     {
-      "id": "finstrg-05",
-      "frage": "Welche Voraussetzungen müssen für eine wirksame Selbstanzeige nach § 29 FinStrG u.a. erfüllt sein?",
+      "id": "finstrg-ue-11",
+      "typ": "single",
+      "frage": "Ein Unternehmer überredet seinen Buchhalter, Umsätze bewusst nicht zu erfassen. Welche Beteiligungsform liegt vor?",
       "optionen": [
-        "Darlegung der Verfehlung, Offenlegung der bedeutsamen Umstände und fristgerechte Entrichtung der verkürzten Beträge",
-        "Es genügt die bloße mündliche Ankündigung gegenüber dem Sachbearbeiter",
-        "Die Selbstanzeige muss erst nach Beginn einer Betriebsprüfung erfolgen",
-        "Eine Selbstanzeige ist nur bei Finanzvergehen mit Vorsatz möglich, nicht bei Fahrlässigkeit"
+        "Unmittelbarer Täter",
+        "Beitragstäter",
+        "Bestimmungstäter",
+        "Zeuge"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Der Unternehmer führt die Tat nicht selbst aus, sondern bestimmt den Buchhalter dazu, Umsätze nicht zu erfassen — das ist Bestimmungstäterschaft."
+    },
+    {
+      "id": "finstrg-ue-12",
+      "typ": "single",
+      "frage": "Ein Unternehmer vertippt sich einmalig bei einer UVA und meldet dadurch einen zu niedrigen Betrag.",
+      "optionen": [
+        "Leichte Fahrlässigkeit",
+        "Grobe Fahrlässigkeit",
+        "Eventualvorsatz",
+        "Wissentlichkeit"
       ],
       "korrekt": 0,
-      "erklaerung": "Wesentliche Voraussetzungen sind u.a. Darlegung der Verfehlung, Offenlegung aller bedeutsamen Umstände, Täternennung, keine Sperrgründe (z.B. bereits erfolgte Tatentdeckung oder laufende Prüfungshandlungen) und die fristgerechte Entrichtung der verkürzten Beträge."
+      "erklaerung": "Ein einmaliger Tippfehler ohne auffallende Sorgfaltswidrigkeit ist leichte Fahrlässigkeit — weder die qualifizierte Stufe der groben Fahrlässigkeit noch eine Vorsatzform liegt vor."
     },
     {
-      "id": "finstrg-06",
-      "frage": "Wie hoch ist die Strafdrohung bei Finanzordnungswidrigkeiten nach §§ 49–52 FinStrG grundsätzlich ausgestaltet?",
+      "id": "finstrg-ue-13",
+      "typ": "single",
+      "frage": "Welche Aussage zum Versuch ist richtig?",
       "optionen": [
-        "Ausschließlich Freiheitsstrafe",
-        "Ausschließlich Geldstrafe bis zu einem im Gesetz festgelegten Höchstbetrag bzw. Prozentsatz des Verkürzungsbetrages",
-        "Es ist überhaupt keine Sanktion vorgesehen, nur eine Ermahnung",
-        "Lebenslange Geldstrafe ohne Obergrenze"
+        "Versuch ist nur bei fahrlässigen Finanzvergehen strafbar.",
+        "Versuch vorsätzlicher Finanzvergehen ist strafbar.",
+        "Der Versuch ist stets milder zu bestrafen als die Vollendung.",
+        "Der Versuch ist stets straflos."
       ],
       "korrekt": 1,
-      "erklaerung": "Finanzordnungswidrigkeiten werden grundsätzlich mit Geldstrafe geahndet, deren Höhe sich je nach Tatbestand (z.B. § 49 FinStrG) an einem Höchstbetrag oder einem Prozentsatz des nicht entrichteten Betrages orientiert."
+      "erklaerung": "Der Versuch eines vorsätzlichen Finanzvergehens ist strafbar (§ 13 FinStrG); fahrlässige Finanzvergehen sind im Versuchsstadium nicht strafbar. Der Versuch ist nicht generell straflos und nicht zwingend milder zu bestrafen."
     },
     {
-      "id": "finstrg-07",
-      "frage": "Welche Arten von Strafen kann das FinStrG für Finanzvergehen vorsehen?",
+      "id": "finstrg-ue-14",
+      "typ": "single",
+      "frage": "Ein Verband haftet immer dann, wenn der Geschäftsführer eines Verbandes verurteilt wurde",
       "optionen": [
-        "Nur Geldstrafe",
-        "Geldstrafe und (bei gerichtlich strafbaren Delikten) Freiheitsstrafe",
-        "Nur Freiheitsstrafe",
-        "Nur Verwarnung ohne weitere Konsequenz"
-      ],
-      "korrekt": 1,
-      "erklaerung": "Das FinStrG sieht primär Geldstrafen vor; bei besonders schweren, gerichtlich zu ahndenden Finanzvergehen (z.B. Abgabenbetrug, bandenmäßige Begehung) ist auch eine Freiheitsstrafe möglich."
-    },
-    {
-      "id": "finstrg-08",
-      "frage": "Was zählt zu den Aufgaben der Finanzpolizei?",
-      "optionen": [
-        "Ausschließlich die Erlassung von Abgabenbescheiden",
-        "Kontroll- und Überwachungstätigkeiten zur Bekämpfung von Sozial- und Steuerbetrug (z.B. Kontrollen vor Ort, Schwerpunktaktionen)",
-        "Nur die Vertretung der Finanzverwaltung vor Gericht",
-        "Ausschließlich die interne Revision des Finanzamtes"
-      ],
-      "korrekt": 1,
-      "erklaerung": "Die Finanzpolizei führt u.a. Kontrollen vor Ort durch (z.B. Baustellen-, Lokal- oder Marktkontrollen), bekämpft Sozialbetrug und Schwarzarbeit und unterstützt bei der Aufdeckung von Finanzvergehen."
-    },
-    {
-      "id": "finstrg-09",
-      "frage": "Wann liegt bereits eine Verfolgungshandlung im Sinne des FinStrG vor?",
-      "optionen": [
-        "Erst mit der rechtskräftigen Verurteilung",
-        "Bereits bei nach außen erkennbaren behördlichen Schritten wie Einleitung des Strafverfahrens, Beschuldigtenladung oder einer Prüfung nach § 99 FinStrG",
-        "Erst wenn der Abgabepflichtige eine Selbstanzeige erstattet",
-        "Eine bloße Buchungsmitteilung kann niemals eine Verfolgungshandlung darstellen"
-      ],
-      "korrekt": 1,
-      "erklaerung": "Verfolgungshandlungen sind nach außen erkennbare Amtshandlungen einer zuständigen Behörde gegen eine bestimmte Person wegen eines konkreten Tatverdachts, z.B. Einleitung des Strafverfahrens, Beschuldigtenladung oder eine Prüfung gem. § 99 FinStrG. Auch eine entsprechend gestaltete Buchungsmitteilung kann je nach Fall darunterfallen."
-    },
-    {
-      "id": "finstrg-10",
-      "frage": "Welche Befugnisse stehen der Finanzstrafbehörde im Ermittlungsverfahren typischerweise zu?",
-      "optionen": [
-        "Beschlagnahme und Hausdurchsuchung (unter den gesetzlichen Voraussetzungen)",
-        "Folter zur Beweismittelbeschaffung",
-        "Verhängung von Schubhaft durch die Finanzstrafbehörde",
-        "Unbegrenzte Überwachung ohne jede gesetzliche Grundlage"
+        "Falsch",
+        "Richtig"
       ],
       "korrekt": 0,
-      "erklaerung": "Der Finanzstrafbehörde stehen u.a. Beschlagnahme und (unter gerichtlicher Mitwirkung) Hausdurchsuchung als Zwangsmittel zur Verfügung. Folter und Schubhaft sind keine Befugnisse der Finanzstrafbehörde."
+      "erklaerung": "Falsch — die Verbandsverantwortlichkeit setzt eigene Voraussetzungen nach dem VbVG voraus (Tat eines Entscheidungsträgers oder Mitarbeiters zugunsten des Verbandes bzw. unter Verletzung von Verbandspflichten); die bloße Verurteilung des Geschäftsführers begründet nicht automatisch eine Verbandshaftung."
     },
     {
-      "id": "finstrg-11",
-      "frage": "Ist § 39 FinStrG (Abgabenbetrug) ausschließlich gerichtlich zu ahnden?",
+      "id": "finstrg-ue-15",
+      "typ": "single",
+      "frage": "Ein Unternehmer erstellt bewusst Scheinrechnungen, um Vorsteuern zu erhalten.",
       "optionen": [
-        "Ja, § 39 FinStrG fällt in die gerichtliche Zuständigkeit",
-        "Nein, ausschließlich die Finanzstrafbehörde ist zuständig",
-        "Es hängt vom strafbestimmenden Wertbetrag ab, aber das Gericht ist nie zuständig",
-        "Die Zuständigkeit liegt immer beim Bundesfinanzgericht"
+        "Leichte Fahrlässigkeit",
+        "Grobe Fahrlässigkeit",
+        "Wissentlichkeit",
+        "Absichtlichkeit"
+      ],
+      "korrekt": 3,
+      "erklaerung": "Wer bewusst Scheinrechnungen erstellt, um Vorsteuern zu erschleichen, handelt mit Absichtlichkeit — es kommt ihm gerade auf die Abgabenverkürzung an."
+    },
+    {
+      "id": "finstrg-ue-16",
+      "typ": "single",
+      "frage": "Welches Delikt ist eine Abgabenhinterziehung nach § 33 Abs. 1 FinStrG?",
+      "optionen": [
+        "Vorsätzliche Abgabenverkürzung unter Verletzung einer Offenlegungs- oder Wahrheitspflicht",
+        "Grob fahrlässige Abgabenverkürzung",
+        "Nichtentrichtung einer Selbstbemessungsabgabe",
+        "Abgabenhehlerei"
       ],
       "korrekt": 0,
-      "erklaerung": "Der Abgabenbetrug nach § 39 FinStrG ist ein gerichtlich strafbares Finanzvergehen und fällt damit stets in die Zuständigkeit des Gerichts, unabhängig vom Wertbetrag."
+      "erklaerung": "Abgabenhinterziehung nach § 33 Abs. 1 FinStrG ist die vorsätzliche Bewirkung einer Abgabenverkürzung unter Verletzung einer abgabenrechtlichen Anzeige-, Offenlegungs- oder Wahrheitspflicht. Grobe Fahrlässigkeit, die Nichtentrichtung einer Selbstbemessungsabgabe und die Abgabenhehlerei sind eigene Tatbestände."
     },
     {
-      "id": "finstrg-12",
-      "frage": "Welche Rechte hat ein Beschuldigter im Finanzstrafverfahren?",
+      "id": "finstrg-ue-17",
+      "typ": "single",
+      "frage": "Welche Schuldform verlangt § 33 Abs. 1 FinStrG hinsichtlich der Abgabenverkürzung?",
       "optionen": [
-        "Er muss in jedem Fall aussagen",
-        "Er hat u.a. das Recht, nicht auszusagen, sowie das Recht auf einen Verteidiger und ggf. einen Dolmetscher",
-        "Er hat kein Recht auf Beiziehung eines Verteidigers",
-        "Ein Dolmetscher steht ihm in keinem Fall zu"
+        "Leichte Fahrlässigkeit",
+        "Grobe Fahrlässigkeit",
+        "Zumindest Eventualvorsatz",
+        "Wissentlichkeit"
       ],
-      "korrekt": 1,
-      "erklaerung": "Dem Beschuldigten stehen grundlegende Verfahrensrechte zu: das Recht, die Aussage zu verweigern, das Recht auf Beiziehung eines Verteidigers sowie bei Bedarf das Recht auf einen Dolmetscher."
+      "korrekt": 2,
+      "erklaerung": "§ 33 Abs. 1 FinStrG verlangt hinsichtlich der Abgabenverkürzung zumindest Eventualvorsatz (bedingten Vorsatz) — Fahrlässigkeit genügt nicht, Wissentlichkeit ist nicht erforderlich."
     },
     {
-      "id": "finstrg-13",
-      "frage": "Was ist die Aufgabe der Geschäftsstelle für Finanzstrafsachen?",
+      "id": "finstrg-ue-18",
+      "typ": "single",
+      "frage": "Wer entscheidet über Beschwerden gegen Erkenntnisse der Finanzstrafbehörde?",
       "optionen": [
-        "Sie erstellt ausschließlich die Lohnverrechnung der Finanzämter",
-        "Sie unterstützt die Finanzstrafbehörde organisatorisch und administrativ bei der Abwicklung von Finanzstrafverfahren",
-        "Sie ist für die Veranlagung der Einkommensteuer zuständig",
-        "Sie vertritt ausschließlich die Republik Österreich bei Zivilprozessen"
+        "Verwaltungsgerichtshof",
+        "Oberlandesgericht",
+        "Bundesfinanzgericht",
+        "Bundesministerium für Finanzen"
       ],
-      "korrekt": 1,
-      "erklaerung": "Die Geschäftsstelle für Finanzstrafsachen übernimmt organisatorische und administrative Unterstützungsaufgaben im Zusammenhang mit der Abwicklung von Finanzstrafverfahren bei der zuständigen Finanzstrafbehörde."
+      "korrekt": 2,
+      "erklaerung": "Über Beschwerden gegen Erkenntnisse der Finanzstrafbehörde entscheidet das Bundesfinanzgericht (BFG)."
     },
     {
-      "id": "finstrg-14",
-      "frage": "Welche Qualifikation sieht das FinStrG für bandenmäßige Begehung bzw. Abgabenbetrug vor?",
+      "id": "finstrg-ue-19",
+      "typ": "single",
+      "frage": "Welche Aussage zur Beschuldigtenstellung trifft zu?",
       "optionen": [
-        "Es gibt keine Strafverschärfung, der Strafrahmen bleibt immer gleich",
-        "§§ 38a und 39 FinStrG sehen strafverschärfende Qualifikationen für bandenmäßige Begehung bzw. Abgabenbetrug vor",
-        "Bandenmäßige Begehung führt automatisch zur Straffreiheit",
-        "Diese Qualifikationen betreffen ausschließlich Finanzordnungswidrigkeiten"
+        "Jeder Verdächtige ist automatisch Beschuldigter.",
+        "Die Beschuldigtenstellung entsteht erst mit rechtskräftigem Straferkenntnis.",
+        "Die Beschuldigtenstellung beginnt mit der Verständigung über die Einleitung.",
+        "Die Beschuldigtenstellung beginnt mit der Hausdurchsuchung."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Die Beschuldigtenstellung beginnt mit der Verständigung der Person über die Einleitung des Finanzstrafverfahrens — nicht bereits mit bloßem Verdacht und nicht erst mit dem Straferkenntnis."
+    },
+    {
+      "id": "finstrg-ue-20",
+      "typ": "single",
+      "frage": "Welche Schuldform verlangt § 33 Abs. 2 lit. a FinStrG hinsichtlich der Umsatzsteuerverkürzung?",
+      "optionen": [
+        "Leichte Fahrlässigkeit",
+        "Grobe Fahrlässigkeit",
+        "Eventualvorsatz",
+        "Wissentlichkeit"
+      ],
+      "korrekt": 3,
+      "erklaerung": "§ 33 Abs. 2 lit. a FinStrG (Umsatzsteuerverkürzung durch Verletzung der Voranmeldungspflicht) verlangt hinsichtlich der Verkürzung Wissentlichkeit."
+    },
+    {
+      "id": "finstrg-ue-21",
+      "typ": "single",
+      "frage": "Welche Aussage zur absoluten Verjährung ist richtig?",
+      "optionen": [
+        "Für alle Finanzvergehen beträgt die absolute Verjährungsfrist 10 Jahre.",
+        "Die absolute Verjährung gilt nur für Finanzordnungswidrigkeiten.",
+        "Bei gerichtlich zu ahndenden Finanzvergehen gibt es keine absolute Verjährung.",
+        "Die absolute Verjährung beträgt immer das Doppelte der regulären Verjährungsfrist."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Bei gerichtlich zu ahndenden Finanzvergehen gibt es keine absolute Verjährung — sie können also auch nach sehr langer Zeit noch verfolgt werden. Eine pauschale 10-Jahres-Frist für alle Finanzvergehen besteht nicht."
+    },
+    {
+      "id": "finstrg-ue-22",
+      "typ": "single",
+      "frage": "Welche Aussage zur Verbandsverantwortlichkeit ist richtig?",
+      "optionen": [
+        "Verbände können nur haften, wenn die natürliche Person nicht bestraft wird.",
+        "Die Verbandshaftung tritt neben die Verantwortlichkeit der natürlichen Person.",
+        "Einzelunternehmer sind Verbände im Sinn des VbVG.",
+        "Die Verbandsverantwortlichkeit gilt nur für Kapitalgesellschaften."
       ],
       "korrekt": 1,
-      "erklaerung": "§ 38a FinStrG regelt die Qualifikation der bandenmäßigen Begehung, § 39 FinStrG den Abgabenbetrug – beide sehen im Vergleich zum Grunddelikt verschärfte Strafdrohungen vor."
+      "erklaerung": "Die Verbandsverantwortlichkeit tritt neben die Verantwortlichkeit der natürlichen Person — beide können nebeneinander zur Verantwortung gezogen werden. Einzelunternehmer sind keine Verbände iSd VbVG, und die Verbandshaftung ist nicht auf Kapitalgesellschaften beschränkt."
+    },
+    {
+      "id": "finstrg-ue-23",
+      "typ": "single",
+      "frage": "Wann darf jemand wegen einer Handlung bestraft werden?",
+      "optionen": [
+        "Wenn die Behörde die Handlung als unfair empfindet.",
+        "Wenn die Handlung zum Tatzeitpunkt gesetzlich strafbar war.",
+        "Wenn die Handlung später strafbar wird.",
+        "Wenn eine Behörde dies anordnet."
+      ],
+      "korrekt": 1,
+      "erklaerung": "Nach dem Grundsatz nulla poena sine lege darf nur bestraft werden, wer eine zum Tatzeitpunkt bereits gesetzlich mit Strafe bedrohte Handlung gesetzt hat — eine spätere Strafbarkeit wirkt nicht zurück."
+    },
+    {
+      "id": "finstrg-ue-24",
+      "typ": "multiple",
+      "frage": "Welche Delikte zählen zu den Finanzordnungswidrigkeiten?",
+      "optionen": [
+        "§ 49 FinStrG",
+        "§ 51 FinStrG",
+        "§ 51a FinStrG",
+        "§ 33 FinStrG"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Zu den Finanzordnungswidrigkeiten zählen u.a. § 49 (Nichtentrichtung/verspätete Entrichtung von Selbstbemessungsabgaben), § 51 (Verletzung von Pflichten) und § 51a FinStrG. § 33 (Abgabenhinterziehung) ist hingegen ein Finanzvergehen, keine Finanzordnungswidrigkeit."
+    },
+    {
+      "id": "finstrg-ue-25",
+      "typ": "single",
+      "frage": "Wann ist § 49 Abs. 1 lit. a FinStrG erfüllt?",
+      "optionen": [
+        "Sobald die Abgabe am Fälligkeitstag nicht entrichtet wird.",
+        "Wenn die Abgabe mehr als fünf Tage verspätet entrichtet wird und die Höhe nicht bekanntgegeben wurde.",
+        "Bei jeder verspäteten Steuererklärung.",
+        "Nur bei vorsätzlicher Abgabenhinterziehung."
+      ],
+      "korrekt": 1,
+      "erklaerung": "§ 49 Abs. 1 lit. a FinStrG ist erfüllt, wenn Selbstbemessungsabgaben nicht spätestens am fünften Tag nach Fälligkeit entrichtet werden und der Behörde die Höhe des geschuldeten Betrags nicht bekanntgegeben wurde."
+    },
+    {
+      "id": "finstrg-ue-26",
+      "typ": "multiple",
+      "frage": "Welche Aussagen sind korrekt?",
+      "optionen": [
+        "Der Abgabenhinterziehung nach § 33 Abs. 2a FinStrG macht sich schuldig, wer zumindest wissentlich die Verpflichtung nach § 21 UStG verletzt sowie zumindest wissentlich eine Verkürzung von Umsatzsteuer bewirkt.",
+        "Der Abgabenhinterziehung nach § 33 Abs. 2a FinStrG macht sich schuldig, wer zumindest grob fahrlässig die Verpflichtung nach § 21 UStG verletzt sowie zumindest wissentlich eine Verkürzung von Umsatzsteuer bewirkt.",
+        "Der Abgabenhinterziehung nach § 33 Abs. 2a FinStrG macht sich schuldig, wer zumindest bedingt vorsätzlich die Verpflichtung nach § 21 UStG verletzt sowie zumindest absichtlich eine Verkürzung von Umsatzsteuer bewirkt.",
+        "Der Abgabenhinterziehung nach § 33 Abs. 2a FinStrG macht sich schuldig, wer zumindest bedingt vorsätzlich die Verpflichtung nach § 21 UStG verletzt sowie zumindest wissentlich eine Verkürzung von Umsatzsteuer bewirkt.",
+        "Der Abgabenhinterziehung nach § 33 Abs. 2a FinStrG macht sich schuldig, wer zumindest wissentlich die Verpflichtung nach § 21 UStG verletzt sowie zumindest bedingt vorsätzlich eine Verkürzung von Umsatzsteuer bewirkt"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Bei § 33 Abs. 2a FinStrG (USt-Verkürzung über die Voranmeldung) müssen die geforderten Schuldformen für die Pflichtverletzung und die Verkürzung erfüllt sein; die wissentliche Verkürzung kann mit verschiedenen (auch höheren) Vorsatzformen bei der Pflichtverletzung kombiniert sein, weshalb mehrere der genannten Kombinationen den Tatbestand erfüllen."
+    },
+    {
+      "id": "finstrg-ue-27",
+      "typ": "single",
+      "frage": "Wie lange beträgt die Verfolgungsverjährung für die meisten Finanzvergehen?",
+      "optionen": [
+        "1 Jahr",
+        "3 Jahre",
+        "5 Jahre",
+        "10 Jahre"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Die Verfolgungsverjährung beträgt für die meisten Finanzvergehen fünf Jahre (für bestimmte Delikte gelten abweichende Fristen)."
+    },
+    {
+      "id": "finstrg-ue-28",
+      "typ": "single",
+      "frage": "Welche Zeit wird gemäß § 31 Abs. 4 FinStrG nicht in die Verjährungsfrist eingerechnet?",
+      "optionen": [
+        "Die Zeit zwischen Tatbegehung und Tatentdeckung.",
+        "Die Zeit, während gegen den Täter wegen derselben Tat ein Finanzstrafverfahren geführt wird.",
+        "Die Zeit zwischen Einleitung und Abschluss einer Außenprüfung.",
+        "Die Zeit bis zur Entrichtung der verkürzten Abgabe."
+      ],
+      "korrekt": 1,
+      "erklaerung": "Nach § 31 Abs. 4 FinStrG wird jene Zeit nicht in die Verjährungsfrist eingerechnet, während der wegen derselben Tat gegen den Täter ein Finanzstrafverfahren geführt wird (Fortlaufhemmung)."
+    },
+    {
+      "id": "finstrg-ue-29",
+      "typ": "multiple",
+      "frage": "Wer ist zur Erhebung einer Beschwerde berechtigt?",
+      "optionen": [
+        "Beschuldigter",
+        "Amtsbeauftragter bei Spruchsenatserkenntnissen",
+        "Betroffene Nebenbeteiligte"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Zur Beschwerde berechtigt sind u.a. der Beschuldigte, der Amtsbeauftragte (bei Erkenntnissen des Spruchsenats) sowie betroffene Nebenbeteiligte."
+    },
+    {
+      "id": "finstrg-ue-30",
+      "typ": "single",
+      "frage": "Wer kann Beschuldigter im Finanzstrafverfahren sein?",
+      "optionen": [
+        "Nur natürliche Personen",
+        "Nur juristische Personen",
+        "Nur Unternehmer",
+        "Nur Geschäftsführer"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Beschuldigter im Finanzstrafverfahren kann nur eine natürliche Person sein; Verbände werden im eigenen Verfahren nach dem VbVG belangt, sind aber nicht 'Beschuldigte' im klassischen Sinn."
+    },
+    {
+      "id": "finstrg-ue-31",
+      "typ": "multiple",
+      "frage": "Welche Verbände können nach dem VbVG verantwortlich sein?",
+      "optionen": [
+        "GmbH",
+        "AG",
+        "Verein",
+        "Einzelunternehmen"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Nach dem VbVG können Verbände wie GmbH, AG oder Verein verantwortlich sein; das Einzelunternehmen ist kein Verband im Sinne des VbVG."
+    },
+    {
+      "id": "finstrg-ue-32",
+      "typ": "single",
+      "frage": "Welche Zwangsmaßnahme setzt einen Verdacht eines vorsätzlichen Finanzvergehens voraus?",
+      "optionen": [
+        "Festnahme",
+        "Nachsicht",
+        "Selbstanzeige",
+        "Zahlungserleichterung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Die Festnahme als Zwangsmaßnahme setzt den Verdacht eines vorsätzlichen Finanzvergehens voraus. Nachsicht, Selbstanzeige und Zahlungserleichterung sind keine Zwangsmaßnahmen."
+    },
+    {
+      "id": "finstrg-ue-33",
+      "typ": "single",
+      "frage": "Welche Aussage zum Abgabenbetrug (§ 39 FinStrG) trifft zu?",
+      "optionen": [
+        "Er setzt stets einen strafbestimmenden Wertbetrag von über € 500.000 voraus.",
+        "Er liegt nur bei Schmuggel vor.",
+        "Die Verwendung gefälschter Rechnungen kann einen Abgabenbetrug begründen.",
+        "Es handelt sich lediglich um eine Finanzordnungswidrigkeit."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Der Abgabenbetrug (§ 39 FinStrG) ist eine Qualifikation der Abgabenhinterziehung; u.a. die Verwendung gefälschter oder verfälschter Urkunden/Beweismittel (z.B. Scheinrechnungen) kann ihn begründen. Er ist keine bloße Finanzordnungswidrigkeit und nicht auf Schmuggel beschränkt."
+    },
+    {
+      "id": "finstrg-ue-34",
+      "typ": "multiple",
+      "frage": "Welche Umstände schließen die strafbefreiende Wirkung einer Selbstanzeige aus?",
+      "optionen": [
+        "Bereits gesetzte Verfolgungshandlungen",
+        "Bereits entdeckte Tat, wenn der Anzeiger davon wusste"
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "Die strafbefreiende Wirkung der Selbstanzeige ist u.a. ausgeschlossen, wenn bereits Verfolgungshandlungen gesetzt wurden oder die Tat bereits entdeckt war und der Anzeiger dies wusste."
+    },
+    {
+      "id": "finstrg-ue-35",
+      "typ": "single",
+      "frage": "Wann ist bei vorsätzlichen Finanzvergehen eine Selbstanzeige anlässlich einer Prüfung noch strafbefreiend?",
+      "optionen": [
+        "Jederzeit während der Prüfung",
+        "Nur vor Prüfungsbeginn",
+        "Zu Beginn der Amtshandlung",
+        "Erst nach Abschluss der Prüfung"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Bei vorsätzlichen Finanzvergehen ist eine Selbstanzeige anlässlich einer Prüfung (z.B. Außenprüfung) nur dann noch strafbefreiend, wenn sie zu Beginn der Amtshandlung erstattet wird."
+    },
+    {
+      "id": "finstrg-ue-36",
+      "typ": "single",
+      "frage": "Welche Aussage zum vereinfachten Verfahren ist richtig?",
+      "optionen": [
+        "Es endet durch Straferkenntnis.",
+        "Es endet durch Strafverfügung.",
+        "Es setzt zwingend eine mündliche Verhandlung voraus.",
+        "Es ist nur bei gerichtlichen Finanzvergehen zulässig."
+      ],
+      "korrekt": 1,
+      "erklaerung": "Das vereinfachte Verfahren endet durch Strafverfügung (nicht durch Straferkenntnis) und setzt keine mündliche Verhandlung voraus."
+    },
+    {
+      "id": "finstrg-ue-37",
+      "typ": "single",
+      "frage": "In welchem Fall ist eine Strafverfügung ausgeschlossen?",
+      "optionen": [
+        "Spruchsenatszuständigkeit",
+        "Ausreichend geklärter Sachverhalt",
+        "Gewährtes Parteiengehör",
+        "Geständnis des Beschuldigten"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Eine Strafverfügung ist ausgeschlossen, wenn Spruchsenatszuständigkeit gegeben ist — in diesen Fällen ist das ordentliche Verfahren mit Spruchsenat vorgesehen."
+    },
+    {
+      "id": "finstrg-ue-38",
+      "typ": "multiple",
+      "frage": "Welche Person ist grundsätzlich nicht Partei des Finanzstrafverfahrens und daher nicht beschwerdeberechtigt?",
+      "optionen": [
+        "Beschuldigter",
+        "Nebenbeteiligter",
+        "Zeuge",
+        "Haftungsbeteiligter"
+      ],
+      "korrekt": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Ein Zeuge ist nicht Partei des Finanzstrafverfahrens und daher nicht beschwerdeberechtigt — im Unterschied zum Beschuldigten, zu Nebenbeteiligten und zu Haftungsbeteiligten."
+    },
+    {
+      "id": "finstrg-ue-39",
+      "typ": "single",
+      "frage": "Gegen einen Beschuldigten wird wegen Abgabenhinterziehung ein Finanzstrafverfahren geführt. Das Verfahren dauert drei Jahre. Welche Auswirkung haben diese drei Jahre auf die Verjährung?",
+      "optionen": [
+        "Die Verjährungsfrist läuft unverändert weiter.",
+        "Die Verjährungsfrist beginnt neu zu laufen.",
+        "Die drei Jahre werden in die Verjährungsfrist nicht eingerechnet.",
+        "Die Verjährungsfrist verkürzt sich um drei Jahre."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Nach § 31 Abs. 4 FinStrG werden die drei Jahre, während derer das Finanzstrafverfahren wegen derselben Tat geführt wird, nicht in die Verjährungsfrist eingerechnet (Fortlaufhemmung)."
+    },
+    {
+      "id": "finstrg-ue-40",
+      "typ": "single",
+      "frage": "Innerhalb welcher Frist ist eine Beschwerde grundsätzlich einzubringen?",
+      "optionen": [
+        "14 Tage",
+        "4 Wochen",
+        "1 Monat",
+        "3 Monate"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Die Beschwerde ist grundsätzlich innerhalb eines Monats einzubringen."
+    },
+    {
+      "id": "finstrg-ue-41",
+      "typ": "single",
+      "frage": "Welche Aussage zum besonders vereinfachten Verfahren ist richtig?",
+      "optionen": [
+        "Das Untersuchungsverfahren kann entfallen.",
+        "Es muss jedenfalls eine mündliche Verhandlung stattfinden.",
+        "Es darf niemals auf Ergebnisse des Abgabenverfahrens zurückgegriffen werden.",
+        "Es setzt zwingend einen Verteidiger voraus."
+      ],
+      "korrekt": 0,
+      "erklaerung": "Beim besonders vereinfachten Verfahren kann das Untersuchungsverfahren entfallen; eine mündliche Verhandlung ist nicht zwingend, und auf Ergebnisse des Abgabenverfahrens darf zurückgegriffen werden."
+    },
+    {
+      "id": "finstrg-ue-42",
+      "typ": "single",
+      "frage": "Welche Aussage zum Verfall ist richtig?",
+      "optionen": [
+        "Der Verfall betrifft ausschließlich Geldbeträge.",
+        "Durch den Verfall werden bestimmte Tatgegenstände eingezogen.",
+        "Verfall kann nur von Gerichten ausgesprochen werden."
+      ],
+      "korrekt": 1,
+      "erklaerung": "Durch den Verfall werden bestimmte Tatgegenstände (z.B. Schmuggelware, Tatwerkzeuge) eingezogen — der Verfall ist nicht auf Geldbeträge beschränkt und kann auch im verwaltungsbehördlichen Verfahren ausgesprochen werden."
+    },
+    {
+      "id": "finstrg-ue-43",
+      "typ": "single",
+      "frage": "Welche Aussage zur Freiheitsstrafe im verwaltungsbehördlichen Finanzstrafverfahren ist richtig?",
+      "optionen": [
+        "Sie ist ausgeschlossen.",
+        "Sie darf durch den Spruchsenat höchstens drei Monate betragen.",
+        "Sie darf höchstens ein Jahr betragen.",
+        "Sie darf nur durch das Bundesfinanzgericht verhängt werden."
+      ],
+      "korrekt": 1,
+      "erklaerung": "Im verwaltungsbehördlichen Finanzstrafverfahren darf eine vom Spruchsenat verhängte Freiheitsstrafe höchstens drei Monate betragen; sie ist also nicht generell ausgeschlossen, aber eng begrenzt."
+    },
+    {
+      "id": "finstrg-ue-44",
+      "typ": "single",
+      "frage": "Welche Aussage zur Prüfung nach § 99 Abs. 2 FinStrG ist richtig?",
+      "optionen": [
+        "Sie darf erst nach Einleitung eines Finanzstrafverfahrens durchgeführt werden.",
+        "Sie wird nach den Bestimmungen der StPO durchgeführt.",
+        "Sie dient der Aufklärung finanzstrafrechtlich relevanter Sachverhalte und kann bereits vor Einleitung eines Finanzstrafverfahrens durchgeführt werden.",
+        "Sie darf nur durch das Bundesfinanzgericht angeordnet werden."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Die Prüfung nach § 99 Abs. 2 FinStrG dient der Aufklärung finanzstrafrechtlich relevanter Sachverhalte und kann bereits vor Einleitung eines Finanzstrafverfahrens durchgeführt werden."
     }
   ]
 }
