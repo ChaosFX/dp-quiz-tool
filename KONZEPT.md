@@ -566,19 +566,19 @@ den Vault zu.
       Flip-Mechanik und „Gewusst"/„Nicht gewusst"-Einschätzung
 - [x] Karteikarten-Verlauf wird separat vom MC-Quiz-Verlauf in localStorage
       gespeichert und bleibt nach Browser-Neustart erhalten
-- [ ] Projekt ist als Git-Repository angelegt mit sinnvollem `.gitignore`
-- [ ] `README.md` im Projektordner erklärt wie der lokale Dev-Server
+- [x] Projekt ist als Git-Repository angelegt mit sinnvollem `.gitignore`
+- [x] `README.md` im Projektordner erklärt wie der lokale Dev-Server
       gestartet wird und wie das Deployment auf GitHub Pages funktioniert
-- [ ] Alle `fetch()`-Pfade sind relativ (`./data/quiz/...`), sodass das
+- [x] Alle `fetch()`-Pfade sind relativ (`./data/quiz/...`), sodass das
       Tool lokal (localhost) und auf GitHub Pages/Netlify ohne Anpassung läuft
-- [ ] Multiple-Choice-Fragen (`typ: "multiple"`) werden mit Checkboxen statt
+- [x] Multiple-Choice-Fragen (`typ: "multiple"`) werden mit Checkboxen statt
       Radio-Buttons dargestellt, mit „Auswerten"-Button und dreifarbigem
       Feedback (grün = richtig angekreuzt / orange = vergessen /
       rot = falsch angekreuzt) nach der Auswertung
-- [ ] Partial Credit (Ansatz C): Gesamt-Score berücksichtigt anteilige Punkte
+- [x] Partial Credit (Ansatz C): Gesamt-Score berücksichtigt anteilige Punkte
       für Multiple-Choice-Fragen (0.0–1.0 pro Frage); Endauswertung zeigt
       Prozentwert + Aufschlüsselung (vollständig richtig / teilweise / falsch)
-- [ ] Abwärtskompatibilität: Fragen ohne `typ`-Feld werden als `"single"`
+- [x] Abwärtskompatibilität: Fragen ohne `typ`-Feld werden als `"single"`
       behandelt — alle bestehenden JSON-Files funktionieren ohne Änderung
 
 ---

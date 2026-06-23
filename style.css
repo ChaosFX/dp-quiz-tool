@@ -364,16 +364,18 @@ h2 {
   border: 1px solid var(--border);
   animation: dpfade .25s ease both;
 }
-#erklaerung-box.erk-ok  { border-color: var(--ok); }
-#erklaerung-box.erk-no  { border-color: var(--no); }
+#erklaerung-box.erk-ok      { border-color: var(--ok); }
+#erklaerung-box.erk-no      { border-color: var(--no); }
+#erklaerung-box.erk-partial { border-color: var(--warn); }
 
 .erk-header { margin-bottom: 10px; }
 .verdikt-pill {
   display: inline-block; border-radius: 99px;
   padding: 3px 12px; font-size: 13px; font-weight: 600;
 }
-.verdikt-pill.ok { background: color-mix(in srgb, var(--ok) 15%, transparent); color: var(--ok); }
-.verdikt-pill.no { background: color-mix(in srgb, var(--no) 15%, transparent); color: var(--no); }
+.verdikt-pill.ok      { background: color-mix(in srgb, var(--ok) 15%, transparent);   color: var(--ok); }
+.verdikt-pill.no      { background: color-mix(in srgb, var(--no) 15%, transparent);   color: var(--no); }
+.verdikt-pill.partial { background: color-mix(in srgb, var(--warn) 18%, transparent); color: var(--warn); }
 .erk-text { font-size: 15px; line-height: 1.62; color: var(--text); }
 
 /* ── QUIZ FOOTER ── */
@@ -457,8 +459,10 @@ h2 {
   font-size: 13.5px; margin-bottom: 5px;
 }
 .fk-icon { font-size: 15px; flex-shrink: 0; }
-.fk-icon.no  { color: var(--no); }
-.fk-icon.ok  { color: var(--ok); }
+.fk-icon.no      { color: var(--no); }
+.fk-icon.ok      { color: var(--ok); }
+.fk-icon.warn    { color: var(--warn); }
+.fk-icon.neutral { color: var(--muted); }
 .fk-antwort-text { color: var(--muted); }
 .fk-antwort-text strong { color: var(--text); }
 .fk-erk {

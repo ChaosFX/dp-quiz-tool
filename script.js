@@ -179,9 +179,10 @@ function renderDashboard() {
 
   const items = [];
   if (mc) {
+    const mcPct = mc.pct ?? Math.round((mc.correct||0)/mc.total*100);
     items.push(`<div class="dash-item">
       <span class="dash-label">Letzter Test</span>
-      <span class="dash-value">${mc.subjects.join(', ')} · <span class="mono">${mc.correct}/${mc.total}</span></span>
+      <span class="dash-value">${mc.subjects.join(', ')} · <span class="mono">${mcPct} %</span></span>
     </div>`);
   }
   if (fc) {
@@ -254,7 +255,7 @@ function bauVerlauf() {
   if (!h.length) { bereich.classList.add('hidden'); return; }
   bereich.classList.remove('hidden');
   $('verlauf-liste').innerHTML = h.slice(0, 8).map(e => {
-    const pct = Math.round(e.correct / e.total * 100);
+    const pct = e.pct ?? Math.round((e.correct||0) / e.total * 100);
     return `<div class="verlauf-zeile">
       <span class="v-datum">${datumStr(e.date)}</span>
       <span class="v-faecher">${e.subjects.join(', ')}</span>
@@ -288,25 +289,45 @@ $('btn-start').onclick = () => {
   zeige('quiz'); zeigeFrage();
 };
 
-// Zentrale Korrektheitsprüfung für beide Fragetypen.
-function istKorrekt(i) {
+// Punktwert einer Frage: 0.0–1.0.
+//  Single-Choice: 1 (richtig) oder 0 (falsch).
+//  Multiple-Choice: Partial Credit (Ansatz C) — jede korrekte Entscheidung
+//  (richtige Option angekreuzt ODER falsche Option nicht-angekreuzt) zählt,
+//  geteilt durch die Gesamtzahl der Optionen.
+function fragePunkte(i) {
   const q = quiz.items[i], a = quiz.answers[i];
-  if (!a.confirmed || a.selected.length === 0) return false;
-  const selOis = a.selected.map(d => q.options[d].oi);
+  if (!a.confirmed || a.selected.length === 0) return 0;
   if (q.typ === 'multiple') {
-    // Richtig nur, wenn exakt alle korrekten und keine falschen angekreuzt.
-    return selOis.length === q.korrektSet.size && selOis.every(oi => q.korrektSet.has(oi));
+    const sel = new Set(a.selected.map(d => q.options[d].oi));
+    let good = 0;
+    for (const opt of q.options) if (q.korrektSet.has(opt.oi) === sel.has(opt.oi)) good++;
+    return good / q.options.length;
   }
-  return q.korrektSet.has(selOis[0]);
+  return q.korrektSet.has(q.options[a.selected[0]].oi) ? 1 : 0;
+}
+const istPerfekt = i => fragePunkte(i) === 1;
+
+// Anzahl korrekt angekreuzter Optionen (Zähler für „x/y gefunden")
+function gefundenCount(i) {
+  const q = quiz.items[i], a = quiz.answers[i];
+  const sel = new Set(a.selected.map(d => q.options[d].oi));
+  let g = 0; for (const oi of q.korrektSet) if (sel.has(oi)) g++;
+  return g;
+}
+
+// Punkte hübsch formatieren (4 → "4", 4.5 → "4,5")
+function fmtPts(x) {
+  const r = Math.round(x * 10) / 10;
+  return Number.isInteger(r) ? String(r) : r.toFixed(1).replace('.', ',');
 }
 
 function zeigeFrage() {
   const q = quiz.items[quiz.i], total = quiz.items.length;
   const done = quiz.answers.filter(a => a.confirmed).length;
-  const right = quiz.answers.filter((a,i) => istKorrekt(i)).length;
+  const pts  = quiz.answers.reduce((s,a,i) => s + (a.confirmed ? fragePunkte(i) : 0), 0);
   $('meta-pos').textContent  = `Frage ${quiz.i+1} / ${total}`;
   $('fach-pill').textContent = q.fach;
-  $('meta-pct').textContent  = done > 0 ? `${Math.round(right/done*100)} % richtig` : '';
+  $('meta-pct').textContent  = done > 0 ? `${Math.round(pts/done*100)} %` : '';
   $('progress-fill').style.width = `${(quiz.i/total)*100}%`;
   $('frage-text').textContent = q.frage;
   $('mc-hint').classList.toggle('hidden', q.typ !== 'multiple');
@@ -343,8 +364,8 @@ function bestaetigen() {
   if (ans.selected.length === 0 || ans.confirmed) return;
   ans.confirmed = true;
   const q = quiz.items[quiz.i];
-  const ok = istKorrekt(quiz.i);
-  updateQstat(q.qid, ok);
+  const pkt = fragePunkte(quiz.i);
+  updateQstat(q.qid, pkt === 1);
   document.querySelectorAll('#optionen-liste .option-btn').forEach((btn,i)=>{
     btn.disabled = true; btn.classList.remove('selected');
     const oi = q.options[i].oi;
@@ -356,9 +377,15 @@ function bestaetigen() {
     else                      { btn.classList.add('muted'); }
   });
   const box = $('erklaerung-box');
-  box.className = ok ? 'erk-ok' : 'erk-no';
-  $('verdikt-pill').className = 'verdikt-pill ' + (ok ? 'ok' : 'no');
-  $('verdikt-pill').textContent = ok ? 'Richtig' : 'Falsch';
+  const pill = $('verdikt-pill');
+  const stufe = pkt === 1 ? 'ok' : pkt === 0 ? 'no' : 'partial';
+  box.className = 'erk-' + stufe;
+  pill.className = 'verdikt-pill ' + stufe;
+  if (q.typ === 'multiple') {
+    pill.textContent = `${gefundenCount(quiz.i)}/${q.korrektSet.size} gefunden · ${Math.round(pkt*100)} %`;
+  } else {
+    pill.textContent = pkt === 1 ? 'Richtig' : 'Falsch';
+  }
   $('erk-text').textContent = q.erklaerung;
   const last = quiz.i >= quiz.items.length - 1;
   $('btn-bestaetigen').textContent = last ? 'Zur Auswertung' : 'Nächste Frage';
@@ -374,27 +401,32 @@ $('btn-abbrechen').onclick = () => { if (confirm('Test abbrechen? Der Fortschrit
 function zeigeAuswertung() {
   zeige('auswertung');
   const total = quiz.items.length;
-  const correct = quiz.answers.filter((a,i)=>istKorrekt(i)).length;
-  const pct = Math.round(correct/total*100);
+  const punkte = quiz.items.reduce((s,_,i) => s + fragePunkte(i), 0);
+  const pct = Math.round(punkte/total*100);
+
+  // Verteilung: vollständig richtig (1.0) / teilweise (0<p<1) / falsch (0)
+  let voll = 0, teil = 0, falsch = 0;
+  quiz.items.forEach((_,i)=>{ const p = fragePunkte(i); if (p === 1) voll++; else if (p === 0) falsch++; else teil++; });
+
   $('results-pct').textContent = `${pct} %`;
   $('results-pct').style.color = pctColor(pct);
-  $('results-count').textContent = `${correct} von ${total} richtig`;
+  $('results-count').textContent = `${voll} vollständig · ${teil} teilweise · ${falsch} falsch`;
 
-  // Aufschlüsselung nach Fach und (falls vorhanden) Abschnitt
+  // Aufschlüsselung nach Fach und (falls vorhanden) Abschnitt — punktebasiert
   const fachMap = {};
   quiz.items.forEach((q,i)=>{
-    const f = (fachMap[q.fach] ??= { c:0, t:0, abschnitte:{} });
-    f.t++; const ok = istKorrekt(i); if (ok) f.c++;
-    if (q.abschnitt) { const ab = (f.abschnitte[q.abschnitt] ??= { c:0, t:0 }); ab.t++; if (ok) ab.c++; }
+    const f = (fachMap[q.fach] ??= { pts:0, t:0, abschnitte:{} });
+    const p = fragePunkte(i); f.t++; f.pts += p;
+    if (q.abschnitt) { const ab = (f.abschnitte[q.abschnitt] ??= { pts:0, t:0 }); ab.t++; ab.pts += p; }
   });
   const keys = Object.keys(fachMap);
   const hatAbschnitte = keys.some(n => Object.keys(fachMap[n].abschnitte).length > 0);
 
   const balkenRow = (name, s, sub=false) => {
-    const p = Math.round(s.c/s.t*100);
+    const pr = Math.round(s.pts/s.t*100);
     return `<div class="fach-balken-row${sub?' fb-sub':''}"><div class="fb-name">${name}</div>
-      <div class="fb-bar-wrap"><div class="fb-bar-fill" style="width:${p}%;background:${pctColor(p)}"></div></div>
-      <div class="fb-score" style="color:${pctColor(p)}">${s.c}/${s.t}</div></div>`;
+      <div class="fb-bar-wrap"><div class="fb-bar-fill" style="width:${pr}%;background:${pctColor(pr)}"></div></div>
+      <div class="fb-score" style="color:${pctColor(pr)}">${fmtPts(s.pts)}/${s.t}</div></div>`;
   };
 
   if (keys.length > 1 || hatAbschnitte) {
@@ -408,23 +440,25 @@ function zeigeAuswertung() {
     }).join('');
   } else $('fach-balken').classList.add('hidden');
 
-  // Falsch beantwortete Fragen
-  const falsche = quiz.items.map((q,i)=>({ q, a: quiz.answers[i], i })).filter(({i})=>!istKorrekt(i));
-  $('success-banner').classList.toggle('hidden', falsche.length !== 0);
-  if (falsche.length) {
+  // Nicht perfekt beantwortete Fragen (Partial Credit < 1.0)
+  const offene = quiz.items.map((q,i)=>({ q, a: quiz.answers[i], i })).filter(({i})=>!istPerfekt(i));
+  $('success-banner').classList.toggle('hidden', offene.length !== 0);
+  if (offene.length) {
     $('nachbesprechung').classList.remove('hidden');
-    $('nachbesprechung').innerHTML = `<h3>Nachbesprechung · ${falsche.length} falsch</h3>` +
-      falsche.map(({q,a})=>{
+    $('nachbesprechung').innerHTML = `<h3>Nachbesprechung · ${offene.length} nicht perfekt</h3>` +
+      offene.map(({q,a,i})=>{
         let body;
         if (q.typ === 'multiple') {
-          const angekreuzt = a.selected.map(d=>{
-            const ok = q.korrektSet.has(q.options[d].oi);
-            return `<div class="fk-antwort"><span class="fk-icon ${ok?'ok':'no'}">${ok?'✓':'✗'}</span><span class="fk-antwort-text">${q.options[d].text}</span></div>`;
+          const sel = new Set(a.selected.map(d=>q.options[d].oi));
+          const rows = q.options.map(o=>{
+            const korrekt = q.korrektSet.has(o.oi), checked = sel.has(o.oi);
+            let icon='·', cls='neutral', extra='';
+            if (korrekt && checked)       { icon='✓'; cls='ok'; }
+            else if (korrekt && !checked) { icon='✓'; cls='warn'; extra=' (vergessen)'; }
+            else if (!korrekt && checked) { icon='✗'; cls='no';  extra=' (falsch angekreuzt)'; }
+            return `<div class="fk-antwort"><span class="fk-icon ${cls}">${icon}</span><span class="fk-antwort-text">${o.text}${extra}</span></div>`;
           }).join('');
-          const korrekt = q.options.filter(o=>q.korrektSet.has(o.oi))
-            .map(o=>`<div class="fk-antwort"><span class="fk-icon ok">✓</span><span class="fk-antwort-text">${o.text}</span></div>`).join('');
-          body = `<div class="fk-label">Du hast angekreuzt:</div>${angekreuzt}
-                  <div class="fk-label">Korrekt gewesen wäre:</div>${korrekt}`;
+          body = `<div class="fk-label">${gefundenCount(i)}/${q.korrektSet.size} gefunden · ${Math.round(fragePunkte(i)*100)} %</div>${rows}`;
         } else {
           const o = q.options[a.selected[0]];
           body = `<div class="fk-antwort"><span class="fk-icon no">✗</span><span class="fk-antwort-text">Deine Antwort: <strong>${o.text}</strong></span></div>
@@ -438,7 +472,8 @@ function zeigeAuswertung() {
       }).join('');
   } else $('nachbesprechung').classList.add('hidden');
 
-  saveHistory({ date: Date.now(), subjects: [...new Set(quiz.items.map(q=>q.fach))], total, correct, pct });
+  saveHistory({ date: Date.now(), subjects: [...new Set(quiz.items.map(q=>q.fach))],
+    total, pct, voll, teil, falsch });
 }
 $('btn-neu').onclick = () => { bauStart(); zeige('start'); };
 

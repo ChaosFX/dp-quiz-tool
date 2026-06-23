@@ -528,7 +528,7 @@
     {
       "id": "finstrg-ue-38",
       "typ": "multiple",
-      "frage": "Welche Person ist grundsätzlich nicht Partei des Finanzstrafverfahrens und daher nicht beschwerdeberechtigt?",
+      "frage": "Welche Person ist grundsätzlich Partei des Finanzstrafverfahrens und daher beschwerdeberechtigt?",
       "optionen": [
         "Beschuldigter",
         "Nebenbeteiligter",
