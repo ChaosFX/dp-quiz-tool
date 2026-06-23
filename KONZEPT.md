@@ -367,30 +367,24 @@ Parsing-Logik:
 
 #### Partial Credit Bewertung (Multiple-Choice)
 
-**Formel — Ansatz C: jede Option zählt einzeln**
+**Formel — auf Basis der korrekten Optionen**
 
 ```
-Punkte = (richtig angekreuzte + richtig NICHT-angekreuzte) / alle Optionen gesamt
+Punkte = (richtig angekreuzte) / (alle korrekten Optionen)
 ```
 
-Konkret: Für jede der N Optionen wird geprüft ob die Entscheidung
-(angekreuzt / nicht angekreuzt) korrekt war:
-- Option korrekt + angekreuzt     → +1 Punkt
-- Option falsch  + nicht angekreuzt → +1 Punkt
-- Option korrekt + nicht angekreuzt → +0 Punkte (vergessen)
-- Option falsch  + angekreuzt     → +0 Punkte (falsch angekreuzt)
+Es zählt nur, wie viele der korrekten Optionen gefunden wurden.
+**Falsch angekreuzte Optionen werden NICHT bestraft** (reines
+Recall-Modell). Ergebnis: Wert zwischen 0.0 und 1.0 (1.0 = alle
+korrekten Optionen gefunden).
 
-Ergebnis: Wert zwischen 0.0 und 1.0 (nie negativ, 1.0 = perfekt)
-
-**Beispiel:** 7 Optionen, davon 3 korrekt.
-Nutzer kreuzt 2 richtige + 0 falsche an (1 richtige vergessen):
-- 2 richtig angekreuzt = +2
-- 4 richtig nicht-angekreuzt (die falschen Optionen) = +4
-- 1 richtige nicht angekreuzt = +0
-- Ergebnis: 6/7 = **86 %**
+**Beispiel:** 5 Optionen, davon 3 korrekt.
+Nutzer kreuzt 2 richtige + 1 falsche an:
+- 2 von 3 korrekten gefunden → 2/3 = **67 %**
+- die 1 falsch angekreuzte Option senkt die Punkte nicht
 
 **Anzeige pro Frage nach dem Auswerten:**
-`„2/3 richtigen Antworten gefunden — 86 %"`
+`„2/3 gefunden · 67 %"`
 (Zähler = richtig angekreuzte, Nenner = alle korrekten Optionen,
 Prozent = Formel oben)
 
@@ -404,7 +398,7 @@ Prozent = Formel oben)
 
 Partial Credit fließt in den Gesamt-Score ein — eine Multiple-Choice-Frage
 zählt nicht binär 0 oder 1, sondern mit ihrem berechneten Partial-Credit-Wert
-(z. B. 0.86 für 86 %):
+(z. B. 0.67 für 67 %):
 
 ```
 Gesamt-Score = Summe aller Einzelpunkte / Anzahl Fragen gesamt

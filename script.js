@@ -291,17 +291,15 @@ $('btn-start').onclick = () => {
 
 // Punktwert einer Frage: 0.0–1.0.
 //  Single-Choice: 1 (richtig) oder 0 (falsch).
-//  Multiple-Choice: Partial Credit (Ansatz C) — jede korrekte Entscheidung
-//  (richtige Option angekreuzt ODER falsche Option nicht-angekreuzt) zählt,
-//  geteilt durch die Gesamtzahl der Optionen.
+//  Multiple-Choice: Partial Credit auf Basis der korrekten Optionen —
+//  Punkte = (richtig angekreuzte) / (alle korrekten Optionen).
+//  Falsch angekreuzte Optionen werden NICHT bestraft.
+//  Beispiel: 5 Optionen, 3 korrekt, 2 richtige + 1 falsche angekreuzt → 2/3.
 function fragePunkte(i) {
   const q = quiz.items[i], a = quiz.answers[i];
   if (!a.confirmed || a.selected.length === 0) return 0;
   if (q.typ === 'multiple') {
-    const sel = new Set(a.selected.map(d => q.options[d].oi));
-    let good = 0;
-    for (const opt of q.options) if (q.korrektSet.has(opt.oi) === sel.has(opt.oi)) good++;
-    return good / q.options.length;
+    return gefundenCount(i) / q.korrektSet.size;
   }
   return q.korrektSet.has(q.options[a.selected[0]].oi) ? 1 : 0;
 }
