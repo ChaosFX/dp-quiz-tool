@@ -273,58 +273,87 @@ $('btn-start').onclick = () => {
     if (!sel[fach.fach]?.on) return;
     const count = Math.min(sel[fach.fach].count, fach.fragen.length);
     shuffle(fach.fragen).slice(0, count).forEach(q => {
+      // typ ist optional → fehlt es, gilt "single" (Abwärtskompatibilität).
+      const typ = q.typ === 'multiple' ? 'multiple' : 'single';
+      const korrektSet = new Set(Array.isArray(q.korrekt) ? q.korrekt : [q.korrekt]);
       items.push({ qid: q.id || `${fach.fach}-${q.frage.slice(0,20)}`, fach: fach.fach,
-        frage: q.frage, erklaerung: q.erklaerung, korrekt: q.korrekt,
+        typ, abschnitt: q.abschnitt || null,
+        frage: q.frage, erklaerung: q.erklaerung, korrektSet,
         options: shuffle(q.optionen.map((text, oi) => ({ text, oi }))) });
     });
   });
   quiz = { items: shuffle(items), answers: [], i: 0 };
-  quiz.answers = quiz.items.map(() => ({ chosen: null, confirmed: false }));
+  // selected = Array von Anzeige-Indizes (single: 0–1 Element, multiple: 0–n)
+  quiz.answers = quiz.items.map(() => ({ selected: [], confirmed: false }));
   zeige('quiz'); zeigeFrage();
 };
+
+// Zentrale Korrektheitsprüfung für beide Fragetypen.
+function istKorrekt(i) {
+  const q = quiz.items[i], a = quiz.answers[i];
+  if (!a.confirmed || a.selected.length === 0) return false;
+  const selOis = a.selected.map(d => q.options[d].oi);
+  if (q.typ === 'multiple') {
+    // Richtig nur, wenn exakt alle korrekten und keine falschen angekreuzt.
+    return selOis.length === q.korrektSet.size && selOis.every(oi => q.korrektSet.has(oi));
+  }
+  return q.korrektSet.has(selOis[0]);
+}
 
 function zeigeFrage() {
   const q = quiz.items[quiz.i], total = quiz.items.length;
   const done = quiz.answers.filter(a => a.confirmed).length;
-  const right = quiz.answers.filter((a,i) => a.confirmed && a.chosen !== null && quiz.items[i].options[a.chosen].oi === quiz.items[i].korrekt).length;
+  const right = quiz.answers.filter((a,i) => istKorrekt(i)).length;
   $('meta-pos').textContent  = `Frage ${quiz.i+1} / ${total}`;
   $('fach-pill').textContent = q.fach;
   $('meta-pct').textContent  = done > 0 ? `${Math.round(right/done*100)} % richtig` : '';
   $('progress-fill').style.width = `${(quiz.i/total)*100}%`;
   $('frage-text').textContent = q.frage;
+  $('mc-hint').classList.toggle('hidden', q.typ !== 'multiple');
   const liste = $('optionen-liste'); liste.innerHTML = '';
   q.options.forEach((opt, idx) => {
     const b = document.createElement('button');
-    b.className = 'option-btn'; b.dataset.idx = idx;
+    b.className = 'option-btn' + (q.typ === 'multiple' ? ' multi' : '');
+    b.dataset.idx = idx;
     b.innerHTML = `<div class="opt-badge">${idx+1}</div><div class="opt-text">${opt.text}</div><div class="opt-icon"></div>`;
     b.onclick = () => waehleOption(idx);
     liste.appendChild(b);
   });
   $('erklaerung-box').className = 'hidden';
-  $('btn-bestaetigen').textContent = 'Antwort bestätigen';
+  $('btn-bestaetigen').textContent = q.typ === 'multiple' ? 'Auswerten' : 'Antwort bestätigen';
   $('btn-bestaetigen').disabled = true;
   $('btn-bestaetigen').onclick = bestaetigen;
 }
 function waehleOption(idx) {
-  if (quiz.answers[quiz.i].confirmed) return;
-  quiz.answers[quiz.i].chosen = idx;
-  document.querySelectorAll('#optionen-liste .option-btn').forEach((b,i)=>b.classList.toggle('selected', i===idx));
-  $('btn-bestaetigen').disabled = false;
+  const ans = quiz.answers[quiz.i];
+  if (ans.confirmed) return;
+  const q = quiz.items[quiz.i];
+  if (q.typ === 'multiple') {
+    const pos = ans.selected.indexOf(idx);
+    if (pos === -1) ans.selected.push(idx); else ans.selected.splice(pos, 1);
+  } else {
+    ans.selected = [idx]; // Single: exklusiv
+  }
+  document.querySelectorAll('#optionen-liste .option-btn').forEach((b,i)=>
+    b.classList.toggle('selected', ans.selected.includes(i)));
+  $('btn-bestaetigen').disabled = ans.selected.length === 0;
 }
 function bestaetigen() {
   const ans = quiz.answers[quiz.i];
-  if (ans.chosen === null || ans.confirmed) return;
+  if (ans.selected.length === 0 || ans.confirmed) return;
   ans.confirmed = true;
   const q = quiz.items[quiz.i];
-  const ok = q.options[ans.chosen].oi === q.korrekt;
+  const ok = istKorrekt(quiz.i);
   updateQstat(q.qid, ok);
   document.querySelectorAll('#optionen-liste .option-btn').forEach((btn,i)=>{
     btn.disabled = true; btn.classList.remove('selected');
     const oi = q.options[i].oi;
-    if (i === ans.chosen && ok)       { btn.classList.add('correct'); btn.querySelector('.opt-icon').textContent='✓'; }
-    else if (i === ans.chosen && !ok) { btn.classList.add('wrong');   btn.querySelector('.opt-icon').textContent='✗'; }
-    else if (oi === q.korrekt)        { btn.classList.add('correct'); btn.querySelector('.opt-icon').textContent='✓'; }
-    else                              { btn.classList.add('muted'); }
+    const sel = ans.selected.includes(i);
+    const korrekt = q.korrektSet.has(oi);
+    if (korrekt && sel)       { btn.classList.add('correct'); btn.querySelector('.opt-icon').textContent='✓'; }
+    else if (!korrekt && sel) { btn.classList.add('wrong');   btn.querySelector('.opt-icon').textContent='✗'; }
+    else if (korrekt && !sel) { btn.classList.add('missed');  btn.querySelector('.opt-icon').textContent='✓'; }
+    else                      { btn.classList.add('muted'); }
   });
   const box = $('erklaerung-box');
   box.className = ok ? 'erk-ok' : 'erk-no';
@@ -345,40 +374,68 @@ $('btn-abbrechen').onclick = () => { if (confirm('Test abbrechen? Der Fortschrit
 function zeigeAuswertung() {
   zeige('auswertung');
   const total = quiz.items.length;
-  const correct = quiz.answers.filter((a,i)=>a.confirmed && a.chosen!==null && quiz.items[i].options[a.chosen].oi===quiz.items[i].korrekt).length;
+  const correct = quiz.answers.filter((a,i)=>istKorrekt(i)).length;
   const pct = Math.round(correct/total*100);
   $('results-pct').textContent = `${pct} %`;
   $('results-pct').style.color = pctColor(pct);
   $('results-count').textContent = `${correct} von ${total} richtig`;
 
+  // Aufschlüsselung nach Fach und (falls vorhanden) Abschnitt
   const fachMap = {};
   quiz.items.forEach((q,i)=>{
-    (fachMap[q.fach] ??= { c:0, t:0 }).t++;
-    if (quiz.answers[i].chosen!==null && q.options[quiz.answers[i].chosen].oi===q.korrekt) fachMap[q.fach].c++;
+    const f = (fachMap[q.fach] ??= { c:0, t:0, abschnitte:{} });
+    f.t++; const ok = istKorrekt(i); if (ok) f.c++;
+    if (q.abschnitt) { const ab = (f.abschnitte[q.abschnitt] ??= { c:0, t:0 }); ab.t++; if (ok) ab.c++; }
   });
   const keys = Object.keys(fachMap);
-  if (keys.length > 1) {
+  const hatAbschnitte = keys.some(n => Object.keys(fachMap[n].abschnitte).length > 0);
+
+  const balkenRow = (name, s, sub=false) => {
+    const p = Math.round(s.c/s.t*100);
+    return `<div class="fach-balken-row${sub?' fb-sub':''}"><div class="fb-name">${name}</div>
+      <div class="fb-bar-wrap"><div class="fb-bar-fill" style="width:${p}%;background:${pctColor(p)}"></div></div>
+      <div class="fb-score" style="color:${pctColor(p)}">${s.c}/${s.t}</div></div>`;
+  };
+
+  if (keys.length > 1 || hatAbschnitte) {
     $('fach-balken').classList.remove('hidden');
-    $('fach-balken').innerHTML = keys.map(n=>{
-      const s=fachMap[n], fp=Math.round(s.c/s.t*100);
-      return `<div class="fach-balken-row"><div class="fb-name">${n}</div>
-        <div class="fb-bar-wrap"><div class="fb-bar-fill" style="width:${fp}%;background:${pctColor(fp)}"></div></div>
-        <div class="fb-score" style="color:${pctColor(fp)}">${s.c}/${s.t}</div></div>`;
+    $('fach-balken').innerHTML = keys.map(n => {
+      const f = fachMap[n];
+      let rows = (keys.length > 1) ? balkenRow(n, f) : '';
+      const absKeys = Object.keys(f.abschnitte).sort((a,b)=>a.localeCompare(b,'de',{numeric:true}));
+      rows += absKeys.map(ab => balkenRow(ab, f.abschnitte[ab], keys.length > 1)).join('');
+      return rows;
     }).join('');
   } else $('fach-balken').classList.add('hidden');
 
-  const falsche = quiz.items.map((q,i)=>({q,a:quiz.answers[i]}))
-    .filter(({q,a})=>a.chosen!==null && q.options[a.chosen].oi!==q.korrekt);
+  // Falsch beantwortete Fragen
+  const falsche = quiz.items.map((q,i)=>({ q, a: quiz.answers[i], i })).filter(({i})=>!istKorrekt(i));
   $('success-banner').classList.toggle('hidden', falsche.length !== 0);
   if (falsche.length) {
     $('nachbesprechung').classList.remove('hidden');
     $('nachbesprechung').innerHTML = `<h3>Nachbesprechung · ${falsche.length} falsch</h3>` +
-      falsche.map(({q,a})=>`<div class="falsch-karte">
-        <div class="fk-fach">${q.fach}</div>
-        <div class="fk-frage">${q.frage}</div>
-        <div class="fk-antwort"><span class="fk-icon no">✗</span><span class="fk-antwort-text">Deine Antwort: <strong>${q.options[a.chosen].text}</strong></span></div>
-        <div class="fk-antwort"><span class="fk-icon ok">✓</span><span class="fk-antwort-text">Richtig: <strong>${q.options.find(o=>o.oi===q.korrekt).text}</strong></span></div>
-        <div class="fk-erk">${q.erklaerung}</div></div>`).join('');
+      falsche.map(({q,a})=>{
+        let body;
+        if (q.typ === 'multiple') {
+          const angekreuzt = a.selected.map(d=>{
+            const ok = q.korrektSet.has(q.options[d].oi);
+            return `<div class="fk-antwort"><span class="fk-icon ${ok?'ok':'no'}">${ok?'✓':'✗'}</span><span class="fk-antwort-text">${q.options[d].text}</span></div>`;
+          }).join('');
+          const korrekt = q.options.filter(o=>q.korrektSet.has(o.oi))
+            .map(o=>`<div class="fk-antwort"><span class="fk-icon ok">✓</span><span class="fk-antwort-text">${o.text}</span></div>`).join('');
+          body = `<div class="fk-label">Du hast angekreuzt:</div>${angekreuzt}
+                  <div class="fk-label">Korrekt gewesen wäre:</div>${korrekt}`;
+        } else {
+          const o = q.options[a.selected[0]];
+          body = `<div class="fk-antwort"><span class="fk-icon no">✗</span><span class="fk-antwort-text">Deine Antwort: <strong>${o.text}</strong></span></div>
+                  <div class="fk-antwort"><span class="fk-icon ok">✓</span><span class="fk-antwort-text">Richtig: <strong>${q.options.find(x=>q.korrektSet.has(x.oi)).text}</strong></span></div>`;
+        }
+        return `<div class="falsch-karte">
+          <div class="fk-fach">${q.fach}${q.abschnitt?` · ${q.abschnitt}`:''}</div>
+          <div class="fk-frage">${q.frage}</div>
+          ${body}
+          <div class="fk-erk">${q.erklaerung}</div></div>`;
+      }).join('');
   } else $('nachbesprechung').classList.add('hidden');
 
   saveHistory({ date: Date.now(), subjects: [...new Set(quiz.items.map(q=>q.fach))], total, correct, pct });
@@ -578,11 +635,12 @@ document.addEventListener('keydown', e => {
   if (e.metaKey || e.ctrlKey || e.altKey) return;
 
   if (activeScreen === 'quiz') {
+    const ans = quiz.answers[quiz.i];
     const n = parseInt(e.key);
     if (n >= 1 && n <= (quiz.items[quiz.i]?.options.length || 0)) {
-      if (!quiz.answers[quiz.i].confirmed) waehleOption(n-1);
+      if (!ans.confirmed) waehleOption(n-1);  // single: exklusiv, multiple: umschalten
     } else if (e.key === 'Enter') {
-      if (!quiz.answers[quiz.i].confirmed) { if (quiz.answers[quiz.i].chosen !== null) bestaetigen(); }
+      if (!ans.confirmed) { if (ans.selected.length > 0) bestaetigen(); }
       else weiter();
     }
   } else if (activeScreen === 'fcCard') {

@@ -194,12 +194,19 @@ Landing Page.
 
 ## 4. Datenschema (JSON pro Fach) — MC-Fragen
 
+Das Schema unterstützt zwei Fragetypen: `"single"` (eine richtige Antwort)
+und `"multiple"` (mehrere richtige Antworten). Das Feld `typ` ist
+**abwärtskompatibel** — fehlt es, behandelt das Tool die Frage als `"single"`.
+Bestehende JSON-Files ohne `typ`-Feld müssen nicht angepasst werden.
+
+### Single-Choice Beispiel
 ```json
 {
   "fach": "FinStrG",
   "fragen": [
     {
       "id": "finstrg-01",
+      "typ": "single",
       "frage": "Welche Schuldform erfordert § 34 FinStrG?",
       "optionen": [
         "Vorsatz (Wissentlichkeit)",
@@ -214,15 +221,45 @@ Landing Page.
 }
 ```
 
+### Multiple-Choice Beispiel
+```json
+{
+  "fach": "BAO",
+  "fragen": [
+    {
+      "id": "bao-ue-par14-05",
+      "abschnitt": "§§ 1–4",
+      "typ": "multiple",
+      "frage": "Wofür ist der Zeitpunkt der Entstehung des Abgabenanspruchs relevant?",
+      "optionen": [
+        "Beginn der Bemessungsverjährung",
+        "Möglichkeit einer Nachsicht",
+        "Haftungsinanspruchnahme",
+        "Fälligkeit",
+        "Für einen Insolvenzantrag",
+        "Veranlagung"
+      ],
+      "korrekt": [0, 2, 3, 5],
+      "erklaerung": "Der Zeitpunkt der Entstehung des Abgabenanspruchs ist maßgeblich für den Beginn der Bemessungsverjährung, die Haftungsinanspruchnahme, die Fälligkeit und die Veranlagung."
+    }
+  ]
+}
+```
+
 Feldbeschreibung:
 - `fach` (string) — Anzeigename des Fachs
 - `fragen` (array) — Liste der Fragen
-  - `id` (string) — eindeutiger Identifier, Format `<fachkürzel>-<nummer>`
+  - `id` (string) — eindeutiger Identifier
+  - `typ` (string, optional) — `"single"` oder `"multiple"`;
+    fehlt das Feld, gilt `"single"` als Default (Abwärtskompatibilität)
+  - `abschnitt` (string, optional) — Themenabschnitt innerhalb des Fachs
+    (z. B. `"§§ 1–4"`), wird in der Auswertung zur Gliederung genutzt
   - `frage` (string) — ausformulierte Frage
-  - `optionen` (array von 4 strings) — Antwortmöglichkeiten
-  - `korrekt` (integer, 0-basiert) — Index der richtigen Antwort im
-    **ursprünglichen** `optionen`-Array (siehe Punkt 5, Shuffle-Logik)
-  - `erklaerung` (string) — kurze fachliche Begründung, wird nach
+  - `optionen` (array von strings) — Antwortmöglichkeiten;
+    bei `"single"` typisch 4 Optionen, bei `"multiple"` können es mehr sein
+  - `korrekt` — bei `"single"`: integer (0-basierter Index);
+    bei `"multiple"`: array von integers (alle korrekten Indizes)
+  - `erklaerung` (string) — fachliche Begründung, wird nach
     Beantwortung angezeigt
 
 ---
@@ -304,22 +341,51 @@ Parsing-Logik:
   unverändert, unabhängig von der Anzeige-Reihenfolge.
 - Jeder Testlauf soll neu gemischt werden (auch bei Wiederholung desselben
   Fachs), damit keine Positions-Muster auswendig gelernt werden.
+- **Wichtig für Multiple-Choice:** Die Shuffle-Logik gilt identisch auch
+  für `typ: "multiple"` — `korrekt` ist ein Array von Original-Indizes,
+  die nach dem Mischen über `originalIndex` korrekt zugeordnet werden.
 
 ### 5.3 Fragendarstellung & Auswertung pro Frage
-- Eine Frage wird mit ihren 4 Antwortoptionen angezeigt.
-- Nach Auswahl einer Antwort: sofortiges visuelles Feedback
-  (z. B. grün = richtig, rot = falsch gewählte Antwort, korrekte Antwort
-  wird zusätzlich hervorgehoben falls falsch gewählt wurde).
+
+#### Single-Choice (`typ: "single"` oder kein `typ`-Feld)
+- Eine Frage wird mit ihren Antwortoptionen als **Radio-Buttons** angezeigt.
+- Nach Auswahl einer Option: sofortiges visuelles Feedback
+  (grün = richtig, rot = falsch gewählte Antwort; korrekte Antwort wird
+  zusätzlich hervorgehoben, falls falsch gewählt).
 - Die `erklaerung` wird direkt nach der Beantwortung eingeblendet.
-- Navigation zur nächsten Frage erst nach Beantwortung möglich (kein Überspringen).
+- Navigation zur nächsten Frage erst nach Beantwortung möglich.
+
+#### Multiple-Choice (`typ: "multiple"`)
+- Die Antwortoptionen werden als **Checkboxen** dargestellt (nicht
+  Radio-Buttons), da mehrere Antworten ausgewählt werden können.
+- Ein Hinweis wird oberhalb der Optionen angezeigt, z. B.
+  „Mehrere Antworten möglich — alle richtigen ankreuzen."
+- **Kein sofortiges Feedback** nach Klick auf eine Checkbox — der Nutzer
+  wählt zunächst alle Antworten, die er für richtig hält.
+- Ein **„Auswerten"-Button** erscheint (und ist erst nach Auswahl von
+  mindestens einer Option aktiv) — erst nach Klick darauf wird ausgewertet.
+- Auswertungslogik: Eine Multiple-Choice-Frage gilt als **richtig**, wenn
+  genau alle korrekten Optionen angekreuzt sind und keine falschen
+  angekreuzt wurden (kein Teilpunkt-System in v1).
+- Visuelles Feedback nach Auswertung:
+  - **Grün** = korrekt ausgewählte Option (war richtig und wurde angekreuzt)
+  - **Rot** = falsch ausgewählte Option (war falsch, wurde aber angekreuzt)
+  - **Orange/Gelb** = vergessene korrekte Option (war richtig, wurde aber
+    nicht angekreuzt)
+  - Nicht ausgewählte, falsche Optionen bleiben neutral
+- Die `erklaerung` wird nach dem Auswerten eingeblendet.
+- Navigation zur nächsten Frage erst nach Auswertung möglich.
 
 ### 5.4 Endauswertung
 - Gesamt-Score (z. B. „18 / 23 richtig", inkl. Prozentanzeige).
 - Aufschlüsselung nach Fach, falls mehrere Fächer getestet wurden.
+- Bei Fächern mit `abschnitt`-Feld (z. B. BAO): optionale Aufschlüsselung
+  auch nach Abschnitt (z. B. „§§ 1–4: 4/5 richtig").
 - Liste aller **falsch beantworteten Fragen** mit:
   - der gestellten Frage
-  - der eigenen (falschen) Antwort
-  - der korrekten Antwort
+  - bei Single-Choice: der eigenen (falschen) Antwort + der korrekten Antwort
+  - bei Multiple-Choice: welche Optionen angekreuzt waren (inkl. Markierung
+    welche davon falsch waren) + alle korrekten Optionen
   - der Erklärung
 - Kein separater „Falsche nochmal üben"-Modus in v1 (Möglichkeit für
   spätere Erweiterung, siehe Punkt 7).
@@ -455,6 +521,12 @@ den Vault zu.
       gestartet wird und wie das Deployment auf GitHub Pages funktioniert
 - [x] Alle `fetch()`-Pfade sind relativ (`./data/quiz/...`), sodass das
       Tool lokal (localhost) und auf GitHub Pages/Netlify ohne Anpassung läuft
+- [x] Multiple-Choice-Fragen (`typ: "multiple"`) werden mit Checkboxen statt
+      Radio-Buttons dargestellt, mit „Auswerten"-Button und dreifarbigem
+      Feedback (grün = richtig angekreuzt / rot = falsch angekreuzt /
+      orange = vergessene korrekte Option) nach der Auswertung
+- [x] Abwärtskompatibilität: Fragen ohne `typ`-Feld werden als `"single"`
+      behandelt — alle bestehenden JSON-Files funktionieren ohne Änderung
 
 ---
 
