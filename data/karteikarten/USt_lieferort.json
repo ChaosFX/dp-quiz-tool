@@ -1,0 +1,42 @@
+{
+  "fach": "USt",
+  "thema": "Lieferort",
+  "quelle_note": "Umsatzsteuer/Lieferort USt.md",
+  "karten": [
+    {
+      "id": "ust-lieferort-01",
+      "frage": "Wo ist der Ort der Lieferung bei einer ruhenden Leistung?",
+      "antwort": "Dor, wo sich der Gegenstand zur Zeit der Verschaffung der Verfügungsmacht befindet (§ 3 Abs 7)."
+    },
+    {
+      "id": "ust-lieferort-02",
+      "frage": "Wo ist der Lieferort, wenn die Ware befördert oder versendet wird?",
+      "antwort": "Dort, wo die Beförderung/Versendung beginnt - am Abgangsort (§ 3 Abs 8)."
+    },
+    {
+      "id": "ust-lieferort-03",
+      "frage": "Definieren Sie \"Befördern\" und \"Versenden\".",
+      "antwort": "Befördern = Verkäufer oder Käufer transportiert selbst.\nVersenden = Transport durch einen Dritten (Frachtführer, Post)."
+    },
+    {
+      "id": "ust-lieferort-04",
+      "frage": "Wo ist der Lieferort bei einer Grundstückslieferung?",
+      "antwort": "Immer dort, wo das Grundstück liegt - Grundstückslieferungen sind stets ruhende Lieferungen."
+    },
+    {
+      "id": "ust-lieferort-05",
+      "frage": "Wann gilt eine Einfuhrlieferung als im Inland ausgeführt (§ 3 Abs 9)?",
+      "antwort": "Wenn der Lieferer (oder sein Beauftragter) Schuldner der EUSt ist - dann ist die Lieferung im Einfuhrland steuerbar."
+    },
+    {
+      "id": "ust-lieferort-06",
+      "frage": "Was ist ein Reihengeschäft?",
+      "antwort": "Mehrere Unternehmer schließen über denselben Gegenstand Umsatzgeschäfte ab, es gibt nur eine Warenbewegung. Nur eine Lieferung ist bewegt, alle anderen sind ruhend."
+    },
+    {
+      "id": "ust-lieferort-07",
+      "frage": "Wie viele bewegte Lieferungen gibt es im Reihengeschäft?",
+      "antwort": "Genau eine - sie folgt der einzigen Warenbewegung; alle übrigen sind ruhende Lieferungen."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "fach": "ESt",
+  "thema": "AfA - Absetzung für Abnutzung (§§ 7, 8)",
+  "quelle_note": "Einkommensteuer/AfA.md",
+  "karten": [
+    {
+      "id": "est-afa-absetzung-fuer-abnutzung-7-8-01",
+      "frage": "Ab wann kann ein WG abgeschrieben werden?",
+      "antwort": "Ab der Inbetriebnahme (Beginn der Abnutzung). > 6 Monate Nutzung -> ganze Jahres-AfA, sonst Halbjahres-AfA."
+    },
+    {
+      "id": "est-afa-absetzung-fuer-abnutzung-7-8-02",
+      "frage": "Welche AfA-Methoden gibt es, und wann ist degressiv zulässig?",
+      "antwort": "Lineare AfA (gleichmäßig) und degressive AfA (max 30 % vom Restbuchwert) - degressiv nur für ungebrauchte WG, angeschafft nach 30.6.2020, mit Ausnahmen (Gebäude, PKW, Firmenwert ...)."
+    },
+    {
+      "id": "est-afa-absetzung-fuer-abnutzung-7-8-03",
+      "frage": "Welche AfA-Sätze gelten bei Gebäuden?",
+      "antwort": "Betrieblich 2,5 % (40 J.), für Wohnzwecke 1,5 & (66,7 J.).\nBeschleunigt im 1./2. Jahr: 3-fach/2-fach. Vor-1915-Gebäude außerbetrieblich auf Antrag 2 %."
+    },
+    {
+      "id": "est-afa-absetzung-fuer-abnutzung-7-8-04",
+      "frage": "Welche Besonderheit gilt für PKW?",
+      "antwort": "Mindestnutzungsdauer 8 Jahre (§ 8 Abs 6); ausgenommen Fahrschul-Kfz und Taxis (≥ 80 % gewerbliche Personenbeförderung)."
+    },
+    {
+      "id": "est-afa-absetzung-fuer-abnutzung-7-8-05",
+      "frage": "Was ist eine AfaA?",
+      "antwort": "Absetzung für außergewöhnliche technische oder wirtschaftliche Abnutzung (§ 8 Abs 4) - setzt eine Verkürzung der Nutzungsdauer voraus (anders als die bloße Teilwertabschreibung)."
+    },
+    {
+      "id": "est-afa-absetzung-fuer-abnutzung-7-8-06",
+      "frage": "Wie werden geringwertige Wirtschaftsgüter behandelt?",
+      "antwort": "AK/HK ≤ € 1.000 (bis 2022 € 800) können sofort als Betriebsausgabe abgesetzt werden (Wahlrecht statt Aktivierung + AfA)."
+    }
+  ]
+}

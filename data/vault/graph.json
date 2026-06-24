@@ -343,6 +343,12 @@
       "pfad": "Rechtsquellen/EStG/§ 5 EStG.md"
     },
     {
+      "id": "Rechtsquellen/EStG/§ 6 EStG",
+      "label": "Bewertung",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 6 EStG.md"
+    },
+    {
       "id": "Rechtsquellen/KStG/§ 1 KStG",
       "label": "Persönliche Steuerpflicht",
       "fach": "KöSt",
@@ -383,6 +389,18 @@
       "label": "Leistungsbegriff USt",
       "fach": "USt",
       "pfad": "Umsatzsteuer/Leistungsbegriff USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Lieferort USt",
+      "label": "Lieferort",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Lieferort USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
+      "label": "Sonstige Leistung & Leistungsort",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt.md"
     },
     {
       "id": "Umsatzsteuer/Steuerbare Tatbestände USt",
@@ -509,6 +527,10 @@
       "target": "Einkommensteuer/Persönliche Einkommenszurechnung"
     },
     {
+      "source": "Einkommensteuer/AfA",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
       "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
       "target": "Einkommensteuer/Gewinnermittlung - Überblick"
     },
@@ -565,6 +587,10 @@
       "target": "Rechtsquellen/EStG/§ 5 EStG"
     },
     {
+      "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
       "source": "Einkommensteuer/Betriebsvermögensvergleich",
       "target": "Einkommensteuer/Gewinnermittlung - Überblick"
     },
@@ -593,6 +619,10 @@
       "target": "Rechtsquellen/EStG/§ 5 EStG"
     },
     {
+      "source": "Einkommensteuer/Betriebsvermögensvergleich",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
       "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
       "target": "Einkommensteuer/Gewinnermittlung - Überblick"
     },
@@ -607,6 +637,10 @@
     {
       "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
       "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
     },
     {
       "source": "Einkommensteuer/Buchführungspflicht",
@@ -1446,6 +1480,10 @@
     },
     {
       "source": "Rechtsquellen/EStG/§ 4 EStG",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 4 EStG",
       "target": "Rechtsquellen/EStG/§ 19 EStG"
     },
     {
@@ -1471,6 +1509,34 @@
     {
       "source": "Rechtsquellen/EStG/§ 5 EStG",
       "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 5 EStG",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Einkommensteuer/Bewertung Wirtschaftsgüter"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Einkommensteuer/AfA"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
     },
     {
       "source": "Rechtsquellen/KStG/§ 1 KStG",
@@ -1573,6 +1639,22 @@
       "target": "Einkommensteuer/Liebhaberei"
     },
     {
+      "source": "Umsatzsteuer/Leistungsbegriff USt",
+      "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
+    },
+    {
+      "source": "Umsatzsteuer/Lieferort USt",
+      "target": "Umsatzsteuer/Leistungsbegriff USt"
+    },
+    {
+      "source": "Umsatzsteuer/Lieferort USt",
+      "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
+    },
+    {
+      "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
+      "target": "Umsatzsteuer/Unternehmer USt"
+    },
+    {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
       "target": "Rechtsquellen/UStG/§ 1 UStG"
     },
@@ -1591,6 +1673,10 @@
     {
       "source": "Umsatzsteuer/Unternehmer USt",
       "target": "Rechtsquellen/UStG/§ 2 UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Unternehmer USt",
+      "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
     },
     {
       "source": "Umsatzsteuer/Unternehmer USt",

@@ -11,7 +11,8 @@
         "Ein Anspruch auf Familienbeihilfe setzt immer ein eigenes Einkommen des Kindes voraus"
       ],
       "korrekt": 0,
-      "erklaerung": "Grundvoraussetzung für den Anspruch auf Familienbeihilfe ist u.a. ein Wohnsitz oder gewöhnlicher Aufenthalt im Inland der antragstellenden Person sowie eine ausreichende Beziehung zum Kind, insbesondere die Haushaltszugehörigkeit oder – wenn diese fehlt – die überwiegende Tragung der Unterhaltskosten."
+      "erklaerung": "Grundvoraussetzung für den Anspruch auf Familienbeihilfe ist u.a. ein Wohnsitz oder gewöhnlicher Aufenthalt im Inland der antragstellenden Person sowie eine ausreichende Beziehung zum Kind, insbesondere die Haushaltszugehörigkeit oder – wenn diese fehlt – die überwiegende Tragung der Unterhaltskosten.",
+      "typ": "single"
     },
     {
       "id": "flag-02",
@@ -23,7 +24,8 @@
         "Haushaltszugehörigkeit betrifft ausschließlich minderjährige Kinder unter 10 Jahren"
       ],
       "korrekt": 0,
-      "erklaerung": "Gehört ein Kind dem Haushalt einer Person an, ist primär diese Person anspruchsberechtigt (Haushaltszugehörigkeit als vorrangiges Kriterium); fehlt eine Haushaltszugehörigkeit, kommt subsidiär (sekundär) die Person in Betracht, die überwiegend die Unterhaltskosten des Kindes trägt."
+      "erklaerung": "Gehört ein Kind dem Haushalt einer Person an, ist primär diese Person anspruchsberechtigt (Haushaltszugehörigkeit als vorrangiges Kriterium); fehlt eine Haushaltszugehörigkeit, kommt subsidiär (sekundär) die Person in Betracht, die überwiegend die Unterhaltskosten des Kindes trägt.",
+      "typ": "single"
     },
     {
       "id": "flag-03",
@@ -35,7 +37,8 @@
         "Keiner der beiden Elternteile, da nach der Scheidung jeder Anspruch erlischt"
       ],
       "korrekt": 0,
-      "erklaerung": "Da die Kinder nach der Scheidung im Haushalt der Mutter leben, ist die Mutter aufgrund der Haushaltszugehörigkeit primär anspruchsberechtigt; der Vater, der die Kinder nur an Wochenenden besucht, ist nicht haushaltszugehörig und hat daher keinen vorrangigen Anspruch."
+      "erklaerung": "Da die Kinder nach der Scheidung im Haushalt der Mutter leben, ist die Mutter aufgrund der Haushaltszugehörigkeit primär anspruchsberechtigt; der Vater, der die Kinder nur an Wochenenden besucht, ist nicht haushaltszugehörig und hat daher keinen vorrangigen Anspruch.",
+      "typ": "single"
     },
     {
       "id": "flag-04",
@@ -47,7 +50,8 @@
         "Das Verhältnis zwischen Kind und Antragsteller ist für den Anspruch ohne jede Bedeutung"
       ],
       "korrekt": 0,
-      "erklaerung": "Das FLAG erkennt verschiedene Beziehungsformen zwischen Kind und Antragsteller an, u.a. leibliche Kinder, Adoptivkinder und Pflegekinder; je nach Alter des Kindes sind zusätzlich bestimmte Anspruchsvoraussetzungen (z.B. Berufsausbildung bei volljährigen Kindern) zu erfüllen."
+      "erklaerung": "Das FLAG erkennt verschiedene Beziehungsformen zwischen Kind und Antragsteller an, u.a. leibliche Kinder, Adoptivkinder und Pflegekinder; je nach Alter des Kindes sind zusätzlich bestimmte Anspruchsvoraussetzungen (z.B. Berufsausbildung bei volljährigen Kindern) zu erfüllen.",
+      "typ": "single"
     },
     {
       "id": "flag-05",
@@ -59,7 +63,8 @@
         "Familienbeihilfe entfällt automatisch, sobald das Kind ein eigenes Bankkonto besitzt"
       ],
       "korrekt": 0,
-      "erklaerung": "Zu den Ausschließungsgründen zählen u.a. ein ständiger Aufenthalt des Kindes im Ausland außerhalb bestimmter begünstigter Staaten (mit Ausnahmen, z.B. für Studienzwecke), die Verbüßung einer Freiheitsstrafe sowie das Überschreiten der für volljährige Kinder geltenden Zuverdienstgrenze (Einkommensgrenze)."
+      "erklaerung": "Zu den Ausschließungsgründen zählen u.a. ein ständiger Aufenthalt des Kindes im Ausland außerhalb bestimmter begünstigter Staaten (mit Ausnahmen, z.B. für Studienzwecke), die Verbüßung einer Freiheitsstrafe sowie das Überschreiten der für volljährige Kinder geltenden Zuverdienstgrenze (Einkommensgrenze).",
+      "typ": "single"
     },
     {
       "id": "flag-06",
@@ -71,7 +76,8 @@
         "Mit der Matura erlischt der Anspruch endgültig und unwiderruflich"
       ],
       "korrekt": 0,
-      "erklaerung": "Für die Zeit zwischen Ende der Schulausbildung (Matura) und dem Beginn einer weiteren Berufsausbildung bzw. des Zivildienstes besteht unter den Voraussetzungen der sogenannten Zwischenzeitenregelung regelmäßig ein befristeter Weiterbezug der Familienbeihilfe; mit Antritt des Zivildienstes selbst entfällt der Anspruch jedoch grundsätzlich, da dieser keine Berufsausbildung im Sinne des FLAG darstellt."
+      "erklaerung": "Für die Zeit zwischen Ende der Schulausbildung (Matura) und dem Beginn einer weiteren Berufsausbildung bzw. des Zivildienstes besteht unter den Voraussetzungen der sogenannten Zwischenzeitenregelung regelmäßig ein befristeter Weiterbezug der Familienbeihilfe; mit Antritt des Zivildienstes selbst entfällt der Anspruch jedoch grundsätzlich, da dieser keine Berufsausbildung im Sinne des FLAG darstellt.",
+      "typ": "single"
     },
     {
       "id": "flag-07",
@@ -83,7 +89,8 @@
         "Es kommt ausschließlich auf das Bestehen eines Dienstverhältnisses des Kindes an"
       ],
       "korrekt": 0,
-      "erklaerung": "Für volljährige Kinder kann Familienbeihilfe insbesondere bei Vorliegen einer Berufsausbildung (z.B. Studium) bis zur Vollendung des 24. (bzw. unter bestimmten Voraussetzungen 25.) Lebensjahres weiter gewährt werden; auch ein freiwilliges soziales/ökologisches Jahr oder die Ableistung des Zivildienstes können zu einer entsprechenden Verlängerung führen."
+      "erklaerung": "Für volljährige Kinder kann Familienbeihilfe insbesondere bei Vorliegen einer Berufsausbildung (z.B. Studium) bis zur Vollendung des 24. (bzw. unter bestimmten Voraussetzungen 25.) Lebensjahres weiter gewährt werden; auch ein freiwilliges soziales/ökologisches Jahr oder die Ableistung des Zivildienstes können zu einer entsprechenden Verlängerung führen.",
+      "typ": "single"
     },
     {
       "id": "flag-08",
@@ -95,7 +102,8 @@
         "Schädliche Handlungen betreffen ausschließlich den Studienort, nicht die Studienrichtung"
       ],
       "korrekt": 0,
-      "erklaerung": "Als schädlich für den Familienbeihilfenanspruch gilt insbesondere ein Studienwechsel, der zu spät (nach einer bestimmten Anzahl von Semestern) oder zu häufig (mehr als einmal) erfolgt, da dies regelmäßig zu einer Unterbrechung des Anspruchs bzw. zu einer Anrechnung der bisherigen Studienzeit führt."
+      "erklaerung": "Als schädlich für den Familienbeihilfenanspruch gilt insbesondere ein Studienwechsel, der zu spät (nach einer bestimmten Anzahl von Semestern) oder zu häufig (mehr als einmal) erfolgt, da dies regelmäßig zu einer Unterbrechung des Anspruchs bzw. zu einer Anrechnung der bisherigen Studienzeit führt.",
+      "typ": "single"
     },
     {
       "id": "flag-09",
@@ -107,7 +115,8 @@
         "Erhöhte Familienbeihilfe wird nur bei körperlichen, niemals bei psychischen Beeinträchtigungen gewährt"
       ],
       "korrekt": 0,
-      "erklaerung": "Voraussetzung für den Bezug der erhöhten Familienbeihilfe ist regelmäßig ein durch ein Gutachten des Sozialministeriumservice festgestellter Grad der Behinderung von mindestens 50 % bzw. eine festgestellte erhebliche Behinderung bzw. voraussichtlich dauernde Erwerbsunfähigkeit des Kindes."
+      "erklaerung": "Voraussetzung für den Bezug der erhöhten Familienbeihilfe ist regelmäßig ein durch ein Gutachten des Sozialministeriumservice festgestellter Grad der Behinderung von mindestens 50 % bzw. eine festgestellte erhebliche Behinderung bzw. voraussichtlich dauernde Erwerbsunfähigkeit des Kindes.",
+      "typ": "single"
     },
     {
       "id": "flag-10",
@@ -119,7 +128,8 @@
         "Die Bindungswirkung gilt nur, wenn das Gutachten zugunsten des Antragstellers ausfällt"
       ],
       "korrekt": 0,
-      "erklaerung": "Für die Beurteilung des Grades der Behinderung bzw. der Erwerbsunfähigkeit eines Kindes ist die Familienbeihilfenstelle grundsätzlich an das Gutachten des Sozialministeriumservice (BSB) gebunden; eigene medizinische Einschätzungen der Abgabenbehörde treten dahinter zurück."
+      "erklaerung": "Für die Beurteilung des Grades der Behinderung bzw. der Erwerbsunfähigkeit eines Kindes ist die Familienbeihilfenstelle grundsätzlich an das Gutachten des Sozialministeriumservice (BSB) gebunden; eigene medizinische Einschätzungen der Abgabenbehörde treten dahinter zurück.",
+      "typ": "single"
     },
     {
       "id": "flag-11",
@@ -131,7 +141,8 @@
         "Der unrechtmäßige Bezug führt automatisch zu einem lebenslangen Ausschluss von der Familienbeihilfe"
       ],
       "korrekt": 0,
-      "erklaerung": "Wird Familienbeihilfe zu Unrecht bezogen (z.B. weil eine Anspruchsvoraussetzung nachträglich weggefallen ist oder von Anfang an nicht vorlag), kann die Behörde die zu Unrecht ausbezahlten Beträge von der bezugsberechtigten Person zurückfordern."
+      "erklaerung": "Wird Familienbeihilfe zu Unrecht bezogen (z.B. weil eine Anspruchsvoraussetzung nachträglich weggefallen ist oder von Anfang an nicht vorlag), kann die Behörde die zu Unrecht ausbezahlten Beträge von der bezugsberechtigten Person zurückfordern.",
+      "typ": "single"
     },
     {
       "id": "flag-12",
@@ -143,7 +154,80 @@
         "Mitteilungen über den Bezug sind im FLAG nicht vorgesehen"
       ],
       "korrekt": 0,
-      "erklaerung": "Wird einem Antrag auf Familienbeihilfe stattgegeben, erfolgt regelmäßig eine formlose Mitteilung über den Bezug; wird der Antrag hingegen ganz oder teilweise abgelehnt, ist darüber ein förmlicher (mit Rechtsmittel bekämpfbarer) Abweisungsbescheid zu erlassen."
+      "erklaerung": "Wird einem Antrag auf Familienbeihilfe stattgegeben, erfolgt regelmäßig eine formlose Mitteilung über den Bezug; wird der Antrag hingegen ganz oder teilweise abgelehnt, ist darüber ein förmlicher (mit Rechtsmittel bekämpfbarer) Abweisungsbescheid zu erlassen.",
+      "typ": "single"
+    },
+    {
+      "id": "flag-13",
+      "typ": "multiple",
+      "abschnitt": "Anspruchsvoraussetzungen",
+      "frage": "Was zählt zu den allgemeinen Anspruchsvoraussetzungen für den Familienbeihilfenbezug?",
+      "optionen": [
+        "Österreichische Staatsbürgerschaft",
+        "Wohnsitz/gewöhnlicher Aufenthalt in Österreich",
+        "Ständiger Aufenthalt im Ausland",
+        "Mittelpunkt der Lebensinteressen im Inland"
+      ],
+      "korrekt": [
+        1,
+        3
+      ],
+      "erklaerung": "Allgemeine Anspruchsvoraussetzungen für die Familienbeihilfe sind u.a. ein Wohnsitz oder gewöhnlicher Aufenthalt in Österreich sowie der Mittelpunkt der Lebensinteressen im Inland. Die österreichische Staatsbürgerschaft ist keine Voraussetzung (auch EU-Bürger können anspruchsberechtigt sein); ein ständiger Auslandsaufenthalt schließt den Anspruch hingegen aus."
+    },
+    {
+      "id": "flag-14",
+      "typ": "multiple",
+      "abschnitt": "Kindbegriff",
+      "frage": "Wer ist Kind im Sinne des FLAG?",
+      "optionen": [
+        "Nichte",
+        "Volljähriges Pflegekind",
+        "Enkelkind",
+        "Adoptivkind"
+      ],
+      "korrekt": [
+        2,
+        3
+      ],
+      "erklaerung": "Als Kind iSd FLAG gelten u.a. Enkelkinder und Adoptivkinder. Nichten zählen nicht zum gesetzlichen Kindbegriff des FLAG; volljährige Pflegekinder fallen ebenfalls nicht darunter (das Pflegeverhältnis muss in der Minderjährigkeit begründet worden sein)."
+    },
+    {
+      "id": "flag-15",
+      "typ": "multiple",
+      "abschnitt": "Anspruchsvoraussetzungen",
+      "frage": "Die Eltern haben Anspruch auf Familienbeihilfe für ein Kind, welches … (wähle alle zutreffenden Konstellationen)",
+      "optionen": [
+        "Volljährig ist und keiner Berufsausbildung nachgeht",
+        "Ein Studium betreibt und im Studentenwohnheim lebt",
+        "In einer eigenen Wohnung lebt und überwiegend für sich selbst sorgt",
+        "Minderjährig ist und im gemeinsamen Haushalt lebt",
+        "In den Ferien von der Tante betreut wird"
+      ],
+      "korrekt": [
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Anspruch besteht für: ein Kind in Berufsausbildung (z.B. Studium), auch wenn es aus Ausbildungsgründen nicht im elterlichen Haushalt lebt (Studentenwohnheim); ein minderjähriges Kind, das im gemeinsamen Haushalt lebt; ein Kind, das vorübergehend (z.B. in den Ferien) von einer anderen Person betreut wird – die Haushaltszugehörigkeit zu den Eltern bleibt dabei aufrecht. Kein Anspruch besteht hingegen für ein volljähriges Kind ohne Berufsausbildung oder ein Kind, das dauerhaft eigenständig lebt und überwiegend selbst für sich sorgt."
+    },
+    {
+      "id": "flag-16",
+      "typ": "multiple",
+      "abschnitt": "Anspruchsvoraussetzungen",
+      "frage": "Die Eltern haben Anspruch auf Familienbeihilfe für ein Kind, welches … (weitere Konstellationen)",
+      "optionen": [
+        "Minderjährig ist und keiner Berufsausbildung nachgeht",
+        "Bei der Großmutter lebt",
+        "Den Zivildienst absolviert",
+        "Ein Freiwilliges Soziales Jahr absolviert",
+        "Aufgrund der Berufsausbildung eine Zweitunterkunft bewohnt"
+      ],
+      "korrekt": [
+        0,
+        3,
+        4
+      ],
+      "erklaerung": "Anspruch besteht für: ein minderjähriges Kind (unabhängig von Berufsausbildung); ein Kind beim Freiwilligen Sozialen Jahr (gilt als begünstigte Tätigkeit iSd FLAG); ein Kind, das aus Ausbildungsgründen eine Zweitunterkunft bewohnt (Haushaltszugehörigkeit zu den Eltern bleibt bestehen). Kein Anspruch besteht während des Zivildienstes (dieser ist explizit ausgeschlossen) und wenn das Kind dauerhaft im Haushalt der Großmutter lebt (fehlende Haushaltszugehörigkeit zu den Eltern, Großmutter wäre dann primär anspruchsberechtigt)."
     }
   ]
 }
