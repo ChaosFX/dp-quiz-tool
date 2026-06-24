@@ -1,0 +1,37 @@
+{
+  "fach": "ESt",
+  "thema": "Rückstellungen (§ 9 EStG)",
+  "quelle_note": "Einkommensteuer/Rückstellungen.md",
+  "karten": [
+    {
+      "id": "est-rueckstellungen-9-estg-01",
+      "frage": "Wozu dienen Rückstellungen?",
+      "antwort": "Sie ordnen Ausgaben, die erst in späteren Perioden konkret anfallen, der Periode ihres **wirtschaftlichen Entstehens** als Aufwand zu (periodengerechte Gewinnermittlung, Realisationsprinzip)."
+    },
+    {
+      "id": "est-rueckstellungen-9-estg-02",
+      "frage": "Welche Arten sind nach § 9 zulässig?",
+      "antwort": "(1) Abfertigungs-, (2) Pensions-, (3) Verbindlichkeitsrückstellungen (sonstige ungewisse Verbindlichkeiten), (4) Drohverlustrückstellungen, **Taxativ**."
+    },
+    {
+      "id": "est-rueckstellungen-9-estg-03",
+      "frage": "Wodurch unterscheidet sich eine Rückstellung von einer Verbindlichkeit?",
+      "antwort": "Durch den **Grad der Ungewissheit**. Sind Grund **und** Höhe gewiss -> Verbindlichkeit."
+    },
+    {
+      "id": "est-rueckstellungen-9-estg-04",
+      "frage": "Wie wird je nach Gewinnermittlungsart rückgestellt?",
+      "antwort": "§ 5: Pflicht (Maßgeblichkeit, außer § 9-Verbot). \n§ 4 Abs 1: Wahlrecht -> durch Stetigkeit Pflicht.\n§ 4 Abs 3 (EAR): keine Rst, nur fiktiver Abfertigungs-Freibetrag."
+    },
+    {
+      "id": "est-rueckstellungen-9-estg-05",
+      "frage": "Was besagt das Nachholverbot?",
+      "antwort": "Eine Rückstellung darf nur im Jahr des wirtschaftlichen Entstehens gebildet werden; eine unterlassene Bildung kann nicht in einem späteren Jahr nachgeholt werden."
+    },
+    {
+      "id": "est-rueckstellungen-9-estg-06",
+      "frage": "Wie werden langfristige Rückstellungen bewertet?",
+      "antwort": "Grundsatz Teilwert = unabgezinster Erfüllungsbetrag; bei Laufzeit > 12 Monate Abzinsung mit **3,5 % p.a.** (Ausnahme: § 14-Rückstellungen)."
+    }
+  ]
+}

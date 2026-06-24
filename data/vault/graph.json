@@ -127,6 +127,12 @@
       "pfad": "Einkommensteuer/Prinzipien der Einkommensteuer.md"
     },
     {
+      "id": "Einkommensteuer/Rückstellungen",
+      "label": "Rückstellungen (§ 9 EStG)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Rückstellungen.md"
+    },
+    {
       "id": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
       "label": "Sachliche Steuerpflicht Einkommen",
       "fach": "ESt",
@@ -347,6 +353,12 @@
       "label": "Bewertung",
       "fach": "ESt",
       "pfad": "Rechtsquellen/EStG/§ 6 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 9 EStG",
+      "label": "Rückstellungen",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 9 EStG.md"
     },
     {
       "id": "Rechtsquellen/KStG/§ 1 KStG",
@@ -857,6 +869,22 @@
     {
       "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
       "target": "Einkommensteuer/Persönliche Steuerpflicht"
+    },
+    {
+      "source": "Einkommensteuer/Rückstellungen",
+      "target": "Rechtsquellen/EStG/§ 9 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Rückstellungen",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Rückstellungen",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Rückstellungen",
+      "target": "Einkommensteuer/Bewertung Wirtschaftsgüter"
     },
     {
       "source": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
