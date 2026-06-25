@@ -1,0 +1,42 @@
+{
+  "fach": "USt",
+  "thema": "Eigenverbrauch",
+  "quelle_note": "Umsatzsteuer/Eigenverbrauch USt.md",
+  "karten": [
+    {
+      "id": "ust-eigenverbrauch-01",
+      "frage": "Was ist allen Eigenverbrauchs-Tatbeständen gemeinsam - und welche Folge hat das für die BMG?",
+      "antwort": "Allen gemeinsam ist das **Fehlen des Entgelts** - der Unternehmer (oder eine ihm nahestehende Person) nimmt die Leistung ohne Gegenleistung in Anspruch. Folge: Die Bemessungsgrundlage kann nicht aus dem Entgelt abgeleitet werden, sondern ist **gesondert nach § 4 Abs 8** zu bestimmen."
+    },
+    {
+      "id": "ust-eigenverbrauch-02",
+      "frage": "Nenne die drei kumulativen Voraussetzungen des Entnahmeeigenverbrauchs (§ 3 Abs 2).",
+      "antwort": "1. Der Gegenstand wurde **zunächst für das Unternehmen angeschafft**.\n2. Er wird **dauerhaft** dem Unternehmen für Zwecke **außerhalb** des Unternehmens entzogen.\n3. Es bestand ein **Vorsteuerabzugsrecht** für den Gegenstand."
+    },
+    {
+      "id": "ust-eigenverbrauch-03",
+      "frage": "Wie unterscheidet sich die BMG bei Entnahme- vs. Verwendungseigenverbrauch?",
+      "antwort": "- **Entnahme-EV:** Einkaufspreis zzgl. Nebenkosten bzw. **Wiederbeschaffungskosten** zum Zeitpunkt der Entnahme (bei Eigenherstellung: **Selbstkosten**).\n- **Verwendungs-EV:** die anteiligen **Kosten** der Nutzung - **AfA + laufende Betriebskosten**, soweit sie zum Vorsteuerabzug berechtig hatten.\nLogik: Bei der Entnahme geht der ganze Gegenstand \"raus\" (Substanzwert), bei der Verwendung nur die anteilige Nutzung (laufende Kosten)."
+    },
+    {
+      "id": "ust-eigenverbrauch-04",
+      "frage": "Bei welchem Tatbestand ist ein vorheriger VSt-Abzug NICHT erforderlich - und warum?",
+      "antwort": "Beim **Leistungseigenverbrauch (§ 3a Abs 1a Z 2)**. Er erfasst v.a. die unentgeltliche Verwendung von **Arbeitnehmern** für unternehmensfremde Zwecke - und **Lohnkosten enthalten keine abziehbare Vorsteuer**. Ein \"zu korrigierender\" Vorsteuerabzug ist also gar nicht denkbar; die Besteuerung knüpft allein an die unentgeltliche Leistungserbringung an."
+    },
+    {
+      "id": "ust-eigenverbrauch-05",
+      "frage": "Warum ist bei gemischt genutzten Grundstücken ein Verwendungseigenverbrauch ausgeschlossen?",
+      "antwort": "Weil bei gemischt genutzten Grundstücken der **Vorsteuerabzug ohnehin nur im Ausmaß der unternehmerischen Nutzung** zusteht (§ 12 Abs 3 Z 4). Für den **privat** genutzten Teil gibt es **gar keinen Abzug**, der über einen Eigenverbrauch korrigiert werden müsste. Daher schließt **§ 3a Abs 1a letzter Satz** den Verwendungs-EV bei Grundstücken aus. Einen spätere Erhöhung der unternehmerischen Nutzung wird über die **Vorsteuerberichtigung § 12 Abs 10** abgebildet."
+    },
+    {
+      "id": "ust-eigenverbrauch-06",
+      "frage": "Der Malermeister streicht sein eigenes Wohnhaus. Leistungseigenverbrauch? Und das Material?",
+      "antwort": "**Keine Leistungsentnahme:** Leistungen, die der **Inhaber selbst** erbringt, sind nicht erfasst - für \"Eigenleistungen\" des Unternehmers fallen **keine Kosten** an (es gäbe keine Bemessungsgrundlage). Das verwendete **Material** ist jedoch sehr wohl als **Entnahmeeigenverbrauch nach § 3 Abs 2** zu versteuern."
+    },
+    {
+      "id": "ust-eigenverbrauch-07",
+      "frage": "Welche Vorgänge sind KEINE Entnahme (Bagatellgrenze)?",
+      "antwort": "Geschenke von **geringem Wert** (ca. **40 € pro Jahr**), **Warenmuster**, **Verkaufskataloge**, **Reiseprospekte** und **Probeexemplare**."
+    }
+  ]
+}

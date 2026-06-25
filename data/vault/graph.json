@@ -397,6 +397,12 @@
       "pfad": "Rechtsquellen/UStG/§ 2 UStG.md"
     },
     {
+      "id": "Umsatzsteuer/Eigenverbrauch USt",
+      "label": "Eigenverbrauch",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Eigenverbrauch USt.md"
+    },
+    {
       "id": "Umsatzsteuer/Leistungsbegriff USt",
       "label": "Leistungsbegriff USt",
       "fach": "USt",
@@ -1567,6 +1573,26 @@
       "target": "Rechtsquellen/EStG/§ 5 EStG"
     },
     {
+      "source": "Rechtsquellen/EStG/§ 9 EStG",
+      "target": "Einkommensteuer/Rückstellungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 9 EStG",
+      "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 9 EStG",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 9 EStG",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 9 EStG",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
       "source": "Rechtsquellen/KStG/§ 1 KStG",
       "target": "Rechtsquellen/KStG/§ 2 KStG"
     },
@@ -1667,12 +1693,36 @@
       "target": "Einkommensteuer/Liebhaberei"
     },
     {
+      "source": "Umsatzsteuer/Eigenverbrauch USt",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Umsatzsteuer/Eigenverbrauch USt",
+      "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
+    },
+    {
+      "source": "Umsatzsteuer/Eigenverbrauch USt",
+      "target": "Umsatzsteuer/Leistungsbegriff USt"
+    },
+    {
+      "source": "Umsatzsteuer/Eigenverbrauch USt",
+      "target": "Umsatzsteuer/Lieferort USt"
+    },
+    {
+      "source": "Umsatzsteuer/Eigenverbrauch USt",
+      "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
+    },
+    {
       "source": "Umsatzsteuer/Leistungsbegriff USt",
       "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
     },
     {
       "source": "Umsatzsteuer/Lieferort USt",
       "target": "Umsatzsteuer/Leistungsbegriff USt"
+    },
+    {
+      "source": "Umsatzsteuer/Lieferort USt",
+      "target": "Umsatzsteuer/Eigenverbrauch USt"
     },
     {
       "source": "Umsatzsteuer/Lieferort USt",
