@@ -1,6 +1,6 @@
 {
   "fach": "USt",
-  "quelle": "Gesamt-Fragensatz USt: 70 Basis-Fragen (ust-01..ust-70) + 50 Kursbeispiele \"allgemein bis zur Rechnung\" (ust-71..ust-120)",
+  "quelle": "Gesamt-Fragensatz USt (140 Fragen): 70 Basis-Fragen (ust-01..ust-70), 50 Kursbeispiele \"allgemein bis zur Rechnung\" (ust-71..ust-120), 20 Stufe-2-Erweiterungen (ust-121..ust-140)",
   "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Skriptum BMF Okt. 2025 (KU-Grenze 55.000).",
   "fragen": [
     {
@@ -1232,10 +1232,9 @@
       ],
       "korrekt": [
         0,
-        1,
-        3
+        1
       ],
-      "erklaerung": "Fernseher verschenkt = Entnahmeeigenverbrauch (§ 3 Abs 2); Lieferwagen privat genutzt = Verwendungseigenverbrauch (§ 3a Abs 1a Z 1); Gratis-Reparatur für die Tante = Leistungseigenverbrauch (§ 3a Abs 1a Z 2, BMG = anteilige Kosten). Der Verkauf der Stehlampe aus dem Privathaushalt ist nicht im Rahmen des Unternehmens -> nicht steuerbar."
+      "erklaerung": "Fernseher verschenkt = Entnahmeeigenverbrauch (§ 3 Abs 2); Lieferwagen privat genutzt = Verwendungseigenverbrauch (§ 3a Abs 1a Z 1). Der Verkauf der Stehlampe aus dem Privathaushalt ist nicht im Rahmen des Unternehmens -> nicht steuerbar. Die unentgeltliche Reparatur (reine Arbeitsleistung) für die Tante ist nicht zu erfassen: bloße Gefälligkeit ohne Vorsteuer-/Kostenbezug, kein steuerbarer Leistungseigenverbrauch."
     },
     {
       "id": "ust-82",
@@ -1284,7 +1283,7 @@
         2,
         3
       ],
-      "erklaerung": "Der steuerbare Leistungsaustausch setzt zwei Beteiligte (Leistungserbringer und -empfänger), eine Leistung und Gegenleistung sowie deren innere Verknüpfung (wirtschaftlicher Zusammenhang) voraus. Alle vier Merkmale treffen zu."
+      "erklaerung": "Der steuerbare Leistungsaustausch setzt zwei Beteiligte (Leistungserbringer und -empfänger), eine Leistung und eine Gegenleistung (= das Entgelt, das der Empfänger hingibt) sowie deren innere Verknüpfung (\"Leistung gegen Entgelt\") voraus. Alle vier Merkmale treffen zu."
     },
     {
       "id": "ust-85",
@@ -1726,17 +1725,17 @@
         "Juristische Personen des Privatrechts",
         "Natürliche Personen unabhängig von ihrer zivilrechtlichen Handlungsfähigkeit",
         "Der Bund im Bereich der Hoheitsverwaltung",
-        "Natürliche Personen, wenn sie volljährig sind"
+        "Natürliche Personen, aber nur wenn sie volljährig sind"
       ],
       "korrekt": [
         0,
         1
       ],
-      "erklaerung": "Unternehmerfähig sind juristische Personen des Privatrechts und natürliche Personen unabhängig von ihrer zivilrechtlichen Handlungsfähigkeit (auch Minderjährige). Der Bund im Hoheitsbereich ist nicht unternehmerisch; Volljährigkeit ist keine Voraussetzung."
+      "erklaerung": "Unternehmerfähig sind juristische Personen des Privatrechts und natürliche Personen unabhängig von ihrer zivilrechtlichen Handlungsfähigkeit (auch Minderjährige). Der Bund im Hoheitsbereich ist nicht unternehmerisch; die Beschränkung auf nur volljährige Personen ist falsch."
     },
     {
       "id": "ust-112",
-      "typ": "single",
+      "typ": "multiple",
       "frage": "Emil Müller (Wohnsitz in Hamburg) hat ein Einfamilienhaus in Klagenfurt geerbt und vermietet es um mtl. 1.000 an eine Familie zu Wohnzwecken. Weitere Einnahmen in Österreich hat er nicht, auch keinen Wohnsitz oder gewöhnlichen Aufenthalt in Österreich. Welche Aussagen treffen zu?",
       "optionen": [
         "Müller kann die Kleinunternehmerbefreiung in Anspruch nehmen",
@@ -1745,9 +1744,10 @@
         "Es handelt sich um eine Grundstücksleistung, diese ist in Deutschland steuerbar"
       ],
       "korrekt": [
+        0,
         1
       ],
-      "erklaerung": "Das Grundstück liegt in Klagenfurt -> steuerbar am Grundstücksort (Österreich); Wohnungsvermietung = 10 %. Die antragslose KU-Befreiung greift nicht, da Müller sein Unternehmen in Deutschland betreibt (möglich wäre die EU-KU nur über das SME-Verfahren nach Art 6a im Ansässigkeitsstaat). Die Staatsangehörigkeit ändert den Steuersatz nicht."
+      "erklaerung": "Das Grundstück liegt in Klagenfurt -> steuerbar am Grundstücksort (Österreich); als Wohnungsvermietung mit 10 % (nicht 20 %, nicht in Deutschland steuerbar). Müller kann zudem die Kleinunternehmerbefreiung in Anspruch nehmen: Sein unionsweiter Umsatz liegt deutlich unter 100.000 (und unter 55.000), sodass die ab 2025 auf EU-Unternehmer erweiterte KU-Regelung (§ 6 Abs 1 Z 27) greift. Verzichtet er auf die KU-Befreiung (Regelbesteuerung), ist die Vermietung mit 10 % steuerpflichtig."
     },
     {
       "id": "ust-113",
@@ -1822,10 +1822,11 @@
         "Steuerträger ist der Letztverbraucher"
       ],
       "korrekt": [
+        1,
         2,
         3
       ],
-      "erklaerung": "Steuerschuldner ist grundsätzlich der leistende Unternehmer, Steuerträger der Letztverbraucher. Die USt ist eine indirekte Steuer (Verkehr-/Verbrauchsteuer), keine direkte Steuer und keine Objektsteuer."
+      "erklaerung": "Steuerschuldner ist grundsätzlich der leistende Unternehmer, Steuerträger der Letztverbraucher. Die USt ist eine Objektsteuer: Sie besteuert den Leistungsaustausch und nimmt auf persönliche Verhältnisse keine Rücksicht. Sie ist zudem eine indirekte Steuer (Steuerschuldner ≠ Steuerträger). Option 0 (\"direkte Steuer\") ist falsch."
     },
     {
       "id": "ust-118",
@@ -1874,6 +1875,333 @@
         0
       ],
       "erklaerung": "Beim Reihengeschäft schließen mehrere Unternehmer über denselben Gegenstand Umsatzgeschäfte in der Kette ab, es gibt aber nur eine Warenbewegung. Daher gibt es genau eine bewegte Lieferung; alle übrigen sind ruhende Lieferungen."
+    },
+    {
+      "id": "ust-121",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur Vorsteuerberichtigung nach § 12 Abs 10 treffen zu?",
+      "optionen": [
+        "Der Berichtigungszeitraum für bewegliche Anlagegüter beträgt 5 Jahre (Jahr der erstmaligen Verwendung + 4 Folgejahre)",
+        "Der Berichtigungszeitraum für Grundstücke beträgt 20 Jahre (Jahr + 19 Folgejahre)",
+        "Eine Berichtigung unterbleibt, wenn der Korrekturbetrag je Gegenstand und Jahr 60 EUR nicht übersteigt (Bagatellgrenze)",
+        "Bei beweglichen Gütern beträgt der Berichtigungszeitraum 10 Jahre"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Berichtigungszeitraum: bewegliche Anlagegüter 5 Jahre (jährlich 1/5), Grundstücke 20 Jahre (jährlich 1/20). Die Bagatellgrenze (§ 12 Abs 13) liegt bei 60 EUR je Gegenstand und Jahr. Einen 10-Jahres-Zeitraum für bewegliche Güter gibt es nicht (10 Jahre nur im WGG-Sonderfall)."
+    },
+    {
+      "id": "ust-122",
+      "typ": "single",
+      "frage": "Ein Unternehmer kauft im Jahr 01 ein Gebäude (Vorsteuer 200.000) und nutzt es steuerpflichtig. Im Jahr 04 verkauft er es unecht steuerfrei (ohne Option zur Steuerpflicht). Wie viele Zwanzigstel der Vorsteuer sind zu berichtigen?",
+      "optionen": [
+        "3/20",
+        "17/20",
+        "16/20",
+        "keine, der Verkauf ist nicht steuerbar"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Für die Jahre 01-03 steht je 1/20 zu (3/20). Ab dem Jahr der Veränderung (Jahr 04) bis zum Ende des 20-jährigen Zeitraums ist zu berichtigen = 17/20 (negative Berichtigung, KZ 063). Vermeidbar durch Option zur Steuerpflicht beim Verkauf."
+    },
+    {
+      "id": "ust-123",
+      "typ": "multiple",
+      "frage": "In welchen Fällen liegt KEINE Änderung der Verhältnisse iSd § 12 Abs 10 vor (somit keine Vorsteuerberichtigung)?",
+      "optionen": [
+        "Erbschaft (Gesamtrechtsnachfolge)",
+        "Einlage",
+        "Umgründung iSd UmgStG (nicht steuerbarer Vorgang)",
+        "Wechsel von steuerpflichtiger zu unecht steuerfreier Verwendung"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Keine Änderung der Verhältnisse: Einlagen, nicht steuerbare Umgründungen und Gesamtrechtsnachfolge (Erbschaft). Der Wechsel von steuerpflichtiger zu unecht steuerfreier Verwendung ist gerade der klassische Berichtigungsfall."
+    },
+    {
+      "id": "ust-124",
+      "typ": "multiple",
+      "frage": "Wann geht die Steuerschuld nach § 19 Abs 1 Satz 2 (grenzüberschreitendes Reverse Charge) auf den Leistungsempfänger über?",
+      "optionen": [
+        "Es handelt sich um eine sonstige Leistung oder Werklieferung",
+        "Der leistende Unternehmer betreibt sein Unternehmen nicht im Inland (kein Sitz/keine beteiligte Betriebsstätte im Inland)",
+        "Der Leistungsempfänger ist Unternehmer oder eine juristische Person des öffentlichen Rechts",
+        "Der Leistungsempfänger ist eine Privatperson"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "RCS (§ 19 Abs 1 Satz 2): sonstige Leistung oder Werklieferung eines ausländischen Unternehmers (kein Inlandssitz/keine beteiligte inländische Betriebsstätte) an einen unternehmerischen Empfänger bzw. eine juristische Person öR. Ein Wohnsitz im Inland ist unschädlich. An Privatpersonen geht die Steuerschuld nicht über (Ausnahmen u.a. Maut, Veranstaltungsleistungen, Grundstücksvermietung)."
+    },
+    {
+      "id": "ust-125",
+      "typ": "single",
+      "frage": "Ein Subunternehmer erbringt eine Bauleistung an einen Generalunternehmer, der seinerseits mit einer Bauleistung beauftragt wurde. Wer schuldet die USt?",
+      "optionen": [
+        "Der Generalunternehmer (Leistungsempfänger) – Übergang der Steuerschuld nach § 19 Abs 1a",
+        "Der Subunternehmer, der 20 % USt in der Rechnung ausweist",
+        "Niemand – Bauleistungen sind unecht steuerbefreit",
+        "Der Bauherr als Letztverbraucher"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Bei Bauleistungen an einen Unternehmer, der selbst mit einer Bauleistung beauftragt ist (bzw. an einen Bauleister), geht die Steuerschuld auf den Leistungsempfänger über (§ 19 Abs 1a). Der leistende Unternehmer haftet. Erbringt der Generalunternehmer an einen Nicht-Bauleister/Privaten, verrechnet er normal USt."
+    },
+    {
+      "id": "ust-126",
+      "typ": "single",
+      "frage": "Zu welchem Zeitpunkt steht dem Leistungsempfänger bei Übergang der Steuerschuld (Reverse Charge) der Vorsteuerabzug zu?",
+      "optionen": [
+        "Im Zeitpunkt des Übergangs der Steuerschuld – auch ohne ordnungsgemäße Rechnung",
+        "Erst nach Erhalt einer ordnungsgemäßen Rechnung mit gesondertem Steuerausweis",
+        "Erst im Zeitpunkt der Bezahlung",
+        "Gar nicht, beim Reverse Charge gibt es keinen Vorsteuerabzug"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Beim Reverse Charge (ebenso bei ig Erwerb und Bauleistungen) entsteht der Vorsteuerabzug im Zeitpunkt des Übergangs der Steuerschuld – auch ohne ordnungsgemäße Rechnung, sofern die übrigen Voraussetzungen des § 12 vorliegen. Der Empfänger trägt KZ 057 (Steuerbetrag) und KZ 066 (Vorsteuer) ein."
+    },
+    {
+      "id": "ust-127",
+      "typ": "multiple",
+      "frage": "Eine GmbH stellt Rechnungen mit offenem USt-Ausweis über Leistungen aus, die nie erbracht wurden (Scheinrechnungen). Was gilt?",
+      "optionen": [
+        "Die GmbH schuldet die ausgewiesene USt allein aufgrund der Rechnungslegung (§ 11 Abs 14)",
+        "Unternehmer, die solche Rechnungen besitzen, können daraus keine Vorsteuer geltend machen",
+        "Auch ein Nichtunternehmer schuldet eine zu Unrecht gesondert ausgewiesene USt",
+        "Da keine Leistung erbracht wurde, schuldet niemand etwas"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Wer USt gesondert ausweist, obwohl er keine Leistung erbringt oder nicht Unternehmer ist, schuldet diesen Betrag kraft Rechnungslegung (§ 11 Abs 14). Aus solchen Rechnungen steht kein Vorsteuerabzug zu."
+    },
+    {
+      "id": "ust-128",
+      "typ": "single",
+      "frage": "Ein österreichischer Architekt plant ein Bürogebäude, das in Spanien errichtet wird; Auftraggeber ist ein österreichisches Unternehmen. Wo ist die Planungsleistung steuerbar?",
+      "optionen": [
+        "In Spanien – am Grundstücksort (§ 3a Abs 9), unabhängig von B2B/B2C",
+        "In Österreich – Empfängerort, da B2B",
+        "In Österreich – Unternehmerort des Architekten",
+        "Am Sitz des ausführenden Bauunternehmens"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Grundstücksleistungen werden stets am Grundstücksort besteuert (§ 3a Abs 9) – unabhängig von B2B/B2C. Grundstück in Spanien -> in Österreich nicht steuerbar."
+    },
+    {
+      "id": "ust-129",
+      "typ": "multiple",
+      "frage": "Welche Zuordnungen des Leistungsortes sind richtig?",
+      "optionen": [
+        "Restaurant-/Verpflegungsleistung → Tätigkeitsort",
+        "Kurzfristige Vermietung eines Beförderungsmittels (< 30 Tage) → Übergabeort",
+        "Personenbeförderung → Beförderungsstrecke",
+        "Grundstücksleistung → Sitz des Leistungsempfängers"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Restaurant/Verpflegung = Tätigkeitsort (§ 3a Abs 11 lit d); kurzfristige Beförderungsmittelvermietung = Übergabeort (§ 3a Abs 12); Personenbeförderung = Beförderungsstrecke (§ 3a Abs 10). Grundstücksleistungen folgen dem Grundstücksort, nicht dem Empfängersitz."
+    },
+    {
+      "id": "ust-130",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur Differenzbesteuerung (§ 24) treffen zu?",
+      "optionen": [
+        "Sie gilt für Wiederverkäufer von Gebrauchtgegenständen, Kunst, Antiquitäten und Sammlungsstücken",
+        "Voraussetzung ist, dass beim Einkauf kein Vorsteuerabzug möglich war",
+        "Bemessungsgrundlage ist die Differenz zwischen Verkaufs- und Einkaufspreis (Marge)",
+        "In der Rechnung ist die USt offen auszuweisen"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Differenzbesteuerung: Wiederverkäufer von Gebrauchtgegenständen/Kunst/Antiquitäten/Sammlungsstücken, kein Vorsteuerabzug beim Einkauf. BMG = Differenz (Marge, brutto, USt herausgerechnet), stets Normalsteuersatz. In der Rechnung KEIN offener USt-Ausweis, nur Hinweis auf die Differenzbesteuerung."
+    },
+    {
+      "id": "ust-131",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zum innergemeinschaftlichen Erwerb (Art 1) treffen zu?",
+      "optionen": [
+        "Der Gegenstand gelangt aus einem anderen Mitgliedstaat ins Inland",
+        "Der Erwerber ist Unternehmer und erwirbt für sein Unternehmen",
+        "Der Erwerber schuldet die Erwerbsteuer, kann sie bei Vorsteuerabzugsberechtigung aber gleichzeitig als Vorsteuer abziehen",
+        "Der innergemeinschaftliche Erwerb ist im Bestimmungsland nicht steuerbar"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "ig Erwerb: Warenbewegung aus einem Mitgliedstaat ins Inland, Erwerber ist Unternehmer (für sein Unternehmen), Lieferer ist Unternehmer. Besteuerung im Bestimmungsland (Inland): Erwerbsteuer mit – bei Vorsteuerabzugsberechtigung – gleichzeitigem Vorsteuerabzug (im Ergebnis oft Null)."
+    },
+    {
+      "id": "ust-132",
+      "typ": "single",
+      "frage": "Ein ausländischer Unternehmer erbringt im Inland eine steuerpflichtige Leistung, bei der es NICHT zum Reverse Charge kommt. Was sieht § 27 Abs 4 für den inländischen unternehmerischen Leistungsempfänger vor?",
+      "optionen": [
+        "Er muss die auf die Leistung entfallende USt einbehalten und für Rechnung des ausländischen Unternehmers an das Finanzamt abführen",
+        "Er muss nichts veranlassen, der ausländische Unternehmer führt selbst ab",
+        "Er haftet nur dann, wenn er bösgläubig war",
+        "Er schuldet die USt wie beim Reverse Charge in eigenem Namen"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "§ 27 Abs 4 (Abfuhrverpflichtung für fremde Steuerschuld): Der inländische unternehmerische Leistungsempfänger (bzw. jur. Person öR) hat die USt eines ausländischen Unternehmers einzubehalten und für dessen Rechnung abzuführen. Anders als beim Reverse Charge schuldet er die Steuer nicht in eigenem Namen; unterlässt er die Einbehaltung, haftet er."
+    },
+    {
+      "id": "ust-133",
+      "typ": "multiple",
+      "frage": "Wie bemisst sich die Bemessungsgrundlage beim Eigenverbrauch?",
+      "optionen": [
+        "Entnahme eines Gegenstands: Einkaufspreis bzw. Wiederbeschaffungskosten (mangels solcher die Selbstkosten) im Zeitpunkt der Entnahme",
+        "Verwendungseigenverbrauch (private Nutzung): die anteiligen Kosten einschließlich AfA",
+        "Entnahme: stets der seinerzeitige historische Anschaffungspreis",
+        "Eigenverbrauch: der Verkaufspreis inklusive Gewinnaufschlag"
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "Entnahmeeigenverbrauch: BMG = Einkaufspreis/Wiederbeschaffungskosten im Entnahmezeitpunkt, bei selbst hergestellten Gegenständen die Selbstkosten (§ 4 Abs 8). Verwendungseigenverbrauch: anteilige Kosten inkl. AfA. Weder der historische Anschaffungspreis noch ein Gewinnaufschlag sind maßgeblich."
+    },
+    {
+      "id": "ust-134",
+      "typ": "single",
+      "frage": "Ein sollbesteuerter Unternehmer erhält im November eine Anzahlung für eine erst im Folgejahr zu erbringende Lieferung. Wann entsteht insoweit die Steuerschuld?",
+      "optionen": [
+        "Mit Ablauf des Monats der Vereinnahmung der Anzahlung (Mindest-Istbesteuerung)",
+        "Erst mit Ausführung der Lieferung im Folgejahr",
+        "Erst mit Ausstellung der Schlussrechnung",
+        "Anzahlungen lösen keine Steuerschuld aus"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Anzahlungen unterliegen der Mindest-Istbesteuerung: Die Steuerschuld entsteht auch beim Sollbesteuerer mit Ablauf des Monats der Vereinnahmung. Spiegelbildlich steht dem Zahlenden der Vorsteuerabzug im Zahlungszeitpunkt zu (bei Vorliegen einer Anzahlungsrechnung)."
+    },
+    {
+      "id": "ust-135",
+      "typ": "multiple",
+      "frage": "Wer versteuert seine Umsätze grundsätzlich nach vereinnahmten Entgelten (Istbesteuerung)?",
+      "optionen": [
+        "Angehörige freier Berufe (selbständige Arbeit, § 22 Z 1 EStG)",
+        "Nicht buchführungspflichtige Land- und Forstwirte sowie Gewerbetreibende",
+        "Sonstige Unternehmer, deren Gesamtumsatz in einem der beiden Vorjahre 110.000 nicht überstiegen hat",
+        "Buchführungspflichtige Gewerbetreibende mit 2 Mio Umsatz"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Istbesteuerung (§ 17): Freiberufler (§ 22 Z 1 EStG, ohne Umsatzgrenze), nicht buchführungspflichtige LuF und Gewerbetreibende sowie sonstige Unternehmer mit Gesamtumsatz bis 110.000 in einem der beiden Vorjahre (zudem zwingend Versorgungsunternehmen). Buchführungspflichtige über der Grenze sind Sollbesteuerer."
+    },
+    {
+      "id": "ust-136",
+      "typ": "multiple",
+      "frage": "Welche Umsätze unterliegen dem ermäßigten Steuersatz von 10 %?",
+      "optionen": [
+        "Verkauf von Büchern",
+        "Arzneimittel",
+        "Vermietung zu Wohnzwecken",
+        "Ab-Hof-Verkauf von Wein"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "10 % (Anlage 1): Bücher, Arzneimittel, Wohnungsvermietung. Der Ab-Hof-Verkauf von Wein unterliegt 13 % (Anlage 2 / § 10 Abs 3)."
+    },
+    {
+      "id": "ust-137",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur Ausfuhrlieferung (§ 7) treffen zu?",
+      "optionen": [
+        "Sie ist echt steuerfrei (mit Vorsteuerabzug)",
+        "Die Ware gelangt vom Inland in ein Drittland",
+        "Die Steuerfreiheit setzt einen buchmäßigen Nachweis voraus",
+        "Sie ist unecht steuerfrei (ohne Vorsteuerabzug)"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Die Ausfuhrlieferung (§ 7) ist echt steuerfrei (mit Vorsteuerabzug); die Ware gelangt ins Drittland; die Befreiung hängt vom buchmäßigen Nachweis ab. (Lieferungen ins übrige Gemeinschaftsgebiet sind ig Lieferungen nach Art 7.)"
+    },
+    {
+      "id": "ust-138",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur Rechnung (§ 11) treffen zu?",
+      "optionen": [
+        "Bei Kleinbetragsrechnungen bis 400 brutto genügen reduzierte Angaben",
+        "Bei Rechnungen über 10.000 brutto ist zusätzlich die UID des Leistungsempfängers anzugeben",
+        "Für innergemeinschaftliche Rechnungen gelten die Kleinbetragsregeln nicht",
+        "Eine Kleinbetragsrechnung darf bis 1.000 brutto ausgestellt werden"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Kleinbetragsrechnung bis 400 brutto (reduzierte Angaben); über 10.000 brutto ist die UID des Empfängers anzugeben; bei ig Rechnungen gelten die Kleinbetragsregeln nicht (volle Merkmale erforderlich). Die 1.000-Grenze ist falsch."
+    },
+    {
+      "id": "ust-139",
+      "typ": "multiple",
+      "frage": "Welche Kennzahl-Zuordnungen in der UVA sind richtig?",
+      "optionen": [
+        "Vorsteuern aus entrichteter Einfuhrumsatzsteuer (bare Methode) → KZ 061",
+        "Vorsteuerberichtigung nach § 12 Abs 10/11 → KZ 063",
+        "Übergegangene Steuer beim Reverse Charge (Steuerbetrag) → KZ 057",
+        "Allgemeine Vorsteuer → KZ 022"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "KZ 061 = entrichtete EUSt (unbare Methode: KZ 083); KZ 063 = Vorsteuerberichtigung (mit Vorzeichen); KZ 057 = übergegangene Steuer beim Reverse Charge (Steuerbetrag, zugehörige Vorsteuer KZ 066). KZ 022 ist der 20%-Normalsteuersatz der Ausgangsumsätze – die allgemeine Vorsteuer steht unter KZ 060."
+    },
+    {
+      "id": "ust-140",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur Kleinunternehmerregelung (Rechtslage ab 2025) treffen zu?",
+      "optionen": [
+        "Auch in einem anderen Mitgliedstaat ansässige Unternehmer können die Befreiung nutzen, wenn ihr unionsweiter Umsatz 100.000 nicht übersteigt und sie das Verfahren nach Art 6a beantragen",
+        "Die Umsatzgrenze beträgt 55.000 und stellt auf den tatsächlichen Umsatz (ohne unterstellte Steuerpflicht) ab",
+        "Bei Überschreiten um höchstens 10 % bleibt die KU-Eigenschaft bis zum Jahresende erhalten",
+        "Kleinunternehmer sind echt steuerbefreit und voll vorsteuerabzugsberechtigt"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Seit 2025: nationale Grenze 55.000 (tatsächlicher Umsatz ohne unterstellte Steuerpflicht); in einem anderen MS ansässige Unternehmer können die Befreiung über das Art-6a-Verfahren nutzen (unionsweiter Umsatz höchstens 100.000); Toleranzregel bis 10 % bis Jahresende. Kleinunternehmer sind UNECHT befreit – kein Vorsteuerabzug."
     }
   ]
 }
