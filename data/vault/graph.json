@@ -91,6 +91,12 @@
       "pfad": "Einkommensteuer/ImmoESt.md"
     },
     {
+      "id": "Einkommensteuer/Investitionsförderungen",
+      "label": "Investitionsförderungen - Überblick & Investitionsfreibetrag (§ 11)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Investitionsförderungen.md"
+    },
+    {
       "id": "Einkommensteuer/Liebhaberei",
       "label": "Liebhaberei",
       "fach": "ESt",
