@@ -85,6 +85,12 @@
       "pfad": "Einkommensteuer/Gewinnermittlung - Überblick.md"
     },
     {
+      "id": "Einkommensteuer/Gewinnfreibetrag",
+      "label": "Gewinnfreibetrag (§ 10 EStG)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Gewinnfreibetrag.md"
+    },
+    {
       "id": "Einkommensteuer/ImmoESt",
       "label": "ImmoESt",
       "fach": "ESt",
@@ -311,6 +317,18 @@
       "label": "Persönliche Steuerpflicht",
       "fach": "ESt",
       "pfad": "Rechtsquellen/EStG/§ 1 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 10 EStG",
+      "label": "§ 10 EStG – Gewinnfreibetrag",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 10 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 11 EStG",
+      "label": "§ 11 EStG – Investitionsfreibetrag (IFB)",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 11 EStG.md"
     },
     {
       "id": "Rechtsquellen/EStG/§ 18 EStG",
@@ -777,6 +795,30 @@
     {
       "source": "Einkommensteuer/Gewinnermittlung - Überblick",
       "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnfreibetrag",
+      "target": "Rechtsquellen/EStG/§ 10 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Investitionsförderungen",
+      "target": "Rechtsquellen/EStG/§ 11 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Investitionsförderungen",
+      "target": "Einkommensteuer/Gewinnfreibetrag"
+    },
+    {
+      "source": "Einkommensteuer/Investitionsförderungen",
+      "target": "Rechtsquellen/EStG/§ 10 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Investitionsförderungen",
+      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+    },
+    {
+      "source": "Einkommensteuer/Investitionsförderungen",
+      "target": "Einkommensteuer/AfA"
     },
     {
       "source": "Einkommensteuer/Liebhaberei",
@@ -1369,6 +1411,26 @@
     {
       "source": "Rechtsquellen/EStG/§ 1 EStG",
       "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 10 EStG",
+      "target": "Einkommensteuer/Gewinnfreibetrag"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 10 EStG",
+      "target": "Einkommensteuer/Investitionsförderungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 10 EStG",
+      "target": "Rechtsquellen/EStG/§ 11 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 11 EStG",
+      "target": "Einkommensteuer/Investitionsförderungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 11 EStG",
+      "target": "Rechtsquellen/EStG/§ 10 EStG"
     },
     {
       "source": "Rechtsquellen/EStG/§ 18 EStG",
