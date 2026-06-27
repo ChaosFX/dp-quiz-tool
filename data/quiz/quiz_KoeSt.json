@@ -1,821 +1,316 @@
 {
   "fach": "KöSt",
+  "quelle": "BFA-Skriptum Körperschaftsteuer (Ko_St_Oktober_2025_GAB), Stand Veranlagung 2025; KStG/EStG/BAO in geltender Fassung.",
+  "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025.",
   "fragen": [
     {
-      "id": "koest-01",
-      "frage": "Welche Steuersubjekte unterliegen grundsätzlich der Körperschaftsteuer?",
-      "optionen": [
-        "Juristische Personen wie Kapitalgesellschaften (z.B. GmbH, AG), nicht jedoch grundsätzlich Personengesellschaften, deren Gewinn den Gesellschaftern unmittelbar zugerechnet wird",
-        "Ausschließlich natürliche Personen",
-        "Personengesellschaften werden in jedem Fall genauso wie Kapitalgesellschaften körperschaftsteuerpflichtig behandelt",
-        "Es gibt keine Steuersubjekte der Körperschaftsteuer, sie ist Teil der Einkommensteuer"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Körperschaftsteuersubjekte sind insbesondere juristische Personen wie Kapitalgesellschaften (GmbH, AG); Personengesellschaften (z.B. OG, KG) sind hingegen grundsätzlich nicht selbst körperschaftsteuerpflichtig – ihr Gewinn wird im Feststellungsverfahren unmittelbar den Gesellschaftern zugerechnet (Transparenzprinzip)."
-    },
-    {
-      "id": "koest-02",
-      "frage": "Was unterscheidet die Besteuerung von Personengesellschaften von jener von Kapitalgesellschaften grundlegend?",
-      "optionen": [
-        "Personengesellschaften werden nach dem Transparenzprinzip besteuert (Zurechnung des Gewinns an die Gesellschafter), Kapitalgesellschaften nach dem Trennungsprinzip als eigenständiges Steuersubjekt",
-        "Es gibt zwischen beiden Gesellschaftsformen keinen relevanten steuerlichen Unterschied",
-        "Kapitalgesellschaften werden ebenfalls nach dem Transparenzprinzip besteuert",
-        "Personengesellschaften unterliegen stets der Körperschaftsteuer wie Kapitalgesellschaften"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Personengesellschaften werden steuerlich transparent behandelt – der erzielte Gewinn wird unmittelbar den Gesellschaftern zugerechnet und bei diesen (im Rahmen der ESt oder KöSt) besteuert. Kapitalgesellschaften hingegen sind nach dem Trennungsprinzip selbst eigenständige Steuersubjekte, deren Gewinn zunächst auf Ebene der Gesellschaft der KöSt unterliegt."
-    },
-    {
-      "id": "koest-03",
-      "frage": "Was sind die Grundprinzipien der KöSt im Vergleich zur ESt?",
-      "optionen": [
-        "Die KöSt erfasst das Einkommen juristischer Personen nach einem eigenständigen System (Trennungsprinzip, Einkünftetransformation), während die ESt natürliche Personen mit ihrem Einkommen aus mehreren Einkunftsarten erfasst",
-        "KöSt und ESt sind inhaltlich völlig identisch ohne jede Differenzierung",
-        "Die KöSt kennt keine eigenen Grundprinzipien, sondern übernimmt das EStG vollständig unverändert",
-        "Die KöSt betrifft ausschließlich natürliche Personen mit hohem Einkommen"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Die KöSt knüpft zwar in vielen Bereichen an das EStG an (§ 7 Abs. 2 KStG), folgt aber eigenen Grundprinzipien wie dem Trennungsprinzip (Gesellschaft als eigenständiges Steuersubjekt) und der Einkünftetransformation (§ 7 Abs. 3 KStG), wonach bei bestimmten Körperschaften sämtliche Einkünfte als Einkünfte aus Gewerbebetrieb gelten."
-    },
-    {
-      "id": "koest-04",
-      "frage": "Was bedeutet das Trennungsprinzip im Unterschied zum Durchgriffsprinzip?",
-      "optionen": [
-        "Beim Trennungsprinzip wird die Körperschaft als eigenständiges, von ihren Gesellschaftern getrenntes Steuersubjekt behandelt; beim Durchgriffsprinzip wird auf die dahinterstehenden Personen 'durchgegriffen' und ihnen das Ergebnis unmittelbar zugerechnet",
-        "Beide Prinzipien beschreiben denselben Besteuerungsmechanismus",
-        "Das Trennungsprinzip gilt für Personengesellschaften, das Durchgriffsprinzip für Kapitalgesellschaften",
-        "Durchgriffsprinzip bedeutet, dass keinerlei Besteuerung stattfindet"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Nach dem Trennungsprinzip, das für Kapitalgesellschaften gilt, ist die Körperschaft ein von ihren Gesellschaftern getrenntes, eigenständiges Steuersubjekt. Das Durchgriffsprinzip, das für Personengesellschaften (Mitunternehmerschaften) gilt, rechnet das Ergebnis unmittelbar den dahinterstehenden Gesellschaftern zu, ohne dass die Gesellschaft selbst Steuersubjekt für die Ertragsbesteuerung ist."
-    },
-    {
-      "id": "koest-05",
-      "frage": "Wo ist die Anerkennung von Vertragsverhältnissen zwischen Körperschaft und Gesellschafter (Angehörigenjudikatur) von besonderer Bedeutung?",
-      "optionen": [
-        "Bei der Beurteilung, ob Leistungsbeziehungen zwischen Körperschaft und Gesellschafter fremdüblich sind und damit steuerlich anzuerkennen sind, oder ob eine verdeckte Ausschüttung vorliegt",
-        "Ausschließlich bei Geschäften zwischen fremden Dritten ohne jede Nahebeziehung",
-        "Die Angehörigenjudikatur ist im Körperschaftsteuerrecht ohne jede Bedeutung",
-        "Sie betrifft ausschließlich Geschäftsbeziehungen zwischen verschiedenen Kapitalgesellschaften ohne gemeinsame Gesellschafter"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Die Angehörigenjudikatur ist im Verhältnis zwischen Körperschaft und (beherrschendem) Gesellschafter besonders relevant, um zu beurteilen, ob ein Vertrag dem Fremdvergleich standhält (Publizität, klarer Inhalt, Fremdüblichkeit) und damit steuerlich anerkannt wird – andernfalls droht die Qualifikation als verdeckte Ausschüttung."
-    },
-    {
-      "id": "koest-06",
-      "frage": "Welche Arten von Anstellungsverhältnissen eines Gesellschafters bei 'seiner' GmbH kommen grundsätzlich in Betracht?",
-      "optionen": [
-        "Insbesondere ein Dienstverhältnis (Einkünfte aus nichtselbständiger Arbeit) oder bei wesentlicher Beteiligung Einkünfte nach § 22 Z 2 EStG (sonstige selbständige Arbeit)",
-        "Ein Gesellschafter kann niemals zugleich Dienstnehmer der eigenen Gesellschaft sein",
-        "Es gibt nur eine einzige mögliche Einkunftsart für Gesellschafter-Geschäftsführer",
-        "Anstellungsverhältnisse von Gesellschaftern sind körperschaftsteuerlich irrelevant"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Je nach Beteiligungshöhe und Ausgestaltung kann ein Gesellschafter-Geschäftsführer entweder im Rahmen eines klassischen Dienstverhältnisses (Einkünfte aus nichtselbständiger Arbeit) oder – bei wesentlicher Beteiligung (über 25 %) – mit Einkünften nach § 22 Z 2 EStG (sonstige selbständige Tätigkeit) für die Gesellschaft tätig sein."
-    },
-    {
-      "id": "koest-07",
-      "frage": "Was beschreibt das Prinzip der Doppelbesteuerung KöSt/ESt bei Ausschüttungen?",
-      "optionen": [
-        "Der Gewinn wird zunächst auf Ebene der Körperschaft mit KöSt belastet, bei Ausschüttung an natürliche Personen kommt zusätzlich KESt zur Anwendung, sodass es zu einer wirtschaftlichen Doppelbelastung des ausgeschütteten Gewinns kommt",
-        "Es findet im österreichischen System keinerlei Mehrfachbelastung von Gewinnen statt",
-        "Doppelbesteuerung bedeutet, dass derselbe Gewinn zweimal mit KöSt belastet wird",
-        "Dieses Prinzip betrifft ausschließlich grenzüberschreitende Sachverhalte"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Das österreichische System der Körperschaftsbesteuerung führt zu einer wirtschaftlichen Doppelbelastung: Der Gewinn der Körperschaft wird zunächst mit KöSt besteuert; wird der bereits versteuerte Gewinn an eine natürliche Person ausgeschüttet, unterliegt diese Ausschüttung zusätzlich der KESt (bzw. dem besonderen Steuersatz im Rahmen der Veranlagung)."
-    },
-    {
-      "id": "koest-08",
-      "frage": "Was unterscheidet eine unmittelbare von einer mittelbaren Beteiligung?",
-      "optionen": [
-        "Eine unmittelbare Beteiligung besteht direkt zwischen Gesellschafter und Körperschaft, eine mittelbare Beteiligung besteht über eine oder mehrere zwischengeschaltete Gesellschaften",
-        "Es handelt sich um Synonyme ohne inhaltlichen Unterschied",
-        "Eine mittelbare Beteiligung liegt nur bei börsennotierten Gesellschaften vor",
-        "Unmittelbare Beteiligungen sind körperschaftsteuerlich irrelevant"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Eine unmittelbare Beteiligung besteht direkt zwischen dem Gesellschafter und der Körperschaft; eine mittelbare Beteiligung liegt vor, wenn die Beteiligung über eine oder mehrere zwischengeschaltete Gesellschaften gehalten wird – die tatsächliche Beteiligungshöhe ist dann durch Durchrechnung der jeweiligen Beteiligungsquoten zu ermitteln."
-    },
-    {
-      "id": "koest-09",
-      "frage": "Welche Voraussetzungen müssen für die unbeschränkte Steuerpflicht einer Körperschaft nach § 1 Abs 2 Z 1 KStG vorliegen?",
-      "optionen": [
-        "Geschäftsleitung oder Sitz der Körperschaft im Inland",
-        "Ausschließlich der Sitz im Inland, die Geschäftsleitung ist irrelevant",
-        "Eine unbeschränkte Steuerpflicht setzt zwingend eine inländische Staatsbürgerschaft sämtlicher Gesellschafter voraus",
-        "Unbeschränkte Steuerpflicht besteht nur bei Körperschaften mit Umsatz über 1 Million Euro"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Unbeschränkt körperschaftsteuerpflichtig ist eine Körperschaft, wenn sie ihre Geschäftsleitung oder ihren Sitz im Inland hat (§ 1 Abs. 2 Z 1 KStG); die unbeschränkte Steuerpflicht erstreckt sich auf sämtliche in- und ausländische Einkünfte (Welteinkommensprinzip)."
-    },
-    {
-      "id": "koest-10",
-      "frage": "Was kennzeichnet die unbeschränkte Steuerpflicht von Betrieben gewerblicher Art und Anstalten von Körperschaften öffentlichen Rechts (§ 1 Abs 2 Z 2 u Z 3 KStG)?",
-      "optionen": [
-        "Auch BgA und bestimmte Anstalten von Körperschaften öffentlichen Rechts können unbeschränkt körperschaftsteuerpflichtig sein, soweit sie eine wirtschaftliche Tätigkeit ausüben, die sich von der hoheitlichen Tätigkeit abhebt",
-        "Körperschaften öffentlichen Rechts sind grundsätzlich von jeder Körperschaftsteuerpflicht ausgenommen",
-        "BgA unterliegen ausschließlich der Umsatzsteuer, niemals der Körperschaftsteuer",
-        "Anstalten öffentlichen Rechts sind körperschaftsteuerlich generell wie natürliche Personen zu behandeln"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Auch Betriebe gewerblicher Art von Körperschaften öffentlichen Rechts (§ 1 Abs. 2 Z 2 KStG) können unbeschränkt körperschaftsteuerpflichtig sein, wenn sie eine wirtschaftliche Tätigkeit von einigem Gewicht ausüben, die sich von der hoheitlichen Tätigkeit abhebt; der hoheitliche Bereich selbst bleibt unberührt. § 1 Abs. 2 Z 3 KStG ist demgegenüber ein Auffangtatbestand für nichtrechtsfähige Personenvereinigungen, Anstalten, Stiftungen und andere Zweckvermögen, deren Einkommen nicht unmittelbar bei einem anderen Steuerpflichtigen zu erfassen ist."
-    },
-    {
-      "id": "koest-11",
-      "frage": "Was kennzeichnet die beschränkte Steuerpflicht 1. Art (§ 1 Abs 3 Z 1 KStG)?",
-      "optionen": [
-        "Körperschaften ohne Sitz/Geschäftsleitung im Inland, die mit ihren inländischen Einkünften (vergleichbar einer 'normalen' Kapitalgesellschaft) der beschränkten Steuerpflicht unterliegen",
-        "Beschränkte Steuerpflicht 1. Art betrifft ausschließlich Körperschaften öffentlichen Rechts",
-        "Diese Form der Steuerpflicht gibt es im KStG nicht",
-        "Beschränkte Steuerpflicht 1. Art erfasst nur natürliche Personen"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Die beschränkte Steuerpflicht der 1. Art betrifft Körperschaften, die im Inland weder Geschäftsleitung noch Sitz haben, aber inländische Einkünfte iSd § 21 KStG (iVm § 98 EStG) erzielen – sie werden insoweit ähnlich einer unbeschränkt steuerpflichtigen Körperschaft, aber beschränkt auf die inländischen Einkünfte, besteuert."
-    },
-    {
-      "id": "koest-12",
-      "frage": "Was kennzeichnet die beschränkte Steuerpflicht 2. Art (§ 1 Abs 3 Z 2 KStG) bei Körperschaften öffentlichen Rechts?",
-      "optionen": [
-        "Sie betrifft bestimmte Kapitaleinkünfte von Körperschaften öffentlichen Rechts, die einem Steuerabzug (z.B. KESt) unterliegen, ohne dass die KöR insgesamt unbeschränkt steuerpflichtig wird",
-        "Sie betrifft ausschließlich ausländische Privatstiftungen",
-        "Beschränkte Steuerpflicht 2. Art gilt für alle natürlichen Personen mit Wohnsitz im Ausland",
-        "Diese Form der Steuerpflicht erfasst ausschließlich Einkünfte aus Gewerbebetrieb"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Die beschränkte Steuerpflicht 2. Art (§ 1 Abs. 3 Z 2 KStG) erfasst insbesondere bestimmte kapitalertragsteuerpflichtige Einkünfte von Körperschaften öffentlichen Rechts (z.B. Zinserträge), für die im Wege des Steuerabzugs (KESt) eine beschränkte Steuerpflicht besteht, ohne dass die KöR im Übrigen unbeschränkt steuerpflichtig wäre."
-    },
-    {
-      "id": "koest-13",
-      "frage": "Was regelt die beschränkte Steuerpflicht 2. Art iVm der Befreiung nach § 5 KStG (§ 1 Abs 3 Z 3 KStG)?",
-      "optionen": [
-        "Sie betrifft bestimmte sonst nach § 5 KStG befreite Körperschaften (z.B. gemeinnützige Körperschaften), die dennoch mit bestimmten kapitalertragsteuerpflichtigen Einkünften beschränkt steuerpflichtig bleiben",
-        "Sie hebt die Befreiung nach § 5 KStG für sämtliche Einkünfte vollständig auf",
-        "Diese Regelung betrifft ausschließlich Kapitalgesellschaften ohne jede Befreiung",
-        "Die beschränkte Steuerpflicht 2. Art iVm § 5 KStG existiert nicht im österreichischen Recht"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Auch grundsätzlich nach § 5 KStG (z.B. wegen Gemeinnützigkeit) befreite Körperschaften bleiben mit bestimmten kapitalertragsteuerpflichtigen Einkünften beschränkt steuerpflichtig (§ 1 Abs. 3 Z 3 iVm § 21 KStG), da die Befreiung nicht alle Einkunftsquellen erfasst."
-    },
-    {
-      "id": "koest-14",
-      "frage": "Was sind die Begriffsmerkmale eines Betriebs gewerblicher Art (BgA) nach § 2 Abs 1 KStG?",
-      "optionen": [
-        "Eine wirtschaftliche Tätigkeit von einigem Gewicht, die sich innerhalb einer Körperschaft öffentlichen Rechts wirtschaftlich heraushebt und sich von der hoheitlichen Tätigkeit unterscheidet",
-        "Jede Tätigkeit einer Körperschaft öffentlichen Rechts ist automatisch ein BgA",
-        "Ein BgA setzt zwingend Gewinnerzielungsabsicht voraus, sonst liegt nie ein BgA vor",
-        "Ein BgA kann nur bei privaten Unternehmen vorliegen"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Ein BgA ist eine Einrichtung einer Körperschaft öffentlichen Rechts, die wirtschaftlich selbständig ist, eine nachhaltige Tätigkeit von einigem wirtschaftlichem Gewicht zur Erzielung von Einnahmen entfaltet und sich innerhalb der Gesamtbetätigung der Körperschaft wirtschaftlich heraushebt – Gewinnerzielungsabsicht ist dabei keine zwingende Voraussetzung."
-    },
-    {
-      "id": "koest-15",
-      "frage": "Was ist ein Versorgungsbetrieb (§ 2 Abs 3 KStG) und welche Besonderheit gilt für den Verlustausgleich?",
-      "optionen": [
-        "Versorgungsbetriebe (z.B. Wasser-, Energie-, Verkehrsbetriebe) sind BgA mit besonderer Bedeutung; für sie ist unter bestimmten Voraussetzungen ein erleichterter Verlustausgleich mit anderen Versorgungsbetrieben derselben Körperschaft vorgesehen",
-        "Versorgungsbetriebe sind generell von der Körperschaftsteuer befreit",
-        "Für Versorgungsbetriebe gibt es keinerlei Sonderregelung gegenüber 'normalen' BgA",
-        "Versorgungsbetriebe können niemals Verluste erzielen"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Versorgungsbetriebe (z.B. im Bereich Wasser-, Gas-, Elektrizitäts- oder Verkehrsversorgung) sind eine besondere Kategorie von BgA, für die § 2 Abs. 3 KStG einen erleichterten Verlustausgleich zwischen mehreren Versorgungsbetrieben (sowie verkehrswirtschaftlichen Betrieben) derselben Körperschaft öffentlichen Rechts vorsieht."
-    },
-    {
-      "id": "koest-16",
-      "frage": "Was sind Hoheitsbetriebe und wie unterscheiden sie sich von Mischbetrieben (§ 2 Abs 5 KStG)?",
-      "optionen": [
-        "Hoheitsbetriebe dienen der Ausübung öffentlicher Gewalt und sind kein BgA; Mischbetriebe enthalten sowohl hoheitliche als auch wirtschaftliche Elemente, wobei nur der wirtschaftliche Teil ggf. einen BgA begründet",
-        "Hoheitsbetriebe sind stets körperschaftsteuerpflichtig wie ein BgA",
-        "Mischbetriebe sind im Körperschaftsteuerrecht nicht vorgesehen",
-        "Es gibt keinen Unterschied zwischen Hoheitsbetrieben und Mischbetrieben"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Hoheitsbetriebe dienen der Ausübung öffentlicher Gewalt (z.B. Verwaltungstätigkeit) und begründen keinen BgA, sind also nicht körperschaftsteuerpflichtig; bei Mischbetrieben sind hoheitliche und wirtschaftliche Tätigkeiten miteinander verbunden, wobei der herauslösbare wirtschaftliche Teil als eigenständiger BgA behandelt werden kann."
-    },
-    {
-      "id": "koest-17",
-      "frage": "Wann beginnt die Körperschaftsteuerpflicht einer in Gründung befindlichen Kapitalgesellschaft (§ 4 Abs 1 KStG)?",
-      "optionen": [
-        "Mit der Vorkörperschaft (Vorgesellschaft): sobald die Rechtsgrundlage (Gesellschaftsvertrag bzw. Satzung) festgestellt ist und die Gesellschaft erstmalig nach außen in Erscheinung tritt – somit bereits vor der Firmenbucheintragung",
-        "Erst mit der Eintragung im Firmenbuch; davor besteht für die werdende Gesellschaft keinerlei Körperschaftsteuerpflicht",
-        "Bereits mit der Vorgründungsgesellschaft, die als solche körperschaftsteuerpflichtig ist, sobald der Gründungsentschluss gefasst wird",
-        "Erst mit dem Zufluss des ersten steuerpflichtigen Gewinns der neu gegründeten Körperschaft"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Nach § 4 Abs. 1 KStG beginnt die Steuerpflicht, sobald die Rechtsgrundlage (Gesellschaftsvertrag, Satzung, Stiftungsbrief) festgestellt ist und die Körperschaft erstmals nach außen in Erscheinung tritt. Erfasst ist damit die Vorkörperschaft (Vorgesellschaft) zwischen Abschluss des Gesellschaftsvertrags und Eintragung im Firmenbuch, die mit der späteren Kapitalgesellschaft identisch ist. Die davor liegende Vorgründungsgesellschaft (vor Abschluss des Gesellschaftsvertrags) ist demgegenüber eine Gesellschaft bürgerlichen Rechts/Mitunternehmerschaft, deren Ergebnis transparent den Gesellschaftern zugerechnet wird – sie ist noch nicht selbst KöSt-Subjekt."
-    },
-    {
-      "id": "koest-18",
-      "frage": "Wann endet die Steuerpflicht einer Körperschaft im Sinne des § 4 Abs 2 KStG?",
-      "optionen": [
-        "Grundsätzlich mit dem Verlust der Rechtspersönlichkeit, idR nach Abschluss der Liquidation bzw. Vollbeendigung der Gesellschaft",
-        "Bereits mit der Beschlussfassung über die Auflösung der Gesellschaft",
-        "Die Steuerpflicht einer Körperschaft endet niemals",
-        "Mit dem ersten negativen Jahresergebnis"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Die Steuerpflicht endet grundsätzlich mit dem Verlust der Rechtspersönlichkeit der Körperschaft, regelmäßig nach Abschluss eines Liquidationsverfahrens und der damit verbundenen Löschung im Firmenbuch (Vollbeendigung), nicht bereits mit dem bloßen Auflösungsbeschluss."
-    },
-    {
-      "id": "koest-19",
-      "frage": "Was regelt die Steuerbefreiung für Geselligkeitsveranstaltungen nach § 5 Z 12 KStG?",
-      "optionen": [
-        "Bestimmte gesellige Veranstaltungen von Körperschaften (z.B. Vereinsfeste) sind innerhalb gesetzlich festgelegter Grenzen (z.B. Anzahl pro Jahr, Umsatzgrenzen) von der Körperschaftsteuer befreit",
-        "Sämtliche Veranstaltungen jeder Körperschaft sind unbegrenzt steuerfrei",
-        "Geselligkeitsveranstaltungen unterliegen immer der vollen Körperschaftsteuer ohne jede Begünstigung",
-        "Diese Befreiung betrifft ausschließlich Großveranstaltungen mit über 10.000 Teilnehmern"
-      ],
-      "korrekt": 0,
-      "erklaerung": "§ 5 Z 12 KStG sieht eine Steuerbefreiung für bestimmte gesellige Veranstaltungen (z.B. Vereinsfeste) vor, die innerhalb gesetzlich festgelegter Grenzen (insbesondere hinsichtlich Anzahl und Umfang pro Kalenderjahr) durchgeführt werden, um kleinere Vereinstätigkeiten nicht über Gebühr zu belasten."
-    },
-    {
-      "id": "koest-20",
-      "frage": "Welche Voraussetzungen müssen für die abgabenrechtliche Begünstigung gemeinnütziger Körperschaften (§ 34 BAO) u.a. vorliegen?",
-      "optionen": [
-        "Die Körperschaft muss ausschließlich und unmittelbar gemeinnützige, mildtätige oder kirchliche Zwecke verfolgen, wie sich aus Satzung und tatsächlicher Geschäftsführung ergibt",
-        "Es genügt, dass die Körperschaft irgendeinen Zweck verfolgt, unabhängig von dessen Art",
-        "Eine Begünstigung ist nur bei Vereinen mit über 1.000 Mitgliedern möglich",
-        "Begünstigungen nach § 34 BAO setzen zwingend eine Gewinnausschüttung an die Mitglieder voraus"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Für die Begünstigung nach §§ 34 ff. BAO muss die Körperschaft ausschließlich und unmittelbar gemeinnützige, mildtätige oder kirchliche Zwecke verfolgen; dies muss sich sowohl aus der Satzung als auch aus der tatsächlichen Geschäftsführung ergeben."
-    },
-    {
       "id": "koest-21",
-      "frage": "Was bedeutet 'Ausschließlichkeit' im Sinne des § 39 BAO bei gemeinnützigen Körperschaften?",
+      "typ": "single",
+      "frage": "Was bedeutet das Erfordernis der 'Ausschließlichkeit' (§ 39 BAO) bei einer gemeinnützigen Körperschaft?",
       "optionen": [
-        "Die Körperschaft darf grundsätzlich keine anderen als die begünstigten (gemeinnützigen, mildtätigen, kirchlichen) Zwecke verfolgen",
-        "Ausschließlichkeit bedeutet, dass die Körperschaft nur einem einzigen Mitglied dienen darf",
-        "Ausschließlichkeit betrifft ausschließlich die Anzahl der Vorstandsmitglieder",
-        "Der Begriff hat im Zusammenhang mit Gemeinnützigkeit keine Bedeutung"
+        "Die Körperschaft muss sich auf einen einzigen begünstigten Zweck beschränken und darf nicht mehrere gemeinnützige Zwecke nebeneinander verfolgen und die geforderte Förderung der Allgemeinheit dadurch nicht mehr eindeutig nachgewiesen werden kann",
+        "Ausschließlichkeit verlangt, dass die Körperschaft überhaupt keinen wirtschaftlichen Geschäftsbetrieb unterhält, andernfalls entfällt die Begünstigung zur Gänze",
+        "Die Körperschaft darf neben den begünstigten Zwecken keine anderen, nicht begünstigten Zwecke verfolgen; zulässig ist nur die unmittelbare Mittelbeschaffung dafür",
+        "Die Körperschaft darf Zuwendungen ausschließlich von ihren Mitgliedern, nicht aber von außenstehenden Dritten entgegennehmen"
       ],
-      "korrekt": 0,
-      "erklaerung": "Ausschließlichkeit (§ 39 BAO) bedeutet, dass die Körperschaft grundsätzlich keine anderen als die begünstigten Zwecke (und damit zusammenhängende unmittelbare Mittel zur Zweckerreichung) verfolgen darf, um die abgabenrechtliche Begünstigung zu erhalten."
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 39 BAO: Ausschließlichkeit heißt, dass keine anderen als die begünstigten Zwecke verfolgt werden dürfen; mehrere begünstigte Zwecke nebeneinander sind zulässig (daher ist 'nur ein einziger Zweck' falsch). Sie verbietet weder Spenden Dritter noch jeden wirtschaftlichen Geschäftsbetrieb – un-/entbehrliche Hilfsbetriebe sind möglich."
     },
     {
       "id": "koest-22",
-      "frage": "Was unterscheidet einen unentbehrlichen von einem entbehrlichen Hilfsbetrieb (§ 45 BAO)?",
+      "typ": "single",
+      "frage": "Wie unterscheidet sich ein unentbehrlicher Hilfsbetrieb (§ 45 Abs 2 BAO) von einem entbehrlichen Hilfsbetrieb (§ 45 Abs 1 BAO)?",
       "optionen": [
-        "Ein unentbehrlicher Hilfsbetrieb ist notwendiges Mittel zur unmittelbaren Erreichung des begünstigten Zwecks und steht nicht in größerem Wettbewerb zu abgabepflichtigen Betrieben; ein entbehrlicher Hilfsbetrieb dient zwar der Mittelbeschaffung, ist aber nicht zwingend zur Zweckerfüllung notwendig",
-        "Es handelt sich um Synonyme ohne inhaltlichen Unterschied",
-        "Ein entbehrlicher Hilfsbetrieb führt immer automatisch zum Verlust der gesamten Begünstigung",
-        "Unentbehrliche Hilfsbetriebe sind im Gesetz nicht definiert"
+        "Der unentbehrliche Hilfsbetrieb ist stets körperschaftsteuerpflichtig, während der entbehrliche Hilfsbetrieb stets von der Körperschaftsteuer befreit ist",
+        "Der unentbehrliche Hilfsbetrieb (Abs 2) ist auf den begünstigten Zweck eingestellt und steht in keinem vermeidbaren Wettbewerb; der entbehrliche (Abs 1) ist dafür nicht unentbehrlich und tritt in vermeidbaren Wettbewerb",
+        "Beide Betriebe sind steuerfrei; der Unterschied betrifft allein die Pflicht zur doppelten Buchführung des jeweiligen Betriebs",
+        "Der unentbehrliche Hilfsbetrieb darf Gewinne erzielen, während der entbehrliche Hilfsbetrieb ausschließlich auf reine Kostendeckung ausgerichtet sein muss und etwaige Zufallsüberschüsse umgehend an den allgemeinen Vereinsbereich abzuführen hat"
       ],
-      "korrekt": 0,
-      "erklaerung": "Der unentbehrliche Hilfsbetrieb (§ 45 Abs. 2 BAO) ist ein notwendiges Mittel zur unmittelbaren Erfüllung des begünstigten Zwecks (z.B. Theaterbetrieb eines Theatervereins) und steht idR nicht in größerem Wettbewerb zu abgabepflichtigen Betrieben; der entbehrliche Hilfsbetrieb (§ 45 Abs. 1 BAO) dient zwar der Mittelbeschaffung für den begünstigten Zweck, ist aber nicht selbst unmittelbares Zweckerfüllungsmittel."
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 45 BAO: Der unentbehrliche Hilfsbetrieb (Abs 2) ist in seiner Gesamtrichtung auf den begünstigten Zweck eingestellt, der Zweck ist nur durch ihn erreichbar und es besteht kein vermeidbarer Wettbewerb – er ist steuerfrei. Der entbehrliche Hilfsbetrieb (Abs 1) ist ein taugliches, aber nicht unentbehrliches Mittel mit vermeidbarem Wettbewerb – er ist körperschaftsteuerpflichtig (Freibetrag 10.000 €). Die Rechtsfolgen sind also nicht vertauscht, und es geht weder um Buchführung noch um ein Gewinnverbot."
     },
     {
       "id": "koest-23",
-      "frage": "Was sind begünstigungsschädliche Hilfsbetriebe (§ 45 Abs 3 BAO) und welche Konsequenz kann das haben?",
+      "typ": "single",
+      "frage": "Was kennzeichnet einen begünstigungsschädlichen Geschäftsbetrieb (§ 45 Abs 3 BAO) und welche Folge droht?",
       "optionen": [
-        "Betriebe, die nicht zur Zweckerfüllung notwendig sind und in größerem Wettbewerb zu abgabepflichtigen Betrieben stehen; sie können bei Überschreiten der gesetzlichen Grenzen zum gänzlichen Verlust der Begünstigung führen",
-        "Begünstigungsschädliche Hilfsbetriebe haben keinerlei Auswirkung auf die Gesamtbegünstigung der Körperschaft",
-        "Solche Betriebe sind immer automatisch von der Körperschaftsteuer befreit",
-        "Der Begriff betrifft ausschließlich land- und forstwirtschaftliche Betriebe"
+        "Ein Betrieb, der zwar dem begünstigten Zweck dient, aber wegen seiner Größe gesondert besteuert wird, ohne die übrige Begünstigung des Vereins zu berühren und der Verein für diesen Betrieb lediglich eine gesonderte Steuererklärung abzugeben hat",
+        "Ein Betrieb, der – wie der unentbehrliche Hilfsbetrieb – steuerfrei bleibt, solange er der Mittelbeschaffung für den Zweck dient",
+        "Ein wirtschaftlicher Geschäftsbetrieb, der weder un- noch entbehrlicher Hilfsbetrieb ist; er kann die Begünstigung des gesamten Vereins gefährden, sofern nicht die Umsatzgrenze des § 45a BAO greift oder eine Ausnahmegenehmigung vorliegt",
+        "Ein Betrieb, der automatisch und ausnahmslos zum sofortigen Verlust der gesamten Begünstigung des Vereins führt"
       ],
-      "korrekt": 0,
-      "erklaerung": "Begünstigungsschädliche Hilfsbetriebe (§ 45 Abs. 3 BAO) sind wirtschaftliche Geschäftsbetriebe, die in größerem Umfang in Konkurrenz zu abgabepflichtigen Betrieben treten und nicht zur unmittelbaren Zweckerfüllung notwendig sind; werden bestimmte Umsatzgrenzen überschritten, kann dies zum Verlust der gesamten abgabenrechtlichen Begünstigung führen, sofern keine Ausnahmegenehmigung vorliegt."
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 45 Abs 3 BAO: ein wirtschaftlicher Geschäftsbetrieb, der sich zu weit vom begünstigten Zweck entfernt hat (z.B. großes Vereinsfest, Kantine). Er ist steuerpflichtig und gefährdet die Begünstigung des ganzen Vereins – aber nicht zwangsläufig: Bleiben die Umsätze aller begünstigungsschädlichen Betriebe unter 100.000 € (§ 45a BAO) oder liegt eine Ausnahmegenehmigung (§ 44 Abs 2 BAO) vor, bleibt die Begünstigung erhalten. Daher sind 'ausnahmsloser Verlust' und 'bleibt steuerfrei' unrichtig."
     },
     {
       "id": "koest-24",
-      "frage": "Wozu dient die Ausnahmegenehmigung des Finanzamtes nach § 44 Abs 2 BAO?",
+      "typ": "multiple",
+      "frage": "Wodurch kann die abgabenrechtliche Begünstigung eines Vereins trotz eines begünstigungsschädlichen Geschäftsbetriebs erhalten bleiben? (Mehrfachauswahl)",
       "optionen": [
-        "Sie ermöglicht es, trotz Überschreitens der Umsatzgrenze bei begünstigungsschädlichen Hilfsbetrieben (zuzüglich Gewinnbetrieben) die Begünstigung der Körperschaft aufrechtzuerhalten, wenn die Mittel überwiegend für den begünstigten Zweck verwendet werden",
-        "Sie befreit die Körperschaft generell von jeglicher Aufzeichnungspflicht",
-        "Eine Ausnahmegenehmigung ist im österreichischen Recht nicht vorgesehen",
-        "Sie betrifft ausschließlich die Befreiung von der Umsatzsteuer"
+        "Die Gewinne des begünstigungsschädlichen Betriebs werden vollständig an die Vereinsmitglieder ausgeschüttet",
+        "Die Umsätze aller begünstigungsschädlichen Betriebe übersteigen im Veranlagungszeitraum insgesamt nicht 100.000 € (§ 45a BAO)",
+        "Der begünstigungsschädliche Betrieb erzielt ausschließlich Verluste und damit keinen steuerpflichtigen Gewinn",
+        "Das für die Umsatzsteuer zuständige Finanzamt erteilt auf Antrag eine Ausnahmegenehmigung (§ 44 Abs 2 BAO)",
+        "Der Verein meldet den Betrieb fristgerecht zur Eintragung im Firmenbuch an"
       ],
-      "korrekt": 0,
-      "erklaerung": "Wird die für begünstigungsschädliche Hilfsbetriebe (und Gewinnbetriebe) maßgebliche Umsatzgrenze überschritten, kann auf Antrag eine Ausnahmegenehmigung des Finanzamtes erteilt werden, wenn die Voraussetzungen (insbesondere überwiegende Verwendung der erzielten Mittel für den begünstigten Zweck) vorliegen, sodass die Begünstigung der Körperschaft erhalten bleibt."
+      "korrekt": [
+        1,
+        3
+      ],
+      "erklaerung": "§§ 44 Abs 2, 45a BAO: Die Begünstigung bleibt erhalten, wenn die Umsätze aller begünstigungsschädlichen Betriebe zusammen 100.000 € nicht übersteigen (§ 45a BAO) oder eine Ausnahmegenehmigung des USt-Finanzamts vorliegt (§ 44 Abs 2 BAO). Maßgeblich ist der Umsatz, nicht der Gewinn – bloße Verluste retten nicht; eine Ausschüttung an Mitglieder ist sogar schädlich, und eine Firmenbuchmeldung ist irrelevant."
     },
     {
       "id": "koest-25",
-      "frage": "Was bedeutet die Einkünftetransformation nach § 7 Abs 3 KStG?",
+      "typ": "single",
+      "frage": "Was bewirkt die Einkünftetransformation nach § 7 Abs 3 KStG?",
       "optionen": [
-        "Bei bestimmten Körperschaften (insb. unbeschränkt steuerpflichtige, die Bücher führen, z.B. Kapitalgesellschaften) gelten sämtliche Einkünfte unabhängig von ihrer tatsächlichen Art einheitlich als Einkünfte aus Gewerbebetrieb",
-        "Einkünftetransformation bedeutet, dass Körperschaften überhaupt keine Einkünfte erzielen können",
-        "Die Transformation betrifft ausschließlich Einkünfte aus Kapitalvermögen",
-        "Einkünftetransformation gilt nur für Personengesellschaften"
+        "Sämtliche Einkünfte einer Körperschaft werden in Einkünfte aus Kapitalvermögen umqualifiziert und mit Kapitalertragsteuer endbesteuert, soweit die Körperschaft überhaupt entsprechende Kapitaleinkünfte erzielt",
+        "Die Einkünfte werden je nach Quelle weiterhin den verschiedenen Einkunftsarten zugeordnet und getrennt nach diesen besteuert",
+        "Die Transformation gilt nur für Personengesellschaften, die nach § 1a KStG zur Körperschaftsbesteuerung optiert haben",
+        "Bei buchführungspflichtigen Körperschaften (z.B. Kapitalgesellschaften) gelten sämtliche Einkünfte – unabhängig von ihrer Art – einheitlich als Einkünfte aus Gewerbebetrieb"
       ],
-      "korrekt": 0,
-      "erklaerung": "Nach § 7 Abs. 3 KStG gelten bei bestimmten Körperschaften (z.B. unbeschränkt steuerpflichtigen Kapitalgesellschaften, die nach § 5 EStG bzw. den entsprechenden Vorschriften Bücher führen) sämtliche erzielten Einkünfte – unabhängig davon, welcher Einkunftsart sie ihrer Art nach entsprechen würden – einheitlich als Einkünfte aus Gewerbebetrieb."
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "§ 7 Abs 3 KStG: Bei unbeschränkt steuerpflichtigen, buchführungspflichtigen Körperschaften (insb. Kapitalgesellschaften) gelten alle Einkünfte als solche aus Gewerbebetrieb – es gibt nur eine Einkunftsart, keine Aufteilung auf mehrere Arten und keine Umqualifizierung in Kapitalvermögen. Für nicht buchführende Körperschaften (z.B. manche Vereine) gilt § 7 Abs 3 nicht."
     },
     {
       "id": "koest-26",
-      "frage": "Was beschreibt das Verhältnis zwischen EStG und KStG nach § 7 Abs 2 KStG?",
+      "typ": "single",
+      "frage": "Was ordnet § 7 Abs 2 KStG zum Verhältnis von KStG und EStG an?",
       "optionen": [
-        "Das KStG verweist für die Einkommensermittlung weitgehend auf das EStG, das grundsätzlich sinngemäß zur Anwendung kommt, mit körperschaftsteuerspezifischen Sonderbestimmungen im KStG selbst",
-        "EStG und KStG haben keinerlei inhaltlichen Zusammenhang",
-        "Das KStG ersetzt das EStG vollständig ohne jeden Bezug darauf",
-        "Bestimmungen des EStG gelten niemals für Körperschaften"
+        "Das EStG ist auf Körperschaften ausnahmslos und unverändert anzuwenden; eigene Sonderregeln des KStG bestehen nicht",
+        "Für Körperschaften gelten ausschließlich die Vorschriften des UGB; die Einkommensermittlung richtet sich nicht nach dem EStG, soweit nicht ein berufsständisches Sondergesetz für einzelne Körperschaften ausdrücklich etwas anderes anordnet",
+        "Das Einkommen der Körperschaft bestimmt sich grundsätzlich nach den Vorschriften des EStG, soweit das KStG keine eigenen Sonderregelungen trifft",
+        "Das EStG gilt für Körperschaften nur hinsichtlich des Steuertarifs, die Einkommensermittlung folgt allein dem KStG"
       ],
-      "korrekt": 0,
-      "erklaerung": "§ 7 Abs. 2 KStG ordnet an, dass sich das Einkommen der Körperschaft grundsätzlich nach den Vorschriften des EStG (insbesondere zur Einkünfteermittlung) bestimmt, soweit das KStG keine eigenen, spezielleren Regelungen (z.B. zu nicht abzugsfähigen Aufwendungen, Beteiligungsertragsbefreiung) vorsieht – das EStG kommt insoweit sinngemäß zur Anwendung."
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 7 Abs 2 KStG verweist für die Einkommensermittlung sinngemäß auf das EStG, soweit das KStG keine spezielleren Regeln (z.B. § 10 Beteiligungsertragsbefreiung, § 12 Abzugsverbote) enthält. Das EStG gilt also weder ausnahmslos unverändert noch gar nicht, und die Bemessungsgrundlage richtet sich nicht allein nach UGB oder KStG."
     },
     {
       "id": "koest-27",
-      "frage": "Wie ist der Aufbau des Eigenkapitals iSd § 8 Abs 1 KStG zu verstehen (Einlagen)?",
+      "typ": "single",
+      "frage": "Welche Rechtsfolge hat eine Einlage des Gesellschafters bei der Körperschaft nach § 8 Abs 1 KStG?",
       "optionen": [
-        "Das steuerliche Eigenkapital gliedert sich u.a. in Nennkapital sowie Kapitalrücklagen (Einlagen), wobei zwischen offenen und verdeckten Einlagen sowie der Innenfinanzierung (erwirtschaftete Gewinne) zu unterscheiden ist",
-        "Eigenkapital besteht ausschließlich aus dem Nennkapital ohne weitere Bestandteile",
-        "Es gibt im Körperschaftsteuerrecht keine Unterscheidung zwischen verschiedenen Eigenkapitalbestandteilen",
-        "Das Eigenkapital einer Körperschaft ist steuerlich vollkommen irrelevant"
+        "Die Einlage stellt bei der Körperschaft eine steuerpflichtige Betriebseinnahme dar und erhöht deren steuerlichen Gewinn und ist daher bereits im Jahr des Zuflusses in voller Höhe zu versteuern",
+        "Die Einlage führt zu einer steuerneutralen Bereicherung der Körperschaft (in Höhe des gemeinen Werts) und erhöht den steuerlichen Gewinn nicht",
+        "Die Einlage mindert das Einkommen der Körperschaft, weil sie als Betriebsausgabe abzugsfähig ist",
+        "Die Einlage ist bei der Körperschaft erst im Zeitpunkt einer späteren Rückzahlung steuerlich zu erfassen"
       ],
-      "korrekt": 0,
-      "erklaerung": "Das Eigenkapital einer Körperschaft setzt sich u.a. aus dem Nennkapital sowie den Einlagen der Gesellschafter (offene und verdeckte Einlagen, erfasst über Einlagenevidenzkonten) sowie der Innenfinanzierung (im Unternehmen erwirtschaftete und thesaurierte Gewinne) zusammen – diese Differenzierung ist insbesondere für die Abgrenzung Einlagenrückzahlung/Gewinnausschüttung relevant."
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 8 Abs 1 KStG: Einlagen (offen wie verdeckt) bewirken eine steuerneutrale Bereicherung der Körperschaft in Höhe des gemeinen Werts und erhöhen den steuerlichen Gewinn nicht (gesellschaftsrechtlich veranlasst). Sie sind weder Betriebseinnahme noch Betriebsausgabe und werden nicht erst bei einer Rückzahlung erfasst."
     },
     {
       "id": "koest-28",
-      "frage": "Was sind offene Einlagen und welche Voraussetzungen müssen für sie vorliegen?",
+      "typ": "single",
+      "frage": "Was kennzeichnet eine offene Einlage?",
       "optionen": [
-        "Einlagen, die nach außen erkennbar (z.B. im Gesellschaftsvertrag oder durch Gesellschafterbeschluss dokumentiert) von den Gesellschaftern in die Körperschaft eingebracht werden, etwa im Rahmen einer Kapitalerhöhung",
-        "Offene Einlagen sind solche, die geheim gehalten werden müssen",
-        "Es gibt im KStG keine Unterscheidung zwischen offenen und verdeckten Einlagen",
-        "Offene Einlagen betreffen ausschließlich Sacheinlagen, niemals Bareinlagen"
+        "Eine Zuwendung, die bewusst nicht als Einlage deklariert wird und sich erst bei genauerer Prüfung als Einlage erweist",
+        "Eine Zuwendung, die ausschließlich in Form von Bargeld erfolgen darf und niemals als Sacheinlage geleistet werden kann, weil sich nur Geldbeträge eindeutig im Nennkapital der Gesellschaft abbilden lassen",
+        "Eine nach außen klar als Einlage erkennbare Vermögenszuführung des Gesellschafters (z.B. im Rahmen einer Kapitalerhöhung)"
       ],
-      "korrekt": 0,
-      "erklaerung": "Offene Einlagen sind für Dritte nach außen erkennbare Vermögenszuwendungen der Gesellschafter an die Körperschaft (z.B. im Zuge einer Kapitalerhöhung mit entsprechender Dokumentation), im Unterschied zu verdeckten Einlagen, die ohne entsprechende offizielle Erhöhung des Nennkapitals/der Kapitalrücklage erfolgen."
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Offene Einlagen sind nach außen klar erkennbare Vermögenszuführungen (z.B. Kapitalerhöhung). Wird eine Zuwendung dagegen nicht als Einlage deklariert und zeigt sich erst bei näherer Betrachtung, liegt eine verdeckte Einlage vor. Einlagen können als Geld- oder als Sacheinlage erfolgen."
     },
     {
       "id": "koest-29",
-      "frage": "Was ist eine verdeckte Einlage und welche Rechtsfolge hat sie?",
+      "typ": "single",
+      "frage": "Paula (Alleingesellschafterin) verkauft 'ihrer' GmbH ein Grundstück (gemeiner Wert 100.000 €) um 30.000 €. Was liegt steuerlich vor?",
       "optionen": [
-        "Eine Vermögenszuwendung des Gesellschafters an die Körperschaft, die ihre Ursache im Gesellschaftsverhältnis hat, ohne dass eine entsprechende offene (nach außen erkennbare) Einlage erfolgt – sie erhöht das steuerliche Einlagenkonto, wirkt aber nicht gewinnerhöhend bei der Körperschaft",
-        "Eine verdeckte Einlage führt immer zu einer steuerpflichtigen Betriebseinnahme bei der Körperschaft",
-        "Verdeckte Einlagen sind im Körperschaftsteuerrecht generell unzulässig",
-        "Eine verdeckte Einlage liegt nur bei Bareinlagen vor, niemals bei Sachwerten"
+        "Eine steuerpflichtige Betriebseinnahme der GmbH in Höhe von 70.000 €, die deren Gewinn erhöht",
+        "Eine verdeckte Einlage in Höhe der Differenz von 70.000 €; nur insoweit erfolgt bei der GmbH eine steuerneutrale Korrektur, in Höhe der gezahlten 30.000 € ändert sich nichts",
+        "Eine verdeckte Ausschüttung in Höhe von 70.000 €, da die GmbH ihrer Gesellschafterin einen Vorteil gewährt",
+        "Kein steuerlich relevanter Vorgang, weil ein zivilrechtlich wirksamer Kaufvertrag mit vereinbartem Preis vorliegt, sodass auf Ebene der GmbH in keinem Teilbereich eine steuerliche Korrektur vorzunehmen ist"
       ],
-      "korrekt": 0,
-      "erklaerung": "Eine verdeckte Einlage liegt vor, wenn ein Gesellschafter der Körperschaft einen Vermögensvorteil zuwendet, der seine Wurzel im Gesellschaftsverhältnis hat (z.B. unentgeltliche oder zu günstige Übertragung von Wirtschaftsgütern), ohne dass dies als offene Einlage (Kapitalerhöhung) erfolgt; sie erhöht das Einlagenkonto, wirkt aber nicht gewinnerhöhend, da sie gesellschaftsrechtlich veranlasst ist."
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 8 Abs 1 KStG: Naheverhältnis, objektive Bereicherung der GmbH (70.000), subjektive Vorteilsgewährung und Fremdunüblichkeit liegen vor – also eine verdeckte Einlage iHd Differenz von 70.000 €. Die GmbH wird 'reicher' (Gegenteil der vA); die Korrektur ist steuerneutral und betrifft nur die 70.000, die gezahlten 30.000 bleiben unverändert. Eine steuerpflichtige Einnahme entsteht nicht."
     },
     {
       "id": "koest-30",
-      "frage": "Was bedeutet die Abgrenzung Einlagenrückzahlung zu Ausschüttung nach § 4 Abs 12 EStG?",
+      "typ": "single",
+      "frage": "Wie wird eine Einlagenrückzahlung (§ 4 Abs 12 EStG) im Vergleich zur Gewinnausschüttung behandelt?",
       "optionen": [
-        "Die Rückzahlung von Einlagen (Einlagenrückzahlung) ist – im Gegensatz zur Ausschüttung von Gewinnen – grundsätzlich nicht KESt-pflichtig, da sie keinen versteuerten Gewinn, sondern bereits eingelegtes Kapital betrifft; die Unterscheidung erfolgt anhand der Innenfinanzierung",
-        "Einlagenrückzahlung und Ausschüttung werden steuerlich identisch behandelt",
-        "Jede Auszahlung der Körperschaft an ihre Gesellschafter ist automatisch eine Ausschüttung",
-        "Eine Einlagenrückzahlung ist im österreichischen Steuerrecht nicht möglich"
+        "Sie ist wie jede Gewinnausschüttung KESt-pflichtig, weil jede Auszahlung an Gesellschafter eine Ausschüttung darstellt und daher in voller Höhe der Kapitalertragsteuer von 27,5 % unterliegt",
+        "Sie ist beim Gesellschafter stets als realisierte Wertsteigerung nach § 27 Abs 3 EStG in voller Höhe steuerpflichtig",
+        "Sie ist auf Ebene der Körperschaft als Betriebsausgabe abzugsfähig und mindert deren Einkommen",
+        "Sie ist – anders als die Gewinnausschüttung – grundsätzlich nicht KESt-pflichtig, weil bereits eingelegtes Kapital und kein versteuerter Gewinn zurückfließt"
       ],
-      "korrekt": 0,
-      "erklaerung": "Während eine Gewinnausschüttung KESt-pflichtig ist (wirtschaftliche Doppelbelastung), stellt die Rückzahlung von durch die Gesellschafter eingelegtem Kapital (Einlagenrückzahlung) grundsätzlich keinen steuerpflichtigen Vorgang dar, da hierbei kein Gewinn, sondern bereits eingelegtes Vermögen zurückfließt; § 4 Abs. 12 EStG regelt die Voraussetzungen (insbesondere Wahlrecht, Evidenzkontenführung) für die Abgrenzung."
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "§ 4 Abs 12 EStG: Eine Einlagenrückzahlung gibt eingelegtes Kapital zurück und ist – anders als die Gewinnausschüttung – grundsätzlich nicht KESt-pflichtig (keine wirtschaftliche Doppelbelastung). Die Abgrenzung Ausschüttung/Einlagenrückzahlung erfolgt über Innenfinanzierung und Evidenzkonten (Wahlrecht). Nicht jede Auszahlung ist eine Ausschüttung, und ein Betriebsausgabenabzug scheidet aus."
     },
     {
       "id": "koest-31",
-      "frage": "Was bewirkt die Beteiligungsertragsbefreiung nach § 10 KStG grundsätzlich?",
+      "typ": "single",
+      "frage": "Was bewirkt die Beteiligungsertragsbefreiung des § 10 KStG?",
       "optionen": [
-        "Bestimmte Beteiligungserträge (z.B. Gewinnausschüttungen einer Tochtergesellschaft an die Muttergesellschaft) sind unter den gesetzlichen Voraussetzungen von der Körperschaftsteuer befreit, um eine Mehrfachbelastung innerhalb von Beteiligungsketten zu vermeiden",
-        "Beteiligungserträge unterliegen immer der vollen Körperschaftsteuer ohne jede Befreiung",
-        "Die Befreiung betrifft ausschließlich Beteiligungen unter 1 %",
-        "Die Beteiligungsertragsbefreiung gilt nur für natürliche Personen als Gesellschafter"
+        "Beteiligungserträge unterliegen bei der empfangenden Körperschaft stets der vollen Körperschaftsteuer; eine Befreiung besteht nicht und stattdessen mit dem regulären linearen Steuersatz in die Bemessungsgrundlage einzubeziehen sind",
+        "Die Befreiung gilt nur für natürliche Personen als Gesellschafter, nicht aber für empfangende Körperschaften",
+        "Befreit sind ausschließlich Veräußerungsgewinne aus Beteiligungen, nicht jedoch laufende Gewinnausschüttungen",
+        "Beteiligungserträge (z.B. Ausschüttungen einer Tochter an die Mutter) bleiben bei der empfangenden Körperschaft steuerfrei, um eine Mehrfachbelastung in Beteiligungsketten zu vermeiden"
       ],
-      "korrekt": 0,
-      "erklaerung": "Die Beteiligungsertragsbefreiung (§ 10 KStG) soll verhindern, dass derselbe Gewinn innerhalb einer Beteiligungskette von Körperschaften mehrfach mit Körperschaftsteuer belastet wird; unter den gesetzlichen Voraussetzungen (z.B. Inlandsbeteiligung, internationale Schachtelbeteiligung) bleiben entsprechende Beteiligungserträge bei der empfangenden Körperschaft steuerfrei."
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "§ 10 KStG befreit Beteiligungserträge (v.a. Gewinnanteile/Ausschüttungen) bei der empfangenden Körperschaft, um eine mehrfache KöSt-Belastung desselben Gewinns innerhalb von Beteiligungsketten zu vermeiden. Sie gilt gerade für Körperschaften (nicht natürliche Personen) und erfasst v.a. laufende Gewinnanteile; Substanzgewinne sind nur in bestimmten Konstellationen (z.B. Schachtel ohne Option) steuerneutral."
     },
     {
       "id": "koest-32",
-      "frage": "Wann liegt eine Inlandsbeteiligung iSd § 10 Abs 1 Z 1 KStG vor?",
+      "typ": "single",
+      "frage": "Ab welcher Beteiligungshöhe und Behaltedauer sind Gewinnanteile aus einer Inlandsbeteiligung (§ 10 Abs 1 Z 1 KStG) steuerfrei?",
       "optionen": [
-        "Bei einer Beteiligung an einer unbeschränkt steuerpflichtigen inländischen Kapitalgesellschaft (bzw. vergleichbaren Körperschaft), unabhängig von der Beteiligungshöhe",
-        "Nur bei einer Beteiligung über 50 %",
-        "Eine Inlandsbeteiligung setzt eine Mindestbehaltedauer von 10 Jahren voraus",
-        "Inlandsbeteiligungen sind von der Befreiung generell ausgeschlossen"
+        "Erst ab einer Beteiligung von mindestens 10 % und einer Behaltedauer von mindestens einem Jahr",
+        "Ohne Mindestbeteiligung und ohne Mindestbehaltedauer – jede Beteiligung an einer inländischen Körperschaft genügt",
+        "Erst ab einer Beteiligung von mehr als 50 % (Mehrheitsbeteiligung) an der inländischen Körperschaft, sodass Minderheitsbeteiligungen von der Befreiung von vornherein ausgenommen sind"
       ],
-      "korrekt": 0,
-      "erklaerung": "Eine Inlandsbeteiligung iSd § 10 Abs. 1 Z 1 KStG liegt bei einer Beteiligung an einer unbeschränkt steuerpflichtigen inländischen Kapitalgesellschaft bzw. vergleichbaren Körperschaft vor; im Unterschied zur internationalen Schachtelbeteiligung gibt es hier grundsätzlich keine Mindestbeteiligungshöhe oder -behaltedauer als Voraussetzung für die Befreiung."
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 10 Abs 1 Z 1 KStG: Für die Inlandsbeteiligung gibt es weder ein Mindestbeteiligungsausmaß noch eine Mindestbehaltedauer – Gewinnanteile sind stets steuerfrei. Die 10-%-/1-Jahres-Grenze gilt nur für die internationale Schachtelbeteiligung; eine Mehrheitsbeteiligung ist nicht erforderlich."
     },
     {
       "id": "koest-33",
-      "frage": "Was sind Portfoliobeteiligungen iSd § 10 Abs 1 Z 5 u Z 6 KStG?",
+      "typ": "single",
+      "frage": "Was kennzeichnet eine internationale Portfoliobeteiligung (§ 10 Abs 1 Z 5 u 6 KStG)?",
       "optionen": [
-        "Ausländische Beteiligungen unterhalb der für die internationale Schachtelbeteiligung erforderlichen Mindestbeteiligungsquote (idR unter 10 %), die unter bestimmten Voraussetzungen ebenfalls (teilweise) begünstigt sein können",
-        "Portfoliobeteiligungen betreffen ausschließlich inländische Beteiligungen",
-        "Es handelt sich um Beteiligungen über 50 % an einer ausländischen Gesellschaft",
-        "Portfoliobeteiligungen sind im KStG nicht definiert"
+        "Jede Auslandsbeteiligung von mindestens 10 % mit einer Behaltedauer von mindestens einem Jahr",
+        "Eine Beteiligung von mehr als 50 % an einer ausländischen Gesellschaft mit Sitz außerhalb der EU und sich von der Inlandsbeteiligung im Ergebnis nur durch den ausländischen Sitz der Untergesellschaft unterscheidet",
+        "Eine Auslandsbeteiligung unter 10 % an einer EU-Körperschaft oder einer Körperschaft aus einem Staat mit umfassender Amtshilfe; die laufenden Gewinnanteile sind befreit",
+        "Eine Beteiligung an einer inländischen börsennotierten Aktiengesellschaft"
       ],
-      "korrekt": 0,
-      "erklaerung": "Portfoliobeteiligungen sind ausländische Beteiligungen, die die für die internationale Schachtelbeteiligung erforderliche Mindestbeteiligungsquote (grundsätzlich 10 %) nicht erreichen; für sie gelten eigene Regelungen hinsichtlich der Steuerbefreiung der laufenden Erträge (§ 10 Abs. 1 Z 5 und Z 6 KStG), die sich von jenen für internationale Schachtelbeteiligungen unterscheiden."
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 10 Abs 1 Z 5 u 6 KStG: Portfoliobeteiligungen sind Auslandsbeteiligungen unter 10 % an EU-Körperschaften bzw. an Körperschaften aus Staaten mit umfassender Amtshilfe; die laufenden Gewinnanteile sind befreit (Substanzgewinne/-verluste hingegen steuerwirksam). Ab 10 % und einem Jahr liegt eine internationale Schachtel vor; mit Inlands- oder Mehrheitsbeteiligungen hat die Portfoliobeteiligung nichts zu tun."
     },
     {
       "id": "koest-34",
-      "frage": "Wann liegt eine internationale Schachtelbeteiligung nach § 10 Abs 1 Z 7, Abs 2 KStG vor?",
+      "typ": "multiple",
+      "frage": "Welche Voraussetzungen müssen für eine internationale Schachtelbeteiligung (§ 10 Abs 1 Z 7 KStG) vorliegen? (Mehrfachauswahl)",
       "optionen": [
-        "Bei einer mindestens 10%igen Beteiligung an einer ausländischen Körperschaft, die ununterbrochen mindestens ein Jahr besteht",
-        "Bei jeder Beteiligung an einer ausländischen Gesellschaft unabhängig von Höhe und Haltedauer",
-        "Internationale Schachtelbeteiligungen erfordern eine Mindestbeteiligung von 50 %",
-        "Diese Beteiligungsart betrifft ausschließlich inländische Gesellschaften"
+        "Ein Mindestbeteiligungsausmaß von mehr als 25 % am Kapital der ausländischen Untergesellschaft, wobei sowohl das Kapital als auch die Stimmrechte diese Beteiligungsschwelle erreichen müssen",
+        "Ein Mindestbeteiligungsausmaß von mindestens 10 %",
+        "Die ausländische Untergesellschaft ist einer inländischen Kapitalgesellschaft vergleichbar oder eine EU-Körperschaft (Anlage 2 zum EStG)",
+        "Eine Mindestbehaltedauer von mindestens drei Jahren ab der Anschaffung der Beteiligung",
+        "Eine ununterbrochene Mindestbehaltedauer von mindestens einem Jahr",
+        "Die Untergesellschaft muss ihren Sitz oder ihre Geschäftsleitung im Inland haben"
       ],
-      "korrekt": 0,
-      "erklaerung": "Eine internationale Schachtelbeteiligung liegt vor, wenn eine unbeschränkt steuerpflichtige Körperschaft seit mindestens einem Jahr ununterbrochen zu mindestens 10 % an einer ausländischen Körperschaft (vergleichbar einer inländischen Kapitalgesellschaft) beteiligt ist; sowohl laufende Gewinnausschüttungen als auch Veräußerungsgewinne sind dann grundsätzlich von der KöSt befreit, sofern nicht zur Steuerpflicht optiert wurde."
+      "korrekt": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "§ 10 Abs 1 Z 7 iVm Abs 2 KStG: mindestens 10 % Beteiligung, mindestens ein Jahr ununterbrochene Behaltedauer und eine Untergesellschaft, die einer inländischen Kapitalgesellschaft vergleichbar oder eine EU-Körperschaft (Anlage 2 EStG) ist. Weder eine 25-%- noch eine 3-Jahres-Grenze gilt, und ein inländischer Sitz schlösse die 'internationale' Schachtel gerade aus."
     },
     {
       "id": "koest-35",
-      "frage": "Was bewirkt die Option nach § 10 Abs 3 KStG im Zusammenhang mit der internationalen Schachtelbeteiligung?",
+      "typ": "single",
+      "frage": "Welche Wirkung hat die Option nach § 10 Abs 3 KStG bei einer internationalen Schachtelbeteiligung?",
       "optionen": [
-        "Die Körperschaft kann zur Steuerpflicht hinsichtlich der Veräußerungsgewinne/-verluste und sonstiger Wertänderungen einer internationalen Schachtelbeteiligung optieren, was insbesondere bei erwarteten Verlusten vorteilhaft sein kann",
-        "Die Option führt automatisch zur generellen Steuerfreiheit aller Beteiligungserträge ohne jede Einschränkung",
-        "Es gibt im Zusammenhang mit der internationalen Schachtelbeteiligung keine Optionsmöglichkeit",
-        "Die Option betrifft ausschließlich laufende Gewinnausschüttungen, niemals Substanzgewinne"
+        "Sie macht auch die laufenden Gewinnanteile (Ausschüttungen) der Schachtelbeteiligung steuerpflichtig",
+        "Sie bewirkt die vollständige Steuerfreiheit aller Vorgänge, einschließlich der Substanzgewinne und -verluste",
+        "Ohne Ausübung der Option sind die Substanzgewinne und -verluste der Schachtelbeteiligung automatisch steuerwirksam, während sie bei Ausübung der Option steuerneutral behandelt werden",
+        "Sie bewirkt die Steuerwirksamkeit der Substanzgewinne und -verluste; die laufenden Gewinnanteile bleiben unabhängig davon immer steuerfrei",
+        "Sie kann jederzeit nachträglich ausgeübt oder wieder widerrufen werden, sobald sich die Marktlage ändert"
       ],
-      "korrekt": 0,
-      "erklaerung": "Während laufende Gewinnausschüttungen aus einer internationalen Schachtelbeteiligung grundsätzlich stets steuerfrei sind, kann die Körperschaft hinsichtlich der Veräußerungsgewinne/-verluste und sonstiger Wertänderungen (z.B. Teilwertabschreibungen) zur Steuerpflicht optieren (§ 10 Abs. 3 KStG) – dies ist insbesondere dann sinnvoll, wenn aus der Beteiligung Verluste erwartet werden, die steuerlich nutzbar gemacht werden sollen."
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "§ 10 Abs 3 KStG: Die Option wird nur zugunsten der Steuerwirksamkeit der Substanzgewinne und -verluste ausgeübt (sinnvoll v.a. bei erwarteten Verlusten); die laufenden Gewinnanteile bleiben in jedem Fall steuerfrei. Ohne Option sind die Substanzgewinne/-verluste steuerneutral. Die Option ist in der KöSt-Erklärung des Anschaffungsjahres auszuüben und danach unwiderruflich und nicht nachholbar."
     },
     {
       "id": "koest-36",
-      "frage": "Was versteht man unter hybriden Finanzierungsinstrumenten im Zusammenhang mit § 10 Abs 4 KStG?",
+      "typ": "single",
+      "frage": "Die M-GmbH hält seit mehreren Jahren 80 % an einer niederländischen Tochter, ohne Option nach § 10 Abs 3 KStG. 2024 verkauft sie die Beteiligung mit 300 Gewinn. Wie wirkt sich der Veräußerungsgewinn aus?",
       "optionen": [
-        "Finanzierungsformen, die in unterschiedlichen Staaten unterschiedlich qualifiziert werden (z.B. als Eigen- vs. Fremdkapital), was zu doppelter Nichtbesteuerung führen kann – die Steuerbefreiung wird in solchen Fällen unter bestimmten Voraussetzungen versagt",
-        "Hybride Finanzierungsinstrumente betreffen ausschließlich klassische Bankdarlehen",
-        "Es handelt sich um eine veraltete, nicht mehr existierende Regelung",
-        "Hybride Finanzierungsinstrumente führen immer automatisch zur vollen Steuerbefreiung"
+        "Der Veräußerungsgewinn von 300 ist voll körperschaftsteuerpflichtig, weil Veräußerungsgewinne niemals unter § 10 KStG fallen",
+        "Der Veräußerungsgewinn von 300 ist steuerneutral, weil bei einer internationalen Schachtelbeteiligung ohne Option die Substanzgewinne und -verluste steuerneutral bleiben",
+        "Der Veräußerungsgewinn ist nur zur Hälfte steuerpflichtig, da bei Beteiligungsveräußerungen ein Hälftesteuersatz zur Anwendung kommt, der bei Kapitalgesellschaften an die Stelle des regulären linearen KöSt-Satzes tritt",
+        "Der Veräußerungsgewinn ist steuerpflichtig, weil ohne Option die Substanzgewinne einer Schachtelbeteiligung steuerwirksam werden"
       ],
-      "korrekt": 0,
-      "erklaerung": "Hybride Finanzierungsinstrumente werden in verschiedenen Staaten unterschiedlich qualifiziert (z.B. in einem Staat als Fremdkapital mit abzugsfähigen Zinsen, im anderen als Eigenkapital mit steuerfreien Erträgen), was zu doppelter Nichtbesteuerung führen kann; § 10 Abs. 4 KStG versagt in solchen Konstellationen die Beteiligungsertragsbefreiung, um diesen Effekt zu verhindern."
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Bei einer internationalen Schachtelbeteiligung (80 % > 10 %, > 1 Jahr) ohne Option nach § 10 Abs 3 KStG sind die Substanzgewinne und -verluste steuerneutral – der Veräußerungsgewinn von 300 erhöht die KöSt-Bemessungsgrundlage nicht. Mit Option wäre er steuerwirksam (genau umgekehrt zum letzten Distraktor); einen Hälftesteuersatz gibt es bei der KöSt nicht."
     },
     {
       "id": "koest-37",
-      "frage": "Was kennzeichnet eine offene Ausschüttung nach § 8 Abs 2 KStG?",
+      "typ": "single",
+      "frage": "Was ist eine offene (Gewinn-)Ausschüttung iSd § 8 Abs 2 KStG?",
       "optionen": [
-        "Eine nach den gesellschaftsrechtlichen Vorschriften beschlossene und nach außen erkennbare Gewinnausschüttung an die Gesellschafter",
-        "Eine Ausschüttung, die geheim gehalten und nicht im Jahresabschluss erfasst wird",
-        "Offene Ausschüttungen sind körperschaftsteuerlich irrelevant",
-        "Der Begriff betrifft ausschließlich Sachausschüttungen"
+        "Eine dem Gesellschafter im Gesellschaftsverhältnis gewährte Vorteilszuwendung, die nicht als Gewinnverteilung in Erscheinung tritt, sodass der Körperschaft hieraus ein entsprechender steuerlicher Aufwand erwächst",
+        "Jede Zahlung der Körperschaft an einen Gesellschafter, unabhängig davon, ob ein Gewinnverteilungsbeschluss vorliegt",
+        "Eine nach den gesellschaftsrechtlichen Vorschriften ordnungsgemäß beschlossene und dokumentierte Gewinnverteilung an die Gesellschafter"
       ],
-      "korrekt": 0,
-      "erklaerung": "Eine offene Ausschüttung ist eine ordnungsgemäß nach den gesellschaftsrechtlichen Vorschriften (z.B. Gewinnverteilungsbeschluss der Generalversammlung) beschlossene und dokumentierte Gewinnausschüttung an die Gesellschafter, im Gegensatz zur verdeckten Ausschüttung."
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Die offene Ausschüttung beruht auf einem ordnungsgemäßen Gewinnverteilungsbeschluss (z.B. der Generalversammlung). Eine im Gesellschaftsverhältnis wurzelnde, nicht als Gewinnverteilung erkennbare Zuwendung ist dagegen eine verdeckte Ausschüttung. Nicht jede Zahlung an Gesellschafter ist eine Ausschüttung (z.B. fremdübliche Leistungsentgelte, Einlagenrückzahlung)."
     },
     {
       "id": "koest-38",
-      "frage": "Welche Voraussetzungen müssen für das Vorliegen einer verdeckten Ausschüttung kumulativ erfüllt sein?",
+      "typ": "multiple",
+      "frage": "Welche Voraussetzungen müssen für eine verdeckte Ausschüttung (§ 8 Abs 2 KStG) kumulativ vorliegen? (Mehrfachauswahl)",
       "optionen": [
-        "Eine Eigentums- oder Nahebeziehung zur Körperschaft, eine objektive Vermögensminderung/Verhinderung einer Vermögensmehrung bei der Körperschaft sowie die subjektive Absicht der Vorteilsgewährung an den Anteilsinhaber",
-        "Es genügt allein eine beliebige Zahlung der Körperschaft an irgendeinen Dritten",
-        "Eine verdeckte Ausschüttung setzt zwingend eine schriftliche Vereinbarung voraus",
-        "Verdeckte Ausschüttungen können nur bei Aktiengesellschaften, nicht bei GmbHs vorliegen"
+        "Eine Eigentums- oder Nahebeziehung zur Körperschaft",
+        "Eine Beteiligung des Empfängers von mehr als 50 % am Kapital der Körperschaft",
+        "Eine objektive Bereicherung des Anteilsinhabers oder einer nahestehenden Person zu Lasten der Körperschaft (objektives Tatbild)",
+        "Eine auf Vorteilsgewährung gerichtete Willensentscheidung (subjektives Tatbild)",
+        "Eine schriftliche Vereinbarung zwischen Körperschaft und Gesellschafter über die Zuwendung, aus der sich der gewährte Vorteil dem Inhalt nach eindeutig und nachvollziehbar ergibt",
+        "Fremdunüblichkeit des Vorgangs (der Sachverhalt hält einem Fremdvergleich nicht stand)"
       ],
-      "korrekt": 0,
-      "erklaerung": "Eine verdeckte Ausschüttung setzt kumulativ voraus: eine Eigentums- oder Nahebeziehung des Empfängers zur Körperschaft, eine objektive Vermögensminderung (bzw. verhinderte Vermögensmehrung) bei der Körperschaft (objektives Tatbild) sowie die subjektive Absicht der Vorteilsgewährung an den Anteilsinhaber bzw. eine ihm nahestehende Person (subjektives Tatbild)."
+      "korrekt": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "erklaerung": "§ 8 Abs 2 KStG: kumulativ erforderlich sind Eigentums-/Nahebeziehung, objektives Tatbild (Bereicherung zu Lasten der Körperschaft), subjektives Tatbild (Vorteilsgewährungsabsicht) und Fremdunüblichkeit. Die Beteiligungshöhe ist grundsätzlich ohne Bedeutung (auch ein Minderheitsgesellschafter genügt), und eine schriftliche Vereinbarung ist gerade nicht Voraussetzung – verdeckte Ausschüttungen erfolgen ohne offene Dokumentation."
     },
     {
       "id": "koest-39",
-      "frage": "Der Sohn des 100%-Gesellschafters A der X-GmbH erhält von der GmbH ein Auto um 4.000 EUR, ein fremder Dritter würde dafür 5.000 EUR zahlen. Was liegt vor?",
+      "typ": "single",
+      "frage": "Der Sohn des Alleingesellschafters A der X-GmbH erhält von der GmbH ein Auto um 4.000 €; ein fremder Dritter hätte 5.000 € bezahlt. Was liegt vor?",
       "optionen": [
-        "Eine verdeckte Ausschüttung in Höhe der Differenz von 1.000 EUR (indirekte vA, da der Vorteil einer dem Gesellschafter nahestehenden Person zufließt), die beim Gesellschafter A der KESt unterliegt",
-        "Es liegt überhaupt keine steuerlich relevante Ausschüttung vor, da der Sohn selbst nicht Gesellschafter ist",
-        "Es handelt sich um eine offene Ausschüttung, da der Vorgang im Jahresabschluss dokumentiert wurde",
-        "Die Differenz ist beim Sohn als Spende steuerfrei zu behandeln"
+        "Keine verdeckte Ausschüttung, weil der Sohn selbst nicht Gesellschafter der X-GmbH ist",
+        "Eine verdeckte Einlage von 1.000 €, da die GmbH durch das Geschäft einen Vermögensvorteil erhält, die das steuerliche Einlagenkonto der GmbH erhöht und dort steuerneutral zu erfassen ist",
+        "Eine indirekte verdeckte Ausschüttung von 1.000 €: Der Vorteil fließt einer nahestehenden Person zu, wird aber dem Gesellschafter A zugerechnet und unterliegt bei ihm der KESt",
+        "Eine offene Ausschüttung von 1.000 €, weil der Verkauf im Rechnungswesen der GmbH erfasst wurde"
       ],
-      "korrekt": 0,
-      "erklaerung": "Da der Sohn als nahestehende Person des Gesellschafters einen Vorteil (Differenz zwischen Marktpreis und tatsächlich gezahltem Preis = 1.000 EUR) von der GmbH erhält, liegt eine (indirekte) verdeckte Ausschüttung an den Gesellschafter A vor; diese wird dem Gesellschafter zugerechnet und unterliegt bei diesem der Kapitalertragsteuer."
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Der Vorteil (5.000 − 4.000 = 1.000) fließt einer dem Gesellschafter A nahestehenden Person (Sohn) zu; das begründet eine indirekte verdeckte Ausschüttung, die A zugerechnet wird und bei ihm der KESt (27,5 %) unterliegt. Dass der Sohn nicht Gesellschafter ist, schadet nicht (Zurechnung an A); eine offene Ausschüttung läge nur bei Gewinnverteilungsbeschluss vor, und die Richtung (GmbH gewährt Vorteil) spricht gegen eine Einlage."
     },
     {
       "id": "koest-40",
-      "frage": "Was bedeutet 'Vorteilsausgleich' im Zusammenhang mit verdeckter Ausschüttung (§ 8 Abs 2 KStG)?",
+      "typ": "single",
+      "frage": "Wann kann ein Vorteilsausgleich das Vorliegen einer verdeckten Ausschüttung ausschließen (§ 8 Abs 2 KStG)?",
       "optionen": [
-        "Wenn ein zunächst unangemessener Vorteil durch eine im Gesamtzusammenhang ausdrücklich vereinbarte Gegenleistung kompensiert wird, kann unter bestimmten Voraussetzungen das Vorliegen einer verdeckten Ausschüttung verneint werden",
-        "Vorteilsausgleich bedeutet, dass jede verdeckte Ausschüttung automatisch rückgängig gemacht wird",
-        "Der Begriff betrifft ausschließlich offene Ausschüttungen",
-        "Ein Vorteilsausgleich ist im Körperschaftsteuerrecht nicht vorgesehen"
+        "Schon dann, wenn der Gesellschafter der Körperschaft irgendwann einen beliebigen anderen Vorteil zukommen lässt",
+        "Nur dann, wenn die verdeckte Ausschüttung nachträglich vollständig an die Körperschaft zurückgezahlt wird",
+        "Wenn dem Vorteil eine gleichwertige Gegenleistung des Gesellschafters gegenübersteht, die auf demselben Vertrag beruht oder mit ihm in engem sachlichem und zeitlichem Zusammenhang vereinbart wurde",
+        "Vorteilsausgleich ist im Körperschaftsteuerrecht nicht anerkannt und kann eine verdeckte Ausschüttung niemals ausschließen, sodass ein gegenläufiger Vorteil des Gesellschafters steuerlich ohne jede Bedeutung bleibt"
       ],
-      "korrekt": 0,
-      "erklaerung": "Ein Vorteilsausgleich liegt vor, wenn ein zunächst unangemessenes Geschäft durch eine im Vorhinein klar und eindeutig vereinbarte Gegenleistung in einem anderen Rechtsgeschäft kompensiert wird; ist dies hinreichend dokumentiert und ernsthaft gewollt, kann das Vorliegen einer verdeckten Ausschüttung im Einzelfall verneint werden."
-    },
-    {
-      "id": "koest-41",
-      "frage": "Wie wird eine verdeckte Ausschüttung beim Empfänger besteuert, wenn dieser eine natürliche Person ist?",
-      "optionen": [
-        "Wie eine offene Ausschüttung unterliegt auch die verdeckte Ausschüttung beim Empfänger als Einkünfte aus Kapitalvermögen der KESt (§ 27 Abs. 2 Z 1 EStG)",
-        "Sie ist beim Empfänger als sonstige Einkünfte (§ 29 EStG) im Wege der Veranlagung zum Tarif zu erfassen, nicht über die KESt",
-        "Sie unterliegt beim Empfänger nur insoweit der KESt, als die Körperschaft die verdeckte Ausschüttung im Jahresabschluss offen ausgewiesen hat",
-        "Sie ist beim Empfänger steuerfrei, weil die zugrunde liegende Vermögensminderung bereits auf Ebene der Körperschaft der KöSt unterlegen ist"
+      "korrekt": [
+        2
       ],
-      "korrekt": 0,
-      "erklaerung": "Eine verdeckte Ausschüttung wird steuerlich wie eine offene Ausschüttung behandelt: Beim Empfänger (natürliche Person) liegen Einkünfte aus Kapitalvermögen vor, die der Kapitalertragsteuer unterliegen, auch wenn die Vorteilsgewährung nicht offiziell als Gewinnausschüttung beschlossen wurde."
-    },
-    {
-      "id": "koest-42",
-      "frage": "Wie werden Beteiligungserträge besteuert, wenn der Empfänger einer Ausschüttung eine juristische Person ist?",
-      "optionen": [
-        "Sie sind regelmäßig unter den Voraussetzungen der Beteiligungsertragsbefreiung (§ 10 KStG) bei der empfangenden Körperschaft steuerfrei, um Mehrfachbelastung zu vermeiden",
-        "Sie unterliegen bei der empfangenden Körperschaft immer der vollen Körperschaftsteuer ohne jede Befreiung",
-        "Juristische Personen können niemals Empfänger von Ausschüttungen sein",
-        "Beteiligungserträge an juristische Personen unterliegen ausschließlich der Umsatzsteuer"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Empfängt eine Körperschaft (z.B. eine Mutter-GmbH) eine Ausschüttung von ihrer Tochtergesellschaft, ist diese unter den Voraussetzungen des § 10 KStG (Beteiligungsertragsbefreiung) regelmäßig steuerfrei, um eine mehrfache Belastung desselben Gewinns auf verschiedenen Beteiligungsebenen zu vermeiden."
-    },
-    {
-      "id": "koest-43",
-      "frage": "Wer hat die KESt bei Ausschüttungen einer Körperschaft einzubehalten und abzuführen, und wer ist Schuldner der KESt (§ 95 EStG)?",
-      "optionen": [
-        "Abzugsverpflichtete und Haftende ist die ausschüttende Körperschaft (§ 95 Abs. 2 EStG); Schuldner der KESt ist hingegen der Empfänger der Kapitalerträge (§ 95 Abs. 1 EStG), der die Steuer wirtschaftlich trägt",
-        "Schuldner und Abzugsverpflichteter sind stets dieselbe Person, nämlich die ausschüttende Körperschaft, die die KESt sowohl schuldet als auch einbehält",
-        "Schuldner der KESt ist die ausschüttende Körperschaft; der Empfänger haftet dem Bund lediglich für die ordnungsgemäße Abfuhr",
-        "Der Empfänger der Ausschüttung hat die KESt selbst zu berechnen und im Veranlagungsweg abzuführen; eine Abzugsverpflichtung der Körperschaft besteht nicht"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Nach § 95 Abs. 1 EStG ist Schuldner der KESt der Empfänger der Kapitalerträge; die ausschüttende Körperschaft ist Abzugsverpflichtete (§ 95 Abs. 2 EStG) und haftet dem Bund für Einbehaltung und Abfuhr. Wirtschaftlich getragen wird die KESt vom Empfänger, da sie vom Ausschüttungsbetrag einbehalten wird. (Hinweis: § 93 Abs. 1a EStG betrifft demgegenüber das Wahlrecht, bei Körperschaften als Empfänger den reduzierten Satz von 23 % – ab 2024, davor 24 % bzw. in Altskripten 25 % – statt 27,5 % einzubehalten.)"
-    },
-    {
-      "id": "koest-44",
-      "frage": "Wann kommt eine KESt-Befreiung im Inland nach § 94 Z 2 EStG zur Anwendung?",
-      "optionen": [
-        "Insbesondere bei Ausschüttungen zwischen inländischen Körperschaften unter den Voraussetzungen einer Mindestbeteiligung, um eine Vorbelastung mit KESt im Konzernverbund zu vermeiden",
-        "Die KESt-Befreiung gilt ausschließlich für Ausschüttungen an natürliche Personen",
-        "Eine KESt-Befreiung ist im österreichischen Recht nicht vorgesehen",
-        "Die Befreiung betrifft ausschließlich Ausschüttungen an ausländische natürliche Personen"
-      ],
-      "korrekt": 0,
-      "erklaerung": "§ 94 Z 2 EStG sieht insbesondere für Ausschüttungen zwischen inländischen Körperschaften (bei Vorliegen einer ausreichenden Beteiligung) eine KESt-Befreiung an der Quelle vor, da diese Erträge ohnehin nach § 10 KStG körperschaftsteuerfrei sind – ein KESt-Abzug würde nur einen unnötigen administrativen Aufwand (Erstattungsverfahren) erzeugen."
-    },
-    {
-      "id": "koest-45",
-      "frage": "Was regelt die KESt-Befreiung bei Auslandsbezug nach § 94 Z 2 EStG (z.B. Mutter-Tochter-Richtlinie)?",
-      "optionen": [
-        "Unter bestimmten Voraussetzungen (z.B. Mindestbeteiligung, Mindestbehaltedauer, EU-Mutter-Tochter-Richtlinie) kann eine KESt-Befreiung auch bei Ausschüttungen an ausländische (insb. EU-)Muttergesellschaften zur Anwendung kommen",
-        "Eine KESt-Befreiung bei Auslandsbezug ist generell ausgeschlossen",
-        "Diese Regelung betrifft ausschließlich Drittstaaten außerhalb der EU",
-        "Die Befreiung gilt unabhängig von jeder Mindestbeteiligung oder Behaltedauer"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Bei Ausschüttungen an ausländische (insbesondere EU-ansässige) Muttergesellschaften kann unter den Voraussetzungen der EU-Mutter-Tochter-Richtlinie (umgesetzt in § 94 Z 2 EStG, z.B. Mindestbeteiligung von 10 % und Mindestbehaltedauer von einem Jahr) ebenfalls eine KESt-Befreiung an der Quelle erfolgen."
-    },
-    {
-      "id": "koest-46",
-      "frage": "Was unterscheidet einen Haftungsbescheid von einer Direktvorschreibung im Zusammenhang mit der KESt (§ 95 Abs 4 EStG)?",
-      "optionen": [
-        "Beim Haftungsbescheid wird primär die zum Abzug verpflichtete Körperschaft in Anspruch genommen, bei der Direktvorschreibung wird unter bestimmten Voraussetzungen unmittelbar der Empfänger der Kapitalerträge zur KESt herangezogen",
-        "Es handelt sich um exakt dieselbe rechtliche Konstruktion mit unterschiedlicher Bezeichnung",
-        "Eine Direktvorschreibung ist im KESt-System nicht vorgesehen",
-        "Haftungsbescheide betreffen ausschließlich die Umsatzsteuer, nicht die KESt"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Grundsätzlich wird die zum KESt-Abzug verpflichtete Körperschaft im Wege eines Haftungsbescheides in Anspruch genommen, wenn sie die KESt nicht ordnungsgemäß einbehalten/abgeführt hat; unter bestimmten Voraussetzungen (§ 95 Abs. 4 EStG, z.B. wenn der Abzugsverpflichtete die Steuer nicht vorschriftsmäßig gekürzt hat oder der Empfänger weiß, dass die Steuer nicht abgeführt wurde) kann die Steuer auch unmittelbar dem Empfänger direkt vorgeschrieben werden."
-    },
-    {
-      "id": "koest-47",
-      "frage": "Welche umsatzsteuerlichen Folgen kann eine verdeckte Ausschüttung haben (§ 8 Abs 2 KStG iVm § 4 Abs 9 UStG, § 12 Abs 2 Z 2 lit a UStG)?",
-      "optionen": [
-        "Soweit die der verdeckten Ausschüttung zugrundeliegende Leistung umsatzsteuerlich relevant ist (z.B. verbilligte Lieferung an einen Gesellschafter), kann dies zu einer eigenständigen umsatzsteuerlichen Bemessungsgrundlage (z.B. Normalwert) sowie ggf. zum Ausschluss des Vorsteuerabzugs führen",
-        "Verdeckte Ausschüttungen haben grundsätzlich keinerlei umsatzsteuerliche Relevanz",
-        "Eine verdeckte Ausschüttung führt automatisch zur vollständigen Umsatzsteuerbefreiung des zugrundeliegenden Geschäfts",
-        "Die umsatzsteuerlichen Folgen einer verdeckten Ausschüttung sind identisch mit jenen einer offenen Ausschüttung"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Liegt der verdeckten Ausschüttung ein umsatzsteuerlich relevanter Vorgang zugrunde (z.B. verbilligte Lieferung an einen nahestehenden Gesellschafter), können umsatzsteuerliche Folgen eintreten – etwa der Ansatz des Normalwerts als Bemessungsgrundlage (§ 4 Abs. 9 UStG) oder unter Umständen der Ausschluss des Vorsteuerabzugs nach § 12 Abs. 2 Z 2 lit a UStG, soweit die Aufwendungen ertragsteuerlich nicht abzugsfähig sind."
-    },
-    {
-      "id": "koest-48",
-      "frage": "Welche Aufwendungen sind nach § 12 Abs 1 Z 2 KStG grundsätzlich nicht abzugsfähig (unangemessene Aufwendungen)?",
-      "optionen": [
-        "Aufwendungen, die nach allgemeiner Verkehrsauffassung als unangemessen hoch zu qualifizieren sind und damit überwiegend durch das Gesellschaftsverhältnis bzw. eine unangemessene Repräsentation veranlasst sind",
-        "Sämtliche betrieblich veranlassten Aufwendungen unabhängig von ihrer Höhe",
-        "Unangemessene Aufwendungen betreffen ausschließlich Personalaufwand",
-        "§ 12 Abs. 1 Z 2 KStG enthält keine eigene Regelung zu unangemessenen Aufwendungen"
-      ],
-      "korrekt": 0,
-      "erklaerung": "§ 12 Abs. 1 Z 2 KStG schließt Aufwendungen vom Abzug aus, die nach der allgemeinen Verkehrsauffassung als unangemessen hoch anzusehen sind und damit über das betrieblich gerechtfertigte Ausmaß hinausgehen (vergleichbar der Angemessenheitsprüfung im EStG, z.B. bei Luxusgütern)."
-    },
-    {
-      "id": "koest-49",
-      "frage": "Sind Strafen nach § 12 Abs 1 Z 4 KStG als Betriebsausgabe abzugsfähig?",
-      "optionen": [
-        "Nein, Strafen (z.B. Verwaltungsstrafen, Geldstrafen) sind vom Betriebsausgabenabzug grundsätzlich ausgeschlossen",
-        "Ja, Strafen sind ohne jede Einschränkung in voller Höhe abzugsfähig",
-        "Strafen sind nur bei ausländischen Körperschaften abzugsfähig",
-        "Die Abzugsfähigkeit von Strafen hängt ausschließlich von ihrer Höhe ab, nicht von ihrer Rechtsnatur"
-      ],
-      "korrekt": 0,
-      "erklaerung": "§ 12 Abs. 1 Z 4 KStG schließt Strafen (z.B. von Gerichten oder Verwaltungsbehörden verhängte Geldstrafen) ausdrücklich vom Betriebsausgabenabzug aus, um zu verhindern, dass die mit der Strafe verbundene Sanktionswirkung durch steuerliche Abzugsfähigkeit abgeschwächt wird."
-    },
-    {
-      "id": "koest-50",
-      "frage": "Wie ist die Managementgehälter-Grenze von 500.000 EUR nach § 12 Abs 1 Z 8 KStG zu verstehen?",
-      "optionen": [
-        "Entgelte für Arbeits- oder Werkleistungen, die für eine Person 500.000 EUR pro Wirtschaftsjahr übersteigen, sind beim leistungsempfangenden Unternehmen insoweit nicht als Betriebsausgabe abzugsfähig",
-        "Diese Grenze betrifft ausschließlich die Lohnsteuer, nicht die Körperschaftsteuer",
-        "Managementgehälter sind unabhängig von ihrer Höhe immer voll abzugsfähig",
-        "Die Grenze von 500.000 EUR gilt nur für ausländische Führungskräfte"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Analog zur entsprechenden Regelung im EStG sieht auch § 12 Abs. 1 Z 8 KStG vor, dass Aufwendungen für Arbeits- oder Werkleistungen, die 500.000 EUR pro Person und Wirtschaftsjahr übersteigen, beim auszahlenden Unternehmen insoweit nicht als Betriebsausgabe abzugsfähig sind."
-    },
-    {
-      "id": "koest-51",
-      "frage": "Was regelt die Teilwertabschreibungs-Siebtelung nach § 12 Abs 3 KStG?",
-      "optionen": [
-        "Teilwertabschreibungen auf Beteiligungen sowie bestimmte Veräußerungsverluste sind grundsätzlich nicht sofort zur Gänze, sondern verteilt auf sieben Jahre (je ein Siebtel pro Jahr) steuerlich zu berücksichtigen",
-        "Teilwertabschreibungen sind im Körperschaftsteuerrecht generell vollständig unzulässig",
-        "Die Siebtelung betrifft ausschließlich Abschreibungen auf das Anlagevermögen, niemals auf Beteiligungen",
-        "Eine Siebtelung erfolgt nur bei Beteiligungen unter 1 % am Kapital"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Teilwertabschreibungen auf Beteiligungen sowie damit zusammenhängende Veräußerungsverluste sind nach § 12 Abs. 3 KStG grundsätzlich nicht sofort in voller Höhe absetzbar, sondern auf sieben Jahre zu verteilen (Siebtelung), um eine missbräuchliche Verlustnutzung im Konzernverbund einzuschränken."
-    },
-    {
-      "id": "koest-52",
-      "frage": "Welche Ausnahmen von der Siebtelung sieht § 12 Abs 3 Z 2 KStG u.a. vor?",
-      "optionen": [
-        "Z.B. bestimmte Teilwertabschreibungen aufgrund nachgewiesener tatsächlicher und endgültiger Wertminderungen, die unter den gesetzlichen Voraussetzungen sofort abzugsfähig sein können",
-        "Es gibt keinerlei Ausnahmen von der Siebtelung",
-        "Die Ausnahme gilt ausschließlich für inländische Beteiligungen",
-        "Eine Ausnahme besteht nur bei Beteiligungen an Personengesellschaften"
-      ],
-      "korrekt": 0,
-      "erklaerung": "§ 12 Abs. 3 Z 2 KStG sieht unter bestimmten, im Gesetz näher geregelten Voraussetzungen Ausnahmen von der grundsätzlichen Siebtelungspflicht vor, etwa wenn die Wertminderung auf bestimmte, endgültige und nachweisbare Umstände zurückzuführen ist (z.B. Liquidation, Insolvenz der Beteiligungsgesellschaft)."
-    },
-    {
-      "id": "koest-53",
-      "frage": "Was regeln die Sonderausgaben des § 8 Abs 4 KStG insbesondere im Zusammenhang mit dem Verlustabzug?",
-      "optionen": [
-        "Der Verlustvortrag/Verlustabzug von Körperschaften ist als Sonderausgabe ausgestaltet und unter bestimmten Voraussetzungen (z.B. nicht bei Vorliegen eines Mantelkaufs) zeitlich grundsätzlich unbegrenzt vortragsfähig",
-        "Körperschaften können niemals Verluste vortragen",
-        "Sonderausgaben betreffen ausschließlich Spenden von Körperschaften",
-        "Der Verlustabzug bei Körperschaften ist auf maximal ein Jahr begrenzt"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Nach § 8 Abs. 4 KStG iVm § 18 Abs. 6 EStG kann der Verlustabzug (Verlustvortrag) als Sonderausgabe geltend gemacht werden; er ist grundsätzlich zeitlich unbegrenzt vortragsfähig, kann jedoch z.B. beim Vorliegen eines sogenannten Mantelkaufs (§ 8 Abs. 4 lit c KStG) eingeschränkt oder ausgeschlossen sein."
-    },
-    {
-      "id": "koest-54",
-      "frage": "Was versteht man unter einem Mantelkauf (§ 8 Abs 4 lit c KStG) und welche Rechtsfolge ist damit verbunden?",
-      "optionen": [
-        "Den Erwerb der Anteile an einer Körperschaft mit wesentlicher Änderung der organisatorischen und wirtschaftlichen Struktur sowie des Gesellschafterkreises, der zum Verlust der wirtschaftlichen Identität führt – die Folge ist regelmäßig der Verlust vortragsfähiger Verluste",
-        "Mantelkauf bezeichnet den Kauf eines bereits in Liquidation befindlichen Unternehmens ohne jede steuerliche Konsequenz",
-        "Ein Mantelkauf führt immer zu einer zusätzlichen steuerlichen Begünstigung",
-        "Der Begriff Mantelkauf hat im österreichischen Steuerrecht keine Bedeutung"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Ein Mantelkauf liegt vor, wenn die wirtschaftliche Identität einer Körperschaft durch eine wesentliche Änderung der organisatorischen Struktur, der wirtschaftlichen Struktur und des Gesellschafterkreises (idR im zeitlichen Zusammenhang) verloren geht; in diesem Fall geht der Verlustvortrag nach § 8 Abs. 4 lit c KStG grundsätzlich verloren, um einen missbräuchlichen 'Handel' mit Verlustvorträgen zu verhindern."
-    },
-    {
-      "id": "koest-55",
-      "frage": "Was ist die Grundidee der Gruppenbesteuerung (§ 9 KStG)?",
-      "optionen": [
-        "Mehrere Körperschaften (Gruppenmitglieder) können steuerlich als wirtschaftliche Einheit (Unternehmensgruppe) behandelt werden, wobei Gewinne und Verluste der einzelnen Mitglieder dem Gruppenträger zugerechnet und dort zusammengefasst werden",
-        "Die Gruppenbesteuerung führt dazu, dass jede beteiligte Körperschaft völlig unabhängig und ohne jeden Zusammenhang besteuert wird",
-        "Gruppenbesteuerung betrifft ausschließlich Personengesellschaften",
-        "Bei Gruppenbesteuerung entfällt jede Körperschaftsteuerpflicht für sämtliche beteiligten Gesellschaften"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Die Gruppenbesteuerung (§ 9 KStG) ermöglicht es, finanziell verbundene Körperschaften (Gruppenmitglieder) zu einer steuerlichen Unternehmensgruppe zusammenzufassen; die steuerlichen Ergebnisse (Gewinne und Verluste) der Gruppenmitglieder werden dem Gruppenträger zugerechnet, wodurch ein unmittelbarer Verlustausgleich innerhalb der Gruppe möglich wird."
-    },
-    {
-      "id": "koest-56",
-      "frage": "Welche Voraussetzungen müssen für die Gruppenbildung nach § 9 Abs 2-5 KStG u.a. vorliegen?",
-      "optionen": [
-        "Insbesondere eine ausreichende finanzielle Verbindung (Beteiligung von mehr als 50 % am Kapital und an den Stimmrechten) zwischen Gruppenträger und Gruppenmitgliedern sowie ein form- und fristgerecht gestellter Gruppenantrag",
-        "Es genügt eine beliebige Beteiligung jeder Höhe ohne weitere Voraussetzungen",
-        "Eine Gruppenbildung ist nur zwischen zwei Körperschaften möglich, niemals bei mehr Beteiligten",
-        "Für die Gruppenbildung ist keine Mindestbeteiligungsquote erforderlich"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Für die Bildung einer Unternehmensgruppe ist u.a. eine ausreichende finanzielle Verbindung (grundsätzlich eine Beteiligung von mehr als 50 % am Kapital und an den Stimmrechten, unmittelbar oder mittelbar) zwischen dem Gruppenträger und den jeweiligen Gruppenmitgliedern sowie ein form- und fristgerecht beim zuständigen Finanzamt eingebrachter Gruppenantrag erforderlich (§ 9 Abs. 8 KStG)."
-    },
-    {
-      "id": "koest-57",
-      "frage": "Wie wird das Ergebnis einer Unternehmensgruppe nach § 9 Abs 6 KStG grundsätzlich ermittelt?",
-      "optionen": [
-        "Die steuerlichen Ergebnisse der einzelnen Gruppenmitglieder werden jeweils gesondert ermittelt und sodann dem Gruppenträger zugerechnet, der sie (unter Beachtung etwaiger Verlustverwertungsbeschränkungen) zu einem Gruppenergebnis zusammenfasst",
-        "Es wird ausschließlich das Ergebnis des Gruppenträgers besteuert, die Ergebnisse der Gruppenmitglieder bleiben gänzlich unberücksichtigt",
-        "Jedes Gruppenmitglied zahlt unabhängig von der Gruppe weiterhin vollständig eigenständig Körperschaftsteuer ohne jede Zusammenfassung",
-        "Das Gruppenergebnis wird ausschließlich anhand der Umsätze der beteiligten Körperschaften berechnet"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Innerhalb der Unternehmensgruppe wird das steuerliche Ergebnis jedes einzelnen Gruppenmitglieds gesondert ermittelt und sodann dem Gruppenträger zugerechnet; dieser fasst die zugerechneten Ergebnisse (unter Berücksichtigung der gesetzlichen Beschränkungen, insbesondere bei ausländischen Gruppenmitgliedern) zu einem einheitlichen Gruppenergebnis zusammen, das die gemeinsame Bemessungsgrundlage für die KöSt der Gruppe bildet."
-    },
-    {
-      "id": "koest-58",
-      "frage": "Wie werden Verluste eines ausländischen Gruppenmitglieds bei der Gruppenbesteuerung grundsätzlich berücksichtigt?",
-      "optionen": [
-        "Verluste ausländischer Gruppenmitglieder werden anteilig entsprechend der Beteiligung (z.B. 60 %) zugerechnet, wobei die Höhe der zurechenbaren Verluste nach den österreichischen steuerlichen Gewinnermittlungsvorschriften zu ermitteln und ggf. nach unten zu begrenzen ist, falls diese niedriger sind als nach ausländischem Recht",
-        "Verluste ausländischer Gruppenmitglieder können niemals der österreichischen Unternehmensgruppe zugerechnet werden",
-        "Es ist immer der gesamte ausländische Verlust unbegrenzt nach österreichischem Recht anzusetzen",
-        "Die Verlustzurechnung erfolgt unabhängig von der Beteiligungsquote stets zu 100 %"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Verluste ausländischer Gruppenmitglieder werden dem Gruppenträger im Ausmaß der Beteiligungsquote (z.B. 60 % bei entsprechender Beteiligung) zugerechnet; maßgeblich ist dabei jeweils der niedrigere der nach österreichischem bzw. ausländischem Steuerrecht ermittelten Verlustbeträge, um eine überschießende Verlustverwertung zu vermeiden."
-    },
-    {
-      "id": "koest-59",
-      "frage": "Was versteht man unter Nutzungseinlagen im Sinne des § 8 Abs 1 KStG?",
-      "optionen": [
-        "Die unentgeltliche oder zu günstige Überlassung von Nutzungsmöglichkeiten (z.B. Dienstleistungen, Gebrauchsüberlassung von Gegenständen) durch den Gesellschafter an die Körperschaft, die steuerlich grundsätzlich nicht wie eine Einlage wirkt (keine Werterhöhung des Einlagenkontos)",
-        "Nutzungseinlagen sind körperschaftsteuerlich identisch mit offenen Einlagen und erhöhen das Einlagenkonto in gleicher Weise",
-        "Der Begriff betrifft ausschließlich Bareinlagen",
-        "Nutzungseinlagen führen immer zu einer steuerpflichtigen Betriebseinnahme der Körperschaft"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Nutzungseinlagen sind unentgeltliche oder verbilligte Nutzungsüberlassungen (z.B. eine Dienstleistung des Gesellschafters oder die unentgeltliche Überlassung eines Gegenstandes) an die Körperschaft; sie werden steuerlich – anders als 'normale' Einlagen – grundsätzlich nicht als Vermögenszuführung anerkannt und erhöhen daher nicht das steuerliche Einlagenkonto."
-    },
-    {
-      "id": "koest-60",
-      "frage": "Welche Konsequenz hat eine Darlehensgewährung der Körperschaft an einen Gesellschafter zu fremdunüblich niedrigen Zinsen?",
-      "optionen": [
-        "Die Differenz zwischen fremdüblichem und tatsächlich verrechnetem Zinssatz stellt eine verdeckte Ausschüttung an den Gesellschafter dar",
-        "Fremdunübliche Zinsvereinbarungen mit Gesellschaftern sind steuerlich ohne jede Konsequenz",
-        "Eine solche Darlehensgewährung führt automatisch zu einer offenen Ausschüttung",
-        "Die Zinsdifferenz ist beim Gesellschafter immer steuerfrei, unabhängig von der Höhe"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Vergibt die Körperschaft einem Gesellschafter ein Darlehen zu einem unter dem Fremdüblichen liegenden Zinssatz, liegt in Höhe der Zinsdifferenz (entgangener fremdüblicher Zinsertrag) eine verdeckte Ausschüttung vor, da der Körperschaft insoweit ein Vermögensvorteil entgeht, der dem Gesellschafter aus gesellschaftsrechtlichen Gründen zugutekommt."
-    },
-    {
-      "id": "koest-61",
-      "frage": "Welche Voraussetzung muss für die unbeschränkte Steuerpflicht einer Körperschaft nach § 1 Abs 2 Z 1 KStG erfüllt sein?",
-      "optionen": [
-        "Sitz oder Geschäftsleitung im Inland",
-        "Ausschließlich eine inländische Bankverbindung",
-        "Die Mehrheit der Gesellschafter muss österreichische Staatsbürger sein",
-        "Ein Mindestumsatz von 700.000 EUR pro Jahr"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Für die unbeschränkte Steuerpflicht genügt nach § 1 Abs. 2 Z 1 KStG bereits eines der beiden Merkmale Sitz oder Geschäftsleitung im Inland – beide müssen nicht kumulativ vorliegen."
-    },
-    {
-      "id": "koest-62",
-      "frage": "Eine internationale Schachtelbeteiligung wird vor Ablauf der einjährigen Mindestbehaltedauer veräußert. Welche Konsequenz hat das insbesondere für eine zuvor vorgenommene Teilwertabschreibung?",
-      "optionen": [
-        "Wird die Mindestbehaltedauer nicht erfüllt, gilt die Beteiligung als Portfoliobeteiligung, wodurch sich auch die steuerliche Behandlung einer zuvor vorgenommenen Teilwertabschreibung (z.B. im Rahmen der Mehr-Weniger-Rechnung) entsprechend ändert",
-        "Die Mindestbehaltedauer hat keinerlei Auswirkung auf die steuerliche Qualifikation der Beteiligung",
-        "Bei Unterschreiten der Behaltedauer entfällt automatisch jede Besteuerung des Veräußerungsgewinns",
-        "Die Beteiligung bleibt unabhängig von der Behaltedauer immer als internationale Schachtelbeteiligung qualifiziert"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Wird die für die internationale Schachtelbeteiligung erforderliche einjährige Mindestbehaltedauer nicht erfüllt (z.B. weil die Beteiligung vorzeitig veräußert wird), liegt rückwirkend keine begünstigte internationale Schachtelbeteiligung, sondern eine 'gewöhnliche' (Portfolio-)Beteiligung vor; dies wirkt sich entsprechend auf bereits vorgenommene Teilwertabschreibungen aus, die ggf. im Rahmen der steuerlichen Mehr-Weniger-Rechnung zu korrigieren sind."
-    },
-    {
-      "id": "koest-63",
-      "frage": "Wie wird grundsätzlich zwischen Vorgruppenverlusten eines Gruppenmitglieds verfahren, wenn dieses später Teil einer Unternehmensgruppe wird?",
-      "optionen": [
-        "Vorgruppenverluste (Verluste aus der Zeit vor Eintritt in die Gruppe) bleiben grundsätzlich dem jeweiligen Gruppenmitglied zugeordnet und können nur mit eigenen zukünftigen Gewinnen dieses Mitglieds verrechnet werden (Verrechnungsbeschränkung)",
-        "Vorgruppenverluste gehen mit Eintritt in die Unternehmensgruppe vollständig und ersatzlos unter",
-        "Vorgruppenverluste werden automatisch unbeschränkt mit dem Ergebnis der gesamten Unternehmensgruppe verrechnet",
-        "Vorgruppenverluste können nur vom Gruppenträger genutzt werden, niemals vom betroffenen Mitglied selbst"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Verluste, die ein Gruppenmitglied bereits vor seinem Eintritt in die Unternehmensgruppe erwirtschaftet hat (Vorgruppenverluste), bleiben diesem Mitglied zugeordnet und können – anders als laufende Gruppenverluste – nur mit künftigen eigenen Gewinnen desselben Gruppenmitglieds (nicht mit dem Gesamtergebnis der Gruppe) verrechnet werden."
-    },
-    {
-      "id": "koest-64",
-      "frage": "Was sind Körperschaften öffentlichen Rechts (KöR) beispielhaft?",
-      "optionen": [
-        "Z.B. der Bund, die Bundesländer, Gemeinden sowie bestimmte Sozialversicherungsträger",
-        "Ausschließlich private Kapitalgesellschaften wie GmbHs",
-        "Nur natürliche Personen mit besonderem Status",
-        "KöR sind im österreichischen Recht nicht existent"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Körperschaften öffentlichen Rechts sind insbesondere Gebietskörperschaften (Bund, Länder, Gemeinden) sowie bestimmte Selbstverwaltungskörper wie Sozialversicherungsträger oder Kammern, die hoheitliche Aufgaben wahrnehmen und nur insoweit körperschaftsteuerpflichtig werden, als sie Betriebe gewerblicher Art unterhalten."
-    },
-    {
-      "id": "koest-65",
-      "frage": "Ist ein abweichendes Wirtschaftsjahr bei einer Körperschaft grundsätzlich möglich, und was folgt daraus bei einer Umstellung?",
-      "optionen": [
-        "Ja, ein abweichendes Wirtschaftsjahr ist möglich; bei einer Umstellung des Wirtschaftsjahres kann es zu einem Rumpfwirtschaftsjahr (kürzer als 12 Monate) kommen",
-        "Ein abweichendes Wirtschaftsjahr ist bei Körperschaften generell ausgeschlossen",
-        "Eine Umstellung des Wirtschaftsjahres führt niemals zu einem Rumpfwirtschaftsjahr",
-        "Körperschaften müssen immer zwingend zum Kalenderjahr bilanzieren"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Wie bei Gewerbetreibenden im Einkommensteuerrecht ist auch bei Körperschaften ein vom Kalenderjahr abweichendes Wirtschaftsjahr möglich; erfolgt eine Umstellung des Wirtschaftsjahres, ergibt sich dabei regelmäßig ein Rumpfwirtschaftsjahr mit einer kürzeren als der üblichen Zwölf-Monats-Periode, das eigenständig der Besteuerung unterliegt."
-    },
-    {
-      "id": "koest-66",
-      "frage": "Was bedeutet 'Mindestkörperschaftsteuer' (MiKö) im Zusammenhang mit § 24 KStG?",
-      "optionen": [
-        "Eine von bestimmten Kapitalgesellschaften unabhängig vom tatsächlichen steuerlichen Gewinn zu entrichtende Mindeststeuer, die mit später anfallender tatsächlicher Körperschaftsteuer verrechnet werden kann",
-        "Die Mindestkörperschaftsteuer betrifft ausschließlich Personengesellschaften",
-        "MiKö ist eine einmalige Steuer, die nur bei Gründung anfällt und danach nie wieder relevant wird",
-        "Es gibt im österreichischen Recht keine Mindestkörperschaftsteuer"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Die Mindestkörperschaftsteuer ist eine von bestimmten Kapitalgesellschaften unabhängig vom laufenden Ergebnis zu entrichtende Mindeststeuer (an die Rechtsform gekoppelt); sie wird in Folgejahren mit der tatsächlich anfallenden, höheren Körperschaftsteuer verrechnet (Anrechnungsvortrag), sodass sie wirtschaftlich eine Vorauszahlung darstellt."
-    },
-    {
-      "id": "koest-67",
-      "frage": "Was wird bei der Beendigung einer Körperschaft im Wege der Liquidation (§ 19 KStG) steuerlich erfasst?",
-      "optionen": [
-        "Der Liquidationsgewinn als Differenz zwischen dem Abwicklungs-Endvermögen und dem Abwicklungs-Anfangsvermögen, ermittelt über den gesamten Liquidationszeitraum",
-        "Es erfolgt bei Liquidation grundsätzlich keine eigene steuerliche Erfassung",
-        "Der Liquidationsgewinn wird ausschließlich nach dem letzten regulären Kalenderjahr vor Beginn der Liquidation bemessen",
-        "Eine Liquidationsbesteuerung ist nur bei Personengesellschaften vorgesehen"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Bei Auflösung und Liquidation einer Körperschaft wird der Liquidationsgewinn besteuert, der sich grundsätzlich als Differenz zwischen dem Abwicklungs-Endvermögen (Vermögen am Ende der Liquidation) und dem Abwicklungs-Anfangsvermögen (Vermögen zu Beginn der Liquidation, idR Eigenkapital) über den gesamten Besteuerungszeitraum der Liquidation (höchstens 3 Jahre) ermittelt."
-    },
-    {
-      "id": "koest-68",
-      "frage": "Welche Ausgaben sind bei einer Körperschaft grundsätzlich abzugsfähig?",
-      "optionen": [
-        "Betrieblich veranlasste Aufwendungen, die nicht von einem der ausdrücklichen gesetzlichen Abzugsverbote (z.B. § 12 KStG) erfasst sind",
-        "Sämtliche Aufwendungen unabhängig von ihrer betrieblichen Veranlassung",
-        "Nur Personalaufwand ist bei Körperschaften jemals abzugsfähig",
-        "Es gibt für Körperschaften keine abzugsfähigen Aufwendungen"
-      ],
-      "korrekt": 0,
-      "erklaerung": "Wie bei der Einkommensteuer gilt auch im Körperschaftsteuerrecht der Grundsatz, dass betrieblich veranlasste Aufwendungen abzugsfähig sind, soweit nicht eines der spezifischen Abzugsverbote (insbesondere in § 12 KStG, z.B. für Strafen, unangemessene Aufwendungen, bestimmte Teile von Managementgehältern) greift."
+      "erklaerung": "§ 8 Abs 2 KStG: Beim Vorteilsausgleich steht dem Vorteil der Körperschaft eine gleichwertige Gegenleistung des Gesellschafters gegenüber; bei Anerkennung entfällt die vA. Erforderlich ist derselbe Vertrag oder – bei verschiedenen Verträgen – ein enger sachlicher/zeitlicher Zusammenhang mit Hinweis darauf (bzw. Üblichkeit im Geschäftsverkehr). Ein beliebiger späterer Vorteil genügt nicht; die nachträgliche Rückzahlung ist die davon zu unterscheidende Rückgängigmachung."
     }
   ]
 }
