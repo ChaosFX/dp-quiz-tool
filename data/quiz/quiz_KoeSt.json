@@ -1,8 +1,316 @@
 {
   "fach": "KöSt",
-  "quelle": "BFA-Skriptum Körperschaftsteuer (Ko_St_Oktober_2025_GAB), Stand Veranlagung 2025; KStG/EStG/BAO in geltender Fassung.",
+  "quelle": "BFA-Skriptum Körperschaftsteuer (Ko_St_Oktober_2025_GAB), Stand Veranlagung 2025; KStG/EStG/BAO/UStG in geltender Fassung.",
   "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025.",
   "fragen": [
+    {
+      "id": "koest-01",
+      "typ": "single",
+      "frage": "Welche Aussage zu den Steuersubjekten der Körperschaftsteuer trifft zu?",
+      "optionen": [
+        "Steuersubjekt sind auch Mitunternehmerschaften wie OG oder KG; ihr Gewinn wird zunächst auf Gesellschaftsebene mit Körperschaftsteuer belastet und erst die Ausschüttung den Gesellschaftern zugerechnet",
+        "Körperschaftsteuerpflichtig sind v.a. juristische Personen des privaten Rechts (z.B. GmbH, AG); Personengesellschaften sind kein eigenes KöSt-Subjekt, ihr Gewinn wird den Gesellschaftern zugerechnet",
+        "KöSt-Subjekt ist nach dem Durchgriffsprinzip der jeweilige Gesellschafter einer Kapitalgesellschaft, dem der laufende Gewinn der GmbH unmittelbar und unabhängig von einer Ausschüttung zugerechnet wird",
+        "Steuersubjekt sind ausschließlich Kapitalgesellschaften; Genossenschaften, Vereine und Privatstiftungen unterliegen mangels Gewinnstrebens nicht der Körperschaftsteuer",
+        "Die Körperschaftsteuer ist keine eigenständige Steuer, sondern eine besondere Erhebungsform der Einkommensteuer, die anstelle des progressiven Tarifs für juristische Personen tritt"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 1 KStG: KöSt-Subjekte sind v.a. juristische Personen des privaten Rechts (Kapitalgesellschaften), daneben aber auch Genossenschaften, Vereine, Privatstiftungen, BgA von KöR und bestimmte nichtrechtsfähige Gebilde. Personengesellschaften sind transparent (häufigster Fehler). Bei Kapitalgesellschaften gilt das Trennungsprinzip, kein Durchgriff; und die KöSt ist eine eigenständige Steuer, keine bloße Erhebungsform der ESt."
+    },
+    {
+      "id": "koest-02",
+      "typ": "single",
+      "frage": "Worin liegt der grundlegende systematische Unterschied zwischen der Besteuerung von Personen- und Kapitalgesellschaften?",
+      "optionen": [
+        "Personengesellschaften werden nach dem Trennungsprinzip als eigenständiges Steuersubjekt erfasst, während bei Kapitalgesellschaften nach dem Transparenzprinzip der Gewinn unmittelbar den Gesellschaftern zugerechnet wird",
+        "Personengesellschaften werden nach dem Transparenzprinzip besteuert (Zurechnung an die Gesellschafter), Kapitalgesellschaften nach dem Trennungsprinzip als eigenes Steuersubjekt",
+        "Bei beiden Formen wird der Gewinn zunächst auf Gesellschaftsebene mit der jeweiligen Ertragsteuer belastet und erst die spätere Ausschüttung zusätzlich den Gesellschaftern zugerechnet",
+        "Der Unterschied betrifft allein die Art der Gewinnermittlung (Bilanzierung versus Einnahmen-Ausgaben-Rechnung), nicht die Frage des Steuersubjekts"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Personengesellschaften sind transparent (Zurechnung an die Gesellschafter), Kapitalgesellschaften nach dem Trennungsprinzip selbst Steuersubjekt. Der erste Distraktor vertauscht die Prinzipien, der dritte überträgt die Trennungslogik fälschlich auch auf die Personengesellschaft, der vierte verlagert den Unterschied auf die Gewinnermittlung – tatsächlich geht es um das Steuersubjekt."
+    },
+    {
+      "id": "koest-03",
+      "typ": "single",
+      "frage": "Wie verhält sich die KöSt zur ESt in ihren Grundprinzipien?",
+      "optionen": [
+        "Die KöSt übernimmt das EStG vollständig und unverändert; eigene körperschaftsteuerliche Grundprinzipien bestehen nicht, sodass für Körperschaften exakt dieselben Regeln wie für natürliche Personen gelten",
+        "Die KöSt ist ein gegenüber dem EStG völlig eigenständiges System; die Vorschriften des EStG zur Einkommensermittlung kommen für Körperschaften grundsätzlich nicht zur Anwendung",
+        "Die KöSt knüpft für die Einkommensermittlung an das EStG an (§ 7 Abs 2 KStG), folgt aber eigenen Prinzipien wie dem Trennungsprinzip und der Einkünftetransformation (§ 7 Abs 3 KStG)",
+        "Die KöSt besteuert – anders als die ESt – jede Einkunftsquelle isoliert mit einem eigenen Tarif und kennt daher kein zusammengefasstes Einkommen"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 7 Abs 2 KStG verweist für die Einkommensermittlung weitgehend auf das EStG; das KStG hat aber eigene Prinzipien, v.a. Trennungsprinzip und Einkünftetransformation (§ 7 Abs 3 KStG: alle Einkünfte buchführender Körperschaften gelten als solche aus Gewerbebetrieb). Weder die völlige Identität mit dem EStG noch dessen völlige Verdrängung trifft zu, und der eigene Tarif je Quelle ist erfunden."
+    },
+    {
+      "id": "koest-04",
+      "typ": "single",
+      "frage": "Was kennzeichnet das Trennungsprinzip im Unterschied zum Durchgriffs-/Transparenzprinzip?",
+      "optionen": [
+        "Beim Trennungsprinzip wird auf die hinter der Gesellschaft stehenden Personen durchgegriffen und ihnen das Ergebnis zugerechnet, während beim Durchgriffsprinzip die Gesellschaft als eigenes Steuersubjekt behandelt wird",
+        "Das Trennungsprinzip gilt für Personengesellschaften und das Durchgriffsprinzip für Kapitalgesellschaften, weil nur Letztere über eigene Rechtspersönlichkeit verfügen",
+        "Beim Trennungsprinzip ist die Körperschaft ein von ihren Gesellschaftern getrenntes eigenes Steuersubjekt; beim Durchgriffsprinzip wird das Ergebnis unmittelbar den dahinterstehenden Personen zugerechnet",
+        "Beide Prinzipien führen zur selben wirtschaftlichen Gesamtbelastung und unterscheiden sich nur in der gesetzlichen Bezeichnung des Steuerschuldners"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Trennungsprinzip (Kapitalgesellschaften): eigenständiges Steuersubjekt. Durchgriffs-/Transparenzprinzip (Mitunternehmerschaften): unmittelbare Zurechnung an die Gesellschafter. Der erste Distraktor vertauscht die Definitionen, der zweite ordnet die Prinzipien den falschen Gesellschaftsformen zu, und eine identische Gesamtbelastung besteht gerade nicht (wirtschaftliche Doppelbelastung bei der Kapitalgesellschaft)."
+    },
+    {
+      "id": "koest-05",
+      "typ": "single",
+      "frage": "In welchem Zusammenhang ist die Angehörigenjudikatur im Körperschaftsteuerrecht besonders bedeutsam?",
+      "optionen": [
+        "Bei Geschäften zwischen einander fremd gegenüberstehenden Dritten, bei denen wegen der fehlenden Nahebeziehung ein besonders strenger Fremdvergleichsmaßstab anzulegen ist",
+        "Bei der Prüfung, ob Leistungsbeziehungen zwischen Körperschaft und (beherrschendem) Gesellschafter fremdüblich sind oder ob eine verdeckte Ausschüttung vorliegt",
+        "Bei der Frage, ob eine Auslandsbeteiligung die Voraussetzungen einer internationalen Schachtelbeteiligung nach § 10 KStG erfüllt"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Die Kriterien der Angehörigenjudikatur (Publizität, klarer eindeutiger Inhalt, Fremdüblichkeit) dienen im Naheverhältnis Körperschaft–Gesellschafter der Beurteilung, ob ein Vertrag dem Fremdvergleich standhält; sonst droht eine verdeckte Ausschüttung. Bei fehlender Nahebeziehung ist sie nicht das Thema, und mit der Schachtelqualifikation hat sie nichts zu tun."
+    },
+    {
+      "id": "koest-06",
+      "typ": "multiple",
+      "frage": "Welche Einkunfts- bzw. Vergütungsformen kommen für die Tätigkeit eines Gesellschafter-Geschäftsführers bei 'seiner' GmbH grundsätzlich in Betracht? (Mehrfachauswahl)",
+      "optionen": [
+        "Ein Dienstverhältnis mit Einkünften aus nichtselbständiger Arbeit (§ 25 EStG)",
+        "Bei wesentlicher Beteiligung von mehr als 25 % Einkünfte nach § 22 Z 2 EStG (sonstige selbständige Arbeit)",
+        "Zwingend Einkünfte aus Kapitalvermögen, weil die Geschäftsführervergütung wegen der Gesellschafterstellung steuerlich als Vorabausschüttung des Gewinns gilt",
+        "In jedem Fall Einkünfte aus Gewerbebetrieb, die der Geschäftsführer als protokollierter Einzelunternehmer neben der GmbH zu erklären hat",
+        "Ein freier Dienstvertrag, der unabhängig von der Beteiligungshöhe ausnahmslos zu Einkünften aus selbständiger Arbeit nach § 22 Z 1 EStG führt"
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "Je nach Beteiligung und Eingliederung erzielt der Gesellschafter-Geschäftsführer Einkünfte aus nichtselbständiger Arbeit (§ 25 EStG) oder – bei wesentlicher Beteiligung über 25 % – aus § 22 Z 2 EStG. Die Vergütung ist weder eine Kapitalbeteiligungs-Ausschüttung noch ein eigener Gewerbebetrieb des Geschäftsführers; und § 22 Z 1 EStG (freiberufliche Tätigkeit) ist hier nicht einschlägig."
+    },
+    {
+      "id": "koest-07",
+      "typ": "single",
+      "frage": "Was beschreibt die wirtschaftliche Doppelbelastung von Gewinnen im System KöSt/ESt?",
+      "optionen": [
+        "Derselbe Gewinn wird auf Ebene der Körperschaft mit Körperschaftsteuer und zusätzlich nochmals mit Körperschaftsteuer im Folgejahr belastet, sodass eine zweifache KöSt entsteht",
+        "Der Gewinn wird zunächst auf Ebene der Körperschaft mit KöSt belastet; bei Ausschüttung an eine natürliche Person tritt zusätzlich die KESt hinzu",
+        "Die Doppelbelastung tritt nur bei grenzüberschreitenden Ausschüttungen mit Auslandsbezug ein, weil dort zwei Staaten denselben Gewinn besteuern",
+        "Eine Mehrfachbelastung entsteht nur dann, wenn die Körperschaft den Gewinn thesauriert; bei sofortiger Ausschüttung wird die KöSt hingegen erstattet"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Der Körperschaftsgewinn wird zunächst mit KöSt (23 %) belastet; bei Ausschüttung an eine natürliche Person kommt die KESt (27,5 %) hinzu – daraus resultiert die wirtschaftliche Doppelbelastung. Es geht nicht um zweifache KöSt, der Effekt ist nicht auf Auslandsfälle beschränkt, und gerade die Ausschüttung (nicht die Thesaurierung) löst die zweite Belastung aus; eine KöSt-Erstattung gibt es nicht."
+    },
+    {
+      "id": "koest-08",
+      "typ": "single",
+      "frage": "Wie unterscheiden sich unmittelbare und mittelbare Beteiligung?",
+      "optionen": [
+        "Eine mittelbare Beteiligung liegt nur bei börsennotierten Gesellschaften vor, während eine unmittelbare Beteiligung ausschließlich bei nicht börsennotierten Gesellschaften bestehen kann",
+        "Eine unmittelbare Beteiligung besteht direkt zwischen Gesellschafter und Körperschaft; eine mittelbare über zwischengeschaltete Gesellschaften (Durchrechnung der Quoten)",
+        "Beide Begriffe bezeichnen denselben Sachverhalt, nämlich jede Form der Kapitalbeteiligung unabhängig davon, ob noch weitere Gesellschaften dazwischengeschaltet sind"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Unmittelbar = direkte Beteiligung Gesellschafter–Körperschaft; mittelbar = über zwischengeschaltete Gesellschaften, mit Durchrechnung der Quoten. Die Unterscheidung hängt nicht von der Börsennotierung ab, und die Begriffe sind nicht synonym (relevant z.B. für die finanzielle Verbindung in der Gruppe, § 9 KStG)."
+    },
+    {
+      "id": "koest-09",
+      "typ": "single",
+      "frage": "Welche Voraussetzung genügt für die unbeschränkte Körperschaftsteuerpflicht nach § 1 Abs 2 Z 1 KStG?",
+      "optionen": [
+        "Sitz und Geschäftsleitung müssen kumulativ im Inland liegen; fehlt eines der beiden Merkmale, besteht nur beschränkte Steuerpflicht",
+        "Maßgeblich ist die Eintragung im Firmenbuch; erst mit ihr beginnt die unbeschränkte Körperschaftsteuerpflicht im Inland",
+        "Sitz oder Geschäftsleitung im Inland – bereits eines der beiden Anknüpfungsmerkmale genügt"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 1 Abs 2 Z 1 KStG: bereits Sitz oder Geschäftsleitung im Inland begründet die unbeschränkte Steuerpflicht (Welteinkommensprinzip); ein kumulatives Vorliegen ist nicht nötig. Maßgeblich ist nicht die Firmenbucheintragung – die Steuerpflicht kann schon davor (Vorkörperschaft) bestehen."
+    },
+    {
+      "id": "koest-10",
+      "typ": "single",
+      "frage": "Was gilt für die Körperschaftsteuerpflicht von Betrieben gewerblicher Art (BgA) von Körperschaften öffentlichen Rechts?",
+      "optionen": [
+        "Körperschaften öffentlichen Rechts sind mit sämtlichen Tätigkeiten – auch ihren wirtschaftlichen – generell von der Körperschaftsteuer ausgenommen, weil sie hoheitliche öffentliche Aufgaben wahrnehmen",
+        "Ein BgA unterliegt zwar der Umsatzsteuer, ist aber von der Körperschaftsteuer ausgenommen, da die Trägerkörperschaft öffentlich-rechtlich organisiert ist",
+        "BgA können unbeschränkt körperschaftsteuerpflichtig sein, soweit sie eine wirtschaftliche Tätigkeit von einigem Gewicht ausüben, die sich von der hoheitlichen abhebt (§ 1 Abs 2 Z 2 KStG)",
+        "Der wirtschaftliche und der hoheitliche Bereich werden gemeinsam zu einem einheitlichen BgA zusammengefasst und der Körperschaftsteuer unterworfen",
+        "Ein BgA ist nur dann körperschaftsteuerpflichtig, wenn die Körperschaft öffentlichen Rechts ihn zuvor in eine eigene Kapitalgesellschaft (z.B. GmbH) ausgegliedert hat"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 1 Abs 2 Z 2 KStG: BgA sind insoweit unbeschränkt körperschaftsteuerpflichtig, als eine wirtschaftliche Tätigkeit von einigem Gewicht vorliegt, die sich vom hoheitlichen Bereich abhebt. Der hoheitliche Bereich bleibt steuerfrei (keine gemeinsame Erfassung); die KöR ist nicht generell ausgenommen, der BgA ist auch körperschaftsteuerpflichtig, und eine Ausgliederung in eine GmbH ist gerade nicht Voraussetzung – der BgA ist als unselbständiger Teil der KöR steuerpflichtig."
+    },
+    {
+      "id": "koest-11",
+      "typ": "single",
+      "frage": "Was kennzeichnet die beschränkte Steuerpflicht 1. Art (§ 1 Abs 3 Z 1 KStG)?",
+      "optionen": [
+        "Sie betrifft Körperschaften öffentlichen Rechts, die mit bestimmten kapitalertragsteuerpflichtigen Einkünften über den Steuerabzug erfasst werden, ohne im Übrigen steuerpflichtig zu sein",
+        "Körperschaften ohne Sitz/Geschäftsleitung im Inland werden mit ihren inländischen Einkünften (§ 21 KStG iVm § 98 EStG) beschränkt steuerpflichtig",
+        "Sie erfasst natürliche Personen mit inländischen Einkünften, die mangels Wohnsitz im Inland nicht unbeschränkt einkommensteuerpflichtig sind",
+        "Sie unterwirft auch das gesamte Auslandseinkommen ausländischer Körperschaften der österreichischen Körperschaftsteuer (Welteinkommensprinzip)"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Beschränkte Steuerpflicht 1. Art: Körperschaften ohne Sitz/Geschäftsleitung im Inland werden mit ihren inländischen Einkünften (§ 21 KStG iVm § 98 EStG) erfasst – vergleichbar einer Kapitalgesellschaft, aber begrenzt auf das Inland. Kapitalerträge von KöR betreffen die 2. Art, natürliche Personen sind nicht KöSt-Subjekt, und ein Welteinkommen wird gerade nicht erfasst."
+    },
+    {
+      "id": "koest-12",
+      "typ": "single",
+      "frage": "Was erfasst die beschränkte Steuerpflicht 2. Art bei Körperschaften öffentlichen Rechts (§ 1 Abs 3 Z 2 KStG)?",
+      "optionen": [
+        "Sie führt dazu, dass die Körperschaft öffentlichen Rechts mit ihrem gesamten Welteinkommen unbeschränkt körperschaftsteuerpflichtig wird",
+        "Bestimmte kapitalertragsteuerpflichtige Einkünfte (z.B. Zinsen) der Körperschaft öffentlichen Rechts, die über den KESt-Abzug erfasst werden",
+        "Sie betrifft ausschließlich ausländische Privatstiftungen mit inländischen Begünstigten und deren Zuwendungen",
+        "Sie erfasst die laufenden Einkünfte aus Gewerbebetrieb, die der hoheitliche Bereich der Körperschaft öffentlichen Rechts erzielt"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 1 Abs 3 Z 2 KStG: KöR sind außerhalb ihrer BgA mit bestimmten kapitalertragsteuerpflichtigen Einkünften (z.B. Zinsen) beschränkt steuerpflichtig, erfasst über den KESt-Abzug, ohne im Übrigen unbeschränkt steuerpflichtig zu werden. Der hoheitliche Bereich erzielt keine Einkünfte aus Gewerbebetrieb; Privatstiftungen sind ein anderer Tatbestand."
+    },
+    {
+      "id": "koest-13",
+      "typ": "single",
+      "frage": "Was regelt § 1 Abs 3 Z 3 KStG im Zusammenhang mit nach § 5 KStG befreiten Körperschaften?",
+      "optionen": [
+        "Die persönliche Befreiung nach § 5 KStG wird durch diese Bestimmung für sämtliche Einkünfte der Körperschaft vollständig und endgültig aufgehoben",
+        "Auch grundsätzlich nach § 5 KStG befreite Körperschaften (z.B. gemeinnützige) bleiben mit bestimmten kapitalertragsteuerpflichtigen Einkünften beschränkt steuerpflichtig",
+        "Die Regelung betrifft nur Kapitalgesellschaften, die keinerlei persönliche Befreiung in Anspruch nehmen können",
+        "Befreite Körperschaften werden durch diese Bestimmung rückwirkend in unbeschränkt steuerpflichtige Körperschaften umqualifiziert, die ihr gesamtes in- und ausländisches Einkommen nach dem Welteinkommensprinzip zu versteuern haben"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 1 Abs 3 Z 3 iVm § 21 KStG: nach § 5 KStG befreite Körperschaften (etwa gemeinnützige) bleiben mit bestimmten kapitalertragsteuerpflichtigen Einkünften beschränkt steuerpflichtig, weil die Befreiung nicht alle Quellen erfasst. Die Befreiung wird weder generell aufgehoben noch in eine unbeschränkte Steuerpflicht umgewandelt; angesprochen sind gerade befreite, nicht unbefreite Körperschaften."
+    },
+    {
+      "id": "koest-14",
+      "typ": "multiple",
+      "frage": "Welche Merkmale muss ein Betrieb gewerblicher Art nach § 2 Abs 1 KStG erfüllen? (Mehrfachauswahl)",
+      "optionen": [
+        "Wirtschaftlich selbständige Einrichtung mit nachhaltiger privatwirtschaftlicher Tätigkeit von wirtschaftlichem Gewicht zur Erzielung von Einnahmen",
+        "Wirtschaftliches Herausheben aus der Gesamtbetätigung der Körperschaft öffentlichen Rechts und keine überwiegend hoheitliche Tätigkeit",
+        "Eine von vornherein bestehende Gewinnerzielungsabsicht, ohne die mangels Gewinnstrebens kein Betrieb gewerblicher Art vorliegen kann",
+        "Die Eintragung des Betriebs im Firmenbuch sowie eine eigene, von der Trägerkörperschaft getrennte Rechtspersönlichkeit",
+        "Eine überwiegend land- und forstwirtschaftliche Betätigung, da nur solche Einrichtungen einer Körperschaft öffentlichen Rechts einen Betrieb gewerblicher Art begründen",
+        "Das Überschreiten eines gesetzlich fixierten Mindestjahresumsatzes, dessen Unterschreiten einen Betrieb gewerblicher Art zwingend ausschließt"
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "§ 2 Abs 1 KStG: BgA ist eine wirtschaftlich selbständige Einrichtung einer KöR mit nachhaltiger privatwirtschaftlicher Tätigkeit von wirtschaftlichem Gewicht (Einnahmenerzielung), die sich aus der Gesamtbetätigung heraushebt und nicht überwiegend hoheitlich ist. Gewinnerzielungsabsicht, Firmenbucheintragung und eigene Rechtspersönlichkeit sind nicht erforderlich; eine überwiegend land- und forstwirtschaftliche Tätigkeit begründet gerade keinen BgA (L&F ist ausgenommen); und das Gesetz nennt keinen fixen Mindestumsatz, sondern verlangt qualitativ eine Tätigkeit von einigem Gewicht."
+    },
+    {
+      "id": "koest-15",
+      "typ": "single",
+      "frage": "Welche Besonderheit gilt für Versorgungsbetriebe nach § 2 Abs 3 KStG?",
+      "optionen": [
+        "Versorgungsbetriebe sind als Einrichtungen der öffentlichen Daseinsvorsorge generell von der Körperschaftsteuer befreit, soweit sie der Versorgung der Allgemeinheit dienen und nicht in nennenswertem Umfang mit privaten Anbietern konkurrieren",
+        "Mehrere Versorgungsbetriebe (z.B. Wasser, Energie, Verkehr) derselben Körperschaft öffentlichen Rechts dürfen zu einem Verbund mit Verlustausgleich zusammengefasst werden",
+        "Für Versorgungsbetriebe gilt dieselbe Behandlung wie für jeden anderen BgA, eine besondere Verbund- oder Ausgleichsregel besteht nicht",
+        "Versorgungsbetriebe dürfen ihre Verluste nur mit Überschüssen des hoheitlichen Bereichs derselben Körperschaft öffentlichen Rechts ausgleichen"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 2 Abs 3 KStG erlaubt es, mehrere Versorgungsbetriebe (Wasser-, Energie-, Verkehrsversorgung u.a.) derselben KöR zu einem Verbund mit Verlustausgleich zusammenzufassen. Eine generelle Befreiung besteht nicht, es handelt sich gerade um eine Sonderregel gegenüber dem normalen BgA, und der hoheitliche Bereich steht für einen Ausgleich nicht zur Verfügung."
+    },
+    {
+      "id": "koest-16",
+      "typ": "single",
+      "frage": "Wie grenzen sich Hoheitsbetriebe von Mischbetrieben ab (§ 2 Abs 5 KStG)?",
+      "optionen": [
+        "Hoheitsbetriebe sind wie ein BgA stets körperschaftsteuerpflichtig, während Mischbetriebe als untrennbare Einheit insgesamt von der Körperschaftsteuer befreit sind",
+        "Hoheitsbetriebe dienen der Ausübung öffentlicher Gewalt und begründen keinen BgA; bei Mischbetrieben kann der herauslösbare wirtschaftliche Teil einen BgA bilden",
+        "Hoheits- und Mischbetriebe sind rechtlich gleichbedeutend und werden in beiden Fällen einheitlich als BgA der Körperschaftsteuer unterworfen",
+        "Bei Mischbetrieben begründet bereits der hoheitliche Teil einen körperschaftsteuerpflichtigen BgA, während der wirtschaftliche Teil steuerfrei bleibt",
+        "Beim Mischbetrieb entscheidet das Überwiegen: überwiegt der hoheitliche Teil, ist der gesamte Betrieb steuerfrei; überwiegt der wirtschaftliche Teil, ist der gesamte Betrieb steuerpflichtig"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Hoheitsbetriebe (Ausübung öffentlicher Gewalt) begründen keinen BgA; bei Mischbetrieben wird der herauslösbare wirtschaftliche Teil als BgA erfasst. Es gilt also keine Alles-oder-nichts-Lösung nach Überwiegen, Hoheits- und Mischbetrieb sind nicht identisch, der hoheitliche Teil begründet keinen BgA, und Hoheitsbetriebe sind gerade nicht steuerpflichtig."
+    },
+    {
+      "id": "koest-17",
+      "typ": "single",
+      "frage": "Wann beginnt die Körperschaftsteuerpflicht einer in Gründung befindlichen Kapitalgesellschaft (§ 4 Abs 1 KStG)?",
+      "optionen": [
+        "Erst mit der Eintragung im Firmenbuch, da die Kapitalgesellschaft zivilrechtlich erst dadurch entsteht und vorher keine steuerlich relevante Einheit besteht",
+        "Bereits mit der Vorgründungsgesellschaft, die schon ab dem ersten Gründungsentschluss als eigenständiges Körperschaftsteuersubjekt anzusehen und mit der späteren GmbH identisch ist",
+        "Mit der Vorkörperschaft (Vorgesellschaft): sobald die Rechtsgrundlage (Gesellschaftsvertrag/Satzung) festgestellt ist und die Gesellschaft erstmalig nach außen in Erscheinung tritt",
+        "Mit der Anmeldung zur Eintragung beim Firmenbuchgericht, also mit Einreichung des vollständigen Eintragungsantrags durch die Geschäftsführung",
+        "Erst mit dem Zufluss des ersten steuerpflichtigen Gewinns, da vorher keine Bemessungsgrundlage für die Körperschaftsteuer vorhanden ist"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 4 Abs 1 KStG: Die Steuerpflicht beginnt, sobald die Rechtsgrundlage festgestellt ist und die Körperschaft erstmals nach außen auftritt – das ist die Vorkörperschaft (Vorgesellschaft) zwischen Gesellschaftsvertrag und Eintragung, die mit der späteren Kapitalgesellschaft identisch ist. Die Vorgründungsgesellschaft (vor dem Gesellschaftsvertrag) ist eine GesbR/Mitunternehmerschaft und noch nicht KöSt-Subjekt; weder Firmenbucheintragung noch Eintragungsantrag noch erster Gewinn sind maßgeblich."
+    },
+    {
+      "id": "koest-18",
+      "typ": "single",
+      "frage": "Wann endet die Steuerpflicht einer Körperschaft (§ 4 Abs 2 KStG)?",
+      "optionen": [
+        "Bereits mit der Beschlussfassung über die Auflösung der Gesellschaft, da ab diesem Zeitpunkt keine werbende Tätigkeit mehr ausgeübt wird",
+        "Grundsätzlich mit dem Verlust der Rechtspersönlichkeit, regelmäßig nach Abschluss der Liquidation und Vermögensverteilung (Vollbeendigung)",
+        "Mit der Einstellung des operativen Geschäftsbetriebs, auch wenn das Liquidationsverfahren noch nicht abgeschlossen ist"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 4 Abs 2 KStG: Die Steuerpflicht endet grundsätzlich mit dem Verlust der Rechtspersönlichkeit – regelmäßig nach Abschluss der Liquidation und Vermögensverteilung (Vollbeendigung), nicht schon mit dem Auflösungsbeschluss und nicht mit der bloßen Einstellung des Geschäftsbetriebs; das Abwicklungsstadium unterliegt weiterhin der Besteuerung."
+    },
+    {
+      "id": "koest-19",
+      "typ": "single",
+      "frage": "Was regelt die Befreiung für gesellige Veranstaltungen nach § 5 Z 12 KStG?",
+      "optionen": [
+        "Alle von einer Körperschaft veranstalteten Feste sind ohne betragliche oder zeitliche Grenze von der Körperschaftsteuer befreit, solange überhaupt ein Reinerlös erzielt wird; auf Dauer, Häufigkeit oder Umfang der einzelnen Veranstaltungen kommt es dabei nicht an",
+        "Bestimmte gesellige Veranstaltungen (z.B. Feste von Körperschaften öffentlichen Rechts oder gemeinnützigen Körperschaften) sind innerhalb gesetzlicher Grenzen befreit, wenn die Erträge einem begünstigten Zweck dienen",
+        "Die Befreiung greift nur bei Großveranstaltungen mit mehr als 10.000 Teilnehmern, da nur diese eine eigene steuerliche Würdigung erfordern",
+        "Gesellige Veranstaltungen unterliegen ausnahmslos der vollen Körperschaftsteuer, eine eigene Befreiungsbestimmung besteht im KStG nicht"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 5 Z 12 KStG befreit bestimmte gesellige/gesellschaftliche Veranstaltungen (etwa Feuerwehr- oder Vereinsfeste) innerhalb gesetzlich begrenzter Dauer und gegen nachweisliche, nach außen erkennbare Verwendung der Erträge für einen begünstigten Zweck. Die Befreiung ist also weder unbegrenzt noch an eine Teilnehmerzahl geknüpft, und sie besteht sehr wohl."
+    },
+    {
+      "id": "koest-20",
+      "typ": "multiple",
+      "frage": "Welche Voraussetzungen verlangen die §§ 34 ff BAO für die abgabenrechtliche Begünstigung einer Körperschaft? (Mehrfachauswahl)",
+      "optionen": [
+        "Ausschließliche und unmittelbare Förderung begünstigter Zwecke (gemeinnützig, mildtätig oder kirchlich)",
+        "Verankerung der begünstigten Zwecke in der Rechtsgrundlage (Satzung) und Übereinstimmung mit der tatsächlichen Geschäftsführung",
+        "Eine satzungsmäßig festgelegte Mindestmitgliederzahl von 1.000 Personen als Nachweis hinreichender Förderung der Allgemeinheit",
+        "Eine verpflichtende jährliche Ausschüttung des erzielten Überschusses an die Mitglieder der Körperschaft",
+        "Eine gewinnorientierte Geschäftsführung, damit ausreichend Mittel für die Verfolgung der begünstigten Zwecke erwirtschaftet werden",
+        "Eine jährliche Genehmigung der verfolgten begünstigten Zwecke durch die Aufsichtsbehörde des jeweiligen Bundeslandes"
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "§§ 34 ff BAO: ausschließliche (§ 39) und unmittelbare (§ 40) Förderung begünstigter Zwecke (gemeinnützig, mildtätig, kirchlich; §§ 35–38), nach Satzung wie tatsächlicher Geschäftsführung (§§ 41, 42). Eine Mindestmitgliederzahl, eine Gewinnausschüttung an Mitglieder (sogar begünstigungsschädlich), eine Gewinnorientierung oder eine behördliche Jahresgenehmigung der Zwecke sind nicht gefordert."
+    },
     {
       "id": "koest-21",
       "typ": "single",
@@ -311,6 +619,313 @@
         2
       ],
       "erklaerung": "§ 8 Abs 2 KStG: Beim Vorteilsausgleich steht dem Vorteil der Körperschaft eine gleichwertige Gegenleistung des Gesellschafters gegenüber; bei Anerkennung entfällt die vA. Erforderlich ist derselbe Vertrag oder – bei verschiedenen Verträgen – ein enger sachlicher/zeitlicher Zusammenhang mit Hinweis darauf (bzw. Üblichkeit im Geschäftsverkehr). Ein beliebiger späterer Vorteil genügt nicht; die nachträgliche Rückzahlung ist die davon zu unterscheidende Rückgängigmachung."
+    },
+    {
+      "id": "koest-41",
+      "typ": "single",
+      "frage": "Eine GmbH schüttet an ihren Gesellschafter (eine natürliche Person) aus. Wie wird die Ausschüttung beim Empfänger erfasst?",
+      "optionen": [
+        "Als Einkünfte aus Gewerbebetrieb, die im Wege der Veranlagung dem progressiven Einkommensteuertarif unterworfen werden und dort mit dem progressiven Spitzensteuersatz erfasst werden",
+        "Als sonstige Einkünfte nach § 29 EStG, die erst bei Überschreiten einer jährlichen Freigrenze steuerpflichtig werden",
+        "Als Einkünfte aus Kapitalvermögen (§ 27 Abs 2 Z 1 EStG); sie unterliegt der KESt von 27,5 % und ist damit grundsätzlich endbesteuert",
+        "Steuerfrei, weil der ausgeschüttete Gewinn bereits auf Ebene der GmbH der Körperschaftsteuer unterlegen ist"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 27 Abs 2 Z 1 EStG: Gewinnausschüttungen (offen wie verdeckt) sind beim Gesellschafter Einkünfte aus Kapitalvermögen und unterliegen der KESt von 27,5 % (Endbesteuerung). Es sind weder Einkünfte aus Gewerbebetrieb noch sonstige Einkünfte; und trotz KöSt-Vorbelastung ist die Ausschüttung beim Empfänger gerade nicht steuerfrei (wirtschaftliche Doppelbelastung)."
+    },
+    {
+      "id": "koest-42",
+      "typ": "single",
+      "frage": "Eine GmbH (Mutter) erhält eine Ausschüttung von ihrer Tochter-GmbH. Wie wird der Beteiligungsertrag bei der Mutter behandelt?",
+      "optionen": [
+        "Er ist bei der Mutter als Einkünfte aus Kapitalvermögen voll körperschaftsteuerpflichtig und zusätzlich mit KESt endbesteuert, ohne dass eine Anrechnung der einbehaltenen KESt möglich wäre",
+        "Er ist nach § 10 KStG bei der Mutter von der Körperschaftsteuer befreit; eine allenfalls einbehaltene KESt ist anrechenbar bzw. zu erstatten",
+        "Er ist nur zur Hälfte steuerpflichtig, weil bei Beteiligungserträgen zwischen Körperschaften ein Hälftesteuersatz zur Anwendung kommt",
+        "Er ist voll steuerpflichtig, weil die Beteiligungsertragsbefreiung ausschließlich natürlichen Personen als Gesellschaftern zusteht"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 10 KStG: Beteiligungserträge sind bei der empfangenden Körperschaft von der KöSt befreit (Vermeidung der Mehrfachbelastung); eine dennoch einbehaltene KESt ist anrechenbar bzw. erstattbar. Es gibt keine zusätzliche Endbesteuerung bei der Körperschaft, keinen Hälftesteuersatz, und die Befreiung gilt gerade für Körperschaften (nicht natürliche Personen)."
+    },
+    {
+      "id": "koest-43",
+      "typ": "single",
+      "frage": "Wer ist bei einer Ausschüttung Schuldner der KESt und wer Abzugsverpflichteter (§ 95 EStG)?",
+      "optionen": [
+        "Schuldner und Abzugsverpflichteter sind stets dieselbe Person, nämlich die ausschüttende Körperschaft, die die Steuer sowohl schuldet als auch einbehält",
+        "Schuldner der KESt ist die ausschüttende Körperschaft; der Empfänger haftet dem Bund lediglich für die ordnungsgemäße Abfuhr der einbehaltenen Steuer und die einbehaltene Steuer im eigenen Namen an das Finanzamt abzuführen hat",
+        "Schuldner ist der Empfänger der Kapitalerträge (§ 95 Abs 1 EStG); Abzugsverpflichtete ist die ausschüttende Körperschaft (§ 95 Abs 2 EStG), die für Einbehaltung und Abfuhr haftet"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 95 EStG: Schuldner der KESt ist der Empfänger der Kapitalerträge (Abs 1); die ausschüttende Körperschaft ist Abzugsverpflichtete (Abs 2) und haftet dem Bund. Schuldner und Abzugsverpflichteter fallen also auseinander – die häufige Verwechslung."
+    },
+    {
+      "id": "koest-44",
+      "typ": "single",
+      "frage": "Eine GmbH schüttet an eine Mutter-Körperschaft aus, die nur zu 8 % beteiligt ist (KESt fällt daher an). Welcher KESt-Satz kann nach § 93 Abs 1a EStG herangezogen werden?",
+      "optionen": [
+        "Statt 27,5 % kann der reduzierte Satz von 23 % (Veranlagung ab 2024) einbehalten werden, weil der Empfänger eine Körperschaft iSd § 1 Abs 1 KStG ist",
+        "Statt 27,5 % kann der reduzierte Satz von 25 % einbehalten werden, der dem früheren Körperschaftsteuersatz entspricht",
+        "Es ist zwingend der volle Satz von 27,5 % einzubehalten; ein Wahlrecht zugunsten eines niedrigeren Satzes besteht nicht",
+        "Es ist überhaupt keine KESt einzubehalten, weil der Empfänger der Ausschüttung eine Körperschaft ist",
+        "Der reduzierte Satz kommt nur dann zur Anwendung, wenn die Beteiligung mindestens 25 % am Kapital der ausschüttenden GmbH beträgt, da nur ab dieser Schwelle eine hinreichend konzernartige Verbindung anzunehmen ist"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "§ 93 Abs 1a EStG: Ist der Empfänger (Schuldner der KESt) eine Körperschaft iSd § 1 Abs 1 KStG, darf der Abzugsverpflichtete den reduzierten Satz einbehalten; dieser entspricht dem KöSt-Satz und beträgt seit der Veranlagung 2024 23 % (zuvor 24 %, davor 25 %). Ältere Skripten nennen teils noch 25 % – das ist überholt. Eine völlige KESt-Befreiung setzt mindestens 10 % Beteiligung voraus (§ 94 Z 2 EStG); bei 8 % greift sie nicht."
+    },
+    {
+      "id": "koest-45",
+      "typ": "multiple",
+      "frage": "Unter welchen Voraussetzungen entfällt der KESt-Abzug bei einer Ausschüttung zwischen inländischen Körperschaften (§ 94 Z 2 EStG)? (Mehrfachauswahl)",
+      "optionen": [
+        "Die Beteiligung beträgt mindestens 25 % und besteht seit mindestens drei Jahren ununterbrochen, wobei beide Voraussetzungen kumulativ und ununterbrochen erfüllt sein müssen",
+        "Der Empfänger ist eine unbeschränkt steuerpflichtige Körperschaft (oder eine ausländische Körperschaft iSd Mutter-Tochter-Richtlinie)",
+        "Die Beteiligung beträgt mindestens 10 % und besteht seit mindestens einem Jahr ununterbrochen",
+        "Der Empfänger ist eine natürliche Person mit Wohnsitz oder gewöhnlichem Aufenthalt im Inland",
+        "Die ausschüttende Körperschaft verzichtet schriftlich auf die Inanspruchnahme der Beteiligungsertragsbefreiung"
+      ],
+      "korrekt": [
+        1,
+        2
+      ],
+      "erklaerung": "§ 94 Z 2 EStG: Kein KESt-Abzug, wenn der Empfänger eine unbeschränkt steuerpflichtige (oder MTR-)Körperschaft ist und die Beteiligung mindestens 10 % seit mindestens einem Jahr beträgt (ausschüttend: AG, GmbH, Genossenschaft). Eine 25-%-/3-Jahres-Schwelle gilt nicht; bei natürlichen Personen greift die Befreiung nicht; und eines Verzichts bedarf es nicht."
+    },
+    {
+      "id": "koest-46",
+      "typ": "single",
+      "frage": "Wann kann die KESt ausnahmsweise dem Empfänger direkt vorgeschrieben werden, statt sie über den Haftungsbescheid bei der Körperschaft zu erheben (§ 95 Abs 4 EStG)?",
+      "optionen": [
+        "Nur dann, wenn der Empfänger der Kapitalerträge eine ausländische Körperschaft ohne inländische Betriebsstätte ist",
+        "In jedem Fall, da die KESt stets unmittelbar beim Empfänger und niemals bei der ausschüttenden Körperschaft erhoben wird und die ausschüttende Körperschaft insoweit keine Haftung für die Steuer trifft",
+        "Ausschließlich dann, wenn die ausschüttende Körperschaft bereits liquidiert und im Firmenbuch gelöscht worden ist",
+        "Etwa wenn der Abzugsverpflichtete die Kapitalerträge nicht vorschriftsmäßig gekürzt hat oder der Empfänger wusste, dass die KESt nicht ordnungsgemäß einbehalten wurde"
+      ],
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "§ 95 Abs 4 EStG: Die Direktvorschreibung an den Empfänger ist die Ausnahme – etwa wenn der Abzugsverpflichtete die KESt nicht vorschriftsmäßig einbehalten hat oder der Empfänger dies wusste. Im Regelfall wird die KESt über die Haftung der abzugsverpflichteten Körperschaft erhoben; sie ist also nicht 'stets' beim Empfänger zu erheben und nicht auf Auslands- oder Liquidationsfälle beschränkt."
+    },
+    {
+      "id": "koest-47",
+      "typ": "single",
+      "frage": "Welche umsatzsteuerliche Folge kann eine verdeckte Ausschüttung in Form einer verbilligten Lieferung an den Gesellschafter auslösen?",
+      "optionen": [
+        "Die verdeckte Ausschüttung ist umsatzsteuerlich stets unbeachtlich, weil es sich um einen gesellschaftsrechtlichen Vorgang ohne Leistungsaustausch handelt",
+        "Der Umsatz ist mit dem Normalwert anzusetzen (§ 4 Abs 9 UStG), damit die zu niedrige Gegenleistung die Umsatzsteuerbemessungsgrundlage nicht verkürzt",
+        "Die Umsatzsteuer bemisst sich zwingend nach dem vereinbarten (zu niedrigen) Entgelt; eine Korrektur der Bemessungsgrundlage ist nicht vorgesehen",
+        "Beim Gesellschafter entsteht eine zusätzliche Erwerbsteuerpflicht nach den Regeln des innergemeinschaftlichen Erwerbs"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 4 Abs 9 UStG (Normalwert): Bei verbilligten Leistungen an nahestehende Personen/Gesellschafter ist – um Verkürzungen zu vermeiden – der Normalwert als Bemessungsgrundlage anzusetzen. Eine vA ist also nicht generell umsatzsteuerfrei, das zu niedrige Entgelt ist nicht maßgeblich, und ein innergemeinschaftlicher Erwerb liegt nicht vor."
+    },
+    {
+      "id": "koest-48",
+      "typ": "single",
+      "frage": "Wie behandelt § 12 Abs 1 Z 2 KStG unangemessen hohe Aufwendungen (z.B. für ein Luxusfahrzeug der GmbH)?",
+      "optionen": [
+        "Die Aufwendungen sind zur Gänze abzugsfähig, weil eine GmbH kraft ihrer Rechtsform ausschließlich betrieblich veranlasste Aufwendungen tätigen kann",
+        "Die Aufwendungen sind zur Gänze nicht abzugsfähig, sobald auch nur ein unangemessener Teil in ihnen enthalten ist",
+        "Die Aufwendungen sind abzugsfähig, der unangemessene Teil ist jedoch als verdeckte Einlage des Gesellschafters zu erfassen",
+        "Soweit die Aufwendungen unangemessen hoch sind, sind sie vom Betriebsausgabenabzug ausgeschlossen; nur der angemessene Teil bleibt abzugsfähig"
+      ],
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "§ 12 Abs 1 Z 2 KStG (iVm § 20 Abs 1 Z 2 lit b EStG): Nur der unangemessene Teil der Aufwendungen ist vom Abzug ausgeschlossen (Angemessenheitsprüfung, z.B. PKW-Luxustangente); der angemessene Teil bleibt abzugsfähig. Es ist also weder alles abzugsfähig noch alles ausgeschlossen, und es liegt keine verdeckte Einlage vor."
+    },
+    {
+      "id": "koest-49",
+      "typ": "single",
+      "frage": "Wie sind von einem Gericht über die GmbH verhängte Geldstrafen körperschaftsteuerlich zu behandeln (§ 12 Abs 1 Z 4 KStG)?",
+      "optionen": [
+        "Sie sind als außergewöhnliche Betriebsausgabe in voller Höhe abzugsfähig, sofern sie betrieblich veranlasst sind",
+        "Sie sind zur Hälfte abzugsfähig, weil Strafen nur teilweise dem betrieblichen Bereich der Körperschaft zugerechnet werden",
+        "Sie sind nicht abzugsfähig und dürfen die Körperschaftsteuerbemessungsgrundlage nicht mindern"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 12 Abs 1 Z 4 KStG: Strafen und Geldbußen (von Gerichten, Verwaltungsbehörden oder Organen der EU) sind vom Betriebsausgabenabzug ausgeschlossen – auch bei betrieblichem Anlass. Ein voller oder hälftiger Abzug kommt nicht in Betracht."
+    },
+    {
+      "id": "koest-50",
+      "typ": "single",
+      "frage": "Eine GmbH zahlt ihrem Vorstand ein Jahresgehalt von 700.000 €. Wie wirkt sich das auf die KöSt-Bemessungsgrundlage aus (§ 12 Abs 1 Z 8 KStG)?",
+      "optionen": [
+        "Das gesamte Gehalt von 700.000 € ist nicht abzugsfähig, sobald die Grenze von 500.000 € überschritten wird",
+        "Das Gehalt ist zur Gänze abzugsfähig, weil § 12 Abs 1 Z 8 KStG nur Zahlungen an Gesellschafter, nicht aber an angestellte Organe erfasst",
+        "Der 500.000 € übersteigende Teil (hier 200.000 €) ist nicht abzugsfähig und der Bemessungsgrundlage hinzuzurechnen",
+        "Nur der bis 500.000 € reichende Teil ist hinzuzurechnen, während der übersteigende Teil weiterhin abzugsfähig bleibt"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 12 Abs 1 Z 8 KStG: Entgelte über 500.000 € pro Person und Wirtschaftsjahr sind insoweit nicht abzugsfähig – hier die übersteigenden 200.000 €, die hinzuzurechnen sind. Das Abzugsverbot betrifft den übersteigenden Teil (nicht das ganze Gehalt, nicht nur den Teil bis 500.000) und gilt auch für angestellte Organe, freie Dienstnehmer und arbeitnehmerähnliche Werkverträge."
+    },
+    {
+      "id": "koest-51",
+      "typ": "single",
+      "frage": "Eine Körperschaft erwirbt eine Beteiligung fremdfinanziert; deren Ausschüttungen sind nach § 10 KStG steuerfrei. Sind die Finanzierungszinsen abzugsfähig?",
+      "optionen": [
+        "Nein, sie sind nach § 12 Abs 2 KStG zur Gänze nicht abzugsfähig, weil sie mit steuerfreien Beteiligungserträgen zusammenhängen, sodass sie die Körperschaftsteuerbemessungsgrundlage in keinem Fall mindern dürfen",
+        "Ja, die Zinsen für die Fremdfinanzierung des Beteiligungserwerbs sind nach § 11 Abs 1 Z 4 KStG abzugsfähig – als ausdrückliche Ausnahme vom Abzugsverbot des § 12 Abs 2 KStG",
+        "Sie sind nur zur Hälfte abzugsfähig, weil die Beteiligungserträge ebenfalls nur teilweise befreit sind",
+        "Sie sind abzugsfähig, müssen aber wie eine Teilwertabschreibung auf sieben Jahre verteilt werden"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 11 Abs 1 Z 4 KStG: Zinsen iZm der Fremdfinanzierung des Erwerbs von Kapitalanteilen sind abzugsfähig – eine ausdrückliche Ausnahme vom allgemeinen Abzugsverbot des § 12 Abs 2 KStG (Aufwand iZm steuerfreien Einnahmen). Andere Anschaffungsnebenkosten fallen hingegen unter § 12 Abs 2; eine Halbierung oder Siebentelung ist nicht vorgesehen."
+    },
+    {
+      "id": "koest-52",
+      "typ": "single",
+      "frage": "Die Fortuna GmbH schreibt eine Beteiligung (Anschaffungskosten 150.000 €) im Jahr 01 auf 80.000 € ab (TWA 70.000 €). Wie wirkt sich das steuerlich aus (§ 12 Abs 3 Z 2 KStG)?",
+      "optionen": [
+        "Die Teilwertabschreibung von 70.000 € ist im Jahr 01 zur Gänze sofort abzugsfähig",
+        "Die Teilwertabschreibung ist überhaupt nicht abzugsfähig, weil Wertminderungen von Beteiligungen steuerlich unbeachtlich sind",
+        "Die Teilwertabschreibung ist auf drei Jahre zu verteilen, entsprechend der Mindestbehaltedauer von Beteiligungen, wobei je ein Drittel des Abschreibungsbetrags pro Jahr abzusetzen ist",
+        "Sie ist auf sieben Jahre zu verteilen: im Jahr 01 sind 10.000 € (1/7) wirksam, die restlichen 60.000 € werden hinzugerechnet und in den Folgejahren zu je 1/7 abgesetzt"
+      ],
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "§ 12 Abs 3 Z 2 KStG: Teilwertabschreibungen auf Beteiligungen sind auf sieben Jahre zu verteilen (je 1/7). Im Jahr 01 sind daher 6/7 (60.000) hinzuzurechnen und nur 1/7 (10.000) wirksam, in den sechs Folgejahren je weitere 10.000. Eine sofortige volle Abzugsfähigkeit oder eine Dreijahresverteilung besteht nicht, und die TWA ist dem Grunde nach abzugsfähig (nur zeitlich verteilt)."
+    },
+    {
+      "id": "koest-53",
+      "typ": "multiple",
+      "frage": "Welche der folgenden Aufwendungen einer GmbH sind nach § 12 KStG nicht abzugsfähig? (Mehrfachauswahl)",
+      "optionen": [
+        "Von einer Verwaltungsbehörde über die GmbH verhängte Geldstrafen (§ 12 Abs 1 Z 4 KStG)",
+        "Fremdübliche Gehälter an angestellte Mitarbeiter bis 500.000 € pro Person und Jahr",
+        "Repräsentationsaufwendungen iSd § 20 Abs 1 Z 3 EStG (§ 12 Abs 1 Z 3 KStG)",
+        "Zinsen für die Fremdfinanzierung eines nicht konzerninternen Beteiligungserwerbs (§ 11 Abs 1 Z 4 KStG)",
+        "Der 500.000 € übersteigende Teil eines Managergehalts (§ 12 Abs 1 Z 8 KStG)",
+        "Die laufende Miete für ein fremdüblich angemietetes Bürogebäude"
+      ],
+      "korrekt": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Nicht abzugsfähig sind u.a. Strafen (§ 12 Abs 1 Z 4), Repräsentationsaufwendungen (§ 12 Abs 1 Z 3) und der 500.000 € übersteigende Teil von Entgelten (§ 12 Abs 1 Z 8). Abzugsfähig bleiben dagegen fremdübliche Gehälter bis 500.000 €, Zinsen für den fremdfinanzierten Beteiligungserwerb (§ 11 Abs 1 Z 4 – Ausnahme zu § 12 Abs 2) sowie fremdübliche Mieten."
+    },
+    {
+      "id": "koest-54",
+      "typ": "multiple",
+      "frage": "Welche Voraussetzungen müssen für einen Mantelkauf (§ 8 Abs 4 lit c KStG) kumulativ vorliegen, damit der Verlustvortrag untergeht? (Mehrfachauswahl)",
+      "optionen": [
+        "Eine wesentliche Änderung der Gesellschafterstruktur auf entgeltlicher Grundlage (Richtwert: mindestens 75 % der Anteilsrechte)",
+        "Eine unentgeltliche Übertragung der Anteile, etwa im Wege einer Schenkung oder einer Erbschaft",
+        "Eine wesentliche Änderung der organisatorischen Struktur (z.B. Wechsel von mindestens 75 % der Organe)",
+        "Eine bloße Beteiligungsänderung von mehr als 50 %, unabhängig davon, ob sie entgeltlich oder unentgeltlich erfolgt, solange die bestehenden Verlustvorträge der Höhe nach unverändert erhalten bleiben",
+        "Eine wesentliche Änderung der wirtschaftlichen Struktur (z.B. Wechsel des Geschäftsgegenstands von EDV-Handel zu Bäckerei)",
+        "Die Fortführung des bisherigen Betriebs in im Wesentlichen unveränderter wirtschaftlicher und organisatorischer Struktur"
+      ],
+      "korrekt": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "§ 8 Abs 4 lit c KStG: Der Verlustvortrag geht unter, wenn kumulativ die Gesellschafterstruktur entgeltlich wesentlich (Richtwert ≥ 75 %), die organisatorische (≥ 75 % der Organe) und die wirtschaftliche Struktur wesentlich geändert werden. Eine unentgeltliche Übertragung, eine bloße >50-%-Änderung ohne Entgeltlichkeit oder eine im Wesentlichen unveränderte Fortführung erfüllen den Manteltatbestand gerade nicht."
+    },
+    {
+      "id": "koest-55",
+      "typ": "single",
+      "frage": "In welchem Umfang können vortragsfähige Verluste in einem Gewinnjahr abgezogen werden (§ 8 Abs 4 KStG iVm § 18 Abs 6 EStG)?",
+      "optionen": [
+        "Stets zu 100 % des Gesamtbetrags der Einkünfte, sodass der laufende Gewinn bis auf null gekürzt werden kann, weil für Körperschaften anders als für natürliche Personen keine betragliche Abzugsgrenze gilt",
+        "Höchstens im Ausmaß von 75 % des Gesamtbetrags der Einkünfte; der nicht verbrauchte Rest bleibt weiter vortragsfähig",
+        "Höchstens im Ausmaß von 50 % des Gesamtbetrags der Einkünfte des betreffenden Jahres"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "§ 8 Abs 4 KStG iVm § 18 Abs 6 EStG: Der Verlustabzug ist der Höhe nach mit 75 % des Gesamtbetrags der Einkünfte begrenzt; der nicht verbrauchte Verlust bleibt vortragsfähig. Ein voller Abzug auf null oder eine 50-%-Grenze besteht für Körperschaften nicht."
+    },
+    {
+      "id": "koest-56",
+      "typ": "single",
+      "frage": "Was bewirkt die Gruppenbesteuerung nach § 9 KStG?",
+      "optionen": [
+        "Jedes Gruppenmitglied wird weiterhin einzeln veranlagt; die Gruppe bewirkt lediglich eine gemeinsame Abgabe der Steuererklärungen, während die Ergebnisse der Mitglieder weiterhin getrennt ermittelt und einzeln versteuert werden",
+        "Die Gruppenmitglieder werden von der Körperschaftsteuer befreit, während nur der Gruppenträger steuerpflichtig bleibt",
+        "Die steuerlichen Ergebnisse der Gruppenmitglieder werden dem Gruppenträger zugerechnet, sodass Gewinne und Verluste innerhalb der Gruppe ausgeglichen werden können",
+        "Die Gewinne der Gruppe werden insgesamt mit einem ermäßigten Gruppensteuersatz von 12,5 % besteuert"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 9 KStG: In der Unternehmensgruppe werden die Ergebnisse der Gruppenmitglieder dem Gruppenträger zugerechnet (Abweichung von der Individualbesteuerung), wodurch Gewinne und Verluste innerhalb der Gruppe verrechnet werden können. Es bleibt nicht bei der Einzelveranlagung, die Mitglieder sind nicht befreit, und einen eigenen ermäßigten Gruppensteuersatz gibt es nicht."
+    },
+    {
+      "id": "koest-57",
+      "typ": "single",
+      "frage": "Welche finanzielle Verbindung verlangt § 9 Abs 4 KStG zwischen beteiligter Körperschaft und Gruppenmitglied?",
+      "optionen": [
+        "Eine Beteiligung von genau 50 % des Kapitals; auf die Verteilung der Stimmrechte kommt es dabei nicht an",
+        "Eine Beteiligung von mindestens 25 % des Kapitals und der Stimmrechte an der Beteiligungskörperschaft",
+        "Mehr als 50 % – sowohl des Kapitals als auch der Stimmrechte – an der Beteiligungskörperschaft"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 9 Abs 4 KStG: Erforderlich ist eine Beteiligung von mehr als 50 % – und zwar doppelt: am Kapital und an den Stimmrechten. Genau 50 % genügen nicht (klassische Falle), und 25 % reichen ebenfalls nicht."
+    },
+    {
+      "id": "koest-58",
+      "typ": "single",
+      "frage": "Wer kann Gruppenträger bzw. Gruppenmitglied einer Unternehmensgruppe sein (§ 9 Abs 2 u 3 KStG)?",
+      "optionen": [
+        "Insbesondere unbeschränkt steuerpflichtige Kapitalgesellschaften (GmbH, AG) sowie rechnungslegungspflichtige Erwerbs- und Wirtschaftsgenossenschaften",
+        "Nur natürliche Personen, die zu mehr als 50 % an der jeweiligen Körperschaft beteiligt sind, können Gruppenträger sein",
+        "Ausschließlich börsennotierte Aktiengesellschaften können Gruppenträger und Gruppenmitglied sein",
+        "Jede inländische Personengesellschaft (OG, KG) kann sowohl Gruppenträger als auch Gruppenmitglied sein, sofern sie rechnungslegungspflichtig ist und freiwillig Bücher führt"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "§ 9 Abs 2 u 3 KStG: Gruppenträger und -mitglieder sind v.a. unbeschränkt steuerpflichtige Kapitalgesellschaften und rechnungslegungspflichtige Genossenschaften (Gruppenträger zusätzlich z.B. beschränkt steuerpflichtige Körperschaften 1. Art, VVaG, Kreditinstitute). Natürliche Personen und Personengesellschaften sind keine tauglichen Gruppenkörperschaften, und eine Börsennotierung ist nicht erforderlich."
+    },
+    {
+      "id": "koest-59",
+      "typ": "single",
+      "frage": "Wie lange muss eine Unternehmensgruppe nach § 9 Abs 10 KStG mindestens bestehen, und was gilt bei vorzeitigem Ausscheiden eines Mitglieds?",
+      "optionen": [
+        "Mindestens fünf Jahre; bei vorzeitigem Ausscheiden bleibt die bisher vorgenommene Ergebniszurechnung jedoch unverändert bestehen, die mit Ablauf des fünften Wirtschaftsjahres endgültig und unwiderruflich wird",
+        "Mindestens ein Jahr; ein vorzeitiges Ausscheiden eines Gruppenmitglieds hat keine steuerlichen Folgen",
+        "Es besteht keine Mindestdauer; die Gruppe kann jederzeit ohne steuerliche Folgen wieder aufgelöst werden",
+        "Mindestens drei Jahre (drei volle Wirtschaftsjahre je Gruppenmitglied); scheidet ein Mitglied vorher aus, sind die bisher zugerechneten Ergebnisse rückabzuwickeln"
+      ],
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "§ 9 Abs 10 KStG: Die Mindestbestandsdauer beträgt drei Jahre (für Gruppenmitglieder drei volle, je zwölf Monate umfassende Wirtschaftsjahre). Scheidet ein Mitglied innerhalb dieser Frist aus, sind die in den Vorjahren zugerechneten Ergebnisse rückabzuwickeln (rückwirkendes Ereignis iSd § 295a BAO). Eine Fünf- oder Einjahresfrist besteht nicht."
+    },
+    {
+      "id": "koest-60",
+      "typ": "single",
+      "frage": "Die Violetta GmbH (Gruppenträger) ist an der Giorgio GmbH zu genau 50 % beteiligt. Kann die Giorgio GmbH Gruppenmitglied werden?",
+      "optionen": [
+        "Ja, weil mit genau 50 % die für die finanzielle Verbindung erforderliche einfache Mehrheit gerade noch erreicht wird, weil die nach dem Gesetz geforderte einfache Mehrheit bereits bei der Hälfte der Anteile beginnt",
+        "Ja, sofern die Violetta GmbH zusätzlich über zumindest einen Sitz im Aufsichtsrat der Giorgio GmbH verfügt",
+        "Nein, denn § 9 Abs 4 KStG verlangt eine Beteiligung von mehr als 50 % an Kapital und Stimmrechten; genau 50 % genügen nicht",
+        "Nein, weil ein Gruppenmitglied stets zu 100 % im Eigentum des Gruppenträgers stehen muss"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "§ 9 Abs 4 KStG: Erforderlich ist eine finanzielle Verbindung von mehr als 50 % an Kapital und Stimmrechten; genau 50 % reichen nicht – die Giorgio GmbH kann nicht Gruppenmitglied werden. Eine 100-%-Beteiligung ist hingegen nicht nötig (mehr als 50 % genügt), und ein Aufsichtsratssitz ersetzt die Kapital-/Stimmrechtsmehrheit nicht."
     }
   ]
 }

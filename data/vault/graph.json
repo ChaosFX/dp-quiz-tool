@@ -217,16 +217,22 @@
       "pfad": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA).md"
     },
     {
-      "id": "Körperschaftsteuer/Gemeinnützige Körperschaft",
-      "label": "Gemeinnützige Körperschaft",
+      "id": "Körperschaftsteuer/Gemeinnützige Körperschaften",
+      "label": "Gemeinnützige Körperschaften",
       "fach": "KöSt",
-      "pfad": "Körperschaftsteuer/Gemeinnützige Körperschaft.md"
+      "pfad": "Körperschaftsteuer/Gemeinnützige Körperschaften.md"
     },
     {
       "id": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
       "label": "Persönliche Steuerpflicht KöSt",
       "fach": "KöSt",
       "pfad": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt.md"
+    },
+    {
+      "id": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "label": "Sachliche Steuerpflicht",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt.md"
     },
     {
       "id": "Körperschaftsteuer/Steuerbefreiungen KöSt",
@@ -295,10 +301,22 @@
       "pfad": "Rechtsquellen/BAO/§ 26 BAO.md"
     },
     {
+      "id": "Rechtsquellen/BAO/§ 34 BAO",
+      "label": "Allgemeine Voraussetzungen der Begünstigung",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 34 BAO.md"
+    },
+    {
       "id": "Rechtsquellen/BAO/§ 4 BAO",
       "label": "Abgabenanspruch",
       "fach": "BAO",
       "pfad": "Rechtsquellen/BAO/§ 4 BAO.md"
+    },
+    {
+      "id": "Rechtsquellen/BAO/§ 45 BAO",
+      "label": "Hilfsbetriebe gemeinnütziger Körperschaften",
+      "fach": "BAO",
+      "pfad": "Rechtsquellen/BAO/§ 45 BAO.md"
     },
     {
       "id": "Rechtsquellen/BAO/§ 6 BAO",
@@ -801,6 +819,14 @@
       "target": "Rechtsquellen/EStG/§ 10 EStG"
     },
     {
+      "source": "Einkommensteuer/Gewinnfreibetrag",
+      "target": "Einkommensteuer/Investitionsförderungen"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnfreibetrag",
+      "target": "Einkommensteuer/Pauschalierung"
+    },
+    {
       "source": "Einkommensteuer/Investitionsförderungen",
       "target": "Rechtsquellen/EStG/§ 11 EStG"
     },
@@ -1138,7 +1164,11 @@
     },
     {
       "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
-      "target": "Körperschaftsteuer/Gemeinnützige Körperschaft"
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaften"
+    },
+    {
+      "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
     },
     {
       "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
@@ -1149,19 +1179,27 @@
       "target": "Rechtsquellen/KStG/§ 5 KStG"
     },
     {
-      "source": "Körperschaftsteuer/Gemeinnützige Körperschaft",
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
       "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
     },
     {
-      "source": "Körperschaftsteuer/Gemeinnützige Körperschaft",
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
       "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
     },
     {
-      "source": "Körperschaftsteuer/Gemeinnützige Körperschaft",
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
       "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
     },
     {
-      "source": "Körperschaftsteuer/Gemeinnützige Körperschaft",
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
+      "target": "Rechtsquellen/BAO/§ 34 BAO"
+    },
+    {
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
+      "target": "Rechtsquellen/BAO/§ 45 BAO"
+    },
+    {
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
       "target": "Rechtsquellen/KStG/§ 5 KStG"
     },
     {
@@ -1189,12 +1227,16 @@
       "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
     },
     {
+      "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
       "target": "Rechtsquellen/KStG/§ 5 KStG"
     },
     {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
-      "target": "Körperschaftsteuer/Gemeinnützige Körperschaft"
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaften"
     },
     {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
@@ -1209,6 +1251,10 @@
       "target": "Rechtsquellen/KStG/§ 1 KStG"
     },
     {
+      "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "target": "Rechtsquellen/BAO/§ 34 BAO"
+    },
+    {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Rechtsquellen/KStG/§ 1 KStG"
     },
@@ -1219,6 +1265,10 @@
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Einkommensteuer/ImmoESt"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
     },
     {
       "source": "Rechtsquellen/BAO/§ 1 BAO",
@@ -1353,6 +1403,22 @@
       "target": "Rechtsquellen/BAO/§ 22 BAO"
     },
     {
+      "source": "Rechtsquellen/BAO/§ 34 BAO",
+      "target": "Rechtsquellen/KStG/§ 5 KStG"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 34 BAO",
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaften"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 34 BAO",
+      "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 34 BAO",
+      "target": "Rechtsquellen/BAO/§ 45 BAO"
+    },
+    {
       "source": "Rechtsquellen/BAO/§ 4 BAO",
       "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
     },
@@ -1367,6 +1433,18 @@
     {
       "source": "Rechtsquellen/BAO/§ 4 BAO",
       "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 45 BAO",
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaften"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 45 BAO",
+      "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/BAO/§ 45 BAO",
+      "target": "Rechtsquellen/BAO/§ 34 BAO"
     },
     {
       "source": "Rechtsquellen/BAO/§ 6 BAO",
@@ -1681,6 +1759,10 @@
       "target": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht"
     },
     {
+      "source": "Rechtsquellen/KStG/§ 1 KStG",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
       "source": "Rechtsquellen/KStG/§ 2 KStG",
       "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
     },
@@ -1722,7 +1804,7 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 5 KStG",
-      "target": "Körperschaftsteuer/Gemeinnützige Körperschaft"
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaften"
     },
     {
       "source": "Rechtsquellen/KStG/§ 5 KStG",
@@ -1731,6 +1813,10 @@
     {
       "source": "Rechtsquellen/KStG/§ 5 KStG",
       "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 5 KStG",
+      "target": "Rechtsquellen/BAO/§ 34 BAO"
     },
     {
       "source": "Rechtsquellen/UStG/§ 1 UStG",

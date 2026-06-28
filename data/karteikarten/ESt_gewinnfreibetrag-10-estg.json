@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Gewinnfreibetrag (§ 10 EStG)",
+  "quelle_note": "Einkommensteuer/Gewinnfreibetrag.md",
+  "karten": [
+    {
+      "id": "est-gewinnfreibetrag-10-estg-01",
+      "frage": "Aus welchen zwei Teilen besteht der GFB?",
+      "antwort": "Grundfreibetrag (15 % bis 33.000, ohne Investition) + investitionsbedingter GFB (gestaffelt 13/7/4,5 %, nur investitionsgedeckt)."
+    },
+    {
+      "id": "est-gewinnfreibetrag-10-estg-02",
+      "frage": "Wer ist anspruchsberechtigt?",
+      "antwort": "Nur natürliche Personen mit betrieblichen Einkünften; bei MU die Gesellschafter (natürliche Personen) anteilig."
+    },
+    {
+      "id": "est-gewinnfreibetrag-10-estg-03",
+      "frage": "Was gehört nicht zur Bemessungsgrundlage?",
+      "antwort": "Veräußerungsgewinne (§ 24) und § 27a-besteuerte Kapitaleinkünfte."
+    },
+    {
+      "id": "est-gewinnfreibetrag-10-estg-04",
+      "frage": "Wie hoch ist der maximale GFB 2025?",
+      "antwort": "€ 46.400 (bei Gewinn ≥ 583.000 und voller Investitionsdeckung des invGFB-Teils)."
+    },
+    {
+      "id": "est-gewinnfreibetrag-10-estg-05",
+      "frage": "Was passiert bei Ausscheidung eines begünstigten WG vor 4 Jahren?",
+      "antwort": "Nachversteuerung des invGFB (gewinnerhöhend); bei Wertpapieren durch Ersatzbeschaffung vermeidbar."
+    }
+  ]
+}
