@@ -1,0 +1,37 @@
+{
+  "fach": "USt",
+  "thema": "Steuerbefreiungen",
+  "quelle_note": "Umsatzsteuer/Steuerbefreiung USt.md",
+  "karten": [
+    {
+      "id": "ust-steuerbefreiungen-01",
+      "frage": "Was unterscheidet echte von unechten Steuerbefreiungen?",
+      "antwort": "Bei **echten** Befreiungen bleibt trotz Steuerfreiheit der **Vorsteuerabzug** für die zugehörigen Vorleistungen erhalten (volle Entlastung, z.B. Ausfuhrlieferung). Bei **unechten** Befreiungen ist der Umsatz zwar steuerfrei, der **Vorsteuerabzug entfällt** - der Unternehmer wird wie ein Nichtunternehmer behandelt (z.B. Grundstücke, Kleinunternehmer)."
+    },
+    {
+      "id": "ust-steuerbefreiungen-02",
+      "frage": "Nenne die drei Fälle der Ausfuhrlieferung un den jeweiligen Auftraggeber des Transports.",
+      "antwort": "**Versengungsfall** (§ 7 Abs 1 Z 1) - Lieferant selbst versendet.\n**Abholfall** (§ 7 Abs 1 Z 2) - der ausländische Abnehmer holt ab/versendet. \n**Touristenexport** (§ 7 Abs 1 Z 3) - Privatperson befördert die Ware im Reisegepäck."
+    },
+    {
+      "id": "ust-steuerbefreiungen-03",
+      "frage": "Welche Nachweise braucht der Lieferant für eine steuerfreie Ausfuhrlieferung?",
+      "antwort": "**Ausfuhrnachweis** (z.B. elektronische zollamtliche Ausgangsbescheinigung, Frachtbrief, Formular U34) **und** **Buchnachweis** (leicht nachprüfbare Sammlung aller Belege). \nIm Abhol-/Touristenexportfall zusätzliche der Nachweis, dass der Abnehmer **ausländisch** ist."
+    },
+    {
+      "id": "ust-steuerbefreiungen-04",
+      "frage": "Unter welcher Voraussetzung kann bei Vermietung von Geschäftsräumen zur Steuerpflicht optiert werden?",
+      "antwort": "Nur wenn  der **Mieter** zu **mindestens 95 %** zum Vorsteuerabzug berechtigt ist (§ 6 Abs 2, 4. Absatz Verwaltungspraxis). Die Option kann für jedes vermietete Objekt **einzeln** ausgeübt werden."
+    },
+    {
+      "id": "ust-steuerbefreiungen-05",
+      "frage": "Ist bei Leistungen im Gesundheitsbereich eine Option zur Steuerpflicht möglich?",
+      "antwort": "**Nein.** Anders als bei Grundstücken/Vermietung sieht § 6 Abs 1 Z 19/20 **keine** Optionsmöglichkeit vor."
+    },
+    {
+      "id": "ust-steuerbefreiungen-06",
+      "frage": "Warum sind Schönheitsoperationen nicht von der Gesundheitsbefreiung erfasst?",
+      "antwort": "Weil die Befreiung nur Leistungen umfasst, die **unmittelbar mit einer Heilbehandlung** zusammenhängen. Schönheitsoperationen (ohne medizinische Indikation) und diverse Gutachten sind daher **steuerpflichtig**."
+    }
+  ]
+}

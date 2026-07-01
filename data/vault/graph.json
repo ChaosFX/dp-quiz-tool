@@ -427,6 +427,12 @@
       "pfad": "Rechtsquellen/KStG/§ 5 KStG.md"
     },
     {
+      "id": "Rechtsquellen/KStG/§ 7 KStG",
+      "label": "Einkommen, Einkommensermittlung",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 7 KStG.md"
+    },
+    {
       "id": "Rechtsquellen/UStG/§ 1 UStG",
       "label": "Steuerbare Umsätze",
       "fach": "USt",
@@ -443,6 +449,24 @@
       "label": "Eigenverbrauch",
       "fach": "USt",
       "pfad": "Umsatzsteuer/Eigenverbrauch USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Einfuhr USt",
+      "label": "Einfuhr USt",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Einfuhr USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Entgelt",
+      "label": "Entgelt",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Entgelt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Kleinunternehmer USt",
+      "label": "Kleinunternehmer USt",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Kleinunternehmer USt.md"
     },
     {
       "id": "Umsatzsteuer/Leistungsbegriff USt",
@@ -467,6 +491,12 @@
       "label": "Steuerbare Tatbestände § 1 UStG",
       "fach": "USt",
       "pfad": "Umsatzsteuer/Steuerbare Tatbestände USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Steuerbefreiung USt",
+      "label": "Steuerbefreiungen",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Steuerbefreiung USt.md"
     },
     {
       "id": "Umsatzsteuer/Unternehmer USt",
@@ -1231,6 +1261,30 @@
       "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
     },
     {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaften"
+    },
+    {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
       "target": "Rechtsquellen/KStG/§ 5 KStG"
     },
@@ -1265,6 +1319,10 @@
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Einkommensteuer/ImmoESt"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
     },
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
@@ -1763,6 +1821,10 @@
       "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
     },
     {
+      "source": "Rechtsquellen/KStG/§ 1 KStG",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
       "source": "Rechtsquellen/KStG/§ 2 KStG",
       "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
     },
@@ -1819,6 +1881,22 @@
       "target": "Rechtsquellen/BAO/§ 34 BAO"
     },
     {
+      "source": "Rechtsquellen/KStG/§ 7 KStG",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 7 KStG",
+      "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 7 KStG",
+      "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 7 KStG",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
       "source": "Rechtsquellen/UStG/§ 1 UStG",
       "target": "Rechtsquellen/UStG/§ 2 UStG"
     },
@@ -1867,6 +1945,18 @@
       "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
     },
     {
+      "source": "Umsatzsteuer/Eigenverbrauch USt",
+      "target": "Umsatzsteuer/Entgelt"
+    },
+    {
+      "source": "Umsatzsteuer/Entgelt",
+      "target": "Umsatzsteuer/Eigenverbrauch USt"
+    },
+    {
+      "source": "Umsatzsteuer/Entgelt",
+      "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
+    },
+    {
       "source": "Umsatzsteuer/Leistungsbegriff USt",
       "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
     },
@@ -1883,8 +1973,24 @@
       "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
     },
     {
+      "source": "Umsatzsteuer/Lieferort USt",
+      "target": "Umsatzsteuer/Einfuhr USt"
+    },
+    {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
       "target": "Umsatzsteuer/Unternehmer USt"
+    },
+    {
+      "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
+      "target": "Umsatzsteuer/Leistungsbegriff USt"
+    },
+    {
+      "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
+      "target": "Umsatzsteuer/Eigenverbrauch USt"
+    },
+    {
+      "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
+      "target": "Umsatzsteuer/Einfuhr USt"
     },
     {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
@@ -1900,7 +2006,23 @@
     },
     {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
+      "target": "Umsatzsteuer/Steuerbefreiung USt"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
       "target": "Umsatzsteuer/Überblick & Wesen UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbefreiung USt",
+      "target": "Umsatzsteuer/Kleinunternehmer USt"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbefreiung USt",
+      "target": "Umsatzsteuer/Entgelt"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbefreiung USt",
+      "target": "Umsatzsteuer/Lieferort USt"
     },
     {
       "source": "Umsatzsteuer/Unternehmer USt",

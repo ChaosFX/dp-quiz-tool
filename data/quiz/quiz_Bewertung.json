@@ -1,125 +1,566 @@
 {
   "fach": "Bewertung",
+  "hinweis": "Fragen und Lösungen aus dem Kurs-Fragenkatalog 'Bewertung' (echte Übungsfragen mit Lösungsschlüssel).",
   "fragen": [
     {
-      "id": "bew-01",
-      "frage": "Welche Abgaben werden vom Bewertungsgesetz (BewG) nach § 1 BewG geregelt?",
+      "id": "bewertung-01",
+      "abschnitt": "Level 1",
+      "typ": "single",
+      "frage": "Für welche Abgaben und Beiträge ist der Einheitswert von Bedeutung?",
       "optionen": [
-        "Das BewG gilt für die Bewertung von Vermögen für jene Bundesabgaben, die auf bewertungsrechtliche Vorschriften verweisen, z.B. im Zusammenhang mit Grundsteuer, Grunderwerbsteuer und weiteren Abgaben",
-        "Das BewG regelt ausschließlich die Einkommensteuer",
-        "Das BewG ist ausschließlich für die Umsatzsteuer relevant",
-        "Das BewG findet ausschließlich bei Erbschaften Anwendung"
+        "Grunderwerbssteuer; NOVA; Bodenwertabgabe, Abgabe und Beiträge von luf Betrieben",
+        "Umsatzsteuer; Grundsteuer; Bodenwertabgabe, Abgabe und Beiträge von luf Betrieben",
+        "Grunderwerbssteuer; Grundsteuer; Mineralölsteuer, Abgabe und Beiträge von luf Betrieben",
+        "Grunderwerbssteuer; Grundsteuer; Bodenwertabgabe, Abgabe und Beiträge von luf Betrieben"
       ],
-      "korrekt": 0,
-      "erklaerung": "Das Bewertungsgesetz enthält allgemeine Bewertungsvorschriften, die immer dann zur Anwendung kommen, wenn andere Abgabengesetze (z.B. im Zusammenhang mit Grundsteuer, Grunderwerbsteuer, Bodenwertabgabe) auf die Bewertungsvorschriften des BewG verweisen."
+      "korrekt": 3,
+      "erklaerung": "Der Einheitswert ist u.a. Bemessungsgrundlage für Grunderwerbsteuer, Grundsteuer, Bodenwertabgabe sowie Abgaben und Beiträge von luf Betrieben (Skript Kap. 2.1)."
     },
     {
-      "id": "bew-02",
-      "frage": "Welche Vermögensarten unterscheidet das BewG grundsätzlich?",
+      "id": "bewertung-02",
+      "abschnitt": "Level 1",
+      "typ": "single",
+      "frage": "Wie und von wem wird der Einheitswert festgestellt?",
       "optionen": [
-        "U.a. land- und forstwirtschaftliches Vermögen, Grundvermögen sowie Betriebsvermögen, die jeweils nach eigenen Regeln bewertet werden",
-        "Das BewG kennt nur eine einzige, einheitliche Vermögensart ohne weitere Unterscheidung",
-        "Vermögensarten betreffen ausschließlich bewegliches Vermögen",
-        "Land- und forstwirtschaftliches Vermögen ist im BewG nicht vorgesehen"
+        "Feststellung mittels E-Mail durch das Finanzamt (Bewertung)",
+        "Feststellung mittels Anruf durch die Gemeinde (Bewertung)",
+        "Feststellung mittels Bescheid durch das Finanzamt (Bewertung)",
+        "Feststellung mittels Brief durch das Finanzamt (Bewertung)"
       ],
-      "korrekt": 0,
-      "erklaerung": "Das BewG unterscheidet insbesondere zwischen land- und forstwirtschaftlichem Vermögen, Grundvermögen (bebaute und unbebaute Grundstücke) und Betriebsvermögen, für die jeweils eigene Bewertungsvorschriften (§§ 29 ff. BewG für luf Vermögen und Grundvermögen) gelten."
+      "korrekt": 2,
+      "erklaerung": "Der Einheitswert wird gem. § 19 BewG mittels Bescheid (Feststellungsbescheid) durch das Finanzamt festgestellt (Skript Kap. 2.1.1 / 6.2)."
     },
     {
-      "id": "bew-03",
-      "frage": "Was versteht man unter dem gemeinen Wert im Sinne des § 10 BewG?",
+      "id": "bewertung-03",
+      "abschnitt": "Level 1",
+      "typ": "single",
+      "frage": "Womit können Sie den Kapitalwert einer Rente am einfachsten ermitteln?",
       "optionen": [
-        "Den Preis, der im gewöhnlichen Geschäftsverkehr bei einer Veräußerung eines Wirtschaftsgutes nach seiner Beschaffenheit zu erzielen wäre, unter Außerachtlassung ungewöhnlicher oder persönlicher Verhältnisse",
-        "Den ursprünglichen Anschaffungspreis ohne jede Wertanpassung",
-        "Den Einheitswert eines Grundstücks zum letzten Hauptfeststellungszeitpunkt",
-        "Der gemeine Wert ist ein veralteter Begriff ohne heutige Bedeutung"
+        "Mit dem Taschenrechner",
+        "Mit dem Handy",
+        "Verwendung einer Suchmaschine",
+        "Verwendung des Berechnungsprogramms im Intranet"
       ],
-      "korrekt": 0,
-      "erklaerung": "Der gemeine Wert (§ 10 BewG) ist der Preis, der bei einer Veräußerung des Wirtschaftsgutes im gewöhnlichen Geschäftsverkehr nach seiner Beschaffenheit erzielbar wäre; ungewöhnliche oder persönliche Verhältnisse (z.B. eine Zwangslage des Veräußerers) bleiben dabei außer Betracht."
+      "korrekt": 3,
+      "erklaerung": "Für die Berechnung des Kapitalwertes einer Rente steht ein Berechnungsprogramm auf der Homepage des BMF zur Verfügung (Skript Kap. 1.8.5)."
     },
     {
-      "id": "bew-04",
-      "frage": "Welche Bedeutung hat die Kaufpreissammlung im Zusammenhang mit der Bewertung (§§ 10, 12, 32 BewG)?",
+      "id": "bewertung-04",
+      "abschnitt": "Level 1",
+      "typ": "single",
+      "frage": "Für welche Abgaben und Beiträge ist der Einheitswert von Bedeutung?",
       "optionen": [
-        "Sie enthält Daten über tatsächlich erzielte Kaufpreise (z.B. von Grundstücken), die als Vergleichsmaßstab zur Ermittlung des gemeinen Wertes herangezogen werden können",
-        "Die Kaufpreissammlung dient ausschließlich statistischen Zwecken ohne jede steuerliche Relevanz",
-        "Es handelt sich um eine Sammlung historischer Anschaffungskosten von Unternehmen",
-        "Die Kaufpreissammlung betrifft ausschließlich bewegliche Wirtschaftsgüter"
+        "Lohnsteuer",
+        "Umsatzsteuer",
+        "Abgabe und Beiträge von luf Betrieben",
+        "Mineralölsteuer"
       ],
-      "korrekt": 0,
-      "erklaerung": "Die Kaufpreissammlung dokumentiert tatsächlich am Markt erzielte Kaufpreise (insbesondere für Grundstücke) und dient als wichtige Vergleichsgrundlage bei der Ermittlung des gemeinen Wertes im Rahmen der Bewertung."
+      "korrekt": 2,
+      "erklaerung": "Der Einheitswert ist u.a. Bemessungsgrundlage für die Abgabe und Beiträge von land- und forstwirtschaftlichen Betrieben (Skript Kap. 2.1)."
     },
     {
-      "id": "bew-05",
-      "frage": "Wie werden Kapitalforderungen und Schulden nach § 14 BewG grundsätzlich bewertet?",
+      "id": "bewertung-05",
+      "abschnitt": "Level 1",
+      "typ": "single",
+      "frage": "Welcher Vermögensart ist ein Einfamilienhaus zuzuordnen?",
       "optionen": [
-        "Grundsätzlich mit dem Nennwert, sofern nicht besondere Umstände (z.B. Uneinbringlichkeit, Unverzinslichkeit) einen abweichenden Wertansatz rechtfertigen",
-        "Kapitalforderungen sind grundsätzlich generell mit Null anzusetzen",
-        "Es ist immer der ursprüngliche Vertragswert ohne jede Anpassung heranzuziehen",
-        "Kapitalforderungen werden nach dem BewG nicht bewertet"
+        "Betriebsvermögen",
+        "Land- und forstwirtschaftlichem Vermögen",
+        "Sonstigem Vermögen",
+        "Grundvermögen"
       ],
-      "korrekt": 0,
-      "erklaerung": "Kapitalforderungen und Schulden sind nach § 14 BewG grundsätzlich mit dem Nennwert anzusetzen; abweichende Bewertungen können sich insbesondere bei Uneinbringlichkeit, besonderen Verzinsungsverhältnissen oder bei unverzinslichen, erst künftig fälligen Forderungen ergeben."
+      "korrekt": 3,
+      "erklaerung": "Ein Einfamilienhaus zählt zu den bebauten Grundstücken und damit zum Grundvermögen (Skript Kap. 2.7.1)."
     },
     {
-      "id": "bew-06",
-      "frage": "Welche Arten von Kapitalforderungen unterscheidet § 15 BewG hinsichtlich der Verzinsung?",
+      "id": "bewertung-06",
+      "abschnitt": "Level 1",
+      "typ": "single",
+      "frage": "Wo kann man Daten betreffend Kauffälle von Grundstücken finden?",
       "optionen": [
-        "Verzinsliche und unverzinsliche Kapitalforderungen, die unterschiedlich zu bewerten sind",
-        "Es gibt nach § 15 BewG keine Unterscheidung nach der Verzinsung",
-        "Nur verzinsliche Forderungen sind nach dem BewG überhaupt bewertbar",
-        "Unverzinsliche Forderungen sind immer mit dem doppelten Nennwert anzusetzen"
+        "WEB GIS der Bundesländer",
+        "Gebäude- und Wohnungsregister",
+        "AMA",
+        "Kaufpreissammlung"
       ],
-      "korrekt": 0,
-      "erklaerung": "§ 15 BewG unterscheidet zwischen verzinslichen und unverzinslichen Kapitalforderungen; während verzinsliche Forderungen regelmäßig mit dem Nennwert bewertet werden, sind unverzinsliche, erst künftig fällige Forderungen unter Berücksichtigung einer Abzinsung zu bewerten."
+      "korrekt": 3,
+      "erklaerung": "Daten zu Kauffällen von Grundstücken finden sich in der Kaufpreissammlung (Portal – Finanzanwendungen – GRUIS) (Skript Kap. 4.1)."
     },
     {
-      "id": "bew-07",
-      "frage": "Wie werden wiederkehrende Nutzungen und Leistungen (z.B. Renten) nach §§ 15-17 BewG bewertet?",
+      "id": "bewertung-07",
+      "abschnitt": "Level 2",
+      "typ": "single",
+      "frage": "Welche Arten von Kapitalforderungen und Schulden kennen Sie?",
       "optionen": [
-        "Mit einem kapitalisierten Wert, der unter Berücksichtigung von Laufzeit, Höhe und ggf. statistischer Wahrscheinlichkeiten (z.B. Lebenserwartung) berechnet wird; dafür existiert ein eigenes Berechnungsprogramm im Intranet/auf der BMF-Homepage",
-        "Wiederkehrende Nutzungen und Leistungen werden generell mit dem einfachen Jahresbetrag ohne jede Kapitalisierung angesetzt",
-        "Diese Bewertungsform ist im BewG nicht vorgesehen",
-        "Es wird stets ein pauschaler Wert von 10.000 EUR angesetzt"
+        "immerwährende Kapitalforderungen",
+        "bestimmte und unbestimmte Kapitalforderungen",
+        "verzinsliche und unverzinsliche Kapitalforderungen",
+        "aufschiebende und auflösende Kapitalforderungen"
       ],
-      "korrekt": 0,
-      "erklaerung": "Wiederkehrende Nutzungen und Leistungen (z.B. Renten, Wohnrechte) werden nach §§ 15–17 BewG mit einem kapitalisierten Wert bewertet, der von Laufzeit, Höhe und – bei lebenslangen Leistungen – statistischen Faktoren wie der Lebenserwartung abhängt; zur Berechnung steht ein entsprechendes Programm im Intranet bzw. auf der BMF-Homepage zur Verfügung."
+      "korrekt": 2,
+      "erklaerung": "Das Bewertungsgesetz unterscheidet bei Kapitalforderungen und Schulden zwischen verzinslichen und unverzinslichen Forderungen (§ 14 BewG, Skript Kap. 1.7)."
     },
     {
-      "id": "bew-08",
-      "frage": "Was umfasst der Bewertungsgegenstand 'Grundvermögen' nach §§ 29 ff BewG im Überblick?",
+      "id": "bewertung-08",
+      "abschnitt": "Level 2",
+      "typ": "single",
+      "frage": "Welche Vermögensarten kennt das Bewertungsgesetz?",
       "optionen": [
-        "Bebaute und unbebaute Grundstücke, die nach den besonderen Vorschriften des BewG für Grundvermögen bewertet werden",
-        "Ausschließlich landwirtschaftlich genutzte Flächen",
-        "Bewegliche Wirtschaftsgüter wie Maschinen und Fahrzeuge",
-        "Grundvermögen umfasst ausschließlich Wertpapiere und Beteiligungen"
+        "Wirtschaftliches Vermögen, Grundvermögen, Betriebsvermögen, Sonstiges Vermögen",
+        "Land- u. Forstwirtschaftliches Vermögen, Grundvermögen, Geschäftsvermögen, Sonstiges Vermögen",
+        "Land- u. Forstwirtschaftliches Vermögen, Grundvermögen, Betriebsvermögen, Sonstiges Vermögen",
+        "Land- u. Forstwirtschaftliches Vermögen, Bodenvermögen, Betriebsvermögen, Sonstiges Vermögen"
       ],
-      "korrekt": 0,
-      "erklaerung": "Zum Grundvermögen zählen bebaute und unbebaute Grundstücke, die nach den besonderen, im BewG vorgesehenen Regeln (im Überblick §§ 29 ff. BewG) bewertet werden – im Unterschied zum land- und forstwirtschaftlichen Vermögen und zum Betriebsvermögen."
+      "korrekt": 2,
+      "erklaerung": "Das Bewertungsgesetz kennt vier Vermögensarten: land- u. forstwirtschaftliches Vermögen, Grundvermögen, Betriebsvermögen und Sonstiges Vermögen (§ 18 BewG, Skript Kap. 2.2)."
     },
     {
-      "id": "bew-09",
-      "frage": "In welchen Bereichen außerhalb des unmittelbaren Bewertungsrechts spielen Einheitswerte eine Rolle?",
+      "id": "bewertung-09",
+      "abschnitt": "Level 2",
+      "typ": "single",
+      "frage": "Wie erfolgt die Unterteilung im Grundvermögen?",
       "optionen": [
-        "U.a. bei der Einkommensteuer (z.B. pauschalierte Land- und Forstwirtschaft), der Grunderwerbsteuer, der Grundsteuer, der Bodenwertabgabe, dem BSVG sowie im Zusammenhang mit dem Grundbuch (GGG)",
-        "Einheitswerte haben außerhalb des BewG keinerlei praktische Bedeutung mehr",
-        "Einheitswerte sind ausschließlich für die Umsatzsteuer relevant",
-        "Einheitswerte betreffen ausschließlich bewegliche Wirtschaftsgüter"
+        "unbebaute und bebaute Grundstücke",
+        "lange und kurze Grundstücke",
+        "kleine und große Grundstücke",
+        "teure und günstige Grundstücke"
       ],
       "korrekt": 0,
-      "erklaerung": "Einheitswerte haben über das Bewertungsrecht hinaus vielfältige Bedeutung, u.a. als Bemessungsgrundlage oder Anknüpfungspunkt bei der pauschalierten Land- und Forstwirtschaft im EStG, bei der Grunderwerbsteuer, der Grundsteuer, der Bodenwertabgabe, im Sozialversicherungsrecht der Landwirte (BSVG) sowie bei bestimmten Gebühren im Zusammenhang mit dem Grundbuch (GGG)."
+      "erklaerung": "Das Grundvermögen wird in unbebaute und bebaute Grundstücke unterteilt (§§ 54, 55 BewG, Skript Kap. 2.7.1)."
     },
     {
-      "id": "bew-10",
-      "frage": "Was wird unter 'Bedingungen und Befristungen' im bewertungsrechtlichen Kontext (§§ 4-8 BewG) verstanden?",
+      "id": "bewertung-10",
+      "abschnitt": "Level 2",
+      "typ": "single",
+      "frage": "Wie und von wem wird der Einheitswert festgestellt?",
       "optionen": [
-        "Regelungen darüber, wie Wirtschaftsgüter zu bewerten sind, deren Bestand oder Wegfall von einem zukünftigen ungewissen Ereignis (Bedingung) oder einem bestimmten Zeitpunkt (Befristung) abhängt",
-        "Bedingungen und Befristungen betreffen ausschließlich Verträge im Zivilrecht ohne steuerliche Relevanz",
-        "Diese Bestimmungen regeln ausschließlich die Fälligkeit von Steuerzahlungen",
-        "Es handelt sich um Synonyme für den gemeinen Wert"
+        "Feststellung mittels Mitteilung durch das Finanzamt",
+        "Feststellung mittels Brief durch das Finanzamt",
+        "Feststellung mittels Bescheid durch das Finanzamt (Bewertung)",
+        "Feststellung mittels Buchungsmitteilung durch das Finanzamt"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Der Einheitswert wird gem. § 19 BewG mittels Bescheid durch das Finanzamt festgestellt (Skript Kap. 2.1.1 / 6.2)."
+    },
+    {
+      "id": "bewertung-11",
+      "abschnitt": "Level 2",
+      "typ": "single",
+      "frage": "Welche Wirtschaftsgüter gehören in die wirtschaftliche Einheit eines landwirtschaftlichen Betriebes?",
+      "optionen": [
+        "übersteigender Teil des Wohnungswertes",
+        "Geld, Forderungen, Wertpapiere, Schulden",
+        "Gebäudewert der Fremdenzimmer",
+        "Zum landwirtschaftlichen Vermögen gehören alle Teile einer wirtschaftlichen Einheit, die dauernd einem landwirtschaftlichen Hauptzweck dienen."
+      ],
+      "korrekt": 3,
+      "erklaerung": "Zum landwirtschaftlichen Vermögen gehören alle Teile einer wirtschaftlichen Einheit, die dauernd einem landwirtschaftlichen Hauptzweck dienen (Skript Kap. 2.6, § 29 BewG)."
+    },
+    {
+      "id": "bewertung-12",
+      "abschnitt": "Level 2",
+      "typ": "single",
+      "frage": "Welcher Vermögensart wird üblicherweise ein landwirtschaftlich genutzter Acker zugeordnet?",
+      "optionen": [
+        "dem Grundvermögen",
+        "dem Privatvermögen",
+        "dem europäischen Vermögen",
+        "dem landwirtschaftlichen Vermögen"
+      ],
+      "korrekt": 3,
+      "erklaerung": "Land- und forstwirtschaftlich genutzter Grundbesitz gehört grundsätzlich zum landwirtschaftlichen Vermögen (§ 52 BewG, Skript Kap. 2.3)."
+    },
+    {
+      "id": "bewertung-13",
+      "abschnitt": "Level 3",
+      "typ": "single",
+      "frage": "Wo findet das Bewertungsrecht grundsätzlich Anwendung?",
+      "optionen": [
+        "Für bestimmte landesrechtlich geregelte Abgaben und Beiträge.",
+        "Für bestimmte bundesrechtlich geregelte Abgaben und Beiträge.",
+        "Für alle bundesrechtlich geregelten Abgaben und Beiträge, solange einzelne Gesetze keine besonderen Regelungen vorsehen.",
+        "Für alle landesrechtlich geregelten Abgaben und Beiträge, solange einzelne Gesetze keine besonderen Regelungen vorsehen."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Der erste Teil des BewG (allgemeine Vorschriften §§ 2–17) gilt für alle bundesrechtlich geregelten Abgaben und Beiträge, soweit die einzelnen Steuergesetze keine eigenen Bewertungsvorschriften enthalten (Skript Kap. „Gliederung und Anwendungsbereich“, § 1 BewG)."
+    },
+    {
+      "id": "bewertung-14",
+      "abschnitt": "Level 3",
+      "typ": "single",
+      "frage": "Was versteht man unter einer Bedingung?",
+      "optionen": [
+        "Ein vergangenes Ereignis, von dessen Eintritt oder Nichteintritt ein Recht abhängig gemacht wird.",
+        "Ein besonderes Ereignis, von dessen Eintritt oder Nichteintritt ein Recht abhängig gemacht wird.",
+        "Ein gewisses Ereignis, von dessen Eintritt oder Nichteintritt ein Recht abhängig gemacht wird.",
+        "Ein zukünftiges ungewisses Ereignis, von dessen Eintritt oder Nichteintritt ein Recht abhängig gemacht wird."
+      ],
+      "korrekt": 3,
+      "erklaerung": "Eine Bedingung ist ein zukünftiges ungewisses Ereignis, von dessen Eintritt oder Nichteintritt ein Rechtsgeschäft abhängig ist (Skript Kap. 1.2, §§ 4–7 BewG)."
+    },
+    {
+      "id": "bewertung-15",
+      "abschnitt": "Level 3",
+      "typ": "single",
+      "frage": "Welche Arten von Bedingungen kennen Sie?",
+      "optionen": [
+        "aufschiebende und auflösende Bedingungen",
+        "bestimmte und unbestimmte Bedingungen",
+        "gute und schlechte Bedingungen",
+        "vergangene und zukünftige Bedingungen"
       ],
       "korrekt": 0,
-      "erklaerung": "Die §§ 4–8 BewG regeln die bewertungsrechtliche Behandlung von Wirtschaftsgütern oder Lasten, deren Entstehen, Bestehen oder Erlöschen von einer aufschiebenden oder auflösenden Bedingung bzw. von einer Befristung abhängt, um eine sachgerechte Bewertung trotz dieser Unsicherheit zu ermöglichen."
+      "erklaerung": "Das Bewertungsgesetz unterscheidet zwischen aufschiebenden und auflösenden Bedingungen (Skript Kap. 1.2)."
+    },
+    {
+      "id": "bewertung-16",
+      "abschnitt": "Level 3",
+      "typ": "single",
+      "frage": "Was sind die Voraussetzungen für die Zusammenfassung mehrerer Wirtschaftsgüter in eine wirtschaftliche Einheit?",
+      "optionen": [
+        "Sie müssen nicht demselben Eigentümer gehören.",
+        "Sie müssen nach der Verkehrsanschauung zusammengehören.",
+        "Mehr als 50 ha dürfen nicht in einem Akt bewertet werden.",
+        "Die Grundstücke müssen immer in derselben Katastralgemeinde gelegen sein."
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ob mehrere Wirtschaftsgüter eine wirtschaftliche Einheit bilden, ist nach der Verkehrsanschauung zu beurteilen; zusätzlich müssen einheitliche Eigentumsverhältnisse vorliegen (§ 2 BewG, Skript Kap. 1.1)."
+    },
+    {
+      "id": "bewertung-17",
+      "abschnitt": "Level 3",
+      "typ": "single",
+      "frage": "Welchen Wertbegriff kennt das Bewertungsgesetz?",
+      "optionen": [
+        "Sachwert",
+        "Sonderwert",
+        "Buchwert",
+        "Teilwert"
+      ],
+      "korrekt": 3,
+      "erklaerung": "Das Bewertungsgesetz kennt als zentralen Wertbegriff den Teilwert (§ 12 BewG) neben dem gemeinen Wert (§ 10 BewG) (Skript Kap. 1.4/1.5)."
+    },
+    {
+      "id": "bewertung-18",
+      "abschnitt": "Level 3",
+      "typ": "single",
+      "frage": "Zum land- und forstwirtschaftlichen Vermögen gehören alle Teile einer wirtschaftlichen Einheit, die dauernd einem landwirtschaftlichen Hauptzweck dienen, insbesondere:",
+      "optionen": [
+        "Geld",
+        "der übersteigende Teil des Wohnungswertes",
+        "Grund und Boden",
+        "Wertpapiere"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Zum land- und forstwirtschaftlichen Vermögen gehören insbesondere Grund und Boden, Gebäude und Betriebsmittel, die dauernd dem landwirtschaftlichen Hauptzweck dienen (Skript Kap. 2.6, § 29 BewG)."
+    },
+    {
+      "id": "bewertung-19",
+      "abschnitt": "Level 3",
+      "typ": "single",
+      "frage": "Grundsätzlich müssen bei einer wirtschaftlichen Einheit auch einheitliche Eigentumsverhältnisse vorliegen - welche Ausnahme gibt es?",
+      "optionen": [
+        "Die Grundstücke gehören nur Freunden, die in dauernder Haushaltsgemeinschaft leben.",
+        "Die Grundstücke gehören nur Lebensgemeinschaften, die in dauernder Haushaltsgemeinschaft leben.",
+        "Die Grundstücke gehören nur Geschwistern, die in dauernder Haushaltsgemeinschaft leben.",
+        "Die Grundstücke gehören nur Ehegatten oder eingetragenen Partnern, die in dauernder Haushaltsgemeinschaft leben."
+      ],
+      "korrekt": 3,
+      "erklaerung": "Einheitliche Eigentumsverhältnisse sind grundsätzlich Voraussetzung für eine wirtschaftliche Einheit; Ausnahme: Die Grundstücke gehören nur Ehegatten oder eingetragenen Partnern, die in dauernder Haushaltsgemeinschaft leben (§ 2 BewG, Skript Kap. 1.1)."
+    },
+    {
+      "id": "bewertung-20",
+      "abschnitt": "Level 4",
+      "typ": "single",
+      "frage": "Wie werden Befristungen auf einen unbestimmten Zeitpunkt bewertet?",
+      "optionen": [
+        "Sie werden den Bedingungen gleichgestellt.",
+        "Mit dem Berechnungstool für Renten.",
+        "Gar nicht.",
+        "Mit dem Taschenrechner."
+      ],
+      "korrekt": 0,
+      "erklaerung": "Befristungen auf einen unbestimmten Zeitpunkt sind den Bedingungen gleichgestellt; der Eintritt des Ereignisses ist gewiss, nur der Zeitpunkt ungewiss (§ 8 BewG, Skript Kap. 1.3)."
+    },
+    {
+      "id": "bewertung-21",
+      "abschnitt": "Level 4",
+      "typ": "single",
+      "frage": "Welche Bewertungsmaßstäbe kennen Sie?",
+      "optionen": [
+        "Gemeiner Wert, Teilwert und Ertragswert",
+        "Gemeiner Wert, Verkehrswert und Ertragswert",
+        "Gemeiner Wert, Teilwert und Verkaufswert",
+        "Bodenwert, Teilwert und Ertragswert"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Das Bewertungsgesetz kennt als Bewertungsmaßstäbe den gemeinen Wert (§ 10 BewG), den Teilwert (§ 12 BewG) und den Ertragswert (§ 32 BewG) (Skript Kap. 1.4, 1.5, 2.6.2)."
+    },
+    {
+      "id": "bewertung-22",
+      "abschnitt": "Level 4",
+      "typ": "single",
+      "frage": "Wann kommt der gemeine Wert zur Anwendung?",
+      "optionen": [
+        "Er kommt immer dann zur Anwendung, wenn kein anderer Bewertungsmaßstab vorgeschrieben ist.",
+        "Er kommt immer dann zur Anwendung, wenn es vorgeschrieben ist.",
+        "Er kommt nie zur Anwendung.",
+        "Er kommt immer zur Anwendung."
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der gemeine Wert ist der allgemeine Bewertungsgrundsatz des Bewertungsgesetzes und kommt immer dann zur Anwendung, wenn kein anderer Bewertungsmaßstab vorgeschrieben ist (§ 10 BewG, Skript Kap. 1.4)."
+    },
+    {
+      "id": "bewertung-23",
+      "abschnitt": "Level 4",
+      "typ": "single",
+      "frage": "Wann kommt der Teilwert zur Anwendung?",
+      "optionen": [
+        "bei forstwirtschaftlichem Vermögen",
+        "bei Weinbauvermögen",
+        "bei Grundvermögen",
+        "bei Betriebsvermögen"
+      ],
+      "korrekt": 3,
+      "erklaerung": "Der Teilwert ist der Bewertungsmaßstab beim Betriebsvermögen (§ 12 BewG, Skript Kap. 1.5 / 6.1)."
+    },
+    {
+      "id": "bewertung-24",
+      "abschnitt": "Level 4",
+      "typ": "single",
+      "frage": "Wo kommt der Ertragswert zur Anwendung?",
+      "optionen": [
+        "bei Betriebsvermögen",
+        "Nie",
+        "beim luf Vermögen",
+        "bei Grundvermögen"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Der Ertragswert ist der Bewertungsmaßstab beim land- und forstwirtschaftlichen (luf) Vermögen (§ 32 BewG, Skript Kap. 2.6.2)."
+    },
+    {
+      "id": "bewertung-25",
+      "abschnitt": "Level 4",
+      "typ": "single",
+      "frage": "Um was für einen Bescheid handelt es sich beim Einheitswertbescheid?",
+      "optionen": [
+        "Abgabenbescheid",
+        "Feststellungsbescheid",
+        "abgeleiteten Bescheid",
+        "Umsatzsteuerbescheid"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Beim Einheitswertbescheid handelt es sich um einen Feststellungsbescheid, von dem weitere Bescheide (z.B. Grundsteuermessbescheid) abgeleitet werden (Skript Kap. 2.1.1)."
+    },
+    {
+      "id": "bewertung-26",
+      "abschnitt": "Level 5",
+      "typ": "single",
+      "frage": "Wie lautet die Ausnahmeregelung der Zuordnung von Grundbesitz zum land- und forstwirtschaftlichen Vermögen und zum Grundvermögen?",
+      "optionen": [
+        "luf genutzter Grundbesitz gehört immer zum luf Vermögen",
+        "luf genutzter Grundbesitz gehört nie zum luf Vermögen",
+        "luf genutzter Grundbesitz gehört zum luf Vermögen; Ausnahme: Grund kann „besser“ verwertet werden z.B. als Bauplatz; nicht luf genutzter Grundbesitz gehört zum Grundvermögen",
+        "luf genutzter Grundbesitz gehört zum luf Vermögen; Ausnahme: Grund kann „schlechter“ verwertet werden z.B. als Bauplatz; nicht luf genutzter Grundbesitz gehört zum Grundvermögen"
+      ],
+      "korrekt": 2,
+      "erklaerung": "Land- und forstwirtschaftlich genutzter Grundbesitz gehört grundsätzlich zum luf Vermögen; Ausnahme gem. § 52 Abs. 2 BewG: Kann der Grund „besser“ verwertet werden (z.B. als Bauplatz), gehört er zum Grundvermögen (Skript Kap. 2.3 / 6.2)."
+    },
+    {
+      "id": "bewertung-27",
+      "abschnitt": "Level 5",
+      "typ": "single",
+      "frage": "Was ist der gemeine Wert?",
+      "optionen": [
+        "Jener Wert, den der Erwerber eines gesamten Betriebes für das einzelne Wirtschaftsgut aufwenden würde unter der Voraussetzung, dass er den Betrieb fortführt",
+        "Der gemeine Wert wird durch den Preis bestimmt, der bei einer Versteigerung erzielt werden könnte.",
+        "Das 18-fache des Reinertrages, den der Betrieb bestimmungsgemäß nachhaltig erwirtschaften kann.",
+        "Der gemeine Wert wird durch den Preis bestimmt, der im gewöhnlichen Geschäftsverkehr nach der Beschaffenheit des Wirtschaftsgutes bei einer Veräußerung zu erzielen wäre."
+      ],
+      "korrekt": 3,
+      "erklaerung": "Der gemeine Wert wird durch den Preis bestimmt, der im gewöhnlichen Geschäftsverkehr nach der Beschaffenheit des Wirtschaftsgutes bei einer Veräußerung zu erzielen wäre (§ 10 BewG, Skript Kap. 1.4)."
+    },
+    {
+      "id": "bewertung-28",
+      "abschnitt": "Level 5",
+      "typ": "single",
+      "frage": "Was unterscheidet den gemeinen Wert vom Verkehrswert?",
+      "optionen": [
+        "Es gibt keinen Unterschied.",
+        "Beim gemeinen Wert werden ungewöhnliche und persönliche Verhältnisse berücksichtigt, beim Verkehrswert nicht.",
+        "Beim gemeinen Wert werden ungewöhnliche und persönliche Verhältnisse nicht berücksichtigt, beim Verkehrswert schon.",
+        "Beim gemeinen Wert werden alle Verhältnisse berücksichtigt, beim Verkehrswert nicht."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Beim gemeinen Wert werden ungewöhnliche und persönliche Verhältnisse nicht berücksichtigt, beim Verkehrswert hingegen schon (Skript Kap. 1.4, Tabelle Gemeiner Wert vs. Verkehrswert)."
+    },
+    {
+      "id": "bewertung-29",
+      "abschnitt": "Level 5",
+      "typ": "single",
+      "frage": "Wann ist land- und forstwirtschaftlich genutzter Grundbesitz als Grundvermögen zu bewerten?",
+      "optionen": [
+        "Nie.",
+        "Der Grundbesitz liegt im hochalpinen Bereich.",
+        "Der Grundbesitz stellt eine Baulücke dar.",
+        "Der Grundbesitz ist durch Forstwege aufgeschlossen."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Land- und forstwirtschaftlich genutzter Grundbesitz ist ausnahmsweise als Grundvermögen zu bewerten, wenn er „besser“ verwertet werden kann, z.B. weil er eine Baulücke darstellt (§ 52 Abs. 2 BewG, Skript Kap. 2.3)."
+    },
+    {
+      "id": "bewertung-30",
+      "abschnitt": "Level 5",
+      "typ": "single",
+      "frage": "In welchem Paragraphen des Bewertungsgesetzes ist der Teilwert definiert?",
+      "optionen": [
+        "§ 12 BewG",
+        "§ 22 BewG",
+        "§ 35 BewG",
+        "§ 10 BewG"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Teilwert ist in § 12 BewG definiert (Skript Kap. 1.5)."
+    },
+    {
+      "id": "bewertung-31",
+      "abschnitt": "Level 5",
+      "typ": "single",
+      "frage": "Wo ist der gemeine Wert geregelt?",
+      "optionen": [
+        "§ 3 Sachbezugswerteverordnung",
+        "§ 10 BewG",
+        "§ 7 EStG",
+        "§ 26 Werteverordnung"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Der gemeine Wert ist in § 10 BewG geregelt (Skript Kap. 1.4)."
+    },
+    {
+      "id": "bewertung-32",
+      "abschnitt": "Level 5",
+      "typ": "single",
+      "frage": "Die Schwiegertochter bekommt von der Schwiegermutter den Familienschmuck unter der Bedingung, dass die Ehe nicht geschieden wird. Um welche Bedingung handelt es sich hier?",
+      "optionen": [
+        "auflösende Bedingung",
+        "aufgeschobene Bedingung",
+        "aufgehobene Bedingung",
+        "aufschiebende Bedingung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Da die Bedingung (Nichtscheidung) den bereits erfolgten Erwerb nur bei Nichteintritt rückgängig machen würde, handelt es sich um eine auflösende Bedingung; der Schmuck ist der Schwiegertochter wie unbedingt erworben zuzurechnen (Skript Kap. 1.2, Musterbeispiel Familienschmuck)."
+    },
+    {
+      "id": "bewertung-33",
+      "abschnitt": "Level 5",
+      "typ": "single",
+      "frage": "A schenkt B das Einfamilienhaus am 30.06.2023. Zu welchem Stichtag wird das Einfamilienhaus dem B zugerechnet?",
+      "optionen": [
+        "Zum Stichtag 1.1.2024",
+        "Zum Stichtag 1.1.2023",
+        "Zum Stichtag 30.06.2023",
+        "Zum Stichtag 30.06.2024"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Bei unbedingten (auflösend bedingten) Erwerben erfolgt die Zurechnung sofort zum tatsächlichen Übergabezeitpunkt, hier also zum 30.06.2023 (Skript Kap. 1.2)."
+    },
+    {
+      "id": "bewertung-34",
+      "abschnitt": "Level 6",
+      "typ": "single",
+      "frage": "Was versteht man unter dem „Teilwert“?",
+      "optionen": [
+        "Das 18-fache des Reinertrages, den der Betrieb bestimmungsgemäß nachhaltig erwirtschaften kann.",
+        "Der Teilwert wird durch den Preis bestimmt, der im Supermarkt ausgewiesen ist.",
+        "Jener Wert, den der Erwerber eines gesamten Betriebes für das einzelne Wirtschaftsgut aufwenden würde unter der Voraussetzung, dass er den Betrieb fortführt.",
+        "Der Teilwert wird durch den Preis bestimmt, der bei einer Versteigerung erzielt werden könnte."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Der Teilwert ist jener Wert, den der Erwerber eines gesamten Betriebes für das einzelne Wirtschaftsgut aufwenden würde, unter der Voraussetzung, dass der Betrieb fortgeführt wird (§ 12 BewG, Skript Kap. 1.5)."
+    },
+    {
+      "id": "bewertung-35",
+      "abschnitt": "Level 6",
+      "typ": "single",
+      "frage": "Was versteht man unter dem „Ertragswert“?",
+      "optionen": [
+        "Der Ertragswert wird durch den Wert bestimmt, der auf dem Einkommensteuerbescheid ausgewiesen ist.",
+        "Der Ertragswert wird durch den Wert bestimmt, der auf dem Lohnzettel ausgewiesen ist.",
+        "Das 18-fache des Reinertrages, den der Betrieb bestimmungsgemäß nachhaltig erwirtschaften kann.",
+        "Jener Wert, den der Erwerber eines gesamten Betriebes für das einzelne Wirtschaftsgut aufwenden würde unter der Voraussetzung, dass er den Betrieb fortführt."
+      ],
+      "korrekt": 2,
+      "erklaerung": "Der Ertragswert ist das 18-fache des durchschnittlich und nachhaltig erbringbaren jährlichen Reinertrages des Betriebes (§ 32 BewG, Skript Kap. 2.6.2)."
+    },
+    {
+      "id": "bewertung-36",
+      "abschnitt": "Level 6",
+      "typ": "single",
+      "frage": "Für welche Abgaben und Beiträge ist der Einheitswert von Bedeutung?",
+      "optionen": [
+        "Sozialversicherung der Unselbstständigen",
+        "Umsatzsteuer",
+        "Lohnsteuer",
+        "Sozialversicherung der Selbstständigen"
+      ],
+      "korrekt": 3,
+      "erklaerung": "Der Einheitswert ist u.a. Bemessungsgrundlage für die Sozialversicherung der Selbstständigen bei luf Betrieben (Skript Kap. 2.1)."
+    },
+    {
+      "id": "bewertung-37",
+      "abschnitt": "Level 6",
+      "typ": "single",
+      "frage": "Für welche Abgabe und Beiträge ist der Einheitswert von Bedeutung?",
+      "optionen": [
+        "Sozialversicherung der Unselbstständigen",
+        "Grunderwerbssteuer bei bäuerlichen Übergaben",
+        "Umsatzsteuer",
+        "Lohnsteuer"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Der Einheitswert ist u.a. Bemessungsgrundlage für die Grunderwerbsteuer bei bestimmten Erwerbsvorgängen von luf Grundstücken, insbesondere bei bäuerlichen Übergaben (§ 4 Abs. 2 GrEStG, Skript Kap. „Gliederung und Anwendungsbereich“, 2. Teil)."
+    },
+    {
+      "id": "bewertung-38",
+      "abschnitt": "Level 6",
+      "typ": "single",
+      "frage": "Der Wertansatz von bestimmten Wirtschaftsgütern ist in welcher Verordnung geregelt?",
+      "optionen": [
+        "Sachbezugswerteverordnung",
+        "Sachwertverordnung",
+        "Teilwertverordnung",
+        "Buchwertverordnung"
+      ],
+      "korrekt": 0,
+      "erklaerung": "Der Wertansatz von bestimmten Wirtschaftsgütern (Sachbezüge) ist in der Sachbezugswerteverordnung geregelt (§ 17 Abs. 2 BewG, Skript Kap. 1.8.6)."
+    },
+    {
+      "id": "bewertung-39",
+      "abschnitt": "Level 6",
+      "typ": "single",
+      "frage": "Was versteht man unter ungewöhnlichen oder persönlichen Verhältnissen?",
+      "optionen": [
+        "z.B. Beschränkungen, gesetzliche Verfügungsbeschränkungen, Heimfallverpflichtungen",
+        "z.B. besonderes wirtschaftliches Interesse, Vorkaufsrechte, Belastung durch Hypothek im Grundbuch, Preise der besonderen Vorliebe",
+        "Umstände, die auf alle Marktteilnehmer zutreffen",
+        "z.B. baurechtlich zulässige Nutzung, Größe und Form des Grundstückes, Bauausführung, Verwendungszweck"
+      ],
+      "korrekt": 1,
+      "erklaerung": "Ungewöhnliche oder persönliche Verhältnisse sind z.B. besonderes wirtschaftliches Interesse, Vorkaufsrechte, Belastung durch Hypothek im Grundbuch oder Preise der besonderen Vorliebe – Umstände, die individuell sind und nicht auf andere Marktteilnehmer zutreffen (Skript Kap. 1.4, Tabelle Wertbestimmende Merkmale)."
+    },
+    {
+      "id": "bewertung-40",
+      "abschnitt": "Level 6",
+      "typ": "single",
+      "frage": "Was versteht man unter gewöhnlichem Geschäftsverkehr?",
+      "optionen": [
+        "gesetzlich bestimmte Preise",
+        "ausschließlich redlicher Geschäftsverkehr",
+        "ausschließlich unredlicher Geschäftsverkehr",
+        "z.B. Handel am freien Markt - Angebot und Nachfrage (redlicher und unredlicher Geschäftsverkehr)"
+      ],
+      "korrekt": 3,
+      "erklaerung": "Gewöhnlicher Geschäftsverkehr meint z.B. den Handel am freien Markt (Angebot und Nachfrage), umfasst sowohl redlichen als auch unredlichen Geschäftsverkehr (Skript Kap. 1.4, Tabelle Wertbestimmende Merkmale)."
     }
   ]
 }

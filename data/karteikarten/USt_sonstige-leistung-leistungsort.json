@@ -1,0 +1,47 @@
+{
+  "fach": "USt",
+  "thema": "Sonstige Leistung & Leistungsort",
+  "quelle_note": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt.md",
+  "karten": [
+    {
+      "id": "ust-sonstige-leistung-leistungsort-01",
+      "frage": "Wonach richtet sich der Ort der sonstigen Leistung nach der Generalklausel?",
+      "antwort": "B2B -> Empfängerort (§ 3a Abs 6); B2C -> Unternehmerort (§ 3a Abs 7)."
+    },
+    {
+      "id": "ust-sonstige-leistung-leistungsort-02",
+      "frage": "Wer gilt als Unternehmer iSd § 3a Abs 5?",
+      "antwort": "Unternehmer iSd § 2 plus solche mit nur nicht steuerbaren/unecht befreiten Umsätzen (Ärtze, KU, pauschal. LuF, KöR mit BgA) sowie nicht unternehmerisch tätige jur. Personen mit UID."
+    },
+    {
+      "id": "ust-sonstige-leistung-leistungsort-03",
+      "frage": "Wann kommt es zum Reverse Charge nach § 19 Abs 1 Satz 2?",
+      "antwort": "Sonstige Leistung/Werklieferung + ausländischer Leistender + Empfänger Unternehmer/jur. Person öR + steuerpflichtig im Inland -> Steuerschuld geht auf den Empfänger über."
+    },
+    {
+      "id": "ust-sonstige-leistung-leistungsort-04",
+      "frage": "Welche Kennzahlen spricht der Empfänger bei RCS an - und was trägt er ein?",
+      "antwort": "KZ 057 (Übergang der Steuerschuld) und bei VSt-Abzug KZ 066 - jeweils den **Steuerbetrag**, nicht die Bemessungsgrundlage."
+    },
+    {
+      "id": "ust-sonstige-leistung-leistungsort-05",
+      "frage": "Wann muss der Leistungserbringer eine ZM abgeben?",
+      "antwort": "Wenn die sonstige Leistung nach der Generalklausel B2B im übrigen Gemeinschaftsgebiet liegt (UID des Empfänger + Bemessungsgrundlage). Bei Drittland kein ZM."
+    },
+    {
+      "id": "ust-sonstige-leistung-leistungsort-06",
+      "frage": "Wo werden Grundstücksleistungen besteuert?",
+      "antwort": "Immer am Grundstücksort (§ 3a Abs 9) - unabhängig von B2B/B2C."
+    },
+    {
+      "id": "ust-sonstige-leistung-leistungsort-07",
+      "frage": "Nenne Sie drei Leistungen, deren Ort nicht der Generalklausel folgt.",
+      "antwort": "z.B. Grundstücksleistungen, Personenbeförderung, Restaurant-/Verpflegungsleistung (auch: Eintrittsberechtigungen, kurzfristige KFZ-Vermietung)."
+    },
+    {
+      "id": "ust-sonstige-leistung-leistungsort-08",
+      "frage": "Welche Erklärungspflichten treffen den inländischen Empfänger bei einer im Inland steuerpflichtigen B2B-Leistung eines Ausländers?",
+      "antwort": "RCS: KZ 057 (Steuerbetrag) und bei VSt-Abzug KZ 066. Keine ZM (die trifft den Leistungserbringer)."
+    }
+  ]
+}

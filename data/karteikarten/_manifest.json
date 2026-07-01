@@ -37,9 +37,12 @@
     "KöSt_steuerbefreiungen-koest.json",
     "KöSt_ueberblick-wesen-koest.json",
     "USt_eigenverbrauch.json",
+    "USt_entgelt.json",
     "USt_leistungsbegriff-ust.json",
     "USt_lieferort.json",
+    "USt_sonstige-leistung-leistungsort.json",
     "USt_steuerbare-tatbestaende-1-ustg.json",
+    "USt_steuerbefreiungen.json",
     "USt_ueberblick-wesen-ustg.json",
     "USt_unternehmer.json",
     "USt_unternehmer-unternehmen.json"

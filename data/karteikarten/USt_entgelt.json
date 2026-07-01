@@ -1,0 +1,42 @@
+{
+  "fach": "USt",
+  "thema": "Entgelt",
+  "quelle_note": "Umsatzsteuer/Entgelt.md",
+  "karten": [
+    {
+      "id": "ust-entgelt-01",
+      "frage": "Wie ist das \"Entgelt\" iSd § 4 Abs 1 definiert?",
+      "antwort": "Entgelt ist **alles, was der Empfänger** einer Lieferung oder sonstigen Leistung **aufzuwenden hat, um sie zu erhalten** - i.d.R. der Nettobetrag. Dazu zählen auch freiwillige Aufwendungen, Entgelte von dritter Seite, Verbrauchsteuern und ein allfälliger Zoll."
+    },
+    {
+      "id": "ust-entgelt-02",
+      "frage": "Was sind durchlauf Posten? Nenne zwei Beispiele.",
+      "antwort": "Beträge, die der Unternehmer **im Namen und für Rechnung eines anderen** vereinnahmt und verausgabt. Sie zählen **nicht** zum Entgelt. Beispiele: **Gerichts-/Gebührenauslage** des Anwalts für seinen Klienten, die **Pickerl-Gebühr** (§-57-Plakette) der Kfz-Werkstatt, Ortstaxen."
+    },
+    {
+      "id": "ust-entgelt-03",
+      "frage": "Wie wirken sich Rabatte und Skonti auf das Entgelt aus?",
+      "antwort": "Sie **mindern** das Entgelt. Gewährte Skonti zählen von von vornherein nicht zum Entgelt; treten sie nachträglich ein, ist die BMG nach **§ 16** zu berichtigen (Leistender minder USt, Empfänger minder VSt)."
+    },
+    {
+      "id": "ust-entgelt-04",
+      "frage": "Was ist der Normalwert und wann muss er angesetzt werden?",
+      "antwort": "Der Normalwert ist der Betrag, den ein Empfänger auf derselben Absatzstufe an einen unabhängigen Leistungserbringer unter freien Wettbewerbsbedingungen zahlen müsste. Anzusetzen, wenn das Entgelt **zu hoch/zu niedrig** ist **und** der Leistende oder Empfänger **nicht (voll) vorsteuerabzugsberechtigt** ist (typisch: Leistungen an Verwandte oder Personal)."
+    },
+    {
+      "id": "ust-entgelt-05",
+      "frage": "Gehören Trinkgeld zum Entgelt?",
+      "antwort": "**Nein.** Trinkgelder an das **Personal** zählen nicht zum Entgelt (ebenso wenig Einwegpfand, Ortstaxen, durchlaufende Posten und die USt selbst)."
+    },
+    {
+      "id": "ust-entgelt-06",
+      "frage": "Zu welchem Zeitpunkt wird eine Änderung der Bemessungsgrundlage berichtigt - und mit welchen KZ?",
+      "antwort": "**Ex nunc** - im Veranlagungszeitraum, in dem die Änderung eingetreten ist (§ 16 Abs. 1), nicht rückwirkend. KZ: der Leistende berichtigt die USt unter **KZ 090**, der Empfänger die Vorsteuer unter **KZ 067**."
+    },
+    {
+      "id": "ust-entgelt-07",
+      "frage": "Was ist die Bemessungsgrundlage beim Verwendungs-, Aufwands- und Entnahmeeigenverbrauch?",
+      "antwort": "**Entnahme-EV:** Widerbeschaffungskosten/Einkaufspreis.\n**Verwendungs-EV:** anteilige Kosten (AfA + Betriebskosten).\n**Leistungs-EV:** Kosten der Ausführung.\n**Aufwands-EV:** der nicht abzugsfähige Aufwand.\n-> Details in Eigenverbrauch USt."
+    }
+  ]
+}
