@@ -464,7 +464,7 @@
     },
     {
       "id": "Umsatzsteuer/Kleinunternehmer USt",
-      "label": "Kleinunternehmer USt",
+      "label": "Kleinunternehmer",
       "fach": "USt",
       "pfad": "Umsatzsteuer/Kleinunternehmer USt.md"
     },
@@ -1955,6 +1955,10 @@
     {
       "source": "Umsatzsteuer/Entgelt",
       "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
+    },
+    {
+      "source": "Umsatzsteuer/Kleinunternehmer USt",
+      "target": "Umsatzsteuer/Steuerbefreiung USt"
     },
     {
       "source": "Umsatzsteuer/Leistungsbegriff USt",

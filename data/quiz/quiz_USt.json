@@ -1,7 +1,7 @@
 {
   "fach": "USt",
-  "quelle": "Gesamt-Fragensatz USt (140 Fragen): 70 Basis-Fragen (ust-01..ust-70), 50 Kursbeispiele \"allgemein bis zur Rechnung\" (ust-71..ust-120), 20 Stufe-2-Erweiterungen (ust-121..ust-140)",
-  "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Skriptum BMF Okt. 2025 (KU-Grenze 55.000).",
+  "quelle": "Gesamt-Fragensatz USt (157 Fragen): 70 Basis (ust-01..70), 50 Kursbeispiele (ust-71..120), 20 Stufe-2 (ust-121..140), 17 Fallbeispiele mit KZ-Erfassung (ust-141..157)",
+  "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Skriptum BMF Okt. 2025 (KU-Grenze 55.000). Hinweis: Eigenverbrauch wird in KZ 001 erfasst (nicht KZ 000).",
   "fragen": [
     {
       "id": "ust-01",
@@ -2202,6 +2202,311 @@
         2
       ],
       "erklaerung": "Seit 2025: nationale Grenze 55.000 (tatsächlicher Umsatz ohne unterstellte Steuerpflicht); in einem anderen MS ansässige Unternehmer können die Befreiung über das Art-6a-Verfahren nutzen (unionsweiter Umsatz höchstens 100.000); Toleranzregel bis 10 % bis Jahresende. Kleinunternehmer sind UNECHT befreit – kein Vorsteuerabzug."
+    },
+    {
+      "id": "ust-141",
+      "typ": "multiple",
+      "frage": "Hr. A ist selbständiger Tischler und kauft 25 Sessel von einem italienischen Produzenten um 5.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 5.000",
+        "KZ: 060: 1.000",
+        "KZ: 070: 5.000",
+        "KZ: 072: 5.000",
+        "KZ: 073: 5.500",
+        "KZ: 000: 5.500",
+        "KZ: 070: 5.500",
+        "KZ: 060: 1.100",
+        "KZ: 065: 1.000"
+      ],
+      "korrekt": [
+        3,
+        4,
+        9
+      ],
+      "erklaerung": "Es handelt sich um einen innergemeinschaftlichen Erwerb (Art 1 BMR): Warenbewegung von Italien nach Österreich, Erwerb durch einen Unternehmer für sein Unternehmen. Der Erwerb ist in Österreich steuerbar und steuerpflichtig zum Normalsteuersatz 20 % und wird unter KZ 070 und 072 mit 5.000 erfasst. Da Hr. A als Tischler zum vollen Vorsteuerabzug berechtigt ist, kann er die Erwerbsteuer gem. Art 12 unter KZ 065 mit 1.000 (20 % von 5.000) als Vorsteuer geltend machen. KZ 060 ist die allgemeine Vorsteuer aus Inlandsrechnungen und hier nicht einschlägig; KZ 073 wäre der ermäßigte Steuersatz (10 %), der für Sessel/Möbel nicht gilt."
+    },
+    {
+      "id": "ust-142",
+      "typ": "multiple",
+      "frage": "Hr. A ist selbständiger Tischler und verkauft 20 Sessel an ein italienisches Möbelhaus (Unternehmer). Er verlangt für die Sessel 4.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 4.000",
+        "KZ: 001: 4.000",
+        "KZ: 011: 4.000",
+        "KZ: 017: 4.000",
+        "KZ: 022: 4.000",
+        "KZ: 029: 4.000",
+        "Es liegt eine Ausfuhrlieferung vor.",
+        "Es liegt eine innergemeinschaftliche Lieferung vor.",
+        "Ein Ausfuhrnachweis ins Drittland ist erforderlich.",
+        "Die Lieferung ist in einer ZM zu erfassen."
+      ],
+      "korrekt": [
+        1,
+        4,
+        8,
+        10
+      ],
+      "erklaerung": "Es liegt eine innergemeinschaftliche Lieferung (Art 7 BMR) vor: Warenbewegung von Österreich nach Italien an einen Unternehmer für dessen Unternehmen. Bei Vorliegen der Voraussetzungen (gültige UID, Nachweis der Warenbewegung, buchmäßiger Nachweis) ist die Lieferung echt steuerfrei und unter KZ 000 und 017 mit 4.000 zu erfassen. Zusätzlich besteht Meldepflicht in der Zusammenfassenden Meldung (ZM). Italien ist EU-Mitgliedstaat, kein Drittland – daher weder Ausfuhrlieferung noch Ausfuhrnachweis erforderlich."
+    },
+    {
+      "id": "ust-143",
+      "typ": "multiple",
+      "frage": "Dr. A ist selbständiger Rechtsanwalt und vertritt bei einem Gewährleistungsprozess in Deutschland ein österreichisches Unternehmen. Sein Honorar beträgt 8.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "KZ: 001: 8.000",
+        "KZ: 020: 8.000",
+        "KZ: 000: 8.000",
+        "KZ: 022: 8.000",
+        "KZ: 029: 8.000",
+        "Es wird eine Lieferung erbracht.",
+        "Es wird eine sonstige Leistung erbracht.",
+        "Nicht steuerbar (Keine Eintragung)"
+      ],
+      "korrekt": [
+        2,
+        3,
+        6
+      ],
+      "erklaerung": "Anwaltliche Vertretung ist eine sonstige Leistung (Katalogleistung ohne Sonderregel). Da leistender Rechtsanwalt UND Empfänger (österreichisches Unternehmen) beide in Österreich ansässig sind, ist gem. der Generalklausel § 3a Abs. 6 UStG (Empfängerortprinzip B2B) der Leistungsort Österreich – unabhängig davon, dass der Gerichtsprozess in Deutschland stattfindet. Die Leistung ist daher steuerbar und steuerpflichtig zum Normalsteuersatz 20 % (KZ 000 und 022 mit 8.000)."
+    },
+    {
+      "id": "ust-144",
+      "typ": "multiple",
+      "frage": "Hr. A ist selbständiger Tischler und verkauft einem privaten Kunden einen Tisch um 900. Für die Zustellung des Tisches in Linz verlangt er zusätzlich 50. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 950",
+        "KZ: 001: 900",
+        "KZ: 020: 900",
+        "KZ: 022: 950",
+        "KZ: 029: 950",
+        "Es wird eine sonstige Leistung erbracht.",
+        "Es wird eine Lieferung erbracht."
+      ],
+      "korrekt": [
+        1,
+        4,
+        7
+      ],
+      "erklaerung": "Die Zustellung ist eine unselbständige Nebenleistung zur Lieferung des Tisches (Hauptleistung) und teilt deren umsatzsteuerliches Schicksal. Die Zustellkosten sind daher als Nebenkosten iSd § 4 UStG in die Bemessungsgrundlage einzubeziehen: 900 + 50 = 950. Es liegt eine Lieferung (keine eigenständige sonstige Leistung) vor, steuerbar und steuerpflichtig zum Normalsteuersatz 20 % (KZ 000 und 022 mit 950)."
+    },
+    {
+      "id": "ust-145",
+      "typ": "multiple",
+      "frage": "Hr. A ist selbständiger Tischler und entnimmt einen Tisch aus seinem Verkaufsraum, um ihn zukünftig in seiner privaten Wohnung zu verwenden. Von seinen Kunden würde er ein Entgelt in Höhe von 1.300 verlangen. Im Einkauf kostet ihn der Tisch derzeit 600. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 001: 600",
+        "KZ: 022: 600",
+        "KZ: 029: 600",
+        "Es liegt eine Entnahme vor.",
+        "KZ: 001: 1.300",
+        "KZ: 022: 1.300",
+        "Es liegt ein Verwendungseigenverbrauch vor."
+      ],
+      "korrekt": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Die dauerhafte Entnahme eines Gegenstandes aus dem Unternehmen für private Zwecke ist ein Entnahmeeigenverbrauch (§ 3 Abs. 2 UStG), einer Lieferung gegen Entgelt gleichgestellt und daher steuerbar und steuerpflichtig. Die Bemessungsgrundlage ist gem. § 4 Abs. 8 lit. a UStG NICHT der Verkaufspreis, sondern der Einkaufspreis/die Wiederbeschaffungskosten im Zeitpunkt der Entnahme – hier 600 (nicht 1.300). Eigenverbrauch wird in KZ 001 (nicht KZ 000) erfasst; Normalsteuersatz 20 % über KZ 022 – also KZ 001 und 022 mit 600. Kein Verwendungseigenverbrauch, da der Tisch dauerhaft (nicht nur vorübergehend) entnommen wird."
+    },
+    {
+      "id": "ust-146",
+      "typ": "multiple",
+      "frage": "Hr. A ist Bauunternehmer und verwendet seinen betrieblichen Bagger für den Aushub seines privaten Pools. Für die Nutzung des Baggers fallen Kosten in Höhe von 2.000 an. Von seinen Kunden würde er ein Entgelt in Höhe von 4.500 verlangen. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 4.500",
+        "KZ: 001: 2.000",
+        "KZ: 022: 4.500",
+        "KZ: 022: 2.000",
+        "KZ: 029: 4.500",
+        "Es liegt eine Entnahme vor.",
+        "Es liegt ein Verwendungseigenverbrauch vor."
+      ],
+      "korrekt": [
+        2,
+        4,
+        7
+      ],
+      "erklaerung": "Der Bagger bleibt dem Unternehmen zugeordnet und wird nur vorübergehend privat genutzt – das ist ein Verwendungseigenverbrauch (§ 3a Abs. 1a Z 1 UStG), einer sonstigen Leistung gegen Entgelt gleichgestellt. Die Bemessungsgrundlage sind gem. § 4 Abs. 8 lit. b UStG die tatsächlich entstandenen Kosten (2.000), NICHT das fiktive Marktentgelt (4.500). Eigenverbrauch wird in KZ 001 erfasst, Normalsteuersatz 20 % über KZ 022. Keine Entnahme, da der Bagger nicht dauerhaft aus dem Unternehmen ausscheidet."
+    },
+    {
+      "id": "ust-147",
+      "typ": "multiple",
+      "frage": "Die Hotel-GmbH betreibt 2 große Hotels in Innsbruck und Dornbirn. Sie erzielt Umsätze aus Übernachtungen von Privatpersonen aus Österreich netto 640.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 640.000",
+        "KZ: 006: 640.000",
+        "KZ: 020: 640.000",
+        "KZ: 022: 640.000",
+        "KZ: 029: 640.000",
+        "Übernachtungen sind am Grundstücksort steuerbar und steuerpflichtig.",
+        "Übernachtungen sind am Empfängerort steuerbar und steuerpflichtig.",
+        "Übernachtungen sind am Empfängerort steuerbar und unecht steuerfrei."
+      ],
+      "korrekt": [
+        1,
+        5,
+        6
+      ],
+      "erklaerung": "Beherbergungsleistungen sind Grundstücksleistungen (§ 3a Abs. 9 UStG) – der Leistungsort richtet sich unabhängig von B2B/B2C nach dem Belegenheitsort des Grundstücks, hier Österreich. Beherbergung (inkl. Frühstück) unterliegt dem ermäßigten Steuersatz von 10 % (§ 10 Abs. 2 UStG), ist also steuerpflichtig, nicht unecht steuerfrei. Erfassung unter KZ 000 und 029 mit 640.000."
+    },
+    {
+      "id": "ust-148",
+      "typ": "multiple",
+      "frage": "Welche Merkmale muss eine Leistung im umsatzsteuerlichen Sinn (Leistungsaustausch) aufweisen?",
+      "optionen": [
+        "Innere Verknüpfung von Leistung und Gegenleistung",
+        "Gegenleistung",
+        "Leistungsempfänger"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Ein steuerbarer Leistungsaustausch setzt zwei Beteiligte (Leistungserbringer und -empfänger), eine Leistung und eine Gegenleistung (das Entgelt) sowie deren innere/kausale Verknüpfung ('Leistung gegen Entgelt') voraus. Fehlt der ursächliche Zusammenhang zwischen Leistung und Gegenleistung (z.B. echter Schadenersatz, echter Mitgliedsbeitrag, echter Zuschuss), liegt kein Leistungsaustausch vor."
+    },
+    {
+      "id": "ust-149",
+      "typ": "single",
+      "frage": "Ein Pensionist schenkt seiner Enkelin ein Fahrrad. Wie ist dieser Sachverhalt umsatzsteuerlich zu beurteilen?",
+      "optionen": [
+        "Nicht steuerbar",
+        "Steuerbar und steuerpflichtig",
+        "Steuerbar und steuerfrei"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Rein privater Vorgang – der Pensionist handelt nicht als Unternehmer im Rahmen eines Unternehmens, daher kein Leistungsaustausch iSd § 1 Abs. 1 Z 1 UStG. Nicht steuerbar, keine Eintragung."
+    },
+    {
+      "id": "ust-150",
+      "typ": "single",
+      "frage": "Ein Fahrradhändler schenkt seiner Tochter ein Fahrrad, welches zuvor für das Unternehmen angeschafft wurde. Wie ist dieser Sachverhalt umsatzsteuerlich zu beurteilen?",
+      "optionen": [
+        "Nicht steuerbar",
+        "Steuerbar und steuerpflichtig",
+        "Steuerbar und steuerfrei"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Entnahmeeigenverbrauch (§ 3 Abs. 2 UStG): dauerhafte Entnahme eines dem Unternehmen zugeordneten Gegenstandes für familienfremde/private Zwecke ohne Entgelt – einer Lieferung gegen Entgelt gleichgestellt, steuerbar und steuerpflichtig (20 %). Bemessungsgrundlage: Einkaufspreis/Wiederbeschaffungskosten im Entnahmezeitpunkt (in KZ 001 zu erfassen)."
+    },
+    {
+      "id": "ust-151",
+      "typ": "single",
+      "frage": "Ein Arzt behandelt seine Patienten. Wie ist dieser Sachverhalt umsatzsteuerlich zu beurteilen?",
+      "optionen": [
+        "Nicht steuerbar",
+        "Steuerbar und steuerpflichtig",
+        "Steuerbar und steuerfrei"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Ärztliche Heilbehandlung ist ein Leistungsaustausch und damit steuerbar, jedoch gem. § 6 Abs. 1 Z 19 UStG unecht steuerbefreit (kein Vorsteuerabzug)."
+    },
+    {
+      "id": "ust-152",
+      "typ": "single",
+      "frage": "Ein Konditor verkauft eine Sachertorte. Wie ist dieser Sachverhalt umsatzsteuerlich zu beurteilen?",
+      "optionen": [
+        "Nicht steuerbar",
+        "Steuerbar und steuerpflichtig",
+        "Steuerbar und steuerfrei"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Normale Lieferung gegen Entgelt im Rahmen des Unternehmens – steuerbar und steuerpflichtig (Lebensmittel: ermäßigter Steuersatz 10 %)."
+    },
+    {
+      "id": "ust-153",
+      "typ": "single",
+      "frage": "Ein Hausbesitzer vermietet Geschäftsräume an einen Kleinunternehmer. Wie ist dieser Sachverhalt umsatzsteuerlich zu beurteilen?",
+      "optionen": [
+        "Nicht steuerbar",
+        "Steuerbar und steuerpflichtig",
+        "Steuerbar und steuerfrei"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Vermietung von Geschäftsräumen ist grundsätzlich unecht steuerbefreit (§ 6 Abs. 1 Z 16 UStG). Eine Option zur Steuerpflicht ist nur zulässig, wenn der Mieter zu mindestens 95 % vorsteuerabzugsberechtigt ist. Ein Kleinunternehmer ist selbst unecht befreit und daher nicht (überwiegend) vorsteuerabzugsberechtigt – die Vermietung bleibt somit steuerfrei."
+    },
+    {
+      "id": "ust-154",
+      "typ": "single",
+      "frage": "Ein Rechtsanwalt vertritt einen deutschen Unternehmer bei einem Gewährleistungsprozess vor Gericht in Wien. Wie ist dieser Sachverhalt umsatzsteuerlich zu beurteilen?",
+      "optionen": [
+        "Nicht steuerbar",
+        "Steuerbar und steuerpflichtig",
+        "Steuerbar und steuerfrei"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Sonstige Leistung, B2B, Generalklausel § 3a Abs. 6 UStG: Empfängerortprinzip. Der Empfänger ist ein deutscher Unternehmer, daher liegt der Leistungsort in Deutschland – in Österreich nicht steuerbar (der Gerichtsort Wien ist irrelevant). Der Rechtsanwalt muss aber eine Zusammenfassende Meldung (ZM) abgeben."
+    },
+    {
+      "id": "ust-155",
+      "typ": "single",
+      "frage": "Ein Taxiunternehmer nutzt sein Taxi für private Fahrten. Wie ist dieser Sachverhalt umsatzsteuerlich zu beurteilen?",
+      "optionen": [
+        "Nicht steuerbar",
+        "Steuerbar und steuerpflichtig",
+        "Steuerbar und steuerfrei"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Verwendungseigenverbrauch (§ 3a Abs. 1a Z 1 UStG): vorübergehende private Nutzung eines dem Unternehmen zugeordneten Gegenstandes, einer sonstigen Leistung gegen Entgelt gleichgestellt – steuerbar und steuerpflichtig, sofern für das Taxi (zumindest teilweise) der Vorsteuerabzug zustand."
+    },
+    {
+      "id": "ust-156",
+      "typ": "multiple",
+      "frage": "Elisabeth ist selbständige Friseurin mit einem steuerbaren Jahresumsatz von 120.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 120.000",
+        "KZ: 001: 120.000",
+        "KZ: 006: 120.000",
+        "KZ: 020: 120.000",
+        "KZ: 022: 120.000",
+        "KZ: 029: 120.000"
+      ],
+      "korrekt": [
+        1,
+        5
+      ],
+      "erklaerung": "Friseurleistungen sind sonstige Leistungen, die Elisabeth als Unternehmerin gegen Entgelt erbringt – steuerbar. Mit 120.000 liegt sie deutlich über der Kleinunternehmergrenze von 55.000 (seit 2025), eine Befreiung nach § 6 Abs. 1 Z 27 scheidet aus. Friseurleistungen unterliegen keinem begünstigten Steuersatz, sondern dem Normalsteuersatz von 20 % (KZ 000 und 022 mit 120.000)."
+    },
+    {
+      "id": "ust-157",
+      "typ": "multiple",
+      "frage": "Kurt ist Unternehmensberater mit einem steuerbaren Jahresumsatz von 420.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 420.000",
+        "KZ: 001: 420.000",
+        "KZ: 015: 420.000",
+        "KZ: 020: 420.000",
+        "KZ: 022: 420.000"
+      ],
+      "korrekt": [
+        1,
+        5
+      ],
+      "erklaerung": "Unternehmensberatung ist eine sonstige Leistung, die Kurt im Rahmen seines Unternehmens gegen Entgelt erbringt – steuerbar. Beratungsleistungen unterliegen keiner Befreiung und keinem begünstigten Steuersatz, sondern dem Normalsteuersatz von 20 % (KZ 000 und 022 mit 420.000). Die Kleinunternehmergrenze von 55.000 ist mit 420.000 weit überschritten."
     }
   ]
 }
