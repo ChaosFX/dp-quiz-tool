@@ -1,0 +1,37 @@
+{
+  "fach": "USt",
+  "thema": "Kleinunternehmer",
+  "quelle_note": "Umsatzsteuer/Kleinunternehmer USt.md",
+  "karten": [
+    {
+      "id": "ust-kleinunternehmer-01",
+      "frage": "Wie hoch ist die Kleinunternehmergrenze seit 2025 - und worauf stellt sie ab?",
+      "antwort": "**55.000 €**, abgestellt auf den **tatsächlichen Umsatz ohne unterstellte Steuerpflicht** (im vorangegangen Kalenderjahr nicht und im laufenden Jahr noch nicht überschritten). Bis 2024 galt eine andere Logik: 35.000 € netto bei unterstellter Steuerpflicht."
+    },
+    {
+      "id": "ust-kleinunternehmer-02",
+      "frage": "Welche Umsätze zählen NICHT zur Berechnung der Kleinunternehmer?",
+      "antwort": "**Hilfsgeschäfte** (inkl. Geschäftsveräußerung im Ganzen) und bestimmte unecht steuerfreie Umsätze wie **Versicherungsvertreter**, **Arzt/Zahnarzt/Zahntechniker**, **Privatschulen**, **Bausparkassen** - diese sind explizit ausgenommen."
+    },
+    {
+      "id": "ust-kleinunternehmer-03",
+      "frage": "Was besagt die Toleranzregel und wie wird sie berechnet?",
+      "antwort": "Wird die 55.000-€-Grenze um **nicht mehr als 10 %** überschritten (55.000 + 5.500 = **65.000 €**), bleibt die Kleinunternehmerbefreiung **bis zum Jahresende** anwendbar. Erst der Umsatz, der die 60.500-€-Grenze übersteigt, wird steuerpflichtig."
+    },
+    {
+      "id": "ust-kleinunternehmer-04",
+      "frage": "Wie lange bindet ein Verzicht auf die Kleinunternehmerregelung und wie erfolgt der Widerruf?",
+      "antwort": "Der Verzicht (Formular **U12**) bindet **mindestens 5 Kalenderjahre**. Ein **Widerruf** ist erst nach Ablauf dieser Frist möglich und muss **bis spätestens 31.1.** des Jahres erfolgen, ab dem die Befreiung wieder gelten soll."
+    },
+    {
+      "id": "ust-kleinunternehmer-05",
+      "frage": "Was ändert sich für den Kleinunternehmer, wenn er auf die Befreiung verzichtet?",
+      "antwort": "Seine Umsätze werden **steuerpflichtig** (er muss USt abführen), im Gegenzug erhält er das **Recht auf Vorsteuerabzug** für seine Vorleistungen - sinnvoll v.a. bei hohen Investitionen."
+    },
+    {
+      "id": "ust-kleinunternehmer-06",
+      "frage": "Was ermöglicht die SME-Sonderregelung sei 1.1.2025?",
+      "antwort": "Sie erlaubt ein **grenzüberschreitende** Anwendung der Kleinunternehmerbefreiung: inländische Unternehmer könne sie im übrigen EU-Gebiet nutzen, ausländische EU-Unternehmer könne sie in Österreich nutzen - Voraussetzungen: unionsweiter Jahresumsatz ≤ **100.000 €** und Registrierung über das **Art-6a-Verfahren**. (SME-Portal/FinanzOnline)."
+    }
+  ]
+}

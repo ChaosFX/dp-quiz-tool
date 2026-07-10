@@ -1,0 +1,37 @@
+{
+  "fach": "USt",
+  "thema": "Reverse Charge System",
+  "quelle_note": "Umsatzsteuer/Reverse Charge System USt.md",
+  "karten": [
+    {
+      "id": "ust-reverse-charge-system-01",
+      "frage": "Wer ist grundsätzlich Steuerschuldner nach § 19 Abs 1 Satz 1 - und was ist der Grundgedanke des RCS?",
+      "antwort": "Grundsätzlich der **leistende Unternehmer**. Das RCS kehrt dies gesetzlich um: entweder zur **Erleichterung der Erhebung** bei ausländischen Leistenden (kein Auslandsvollzug nötig) oder zur **Betrugsbekämpfung** in betrugsanfälligen Inlandsbranchen (Bau, Schrott, Elektronik)."
+    },
+    {
+      "id": "ust-reverse-charge-system-02",
+      "frage": "Wann liegt RCS bei einem ausländischen Leistenden vor?",
+      "antwort": "Sonstige Leistung/Werklieferung eines Unternehmers ohne Sitz/beteiligte Betriebsstätte im Inland an einen Unternehmer oder eine juristische Person öR, sofern die Leistung im Inland steuerbar/-pflichtig ist. ein bloßer Wohnsitz im Inland ist unschädlich. Ausnahme: Maut, bestimmte Veranstaltungsleistungen, Grundstücksvermietung; nie an Privatpersonen."
+    },
+    {
+      "id": "ust-reverse-charge-system-03",
+      "frage": "Wann kommt es bei Bauleistung zum Übergang der Steuerschuld?",
+      "antwort": "Wenn der Empfänger entweder **selbst mit einer Bauleistung beauftragt** ist oder ein anderer **Bauleister** ist. Der Generalunternehmer, der an einen Nicht-Bauleister oder eine Privatperson liefert, verrechnet regulär USt. Eine **bloße Materiallieferung** ohne Bauleistungscharakter fällt nicht unter § 19 Abs 1a."
+    },
+    {
+      "id": "ust-reverse-charge-system-04",
+      "frage": "Welche Rolle spielt die Rechnung beim RCS - Pflicht vs. Voraussetzung für den Vorsteuerabzug?",
+      "antwort": "Der Leistende muss weiterhin eine Rechnung **ohne USt-Ausweis mit Hinweis auf den Übergang der Steuerschuld** ausstellen (§ 11 Abs 1a). Der Steuerschuldübergang selbst - und damit der Vorsteuerabzug beim Empfänger - tritt aber **unabhängig davon** ein, ob diese Rechnung korrekt, fehlerhaft oder gar nicht ausgestellt wurde."
+    },
+    {
+      "id": "ust-reverse-charge-system-05",
+      "frage": "Ab welchem Betrag greift RCS bei Videospielkonsolen, Laptops, Tablets und Mobilfunkgeräten?",
+      "antwort": "Ab einem Rechnungsbetrag von **mindesten 5.000,-**."
+    },
+    {
+      "id": "ust-reverse-charge-system-06",
+      "frage": "Betrifft RCS nur sonstige Leistungen, oder auch Lieferungen?",
+      "antwort": "Kommt darauf an, welcher Tatbestand gemeint ist. **RCS Ausländer** (§ 19 Abs 1 Satz 2) betrifft **nur** sonstige Leistungen und Werklieferungen - normale Lieferungen eines Ausländers werden **normal mit österreichischer USt** verrechnet ( der Ausländer muss sich registrieren), hier greift ggf. stattdessen die **Abfuhrverpflichtung § 27 Abs 4**. Die **inländische Sondertatbestände** (Sicherungseigentum, Schrott, UStBBKV-Geräte, Mobilfunkgeräte) betreffen dagegen gerade **Lieferungen**."
+    }
+  ]
+}

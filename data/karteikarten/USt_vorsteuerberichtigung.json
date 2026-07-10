@@ -1,0 +1,32 @@
+{
+  "fach": "USt",
+  "thema": "Vorsteuerberichtigung",
+  "quelle_note": "Umsatzsteuer/Vorsteuerberichtigung USt.md",
+  "karten": [
+    {
+      "id": "ust-vorsteuerberichtigung-01",
+      "frage": "Was ist der Unterschied zwischen Vorsteuerberichtigung nach § 12 Abs 10 und § 12 Abs 11?",
+      "antwort": "**Abs 10 (Anlagevermögen):** Berichtigung **anteilig** über eine Beobachtungszeitraum von **5 Jahren** (beweglich) bzw. **20 Jahren** (Grundstück/Gebäude) - 1/5 bzw. 1/20 pro Jahr.\n**Abs 11 (Umlaufvermögen/sonstige Leistungen):** Berichtigung **unbefristet und in vollem Ausmaß** im Jahr der Änderung, kein anteiliger Zeitraum."
+    },
+    {
+      "id": "ust-vorsteuerberichtigung-02",
+      "frage": "Was besagt die Bagatellgrenze des § 12 Abs 13?",
+      "antwort": "Eine Vorsteuerberichtigung nach § 12 Abs 10 unterbleibt, wenn der für ein Kalenderjahr zu berichtigende Betrag pro Gegenstand **60,- € nicht übersteigt**."
+    },
+    {
+      "id": "ust-vorsteuerberichtigung-03",
+      "frage": "Wann liegt KEINE Änderung der Verhältnisse iSd § 12 Abs 10 vor?",
+      "antwort": "Bei **Einlagen**, **nicht steuerbaren Vorgängen** (z.B. Umgründung) und bei **Gesamtrechtsnachfolge** (z.B. Erbschaft) - in diesen Fällen erfolgt keine Berichtigung."
+    },
+    {
+      "id": "ust-vorsteuerberichtigung-04",
+      "frage": "Wie ist die Kennzahl 063 zu befüllen - worauf ist besonders zu achten?",
+      "antwort": "KZ 063 ist **mit Vorzeichen** einzutragen: **+** bei einer Nachzahlung (der Unternehmer muss bereits abgezogene Vorsteuer zurückzahlen), **-** bei einer Gutschrift (der Unternehmer erhält nachträglich zustehende Vorsteuer)."
+    },
+    {
+      "id": "ust-vorsteuerberichtigung-05",
+      "frage": "Was passiert, wenn ein Anlagegut vor Ablauf des Beobachtungszeitraums veräußert oder entnommen wird?",
+      "antwort": "Es werden **alle noch offenen Fünftel bzw. Zwanzigstel** des restlichen Beobachtungszeitraums **auf einmal** berichtigt - nicht erst sukzessive über die Restjahre verteilt."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "fach": "USt",
+  "thema": "Vorsteuerabzug § 12 UStG",
+  "quelle_note": "Umsatzsteuer/Vorsteuerabzug.md",
+  "karten": [
+    {
+      "id": "ust-vorsteuerabzug-12-ustg-01",
+      "frage": "Nenne die kumulativen Grundvoraussetzungen für den Vorsteuerabzug?",
+      "antwort": "Leistungserbringer ist Unternehmer und leistet im Rahmen seinen Unternehmens; Leistungsempfänger ist Unternehmer und empfängt die Leistung für sein Unternehmen; die Leistung ist im Inland steuerbar und bereits erbracht; eine ordnungsgemäße Rechnung liegt vor; kein Vorsteuerausschluss; keine Betrugs-/Missbrauchsbeteiligung."
+    },
+    {
+      "id": "ust-vorsteuerabzug-12-ustg-02",
+      "frage": "Wann ist die Bezahlung Voraussetzung für den Vorsteuerabzug?",
+      "antwort": "Bei der **Sollbesteuerung** ist die Bezahlung **keine** Voraussetzung (maßgeblich: Rechnungsausstellung). Bei der **Istbesteuerung** ist die Bezahlung zusätzlich erforderlich. Bei **Anzahlungsrechnungen** gilt immer die Mindes-Istbesteuerung - Abzug erst mit Bezahlung, unabhängig vom sonst geltenden System."
+    },
+    {
+      "id": "ust-vorsteuerabzug-12-ustg-03",
+      "frage": "Wie ist der Vorsteuerabzug bei PKW, Kombi, Krafträdern geregelt - und welche Ausnahme gibt es?",
+      "antwort": "Grundsätzlich **ausgeschlossen**, unabhängig vom Ausmaß der unternehmerischen Nutzung (auch bei 100 %). Ausnahmen: Fahrschul- und Vorführfahrzeuge, Fahrzeuge zur gewerblichen Weiterveräußerung, Fahrzeuge mit **CO₂-Emission 0 g/km** (v.a. E-Fahrzeuge, keine Hybride), sowie Fahrzeuge mit mind. **80 %** gewerblicher Personenbeförderung oder Vermietung."
+    },
+    {
+      "id": "ust-vorsteuerabzug-12-ustg-04",
+      "frage": "Nach welchen drei Methoden kann die Vorsteuer bei gemischter Verwendung aufgeteilt werden?",
+      "antwort": "**1. Direkte Zuordnung** (primär), **2. Umsatzschlüssel** (Pro-rata-Methode nach dem Verhältnis steuerpflichtig : unecht befreit) für nicht direkt zuordenbare Vorleistungen, **3. Mischmethode** (Kombination: erst direkt zuordnen, dann Rest nach Umsatzschlüssel)."
+    },
+    {
+      "id": "ust-vorsteuerabzug-12-ustg-05",
+      "frage": "Braucht man beim Reverse Charge oder bei der Einfuhr eine Rechnung für den Vorsteuerabzug?",
+      "antwort": "**Nein.** In beiden Fällen entsteht der Vorsteuerabzug unabhängig von einer ordnungsgemäßen Rechnung - beim RCS im Zeitpunkt des Steuerschuldübergangs (sofern die übrigen § 12-Voraussetzungen vorliegen), bei der Einfuhr mit Entrichtung/Verbuchung der EUSt."
+    }
+  ]
+}

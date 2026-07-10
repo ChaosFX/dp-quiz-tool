@@ -38,13 +38,17 @@
     "KöSt_ueberblick-wesen-koest.json",
     "USt_eigenverbrauch.json",
     "USt_entgelt.json",
+    "USt_kleinunternehmer.json",
     "USt_leistungsbegriff-ust.json",
     "USt_lieferort.json",
+    "USt_reverse-charge-system.json",
     "USt_sonstige-leistung-leistungsort.json",
     "USt_steuerbare-tatbestaende-1-ustg.json",
     "USt_steuerbefreiungen.json",
     "USt_ueberblick-wesen-ustg.json",
     "USt_unternehmer.json",
-    "USt_unternehmer-unternehmen.json"
+    "USt_unternehmer-unternehmen.json",
+    "USt_vorsteuerabzug-12-ustg.json",
+    "USt_vorsteuerberichtigung.json"
   ]
 }

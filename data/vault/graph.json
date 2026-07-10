@@ -481,6 +481,12 @@
       "pfad": "Umsatzsteuer/Lieferort USt.md"
     },
     {
+      "id": "Umsatzsteuer/Reverse Charge System USt",
+      "label": "Reverse Charge System",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Reverse Charge System USt.md"
+    },
+    {
       "id": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
       "label": "Sonstige Leistung & Leistungsort",
       "fach": "USt",
@@ -493,16 +499,28 @@
       "pfad": "Umsatzsteuer/Steuerbare Tatbestände USt.md"
     },
     {
-      "id": "Umsatzsteuer/Steuerbefreiung USt",
+      "id": "Umsatzsteuer/Steuerbefreiungen USt",
       "label": "Steuerbefreiungen",
       "fach": "USt",
-      "pfad": "Umsatzsteuer/Steuerbefreiung USt.md"
+      "pfad": "Umsatzsteuer/Steuerbefreiungen USt.md"
     },
     {
       "id": "Umsatzsteuer/Unternehmer USt",
       "label": "Unternehmer",
       "fach": "USt",
       "pfad": "Umsatzsteuer/Unternehmer USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Vorsteuerabzug",
+      "label": "Vorsteuerabzug § 12 UStG",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Vorsteuerabzug.md"
+    },
+    {
+      "id": "Umsatzsteuer/Vorsteuerberichtigung USt",
+      "label": "Vorsteuerberichtigung",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Vorsteuerberichtigung USt.md"
     },
     {
       "id": "Umsatzsteuer/Überblick & Wesen UStG",
@@ -1934,6 +1952,10 @@
     },
     {
       "source": "Umsatzsteuer/Eigenverbrauch USt",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
+      "source": "Umsatzsteuer/Eigenverbrauch USt",
       "target": "Umsatzsteuer/Leistungsbegriff USt"
     },
     {
@@ -1957,12 +1979,28 @@
       "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
     },
     {
+      "source": "Umsatzsteuer/Entgelt",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
       "source": "Umsatzsteuer/Kleinunternehmer USt",
-      "target": "Umsatzsteuer/Steuerbefreiung USt"
+      "target": "Umsatzsteuer/Steuerbefreiungen USt"
+    },
+    {
+      "source": "Umsatzsteuer/Kleinunternehmer USt",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
+      "source": "Umsatzsteuer/Kleinunternehmer USt",
+      "target": "Umsatzsteuer/Unternehmer USt"
     },
     {
       "source": "Umsatzsteuer/Leistungsbegriff USt",
       "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
+    },
+    {
+      "source": "Umsatzsteuer/Leistungsbegriff USt",
+      "target": "Umsatzsteuer/Reverse Charge System USt"
     },
     {
       "source": "Umsatzsteuer/Lieferort USt",
@@ -1981,12 +2019,28 @@
       "target": "Umsatzsteuer/Einfuhr USt"
     },
     {
+      "source": "Umsatzsteuer/Reverse Charge System USt",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
+      "source": "Umsatzsteuer/Reverse Charge System USt",
+      "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
+    },
+    {
+      "source": "Umsatzsteuer/Reverse Charge System USt",
+      "target": "Umsatzsteuer/Lieferort USt"
+    },
+    {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
       "target": "Umsatzsteuer/Unternehmer USt"
     },
     {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
       "target": "Umsatzsteuer/Leistungsbegriff USt"
+    },
+    {
+      "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
+      "target": "Umsatzsteuer/Reverse Charge System USt"
     },
     {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
@@ -2010,22 +2064,26 @@
     },
     {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
-      "target": "Umsatzsteuer/Steuerbefreiung USt"
+      "target": "Umsatzsteuer/Steuerbefreiungen USt"
     },
     {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
       "target": "Umsatzsteuer/Überblick & Wesen UStG"
     },
     {
-      "source": "Umsatzsteuer/Steuerbefreiung USt",
+      "source": "Umsatzsteuer/Steuerbefreiungen USt",
       "target": "Umsatzsteuer/Kleinunternehmer USt"
     },
     {
-      "source": "Umsatzsteuer/Steuerbefreiung USt",
+      "source": "Umsatzsteuer/Steuerbefreiungen USt",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbefreiungen USt",
       "target": "Umsatzsteuer/Entgelt"
     },
     {
-      "source": "Umsatzsteuer/Steuerbefreiung USt",
+      "source": "Umsatzsteuer/Steuerbefreiungen USt",
       "target": "Umsatzsteuer/Lieferort USt"
     },
     {
@@ -2049,8 +2107,56 @@
       "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
     },
     {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Rechtsquellen/UStG/§ 2 UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Umsatzsteuer/Eigenverbrauch USt"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Umsatzsteuer/Steuerbefreiungen USt"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Umsatzsteuer/Vorsteuerberichtigung USt"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Umsatzsteuer/Kleinunternehmer USt"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Umsatzsteuer/Entgelt"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Umsatzsteuer/Reverse Charge System USt"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerberichtigung USt",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerberichtigung USt",
+      "target": "Umsatzsteuer/Kleinunternehmer USt"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerberichtigung USt",
+      "target": "Umsatzsteuer/Steuerbefreiungen USt"
+    },
+    {
       "source": "Umsatzsteuer/Überblick & Wesen UStG",
       "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
+    },
+    {
+      "source": "Umsatzsteuer/Überblick & Wesen UStG",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
     }
   ]
 }
