@@ -163,6 +163,12 @@
       "pfad": "Einkommensteuer/Steuerbefreiungen.md"
     },
     {
+      "id": "Einkommensteuer/Stille Reserven",
+      "label": "Übertragung stiller Reserven § 12 EStG",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Stille Reserven.md"
+    },
+    {
       "id": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung",
       "label": "Verlassenschaft & Erbauseinandersetzung",
       "fach": "ESt",
@@ -688,6 +694,10 @@
     },
     {
       "source": "Einkommensteuer/Betriebsvermögen",
+      "target": "Einkommensteuer/Stille Reserven"
+    },
+    {
+      "source": "Einkommensteuer/Betriebsvermögen",
       "target": "Rechtsquellen/EStG/§ 4 EStG"
     },
     {
@@ -745,6 +755,10 @@
     {
       "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
       "target": "Einkommensteuer/Betriebsvermögensvergleich"
+    },
+    {
+      "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
+      "target": "Einkommensteuer/Stille Reserven"
     },
     {
       "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
@@ -872,6 +886,10 @@
     },
     {
       "source": "Einkommensteuer/Gewinnfreibetrag",
+      "target": "Einkommensteuer/Stille Reserven"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnfreibetrag",
       "target": "Einkommensteuer/Pauschalierung"
     },
     {
@@ -885,6 +903,10 @@
     {
       "source": "Einkommensteuer/Investitionsförderungen",
       "target": "Rechtsquellen/EStG/§ 10 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Investitionsförderungen",
+      "target": "Einkommensteuer/Stille Reserven"
     },
     {
       "source": "Einkommensteuer/Investitionsförderungen",
@@ -1053,6 +1075,22 @@
     {
       "source": "Einkommensteuer/Steuerbefreiungen",
       "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
+    },
+    {
+      "source": "Einkommensteuer/Stille Reserven",
+      "target": "Einkommensteuer/Investitionsförderungen"
+    },
+    {
+      "source": "Einkommensteuer/Stille Reserven",
+      "target": "Einkommensteuer/Gewinnfreibetrag"
+    },
+    {
+      "source": "Einkommensteuer/Stille Reserven",
+      "target": "Einkommensteuer/Bewertung Wirtschaftsgüter"
+    },
+    {
+      "source": "Einkommensteuer/Stille Reserven",
+      "target": "Einkommensteuer/AfA"
     },
     {
       "source": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung",

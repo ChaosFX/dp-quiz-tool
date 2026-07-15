@@ -90,7 +90,7 @@
         3,
         6
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der Zeitpunkt der Entstehung des Abgabenanspruchs ist für vier Bereiche relevant (§ 208 Abs. 1 lit. a BAO): (1) Beginn der Bemessungsverjährung, (2) Möglichkeit der Haftungsinanspruchnahme, (3) Fälligkeit und (4) Veranlagung. Vor Entstehung des Abgabenanspruchs kann weder veranlagt werden noch tritt Fälligkeit ein."
     },
     {
       "id": "bao-ue-parpar14-06",
@@ -123,7 +123,7 @@
         "Geldleistungen, die auf privatrechtlichen Verträgen beruhen."
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Abgaben sind Geldleistungen, die auf Grundlage öffentlich-rechtlicher Vorschriften erhoben werden, ohne dass dafür eine unmittelbare Gegenleistung erbracht wird (§ 1 Abs. 1 BAO). Sie unterscheiden sich von privatrechtlichen Entgelten, die auf Verträgen beruhen."
     },
     {
       "id": "bao-ue-parpar14-08",
@@ -137,12 +137,9 @@
         "Der Abgabenanspruch entsteht immer am Ende des Kalenderjahres."
       ],
       "korrekt": [
-        0,
-        1,
-        2,
-        3
+        1
       ],
-      "erklaerung": "Hinweis: § 4 Abs. 1 BAO"
+      "erklaerung": "Die Generalklausel des § 4 Abs. 1 BAO lautet: Der Abgabenanspruch entsteht, sobald der Tatbestand verwirklicht ist, an den das Gesetz die Abgabepflicht knüpft. Die anderen drei Aussagen beschreiben andere, unzutreffende Konzepte: Der Bescheid wirkt nur deklarativ (nicht konstitutiv für die Entstehung), die Fälligkeit ist ein eigener, nachgelagerter Zeitpunkt, und 'Ende des Kalenderjahres' gilt nur für bestimmte Abgaben (z.B. ESt/KöSt), nicht als allgemeine Regel."
     },
     {
       "id": "bao-ue-parpar14-09",
@@ -159,7 +156,7 @@
         1,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Einkommensteuer entsteht erst mit Ablauf des Kalenderjahres (§ 4 Abs. 2 lit. a Z 2 BAO). Da das Kalenderjahr 2025 im Oktober noch nicht abgelaufen ist, ist der Abgabenanspruch noch nicht entstanden - ein Veranlagungsbescheid darf daher noch nicht ergehen."
     },
     {
       "id": "bao-ue-parpar14-10",
@@ -202,7 +199,7 @@
         1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der Abgabenanspruch entsteht kraft Gesetzes (§ 4 Abs. 1 BAO) - unabhängig von einer behördlichen Maßnahme. Gleichzeitig ist richtig, dass auch nach Bescheiderlass die Abgabe bereits entstanden war; der Bescheid hat nur deklarativen Charakter. Die Hoehe der Abgabe ergibt sich aus den jeweiligen Einzelsteuergesetzen (EStG, KStG, UStG etc.)."
     },
     {
       "id": "bao-ue-parpar14-12",
@@ -232,7 +229,7 @@
         1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die BAO enthaelt primaer Verfahrensrecht und dient der Vereinheitlichung des Abgabenverfahrens (§ 1 BAO). Sie ist subsidiaer: Spezielle Verfahrensvorschriften in Einzelsteuergesetzen (z.B. § 21 UStG fuer die UVA) gehen der BAO vor."
     },
     {
       "id": "bao-ue-parpar14-14",
@@ -291,10 +288,9 @@
       "korrekt": [
         0,
         1,
-        2,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Haftung bedeutet nach der Definition im Kursskript das Einstehenmüssen für eine FREMDE Schuld - explizit im Gegensatz zur eigenen Schuld. 'Eigene Schuld' ist daher keine zutreffende Umschreibung von Haftung und wurde offenbar versehentlich mitmarkiert. Da eine fremde Schuld sowohl in- als auch ausländisch sein kann, sind die ersten beiden Optionen zusammen mit 'fremde Schuld' korrekt."
     },
     {
       "id": "bao-ue-parpar619-02",
@@ -365,7 +361,7 @@
         3,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Persoenliche Haftungen werden mit Haftungsbescheid (§ 224 BAO) geltend gemacht und liegen im Ermessen der Behoerde. Sachliche Haftungen werden mit Beschlagnahmebescheid nach § 225 BAO geltend gemacht und beziehen sich auf bewegliche Sachen."
     },
     {
       "id": "bao-ue-parpar619-06",
@@ -384,7 +380,7 @@
         2,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Bei Gesamtschuld (§ 6 BAO) haften mehrere Personen fuer dieselbe Abgabe. Die Behoerde kann nach Ermessen auswaehlen, wen sie heranzieht. Zahlt einer, erloescht die Schuld auch fuer die anderen. Klassisches Beispiel: Grunderwerbsteuer (Kaeufer und Verkaeufer als Gesamtschuldner)."
     },
     {
       "id": "bao-ue-parpar619-07",
@@ -398,7 +394,7 @@
         "Es muss immer ein hälftiger Anteil vorgeschrieben werden."
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Bei Gesamtschuld (§ 6 BAO) koennen beide - Kaeufer und Verkaeufer - zur Zahlung herangezogen werden. Die Behoerde entscheidet nach Ermessen, wen sie in Anspruch nimmt."
     },
     {
       "id": "bao-ue-parpar619-08",
@@ -418,7 +414,7 @@
         2,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Vertreterhaeftung nach § 9 BAO (Ausfallshaeftung) setzt voraus: (1) Uneinbringlichkeit beim Primaerschuldner, (2) schuldhafte Pflichtverletzung durch den Vertreter, (3) Kausalzusammenhang. Es handelt sich um eine subsidiaere Haeftung - erst wenn die GmbH nicht zahlt, kann der Vertreter herangezogen werden."
     },
     {
       "id": "bao-ue-parpar619-09",
@@ -438,7 +434,7 @@
         2,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Unter § 9 BAO fallen gesetzliche Vertreter (GmbH-Geschaeftsfuehrer, AG-Vorstand, Insolvenzverwalter) sowie gewillkuerte Vertreter (z.B. Steuerberater). Wichtig: § 9 BAO erfasst Vertreter i.S.d. § 80 BAO - nicht Gesellschafter einer OG (die haften nach § 12 BAO)."
     },
     {
       "id": "bao-ue-parpar619-10",
@@ -473,7 +469,7 @@
         0,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Taeterhaeftung nach § 11 BAO trifft Personen, die wegen eines vorsaetzlichen Finanzvergehens rechtsgraeftig verurteilt wurden. Sie erfasst alle Beteiligten (Mittaeter, Beitraeger). Die Haeftung ist nicht subsidiaer."
     },
     {
       "id": "bao-ue-parpar619-12",
@@ -489,7 +485,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nach § 12 BAO haften Gesellschafter einer OG und Komplementaere einer KG unbeschraenkt fuer die Abgabenschulden der Gesellschaft. Dies folgt aus ihrer unbeschraenkten gesellschaftsrechtlichen Haftung."
     },
     {
       "id": "bao-ue-parpar619-13",
@@ -507,7 +503,7 @@
         1,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der Erwerber eines Unternehmens haftet nach § 14 BAO fuer Abgaben, die sich auf den Betrieb gruenden, soweit sie seit Beginn des letzten vor der Uebereignung liegenden Kalenderjahres entstanden sind. Die Haeftung ist der Hoehe nach begrenzt."
     },
     {
       "id": "bao-ue-parpar619-14",
@@ -519,7 +515,7 @@
         "Persönliche Haftungen"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Sachliche Haftungen betreffen bestimmte Vermoegensgegenstande. Sie werden nach § 225 BAO mit Beschlagnahmebescheid auf bewegliche Sachen geltend gemacht - im Gegensatz zur persoenlichen Haeftung mit Haftungsbescheid (§ 224 BAO)."
     },
     {
       "id": "bao-ue-parpar619-15",
@@ -537,7 +533,7 @@
         1,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Bei Gesamtrechtsnachfolge (z.B. Erbschaft, Verschmelzung) gehen nach § 19 BAO alle Abgabenpflichten und -rechte auf den Rechtsnachfolger ueber - also auch Abgabenschulden sowie verfahrensrechtliche Positionen wie das Beschwerderecht."
     },
     {
       "id": "bao-ue-parpar619-16",
@@ -571,7 +567,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die BAO unterscheidet persoenliche Haftung (Haftungsbescheid nach § 224 BAO, betrifft das gesamte Vermoegen des Haftenden) und sachliche Haftung (Beschlagnahmebescheid nach § 225 BAO, betrifft nur bestimmte Sachen)."
     },
     {
       "id": "bao-ue-parpar619-18",
@@ -588,7 +584,7 @@
         0,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Haftungsinanspruchnahme liegt im Ermessen der Abgabenbehoerde (§ 20 BAO). Haftung bedeutet, dass das Vermoegen des Haftenden fuer fremde Abgabenschulden herangezogen werden kann."
     },
     {
       "id": "bao-ue-parpar2027-01",
@@ -629,11 +625,9 @@
         "Ermessen ist der Entscheidungsspielraum, zu beachten sind die Grenzen und Kriterien Verfahrensökonomie/Schicklichkeit."
       ],
       "korrekt": [
-        0,
-        1,
-        2
+        1
       ],
-      "erklaerung": "Hinweis: § 20 BAO"
+      "erklaerung": "Ermessen ist nach § 20 BAO der Entscheidungsspielraum der Behörde, wobei die Grenzen und Kriterien Billigkeit (Interessen der Partei) und Zweckmäßigkeit (öffentliches Interesse) zu beachten sind. Die erste Option ist falsch, da Ermessen gerade NICHT unbeachtlich dieser Kriterien ausgeübt werden darf. Die dritte Option nennt mit 'Verfahrensökonomie/Schicklichkeit' falsche Kriterien - maßgeblich sind ausschließlich Billigkeit und Zweckmäßigkeit."
     },
     {
       "id": "bao-ue-parpar2027-04",
@@ -656,7 +650,7 @@
         4,
         6
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ermessensbestimmungen sind im Gesetz an Formulierungen wie 'kann', 'darf', 'ist zulaessig', 'ist befugt' oder 'ist ermaechtigt' erkennbar (§ 20 BAO). Im Gegensatz dazu stehen gebundene Entscheidungen mit 'hat zu', 'muss' oder 'ist verpflichtet'."
     },
     {
       "id": "bao-ue-parpar2027-05",
@@ -697,7 +691,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nach § 26 BAO kann man mehrere Wohnsitze haben. Einen gewoehen­lichen Aufenthalt kann man hingegen nur an einem Ort haben (Schwerpunkt des taetsaechlichen Aufenthalts). Beide Optionen wurden als richtig markiert, da sie sich ergoenzende Aussagen darstellen."
     },
     {
       "id": "bao-ue-parpar2027-08",
@@ -733,7 +727,7 @@
         "A ist in der Slowakei unbeschränkt steuerpflichtig."
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Anton hat in Oesterreich einen vorueber­gehenden Aufenthalt von nur 3 Monaten (1.4.–1.7.) und begruendet weder Wohnsitz noch gewoehnglichen Aufenthalt (mindestens 6 Monate, § 26 BAO). Er ist daher in Oesterreich nicht unbe­schraenkt steuer­pflichtig, sondern in der Slowakei."
     },
     {
       "id": "bao-ue-parpar2027-11",
@@ -759,7 +753,7 @@
         "Rechtzeitigkeit und Sicherheit"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nach § 20 BAO sind Ermessens­ent­scheidungen nach den Kriterien Billigkeit und Zweck­maessigkeit zu treffen. Billigkeit berueck­sichtigt die berechtigten Inter­essen der Partei; Zweck­maessigkeit orientiert sich am oeffentlichen Interesse an der Abgaben­erhebung."
     },
     {
       "id": "bao-ue-parpar2027-13",
@@ -773,7 +767,7 @@
         "Orientierung an Verfahrenskosten"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Billigkeit i.S.d. § 20 BAO bedeutet Rueck­sicht­nahme auf die berechtigten Interessen der Partei, also die angemessene Berueck­sichtigung der persoenlichen und wirtschaftlichen Verhaeltnisse des Abgaben­pflichtigen."
     },
     {
       "id": "bao-ue-parpar2027-14",
@@ -787,7 +781,7 @@
         "Orientierung an der Länge des Verfahrens"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Zweck­maessigkeit i.S.d. § 20 BAO bedeutet Orientierung am oeffentlichen Interesse, insbesondere an einer ordnungsge­maessen und gleich­maessigen Abgaben­erhebung sowie der Sicherung des Steuer­aufkommens."
     },
     {
       "id": "bao-ue-parpar2027-15",
@@ -799,7 +793,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja, die Fest­setzung eines Verspaetungs­zuschlags (§ 135 BAO) ist eine Ermessens­ent­scheidung. Die Behoerde 'kann' einen Verspaetungs­zuschlag fest­setzen - sie ist dazu nicht verpflichtet, sondern hat Billigkeit und Zweck­maessigkeit abzu­waegen."
     },
     {
       "id": "bao-ue-parpar2027-16",
@@ -816,7 +810,7 @@
         1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Bei Ermessens­entscheidungen nach § 20 BAO hat die Behoerde Billigkeit und Zweck­maessigkeit abzu­waegen. Ermessens­ent­scheidungen muessen begruendet werden (§ 93 Abs. 3 lit. a BAO)."
     },
     {
       "id": "bao-ue-parpar2027-17",
@@ -831,7 +825,7 @@
         "Eine Kabine im Gänsehäufel ohne Küche und Dusche."
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein Wohnsitz i.S.d. § 26 Abs. 1 BAO liegt vor, wenn jemand eine Wohnung inne­hat und sie unter Umstaenden benutzt, die darauf schliessen lassen, dass er sie beibehalten und benutzen wird. Es kommt nicht auf die zivil­rechtliche Eigentuemer­stellung an."
     },
     {
       "id": "bao-ue-parpar2027-18",
@@ -845,7 +839,7 @@
         "Ein Aufenthalt ausschließlich zu Urlaubszwecken."
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der gewoehngliche Aufenthalt i.S.d. § 26 Abs. 2 BAO liegt vor, wenn sich jemand ohne Unter­brechung laenger als sechs Monate im Inland aufhaelt. Kurz­fristige Unter­brechungen schaden nicht. Er fuehrt zur unbe­schraenkten Steuer­pflicht."
     },
     {
       "id": "bao-ue-parpar2027-19",
@@ -857,7 +851,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja, man kann nach § 26 BAO mehrere Wohnsitze haben. Jeder Ort, an dem jemand eine Wohnung inne­hat, die er beibehaelt und benutzen kann, gilt als Wohnsitz."
     },
     {
       "id": "bao-ue-parpar2027-20",
@@ -869,7 +863,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nein, man kann nach § 26 Abs. 2 BAO nur einen gewoehng­lichen Aufenthalt haben. Der gewoehng­liche Aufenthalt setzt einen zeitlichen Schwerpunkt des taetsaechlichen Aufenthalts voraus, der nur an einem Ort bestehen kann."
     },
     {
       "id": "bao-ue-parpar2027-21",
@@ -883,7 +877,7 @@
         "In keinem Staat"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die ungarische Arbeit­nehmerin haelt sich 8 Monate pro Jahr in Oesterreich auf und ueber­schreitet damit die 6-Monats-Grenze des § 26 Abs. 2 BAO. Sie begruendet einen gewoehng­lichen Aufenthalt in Oesterreich und ist daher unbe­schraenkt einkommens­steuer­pflichtig."
     },
     {
       "id": "bao-ue-parpar2027-22",
@@ -924,7 +918,7 @@
         "Der Sitz der Geschäftsleitung"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nach § 21 BAO ist fuer die Beurteilung abgaben­rechtlicher Fragen der wahre wirtschaftliche Gehalt mass­gebend - nicht die aeussere Erscheinungs­form oder die zivil­rechtliche Bezeichnung eines Vorgangs. Dies ist die wirtschaftliche Betrachtungs­weise."
     },
     {
       "id": "bao-ue-parpar2027-25",
@@ -940,7 +934,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die wirtschaft­liche Betrachtungs­weise (§ 21 BAO) bedeutet, dass die wirtschaft­liche Realitaet den Vorrang vor der recht­lichen Form hat. Sie beguenstigt weder Steuer­pflichtige noch den Fiskus einseitig, sondern dient der zutreffenden Erfassung des wirtschaft­lichen Sachverhalts."
     },
     {
       "id": "bao-ue-parpar2027-26",
@@ -954,7 +948,7 @@
         "Wenn die Gestaltung einem Zweck dient, der mit dem Steuerrecht vereinbar ist"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Miss­brauch i.S.d. § 22 BAO liegt vor, wenn eine recht­liche Gestaltung un­an­ge­messen ist (ungew­oehnlich und nicht durch ausser­steuerliche Gruende erklaerbar) und ausschliesslich oder ueber­wiegend der Erlangung steuerlicher Vorteile dient."
     },
     {
       "id": "bao-ue-parpar2027-27",
@@ -967,7 +961,7 @@
         "Die Gestaltung ist steuerlich anerkannt."
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Rechts­folge des Miss­brauchs nach § 22 Abs. 3 BAO ist, dass die Abgaben so erhoben werden, wie sie bei einer ange­messenen recht­lichen Gestaltung entstanden waeren. Das Miss­brauchs­geschaeft bleibt zivil­rechtlich wirksam, wird aber steuerlich umqualifiziert."
     },
     {
       "id": "bao-ue-parpar2027-28",
@@ -983,7 +977,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Schein­geschaefte sind nach § 23 BAO steuerlich unbeacht­lich. Beim absoluten Schein­geschaeft will keine Partei das Rechts­geschaeft; beim relativen Schein­geschaeft wird das wahre (verdeckte) Geschaeft abgeschlossen. Steuer­lich zaehlt immer das taetsaechlich gewollte Rechts­geschaeft."
     },
     {
       "id": "bao-ue-parpar2027-29",
@@ -997,7 +991,7 @@
         "Keines der beiden"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Es liegt ein relatives Schein­geschaeft vor: Der Miet­vertrag ist das vorge­schobene Geschaeft, die Schenkung das verdeckte. Steuer­lich ist nach § 23 BAO das verdeckte Geschaeft - die Schenkung - mass­gebend."
     },
     {
       "id": "bao-ue-parpar2027-30",
@@ -1011,7 +1005,7 @@
         "Es führt immer zu einer Steuerbefreiung."
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nach § 23 Abs. 2 BAO ist ein nichtiges Rechts­geschaeft steuer­lich dennoch beacht­lich, solange und soweit die an das Rechts­geschaeft geknu­pften wirtschaft­lichen Ergebnisse bestehen bleiben. Die zivil­recht­liche Nichtigkeit aendert somit nichts an der Steuer­pflicht."
     },
     {
       "id": "bao-ue-parpar2027-31",
@@ -1087,7 +1081,7 @@
         5,
         6
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "An­ge­hoerige i.S.d. § 25 BAO sind: Ehe­gatte, eingetragener Partner, Verwandte in gerader Linie (Eltern, Kinder, Enkel), Verwandte 2.-4. Grades in der Seiten­linie (Geschwister, Cousins), Verschwaegerte in gerader Linie und bis 2. Grad in der Seiten­linie, Pflege­eltern/-kinder sowie Personen in Lebens­gemeinschaft. Die An­ge­hoerigen­eigenschaft bleibt auch nach Auf­losung der Ehe/Partnerschaft bestehen."
     },
     {
       "id": "bao-ue-parpar2576-03",
@@ -1145,7 +1139,7 @@
         3,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Be­fangen­heits­gruende nach § 76 BAO: eigene Abgaben­angelegen­heiten, Angelegen­heiten eines Ange­hoer­igen (§ 25 BAO), fruehere Partei­vertretung, Mitwirkung an der Erlassung des ange­fochtenen Bescheids sowie sonstige wichtige Gruende, die Zweifel an der Un­be­fangen­heit wecken."
     },
     {
       "id": "bao-ue-parpar2576-07",
@@ -1203,7 +1197,7 @@
         3,
         5
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Absolute Befangen­heit nach § 76 BAO liegt vor bei: eigenen Abgaben­angelegen­heiten, Angelegen­heiten von An­ge­hoerigen i.S.d. § 25 BAO, wenn der Organ­walter Vertreter der Partei war oder ist (§ 78 BAO), sowie im Beschwerde­verfahren bei Mitwirkung an der Erlassung des ange­fochtenen Bescheids."
     },
     {
       "id": "bao-ue-parpar2576-10",
@@ -1230,7 +1224,7 @@
         "sie gilt weiterhin unbegrenzt"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Amts­verschwiegenheit nach Art. 20 Abs. 3 B-VG galt bis 31.8.2025. Mit 1.9.2025 trat das Infor­mations­freiheits­gesetz in Kraft, das die Amts­verschwiegenheit durch ein Recht auf staatliche Information (Art. 22a B-VG) ersetzte."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-02",
@@ -1244,7 +1238,7 @@
         "durch das Finanzstrafgesetz"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ab 1.9.2025 wurde die Amts­verschwiegenheit durch die verfassungs­rechtlich verankerte Infor­mations­freiheit (Art. 22a B-VG) ersetzt. Behoerden sind seither grundsaetzlich verpflichtet, auf Antrag Auskunft zu erteilen."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-03",
@@ -1288,7 +1282,7 @@
         0,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die BAO kennt zwei Arten von Kompetenz­konflikten: positiver Kompetenz­konflikt (mehrere Behoerden fuehlen sich zustaeendig) und negativer Kompetenz­konflikt (keine Behoerde fuehlt sich zustaendig). Zur Loesung kann eine uebergeordnete Behoerde eine Zustaeendigkeit festlegen."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-06",
@@ -1316,7 +1310,7 @@
         "Nur Beratungsverläufe"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die abgaben­rechtliche Geheim­haltungs­pflicht nach § 48a BAO schuetzt ab 1.9.2025 personen­bezogene Daten natuer­licher Personen sowie Daten juristischer Personen, die im Rahmen von Abgaben-, Finanzstraf- und verwandten Verfahren bekannt werden."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-08",
@@ -1372,7 +1366,7 @@
         "1.1.2022"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Neu­organisation der Bundes­finanz­verwaltung trat mit 1.1.2021 in Kraft. Seither gibt es das Finanzamt Oesterreich (FAOe), das Finanzamt fuer Grossbetriebe (FAG) und das Zollamt Oesterreich als zentrale Behoerden."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-11",
@@ -1400,7 +1394,7 @@
         "Eine Behörde entscheidet ohne Kompetenz"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein positiver Kompetenz­konflikt liegt vor, wenn sich mehrere Behoerden gleichzeitig fuer zustaendig halten. Ein negativer Kompetenz­konflikt liegt vor, wenn keine Behoerde taetig werden will."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-13",
@@ -1429,7 +1423,7 @@
         "Steuererhöhungen"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Abgaben­behoerden koennen zur Sachverhalts­ermittlung Auskunfts­verlangen (§ 143 BAO) und Nach­schauen (§ 144 BAO) als Aufsichts­massnahmen einsetzen. Aussen­pruefungen sind ein eigenes, umfassenderes Instrument."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-15",
@@ -1443,7 +1437,7 @@
         "Der Präsident des VwGH"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein Finanzamt wird von einem Vorstand geleitet (§ 3 Abs. 4 ABBG). Der Vorstand ist fuer die Geschaefts­fuehrung verantwortlich und kann Aufgaben delegieren."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-16",
@@ -1457,7 +1451,7 @@
         "Ein Steuerbescheid"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein Delegierungs­bescheid ist die foermliche Uebertragung einer Zustaeendigkeit von einem Finanzamt auf ein anderes nach § 71 BAO, wenn die oertliche oder sachliche Zustaeendigkeit wechseln soll."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-17",
@@ -1471,7 +1465,7 @@
         "Niemand"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Gegen eine Delegierung kann nur das uebertrag­ende Finanzamt Rechtsmittel erheben. Dem Abgaben­pflichtigen steht kein Rechtsmittel gegen den Delegierungs­bescheid zu."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-18",
@@ -1485,7 +1479,7 @@
         "50 Mio. €"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Das Finanzamt fuer Gross­betriebe (FAG) ist zustaendig, wenn die Umsatz­erloese eines Unter­nehmens 10 Mio. EUR ueber­schreiten. Darunter ist grundsaetzlich das Finanzamt Oesterreich (FAOe) zustaendig."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-19",
@@ -1499,7 +1493,7 @@
         "Güterverkehr"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Das Zollamt Oesterreich ist im Bereich Kontrolle und Straf­sachen v.a. fuer Reise­verkehrs­kontrollen und Zoll­fahndung zustaendig. Es ist auch fuer Finanzstraf­verfahren im Zoll­bereich verantwortlich."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-20",
@@ -1513,7 +1507,7 @@
         "Außenprüfungen, Finanzpolizei, Finanzstrafsachen, internationale Zusammenarbeit"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Das Amt fuer Betrugs­bekaempfung (ABB, § 3 ABBG) hat als Haupt­aufgaben: Steuer­fahndung, Finanz­polizei, Bearbeitung von Finanzstraf­sachen sowie inter­nationale Zusammen­arbeit (z.B. AMLA, DAC)."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-21",
@@ -1543,7 +1537,7 @@
         0,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Zum Amt fuer Betrugs­bekaempfung (ABBG) gehoeren die Finanz­polizei (Kontrolle, Aufdeckung von Schwarz­arbeit und illegalem Glueicks­spiel) und die Steuer­fahndung (Ermittlung in Finanzstraf­sachen)."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-23",
@@ -1556,7 +1550,7 @@
         "Durchführung von Sozialversicherungsprüfungen"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Steuer­fahndung im ABBG fuehrt Ermittlungs­massnahmen durch, nimmt Beweise auf und sichert forensische Daten. Sie unterstuetzt Abgaben­behoerden und Straf­behoerden bei der Auf­klaerung von Finanzstraf­taten."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-24",
@@ -1570,7 +1564,7 @@
         "Verwaltung von Bescheiden"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Finanz­polizei (ABBG) ist fuer die Aufdeckung von Steuer­hinterziehung, Sozial­betrug und illegalem Glueicks­spiel zustaendig. Sie fuehrt Kontrollen durch und erstattet bei Verdacht Anzeige."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-25",
@@ -1584,7 +1578,7 @@
         "Zollabwicklung"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der Pruef­dienst fuer Lohn­abgaben und Beitraege (PLB) prueft lohn­abhaengige Abgaben (Lohn­steuer, Kommunal­steuer) und Sozial­versicherungs­beitraege. Er ist eine gemeinsame Einrichtung von Finanz­behoerden und Sozial­versicherung."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-26",
@@ -1598,7 +1592,7 @@
         "ABB"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der Pruefungs­auftrag fuer den PLB wird vom Finanzamt Oesterreich (FAOe) oder vom Finanzamt fuer Gross­betriebe (FAG) erteilt, je nachdem welches Finanzamt fuer den Betrieb zustaendig ist."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-27",
@@ -1612,7 +1606,7 @@
         "Mineralölsteuer"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der PLB prueft insbesondere Lohn­steuer, Sozial­versicherungs­beitraege und Kommunal­steuer. Die Pruefung erfolgt gemeinsam fuer Finanz­behoerden und Gebiets­kranken­kassen."
     },
     {
       "id": "bao-ue-parpar8084-01",
@@ -1718,7 +1712,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Anbringen koennen nach § 85 Abs. 1 BAO schriftlich (Post, Fax, FinanzOnline) oder muendlich (Niederschrift) eingebracht werden. Eine E-Mail ist kein zulaessiges Anbringen, da sie nicht die Form­anforderungen des § 85 BAO erfuellt und keine qualifizierte elektronische Signatur aufweist."
     },
     {
       "id": "bao-ue-parpar8591-02",
@@ -1731,7 +1725,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Telefonische Anbringen sind nach § 85 BAO grundsaetzlich nicht zulaessig. Eine Ausnahme gilt nur, wenn eine Abgaben­vorschrift dies aus­druecklich erlaubt. Rechts­mittel koennen telefonisch nie eingebracht werden."
     },
     {
       "id": "bao-ue-parpar8591-03",
@@ -1743,7 +1737,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Schriftliche Anbringen per Post sind nach § 85 Abs. 1 BAO zulaessig. Die Schrift­lichkeit ist die Grundform des Anbringens im Abgaben­verfahren."
     },
     {
       "id": "bao-ue-parpar8591-04",
@@ -2181,7 +2175,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Das Zustell­gesetz kennt als Zustell­nachweise: RSa (Rueckschein­brief zu eigenen Haenden - nur der Empfaenger darf uebernehmen) und RSb (Rueckschein­brief - auch Ersatz­empfaenger moeglich). Beide dokumentieren die Zustellung durch Rueck­schein."
     },
     {
       "id": "bao-ue-parpar98105zustg-12",
@@ -2240,7 +2234,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Zustell­vollmacht gilt ab dem Zeitpunkt der Bekannt­gabe gegenueber der Behoerde und wirkt bis zur Bekannt­gabe ihrer Beendigung (§ 9 ZustG). Ausnahmen: Tod des Vollmacht­gebers oder Insolvenz. Zustellungen an die Partei selbst sind nach Bekannt­gabe einer Zustell­vollmacht unw­irksam."
     },
     {
       "id": "bao-ue-parpar98105zustg-16",
@@ -2313,7 +2307,7 @@
         "2.5.2024"
       ],
       "korrekt": 4,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Frau Huber reichte ihre Erklaerung am 12.3.2024 ein. Der regelmaessige Frist­ablauf fuer die Ein­kommens­steuer­erklaerung 2023 ist der 30.4.2024. Faellt das Frist­ende auf einen Sonn-/Feiertag oder Samstag, verlaengert sich die Frist auf den naechsten Werk­tag. Der naechste Werk­tag nach 30.4.2024 (Dienstag) waere der 2.5.2024 - hier aber hat sie die Frist­verlaengerung per FinanzOnline erhalten."
     },
     {
       "id": "bao-ue-parpar98105zustg-21",
@@ -2388,7 +2382,7 @@
         "am 4.11.2024"
       ],
       "korrekt": 4,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Beschwerde­frist betraegt 1 Monat ab Zustellung (1.10.2024). Das Frist­ende waere der 1.11.2024 (Aller­heiligen = gesetz­licher Feiertag). Da der Frist­ablauf auf einen Feiertag faellt, endet die Frist gemaess § 108 Abs. 3 BAO am naechsten Werk­tag - das ist der 4.11.2024 (da 2./3.11. Wochen­ende)."
     },
     {
       "id": "bao-ue-parpar108110-03",
@@ -2403,7 +2397,7 @@
         "am 2.4.2024"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Zustellung am 28.2.2024, Frist 1 Monat. Der 28.3.2024 ist der regulaere Ablaufs­tag nach § 108 Abs. 2 BAO (gleicher Kalender­tag des Folge­monats). Da der 28.3.2024 kein Feiertag und kein Wochen­ende ist, laeuft die Frist an diesem Tag ab."
     },
     {
       "id": "bao-ue-parpar108110-04",
@@ -2418,7 +2412,7 @@
         "am 31.5.2024"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der Registrier­kassen­vorfall ereignete sich am 17.4.2024. Die Beschwerde­frist fuer die Mass­nahmen­beschwerde nach § 283 Abs. 1 BAO betraegt 6 Wochen ab dem Zeitpunkt, in dem der Beschwerdefuehrer von der Aus­uebung der Befehls- und Zwangs­gewalt Kenntnis erlangt hat. 6 Wochen = 42 Tage: 17.4. + 42 Tage = 29.5.2024."
     },
     {
       "id": "bao-ue-parpar108110-05",
@@ -2484,7 +2478,7 @@
         2,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die BAO kennt nach § 108 verschiedene Frist­arten: Tages­fristen, Wochen­fristen, Monats­fristen und Jahres­fristen. Die Berechnung richtet sich nach § 108 BAO (Beginn: Tag nach Zustellung; Ende: gleicher Wochen­tag/Kalender­tag)."
     },
     {
       "id": "bao-ue-parpar108110-09",
@@ -2501,7 +2495,7 @@
         0,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Frist­beginn ist im All­gemeinen der Tag nach der Zustellung (§ 108 Abs. 2 BAO). Bei Ver­jaeehrungs­fristen gelten eigene gesetz­liche Regelungen (§ 208 BAO), die den Frist­beginn abweichend bestimmen."
     },
     {
       "id": "bao-ue-parpar108110-10",
@@ -2576,7 +2570,7 @@
         4,
         6
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Vorhalt­fristen sind behoerd­liche Fristen (§ 110 Abs. 2 BAO) und daher immer verlaeng­erbar. Gesetz­liche Fristen koennen nur verlaengert werden, wenn das Gesetz dies aus­druecklich vorsieht (§ 110 Abs. 1 BAO). Die Beschwerde­frist ist eine gesetz­liche Frist - sie kann nur nach § 245 Abs. 3 BAO verlaengert werden."
     },
     {
       "id": "bao-ue-parpar108110-15",
@@ -2665,7 +2659,7 @@
         9,
         10
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Das Abgaben­verfahren wird von mehreren Grundsaetzen gepraegt: Amts­wegigkeit (§ 115 BAO), Legalitaets­prinzip, Parteien­gehoer (§ 115 Abs. 2 BAO), Treu und Glauben, Mitwirkungs­pflicht der Partei und Gleich­maessigkeit der Besteuerung. Ein Neuerungs­verbot gibt es in der BAO grundsaetzlich nicht (anders als im VwGH-Verfahren)."
     },
     {
       "id": "bao-ue-parpar111134a-05",
@@ -2677,7 +2671,7 @@
         "Falsch"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja, Abgaben­verfahren werden grundsaetzlich von Amts wegen (§ 115 BAO) eingeleitet, es sei denn, das Verfahren setzt einen Antrag der Partei voraus (z.B. Stundungs­ansuchen § 212 BAO, Antrag auf Wiederaufnahme § 303 BAO)."
     },
     {
       "id": "bao-ue-parpar111134a-06",
@@ -2740,7 +2734,7 @@
         1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Eine Abgaben­erklaerung ist einzureichen, wenn das Gesetz dies aus­druecklich vorschreibt (z.B. § 42 EStG fuer die Einkommens­steuer­erklaerung) oder wenn die Abgaben­behoerde den Steuer­pflichtigen dazu auf­fordert (§ 133 Abs. 1 BAO)."
     },
     {
       "id": "bao-ue-parpar111134a-10",
@@ -2779,7 +2773,7 @@
         2,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nicht vertret­bare Leistungen sind solche, die nur der Ver­pflich­tete persoen­lich erbringen kann (z.B. Einreichung einer persoenlich zu unter­fertig­enden Erklaerung, Duldung einer Pruefung, Beant­wortung von Auskunfts­ersuchen). Sie koennen mit Zwangs­strafe (§ 111 BAO) erzwungen werden."
     },
     {
       "id": "bao-ue-parpar111134a-12",
@@ -2918,7 +2912,7 @@
         "Falsch"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Eine Auskunft nach § 143 BAO ist kein foermliches Beweismittel wie eine Zeugen­aussage. Die Zeugen­aussage (§ 169 ff BAO) erfolgt unter Wahrheits­pflicht mit straf­recht­lichen Konsequenzen bei Falsch­aussage; die Auskunft nach § 143 BAO hat eine geringere Beweis­kraft."
     },
     {
       "id": "bao-ue-parpar143158-03",
@@ -2949,7 +2943,7 @@
         "Amtshilfe"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Das Finanzamt moechte pruefen, ob das haeusliche Arbeits­zimmer die Voraus­setzungen erfuellt - das ist eine Frage des taetsaechlichen Zustands und der Nutzung vor Ort. Die Nach­schau (§ 144 BAO) ermoeg­licht genau diese oertliche Ueber­pruefung ohne den Aufwand einer vollstaendigen Aussen­pruefung."
     },
     {
       "id": "bao-ue-parpar143158-05",
@@ -2961,7 +2955,7 @@
         "Falsch"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Eine Nach­schau (§ 144 BAO) kann grundsaetzlich beliebig oft und auch fuer denselben Zeitraum wiederholt werden, da sie nur der Ueber­pruefung aeusserer Umstaende dient und kein Pruefungs­recht 'verbraucht'."
     },
     {
       "id": "bao-ue-parpar143158-06",
@@ -3088,7 +3082,7 @@
         "Falsch"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Im Gegensatz zur Nach­schau kann die Aussen­pruefung (§§ 147 ff BAO) fuer denselben Zeitraum nicht beliebig oft wiederholt werden. Eine nochmalige Aussen­pruefung desselben Zeitraums ist nur bei neuen Tat­sachen (z.B. aufge­deckte Steuer­hinter­ziehung) oder auf Antrag des Steuer­pflichtigen moeglich."
     },
     {
       "id": "bao-ue-parpar161184-01",
@@ -3121,7 +3115,7 @@
         1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Im Beweis­verfahren (§§ 166 ff BAO) gelten: Grundsatz der Unbe­schraenkt­heit der Beweis­mittel (§ 166 BAO), freie Beweis­wuerdigung (§ 167 BAO) und Verbot geheimer Beweis­mittel (Parteien­gehoer, § 115 Abs. 2 BAO)."
     },
     {
       "id": "bao-ue-parpar161184-03",
@@ -3161,7 +3155,7 @@
         "Innerer Betriebsvergleich"
       ],
       "korrekt": 3,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Beim inneren Betriebs­vergleich vergleicht die Behoerde Kenn­zahlen desselben Betriebs ueber verschiedene Zeitraeume (z.B. Bilanzen der Vor­jahre). Beim aeusseren Betriebs­vergleich werden Kenn­zahlen vergleich­barer Betriebe herangezogen."
     },
     {
       "id": "bao-ue-parpar161184-06",
@@ -3210,7 +3204,7 @@
         "Falsch"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Falsch - die BAO kennt mehrere anerkannte Schaetzungs­methoden (§ 184 BAO): innerer und aeusserer Betriebs­vermoegensvergleich, kalku­latorische Schaetzung, Lebens­aufwands­schaetzung und Vermogens­zuwachs­schaetzung. Die Behoerde waehlt die im Einzel­fall am geeignetsten Methode."
     },
     {
       "id": "bao-ue-parpar161184-10",
@@ -3240,7 +3234,7 @@
         "Außenprüfung"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein Bedenken­vorhalt wird erteilt, wenn die Abgaben­behoerde Zweifel an der Richtig­keit einer Steuer­erklaerung hat und der Partei Gelegenheit zur Stellung­nahme geben will (§ 161 BAO). Er dient der Wahrung des Parteien­gehoers."
     },
     {
       "id": "bao-ue-parpar161184-12",
@@ -3265,7 +3259,7 @@
         5,
         6
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Als Beweis­mittel im Abgaben­verfahren kommen gemaess § 166 BAO alle Mittel in Betracht, die geeignet sind, zur Feststellung des mass­gebenden Sachverhalts beizu­tragen: Urkunden, Zeugen­aussagen, Sachverstaendigen­gutachten, Anbringen des Steuer­pflichtigen, Augen­schein, Ton­aufnahmen sowie Fotos und Videos."
     },
     {
       "id": "bao-ue-parpar161184-13",
@@ -3277,7 +3271,7 @@
         "Stimmt nicht"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja, bei wider­spruechlichen Beweis­mitteln hat die Behoerde nach dem Grundsatz der freien Beweis­wuerdigung (§ 167 BAO) jene Beweise heran­zuziehen, die nach ihrer Ueber­zeugung die groessere Wahrscheinlich­keit fuer sich haben."
     },
     {
       "id": "bao-ue-parpar161184-14",
@@ -3301,7 +3295,7 @@
         "Falsch"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Oeffentliche Urkunden (z.B. Rueckscheine, behoerd­liche Bescheinigungen) geniessen nach § 292 ZPO i.V.m. § 168 BAO erhoehte Beweis­kraft - sie begruenden vollen Beweis ihres Inhalts. Privat­urkunden haben nur eingeschraenkte Beweis­kraft."
     },
     {
       "id": "bao-ue-parpar161184-16",
@@ -3320,7 +3314,7 @@
         1,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Oeffentliche Urkunden sind solche, die von einer oeffentlichen Behoerde im Rahmen ihrer Zustaeendigkeit erstellt wurden: z.B. Zustell­nach­weise (Rueckscheine), Bescheid­ausfertigungen und notariell beglaubigte Urkunden."
     },
     {
       "id": "bao-ue-parpar161184-17",
@@ -3394,7 +3388,7 @@
         4,
         5
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Anerkannte Schaetzungs­methoden nach § 184 BAO: aeusserer und innerer Betriebs­vermoegensvergleich (Vergleich mit anderen Betrieben bzw. Vor­jahren), Lebens­aufwands­schaetzung (Gegen­ueberstellung Ausgaben/erklaertes Einkommen), kalku­latorische Schaetzung sowie Vermogens­zuwachs­schaetzung."
     },
     {
       "id": "bao-ue-parpar161184-21",
@@ -3406,7 +3400,7 @@
         "Privaturkunde"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Eine Quittung ueber eine Bar­zahlung ist eine Privat­urkunde - sie wurde nicht von einer Behoerde ausgestellt. Privat­urkunden haben eingeschraenkte Beweis­kraft; die Behoerde kann ihren Inhalt im Rahmen der freien Beweis­wuerdigung wuerdigen."
     },
     {
       "id": "bao-ue-parpar188200-01",
@@ -3452,7 +3446,7 @@
         "Gegen beide"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Zurechnung der Einkuenfte (70:30 vs. 50:50) ist ausschliesslich im Fest­stellungs­bescheid nach § 188 BAO zu klaeren. Einkommens­steuer­bescheide sind daran gebunden (§ 192 BAO) - Fehler im Fest­stellungs­bescheid koennen nur durch Anfechtung des Fest­stellungs­bescheids selbst behoben werden."
     },
     {
       "id": "bao-ue-parpar188200-04",
@@ -3466,7 +3460,7 @@
         "Sie werden nur in einer Beilage erfasst, nicht im Spruch."
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Sonder­betriebs­ausgaben (z.B. Zinsen fuer ein Gesellschafter­darlehen) beruehren die Hoehe der zuzurechnenden Einkuenfte und sind daher zwingend im Fest­stellungs­bescheid nach § 188 BAO aufzu­nehmen, nicht erst im Einkommens­steuer­bescheid des Gesellschafters."
     },
     {
       "id": "bao-ue-parpar188200-05",
@@ -3492,7 +3486,7 @@
         "Er wirkt nur für den Gesellschafter, der Beschwerde führt."
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Einkommens­steuer­bescheide (und andere abgeleitete Bescheide) sind an den Fest­stellungs­bescheid nach § 188 BAO gebunden (§ 192 BAO). Die im Fest­stellungs­bescheid getroffenen Fest­stellungen ueber Art, Hoehe und Zurechnung der Einkuenfte sind verbindlich."
     },
     {
       "id": "bao-ue-parpar188200-07",
@@ -3540,7 +3534,7 @@
         2,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein einheitlicher Abgaben­bescheid nach § 199 BAO liegt im Ermessen der Behoerde. Er setzt ein Gesamt­schuld­verhaeltnis voraus und muss alle Gesamt­schuldner im Spruch nennen."
     },
     {
       "id": "bao-ue-parpar188200-10",
@@ -3554,7 +3548,7 @@
         "muss er immer erneut an alle geschickt werden."
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Wird ein einheitlicher Bescheid nach § 199 BAO nur an einen Gesamt­schuldner zugestellt, gilt die Zustell­fiktion des § 101 BAO: Der Bescheid gilt auch fuer alle anderen Gesamt­schuldner als zugestellt."
     },
     {
       "id": "bao-ue-parpar188200-11",
@@ -3583,7 +3577,7 @@
         "Falsch"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Falsch - vorlaeufige Bescheide nach § 200 BAO sind voll rechts­mittel­faehig. Gegen einen vorlaeufigen Bescheid kann Beschwerde erhoben werden."
     },
     {
       "id": "bao-ue-parpar188200-13",
@@ -3649,7 +3643,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Vorlaeufige Bescheide duerfen nicht fuer Haftungs­bescheide (§ 224 BAO) oder Sicher­stellungs­auftraege (§ 232 BAO) ergehen, da diese nicht von einer ungewissen Sach­lage abhaengen."
     },
     {
       "id": "bao-ue-parpar188200-17",
@@ -3662,7 +3656,7 @@
         "in beiden"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Eine Beschwerde gegen die Hoehe der Einkuenfte aus einem Fest­stellungs­bescheid kann nur im Fest­stellungs­verfahren selbst erhoben werden - nicht im abgeleiteten Einkommens­steuer­verfahren (§ 192 BAO)."
     },
     {
       "id": "bao-ue-parpar188200-18",
@@ -3676,7 +3670,7 @@
         "nur, wenn die Behörde es im Spruch anordnet."
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Aenderungen eines Fest­stellungs­bescheids nach § 188 BAO wirken automatisch auf die davon abgeleiteten Einkommens­steuer­bescheide: Diese sind gemaess § 295 Abs. 1 BAO von Amts wegen anzu­passen, ohne dass ein Antrag erforderlich ist."
     },
     {
       "id": "bao-ue-parpar188200-19",
@@ -3690,12 +3684,10 @@
         "Ein Feststellungsbescheid kann bei Einkünften aus Land- und Forstwirtschaft ergehen"
       ],
       "korrekt": [
-        0,
-        1,
         2,
         3
       ],
-      "erklaerung": "§ 188 Abs. 1 lit a und b BAO"
+      "erklaerung": "Ein Feststellungsbescheid nach § 188 BAO ergeht nur für vier Einkunftsarten: Land- und Forstwirtschaft, selbständige Arbeit, Gewerbebetrieb sowie Vermietung und Verpachtung unbeweglichen Vermögens - NICHT für Einkünfte aus unselbständiger Erwerbstätigkeit (Lohneinkünfte). Außerdem setzt die Feststellung voraus, dass alle Beteiligten dieselbe (nicht unterschiedliche) Einkunftsart erzielen. Von den vier Aussagen sind daher nur 'Gewerbebetrieb' und 'Land- und Forstwirtschaft' zutreffend."
     },
     {
       "id": "bao-ue-parpar188200-20",
@@ -3709,7 +3701,7 @@
         "An den Gesellschafter mit der höchsten Quote"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein Fest­stellungs­bescheid nach § 188 BAO wird an die vertretungs­befugte Person der Personen­gesellschaft zugestellt (§ 81 BAO). Mit der Zustellung an diese Person gilt der Bescheid allen Beteiligten gegenueber als zugestellt."
     },
     {
       "id": "bao-ue-parpar188200-21",
@@ -3735,7 +3727,7 @@
         "Falsch"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja, ein Fest­stellungs­bescheid nach § 188 BAO gilt fuer alle Beteiligten, denen Einkuenfte zu- oder nicht zugerechnet wurden. Er entfaltet Bindungs­wirkung fuer alle abgeleiteten Bescheide (§ 192 BAO)."
     },
     {
       "id": "bao-ue-parpar188200-23",
@@ -3750,7 +3742,7 @@
         0,
         1
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Aenderungen des Fest­stellungs­bescheids wirken automatisch auf die Einkommens­steuer­bescheide (§ 295 Abs. 1 BAO) - eine Anpassung erfolgt von Amts wegen ohne Antrag. Die Option 'nur auf Antrag' ist unrichtig."
     },
     {
       "id": "bao-ue-parpar201206-01",
@@ -3763,7 +3755,7 @@
         "Abgaben, die nur durch gerichtliche Entscheidung festgesetzt werden"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Selbst­bemessungs­abgaben sind Abgaben, die der Steuer­pflichtige selbst zu berechnen und zu entrichten hat, ohne dass zunaechst ein Bescheid ergeht (z.B. Umsatz­steuer-Vor­auszahlung, Lohn­steuer). Die Fest­setzung durch die Behoerde nach § 201 BAO ist nur moeglich, wenn eine Selbst­bemessung unterblieben ist oder fehlerhaft war."
     },
     {
       "id": "bao-ue-parpar201206-02",
@@ -3776,7 +3768,7 @@
         "Körperschaftsteuer"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Umsatz­steuer-Vor­auszahlung ist eine klassische Selbst­bemessungs­abgabe: Der Unternehmer berechnet sie selbst (§ 21 UStG) und entrichtet sie ohne vorhergehenden Bescheid. Einkommens­steuer und Koerper­schaftsteuer hingegen werden im Veranlagungs­weg fest­gesetzt."
     },
     {
       "id": "bao-ue-parpar201206-03",
@@ -3789,7 +3781,7 @@
         "Einkommensteuer"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Einkommens­steuer ist keine Selbst­bemessungs­abgabe, sondern wird im Veranlagungs­weg von der Behoerde fest­gesetzt (§ 39 EStG). Sie entsteht kraft Gesetzes, aber ihre Fest­setzung bedarf eines Bescheides."
     },
     {
       "id": "bao-ue-parpar201206-04",
@@ -3968,7 +3960,7 @@
         1,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die absolute Verjaeehrung (§ 209 Abs. 3 BAO) betraegt 10 Jahre und kann - im Gegensatz zur regulaeren Fest­setzungs­verjaeehrung - nicht durch Verlaengerungs­handlungen ver­laengert werden. Sie schliesst eine Fest­setzung endgueltig aus."
     },
     {
       "id": "bao-ue-parpar207208-05",
@@ -4016,7 +4008,7 @@
         "Es passiert nichts"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Eine Verlaengerungs­handlung im 3. Jahr der Fest­setzungs­frist verlaengert die Frist um 1 Jahr (§ 209 Abs. 1 BAO). Die Grund­frist (5 Jahre) verlaengert sich damit auf 6 Jahre, aber nur bis zur absoluten Verjaeehrung (10 Jahre)."
     },
     {
       "id": "bao-ue-parpar207208-08",
@@ -4068,7 +4060,7 @@
         1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Verlaengerungs­handlungen muessen nach aussen erkennbar sein und zwingend nach aussen in Erscheinung treten. Sie muessen notwendig und recht­maessig sein. Eine Melde­register­abfrage allein genuegt als Verlaengerungs­handlung."
     },
     {
       "id": "bao-ue-parpar207208-11",
@@ -4113,10 +4105,9 @@
       ],
       "korrekt": [
         0,
-        1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Einhebungsverjährung (§ 238 BAO) befristet das Recht der Behörde, eine fällige Abgabe zwangsweise einzubringen (5 Jahre, keine absolute Grenze). Die zweite Option ist hier falsch platziert: Das Recht zur Erlassung eines Steuerbescheides wird durch die Festsetzungsverjährung (§§ 207 ff BAO) befristet - das ist ein eigenständiges, unterschiedliches Konzept."
     },
     {
       "id": "bao-ue-parpar207208-14",
@@ -4130,7 +4121,7 @@
         "10 Jahre"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die allgemeine Fest­setzungs­verjaeehrung betraegt fuer die Einkommens­steuer (und die meisten anderen Abgaben) 5 Jahre (§ 207 Abs. 2 BAO). Fuer hinterzogene Abgaben gilt eine verlaengerte Frist von 10 Jahren."
     },
     {
       "id": "bao-ue-parpar207208-15",
@@ -4150,7 +4141,7 @@
         4,
         5
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die absolute Verjaeehrung betraegt 10 Jahre (§ 209 Abs. 3 BAO) und ist nicht verlaengerbar - im Gegensatz zur regulaeren 5-Jahres-Frist, die durch Verlaengerungs­handlungen (§ 209 Abs. 1 BAO) um jeweils 1 Jahr verlaengert werden kann."
     },
     {
       "id": "bao-ue-parpar207208-16",
@@ -4175,7 +4166,7 @@
         6,
         7
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Als Verlaengerungs­handlungen i.S.d. § 209 Abs. 1 BAO gelten: Ergaenzungs­auftrag, Bedenken­vorhalt, Beschwerde­vor­ent­scheidung, Abgaben­bescheid, Schluss­besprechung einer Aussen­pruefung und Melde­register­abfrage. Die Handlung muss nach aussen erkennbar sein."
     },
     {
       "id": "bao-ue-parpar207208-17",
@@ -4191,7 +4182,7 @@
         "Hinterzogene Abgaben verjähren nicht"
       ],
       "korrekt": 3,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Hinterzogene Steuern verjaeehren nach § 207 Abs. 2 Satz 2 BAO erst nach 10 Jahren. Diese verlaengerte Frist gilt, wenn eine rechts­kraeftige Verurteilung wegen Steuer­hinter­ziehung vorliegt oder die Hinter­ziehung fest steht."
     },
     {
       "id": "bao-ue-parpar207208-18",
@@ -4223,7 +4214,7 @@
         1,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Zur Fest­setzungs­verjaeehrung (§§ 207 ff BAO): Die Verjaeehrung ist von Amts wegen zu pruefen; bei ihrem Eintritt erloescht der Fest­setzungs­anspruch der Behoerde; Verlaengerungs­handlungen muessen nach aussen in Erscheinung treten."
     },
     {
       "id": "bao-ue-parpar207208-20",
@@ -4252,7 +4243,7 @@
         "31.12.2033"
       ],
       "korrekt": 3,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die absolute Verjaeehrung fuer die Einkommens­steuer 2022 (nicht veranlagt) tritt mit Ablauf des 31.12.2032 ein: Beginn der Fest­setzungs­verjaeehrung ist der 1.1.2023 (§ 208 Abs. 1 lit. a BAO), absolute Verjaeehrung nach 10 Jahren = 31.12.2032."
     },
     {
       "id": "bao-ue-parpar207208-22",
@@ -4267,7 +4258,7 @@
         "31.12.2033"
       ],
       "korrekt": 3,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die absolute Verjaeehrung fuer die veranlagte Einkommens­steuer 2022 tritt ebenfalls mit 31.12.2032 ein. Der Beginn der Verjaeehrungs­frist ist das Jahr 2023 (Ablauf des Jahres 2022 = Entstehung des Abgaben­anspruchs)."
     },
     {
       "id": "bao-ue-parpar210238-01",
@@ -4310,7 +4301,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Abschreibung nach § 235 BAO bedeutet die endgueltige Loeschung einer uneinbringlichen Abgabe. Sie gewaehrt keinen Zahlungs­aufschub - sie beendet den Abgaben­anspruch endgueltig."
     },
     {
       "id": "bao-ue-parpar210238-03",
@@ -4322,7 +4313,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja, mit der Abschreibung nach § 235 BAO erloescht der Abgaben­anspruch endgueltig. Die Abgabe wird aus dem Rueckstand ausgebucht, wenn ihre Eintreibung aussichtslos erscheint."
     },
     {
       "id": "bao-ue-parpar210238-04",
@@ -4340,7 +4331,7 @@
         1,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Respiro­frist betraegt 3 Tage (§ 211 Abs. 2 BAO) und deckt die uebliche Bearbeitungs­zeit von Ueberweisungen ab. Sie ermoeg­licht eine frist­gerechte Zahlung auch dann, wenn die Gut­schrift auf dem Konto der Finanz­behoerde erst 3 Tage nach dem Faelligkeits­tag einlangt."
     },
     {
       "id": "bao-ue-parpar210238-05",
@@ -4398,7 +4389,7 @@
         1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Faelligkeit bezeichnet den Zeitpunkt, ab dem die Abgaben­behoerde berechtigt ist, die Zahlung zu verlangen (§ 210 BAO). Sie ist der Tag, bis zu dem die Abgabe spaetestens zu entrichten ist."
     },
     {
       "id": "bao-ue-parpar210238-09",
@@ -4441,7 +4432,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nein, die Behoerde darf den gesetz­lichen Faelligkeits­tag nicht selbst ver­schieben. Nur der Gesetz­geber legt Faelligkeits­termine fest. Zahlungs­erleichterungen (§ 212 BAO) schaffen keinen neuen Faelligkeits­termin, sondern gewaehren nur einen Aufschub."
     },
     {
       "id": "bao-ue-parpar210238-12",
@@ -4461,7 +4452,7 @@
         4,
         5
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Zahlungs­erleichterungen (§ 212 BAO) duerfen nur bewilligt werden, wenn: (1) ein Antrag des Abgaben­pflichtigen vorliegt, (2) die sofortige Entrichtung eine erhebliche Haerte dar­stellen wuerde und (3) die Einbring­lich­keit durch den Aufschub nicht gefaehrdet ist."
     },
     {
       "id": "bao-ue-parpar210238-13",
@@ -4474,7 +4465,7 @@
         "Sie gilt nur bis zum Ende des Kalenderjahres und hat aufschiebende Wirkung"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Aussetzung der Einhebung nach § 212a BAO bewirkt, dass die Abgaben­behoerde voruebergehend auf die Einhebung (zwangsweise Einbringung) verzichtet. Sie erzeugt aufschiebende Wirkung: Waehrend der Aussetzung sind keine Exekutionsmassnahmen zulaessig. Die Abgaben­schuld bleibt bestehen, wird aber bis zur Erledigung der Beschwerde nicht eingehoben."
     },
     {
       "id": "bao-ue-parpar210238-14",
@@ -4488,7 +4479,7 @@
         "Nur gleichzeitig mit der Beschwerde"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein Antrag auf Aussetzung der Ein­hebung (§ 212a BAO) kann bis zur Entscheidung ueber die Beschwerde gestellt werden. Wird die Beschwerde ent­schieden, ist die Antrag­stellung nicht mehr moeglich."
     },
     {
       "id": "bao-ue-parpar210238-15",
@@ -4549,11 +4540,9 @@
         "Wenn die Verspätung höchstens 5 Tage (plus 3 Tage Respirofrist) beträgt und in den letzten 3 Monaten alle übrigen Abgaben rechtzeitig bezahlt wurden"
       ],
       "korrekt": [
-        0,
-        1,
-        2
+        1
       ],
-      "erklaerung": "§ 217 Abs. 5 BAO"
+      "erklaerung": "Ausnahmsweise Säumnis iSd § 217 Abs. 5 BAO liegt vor, wenn die Verspätung höchstens 5 Tage (zzgl. der 3-tägigen Respirofrist) beträgt und der Abgabepflichtige innerhalb der letzten 6 Monate vor der Säumnis alle übrigen mit dieser Abgabe zusammengefasst verbuchten Abgaben zeitgerecht entrichtet hat. Die anderen beiden Optionen nennen falsche Werte (3 Tage bzw. 3 Monate statt 6 Monate)."
     },
     {
       "id": "bao-ue-parpar210238-19",
@@ -4620,7 +4609,7 @@
         3,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Der Rueckstands­ausweis (§ 229 BAO) ist eine oeffentliche Urkunde und dient als Exekutions­titel im finanz­behoerd­lichen Vollstreckungs­verfahren. Er wird ueber alle vollstreck­baren Abgaben­schulden ausgestellt, ist aber kein Bescheid und daher nicht rechts­mittel­faehig."
     },
     {
       "id": "bao-ue-parpar210238-22",
@@ -4669,7 +4658,7 @@
         "Revision"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Das Rechts­mittel gegen Abgaben­bescheide heisst Bescheid­beschwerde (§§ 243 ff BAO). Davon zu unter­scheiden sind: die Saeum­nis­beschwerde (§ 284 BAO) bei Verletzung der Entscheidungs­pflicht, die Mass­nahmen­beschwerde (§ 283 BAO) gegen Befehls- und Zwangs­gewalt und die Revision (§ 26 VwGG) an den VwGH."
     },
     {
       "id": "bao-ue-parpar243285-03",
@@ -4741,7 +4730,7 @@
         "Nur der Rechtsvertreter des Steuerpflichtigen"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Zur Einbringung einer Beschwerde ist berechtigt, wer durch den Bescheid in seinen Rechten beruehrt wird und an den der Bescheid wirksam ergangen ist (§ 246 BAO)."
     },
     {
       "id": "bao-ue-parpar243285-08",
@@ -4766,7 +4755,7 @@
         "Beschwerde zurückweisen, da unzulässig"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Wenn die Beschwerde nach einem Maengel­behebungs­auftrag nicht saniert wurde (oder der Mangel nicht frist­gerecht behoben wurde), ist die Beschwerde als unzu­laessig zurueck­zuweisen (§ 85 Abs. 2 BAO). Die Zurueck­weisung erfolgt mit Beschwerde­vor­ent­scheidung."
     },
     {
       "id": "bao-ue-parpar243285-10",
@@ -4832,7 +4821,7 @@
         1,
         2
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Zustellung am 14.4.2025, Beschwerde­frist 1 Monat, endet am 14.5.2025. Da Frist­verlaeng­erungs­antrag und Beschwerde nach diesem Datum eingebracht wurden, sind beide verspaetet. Verspaetete Beschwerden sind mit BVE zurueck­zuweisen (§ 260 Abs. 1 lit. b BAO)."
     },
     {
       "id": "bao-ue-parpar243285-15",
@@ -4856,7 +4845,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nein, eine Frist­verlaengerung ist nach Frist­ablauf nicht mehr moeglich. Abgaben­bescheid vom 11.3., Zustellung am 15.3., Beschwerde­frist endet am 15.4. Der Antrag am 16.4. ist verspaetet."
     },
     {
       "id": "bao-ue-parpar243285-17",
@@ -4880,7 +4869,7 @@
         5,
         7
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Verfahrens­leitende Verfuegungen sind behoerd­liche Anordnungen, die das Verfahren steuern, aber selbst keine Bescheide sind: Maengel­behebungs­auftrag (§ 85 Abs. 2 BAO), Vorhalt (§ 161 BAO), Ablehnung eines Frist­verlaengerungs­antrags und Pruefungs­auftrag (§ 147 BAO)."
     },
     {
       "id": "bao-ue-parpar243285-18",
@@ -4916,7 +4905,7 @@
         "telefonisch ergänzen"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Weist eine Beschwerde Maengel auf (fehlende Begruendung, fehlende Unterschrift etc.), hat die Behoerde zwingend einen Maengel­behebungs­auftrag (§ 85 Abs. 2 BAO) zu erlassen. Erst wenn der Mangel nicht frist­gerecht behoben wird, ist die Beschwerde zurueck­zuweisen."
     },
     {
       "id": "bao-ue-parpar243285-20",
@@ -4928,7 +4917,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nein, Beschwerden haben nach § 254 BAO keine aufschiebende Wirkung. Die ange­fochtene Abgabe bleibt faellig. Aufschiebende Wirkung kann nur durch eine Aussetzung der Ein­hebung nach § 212a BAO erzielt werden."
     },
     {
       "id": "bao-ue-parpar243285-21",
@@ -4942,7 +4931,7 @@
         "Beschwerde rechtzeitig aber mangelhaft, daher Mängelbehebungsauftrag erlassen"
       ],
       "korrekt": 3,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die Beschwerde wurde frist­gerecht eingebracht, erfuellt aber nicht alle inhalt­lichen Mindest­anforderungen (§ 250 BAO). Die Behoerde hat daher zwingend einen Maengel­behebungs­auftrag zu erlassen."
     },
     {
       "id": "bao-ue-parpar243285-22",
@@ -4955,7 +4944,7 @@
         "telefonisch ergänzen"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Eine fehlende Unterschrift ist ein beheb­barer Mangel (§ 85 Abs. 2 BAO). Die Behoerde hat zwingend einen Maengel­behebungs­auftrag zu erlassen und eine angemessene Frist zur Nachreichung der Unterschrift zu setzen."
     },
     {
       "id": "bao-ue-parpar243285-23",
@@ -4969,7 +4958,7 @@
         "mit BVE zurückweisen"
       ],
       "korrekt": 3,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Gegen verfahrens­leitende Verfuegungen ist eine abgesonderte Beschwerde unzu­laessig (§ 244 BAO). Sie koennen nur gemeinsam mit der Beschwerde gegen den das Verfahren abschliessenden Bescheid ange­fochten werden."
     },
     {
       "id": "bao-ue-parpar243285-24",
@@ -5000,7 +4989,7 @@
         0,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Trotz gueltigem Rechts­mittel­verzicht eingebrachte Beschwerden sind unzu­laessig und daher zurueck­zuweisen."
     },
     {
       "id": "bao-ue-parpar243285-26",
@@ -5026,7 +5015,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nein, die Zurueck­nahme einer Beschwerde ist nach § 256 Abs. 1 BAO unwider­ruflich. Sobald die Zurueck­nahme bei der Behoerde eingelangt ist, ist das Beschwerde­verfahren beendet."
     },
     {
       "id": "bao-ue-parpar243285-28",
@@ -5075,7 +5064,7 @@
         4,
         5
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein Verzicht auf das Beschwerde­recht ist nach § 255 BAO gueltig: schriftlich per Post, elektronisch per FinanzOnline, per Fax oder muendlich in einer Nieder­schrift. Telefonisch oder per E-Mail ist der Verzicht nicht gueltig."
     },
     {
       "id": "bao-ue-parpar243285-31",
@@ -5110,7 +5099,7 @@
         "mit BVE als verspätet zurückweisen"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Wird eine Beschwerde von jemandem eingebracht, der dazu nicht berechtigt ist (keine Partei­stellung, kein ausreichendes Vollmachts­verhaeltnis), ist sie als unzu­laessig mit BVE zurueck­zuweisen (§ 260 Abs. 1 lit. a BAO)."
     },
     {
       "id": "bao-ue-parpar243285-33",
@@ -5142,7 +5131,7 @@
         "mit BVE als verspätet zurückweisen"
       ],
       "korrekt": 4,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Wenn eine Beschwerde alle formalen Voraus­setzungen erfuellt, aber inhaltlich unbegruendet ist, hat die Behoerde die Beschwerde mit BVE als unbegruendet abzu­weisen (§ 263 Abs. 1 BAO)."
     },
     {
       "id": "bao-ue-parpar243285-35",
@@ -5159,7 +5148,7 @@
         0,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ersatzlose Aufhebung mit BVE nach § 263 Abs. 1 lit. a BAO: wenn der ange­fochtene Bescheid rechts­widrig ergangen ist, weil z.B. der Abgaben­anspruch noch gar nicht entstanden war oder bereits verjaeehrt war."
     },
     {
       "id": "bao-ue-parpar243285-36",
@@ -5187,7 +5176,7 @@
         "mit BVE als verspätet zurückweisen"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Eine Beschwerde ohne Begruendung ist mangelhaft (§ 250 Abs. 1 lit. d BAO). Die Abgaben­behoerde hat zwingend einen Maengel­behebungs­auftrag zu erlassen. Erst nach erfolglosem Ablauf der Maengel­behebungs­frist ist die Beschwerde zurueck­zuweisen."
     },
     {
       "id": "bao-ue-parpar243285-38",
@@ -5269,12 +5258,9 @@
         "Wenn die Abgabenbehörde nicht innerhalb von zwei Monaten entscheidet"
       ],
       "korrekt": [
-        0,
-        1,
-        2,
-        3
+        2
       ],
-      "erklaerung": "§ 284 Abs. 1"
+      "erklaerung": "Eine Säumnisbeschwerde kann nach § 284 Abs. 1 BAO erhoben werden, wenn die Abgabenbehörde nicht innerhalb von sechs Monaten ab Einlangen des Anbringens (bzw. Eintritt der amtswegigen Entscheidungspflicht) entscheidet. Die anderen genannten Fristen (1 Monat, 6 Wochen, 2 Monate) sind falsch - sie entsprechen anderen Fristen im BAO-Verfahren (z.B. Beschwerdefrist oder Maßnahmenbeschwerdefrist), nicht der Entscheidungsfrist für die Säumnisbeschwerde."
     },
     {
       "id": "bao-ue-parpar243285-43",
@@ -5334,7 +5320,7 @@
         "Revision"
       ],
       "korrekt": 2,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Verletzt die Abgaben­behoerde ihre Entscheidungs­pflicht (Saeum­nis), kann die Partei eine Saeum­nis­beschwerde (§ 284 BAO) beim Bundes­finanz­gericht einbringen. Das BFG ueber­nimmt dann die Entscheidungs­pflicht."
     },
     {
       "id": "bao-ue-parpar243285-47",
@@ -5365,7 +5351,7 @@
         "Balthasar kann direkt zum Verfassungsgerichtshof gehen."
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Emil Eifrig ueber­schreitet im Rahmen der Nach­schau seine Befugnisse (§§ 144 ff BAO erlauben keine Durch­suchung verschlossener Bereiche oder Beschlag­nahme). Sein Verhalten ist Befehls- und Zwangs­gewalt, gegen die Balthasar Mass­nahmen­beschwerde (§ 283 BAO) erheben kann."
     },
     {
       "id": "bao-ue-parpar293308-01",
@@ -5461,7 +5447,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja, § 293b BAO ermoeg­licht die Berichtigung von Bescheiden, wenn die Abgaben­behoerde Unrichtig­keiten aus den Erklaerungen oder Anbringen des Steuer­pflichtigen ueber­nommen hat. Fehler, die der Steuer­pflichtige selbst bewusst gemacht hat, koennen nicht nach § 293b berichtigt werden."
     },
     {
       "id": "bao-ue-parpar293308-09",
@@ -5485,7 +5471,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja, Teil­rechts­kraft bedeutet, dass nur der nicht berichtigte Teil des Bescheids in Rechts­kraft erwachsen ist. Der berichtigte Teil kann weiterhin mit Rechts­mitteln ange­fochten werden."
     },
     {
       "id": "bao-ue-parpar293308-11",
@@ -5497,7 +5483,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nein - wenn der Fest­stellungs­bescheid (Basis des ESt-Bescheids) geaendert wird, ist nach § 295 Abs. 1 BAO auch der ESt-Bescheid von Amts wegen anzu­passen. Da hier der Fest­stellungs­bescheid noch aussteht, kann noch kein ESt-Bescheid ergehen."
     },
     {
       "id": "bao-ue-parpar293308-12",
@@ -5509,7 +5495,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ja - wenn ein Fest­stellungs­bescheid geaendert wird (z.B. Verlust­fest­stellung wird erhoeht), ist der davon abgeleitete ESt-Bescheid von Amts wegen nach § 295 Abs. 1 BAO anzu­passen. Dies ist der Mechanismus der automatischen Anpassung abgeleiteter Bescheide."
     },
     {
       "id": "bao-ue-parpar293308-13",
@@ -5674,7 +5660,7 @@
         3,
         5
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Ein Antrag auf Wieder­ein­setzung in den vorigen Stand (§ 308 BAO) muss innerhalb von 3 Monaten nach Weg­fall des Hindernisses gestellt werden. Die versaeumte Handlung (hier: Beschwerde) ist gleich­zeitig mit dem Wieder­ein­setzungs­antrag nach­zu­holen."
     },
     {
       "id": "bao-ue-parpar293308-25",
@@ -5763,7 +5749,7 @@
         1,
         3
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Keine Tat­sachen i.S.d. § 303 BAO sind recht­liche Wuerdigungen, Aenderungen der Recht­sprechung (z.B. neues VwGH-Erkenntnis) oder neue hoechst­gerichtliche Erkenntnisse. Nur neu hervor­gekommene Sachverhalts­umstaende (Tat­sachen und Beweis­mittel) recht­fertigen eine Wieder­auf­nahme."
     },
     {
       "id": "bao-ue-parpar293308-32",
@@ -5807,7 +5793,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nein, Arbeits­ueber­lastung ist nach staendiger Recht­sprechung (VwGH) kein un­vor­her­gesehenes oder un­ab­wend­bares Ereignis i.S.d. § 308 BAO. Sie ist ein vor­her­seh­bares Berufs­risiko, das durch ent­sprechende Kanzlei­organisation abzu­fangen ist."
     },
     {
       "id": "bao-ue-parpar293308-35",
@@ -5831,7 +5817,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Nein, der Antrag auf Wieder­ein­setzung hat keine auf­schiebende Wirkung (§ 310 BAO). Fristen und Rechts­folgen laufen weiter; eine Aussetzung kann nur gesondert beantragt werden."
     },
     {
       "id": "bao-ue-parpar293308-37",
@@ -5852,7 +5838,7 @@
         3,
         4
       ],
-      "erklaerung": "Siehe Lösungsfile."
+      "erklaerung": "Die kumulativen Voraus­setzungen fuer die Wieder­ein­setzung nach § 308 BAO: (1) Versaeumung einer Frist oder muendlichen Verhandlung, (2) dadurch entstandener Rechts­nachteil, (3) un­vor­her­gesehenes oder un­ab­wend­bares Ereignis, (4) kein grobes Verschulden und (5) Antrag­stellung innerhalb von 3 Monaten nach Weg­fall des Hindernisses."
     },
     {
       "id": "bao-ue-manual-01",

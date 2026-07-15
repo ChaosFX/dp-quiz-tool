@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Übertragung stiller Reserven § 12 EStG",
+  "quelle_note": "Einkommensteuer/Stille Reserven.md",
+  "karten": [
+    {
+      "id": "est-uebertragung-stiller-reserven-12-estg-01",
+      "frage": "Was sind stille Reserven und wie werden sie aufgedeckt?",
+      "antwort": "Unterschiedsbetrag zwischen Veräußerungserlös und Buchwert; aufgedeckt beim Ausscheiden eines WG (Veräußerung / höhere Gewalt / behördlicher Eingriff)."
+    },
+    {
+      "id": "est-uebertragung-stiller-reserven-12-estg-02",
+      "frage": "Welche Voraussetzungen gelten für die Übertragung?",
+      "antwort": "Natürliche Person; Anlagevermögen; Ausscheiden durch Veräußerung (7 J. Behaltefrist) bzw. höhere Gewalt/behördliches Eingreifen (keine Frist); neues WG in inländischer Betriebsstätte."
+    },
+    {
+      "id": "est-uebertragung-stiller-reserven-12-estg-03",
+      "frage": "Welche WG kommen als Übertragungsziel in Frage?",
+      "antwort": "Kongruent: körperliche->körperliche, unkörperliche->unkörperliche; Gebäude aus Gebäude/Grund und Boden; Grund und Boden nur bei § 5. Nicht: Finanzanlagen, (Teil-)Betrieben, PersG-Beteiligungen."
+    },
+    {
+      "id": "est-uebertragung-stiller-reserven-12-estg-04",
+      "frage": "Wei wirkt die Übertragung sterulich?",
+      "antwort": "AK/HK des neuen WG werden gekürzt -> geringere AfA -> verteilte Nachversteuerung (Steueraufschub)."
+    },
+    {
+      "id": "est-uebertragung-stiller-reserven-12-estg-05",
+      "frage": "Was ist die Übertragunsrücklage?",
+      "antwort": "Steuerfreie Rücklage, wenn im Aufdeckungsjahr keine Übertragung; binnen 12 (bzw. 24) Monaten zu übertragen, sonst gewinnerhöhende Auflösung."
+    }
+  ]
+}

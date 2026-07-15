@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Investitionsförderungen - Überblick & Investitionsfreibetrag (§ 11)",
+  "quelle_note": "Einkommensteuer/Investitionsförderungen.md",
+  "karten": [
+    {
+      "id": "est-investitionsfoerderungen-ueberblick-investitionsfreibetrag-11-01",
+      "frage": "Welche zwei Förderarten kennt das EStG?",
+      "antwort": "Direktsubventionen (Prämien - Geldzuschuss, auch im Verlustjahr) und Indirektförderungen (Gewinnminderung: GFB, IFB, stille Reserven, beschl. AfA)."
+    },
+    {
+      "id": "est-investitionsfoerderungen-ueberblick-investitionsfreibetrag-11-02",
+      "frage": "Was ist das Besondere am IFB gegenüber einer Subvention?",
+      "antwort": "Er mindert den Gewinn als zusätzliche Betriebsausgabe, **ohne** die AfA-Basis zu kürzen."
+    },
+    {
+      "id": "est-investitionsfoerderungen-ueberblick-investitionsfreibetrag-11-03",
+      "frage": "Wie hoch ist der IFB 2025?",
+      "antwort": "Dauerrecht 10 % (15 % Öko); **befristet 1.11.2025-31.12.2026 auf 20 % (22 % Öko)** erhöht. Deckel € 1 Mio./Betrieb/WJ."
+    },
+    {
+      "id": "est-investitionsfoerderungen-ueberblick-investitionsfreibetrag-11-04",
+      "frage": "Warum müssen natürliche Personen zwischen IFB und invGFB abwägen?",
+      "antwort": "Beide schließen sich pro WG aus; je nach Konstellation ist das eine oder andere günstiger."
+    }
+  ]
+}
