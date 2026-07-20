@@ -1,0 +1,32 @@
+{
+  "fach": "BAO",
+  "thema": "Der Bescheid",
+  "quelle_note": "Bundesabgabenordnung/Bescheid.md",
+  "karten": [
+    {
+      "id": "bao-der-bescheid-01",
+      "frage": "Welche Bestandteile muss jede schriftliche Erledigung enthalten?",
+      "antwort": "**Bezeichnung der Behörde, Datum, Beglaubigung** (Unterschrift). Bei automationsunterstützter Erstellung entfallen Unterschrift/Beglaubigung."
+    },
+    {
+      "id": "bao-der-bescheid-02",
+      "frage": "Was sind die Inhaltserfordernisse eines Bescheides?",
+      "antwort": "**Bezeichnung als Bescheid, Spruch, Begründung, Rechtsmittelbelehrung.** Unverzichtbar sind Behördenbezeichnung, Spruch und Unterschrift/autmat. Fertigung."
+    },
+    {
+      "id": "bao-der-bescheid-03",
+      "frage": "Nennen Sie Beispiele für verfahrensleitende Verfügungen und was bei einem Rechtsmittel dagegen zu beachten ist.",
+      "antwort": "z.B. Mängelbehebungsauftrag, Vorladung, Prüfungsauftrag, Ergänzungsauftrag. Ein **abgesondertes** Rechtsmittel ist **nicht zulässig** - eine dennoch eingebrachte Beschwerde ist mit **BVE als unzulässig zurückzuweisen**."
+    },
+    {
+      "id": "bao-der-bescheid-04",
+      "frage": "Wann wird eine Erledigung wirksam?",
+      "antwort": "Durch **Bekanntgabe**: schriftlich durch **Zustellung** (oder öffentliche Bekanntmachung/Listenauflegung), mündlich durch **Verkündung**."
+    },
+    {
+      "id": "bao-der-bescheid-05",
+      "frage": "Was passiert, wenn die Rechtsmittelbelehrung fehlt oder falsch ist?",
+      "antwort": "Die Bescheideigenschaft geht **nicht verloren** - es liegt ein Verfahrensmangel vor. Eine **zu lange** angegebene Frist gilt dennoch; eine falsch bezeichnete Einbringungsbehörde schadet der Partei nicht."
+    }
+  ]
+}

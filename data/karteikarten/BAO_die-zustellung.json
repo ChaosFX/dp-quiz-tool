@@ -1,0 +1,37 @@
+{
+  "fach": "BAO",
+  "thema": "Die Zustellung",
+  "quelle_note": "Bundesabgabenordnung/Zustellung.md",
+  "karten": [
+    {
+      "id": "bao-die-zustellung-01",
+      "frage": "Wann gilt eine Zustellung ohne Zustellnachweis als bewirkt?",
+      "antwort": "Am **3. Werktag** nach Übergabe an das Zustellorgan (§ 26 ZustG). Bei nachgewiesener Ortsabwesenheit: mit dem Rückkehr folgenden Tag."
+    },
+    {
+      "id": "bao-die-zustellung-02",
+      "frage": "Wer kommt als Ersatzempfänger in Betracht?",
+      "antwort": "Eine **erwachsene, an derselben Abgabestelle wohnende** Person, oder **Arbeitgeber/Arbeitnehmer** des Empfängers (mit Annahmebereitschaft)."
+    },
+    {
+      "id": "bao-die-zustellung-03",
+      "frage": "Ab wann gilt ein Schriftstück bei Hinterlegung als zugestellt?",
+      "antwort": "Mit dem **ersten Tag der Abholfrist** (mind. 2 Wochen) - unabhängig von der tatsächlichen Abholung."
+    },
+    {
+      "id": "bao-die-zustellung-04",
+      "frage": "Was versteht man unter \"Zustellfiktion\" und wo kommt sie zur Anwendung?",
+      "antwort": "Eine Erledigung wirkt gegenüber Personen, dene **nicht tatsächlich** zugestellt wurde - z.B. bei der **einheitlichen Feststellung von Einkünften** (§ 188 iVm § 81 BAO): Zustellung an den Vertreter wirkt für alle Beteiligten."
+    },
+    {
+      "id": "bao-die-zustellung-05",
+      "frage": "Wie ist vorzugehen, wenn kein Bekannte Abgabestelle vorliegt?",
+      "antwort": "Aufforderung zur Bekanntgabe eines Zustellbevollmächtigen (2 Wochen); sonst Übersendung an bekannte Adresse (+2 Wochen); ansonsten öffentliche Bekanntmachung (elektronische Amtstafel)."
+    },
+    {
+      "id": "bao-die-zustellung-06",
+      "frage": "Kann eine mangelhafte Zustellung geheilt werden?",
+      "antwort": "**Ja** (§ 7 ZustG) - sobald das Dokument dem Empfänger **tatsächlich und unversehrt zukommt**, gilt es ab diesem Zeitpunkt als zugestellt. **Keine** Heilung, wenn das Dokument zerstört/unleserlich ankommt."
+    }
+  ]
+}

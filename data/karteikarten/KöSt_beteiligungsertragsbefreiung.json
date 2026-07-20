@@ -1,0 +1,42 @@
+{
+  "fach": "KöSt",
+  "thema": "Beteiligungsertragsbefreiung",
+  "quelle_note": "Körperschaftsteuer/Beteiligungsertragsbefreiung.md",
+  "karten": [
+    {
+      "id": "koest-beteiligungsertragsbefreiung-01",
+      "frage": "Was bedeutet \"Gewinnanteil\" im Sinne des § 10 KStG?",
+      "antwort": "Überbegriff für Beteiligungsertrag/Dividenden/Ausschüttung - umfasst offene **und** verdeckte Ausschüttung."
+    },
+    {
+      "id": "koest-beteiligungsertragsbefreiung-02",
+      "frage": "Welche drei Varianten der Beteiligungsertragsbefreiung gibt es und wodurch unterscheiden sei sich?",
+      "antwort": "Inlandsfall, Portfoliobeteiligung (beide: kein Mindestausmaß/keine Behaltedauer, SGW/SV steuerpflichtig) und internationale Schachtel (>10 %, >1 Jahr; SGW/SV je nach Option steuerpflichtig oder steuerneutral)."
+    },
+    {
+      "id": "koest-beteiligungsertragsbefreiung-03",
+      "frage": "Was bewirkt die Option nach § 10 Abs 3 KStG und was NICHT?",
+      "antwort": "Sie macht SGW/SV der internationalen Schachtel **steuerwirksam** (statt automatisch steuerneutral). Sie hat **keinen** Einfluss auf die Steuerfreiheit der Gewinnanteile - die bleibt immer bestehen."
+    },
+    {
+      "id": "koest-beteiligungsertragsbefreiung-04",
+      "frage": "Bis wann muss die Option ausgeübt werden und ist sie widerrufbar?",
+      "antwort": "In der KöSt-Erklärung für das Anschaffungsjahr, spätestens 1 Monat nach deren Abgabe. Die Entscheidung ist **endgültig** - weder nachholbar noch widerrufbar."
+    },
+    {
+      "id": "koest-beteiligungsertragsbefreiung-05",
+      "frage": "Wann entsteht bzw. endet eine internationale Schachtelbeteiligung?",
+      "antwort": "Entsteht bei erstmaligem Erwerb/Überschreiten von 10 % (ggf. rückwirkend nach Ablauf der 1-Jahres-Frist). Endet bei Veräußerung oder Absinken unter 10 %."
+    },
+    {
+      "id": "koest-beteiligungsertragsbefreiung-06",
+      "frage": "Was passiert, wenn keine der drei Varianten des § 10 KStG erfüllt ist?",
+      "antwort": "§ 10 KStG ist nicht anwendbar - sowohl Gewinnanteile als auch Substanzgewinn/-verluste sind **voll steuerpflichtig**."
+    },
+    {
+      "id": "koest-beteiligungsertragsbefreiung-07",
+      "frage": "Wozu dient § 10 Abs 4 KStG (hybride Finanzierungsinstrumente)?",
+      "antwort": "Verhindert doppelte Nichtbesteuerung: ist der Gewinnanteil im Ausland als Betriebsausgabe abzugsfähig, wird er bei der österreichischen Mutter trotz grundsätzlicher Befreiung als Betriebseinnahme nachversteuert (nur 1. Auslandsebene)."
+    }
+  ]
+}

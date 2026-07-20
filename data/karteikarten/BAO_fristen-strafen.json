@@ -1,0 +1,32 @@
+{
+  "fach": "BAO",
+  "thema": "Fristen & Strafen",
+  "quelle_note": "Bundesabgabenordnung/Fristen & Strafen.md",
+  "karten": [
+    {
+      "id": "bao-fristen-strafen-01",
+      "frage": "Wann ist eine gesetzliche Frist verlängerbar?",
+      "antwort": "Nur, wenn das **Gesetz  dies ausdrücklich vorsieht**. Behördliche Fristen sind hingegen **immer** verlängerbar."
+    },
+    {
+      "id": "bao-fristen-strafen-02",
+      "frage": "Kann eine Zwangsstrafe zur Erzwingung der Abgabenentrichtung verhängt werden?",
+      "antwort": "**Nein** - die Abgabenentrichtung ist eine **vertretbare** Leistung, § 111 erfasst nur **nicht vertretbare** Leistungen."
+    },
+    {
+      "id": "bao-fristen-strafen-03",
+      "frage": "Wie hoch dürfen die drei Strafen maximal sein?",
+      "antwort": "**Zwangsstrafen: € 5.000\nOrdnungsstrafen: € 700\nMutwillensstrafe: € 700**"
+    },
+    {
+      "id": "bao-fristen-strafen-04",
+      "frage": "Muss die Zwangsstrafe angedroht werden?",
+      "antwort": "**Ja**, schriftlich mit angemessener Frist und **konkretem Betrag** - verhängt werden darf höchstens der **angedrohte** Betrag."
+    },
+    {
+      "id": "bao-fristen-strafen-05",
+      "frage": "Was passiert, wenn ein Fristverlängerungsantrag abgelehnt wird?",
+      "antwort": "Es handelt sich um eine **verfahrensleitende Verfügung** - **kein** gesondertes Rechtmittel möglich."
+    }
+  ]
+}

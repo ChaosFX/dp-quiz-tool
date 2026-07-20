@@ -1,0 +1,32 @@
+{
+  "fach": "BAO",
+  "thema": "Das Legalitätsprinzip",
+  "quelle_note": "Bundesabgabenordnung/Legalitätsprinzip.md",
+  "karten": [
+    {
+      "id": "bao-das-legalitaetsprinzip-01",
+      "frage": "Was besagt das Legalitätsprinzip und woher stammt es?",
+      "antwort": "Verwaltungshandeln muss auf einer **gesetzlichen Grundlage** beruhen (Art 18 B-VG) - der **wichtigste** Grundsatz des Abgabenverfahrens."
+    },
+    {
+      "id": "bao-das-legalitaetsprinzip-02",
+      "frage": "Nennen Sie die Grundsätze, die das Abgabenverfahren prägen.",
+      "antwort": "Legalitätsprinzip, Gleichmäßigkeit der Besteuerung, Treu und Glauben, Amtswegigkeit, Mitwirkungspflicht der Partei, Parteiengehör, objektive Feststellung auch zugunsten der Partei, **kein Neuerungsverbot**."
+    },
+    {
+      "id": "bao-das-legalitaetsprinzip-03",
+      "frage": "Sind Abgabenverfahren grundsätzlich von Amts wegen einzuleiten?",
+      "antwort": "**Ja** - außer die Einleitung hängt von einem **Antrag** ab (z.B. § 212, § 212a)."
+    },
+    {
+      "id": "bao-das-legalitaetsprinzip-04",
+      "frage": "Können nicht offengelegt Tatsachen nach dem Erstbescheid noch berücksichtigt werden?",
+      "antwort": "**Ja** - es gilt **kein Neuerungsverbot**; neue Tatsachen können auch später berücksichtigt werden (vgl. auch § 270 BAO für das BFG-Verfahren)."
+    },
+    {
+      "id": "bao-das-legalitaetsprinzip-05",
+      "frage": "Was ist eine Vorfrage und wie geht die Behörde damit um?",
+      "antwort": "Eine für das Verfahren relevante Rechtsfrage, für die die Abgabenbehörde **nicht zuständig** ist. Sie darf sie **selbst beurteilen** (Ermessen) oder die Entscheidung der zuständigen Behörde abwarten. Eine spätere abweichende Beurteilung kann **Wiederaufnahmsgrund** sein."
+    }
+  ]
+}

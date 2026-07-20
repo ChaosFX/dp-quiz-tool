@@ -1,0 +1,47 @@
+{
+  "fach": "KöSt",
+  "thema": "Einlagen",
+  "quelle_note": "Körperschaftsteuer/Einlagen.md",
+  "karten": [
+    {
+      "id": "koest-einlagen-01",
+      "frage": "Was unterscheidet die Einlage iSd § 4 Abs 1 EStG von der iSd § 8 Abs 1 KStG?",
+      "antwort": "§ 4 Abs 1 EStG: Zuordnungsänderung **innerhalb** derselben Person (Privat- → Betriebsvermögen).\n§ 8 Abs 1 KStG: Vermögensübertragung **zwischen zwei** Rechtssubjekten (Gesellschafter → Gesellschaft), mit Eigentumswechesel."
+    },
+    {
+      "id": "koest-einlagen-02",
+      "frage": "Warum bleiben Geldeinlagen beim Gesellschafter immer steuerneutral, Sacheinlagen aber nicht?",
+      "antwort": "Der gemeine Wert von Geld = Nominalwert, es entsteht keine aufdeckbare Differenz.\nBei Sacheinlagen kann der gemeine Wert über den historischen AK liegen → Aufdeckung stiller Reserven (Tauschcharakter = Veräußerung)."
+    },
+    {
+      "id": "koest-einlagen-03",
+      "frage": "Nenne die vier Voraussetzungen einer verdeckten Einlage.",
+      "antwort": "Eigentums-/Nahebeziehung;\nobjektives Tatbild (Bereicherung der Gesellschaft);\nsubjektives Tatbild (Vorteilsgewährungsabsicht);\nnicht fremdüblich."
+    },
+    {
+      "id": "koest-einlagen-04",
+      "frage": "Wie wird ein Forderungsverzicht steuerlich behandelt?",
+      "antwort": "Aufteilung nach Werthaltigkeit: werthaltiger Teil = Einlage (AK-Erhöhung / steuerneutrale Bereicherung);\nnicht werthaltiger Teil = Betriebsausgabe beim Gesellschafter / steuerwirksame Betriebseinnahme bei der Gesellschaft."
+    },
+    {
+      "id": "koest-einlagen-05",
+      "frage": "Wie werden Nutzungseinlagen im Inland behandelt - und was gilt bei Auslandsbezug?",
+      "antwort": "Im Inland **steuerlich unbeachtlich** (keine Korrektur). \nBei Auslandsbezug: fremdübliche Werte gem. § 6 Z 6 lit a EStG anzusetzen."
+    },
+    {
+      "id": "koest-einlagen-06",
+      "frage": "Echte vs. unechte Mitgliedsbeiträge - Unterschied?",
+      "antwort": "Echte: keine konkrete Gegenleistung → steuerneutrale Einlage.\nUnechte: konkrete Gegenleistung → Einnahmen, ggf. KöSt-pflichtig."
+    },
+    {
+      "id": "koest-einlagen-07",
+      "frage": "Was ist eine Einlagenrückzahlung und wie unterscheidet sie sich von einer Ausschüttung?",
+      "antwort": "Ein Rücktausch/Veräußerungsvorgang aus der Außenfinanzierung - keine Ausschüttung. Bei der Gesellschaft steuerneutral; beim Gesellschafter AK-Verringerung bis max. Null, Überschuss = Substanzgewinn."
+    },
+    {
+      "id": "koest-einlagen-08",
+      "frage": "Wann besteht ein Wahlrecht zwischen Ausschüttung und Einlagenrückzahlung, wann nicht?",
+      "antwort": "Wahlrecht nur wenn **beide** Evidenzkonten (Innenfinanzierung UND disponible Einlagen) positiv sind (einheitlich für alle Gesellschafter).\nIst Innenfinanzierung negativ und disponible Einlagen positiv → zwingend Einlagenrückzahlung. \nSind beide negativ → im Zweifel Ausschüttung."
+    }
+  ]
+}

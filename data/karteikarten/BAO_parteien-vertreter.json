@@ -1,0 +1,37 @@
+{
+  "fach": "BAO",
+  "thema": "Parteien & Vertreter",
+  "quelle_note": "Bundesabgabenordnung/Parteien & Vertreter.md",
+  "karten": [
+    {
+      "id": "bao-parteien-vertreter-01",
+      "frage": "Was versteht man unter absoluter bzw. relativer Befangenheit?",
+      "antwort": "**Absolut:** eigene Abgabenangelegenheiten, Angelegenheiten von Angehörigen (§ 25), wenn der Organwalter Vertreter der Partei ist/war, oder er im Beschwerdeverfahren am angefochtenen Bescheid/der BVE mitgewirkt hat.\n**Relative:** sonstige Gründe (Freundschaft, Feindschaft, geschäftliche/zivilrechtliche Beziehung), die Zweifel an der Unbefangenheit wecken."
+    },
+    {
+      "id": "bao-parteien-vertreter-02",
+      "frage": "Wie ist bei Befangenheit und Gefahr in Verzug vorzugehen?",
+      "antwort": "Ausnahmsweise darf trotz Befangenheit gehandelt werden, **außer** bei eigenen oder verwandtschaftlichen Angelegenheiten - dort bleibt der Ausschluss **absolut**."
+    },
+    {
+      "id": "bao-parteien-vertreter-03",
+      "frage": "Wer kommt als Abgabepflichtiger in Betracht?",
+      "antwort": "Wer den Sachverhalt verwirklicht, zur Haftung/als Gesamtschuldner herangezogen werden kann, oder abfuhrpflichtig ist."
+    },
+    {
+      "id": "bao-parteien-vertreter-04",
+      "frage": "Was kann das Finanzamt unternehmen, wenn eine OG keinen gemeinsamen Vertreter bekanntgibt? Liegt das im Ermessen?",
+      "antwort": "Die Behörde kann selbst **eine Person zum Vertreter bestellen** (§ 81) - das liegt im **Ermessen** der Behörde."
+    },
+    {
+      "id": "bao-parteien-vertreter-05",
+      "frage": "Wer unterliegt der abgabenrechtlichen Geheimhaltungspflicht?",
+      "antwort": "**Beamte, ehemalige Beamte** und alle sonstigen am Verfahren **Mitwirkenden** (z.B. Sachverständige)."
+    },
+    {
+      "id": "bao-parteien-vertreter-06",
+      "frage": "Wie hoch ist der Umsatz-Schwellenwert für den Übergang der Zuständigkeit vom FAÖ zum FAG?",
+      "antwort": "**€ 10 Mio.** in zwei aufeinanderfolgenden Jahren."
+    }
+  ]
+}

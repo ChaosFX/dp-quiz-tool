@@ -1,0 +1,32 @@
+{
+  "fach": "BAO",
+  "thema": "Anbringen & Mängelbehebung",
+  "quelle_note": "Bundesabgabenordnung/Anbringen & Mängelbehebung.md",
+  "karten": [
+    {
+      "id": "bao-anbringen-maengelbehebung-01",
+      "frage": "Ein Anbringen wird ohne Unterschrift eingebracht - wie geht die Behörde vor?",
+      "antwort": "Es handelt sich um einen **behebbaren** (formellen) Mangel - **Mängelbehebungsauftrag** nach § 85 Abs 2."
+    },
+    {
+      "id": "bao-anbringen-maengelbehebung-02",
+      "frage": "Was passiert, wenn ein Mängelbehebungsauftrag fruchtlos verstreicht?",
+      "antwort": "Das Anbringen **gilt als zurückgenommen** - die Behörde muss dazu einen **Zurücknahmebescheid** erlassen (kein Automatismus)."
+    },
+    {
+      "id": "bao-anbringen-maengelbehebung-03",
+      "frage": "Wann ist zwingend eine Niederschrift aufzunehmen?",
+      "antwort": "Bei **mündlichen Anbringen** nach § 85 Abs 3 (Muss-Bestimmung). Bei Einvernahme/Augenschein besteht eine Kann-Bestimmung."
+    },
+    {
+      "id": "bao-anbringen-maengelbehebung-04",
+      "frage": "Welche Aktenteile sind von der Akteneinsicht ausgenommen?",
+      "antwort": "**Beratungsprotokolle, Amtsvorträge, Erledigungsentwürfe** sowie Unterlagen, deren Einsicht **berechtigte Interessen Dritter** verletzen würde."
+    },
+    {
+      "id": "bao-anbringen-maengelbehebung-05",
+      "frage": "Ist gegen eine Vorladung ein Rechtsmittel möglich?",
+      "antwort": "**Nein** - die Vorladung ist eine **verfahrenleitende Verfügung**."
+    }
+  ]
+}

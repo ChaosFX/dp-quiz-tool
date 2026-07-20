@@ -1,10 +1,22 @@
 {
   "nodes": [
     {
+      "id": "Bundesabgabenordnung/Anbringen & Mängelbehebung",
+      "label": "Anbringen & Mängelbehebung",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Anbringen & Mängelbehebung.md"
+    },
+    {
       "id": "Bundesabgabenordnung/BAO-Merksätze",
       "label": "BAO – Merksätze (laufende Sammlung)",
       "fach": "BAO",
       "pfad": "Bundesabgabenordnung/BAO-Merksätze.md"
+    },
+    {
+      "id": "Bundesabgabenordnung/Bescheid",
+      "label": "Der Bescheid",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Bescheid.md"
     },
     {
       "id": "Bundesabgabenordnung/Ermessen",
@@ -13,16 +25,46 @@
       "pfad": "Bundesabgabenordnung/Ermessen.md"
     },
     {
+      "id": "Bundesabgabenordnung/Fristen & Strafen",
+      "label": "Fristen & Strafen",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Fristen & Strafen.md"
+    },
+    {
       "id": "Bundesabgabenordnung/Haftung",
       "label": "Haftung",
       "fach": "BAO",
       "pfad": "Bundesabgabenordnung/Haftung.md"
     },
     {
+      "id": "Bundesabgabenordnung/Legalitätsprinzip",
+      "label": "Das Legalitätsprinzip",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Legalitätsprinzip.md"
+    },
+    {
+      "id": "Bundesabgabenordnung/Parteien & Vertreter",
+      "label": "Parteien & Vertreter",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Parteien & Vertreter.md"
+    },
+    {
+      "id": "Bundesabgabenordnung/Verjährung",
+      "label": "Verjährung",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Verjährung.md"
+    },
+    {
       "id": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
       "label": "Wirtschaftliche Betrachtungsweise",
       "fach": "BAO",
       "pfad": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise.md"
+    },
+    {
+      "id": "Bundesabgabenordnung/Zustellung",
+      "label": "Die Zustellung",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Zustellung.md"
     },
     {
       "id": "Bundesabgabenordnung/Überblick & Wesen BAO",
@@ -77,6 +119,12 @@
       "label": "Einnahmen-Ausgaben-Rechnung (EAR)",
       "fach": "ESt",
       "pfad": "Einkommensteuer/Einnahmen Ausgaben Rechnung.md"
+    },
+    {
+      "id": "Einkommensteuer/Forschungsprämie",
+      "label": "Forschungsprämie (§ 108c EStG)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Forschungsprämie.md"
     },
     {
       "id": "Einkommensteuer/Gewinnermittlung - Überblick",
@@ -217,10 +265,22 @@
       "pfad": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht.md"
     },
     {
+      "id": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "label": "Beteiligungsertragsbefreiung",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Beteiligungsertragsbefreiung.md"
+    },
+    {
       "id": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
       "label": "Betriebe gewerblicher Art (BgA)",
       "fach": "KöSt",
       "pfad": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA).md"
+    },
+    {
+      "id": "Körperschaftsteuer/Einlagen",
+      "label": "Einlagen",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Einlagen.md"
     },
     {
       "id": "Körperschaftsteuer/Gemeinnützige Körperschaften",
@@ -349,10 +409,22 @@
       "pfad": "Rechtsquellen/EStG/§ 10 EStG.md"
     },
     {
+      "id": "Rechtsquellen/EStG/§ 108c EStG",
+      "label": "§ 108c EStG – Forschungsprämie",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 108c EStG.md"
+    },
+    {
       "id": "Rechtsquellen/EStG/§ 11 EStG",
       "label": "§ 11 EStG – Investitionsfreibetrag (IFB)",
       "fach": "ESt",
       "pfad": "Rechtsquellen/EStG/§ 11 EStG.md"
+    },
+    {
+      "id": "Rechtsquellen/EStG/§ 12 EStG",
+      "label": "Übertragung stiller Reserven, Übertragungsrücklage und steuerfreier Betrag",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 12 EStG.md"
     },
     {
       "id": "Rechtsquellen/EStG/§ 18 EStG",
@@ -415,6 +487,12 @@
       "pfad": "Rechtsquellen/KStG/§ 1 KStG.md"
     },
     {
+      "id": "Rechtsquellen/KStG/§ 10 KStG",
+      "label": "Beteiligungsertragsbefreiung",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 10 KStG.md"
+    },
+    {
       "id": "Rechtsquellen/KStG/§ 2 KStG",
       "label": "Betrieb gewerblicher Art einer Körperschaft öffentlichen Rechts",
       "fach": "KöSt",
@@ -437,6 +515,12 @@
       "label": "Einkommen, Einkommensermittlung",
       "fach": "KöSt",
       "pfad": "Rechtsquellen/KStG/§ 7 KStG.md"
+    },
+    {
+      "id": "Rechtsquellen/KStG/§ 8 KStG",
+      "label": "Einlagen, Ausschüttung und sonstige Vermögensbewegungen",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 8 KStG.md"
     },
     {
       "id": "Rechtsquellen/UStG/§ 1 UStG",
@@ -467,6 +551,12 @@
       "label": "Entgelt",
       "fach": "USt",
       "pfad": "Umsatzsteuer/Entgelt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Innergemeinschaftlicher Erwerb",
+      "label": "Innergemeinschaftlicher Erwerb",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Innergemeinschaftlicher Erwerb.md"
     },
     {
       "id": "Umsatzsteuer/Kleinunternehmer USt",
@@ -537,6 +627,42 @@
   ],
   "edges": [
     {
+      "source": "Bundesabgabenordnung/Anbringen & Mängelbehebung",
+      "target": "Bundesabgabenordnung/Bescheid"
+    },
+    {
+      "source": "Bundesabgabenordnung/Anbringen & Mängelbehebung",
+      "target": "Bundesabgabenordnung/Fristen & Strafen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Anbringen & Mängelbehebung",
+      "target": "Bundesabgabenordnung/Zustellung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Anbringen & Mängelbehebung",
+      "target": "Bundesabgabenordnung/Parteien & Vertreter"
+    },
+    {
+      "source": "Bundesabgabenordnung/Anbringen & Mängelbehebung",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Bescheid",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Bescheid",
+      "target": "Bundesabgabenordnung/Zustellung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Bescheid",
+      "target": "Bundesabgabenordnung/Anbringen & Mängelbehebung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Bescheid",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
       "source": "Bundesabgabenordnung/Ermessen",
       "target": "Rechtsquellen/BAO/§ 20 BAO"
     },
@@ -551,6 +677,26 @@
     {
       "source": "Bundesabgabenordnung/Ermessen",
       "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Fristen & Strafen",
+      "target": "Bundesabgabenordnung/Bescheid"
+    },
+    {
+      "source": "Bundesabgabenordnung/Fristen & Strafen",
+      "target": "Bundesabgabenordnung/Legalitätsprinzip"
+    },
+    {
+      "source": "Bundesabgabenordnung/Fristen & Strafen",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Fristen & Strafen",
+      "target": "Bundesabgabenordnung/Zustellung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Fristen & Strafen",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
     },
     {
       "source": "Bundesabgabenordnung/Haftung",
@@ -575,6 +721,42 @@
     {
       "source": "Bundesabgabenordnung/Haftung",
       "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Legalitätsprinzip",
+      "target": "Rechtsquellen/BAO/§ 20 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Legalitätsprinzip",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Legalitätsprinzip",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Parteien & Vertreter",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Parteien & Vertreter",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Parteien & Vertreter",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Parteien & Vertreter",
+      "target": "Bundesabgabenordnung/Anbringen & Mängelbehebung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Parteien & Vertreter",
+      "target": "Bundesabgabenordnung/Bescheid"
+    },
+    {
+      "source": "Bundesabgabenordnung/Parteien & Vertreter",
+      "target": "Rechtsquellen/BAO/§ 9 BAO"
     },
     {
       "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
@@ -603,6 +785,14 @@
     {
       "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
       "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
+    },
+    {
+      "source": "Bundesabgabenordnung/Zustellung",
+      "target": "Bundesabgabenordnung/Bescheid"
+    },
+    {
+      "source": "Bundesabgabenordnung/Zustellung",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
     },
     {
       "source": "Bundesabgabenordnung/Überblick & Wesen BAO",
@@ -841,6 +1031,18 @@
       "target": "Rechtsquellen/EStG/§ 4 EStG"
     },
     {
+      "source": "Einkommensteuer/Forschungsprämie",
+      "target": "Einkommensteuer/Investitionsförderungen"
+    },
+    {
+      "source": "Einkommensteuer/Forschungsprämie",
+      "target": "Einkommensteuer/Gewinnfreibetrag"
+    },
+    {
+      "source": "Einkommensteuer/Forschungsprämie",
+      "target": "Rechtsquellen/EStG/§ 108c EStG"
+    },
+    {
       "source": "Einkommensteuer/Gewinnermittlung - Überblick",
       "target": "Einkommensteuer/Betriebsvermögen"
     },
@@ -907,6 +1109,10 @@
     {
       "source": "Einkommensteuer/Investitionsförderungen",
       "target": "Einkommensteuer/Stille Reserven"
+    },
+    {
+      "source": "Einkommensteuer/Investitionsförderungen",
+      "target": "Einkommensteuer/Forschungsprämie"
     },
     {
       "source": "Einkommensteuer/Investitionsförderungen",
@@ -1078,6 +1284,10 @@
     },
     {
       "source": "Einkommensteuer/Stille Reserven",
+      "target": "Rechtsquellen/EStG/§ 12 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Stille Reserven",
       "target": "Einkommensteuer/Investitionsförderungen"
     },
     {
@@ -1233,6 +1443,34 @@
       "target": "Rechtsquellen/KStG/§ 1 KStG"
     },
     {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
       "source": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)",
       "target": "Rechtsquellen/KStG/§ 2 KStG"
     },
@@ -1265,12 +1503,52 @@
       "target": "Rechtsquellen/KStG/§ 5 KStG"
     },
     {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Einkommensteuer/Stille Reserven"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Einkommensteuer/ImmoESt"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaften"
+    },
+    {
       "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
       "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
     },
     {
       "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
       "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
     },
     {
       "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
@@ -1287,6 +1565,10 @@
     {
       "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
       "target": "Rechtsquellen/KStG/§ 5 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Gemeinnützige Körperschaften",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
     },
     {
       "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
@@ -1322,7 +1604,15 @@
     },
     {
       "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
       "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Einlagen"
     },
     {
       "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
@@ -1342,6 +1632,10 @@
     },
     {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
       "target": "Rechtsquellen/KStG/§ 5 KStG"
     },
     {
@@ -1351,6 +1645,10 @@
     {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
       "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
+    },
+    {
+      "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
     },
     {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
@@ -1366,11 +1664,27 @@
     },
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Rechtsquellen/KStG/§ 1 KStG"
     },
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
     },
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
@@ -1617,12 +1931,44 @@
       "target": "Rechtsquellen/EStG/§ 11 EStG"
     },
     {
+      "source": "Rechtsquellen/EStG/§ 108c EStG",
+      "target": "Einkommensteuer/Forschungsprämie"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 108c EStG",
+      "target": "Einkommensteuer/Investitionsförderungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 108c EStG",
+      "target": "Rechtsquellen/EStG/§ 10 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 108c EStG",
+      "target": "Rechtsquellen/EStG/§ 11 EStG"
+    },
+    {
       "source": "Rechtsquellen/EStG/§ 11 EStG",
       "target": "Einkommensteuer/Investitionsförderungen"
     },
     {
       "source": "Rechtsquellen/EStG/§ 11 EStG",
       "target": "Rechtsquellen/EStG/§ 10 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 12 EStG",
+      "target": "Einkommensteuer/Stille Reserven"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 12 EStG",
+      "target": "Einkommensteuer/Investitionsförderungen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 12 EStG",
+      "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 12 EStG",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
     },
     {
       "source": "Rechtsquellen/EStG/§ 18 EStG",
@@ -1810,6 +2156,10 @@
     },
     {
       "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
       "target": "Einkommensteuer/Bewertung Wirtschaftsgüter"
     },
     {
@@ -1823,6 +2173,10 @@
     {
       "source": "Rechtsquellen/EStG/§ 6 EStG",
       "target": "Einkommensteuer/Betriebsvermögen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Körperschaftsteuer/Einlagen"
     },
     {
       "source": "Rechtsquellen/EStG/§ 6 EStG",
@@ -1881,6 +2235,30 @@
       "target": "Rechtsquellen/KStG/§ 7 KStG"
     },
     {
+      "source": "Rechtsquellen/KStG/§ 10 KStG",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 10 KStG",
+      "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 10 KStG",
+      "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 10 KStG",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 10 KStG",
+      "target": "Rechtsquellen/KStG/§ 1 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 10 KStG",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
       "source": "Rechtsquellen/KStG/§ 2 KStG",
       "target": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA)"
     },
@@ -1918,6 +2296,10 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 5 KStG",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 5 KStG",
       "target": "Körperschaftsteuer/Steuerbefreiungen KöSt"
     },
     {
@@ -1938,6 +2320,10 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 7 KStG",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 7 KStG",
       "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
     },
     {
@@ -1946,11 +2332,39 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 7 KStG",
+      "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 7 KStG",
       "target": "Rechtsquellen/EStG/§ 2 EStG"
     },
     {
       "source": "Rechtsquellen/KStG/§ 7 KStG",
       "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
     },
     {
       "source": "Rechtsquellen/UStG/§ 1 UStG",
@@ -2091,6 +2505,10 @@
     {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
       "target": "Rechtsquellen/UStG/§ 1 UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
+      "target": "Umsatzsteuer/Innergemeinschaftlicher Erwerb"
     },
     {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",

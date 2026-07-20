@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Forschungsprämie (§ 108c EStG)",
+  "quelle_note": "Einkommensteuer/Forschungsprämie.md",
+  "karten": [
+    {
+      "id": "est-forschungspraemie-108c-estg-01",
+      "frage": "Wie hoch ist die Forschungsprämie und wofür?",
+      "antwort": "14 % der prämienbegünstigten Aufwendungen für eigenbetriebliche Forschung und Auftragsforschung."
+    },
+    {
+      "id": "est-forschungspraemie-108c-estg-02",
+      "frage": "Worin unterscheiden sich eigenbetriebliche und Auftragsforschung?",
+      "antwort": "Eigenbetriebliche: FFG-Gutachten, kein Deckel.\nAuftragsforschung: Auftragnehmer in EU/EWR (nicht konzernverbunden), Deckel € 1 Mio. → max € 140.000, Mitteilungspflicht."
+    },
+    {
+      "id": "est-forschungspraemie-108c-estg-03",
+      "frage": "Warum ist die Prämie auch im Verlustjahr interessant?",
+      "antwort": "Sie sit ein direkter Geldzuschuss (Direktsubvention), unabhängig vom Einkommen, keine Betriebseinnahme, keine AK/HK-Kürzung."
+    },
+    {
+      "id": "est-forschungspraemie-108c-estg-04",
+      "frage": "Bis wann ist die Prämie geltend zu machen?",
+      "antwort": "Nach Ablauf des WJ, spätestens bis zur Rechtskraft des ESt-/Feststellungsbescheides."
+    }
+  ]
+}
