@@ -1,8 +1,8 @@
 {
   "fach": "ESt",
   "quelle": "Zusammenführung quiz_ESt_v2 (70 Fragen) und quiz_ESt_learningapps (28 Fragen)",
-  "hinweis": "Fragen mit typ='multiple' erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025. GFB-Figuren (est-26) auf 2025er-Werte korrigiert (Schwelle € 33.000 / Grundfreibetrag € 4.950); Dublette est-70 entfernt. Ergänzt um est-71 bis est-76 aus den Übungsfragen-PDFs (Juli 2026): PKW-Luxustangente, Instandsetzung/Herstellungsaufwand V+V, Rententatbestände § 29 Z 1, Halbsatzbegünstigung bei Erwerbsunfähigkeit, Hauptwohnsitzbefreiung-Fristen.",
-  "anzahl": 103,
+  "hinweis": "Fragen mit typ='multiple' erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025. GFB-Figuren (est-26) auf 2025er-Werte korrigiert (Schwelle € 33.000 / Grundfreibetrag € 4.950); Dublette est-70 entfernt. Ergänzt um est-71 bis est-76 aus den Übungsfragen-PDFs (Juli 2026): PKW-Luxustangente, Instandsetzung/Herstellungsaufwand V+V, Rententatbestände § 29 Z 1, Halbsatzbegünstigung bei Erwerbsunfähigkeit, Hauptwohnsitzbefreiung-Fristen. Ergänzt um est-77 bis est-79 mit den neuen Fragetypen (Lückentext, Permutation, Zuordnung) aus den Beispielen in KONZEPT.md; die Zuordnungsfrage est-79 behandelt dieselben Maßnahmen wie die Multiple-Choice-Frage est-72 in einem anderen Format.",
+  "anzahl": 106,
   "fragen": [
     {
       "id": "est-01",
@@ -1836,6 +1836,109 @@
         1
       ],
       "erklaerung": "§ 30 Abs 2 Z 1 EStG kennt zwei alternative Varianten: (1) durchgehend ab Anschaffung bis Veräußerung mind. 2 Jahre Hauptwohnsitz, oder (2) innerhalb der letzten 10 Jahre vor der Veräußerung mind. durchgehend 5 Jahre Hauptwohnsitz (auch mit Unterbrechung, zB durch zwischenzeitliche Vermietung). In beiden Varianten ist zusätzlich Voraussetzung, dass der Hauptwohnsitz im Zuge der Veräußerung aufgegeben wird – das Gegenteil von Option D. Option C und E vertauschen die Zahlenwerte der beiden echten Varianten (klassische Prüfungsfalle)."
+    },
+    {
+      "id": "est-77",
+      "typ": "luecke",
+      "thema": "PKW – Überwiegensprinzip",
+      "text": "Bei diesem PKW handelt es sich um ein {0} Wirtschaftsgut, weil er teils privat und teils betrieblich genutzt wird. Bewegliche Wirtschaftsgüter gehören nach dem {1} zur Gänze zum Betriebs- bzw. Privatvermögen. Da der PKW überwiegend betrieblich genutzt wird, stellt er zur Gänze {2} dar. Die Luxustangente beträgt {3}. Der Privatanteil von {4} ist auszuscheiden.",
+      "luecken": [
+        {
+          "optionen": [
+            "bewegliches",
+            "unbewegliches",
+            "gemischt genutztes",
+            "ungenutztes"
+          ],
+          "loesung": 2
+        },
+        {
+          "optionen": [
+            "Aufteilungsprinzip",
+            "Überwiegensprinzip"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Privatvermögen",
+            "Betriebsvermögen"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "25 %",
+            "33 %",
+            "67 %",
+            "75 %"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "25 %",
+            "33 %",
+            "67 %",
+            "75 %"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Gemischt genutzte bewegliche Wirtschaftsgüter werden nach dem Überwiegensprinzip zur Gänze jener Vermögenssphäre zugeordnet, in der die überwiegende Nutzung liegt – hier also zur Gänze dem Betriebsvermögen. Die Luxustangente kürzt die AfA-Bemessungsgrundlage auf die Angemessenheitsgrenze; der auf die Privatnutzung entfallende Anteil ist zusätzlich als Privatanteil auszuscheiden."
+    },
+    {
+      "id": "est-78",
+      "typ": "permutation",
+      "thema": "Einkunftsarten – Zuordnung",
+      "frage": "Ordne die Einkünfte des Elektrikers Manni der richtigen Einkunftsart zu.",
+      "kategorien": [
+        "Einkünfte aus Kapitalvermögen",
+        "Sonstige Einkünfte (Spekulationsgeschäft)",
+        "Einkünfte aus Vermietung und Verpachtung",
+        "Einkünfte aus Kapitalvermögen (Dividende)"
+      ],
+      "elemente": [
+        "Zinsengutschrift für seinen Bausparvertrag",
+        "Verkauf seiner Ferienwohnung in Zell am See (kurz nach Anschaffung)",
+        "Vermietung seines geerbten Eigenheims in Wien",
+        "Dividendenausschüttung aus Lenzing AG-Aktien"
+      ],
+      "loesung": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Zinsen aus Bauspareinlagen und Dividenden aus Aktien zählen zu den Einkünften aus Kapitalvermögen (§ 27). Der Verkauf einer Ferienwohnung kurz nach der Anschaffung ist ein Spekulationsgeschäft bei den sonstigen Einkünften (§ 29 Z 2 iVm § 31). Die Vermietung des geerbten Eigenheims führt zu Einkünften aus Vermietung und Verpachtung (§ 28)."
+    },
+    {
+      "id": "est-79",
+      "typ": "zuordnung",
+      "thema": "V+V – Instandhaltung/Instandsetzung/Herstellungsaufwand",
+      "frage": "Ordne die folgenden Maßnahmen der richtigen Kategorie zu.",
+      "kategorien": [
+        "Instandhaltung (sofort abzugsfähig)",
+        "Instandsetzung (15-Jahresverteilung)",
+        "Herstellungsaufwand"
+      ],
+      "elemente": [
+        "Parkett statt Teppich + Neuanstrich der Wände",
+        "Elektrik/Wasser/Heizung/Dach im 100 Jahre alten Zinshaus erneuert",
+        "Austausch sämtlicher Fenster im gesamten Mietshaus",
+        "Reparatur der Heizungssteuerung um € 1.500",
+        "Umstellung des Heizungssystems von Gas auf Fernwärme um € 60.000",
+        "Dachsanierung mit gleichzeitigem Ausbau zweier neuer Wohnungen"
+      ],
+      "loesung": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Instandhaltung erhält den bisherigen Zustand und ist sofort abzugsfähig (laufende Reparaturen, Ausmalen, Bodentausch). Instandsetzung hebt den Nutzungswert oder verlängert die Nutzungsdauer wesentlich – bei Wohngebäuden zwingend auf 15 Jahre zu verteilen (Fenstertausch, Erneuerung von Elektrik/Heizung/Dach). Herstellungsaufwand ändert die Wesensart des Gebäudes (Ausbau zusätzlicher Wohnungen) und ist über die Restnutzungsdauer abzuschreiben."
     }
   ]
 }
