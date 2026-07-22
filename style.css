@@ -357,6 +357,89 @@ h2 {
 
 .option-btn.muted { opacity: .45; }
 
+/* ── ZUORDNUNG / PERMUTATION ── */
+.zuo-spalten { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.zuo-spalte { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+.zuo-titel {
+  font-size: 11.5px; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--muted); font-weight: 600; margin-bottom: 2px;
+}
+
+.zuo-el, .zuo-kat {
+  display: block; width: 100%; text-align: left;
+  background: var(--surface); border: 2px solid var(--border);
+  border-radius: 11px; padding: 12px 14px; cursor: pointer;
+  font-family: 'IBM Plex Sans', sans-serif; font-size: 14.5px;
+  color: var(--text); box-shadow: var(--shadow);
+  transition: border-color .12s, background .12s, opacity .12s;
+}
+.zuo-el:hover:not(:disabled), .zuo-kat:hover:not(:disabled) { border-color: var(--accent); }
+.zuo-el-text { line-height: 1.4; }
+.zuo-el-kat {
+  margin-top: 5px; font-size: 12.5px; color: var(--accent);
+  font-family: 'IBM Plex Mono', monospace;
+}
+.zuo-el-loesung {
+  margin-top: 4px; font-size: 12.5px; color: var(--ok);
+  font-family: 'IBM Plex Mono', monospace;
+}
+/* aktiv = angetipptes Element, wartet auf Kategorie */
+.zuo-el.aktiv {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, var(--surface));
+}
+.zuo-el.zugewiesen { border-style: solid; }
+.zuo-el.ergebnis { cursor: default; }
+.zuo-el.correct { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 10%, var(--surface)); }
+.zuo-el.wrong   { border-color: var(--no); background: color-mix(in srgb, var(--no) 10%, var(--surface)); }
+.zuo-el.correct .zuo-el-kat { color: var(--ok); }
+.zuo-el.wrong   .zuo-el-kat { color: var(--no); }
+
+.zuo-kat { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.zuo-kat-text { flex: 1; line-height: 1.4; }
+.zuo-kat-count {
+  font-family: 'IBM Plex Mono', monospace; font-size: 12px;
+  color: var(--accent); flex-shrink: 0;
+}
+/* bereits vergeben: nur optisch reduziert, bewusst NICHT deaktiviert */
+.zuo-kat.vergeben { opacity: .55; }
+.zuo-kat.muted { opacity: .45; cursor: default; }
+
+/* ── LÜCKENTEXT ── */
+.luecke-text {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 18px 20px;
+  font-size: 16px; line-height: 2.1; box-shadow: var(--shadow);
+}
+.luecke-select {
+  font-family: 'IBM Plex Sans', sans-serif; font-size: 14.5px;
+  background: var(--surface-2); color: var(--text);
+  border: 2px solid var(--border); border-radius: 8px;
+  padding: 3px 8px; margin: 0 3px; cursor: pointer;
+  max-width: 100%;
+}
+.luecke-select:focus { outline: none; border-color: var(--accent); }
+.luecke-ergebnis {
+  display: inline-block; border-radius: 8px;
+  padding: 2px 9px; margin: 0 3px; font-weight: 600; font-size: 14.5px;
+}
+.luecke-ergebnis.correct {
+  background: color-mix(in srgb, var(--ok) 15%, transparent);
+  color: var(--ok); border: 1px solid var(--ok);
+}
+.luecke-ergebnis.wrong {
+  background: color-mix(in srgb, var(--no) 15%, transparent);
+  color: var(--no); border: 1px solid var(--no);
+}
+.luecke-richtig { font-weight: 400; font-size: 13px; color: var(--ok); }
+
+.fk-korrektur { color: var(--ok); font-size: 12.5px; }
+.fk-luecketext {
+  margin: 8px 0 12px; padding: 10px 12px;
+  background: var(--surface-2); border-radius: 8px;
+  font-size: 13.5px; line-height: 1.9;
+}
+
 /* ── ERKLÄRUNGSBOX ── */
 #erklaerung-box {
   margin-top: 20px; padding: 16px 18px;
@@ -584,9 +667,13 @@ h2 {
 @media (max-width: 720px) {
   .modul-grid { grid-template-columns: 1fr; }
 }
+@media (max-width: 640px) {
+  .zuo-spalten { grid-template-columns: 1fr; gap: 20px; }
+}
 @media (max-width: 580px) {
   h1 { font-size: 24px; }
   h2 { font-size: 20px; }
+  .luecke-text { font-size: 15px; line-height: 2.2; }
   .results-pct { font-size: 48px; }
   .fb-name { width: 90px; font-size: 12.5px; }
   .fc-inhalt.frage { font-size: 19px; }

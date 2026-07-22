@@ -802,21 +802,21 @@ den Vault zu.
       Prozentwert + Aufschlüsselung (vollständig richtig / teilweise / falsch)
 - [x] Abwärtskompatibilität: Fragen ohne `typ`-Feld werden als `"single"`
       behandelt — alle bestehenden JSON-Files funktionieren ohne Änderung
-- [ ] `zuordnung`-Fragen werden per Klick-Sequenz (Element → Kategorie)
+- [x] `zuordnung`-Fragen werden per Klick-Sequenz (Element → Kategorie)
       bedienbar dargestellt, mit „Auswerten"-Button und Partial-Credit-Score
       pro Element (grün/rot-Feedback nach Auswertung)
-- [ ] `permutation`-Fragen funktionieren analog zu `zuordnung`, inkl.
+- [x] `permutation`-Fragen funktionieren analog zu `zuordnung`, inkl.
       korrekter Behandlung inhaltlich doppelter Kategorien (keine UI-Sperre
       „jede Kategorie nur einmal wählbar")
-- [ ] `luecke`-Fragen werden als Fließtext mit Dropdown pro Lücke
+- [x] `luecke`-Fragen werden als Fließtext mit Dropdown pro Lücke
       dargestellt, mit „Auswerten"-Button und Partial-Credit-Score pro
       Lücke (grün/rot-Feedback im Text nach Auswertung)
-- [ ] Elemente/Kategorien (`zuordnung`/`permutation`) werden pro Testlauf
+- [x] Elemente/Kategorien (`zuordnung`/`permutation`) werden pro Testlauf
       neu gemischt, Lösungsprüfung erfolgt über `originalIndex`-Mapping wie
       beim bestehenden Options-Shuffle
-- [ ] Endauswertung und Falsch-Liste zeigen alle fünf Fragetypen einheitlich
+- [x] Endauswertung und Falsch-Liste zeigen alle fünf Fragetypen einheitlich
       mit Partial-Credit-Wert und typ-passender Markierung
-- [ ] Bestehende `single`/`multiple`-JSON-Dateien laufen unverändert weiter
+- [x] Bestehende `single`/`multiple`-JSON-Dateien laufen unverändert weiter
       (keine Regression durch die Erweiterung um die drei neuen Typen)
 
 ---

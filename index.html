@@ -93,8 +93,27 @@
       </div>
       <div class="progress-wrap"><div class="progress-fill" id="progress-fill"></div></div>
       <h2 id="frage-text"></h2>
-      <div id="mc-hint" class="mc-hint hidden">Mehrere Antworten möglich — alle richtigen ankreuzen.</div>
+      <div id="mc-hint" class="mc-hint hidden"></div>
+
+      <!-- single / multiple -->
       <div id="optionen-liste"></div>
+
+      <!-- zuordnung / permutation -->
+      <div id="zuo-bereich" class="hidden">
+        <div class="zuo-spalten">
+          <div class="zuo-spalte">
+            <div class="zuo-titel">Elemente</div>
+            <div id="zuo-elemente"></div>
+          </div>
+          <div class="zuo-spalte">
+            <div class="zuo-titel">Kategorien</div>
+            <div id="zuo-kategorien"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- luecke -->
+      <div id="luecke-bereich" class="hidden"></div>
       <div id="erklaerung-box" class="hidden">
         <div class="erk-header"><span class="verdikt-pill" id="verdikt-pill"></span></div>
         <div class="erk-text" id="erk-text"></div>
@@ -103,7 +122,7 @@
         <button class="btn-ghost" id="btn-abbrechen">Abbrechen</button>
         <button class="btn-primary" id="btn-bestaetigen" disabled>Antwort bestätigen</button>
       </div>
-      <div class="kb-hints"><span class="mono-sm">1–4 wählen &nbsp;·&nbsp; Enter bestätigen / weiter</span></div>
+      <div class="kb-hints"><span class="mono-sm" id="kb-hint-quiz"></span></div>
     </div>
 
     <!-- ════════ MC: AUSWERTUNG ════════ -->
