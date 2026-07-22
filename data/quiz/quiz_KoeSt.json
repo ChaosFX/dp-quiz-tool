@@ -1904,19 +1904,26 @@
     },
     {
       "id": "koest-116",
-      "typ": "multiple",
-      "frage": "Welche Körperschaften sind von der Mindestkörperschaftsteuer (MiKö) betroffen?",
-      "optionen": [
+      "typ": "zuordnung",
+      "thema": "Mindestkörperschaftsteuer (MiKö) – betroffene Körperschaften",
+      "frage": "Ordne die folgenden Körperschaften der richtigen Kategorie zu.",
+      "kategorien": [
+        "MiKö-pflichtig",
+        "Nicht MiKö-pflichtig"
+      ],
+      "elemente": [
         "Inländische GmbH",
         "Inländische AG",
         "Privatstiftung",
         "Verein"
       ],
-      "korrekt": [
+      "loesung": [
         0,
+        0,
+        1,
         1
       ],
-      "erklaerung": "Die Mindestkörperschaftsteuer nach § 24 Abs 4 KStG trifft unbeschränkt steuerpflichtige inländische Kapitalgesellschaften (GmbH, AG) und diesen vergleichbare ausländische Körperschaften. Ein gewöhnlicher Verein ist keine Kapitalgesellschaft und daher grundsätzlich nicht von der MiKö betroffen. Die Privatstiftung unterliegt ebenfalls keiner klassischen MiKö, sondern einer eigenen Zwischenbesteuerung (§ 13 KStG) auf bestimmte Kapitaleinkünfte – ein anderes Konzept als die Mindestkörperschaftsteuer der Kapitalgesellschaften."
+      "erklaerung": "Die Mindestkörperschaftsteuer nach § 24 Abs 4 KStG trifft unbeschränkt steuerpflichtige inländische Kapitalgesellschaften (GmbH, AG). Ein gewöhnlicher Verein ist keine Kapitalgesellschaft und daher nicht betroffen. Die Privatstiftung unterliegt keiner klassischen MiKö, sondern einer eigenen Zwischenbesteuerung (§ 13 KStG) auf bestimmte Kapitaleinkünfte – ein anderes Konzept als die Mindestkörperschaftsteuer."
     },
     {
       "id": "koest-117",
@@ -2133,23 +2140,30 @@
     },
     {
       "id": "koest-128",
-      "typ": "multiple",
-      "frage": "Welche Aufwendungen bzw. Ausgaben sind gemäß § 12 KStG nicht abzugsfähig?",
-      "optionen": [
-        "Barzahlungen für Bauleistungen, wenn der Betrag € 500 übersteigt",
-        "Entgelte über € 100.000 pro Person im Sinne des § 20 Abs 1 Z 7 und 8 EStG",
+      "typ": "zuordnung",
+      "thema": "§ 12 KStG – abzugsfähige vs. nicht abzugsfähige Aufwendungen",
+      "frage": "Ordne die folgenden Aufwendungen der richtigen Kategorie zu.",
+      "kategorien": [
+        "Nicht abzugsfähig",
+        "Abzugsfähig"
+      ],
+      "elemente": [
+        "Barzahlungen für Bauleistungen über € 500",
+        "Entgelte über € 100.000 pro Person (§ 20 Abs 1 Z 7 und 8 EStG)",
         "Steuern vom Einkommen",
         "Schmier- und Bestechungsgelder",
         "Büromiete",
         "Kosten im Zusammenhang mit steuerfreien Einnahmen"
       ],
-      "korrekt": [
+      "loesung": [
         0,
-        2,
-        3,
-        5
+        1,
+        0,
+        0,
+        1,
+        0
       ],
-      "erklaerung": "Nicht abzugsfähig sind u.a. Kosten im Zusammenhang mit steuerfreien Einnahmen (§ 12 Abs 2 KStG), Schmier- und Bestechungsgelder, Barzahlungen für Bauleistungen über € 500 (§ 12 Abs 1 Z 11 KStG) sowie die KöSt selbst als Personensteuer (§ 12 Abs 1 Z 6 KStG). Die Option zu den 'Managergehältern' ist eine bewusste Falle: Die Deckelung nach § 12 Abs 1 Z 8 KStG iVm § 20 Abs 1 Z 7 und 8 EStG greift erst bei Entgelten über € 500.000 pro Person und Wirtschaftsjahr, nicht schon ab € 100.000 – mit der hier genannten (falschen) Grenze ist die Aussage daher nicht richtig und darf nicht angekreuzt werden. Die Büromiete ist eine gewöhnliche, abzugsfähige Betriebsausgabe."
+      "erklaerung": "Nicht abzugsfähig sind Barzahlungen für Bauleistungen über € 500 (§ 12 Abs 1 Z 11 KStG), die KöSt selbst als Personensteuer (§ 12 Abs 1 Z 6 KStG), Schmier- und Bestechungsgelder sowie Kosten im Zusammenhang mit steuerfreien Einnahmen (§ 12 Abs 2 KStG). Büromiete ist eine gewöhnliche, abzugsfähige Betriebsausgabe. Die 'Managergehälter-Deckelung' (§ 12 Abs 1 Z 8 KStG iVm § 20 Abs 1 Z 7/8 EStG) greift erst bei Entgelten über € 500.000 pro Person und Wirtschaftsjahr – die hier genannten € 100.000 sind eine bewusste Falle, bis zu € 500.000 bleibt der Aufwand abzugsfähig."
     },
     {
       "id": "koest-129",
@@ -2187,20 +2201,27 @@
     },
     {
       "id": "koest-131",
-      "typ": "multiple",
-      "frage": "Welche Sachverhalte begründen eine Steuerpflicht gem. § 1 KStG (beschränkte oder unbeschränkte Steuerpflicht)?",
-      "optionen": [
+      "typ": "zuordnung",
+      "thema": "§ 1 KStG – Steuerpflicht-Fallbeispiele",
+      "frage": "Ordne die folgenden Sachverhalte der richtigen Art der Steuerpflicht zu.",
+      "kategorien": [
+        "Unbeschränkt steuerpflichtig",
+        "Beschränkt steuerpflichtig",
+        "Kein Körperschaftsteuersubjekt"
+      ],
+      "elemente": [
         "Die Anton GmbH hat ihren Sitz im Inland",
-        "Die österreichische Gemeinde XY betreibt ein Schwimmbad",
         "Die Paula KG hat ihren Sitz in Wien; der Ort der Geschäftsleitung ist aber in München, auch der Geschäftsführer wohnt in München",
-        "Die Dora GmbH hat ihren Sitz in Deutschland und unterhält eine Betriebstätte in Österreich"
+        "Die Dora GmbH hat ihren Sitz in Deutschland und unterhält eine Betriebstätte in Österreich",
+        "Die österreichische Gemeinde XY betreibt ein Schwimmbad"
       ],
-      "korrekt": [
+      "loesung": [
         0,
+        2,
         1,
-        3
+        0
       ],
-      "erklaerung": "Die Anton GmbH ist mit Sitz im Inland unbeschränkt körperschaftsteuerpflichtig (§ 1 Abs 2 Z 1 iVm § 27 BAO). Die Dora GmbH begründet durch die inländische Betriebstätte trotz deutschen Sitzes eine beschränkte Steuerpflicht mit ihren inländischen Einkünften (§ 1 Abs 3 Z 1 KStG). Die Gemeinde XY ist mit dem Schwimmbadbetrieb ein Betrieb gewerblicher Art und insoweit unbeschränkt steuerpflichtig (§ 1 Abs 2 Z 2 KStG). Die Paula KG ist als Personengesellschaft demgegenüber gar kein eigenes Körperschaftsteuersubjekt – ihr Ergebnis wird unmittelbar den Gesellschaftern zugerechnet, unabhängig vom Ort ihres Sitzes oder ihrer Geschäftsleitung."
+      "erklaerung": "Die Anton GmbH ist mit Sitz im Inland unbeschränkt körperschaftsteuerpflichtig (§ 1 Abs 2 Z 1 KStG). Die Dora GmbH begründet durch die inländische Betriebstätte trotz deutschen Sitzes eine beschränkte Steuerpflicht mit ihren inländischen Einkünften (§ 1 Abs 3 Z 1 KStG). Die Gemeinde XY ist mit dem Schwimmbadbetrieb ein Betrieb gewerblicher Art und insoweit unbeschränkt steuerpflichtig (§ 1 Abs 2 Z 2 KStG). Die Paula KG ist als Personengesellschaft demgegenüber gar kein eigenes Körperschaftsteuersubjekt – ihr Ergebnis wird unmittelbar den Gesellschaftern zugerechnet, unabhängig vom Sitz oder Ort ihrer Geschäftsleitung."
     },
     {
       "id": "koest-132",
@@ -2782,56 +2803,78 @@
     },
     {
       "id": "koest-163",
-      "typ": "multiple",
-      "frage": "Welche Unternehmensformen unterliegen der Körperschaftsteuer?",
-      "optionen": [
-        "Betriebe gewerblicher Art von Körperschaften des öffentlichen Rechts",
-        "Vereine",
+      "typ": "zuordnung",
+      "thema": "Unternehmensformen und Körperschaftsteuerpflicht",
+      "frage": "Ordne die folgenden Unternehmensformen der richtigen Kategorie zu.",
+      "kategorien": [
+        "Unterliegt der Körperschaftsteuer",
+        "Unterliegt nicht der Körperschaftsteuer"
+      ],
+      "elemente": [
         "Kapitalgesellschaften",
         "Personengesellschaften",
-        "Natürliche Personen"
+        "Natürliche Personen",
+        "Vereine",
+        "Betriebe gewerblicher Art von Körperschaften des öffentlichen Rechts"
       ],
-      "korrekt": [
+      "loesung": [
         0,
         1,
-        2
+        1,
+        0,
+        0
       ],
       "erklaerung": "Der Körperschaftsteuer unterliegen Kapitalgesellschaften, Vereine (soweit unbeschränkt steuerpflichtig bzw. mit ihrem wirtschaftlichen Geschäftsbetrieb) und Betriebe gewerblicher Art von Körperschaften öffentlichen Rechts. Personengesellschaften sind kein eigenes KöSt-Subjekt (Transparenzprinzip), natürliche Personen unterliegen der Einkommensteuer."
     },
     {
       "id": "koest-164",
-      "typ": "multiple",
-      "frage": "Welche Personen bzw. Gesellschaften sind unbeschränkt körperschaftsteuerpflichtig?",
-      "optionen": [
-        "Personengesellschaften mit Sitz im Inland",
-        "Juristische Personen des privaten Rechts mit Sitz im Inland",
-        "Vereine mit Sitz im Inland",
-        "Juristische Personen des öffentlichen Rechts",
-        "Genossenschaften mit Sitz im Inland",
-        "Natürliche Personen mit Sitz im Inland"
+      "typ": "zuordnung",
+      "thema": "Unbeschränkte Körperschaftsteuerpflicht – wer ist erfasst?",
+      "frage": "Ordne die folgenden Personen/Gesellschaften der richtigen Kategorie zu.",
+      "kategorien": [
+        "Unbeschränkt körperschaftsteuerpflichtig",
+        "Nicht unbeschränkt körperschaftsteuerpflichtig"
       ],
-      "korrekt": [
+      "elemente": [
+        "Juristische Personen des privaten Rechts mit Sitz im Inland",
+        "Natürliche Personen mit Sitz im Inland",
+        "Juristische Personen des öffentlichen Rechts",
+        "Personengesellschaften mit Sitz im Inland",
+        "Vereine mit Sitz im Inland",
+        "Genossenschaften mit Sitz im Inland"
+      ],
+      "loesung": [
+        0,
         1,
-        2,
-        4
+        1,
+        1,
+        0,
+        0
       ],
       "erklaerung": "Juristische Personen des privaten Rechts mit Sitz im Inland – dazu zählen auch Vereine und Genossenschaften – sind unbeschränkt körperschaftsteuerpflichtig. Juristische Personen des öffentlichen Rechts sind demgegenüber nur insoweit steuerpflichtig, als sie einen Betrieb gewerblicher Art unterhalten (nicht generell unbeschränkt); Personengesellschaften und natürliche Personen sind ohnehin kein KöSt-Subjekt."
     },
     {
       "id": "koest-165",
-      "typ": "multiple",
-      "frage": "Welche Personen bzw. Gesellschaften sind juristische Personen?",
-      "optionen": [
-        "Natürliche Personen",
-        "Gesellschaften mit beschränkter Haftung",
-        "Personengesellschaften",
-        "Juristische Personen des öffentlichen Rechts",
-        "Aktiengesellschaften"
+      "typ": "zuordnung",
+      "thema": "Juristische Personen – wer zählt dazu?",
+      "frage": "Ordne die folgenden Personen/Gesellschaften der richtigen Kategorie zu.",
+      "kategorien": [
+        "Juristische Person",
+        "Keine juristische Person"
       ],
-      "korrekt": [
+      "elemente": [
+        "Juristische Personen des öffentlichen Rechts",
+        "Personengesellschaften",
+        "Aktiengesellschaften",
+        "Gesellschaften mit beschränkter Haftung",
+        "Natürliche Personen"
+      ],
+      "loesung": [
+        0,
         1,
-        3,
-        4
+        0,
+        0,
+        1
       ],
       "erklaerung": "Juristische Personen des öffentlichen Rechts sowie AG und GmbH (juristische Personen des privaten Rechts) verfügen über eine eigene Rechtspersönlichkeit. Personengesellschaften und natürliche Personen sind demgegenüber keine juristischen Personen."
     },
@@ -2855,23 +2898,30 @@
     },
     {
       "id": "koest-167",
-      "typ": "multiple",
-      "frage": "Welche Beteiligungserträge sind gem. § 10 KStG von der Körperschaftsteuer befreit?",
-      "optionen": [
-        "Ausschüttungen aufgrund einer seit einem Monat gehaltenen 0,5 %-igen Beteiligung an einer österreichischen AG",
-        "Beteiligungsertrag einer langjährigen Tochtergesellschaft mit einem Beteiligungsausmaß von 13 % und Sitz in einem Land ohne umfassende Amtshilfe",
-        "Beteiligungsertrag einer langjährigen Tochtergesellschaft mit einem Beteiligungsausmaß von 3 % und Sitz in einem Land ohne umfassende Amtshilfe",
-        "Gewinnanteile aufgrund einer seit drei Jahren gehaltenen 25 %-igen Beteiligung an einer österreichischen Personengesellschaft",
-        "Ausschüttungen aufgrund einer seit zwei Jahren gehaltenen 8 %-igen Beteiligung an einer Schweizer AG",
-        "Gewinnausschüttungen aufgrund einer seit einem Jahr gehaltenen 15 %-igen Beteiligung an einer deutschen GmbH"
+      "typ": "zuordnung",
+      "thema": "§ 10 KStG – befreite Beteiligungserträge",
+      "frage": "Ordne die folgenden Beteiligungsertrag-Szenarien der richtigen Kategorie zu.",
+      "kategorien": [
+        "Befreit gem. § 10 KStG",
+        "Nicht befreit"
       ],
-      "korrekt": [
+      "elemente": [
+        "Ausschüttung: seit einem Monat gehaltene 0,5 %-Beteiligung an einer österreichischen AG",
+        "Ausschüttung: seit zwei Jahren gehaltene 8 %-Beteiligung an einer Schweizer AG",
+        "Gewinnausschüttung: seit einem Jahr gehaltene 15 %-Beteiligung an einer deutschen GmbH",
+        "Gewinnanteile: seit drei Jahren gehaltene 25 %-Beteiligung an einer österreichischen Personengesellschaft",
+        "Beteiligungsertrag: langjährige 3 %-Beteiligung, Sitz in einem Land ohne umfassende Amtshilfe",
+        "Beteiligungsertrag: langjährige 13 %-Beteiligung, Sitz in einem Land ohne umfassende Amtshilfe"
+      ],
+      "loesung": [
+        0,
+        0,
         0,
         1,
-        4,
-        5
+        1,
+        0
       ],
-      "erklaerung": "Bei einer Inlandsbeteiligung (0,5 % an einer österreichischen AG) ist die Befreiung unabhängig von Ausmaß und Behaltedauer anwendbar. Die 8 %ige Schweizer Beteiligung fällt unter die Portfoliobeteiligungsbefreiung, da mit der Schweiz umfassende Amtshilfe besteht. Die 15 %ige deutsche GmbH-Beteiligung erfüllt (>10 %, >1 Jahr, EU-Staat) die internationale Schachtelbeteiligung. Die 25 %ige Beteiligung an einer österreichischen Personengesellschaft ist schon deshalb nicht erfasst, weil eine PG keine Körperschaft ist. Bei nur 3 % Beteiligung ohne Amtshilfestaat greift weder die Schachtel- noch die Portfoliobefreiung. Bei 13 % Beteiligung ist dagegen die internationale Schachtelbeteiligung erfüllt – hier kommt es (anders als bei der Portfoliobeteiligung <10 %) auf eine umfassende Amtshilfe gerade nicht an."
+      "erklaerung": "Bei einer Inlandsbeteiligung (0,5 % an einer österreichischen AG) ist die Befreiung unabhängig von Ausmaß und Behaltedauer anwendbar. Die 8 %ige Schweizer Beteiligung fällt unter die Portfoliobeteiligungsbefreiung, da mit der Schweiz umfassende Amtshilfe besteht. Die 15 %ige deutsche GmbH-Beteiligung erfüllt (>10 %, >1 Jahr, EU-Staat) die internationale Schachtelbeteiligung. Die 25 %ige Beteiligung an einer österreichischen Personengesellschaft ist schon deshalb nicht erfasst, weil eine PG keine Körperschaft ist. Bei nur 3 % Beteiligung ohne Amtshilfestaat greift weder Schachtel- noch Portfoliobefreiung. Bei 13 % Beteiligung ist dagegen die internationale Schachtelbeteiligung erfüllt – hier kommt es (anders als bei der Portfoliobeteiligung <10 %) auf eine umfassende Amtshilfe gerade nicht an."
     },
     {
       "id": "koest-168",
@@ -2892,19 +2942,28 @@
     },
     {
       "id": "koest-169",
-      "typ": "single",
-      "frage": "Welche Substanzgewinne oder -verluste sind nicht steuerwirksam?",
-      "optionen": [
-        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer niederländischen Tochtergesellschaft im Ausmaß von 8 %",
-        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer deutschen Tochtergesellschaft im Ausmaß von 35 % ohne Option",
-        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer italienischen Tochtergesellschaft im Ausmaß von 35 % mit Option",
-        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer inländischen Tochtergesellschaft im Ausmaß von 8 %",
-        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer russischen Tochtergesellschaft im Ausmaß von 5 %"
+      "typ": "zuordnung",
+      "thema": "Substanzgewinne/-verluste – Steuerwirksamkeit bei Auslandsbeteiligungen",
+      "frage": "Ordne die folgenden Beteiligungsverkäufe der richtigen Kategorie zu.",
+      "kategorien": [
+        "Steuerwirksam",
+        "Nicht steuerwirksam"
       ],
-      "korrekt": [
-        1
+      "elemente": [
+        "Verkauf einer langjährigen 8 %-Beteiligung an einer niederländischen Tochtergesellschaft",
+        "Verkauf einer langjährigen 35 %-Beteiligung an einer deutschen Tochtergesellschaft ohne Option",
+        "Verkauf einer langjährigen 35 %-Beteiligung an einer italienischen Tochtergesellschaft mit Option",
+        "Verkauf einer langjährigen 8 %-Beteiligung an einer inländischen Tochtergesellschaft",
+        "Verkauf einer langjährigen 5 %-Beteiligung an einer russischen Tochtergesellschaft"
       ],
-      "erklaerung": "Nur die deutsche Beteiligung (35 %, langjährig, EU-Staat, ohne Option) erfüllt die internationale Schachtelbeteiligung und bleibt daher ohne Optionserklärung mit ihren Substanzgewinnen/-verlusten steuerneutral. Bei der inländischen und der niederländischen 8 %-Beteiligung wird die 10 %-Grenze der Schachtelbeteiligung nicht erreicht – Substanzgewinne sind hier (auch bei Inlandsbeteiligungen und bei Portfoliobeteiligungen <10 %, die nur die laufenden Erträge, nicht aber Substanzgewinne begünstigen) steuerpflichtig. Bei der italienischen Beteiligung mit Option werden Wertänderungen gerade steuerwirksam. Die russische 5 %-Beteiligung erreicht die Schachtelgrenze ebenfalls nicht."
+      "loesung": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "erklaerung": "Nur die deutsche Beteiligung (35 %, langjährig, EU-Staat, ohne Option) erfüllt die internationale Schachtelbeteiligung und bleibt daher ohne Optionserklärung mit ihren Substanzgewinnen/-verlusten steuerneutral. Bei der niederländischen 8 %-Beteiligung wird die 10 %-Grenze der Schachtelbeteiligung nicht erreicht – Substanzgewinne sind steuerpflichtig (auch Portfoliobeteiligungen <10 % begünstigen nur laufende Erträge, nicht Substanzgewinne). Bei der italienischen Beteiligung mit Option werden Wertänderungen gerade steuerwirksam. Auch bei einer reinen Inlandsbeteiligung (8 %) sind Substanzgewinne grundsätzlich steuerpflichtig – nur laufende Erträge sind nach § 10 Abs 1 Z 1 KStG befreit. Die russische 5 %-Beteiligung erreicht die Schachtelgrenze ebenfalls nicht."
     },
     {
       "id": "koest-170",
