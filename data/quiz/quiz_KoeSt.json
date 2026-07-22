@@ -1,7 +1,7 @@
 {
   "fach": "KöSt",
   "quelle": "BFA-Skriptum Körperschaftsteuer (Ko_St_Oktober_2025_GAB), Stand Veranlagung 2025; KStG/EStG/BAO/UStG in geltender Fassung. Erweitert um Beispielsammlungen und Uebungspool der Vortragenden (Sandra Knes) zur Koerperschaftsteuer, Stand 2025 (System der KoeSt, Einlagen/Beteiligungsertragsbefreiung/Mantelkauf, verdeckte Ausschuettung, sowie in Multiple-Choice-Form umgewandelte offene Fallbeispiele), koest-61 bis koest-116. Inhaltlich abgeglichen und aktualisiert nach KStG/EStG/BAO in der fuer die Veranlagung 2025 geltenden Fassung. Weiterhin erweitert um eine Uebungsklausur (Multiple-Choice- und in MC-Form umgewandelte Zuordnungs-/Rechenfragen), koest-116 bis koest-141; Mantelkauf-Dublette (ehem. koest-54/koest-80) zu einer Frage zusammengefuehrt. Ergaenzt um ausgewaehlte, gruendlich geprueft Fragen aus einer weiteren Multiple-Choice-Sammlung mit Loesungsschluessel (gruene Hervorhebung), koest-142 bis koest-176; inhaltliche Dubletten zu bereits vorhandenen Fragen wurden nicht erneut aufgenommen.",
-  "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025.",
+  "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025. Ab koest-91/117/121 (Stand: neue Fragetypen) auch 'zuordnung' (Kategorien, Mehrfachzuweisung moeglich; Felder: kategorien, elemente, loesung) und 'permutation' (1:1-Zuordnung, gleiche Laenge von kategorien/elemente) unterstuetzt. Zusaetzlich unterstuetzt: 'luecke' (Luecken-Text mit pro-Luecke eigener kleiner Optionsliste; Felder: text mit {n}-Platzhaltern, luecken als Array von {optionen, loesung}).",
   "fragen": [
     {
       "id": "koest-01",
@@ -1429,19 +1429,22 @@
     },
     {
       "id": "koest-91",
-      "typ": "multiple",
-      "frage": "Welche Zuordnung von direkter und indirekter verdeckter Ausschuettung ist richtig?",
-      "optionen": [
-        "Indirekte vA = der Koerperschaft werden Ertraege vorenthalten",
-        "Direkte vA = ueberhoehter bzw ungerechtfertigter Aufwand",
-        "Indirekte vA = zu hoher, ungerechtfertigter Aufwand",
-        "Direkte vA = fehlender (der Koerperschaft vorenthaltener) Ertrag"
+      "typ": "permutation",
+      "thema": "Verdeckte Ausschüttung – direkte vs. indirekte Form",
+      "frage": "Ordne die folgenden Sachverhalte der richtigen Form der verdeckten Ausschüttung zu.",
+      "kategorien": [
+        "Direkte verdeckte Ausschüttung",
+        "Indirekte verdeckte Ausschüttung"
       ],
-      "korrekt": [
+      "elemente": [
+        "Überhöhter bzw. ungerechtfertigter Aufwand wird der Körperschaft belastet",
+        "Der Körperschaft wird ein Ertrag vorenthalten, den sie bei fremdüblichem Verhalten erzielt hätte"
+      ],
+      "loesung": [
         0,
         1
       ],
-      "erklaerung": "Die direkte verdeckte Ausschuettung liegt vor, wenn der Koerperschaft ein ueberhoehter oder ungerechtfertigter Aufwand belastet wird (z.B. ein zu hohes Gehalt). Die indirekte verdeckte Ausschuettung liegt dagegen vor, wenn der Koerperschaft ein Ertrag vorenthalten wird, den sie bei fremdueblichem Verhalten erzielt haette (z.B. ein zu niedriger Miet- oder Kaufpreis)."
+      "erklaerung": "Die direkte verdeckte Ausschüttung liegt vor, wenn der Körperschaft ein überhöhter oder ungerechtfertigter Aufwand belastet wird (z.B. ein zu hohes Gehalt). Die indirekte verdeckte Ausschüttung liegt dagegen vor, wenn der Körperschaft ein Ertrag vorenthalten wird, den sie bei fremdüblichem Verhalten erzielt hätte (z.B. ein zu niedriger Miet- oder Kaufpreis)."
     },
     {
       "id": "koest-92",
@@ -1553,20 +1556,49 @@
     },
     {
       "id": "koest-99",
-      "typ": "multiple",
-      "frage": "Frau B ist zu 100 % an der Y-GmbH beteiligt (Beteiligung im Privatvermoegen) und erwirbt von der Y-GmbH ein Gemaelde fuer € 1.000, dessen gemeiner Wert € 11.000 betraegt. Die Y-GmbH uebernimmt die anfallende KESt. Welche Aussagen treffen zu?",
-      "optionen": [
-        "Frau B erzielt Einkuenfte aus Kapitalvermoegen von genau € 10.000, unabhaengig davon, wer die KESt traegt",
-        "Der Gewinn der Y-GmbH ist in der Mehr-Weniger-Rechnung um € 10.000 zu erhoehen",
-        "Da die Y-GmbH die KESt uebernimmt, ist von der Bruttoausschuettung auszugehen; die zusaetzlich zu passivierende KESt betraegt rund € 3.793 (37,93 % von € 10.000)",
-        "Die Y-GmbH verzichtet fremdunueblich zugunsten von Frau B auf einen Ertrag von € 10.000 (indirekte verdeckte Ausschuettung)"
+      "typ": "luecke",
+      "thema": "Indirekte vA mit Bruttomethode (Frau B / Y-GmbH)",
+      "text": "Frau B ist zu 100 % an der Y-GmbH beteiligt (Beteiligung im Privatvermögen) und erwirbt von der Y-GmbH ein Gemälde für € 1.000, dessen gemeiner Wert € 11.000 beträgt. Die Y-GmbH übernimmt die anfallende KESt.\n\nDer Kaufpreis liegt {0} unter dem gemeinen Wert. Es handelt sich um eine {1} verdeckte Ausschüttung in Höhe von {2}, die in der Mehr-Weniger-Rechnung als Gewinnerhöhung zu berücksichtigen ist. Da die Y-GmbH die KESt selbst trägt, ist von der {3} auszugehen; der zusätzliche KESt-Aufschlag beträgt bei einem KESt-Satz von 27,5 % rund {4}.",
+      "luecken": [
+        {
+          "optionen": [
+            "fremdüblich",
+            "fremdunüblich"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "direkte",
+            "indirekte"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 1.000",
+            "€ 10.000",
+            "€ 11.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Nettoausschüttung",
+            "Bruttoausschüttung"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 2.750",
+            "€ 3.793",
+            "€ 4.125"
+          ],
+          "loesung": 1
+        }
       ],
-      "korrekt": [
-        1,
-        2,
-        3
-      ],
-      "erklaerung": "Der verbilligte Verkauf des Gemaeldes ist ein fehlender Ertrag - eine indirekte verdeckte Ausschuettung iHv € 10.000, die in der Mehr-Weniger-Rechnung als Gewinnerhoehung zu beruecksichtigen ist. Traegt die Gesellschaft die KESt selbst, muss der Nettovorteil auf einen Bruttobetrag hochgerechnet werden: Bei einer KESt von 27,5 % ergibt sich ein Aufschlag von 10.000 x 0,275/0,725 ≈ € 3.793, der zusaetzlich als KESt-Verbindlichkeit zu passivieren ist. Traegt hingegen der Gesellschafter selbst die KESt, bleibt es bei den einfachen € 10.000 - die Aussage, der Betrag sei immer € 10.000 unabhaengig davon wer die KESt traegt, ist daher unzutreffend."
+      "erklaerung": "Der verbilligte Verkauf ist ein fehlender Ertrag – eine indirekte verdeckte Ausschüttung iHv € 10.000 (Differenz zwischen gemeinem Wert und Kaufpreis), die der MWR als Gewinnerhöhung hinzuzurechnen ist. Trägt die Gesellschaft die KESt selbst, muss der Nettovorteil auf einen Bruttobetrag hochgerechnet werden: 10.000 × 0,275/0,725 ≈ € 3.793 zusätzliche KESt, die ebenfalls zu passivieren und der MWR hinzuzurechnen ist."
     },
     {
       "id": "koest-100",
@@ -1779,18 +1811,60 @@
     },
     {
       "id": "koest-113",
-      "typ": "single",
-      "frage": "Fuer eine GmbH wird 2017 ein Sanierungsplan mit einer Quote von 40 % abgeschlossen und im selben Jahr zur Gaenze erfuellt. Dadurch entsteht ein Sanierungsgewinn von € 60.000. Das Einkommen mit Sanierungsgewinn betraegt € 80.000, ohne Sanierungsgewinn € 20.000 (KoeSt-Satz im Beispiel 25 %, historischer Wert). Wie hoch ist die gemaess § 23a KStG nicht festzusetzende KoeSt?",
-      "optionen": [
-        "€ 9.000 (60 % der Differenz zwischen der Steuer auf € 80.000 und der Steuer auf € 20.000)",
-        "€ 15.000 (die gesamte Differenz zwischen beiden Steuerbetraegen)",
-        "€ 24.000 (60 % der gesamten Steuer auf € 80.000)",
-        "€ 0, da Sanierungsgewinne stets zur Gaenze steuerpflichtig bleiben"
+      "typ": "luecke",
+      "thema": "Sanierungsgewinn – Steuerberechnung nach § 23a KStG",
+      "text": "Für eine GmbH wird 2017 ein Sanierungsplan mit einer Quote von 40 % abgeschlossen und im selben Jahr zur Gänze erfüllt. Dadurch entsteht ein Sanierungsgewinn von € 60.000. Das Einkommen mit Sanierungsgewinn beträgt € 80.000, ohne Sanierungsgewinn € 20.000 (KöSt-Satz im Beispiel 25 %, historischer Wert).\n\nDie Steuer auf das Einkommen inklusive Sanierungsgewinn beträgt {0}, die Steuer auf das Einkommen ohne Sanierungsgewinn beträgt {1}. Die Differenz beträgt somit {2}. Da die Sanierungsplanquote 40 % beträgt, sind {3} % dieser Differenz gemäß § 23a KStG nicht festzusetzen, das sind {4}. Die tatsächlich festzusetzende KöSt beträgt daher {5}.",
+      "luecken": [
+        {
+          "optionen": [
+            "€ 15.000",
+            "€ 20.000",
+            "€ 24.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 5.000",
+            "€ 8.000",
+            "€ 20.000"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "€ 9.000",
+            "€ 15.000",
+            "€ 20.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "40",
+            "60",
+            "75"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 6.000",
+            "€ 9.000",
+            "€ 12.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 6.000",
+            "€ 11.000",
+            "€ 15.000"
+          ],
+          "loesung": 1
+        }
       ],
-      "korrekt": [
-        0
-      ],
-      "erklaerung": "Nach § 23a KStG ist zunaechst die Differenz zwischen der Steuer auf das Einkommen inklusive Sanierungsgewinn (im Beispiel 25 % von € 80.000 = € 20.000) und der Steuer auf das Einkommen ohne Sanierungsgewinn (25 % von € 20.000 = € 5.000) zu ermitteln; das ergibt € 15.000. Von dieser Differenz ist der Prozentsatz nicht festzusetzen, der der Sanierungsplanquote entspricht (hier 60 %, da bei 40 % Erfuellungsquote 60 % des Nachlasses beim Schuldner verbleiben) - somit € 9.000. Die tatsaechlich festzusetzende KoeSt betraegt folglich € 20.000 - € 9.000 = € 11.000. Hinweis: Das Beispiel verwendet den historischen KoeSt-Satz von 25 %; nach aktuellem Recht (23 % ab 2024) waeren die absoluten Betraege niedriger, das Berechnungsschema bleibt aber unveraendert."
+      "erklaerung": "Steuer mit Sanierungsgewinn: 25 % von € 80.000 = € 20.000. Steuer ohne Sanierungsgewinn: 25 % von € 20.000 = € 5.000. Differenz: € 15.000. Nicht festzusetzen ist jener Prozentsatz der Differenz, der dem Forderungsverzicht entspricht (100 % − 40 % Quote = 60 %): 60 % von € 15.000 = € 9.000. Tatsächlich festzusetzende KöSt: € 20.000 − € 9.000 = € 11.000."
     },
     {
       "id": "koest-114",
@@ -1846,24 +1920,30 @@
     },
     {
       "id": "koest-117",
-      "typ": "multiple",
-      "frage": "Welche der folgenden Zuordnungen von Gesellschaftsformen zu Personengesellschaft (PG) bzw. juristischer Person sind richtig?",
-      "optionen": [
-        "OG – Personengesellschaft",
-        "AG – juristische Person",
-        "GmbH & Co KG – Personengesellschaft",
-        "GmbH – juristische Person",
-        "KG – Personengesellschaft",
-        "Genossenschaft – Personengesellschaft"
+      "typ": "zuordnung",
+      "thema": "Rechtsformen – Personengesellschaft vs. juristische Person",
+      "frage": "Ordne die folgenden Gesellschaftsformen der richtigen Kategorie zu.",
+      "kategorien": [
+        "Personengesellschaft (PG)",
+        "Juristische Person"
       ],
-      "korrekt": [
+      "elemente": [
+        "KG",
+        "OG",
+        "GmbH & Co KG",
+        "AG",
+        "GmbH",
+        "Genossenschaft"
+      ],
+      "loesung": [
+        0,
+        0,
         0,
         1,
-        2,
-        3,
-        4
+        1,
+        1
       ],
-      "erklaerung": "KG, OG und auch die GmbH & Co KG (trotz einer GmbH als Komplementärin bleibt sie im Kern eine Personengesellschaft) sind Personengesellschaften ohne eigene Körperschaftsteuerpflicht; ihr Gewinn wird den Gesellschaftern zugerechnet (Transparenzprinzip). AG und GmbH sind demgegenüber juristische Personen und eigenständige KöSt-Subjekte (Trennungsprinzip). Die Genossenschaft (Erwerbs- und Wirtschaftsgenossenschaft) ist ebenfalls eine juristische Person und – anders als in dieser Option behauptet – gerade keine Personengesellschaft."
+      "erklaerung": "KG, OG und auch die GmbH & Co KG (trotz einer GmbH als Komplementärin bleibt sie im Kern eine Personengesellschaft) sind Personengesellschaften ohne eigene Körperschaftsteuerpflicht; ihr Gewinn wird den Gesellschaftern zugerechnet (Transparenzprinzip). AG, GmbH und Genossenschaft sind demgegenüber juristische Personen und eigenständige KöSt-Subjekte (Trennungsprinzip)."
     },
     {
       "id": "koest-118",
@@ -1918,39 +1998,62 @@
     },
     {
       "id": "koest-121",
-      "typ": "multiple",
-      "frage": "Welche der folgenden Zuordnungen von Rechtsformen zu juristischen Personen des öffentlichen (ÖR) bzw. privaten Rechts (PR) sind richtig?",
-      "optionen": [
-        "GmbH – PR",
-        "Verein – PR",
-        "Kammern – PR",
-        "Bund – ÖR",
-        "Gemeinden – ÖR",
-        "Stiftung – PR"
+      "typ": "zuordnung",
+      "thema": "Rechtsformen – öffentliches vs. privates Recht",
+      "frage": "Ordne die folgenden Rechtsformen/Körperschaften der richtigen Kategorie zu.",
+      "kategorien": [
+        "Öffentliches Recht (ÖR)",
+        "Privates Recht (PR)"
       ],
-      "korrekt": [
-        0,
+      "elemente": [
+        "GmbH",
+        "Verein",
+        "Kammern",
+        "Bund",
+        "Gemeinden",
+        "Stiftung"
+      ],
+      "loesung": [
         1,
-        3,
-        4,
-        5
+        1,
+        0,
+        0,
+        0,
+        1
       ],
-      "erklaerung": "Stiftungen, GmbH und Vereine sind juristische Personen des privaten Rechts. Bund und Gemeinden sind Gebietskörperschaften und damit juristische Personen des öffentlichen Rechts. Kammern (z.B. Wirtschaftskammer, Arbeiterkammer) sind demgegenüber – anders als in dieser Option behauptet – gesetzliche Interessenvertretungen und damit ebenfalls juristische Personen des öffentlichen Rechts, nicht des privaten Rechts."
+      "erklaerung": "GmbH, Verein und Stiftung sind juristische Personen des privaten Rechts. Bund und Gemeinden sind Gebietskörperschaften und damit juristische Personen des öffentlichen Rechts. Kammern (z.B. Wirtschaftskammer, Arbeiterkammer) sind gesetzliche Interessenvertretungen und ebenfalls juristische Personen des öffentlichen Rechts, nicht des privaten Rechts."
     },
     {
       "id": "koest-122",
-      "typ": "single",
-      "frage": "Herr Y ist zu 85 % an der Y-GmbH beteiligt. Die Y-GmbH verkauft ein Grundstück an den Sohn des Gesellschafters um € 125.000. Zur gleichen Zeit wurde ein gleich großes Nachbargrundstück zwischen fremden Dritten um € 275.000 verkauft. Etwaige Steuernachforderungen trägt der Gesellschafter selbst. Wie hoch ist die von der Y-GmbH abzuführende Kapitalertragsteuer?",
-      "optionen": [
-        "€ 56.897",
-        "€ 41.250",
-        "€ 34.500",
-        "€ 37.500"
+      "typ": "luecke",
+      "thema": "Indirekte vA an nahen Angehörigen (Herr Y / Y-GmbH)",
+      "text": "Herr Y ist zu 85 % an der Y-GmbH beteiligt. Die Y-GmbH verkauft ein Grundstück an den Sohn des Gesellschafters um € 125.000. Zur gleichen Zeit wurde ein gleich großes Nachbargrundstück zwischen fremden Dritten um € 275.000 verkauft. Etwaige Steuernachforderungen trägt der Gesellschafter selbst.\n\nDie Differenz zwischen Verkehrswert und Kaufpreis beträgt {0}. Da der Vorteil einem nahen Angehörigen (dem Sohn) zugutekommt, wird die {1} verdeckte Ausschüttung dem Gesellschafter Herrn Y zugerechnet. Da der Gesellschafter die Steuer selbst trägt (keine Bruttomethode nötig), beträgt die von der Y-GmbH abzuführende Kapitalertragsteuer {2} (27,5 % der Differenz).",
+      "luecken": [
+        {
+          "optionen": [
+            "€ 125.000",
+            "€ 150.000",
+            "€ 275.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "direkte",
+            "indirekte"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 34.500",
+            "€ 37.500",
+            "€ 41.250"
+          ],
+          "loesung": 2
+        }
       ],
-      "korrekt": [
-        1
-      ],
-      "erklaerung": "Die Differenz zwischen dem fremdüblichen Verkehrswert (€ 275.000) und dem tatsächlichen Kaufpreis (€ 125.000) beträgt € 150.000 und stellt eine indirekte verdeckte Ausschüttung dar, die – da sie einem nahen Angehörigen (dem Sohn) zugutekommt – dem Gesellschafter Herrn Y zugerechnet wird. Da laut Sachverhalt der Gesellschafter selbst etwaige Steuernachforderungen trägt (die GmbH die KESt also nicht zusätzlich übernimmt), ist einfach mit dem regulären KESt-Satz von 27,5 % auf die Vorteilshöhe zu rechnen: € 150.000 × 27,5 % = € 41.250. Eine Hochrechnung auf einen Bruttobetrag (Bruttomethode, wie sie zu € 56.897 führen würde) ist nur nötig, wenn die Gesellschaft die KESt selbst übernimmt."
+      "erklaerung": "Verkehrswert € 275.000 minus Kaufpreis € 125.000 = € 150.000 Differenz. Da der Vorteil dem Sohn (nahe Angehöriger) zugutekommt, wird die indirekte vA dem Gesellschafter Herrn Y zugerechnet. Da er die KESt selbst trägt, genügt der einfache Satz: € 150.000 × 27,5 % = € 41.250."
     },
     {
       "id": "koest-123",
@@ -2193,24 +2296,58 @@
     },
     {
       "id": "koest-138",
-      "typ": "multiple",
-      "frage": "Die Fortuna GmbH hält eine Beteiligung an der (inländischen) Neptun GmbH mit Anschaffungskosten von € 150.000. Im Jahr 01 wird die Beteiligung auf € 80.000 teilwertberichtigt.",
-      "optionen": [
-        "Unternehmensrechtlich mindert diese Teilwertabschreibung (TWA) den Gewinn um € 70.000",
-        "In der MWR 02 sind + € 10.000 hinzuzurechnen",
-        "In der MWR 01 sind + € 60.000 hinzuzurechnen",
-        "In der MWR 02 sind − € 10.000 abzuziehen",
-        "Die TWA ist dem Grunde nach steuerwirksam",
-        "Die TWA ist auf sieben Jahre zu verteilen"
+      "typ": "luecke",
+      "thema": "Teilwertabschreibung Beteiligung – Siebtelung (Fortuna/Neptun)",
+      "text": "Die Fortuna GmbH hält eine Beteiligung an der (inländischen) Neptun GmbH mit Anschaffungskosten von € 150.000. Im Jahr 01 wird die Beteiligung auf € 80.000 teilwertberichtigt.\n\nUnternehmensrechtlich mindert diese Teilwertabschreibung den Gewinn um {0}. Steuerlich ist die TWA {1} und gemäß § 12 Abs 3 Z 2 KStG auf {2} Jahre zu verteilen. Im Jahr 01 ist daher nur {3} sofort abzugsfähig; die restlichen {4} sind in der Mehr-Weniger-Rechnung hinzuzurechnen. Im Jahr 02 ist ein weiteres Siebtel von {5} abzugsfähig und daher in der MWR abzuziehen.",
+      "luecken": [
+        {
+          "optionen": [
+            "€ 60.000",
+            "€ 70.000",
+            "€ 80.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "nicht abzugsfähig",
+            "dem Grunde nach abzugsfähig"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "5",
+            "7",
+            "10"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 10.000",
+            "€ 60.000",
+            "€ 70.000"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "€ 10.000",
+            "€ 60.000",
+            "€ 70.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 10.000",
+            "€ 60.000"
+          ],
+          "loesung": 0
+        }
       ],
-      "korrekt": [
-        0,
-        2,
-        3,
-        4,
-        5
-      ],
-      "erklaerung": "Unternehmensrechtlich wird die volle Wertminderung von € 70.000 (150.000 − 80.000) im Jahr 01 aufwandswirksam. Steuerlich ist die Teilwertabschreibung auf Beteiligungen jedoch gemäß § 12 Abs 3 Z 2 KStG zwingend auf sieben Jahre zu verteilen (Siebtelung), bleibt aber dem Grunde nach abzugsfähig. Im Jahr 01 darf daher nur 1/7 (€ 10.000) sofort abgezogen werden; die restlichen € 60.000 sind in der MWR hinzuzurechnen. In den Folgejahren (z.B. Jahr 02) zeigt sich unternehmensrechtlich kein weiterer Aufwand, steuerlich ist aber ein weiteres Siebtel (€ 10.000) abzugsfähig – in der MWR 02 ist dieser Betrag daher abzuziehen (−10.000), nicht hinzuzurechnen."
+      "erklaerung": "Unternehmensrechtlich voller Aufwand: 150.000 − 80.000 = € 70.000. Steuerlich ist die TWA dem Grunde nach abzugsfähig, aber zwingend auf 7 Jahre zu verteilen. Jahr 01: nur 1/7 = € 10.000 sofort abzugsfähig, die restlichen € 60.000 sind der MWR hinzuzurechnen. Jahr 02: kein weiterer unternehmensrechtlicher Aufwand, aber ein weiteres Siebtel (€ 10.000) wird steuerlich abzugsfähig und daher in der MWR abgezogen."
     },
     {
       "id": "koest-139",
@@ -2878,23 +3015,480 @@
     },
     {
       "id": "koest-176",
-      "typ": "multiple",
-      "frage": "Eine GmbH erwirtschaftet in den Jahren 2021 bis 2023 folgende Einkünfte aus Gewerbebetrieb: 2021: −€ 66.000, 2022: € 72.000, 2023: € 168.000. Wie hoch ist die KöSt-Bemessungsgrundlage und der Verlustvortrag?",
-      "optionen": [
-        "Einkommen 2023: € 156.000",
-        "Verlustvortrag 2021: € 66.000",
-        "Einkommen 2022: € 6.000",
-        "Einkommen 2023: € 168.000",
-        "Verlustvortrag 2022: € 12.000",
-        "Einkommen 2022: € 18.000"
+      "typ": "luecke",
+      "thema": "Verlustvortrag über 3 Jahre mit 75 %-Grenze",
+      "text": "Eine GmbH erwirtschaftet in den Jahren 2021 bis 2023 folgende Einkünfte aus Gewerbebetrieb: 2021: −€ 66.000, 2022: € 72.000, 2023: € 168.000.\n\n2021 entsteht ein Verlustvortrag von {0}. 2022 beträgt die 75 %-Grenze {1}; da der vorhandene Verlustvortrag diese Grenze übersteigt, wird nur bis zur Grenze verwertet – das Einkommen 2022 beträgt somit {2}, der verbleibende Verlustvortrag für die Folgejahre {3}. 2023 beträgt die 75 %-Grenze {4}; der Restverlustvortrag liegt darunter und wird zur Gänze verwertet – das Einkommen 2023 beträgt somit {5}.",
+      "luecken": [
+        {
+          "optionen": [
+            "€ 54.000",
+            "€ 66.000",
+            "€ 72.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 48.000",
+            "€ 54.000",
+            "€ 60.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 6.000",
+            "€ 18.000",
+            "€ 24.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 0",
+            "€ 12.000",
+            "€ 18.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 100.500",
+            "€ 126.000",
+            "€ 168.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 12.000",
+            "€ 156.000",
+            "€ 168.000"
+          ],
+          "loesung": 1
+        }
       ],
-      "korrekt": [
-        0,
-        1,
-        4,
-        5
+      "erklaerung": "2021: Verlustvortrag € 66.000. 2022: 75 % von € 72.000 = € 54.000-Grenze; da € 66.000 > € 54.000, werden nur € 54.000 verwertet: Einkommen 2022 = 72.000 − 54.000 = € 18.000, Restverlustvortrag = 66.000 − 54.000 = € 12.000. 2023: 75 % von € 168.000 = € 126.000-Grenze; der Restverlustvortrag (€ 12.000) liegt darunter und wird zur Gänze verwertet: Einkommen 2023 = 168.000 − 12.000 = € 156.000."
+    },
+    {
+      "id": "koest-177",
+      "typ": "luecke",
+      "thema": "Trennungsprinzip",
+      "text": "Das Trennungsprinzip besagt, dass eine Körperschaft ein von ihren Anteilsinhabern {0} Steuersubjekt ist. Daraus folgt eine {1} Besteuerungsebene: Der Gewinn wird zunächst bei der Körperschaft mit {2} belastet, eine spätere Ausschüttung unterliegt beim Gesellschafter nochmals der {3}. Anders als bei Mitunternehmerschaften, wo das {4} gilt, kann sich der Gesellschafter einer Körperschaft nicht unmittelbar an deren Verlusten beteiligen.",
+      "luecken": [
+        {
+          "optionen": [
+            "abhängiges",
+            "losgelöstes, eigenständiges"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "einfache",
+            "doppelte"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Einkommensteuer",
+            "Körperschaftsteuer"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Umsatzsteuer",
+            "Kapitalertragsteuer"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Trennungsprinzip",
+            "Transparenzprinzip"
+          ],
+          "loesung": 1
+        }
       ],
-      "erklaerung": "2021 entsteht ein Verlustvortrag von € 66.000. 2022 beträgt die 75 %-Grenze 75 % von € 72.000 = € 54.000; da der Verlustvortrag (€ 66.000) diese Grenze übersteigt, werden nur € 54.000 verwertet – Einkommen 2022 = € 72.000 − € 54.000 = € 18.000, Restverlustvortrag = € 66.000 − € 54.000 = € 12.000. 2023 beträgt die 75 %-Grenze 75 % von € 168.000 = € 126.000; der Restverlustvortrag von € 12.000 liegt darunter und wird zur Gänze verwertet – Einkommen 2023 = € 168.000 − € 12.000 = € 156.000."
+      "erklaerung": "Das Trennungsprinzip ist die Grundlage der Körperschaftsteuer: Körperschaft und Anteilsinhaber sind getrennte Steuersubjekte, was zu einer doppelten Besteuerungsebene führt (KöSt bei der Gesellschaft, ESt/KESt beim Gesellschafter). Bei Personengesellschaften gilt demgegenüber das Transparenzprinzip mit nur einer Ebene."
+    },
+    {
+      "id": "koest-178",
+      "typ": "luecke",
+      "thema": "Verdeckte Ausschüttung – Tatbestandsmerkmale",
+      "text": "Eine verdeckte Ausschüttung setzt vier Tatbestandsmerkmale voraus: ein {0} zur Körperschaft (Eigentums- oder Nahebeziehung), eine {1} des Anteilsinhabers zu Lasten der Körperschaft (objektives Tatbild), das {2} der Körperschaft (subjektives Tatbild) sowie eine Prüfung anhand des {3} – hält der Vorgang diesem nicht stand, liegt eine vA vor.",
+      "luecken": [
+        {
+          "optionen": [
+            "Naheverhältnis",
+            "Konkurrenzverhältnis"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Verarmung",
+            "Bereicherung"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Wissen und Wollen",
+            "Unwissen"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Fremdvergleichs",
+            "Gleichheitssatzes"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Die vier Tatbestandsmerkmale der vA sind: Naheverhältnis (Eigentums- oder Angehörigenbeziehung zur Körperschaft), objektives Tatbild (Bereicherung des Anteilsinhabers zu Lasten der Gesellschaft), subjektives Tatbild (Wissen und Wollen der Körperschaftsorgane) und Fremdvergleich (der Vorgang hält keinem Vergleich mit einem fremden Dritten stand)."
+    },
+    {
+      "id": "koest-179",
+      "typ": "luecke",
+      "thema": "Einlage gem. § 8 Abs 1 KStG",
+      "text": "Eine Einlage im Sinne des § 8 Abs 1 KStG ist eine Vermögensübertragung zwischen {0} Rechtssubjekten – dem Anteilsinhaber und seiner Körperschaft. Sie ist bei der Körperschaft eine {1} Vermögenserhöhung und erhöht beim Gesellschafter nach dem {2} die {3} der Beteiligung. Zu bewerten ist die Einlage grundsätzlich mit dem {4}.",
+      "luecken": [
+        {
+          "optionen": [
+            "zwei unterschiedlichen",
+            "ein und demselben"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "steuerpflichtige",
+            "nicht steuerbare"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Tauschgrundsatz",
+            "Vorsichtsprinzip"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Anschaffungskosten",
+            "Verbindlichkeiten"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Buchwert",
+            "gemeinen Wert (Verkehrswert)"
+          ],
+          "loesung": 1
+        }
+      ],
+      "erklaerung": "Die Einlage ist eine Vermögensübertragung zwischen zwei getrennten Steuersubjekten (Trennungsprinzip): Bei der Körperschaft eine nicht steuerbare Vermögenserhöhung (§ 8 Abs 1 KStG), beim Gesellschafter nach dem Tauschgrundsatz (§ 6 Z 14 EStG) eine Erhöhung der Anschaffungskosten der Beteiligung – bewertet mit dem gemeinen Wert des eingelegten Wirtschaftsguts."
+    },
+    {
+      "id": "koest-180",
+      "typ": "luecke",
+      "thema": "Mantelkauf gem. § 8 Abs 4 lit c KStG",
+      "text": "Ein Mantelkauf liegt vor, wenn sich {0} auf entgeltlicher Grundlage die Gesellschafterstruktur (Änderung der Anteilsrechte am Stammkapital von zumindest {1} %), die organisatorische Struktur (Wechsel von mindestens derselben Grenze der Organe) UND die {2} Struktur (z.B. anderer Geschäftszweig) ändern. Rechtsfolge ist der Untergang des Rechts auf {3} für die davor entstandenen Verluste.",
+      "luecken": [
+        {
+          "optionen": [
+            "wesentlich",
+            "unwesentlich"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "50",
+            "75"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "wirtschaftliche",
+            "rechtliche"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Verlustabzug",
+            "Gewinnausschüttung"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Ein Mantelkauf setzt die kumulative, jeweils wesentliche und entgeltliche Änderung von Gesellschafterstruktur (≥75 % der Anteile), organisatorischer Struktur (≥75 % der Organe) und wirtschaftlicher Struktur voraus. Rechtsfolge: Verlust des Rechts auf Verlustabzug für die davor entstandenen Verluste."
+    },
+    {
+      "id": "koest-181",
+      "typ": "luecke",
+      "thema": "Internationale Schachtelbeteiligung gem. § 10 Abs 2 KStG",
+      "text": "Eine internationale Schachtelbeteiligung liegt vor, wenn eine Beteiligung an einer ausländischen Körperschaft, die einer inländischen Kapitalgesellschaft vergleichbar ist, im Ausmaß von mindestens {0} % und für eine ununterbrochene Dauer von mehr als {1} besteht. Diese beiden Voraussetzungen müssen {2} vorliegen. Ein Abkommen über umfassende Amtshilfe mit dem Sitzstaat ist dafür {3} erforderlich – anders als bei der Portfoliobeteiligung unter 10 %.",
+      "luecken": [
+        {
+          "optionen": [
+            "5",
+            "10"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "einem Jahr",
+            "drei Jahren"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "kumulativ (und)",
+            "alternativ (oder)"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "nicht",
+            "zusätzlich"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Die internationale Schachtelbeteiligung (§ 10 Abs 1 Z 7 iVm Abs 2 KStG) setzt kumulativ mindestens 10 % Beteiligung und mehr als ein Jahr Behaltedauer voraus. Ein Amtshilfeabkommen ist dafür – anders als bei der Portfoliobeteiligung <10 % (§ 10 Abs 1 Z 5/6 KStG) – keine Voraussetzung."
+    },
+    {
+      "id": "koest-182",
+      "typ": "luecke",
+      "thema": "Gruppenbesteuerung – Voraussetzungen gem. § 9 Abs 4 KStG",
+      "text": "Für die Bildung einer Unternehmensgruppe muss der Gruppenträger an einem Gruppenmitglied zu mehr als {0} % sowohl am {1} als auch an den {2} beteiligt sein (finanzielle Verbindung). Die Gruppe muss mindestens {3} Jahre bestehen, andernfalls kommt es zu einer {4} der Rechtsfolgen.",
+      "luecken": [
+        {
+          "optionen": [
+            "50",
+            "75"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Kapital",
+            "Umsatz"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Stimmrechten",
+            "Gewinnrechten"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "drei",
+            "fünf"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Rückabwicklung",
+            "Verlängerung"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Die finanzielle Verbindung nach § 9 Abs 4 KStG erfordert eine Beteiligung von mehr als 50 % an Kapital UND Stimmrechten. Die Gruppe muss mindestens drei Jahre bestehen; wird sie vorzeitig aufgelöst, kommt es grundsätzlich zur rückwirkenden Rückabwicklung der Gruppenwirkungen."
+    },
+    {
+      "id": "koest-183",
+      "typ": "luecke",
+      "thema": "Mindestkörperschaftsteuer (MiKö)",
+      "text": "Die Mindestkörperschaftsteuer betrifft unbeschränkt steuerpflichtige inländische {0} und trifft diese auch in {1}. Sie beträgt {2} % des gesetzlichen Mindestkapitals und ist jedes volle {3} zu entrichten. Für eine ab 1.1.2024 gegründete GmbH mit einem Mindeststammkapital von € 10.000 ergibt das eine jährliche MiKö von {4}. Bezahlte MiKö geht nicht verloren, sondern wird als {5} MiKö zeitlich unbegrenzt vorgetragen und auf künftige KöSt-Schulden angerechnet.",
+      "luecken": [
+        {
+          "optionen": [
+            "Kapitalgesellschaften",
+            "Personengesellschaften"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Gewinnjahren",
+            "Verlustjahren"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "5",
+            "10"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Kalenderjahr",
+            "Kalendervierteljahr"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 250",
+            "€ 500",
+            "€ 1.000"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "schwebende",
+            "verfallene"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Die MiKö trifft inländische Kapitalgesellschaften (GmbH, AG) und wird gerade in Verlustjahren relevant, weil sie unabhängig vom Ergebnis anfällt. Sie beträgt 5 % des Mindestkapitals, vierteljährlich fällig – bei einer GmbH mit € 10.000 Mindeststammkapital also € 500 jährlich. Sie geht nicht verloren, sondern wird als 'schwebende' MiKö vorgetragen und später angerechnet."
+    },
+    {
+      "id": "koest-184",
+      "typ": "luecke",
+      "thema": "Betrieb gewerblicher Art gem. § 2 KStG",
+      "text": "Ein Betrieb gewerblicher Art ist jede wirtschaftlich {0} Einrichtung einer Körperschaft öffentlichen Rechts, die einer nachhaltigen privatwirtschaftlichen Tätigkeit von wirtschaftlichem Gewicht dient (Richtwert: Jahresumsatz über {1}) und nicht der {2} dient. Eine Gewinnerzielungsabsicht ist {3} erforderlich. Eine Körperschaft öffentlichen Rechts kann {4} Betriebe gewerblicher Art unterhalten.",
+      "luecken": [
+        {
+          "optionen": [
+            "unselbständige",
+            "selbständige"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "€ 2.900",
+            "€ 22.000"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Land- und Forstwirtschaft",
+            "Vermögensverwaltung"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "nicht",
+            "zwingend"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "nur einen",
+            "mehrere"
+          ],
+          "loesung": 1
+        }
+      ],
+      "erklaerung": "Ein BgA (§ 2 KStG) ist eine wirtschaftlich selbständige Einrichtung mit nachhaltiger privatwirtschaftlicher Tätigkeit von wirtschaftlichem Gewicht (Richtwert Jahresumsatz > € 2.900), die nicht der Land- und Forstwirtschaft dient. Gewinnerzielungsabsicht ist nicht erforderlich; eine KöR kann mehrere BgA unterhalten."
+    },
+    {
+      "id": "koest-185",
+      "typ": "luecke",
+      "thema": "Angehörigenjudikatur – Kriterien",
+      "text": "Verträge zwischen einer Körperschaft und ihren Anteilsinhabern werden steuerlich nur anerkannt, wenn sie nach der Angehörigenjudikatur des VwGH drei Kriterien erfüllen: Sie müssen nach außen ausreichend zum Ausdruck kommen ({0}), einen {1} Inhalt haben, und sie müssen auch zwischen {2} unter den gleichen Bedingungen abgeschlossen worden sein ({3}).",
+      "luecken": [
+        {
+          "optionen": [
+            "Publizität",
+            "Diskretion"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "klaren und eindeutigen",
+            "vagen"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Fremden",
+            "Angehörigen"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Fremdvergleich",
+            "Eigenvergleich"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Die drei Kriterien der Angehörigenjudikatur sind Publizität (ausreichendes Nach-außen-Treten), ein klarer und eindeutiger Inhalt der Vereinbarung, und die Standhaftigkeit gegenüber einem Fremdvergleich."
+    },
+    {
+      "id": "koest-186",
+      "typ": "luecke",
+      "thema": "Beschränkte Steuerpflicht 1. und 2. Art",
+      "text": "Die beschränkte Steuerpflicht 1. Art betrifft {0} Körperschaften ohne Sitz oder Geschäftsleitung im Inland, die mit ihren {1} nach § 98 EStG besteuert werden. Die beschränkte Steuerpflicht 2. Art betrifft dagegen {2} sowie von der unbeschränkten Steuerpflicht {3} Körperschaften, die mit bestimmten {4} und Einkünften aus Grundstücksveräußerungen beschränkt steuerpflichtig sind.",
+      "luecken": [
+        {
+          "optionen": [
+            "ausländische",
+            "inländische"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Inlandseinkünften",
+            "Welteinkünften"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "natürliche Personen",
+            "Körperschaften öffentlichen Rechts"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "begünstigte",
+            "befreite"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Kapitaleinkünften",
+            "Betriebseinkünften"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "1. Art: ausländische Körperschaften ohne Sitz/Geschäftsleitung im Inland, besteuert mit ihren Inlandseinkünften (§ 98 EStG). 2. Art: Körperschaften öffentlichen Rechts und von der unbeschränkten Steuerpflicht befreite Körperschaften, besteuert mit bestimmten Kapitaleinkünften und Grundstücksveräußerungsgewinnen."
     }
   ]
 }

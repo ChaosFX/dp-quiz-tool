@@ -2602,15 +2602,15 @@
     },
     {
       "source": "Umsatzsteuer/Steuerbefreiungen USt",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbefreiungen USt",
       "target": "Umsatzsteuer/Innergemeinschaftliche Lieferung"
     },
     {
       "source": "Umsatzsteuer/Steuerbefreiungen USt",
       "target": "Umsatzsteuer/Kleinunternehmer USt"
-    },
-    {
-      "source": "Umsatzsteuer/Steuerbefreiungen USt",
-      "target": "Umsatzsteuer/Vorsteuerabzug"
     },
     {
       "source": "Umsatzsteuer/Steuerbefreiungen USt",
