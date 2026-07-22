@@ -192,12 +192,31 @@ Landing Page.
 
 ---
 
-## 4. Datenschema (JSON pro Fach) — MC-Fragen
+## 4. Datenschema (JSON pro Fach) — Quiz-Fragen
 
-Das Schema unterstützt zwei Fragetypen: `"single"` (eine richtige Antwort)
-und `"multiple"` (mehrere richtige Antworten). Das Feld `typ` ist
-**abwärtskompatibel** — fehlt es, behandelt das Tool die Frage als `"single"`.
-Bestehende JSON-Files ohne `typ`-Feld müssen nicht angepasst werden.
+Das Schema unterstützt fünf Fragetypen:
+- `"single"` — eine richtige Antwort (Radio-Buttons)
+- `"multiple"` — mehrere richtige Antworten (Checkboxen)
+- `"zuordnung"` — Kategorien-Zuordnung, Mehrfachzuweisung erlaubt (mehrere
+  Elemente können derselben Kategorie zugeordnet werden)
+- `"permutation"` — 1:1-Zuordnung/Paarbildung (strukturell wie `zuordnung`,
+  aber `kategorien` und `elemente` sind gleich lang, `loesung` ist im
+  Regelfall eine Permutation)
+- `"luecke"` — Lückentext mit pro Lücke eigener, kleiner Optionsliste
+
+Das Feld `typ` ist **abwärtskompatibel** — fehlt es, behandelt das Tool die
+Frage als `"single"`. Bestehende JSON-Files ohne `typ`-Feld müssen nicht
+angepasst werden.
+
+**Wichtig für die Umsetzung:** `zuordnung`, `permutation` und `luecke` sind
+**reine Erweiterungen** des Schemas, keine Migration. Die 103 bestehenden
+`single`/`multiple`-Fragen in `quiz_ESt_gesamt.json` bleiben exakt
+unverändert; neue Fragen werden einfach als weitere Objekte im `fragen`-Array
+ergänzt, unterscheidbar über `typ`. Jeder Fragetyp hat sein eigenes Set an
+Feldern (siehe unten) — Code, der eine Frage verarbeitet, muss immer zuerst
+nach `typ` verzweigen, bevor er auf typ-spezifische Felder wie `optionen`,
+`korrekt`, `kategorien`, `elemente`, `loesung` oder `luecken` zugreift, da
+diese Felder je nach Typ unterschiedlich existieren/strukturiert sind.
 
 ### Single-Choice Beispiel
 ```json
@@ -246,21 +265,168 @@ Bestehende JSON-Files ohne `typ`-Feld müssen nicht angepasst werden.
 }
 ```
 
+### Zuordnung-Beispiel (`typ: "zuordnung"`)
+```json
+{
+  "fach": "ESt",
+  "fragen": [
+    {
+      "id": "est-72",
+      "typ": "zuordnung",
+      "thema": "V+V – Instandhaltung/Instandsetzung/Herstellungsaufwand",
+      "frage": "Ordne die folgenden Maßnahmen der richtigen Kategorie zu.",
+      "kategorien": [
+        "Instandhaltung (sofort abzugsfähig)",
+        "Instandsetzung (15-Jahresverteilung)",
+        "Herstellungsaufwand"
+      ],
+      "elemente": [
+        "Parkett statt Teppich + Neuanstrich der Wände",
+        "Elektrik/Wasser/Heizung/Dach im 100 Jahre alten Zinshaus erneuert",
+        "Austausch sämtlicher Fenster im gesamten Mietshaus",
+        "Reparatur der Heizungssteuerung um € 1.500",
+        "Umstellung des Heizungssystems von Gas auf Fernwärme um € 60.000",
+        "Dachsanierung mit gleichzeitigem Ausbau zweier neuer Wohnungen"
+      ],
+      "loesung": [0, 1, 1, 0, 1, 2],
+      "erklaerung": "Erklärungstext, der pro Kategorie kurz begründet, warum ..."
+    }
+  ]
+}
+```
+`loesung` ist gleich lang wie `elemente`; `loesung[i]` ist der Index der
+korrekten Kategorie für `elemente[i]`. Mehrfachzuweisung ist implizit erlaubt
+(mehrere Elemente-Indizes dürfen denselben Kategorie-Index als Lösung haben).
+
+### Permutation-Beispiel (`typ: "permutation"`)
+```json
+{
+  "fach": "ESt",
+  "fragen": [
+    {
+      "id": "est-78",
+      "typ": "permutation",
+      "thema": "Einkunftsarten – Zuordnung",
+      "frage": "Ordne die Einkünfte des Elektrikers Manni der richtigen Einkunftsart zu.",
+      "kategorien": [
+        "Einkünfte aus Kapitalvermögen",
+        "Sonstige Einkünfte (Spekulationsgeschäft)",
+        "Einkünfte aus Vermietung und Verpachtung",
+        "Einkünfte aus Kapitalvermögen (Dividende)"
+      ],
+      "elemente": [
+        "Zinsengutschrift für seinen Bausparvertrag",
+        "Verkauf seiner Ferienwohnung in Zell am See (kurz nach Anschaffung)",
+        "Vermietung seines geerbten Eigenheims in Wien",
+        "Dividendenausschüttung aus Lenzing AG-Aktien"
+      ],
+      "loesung": [0, 1, 2, 3],
+      "erklaerung": "..."
+    }
+  ]
+}
+```
+Strukturell identisch zu `zuordnung` (dieselben Felder `kategorien`,
+`elemente`, `loesung`), aber die Erwartung ist: `kategorien.length ===
+elemente.length` und `loesung` ist im Regelfall eine Permutation (jede
+Kategorie wird genau einmal verwendet). **Ausnahme, kein Bug:** Es kann
+vorkommen, dass zwei Einträge in `kategorien` inhaltlich identisch sind
+(siehe Beispiel oben, zweimal „Einkünfte aus Kapitalvermögen"). Die UI darf
+deshalb **keine** Annahme treffen, dass jede Kategorie beim Zuordnen nur
+einmal verfügbar/anklickbar ist — das würde solche (bewusst so angelegten)
+Originalfragen unlösbar machen.
+
+**Warum zwei getrennte Typen statt einem generischen:** Bewusste
+Design-Entscheidung, keine offene Frage. `zuordnung` und `permutation` sind
+strukturell identisch, unterscheiden sich aber in der sinnvollen
+UI-Interaktion (bei `permutation` z. B. Kategorien nach Zuordnung als
+„verbraucht" ausblenden können, außer im oben genannten Duplikat-Fall) und
+in Scoring-Nuancen. Getrennte Typen halten Frontend-Logik und Validierung
+einfacher, auch auf Kosten leichter Schema-Redundanz.
+
+### Lückentext-Beispiel (`typ: "luecke"`)
+```json
+{
+  "fach": "ESt",
+  "fragen": [
+    {
+      "id": "est-77",
+      "typ": "luecke",
+      "thema": "PKW – Überwiegensprinzip",
+      "text": "Bei diesem PKW handelt es sich um ein {0} Wirtschaftsgut, weil er teils privat und teils betrieblich genutzt wird. Bewegliche Wirtschaftsgüter gehören nach dem {1} zur Gänze zum Betriebs- bzw. Privatvermögen. Da der PKW überwiegend betrieblich genutzt wird, stellt er zur Gänze {2} dar. Die Luxustangente beträgt {3}. Der Privatanteil von {4} ist auszuscheiden.",
+      "luecken": [
+        { "optionen": ["bewegliches", "unbewegliches", "gemischt genutztes", "ungenutztes"], "loesung": 2 },
+        { "optionen": ["Aufteilungsprinzip", "Überwiegensprinzip"], "loesung": 1 },
+        { "optionen": ["Privatvermögen", "Betriebsvermögen"], "loesung": 1 },
+        { "optionen": ["25 %", "33 %", "67 %", "75 %"], "loesung": 1 },
+        { "optionen": ["25 %", "33 %", "67 %", "75 %"], "loesung": 0 }
+      ],
+      "erklaerung": "..."
+    }
+  ]
+}
+```
+`text` enthält Platzhalter `{0}`, `{1}`, … in Reihenfolge. `luecken` ist ein
+Array mit genau einem Eintrag pro Platzhalter (`luecken.length` muss der
+Anzahl `{n}`-Platzhalter im `text` entsprechen), jeweils mit eigener
+`optionen`-Liste und `loesung`-Index. Bewusst **kein** globaler Wortpool für
+den ganzen Text, da dieselbe Option (z. B. „25 %") bei verschiedenen Lücken
+auftauchen kann, aber pro Lücke eine andere Antwort richtig ist.
+
+---
+
 Feldbeschreibung:
 - `fach` (string) — Anzeigename des Fachs
 - `fragen` (array) — Liste der Fragen
   - `id` (string) — eindeutiger Identifier
-  - `typ` (string, optional) — `"single"` oder `"multiple"`;
-    fehlt das Feld, gilt `"single"` als Default (Abwärtskompatibilität)
+  - `typ` (string, optional) — `"single"`, `"multiple"`, `"zuordnung"`,
+    `"permutation"` oder `"luecke"`; fehlt das Feld, gilt `"single"` als
+    Default (Abwärtskompatibilität)
+  - `thema` (string, optional) — Kurzbezeichnung des Themenbereichs,
+    bislang v. a. bei den neuen Typen verwendet, ist aber optional für
+    alle Typen nutzbar
   - `abschnitt` (string, optional) — Themenabschnitt innerhalb des Fachs
     (z. B. `"§§ 1–4"`), wird in der Auswertung zur Gliederung genutzt
-  - `frage` (string) — ausformulierte Frage
-  - `optionen` (array von strings) — Antwortmöglichkeiten;
-    bei `"single"` typisch 4 Optionen, bei `"multiple"` können es mehr sein
-  - `korrekt` — bei `"single"`: integer (0-basierter Index);
-    bei `"multiple"`: array von integers (alle korrekten Indizes)
+  - `frage` (string) — ausformulierte Frage; bei `"luecke"` entfällt dieses
+    Feld zugunsten von `text` (siehe unten), kann aber optional zusätzlich
+    als kurze Arbeitsanweisung gesetzt werden
   - `erklaerung` (string) — fachliche Begründung, wird nach
-    Beantwortung angezeigt
+    Beantwortung angezeigt (gilt für alle fünf Typen)
+  - Felder nur bei `"single"`/`"multiple"`:
+    - `optionen` (array von strings) — Antwortmöglichkeiten;
+      bei `"single"` typisch 4 Optionen, bei `"multiple"` können es mehr sein
+    - `korrekt` — bei `"single"`: integer (0-basierter Index);
+      bei `"multiple"`: array von integers (alle korrekten Indizes)
+  - Felder nur bei `"zuordnung"`/`"permutation"`:
+    - `kategorien` (array von strings) — Bucket-Labels, Reihenfolge =
+      Index-Referenz
+    - `elemente` (array von strings) — die zuzuordnenden Aussagen/Sachverhalte
+    - `loesung` (array von integers, gleich lang wie `elemente`) —
+      `loesung[i]` = Index der korrekten Kategorie für `elemente[i]`
+  - Felder nur bei `"luecke"`:
+    - `text` (string) — Fließtext mit `{0}`, `{1}`, …-Platzhaltern
+    - `luecken` (array, ein Eintrag pro Platzhalter) — je Eintrag:
+      `optionen` (array von strings) + `loesung` (integer, Index der
+      korrekten Option innerhalb dieser Lücke)
+
+### Validierung neuer Fragen (Lint-Skript)
+Für `zuordnung`/`permutation`/`luecke` empfiehlt sich ein kleines
+Node- oder Python-Skript, das beim Hinzufügen neuer Fragen lokal ausgeführt
+wird und folgende Regeln prüft, bevor fehlerhafte JSON-Daten überhaupt ins
+Tool gelangen:
+- `loesung`-Indizes (bei `zuordnung`/`permutation`) liegen innerhalb der
+  Länge von `kategorien`
+- `loesung.length === elemente.length`
+- bei `permutation`: Warnung (kein harter Fehler, siehe Duplikat-Fall oben),
+  falls `kategorien.length !== elemente.length`
+- bei `luecke`: Anzahl der `{n}`-Platzhalter im `text` entspricht
+  `luecken.length`, und jeder `luecken[i].loesung`-Index liegt innerhalb der
+  Länge von `luecken[i].optionen`
+- jede `id` ist eindeutig innerhalb der Datei
+
+Dieses Skript ist ein reines Entwicklungs-Hilfsmittel (nicht Teil der
+Laufzeit-Logik des Tools) und kann z. B. als `npm run lint:quiz` oder
+`python validate_quiz.py data/quiz/*.json` eingerichtet werden.
 
 ---
 
@@ -344,6 +510,17 @@ Parsing-Logik:
 - **Wichtig für Multiple-Choice:** Die Shuffle-Logik gilt identisch auch
   für `typ: "multiple"` — `korrekt` ist ein Array von Original-Indizes,
   die nach dem Mischen über `originalIndex` korrekt zugeordnet werden.
+- **Wichtig für `zuordnung`/`permutation`:** Sowohl `elemente` als auch
+  `kategorien` werden beim Anzeigen clientseitig zufällig gemischt (damit
+  die Zuordnungs-Reihenfolge nicht auswendig gelernt wird). `loesung`
+  bleibt dabei an den ursprünglichen `elemente`-Index gebunden — Prüfung
+  auf richtig/falsch erfolgt immer über `originalIndex`-Mapping, exakt wie
+  beim bestehenden Options-Shuffle.
+- **Wichtig für `luecke`:** Die Reihenfolge der Lücken im `text` bleibt
+  unverändert (sie ist an die Fließtext-Struktur gebunden und darf nicht
+  gemischt werden). Optional können die `optionen` innerhalb einer
+  einzelnen Lücke gemischt werden; auch hier gilt Zuordnung über
+  `originalIndex`, nicht über Anzeigeposition.
 
 ### 5.3 Fragendarstellung & Auswertung pro Frage
 
@@ -415,6 +592,54 @@ Gesamt-Score = Summe aller Einzelpunkte / Anzahl Fragen gesamt
 - Schwellenwert: Fragen mit Partial Credit = 1.0 (perfekt) erscheinen
   **nicht** in der Falsch-Liste
 
+#### Zuordnung & Permutation (`typ: "zuordnung"` / `typ: "permutation"`)
+- UI-Interaktion: **Klick-Sequenz** (erst Element antippen, dann Kategorie
+  antippen, um zuzuweisen) — mobilfreundlicher/iPad-tauglicher als
+  Drag-and-Drop und konsistent mit den Geräteanforderungen aus Punkt 8.
+  Bereits zugewiesene Elemente zeigen ihre gewählte Kategorie an und lassen
+  sich vor dem Auswerten erneut umordnen.
+- Bei `permutation` können bereits zugewiesene Kategorien optisch reduziert
+  (nicht deaktiviert, siehe Duplikat-Hinweis oben) angezeigt werden, um die
+  Paarbildung zu erleichtern.
+- **Kein sofortiges Feedback** pro Zuweisung — analog zu Multiple-Choice
+  erscheint ein „Auswerten"-Button (aktiv, sobald allen Elementen eine
+  Kategorie zugewiesen wurde).
+- **Scoring:** Partial Credit pro Element, nicht alles-oder-nichts:
+  ```
+  Punkte = (Anzahl korrekt zugeordneter Elemente) / (Anzahl Elemente gesamt)
+  ```
+  Bei 6 Elementen wäre „alles richtig oder nichts" zu hart und entmutigend
+  beim Lernen — dieselbe Philosophie wie beim Multiple-Choice Partial Credit.
+- **Visuelles Feedback nach Auswertung:** pro Element grün (korrekt
+  zugeordnet) oder rot (falsch zugeordnet), mit Anzeige der tatsächlich
+  korrekten Kategorie bei falscher Zuordnung.
+- **Anzeige pro Frage:** z. B. „4/6 richtig zugeordnet · 67 %".
+
+#### Lückentext (`typ: "luecke"`)
+- UI-Interaktion: pro Lücke ein **Dropdown/Select** direkt im Fließtext an
+  der jeweiligen `{n}`-Position.
+- **Kein sofortiges Feedback** pro Lücke — „Auswerten"-Button erscheint,
+  aktiv sobald alle Lücken befüllt sind.
+- **Scoring:** Partial Credit pro Lücke, nicht alles-oder-nichts:
+  ```
+  Punkte = (Anzahl korrekt befüllter Lücken) / (Anzahl Lücken gesamt)
+  ```
+- **Visuelles Feedback nach Auswertung:** jede Lücke grün (korrekt) oder rot
+  (falsch, mit Anzeige der richtigen Option) im Fließtext selbst.
+- **Anzeige pro Frage:** z. B. „3/5 Lücken richtig · 60 %".
+
+#### Einfluss der neuen Typen auf den Gesamt-Score
+Alle drei neuen Typen fließen nach demselben Prinzip wie Multiple-Choice in
+den Gesamt-Score ein — mit ihrem berechneten Partial-Credit-Wert (0.0–1.0),
+nicht binär:
+```
+Gesamt-Score = Summe aller Einzelpunkte (über alle fünf Fragetypen) / Anzahl Fragen gesamt
+```
+Die Falsch-Liste der Endauswertung (siehe 5.4) behandelt Fragen mit
+Partial Credit < 1.0 unabhängig vom Fragetyp gleich: sie erscheinen, mit
+typ-passender Markierung (Zuordnung/Permutation: pro Element; Lücke: pro
+Lücke), analog zur bestehenden Multiple-Choice-Darstellung.
+
 ### 5.4 Endauswertung
 - **Gesamt-Score** als Prozentwert (z. B. „Score: 78 %"), berechnet als
   Summe aller Einzelpunkte (Single-Choice: 0 oder 1; Multiple-Choice:
@@ -430,6 +655,10 @@ Gesamt-Score = Summe aller Einzelpunkte / Anzahl Fragen gesamt
   - bei Single-Choice: eigene Antwort + korrekte Antwort
   - bei Multiple-Choice: Optionen farblich markiert (grün/orange/rot wie
     beim Feedback während der Frage) + erreichte Punktzahl dieser Frage
+  - bei Zuordnung/Permutation: Elemente mit eigener vs. korrekter Kategorie
+    (grün/rot wie beim Feedback während der Frage) + erreichte Punktzahl
+  - bei Lücke: Fließtext mit eigener vs. korrekter Option je Lücke
+    (grün/rot wie beim Feedback während der Frage) + erreichte Punktzahl
   - der Erklärung
 - Fragen mit Partial Credit = 1.0 erscheinen nicht in der Falsch-Liste.
 
@@ -573,6 +802,22 @@ den Vault zu.
       Prozentwert + Aufschlüsselung (vollständig richtig / teilweise / falsch)
 - [x] Abwärtskompatibilität: Fragen ohne `typ`-Feld werden als `"single"`
       behandelt — alle bestehenden JSON-Files funktionieren ohne Änderung
+- [ ] `zuordnung`-Fragen werden per Klick-Sequenz (Element → Kategorie)
+      bedienbar dargestellt, mit „Auswerten"-Button und Partial-Credit-Score
+      pro Element (grün/rot-Feedback nach Auswertung)
+- [ ] `permutation`-Fragen funktionieren analog zu `zuordnung`, inkl.
+      korrekter Behandlung inhaltlich doppelter Kategorien (keine UI-Sperre
+      „jede Kategorie nur einmal wählbar")
+- [ ] `luecke`-Fragen werden als Fließtext mit Dropdown pro Lücke
+      dargestellt, mit „Auswerten"-Button und Partial-Credit-Score pro
+      Lücke (grün/rot-Feedback im Text nach Auswertung)
+- [ ] Elemente/Kategorien (`zuordnung`/`permutation`) werden pro Testlauf
+      neu gemischt, Lösungsprüfung erfolgt über `originalIndex`-Mapping wie
+      beim bestehenden Options-Shuffle
+- [ ] Endauswertung und Falsch-Liste zeigen alle fünf Fragetypen einheitlich
+      mit Partial-Credit-Wert und typ-passender Markierung
+- [ ] Bestehende `single`/`multiple`-JSON-Dateien laufen unverändert weiter
+      (keine Regression durch die Erweiterung um die drei neuen Typen)
 
 ---
 

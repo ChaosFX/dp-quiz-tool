@@ -1,0 +1,32 @@
+{
+  "fach": "USt",
+  "thema": "Binnenmarkt",
+  "quelle_note": "Umsatzsteuer/Binnenmarkt.md",
+  "karten": [
+    {
+      "id": "ust-binnenmarkt-01",
+      "frage": "Was tritt im Binnenmarkt an die Stelle von Ein- und Ausfuhr?",
+      "antwort": "Die eigenen Tatbestände des **innergemeinschaftlichen Erwerbs** (Art 1, beim Empfänger) und der **innergemeinschaftlichen Lieferung** (Art 7, beim Lieferanten) - weil es innerhalb der EU keine Grenzkontrollen mehr gibt."
+    },
+    {
+      "id": "ust-binnenmarkt-02",
+      "frage": "Wann gilt heute noch das Ursprungslandprinzip?",
+      "antwort": "Nur noch bei **Abholeinkäufen durch Privatpersonen** (Nichtunternehmer) im EU-Ausland - sie zahlen die USt des Einkaufslands ohne weitere Versteuerung im Wohnsitzstaat. Ausnahme: der Erwerb **neuer Fahrzeuge**, der immer dem Bestimmungslandprinzip unterliegt."
+    },
+    {
+      "id": "ust-binnenmarkt-03",
+      "frage": "Warum konnte sich das ursprünglich geplante Ursprungslandprinzip EU-weit nicht durchsetzen?",
+      "antwort": "Es war zum Zeitpunkt der Einführung **technisch nicht umsetzbar**. Erst durch neue Technologien - insbesondere den **One-Stop-Shop** - konnte sich stattdessen das Bestimmungslandprinzip sowohl bei Lieferungen als auch bei sonstigen Leistungen etablieren."
+    },
+    {
+      "id": "ust-binnenmarkt-04",
+      "frage": "Wie wird die Besteuerung im Bestimmungsland ohne Grenzkontrollen sichergestellt?",
+      "antwort": "Elektronisch über die **Zusammenfassende Meldung (ZM)** des liefernden/leistenden Unternehmers und des EU-weite **MIAS-System**, das u.a. UID-Gültigkeit, ZM-Daten und Erwerbs-/Lieferdaten abfragbar macht."
+    },
+    {
+      "id": "ust-binnenmarkt-05",
+      "frage": "Sind die Steuerfreiheit der ig. Lieferung und die Erwerbsteuerpflicht zwingend miteinander verknüpft?",
+      "antwort": "**NEIN.** Die Erwerbsteuerpflicht beim Empfänger tritt **unabhängig** davon ein, ob dem Lieferanten die Steuerfreiheit für seine ig. Lieferung zusteht. Fehlen z.B. ZM, gültige UID des Erwerbers oder Transportnachweis, kann die Steuerfreiheit der ig. Lieferung entfallen - zusätzlich zur Erwerbsteuerpflicht."
+    }
+  ]
+}

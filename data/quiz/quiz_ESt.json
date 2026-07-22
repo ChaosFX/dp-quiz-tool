@@ -1,8 +1,8 @@
 {
   "fach": "ESt",
   "quelle": "Zusammenführung quiz_ESt_v2 (70 Fragen) und quiz_ESt_learningapps (28 Fragen)",
-  "hinweis": "Fragen mit typ='multiple' erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025.",
-  "anzahl": 98,
+  "hinweis": "Fragen mit typ='multiple' erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025. GFB-Figuren (est-26) auf 2025er-Werte korrigiert (Schwelle € 33.000 / Grundfreibetrag € 4.950); Dublette est-70 entfernt. Ergänzt um est-71 bis est-76 aus den Übungsfragen-PDFs (Juli 2026): PKW-Luxustangente, Instandsetzung/Herstellungsaufwand V+V, Rententatbestände § 29 Z 1, Halbsatzbegünstigung bei Erwerbsunfähigkeit, Hauptwohnsitzbefreiung-Fristen.",
+  "anzahl": 103,
   "fragen": [
     {
       "id": "est-01",
@@ -460,17 +460,17 @@
     {
       "id": "est-26",
       "typ": "single",
-      "frage": "Gewinn: € 93.000. Investitionen: Maschinen (neu) € 55.000, PKW (CO2 > 0) € 38.000. Wie hoch ist der Gesamt-GFB?",
+      "frage": "Gewinn: € 93.000. Investitionen: Maschinen (neu) € 55.000, PKW (CO2 > 0) € 38.000. Wie hoch ist der Gesamt-GFB (Werte 2025)?",
       "optionen": [
-        "€ 16.590 (15 % × € 30.000 + 13 % × € 63.000 – ohne Rücksicht auf Investitionen)",
-        "€ 11.650 (Grundfreibetrag € 4.500 + invGFB 13 % × € 55.000 = € 7.150)",
+        "€ 12.750 (15 % × € 33.000 + 13 % × € 60.000 – ohne Rücksicht auf Investitionshöhe)",
+        "€ 12.100 (Grundfreibetrag € 4.950 + invGFB 13 % × € 55.000 = € 7.150)",
         "€ 12.090 (13 % × € 93.000, keine Differenzierung)",
-        "€ 4.500 (nur Grundfreibetrag, weil PKW als einzige Investition ausgeschlossen ist)"
+        "€ 4.950 (nur Grundfreibetrag, weil PKW als einzige Investition ausgeschlossen ist)"
       ],
       "korrekt": [
         1
       ],
-      "erklaerung": "Grundfreibetrag: 15 % × € 30.000 = € 4.500. invGFB-Basis: € 63.000 (Gewinn − 30.000); Satz 13 % → max. € 8.190. Begünstigte Investitionen: nur Maschinen € 55.000 (PKW CO2 > 0 ausgeschlossen). invGFB = min(€ 8.190; 13 % × € 55.000 = € 7.150). Gesamt-GFB = € 4.500 + € 7.150 = € 11.650.",
+      "erklaerung": "Grundfreibetrag (2025): 15 % × € 33.000 = € 4.950 (automatisch, ohne Investitionserfordernis). invGFB-Basis: Gewinn abzüglich € 33.000 = € 60.000; dieser Teil liegt zur Gänze in der 13 %-Staffel (bis € 178.000 Gewinn-Restbetrag), max. invGFB-Potenzial = 13 % × € 60.000 = € 7.800. Begünstigt sind nur die neuen Maschinen (€ 55.000) – der PKW mit CO2 > 0 ist vom invGFB ausgeschlossen. invGFB = min(€ 7.800; 13 % × € 55.000 = € 7.150) = € 7.150. Gesamt-GFB = € 4.950 + € 7.150 = € 12.100. Achtung: Das Mai-2024-Skript verwendet noch die alten Werte (Schwelle € 30.000 / Grundfreibetrag € 4.500) – für die Veranlagung 2025 gelten € 33.000 / € 4.950.",
       "thema": "Gewinnfreibetrag – Berechnung"
     },
     {
@@ -1233,22 +1233,6 @@
       "thema": "Gewinnermittlung – Innenumsätze"
     },
     {
-      "id": "est-70",
-      "typ": "single",
-      "frage": "Gewinn: € 93.000. Investitionen: Maschinen (neu, ND 5 J.) € 55.000, PKW (CO2 > 0) € 38.000. Wie hoch ist der Gesamt-GFB?",
-      "optionen": [
-        "€ 16.590 (15 % × € 30.000 + 13 % × € 63.000 – ohne Rücksicht auf Investitionshöhe)",
-        "€ 11.650 (Grundfreibetrag € 4.500 + invGFB 13 % × € 55.000 = € 7.150)",
-        "€ 12.090 (13 % × € 93.000, keine Differenzierung)",
-        "€ 4.500 (nur Grundfreibetrag, weil PKW als einzige Investition ausgeschlossen ist)"
-      ],
-      "korrekt": [
-        1
-      ],
-      "erklaerung": "Grundfreibetrag: 15 % × € 30.000 = € 4.500. invGFB-Basis: € 63.000 (Gewinn − € 30.000); Satz 13 % → max. € 8.190. Begünstigte Investitionen: nur Maschinen € 55.000 (PKW CO2 > 0 ausgeschlossen). invGFB = min(€ 8.190; 13 % × € 55.000 = € 7.150). Gesamt-GFB = € 4.500 + € 7.150 = € 11.650.",
-      "thema": "Gewinnfreibetrag – Berechnung"
-    },
-    {
       "id": "est-la-01",
       "typ": "single",
       "thema": "Grundzüge – steuerbar/nicht steuerbar",
@@ -1741,6 +1725,117 @@
         2
       ],
       "erklaerung": "Im EStG gibt es ausschließlich sachliche Befreiungen (bestimmte Einnahmen oder Einkünfte sind befreit), keine persönlichen Befreiungen (die einer bestimmten Personengruppe generell Steuerfreiheit gewähren). Sachliche Befreiungen können als Freibetrag, Freigrenze oder betraglich unbegrenzte Befreiung ausgestaltet sein."
+    },
+    {
+      "id": "est-71",
+      "typ": "multiple",
+      "thema": "AfA – PKW – Luxustangente",
+      "frage": "Frau Denk kauft sich am 03.04.2023 einen Pkw um € 50.000,–. Für den Rest des Jahres fallen € 1.500 Versicherung und € 600 Treibstoffkosten an. Laut Fahrtenbuch wurden 10.000 km betrieblich und 2.000 km privat gefahren. Welche Aussagen treffen zu?",
+      "optionen": [
+        "Die Luxustangente beträgt 1/5 (Überschreitung der € 40.000-Angemessenheitsgrenze um € 10.000 von € 50.000).",
+        "Die zu berücksichtigende AfA beträgt € 5.000,– (€ 40.000 gedeckelte AK ÷ 8 Jahre ND, volle Jahres-AfA wegen Anschaffung im 1. Halbjahr).",
+        "Der Treibstoff ist nicht um die Luxustangente zu kürzen, da er nicht wertabhängig ist.",
+        "Der Privatanteil beträgt 20 %.",
+        "Der Pkw stellt Privatvermögen dar.",
+        "Versicherungsaufwand ist nach § 20 EStG generell nicht abzugsfähig."
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Luxustangente: (€ 50.000 − € 40.000)/€ 50.000 = 1/5 = 20 %. Die AfA wird von der gedeckelten AK € 40.000 berechnet; bei gesetzlicher ND von 8 Jahren und Anschaffung im 1. Halbjahr steht die volle Jahres-AfA von € 5.000 zu. Treibstoff ist nicht wertabhängig und daher nicht um die Luxustangente zu kürzen (nur Versicherung und Zinsen sind wertabhängig und zu kürzen). Der Privatanteil beträgt tatsächlich 2.000/12.000 = 16,67 %, nicht 20 % – die 20 % sind die Luxustangente, nicht der Privatanteil (klassische Verwechslungsfalle). Da 10.000/12.000 = 83,3 % betrieblich gefahren werden, liegt überwiegende betriebliche Nutzung vor → der Pkw ist zur Gänze Betriebsvermögen (Überwiegensprinzip bei beweglichen WG). Versicherungsaufwand ist grundsätzlich abzugsfähig, muss aber (als wertabhängige Kostenposition) um die Luxustangente gekürzt werden – ein generelles Abzugsverbot nach § 20 EStG besteht nicht."
+    },
+    {
+      "id": "est-72",
+      "typ": "multiple",
+      "thema": "Vermietung und Verpachtung – Instandhaltung/Instandsetzung/Herstellungsaufwand",
+      "frage": "Welche der folgenden Maßnahmen an Mietobjekten stellen Instandsetzungsaufwand dar (verpflichtend auf 15 Jahre zu verteilen)?",
+      "optionen": [
+        "Ersatz von Teppichboden durch Parkett sowie Neuanstrich der Wände in einer Mietwohnung.",
+        "Erneuerung von Elektrik, Wasserleitungen, Heizung und Dach in einem 100 Jahre alten, erstmals zu vermietenden Zinshaus.",
+        "Austausch sämtlicher alter Holzfenster durch dreifachverglaste Kunststofffenster im gesamten Mietshaus.",
+        "Reparatur der Steuerung einer bestehenden Gasheizung um € 1.500.",
+        "Umstellung des gesamten Heizungssystems von Gas auf Fernwärme um € 60.000.",
+        "Sanierung eines undichten Dachs bei gleichzeitigem Ausbau von zwei neuen Wohnungen im Dachboden."
+      ],
+      "korrekt": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Instandsetzungsaufwand (§ 28 Abs 2 EStG) liegt bei Austausch von Fenstern (mehr als 25 % des Gebäudes), Heizungsanlagen sowie Elektro-, Gas-, Wasser- und Heizungsinstallationen und Dach vor – daher: Anna (Elektrik/Wasser/Heizung/Dach), Paul (Fenstertausch) und Katrins Heizungsumstellung (€ 60.000) sind jeweils Instandsetzung mit zwingender 15-Jahresverteilung. Stefans Parkett/Anstrich sind bloße Schönheitsreparaturen ohne Werterhöhung → Instandhaltung, sofort abzugsfähig. Katrins kleine Reparatur der Heizungssteuerung (€ 1.500) ist ebenfalls Instandhaltung. Florians Fall ist gemischt: die Dachsanierung wäre für sich Instandsetzung, der gleichzeitige Ausbau neuer Wohnungen schafft aber zusätzlichen Nutzraum (Erweiterung) – die Gesamtmaßnahme ist daher als Herstellungsaufwand zu werten und nicht sofort bzw. nicht über 15 Jahre, sondern über die Nutzungsdauer des Gebäudes abzuschreiben."
+    },
+    {
+      "id": "est-73",
+      "typ": "multiple",
+      "thema": "Sonstige Einkünfte – Rententatbestände § 29 Z 1",
+      "frage": "Welche der folgenden Sachverhalte stellen einen Rententatbestand iSd § 29 Z 1 EStG dar?",
+      "optionen": [
+        "A überträgt seinem Sohn ein Mietshaus. Der Sohn zahlt dafür lebenslang monatlich € 1.500 an A (Versorgungs-/Kaufpreisrente als Gegenleistung für die Übertragung).",
+        "B zahlt seiner geschiedenen Ehefrau „freiwillig“ monatlich € 800, ohne dass diese ihm ein Wirtschaftsgut übertragen hat oder ein Rechtsanspruch besteht.",
+        "C schenkt seiner Tochter ein Grundstück; die Tochter verpflichtet sich, sich künftig „um ihn zu kümmern“ (Pflege-/Betreuungsleistung statt Geldrente).",
+        "D erhält aus einer privaten Rentenversicherung laufende Rentenzahlungen, nachdem zuvor Kapital eingezahlt wurde."
+      ],
+      "korrekt": [
+        0,
+        3
+      ],
+      "erklaerung": "§ 29 Z 1 EStG erfasst wiederkehrende Bezüge, die als Gegenleistung für eine Vermögensübertragung oder aufgrund eines Versicherungsverhältnisses geleistet werden. Fall A ist eine klassische Kaufpreis-/Versorgungsrente für die Übertragung eines Wirtschaftsguts. Fall D ist der klassische Fall einer Rentenversicherung mit Ertragsanteilsbesteuerung. Fall B ist mangels Gegenleistung und Rechtsanspruch eine freiwillige, nicht steuerbare Zuwendung (keine Rente). Fall C enthält keine Geld- oder vertretbare Sachrente, sondern eine Betreuungs-/Pflegeverpflichtung – dies begründet keinen Rententatbestand iSd § 29 Z 1. (Stufe 1 – Kennen)"
+    },
+    {
+      "id": "est-74",
+      "typ": "multiple",
+      "thema": "Veräußerungsgewinn §24/§37 – Halbsatzbegünstigung bei Erwerbsunfähigkeit",
+      "frage": "Der 58-jährige Alfons Adler muss seine Tischlerei wegen eines schweren Bandscheibenvorfalls mit dauerhafter, ärztlich bestätigter Erwerbsunfähigkeit aufgeben und verkauft den Betrieb (Veräußerungsgewinn € 250.000). Welche Voraussetzungen müssen erfüllt sein, damit er die Halbsatzbegünstigung gem. § 37 Abs 5 EStG aufgrund von Erwerbsunfähigkeit (statt Alter) in Anspruch nehmen kann?",
+      "optionen": [
+        "Er muss das 60. Lebensjahr vollendet haben.",
+        "Er muss den Betrieb aufgrund der gesundheitlichen Erwerbsunfähigkeit endgültig aufgeben.",
+        "Er muss seine bisherige Erwerbstätigkeit einstellen.",
+        "Eine ärztliche bzw. amtliche Bestätigung der Erwerbsunfähigkeit ist erforderlich.",
+        "Der Betrieb muss seit mindestens 7 Jahren bestanden haben."
+      ],
+      "korrekt": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "§ 37 Abs 5 EStG kennt drei alternative Tatbestände für die Halbsatzbegünstigung bei Betriebsveräußerung/-aufgabe: Tod, Erwerbsunfähigkeit oder Vollendung des 60. Lebensjahres (jeweils verbunden mit Einstellung der Erwerbstätigkeit). Beim Erwerbsunfähigkeits-Tatbestand ist das 60. Lebensjahr gerade NICHT erforderlich – es genügt eine ärztlich/amtlich nachgewiesene dauernde Erwerbsunfähigkeit, verbunden mit der endgültigen Aufgabe der Tätigkeit. Zusätzlich muss (unabhängig vom gewählten Tatbestand) der Betrieb seit mind. 7 Jahren bestanden haben."
+    },
+    {
+      "id": "est-75",
+      "typ": "single",
+      "thema": "Veräußerungsgewinn §24/§37 – Halbsatzbegünstigung bei Erwerbsunfähigkeit",
+      "frage": "Ist die Halbsatzbegünstigung nach § 37 Abs 5 EStG auch vor Vollendung des 60. Lebensjahres möglich?",
+      "optionen": [
+        "Ja, wenn eine ärztlich bzw. amtlich nachgewiesene dauernde Erwerbsunfähigkeit vorliegt und die Tätigkeit deshalb endgültig eingestellt wird.",
+        "Nein, die Begünstigung gilt ausschließlich ab Vollendung des 60. Lebensjahres.",
+        "Ja, aber nur wenn der Veräußerungsgewinn unter € 100.000 liegt.",
+        "Nein, weil die Begünstigung nur Pensionisten offensteht."
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Die drei Tatbestände des § 37 Abs 5 EStG (Tod, Erwerbsunfähigkeit, 60. Lebensjahr) stehen gleichberechtigt nebeneinander. Erwerbsunfähigkeit ist daher unabhängig vom Lebensalter ein eigenständiger, vom Alter unabhängiger Anwendungsfall – es gibt keine Betragsgrenze und keine Beschränkung auf Pensionisten."
+    },
+    {
+      "id": "est-76",
+      "typ": "multiple",
+      "thema": "ImmoESt – Hauptwohnsitzbefreiung – Fristen",
+      "frage": "Welche der folgenden Aussagen zu den zwei Varianten der Hauptwohnsitzbefreiung (§ 30 Abs 2 Z 1 EStG) treffen zu?",
+      "optionen": [
+        "Variante 2: Der Hauptwohnsitz muss innerhalb der letzten 10 Jahre vor der Veräußerung mind. durchgehend 5 Jahre vorgelegen haben.",
+        "Variante 1: Der Hauptwohnsitz muss seit der Anschaffung bis zur Veräußerung durchgehend mind. 2 Jahre vorgelegen haben.",
+        "Der Hauptwohnsitz muss innerhalb der letzten 5 Jahre für mind. durchgehend 10 Monate vorgelegen haben.",
+        "Der Hauptwohnsitz muss nach der Veräußerung beibehalten werden, um die Befreiung zu behalten.",
+        "Der Hauptwohnsitz muss innerhalb der letzten 10 Jahre mind. durchgehend 2 Jahre vorgelegen haben."
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "§ 30 Abs 2 Z 1 EStG kennt zwei alternative Varianten: (1) durchgehend ab Anschaffung bis Veräußerung mind. 2 Jahre Hauptwohnsitz, oder (2) innerhalb der letzten 10 Jahre vor der Veräußerung mind. durchgehend 5 Jahre Hauptwohnsitz (auch mit Unterbrechung, zB durch zwischenzeitliche Vermietung). In beiden Varianten ist zusätzlich Voraussetzung, dass der Hauptwohnsitz im Zuge der Veräußerung aufgegeben wird – das Gegenteil von Option D. Option C und E vertauschen die Zahlenwerte der beiden echten Varianten (klassische Prüfungsfalle)."
     }
   ]
 }

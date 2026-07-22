@@ -1,6 +1,6 @@
 {
   "fach": "KöSt",
-  "quelle": "BFA-Skriptum Körperschaftsteuer (Ko_St_Oktober_2025_GAB), Stand Veranlagung 2025; KStG/EStG/BAO/UStG in geltender Fassung. Erweitert um Beispielsammlungen und Uebungspool der Vortragenden (Sandra Knes) zur Koerperschaftsteuer, Stand 2025 (System der KoeSt, Einlagen/Beteiligungsertragsbefreiung/Mantelkauf, verdeckte Ausschuettung, sowie in Multiple-Choice-Form umgewandelte offene Fallbeispiele), koest-61 bis koest-116. Inhaltlich abgeglichen und aktualisiert nach KStG/EStG/BAO in der fuer die Veranlagung 2025 geltenden Fassung.",
+  "quelle": "BFA-Skriptum Körperschaftsteuer (Ko_St_Oktober_2025_GAB), Stand Veranlagung 2025; KStG/EStG/BAO/UStG in geltender Fassung. Erweitert um Beispielsammlungen und Uebungspool der Vortragenden (Sandra Knes) zur Koerperschaftsteuer, Stand 2025 (System der KoeSt, Einlagen/Beteiligungsertragsbefreiung/Mantelkauf, verdeckte Ausschuettung, sowie in Multiple-Choice-Form umgewandelte offene Fallbeispiele), koest-61 bis koest-116. Inhaltlich abgeglichen und aktualisiert nach KStG/EStG/BAO in der fuer die Veranlagung 2025 geltenden Fassung. Weiterhin erweitert um eine Uebungsklausur (Multiple-Choice- und in MC-Form umgewandelte Zuordnungs-/Rechenfragen), koest-116 bis koest-141; Mantelkauf-Dublette (ehem. koest-54/koest-80) zu einer Frage zusammengefuehrt. Ergaenzt um ausgewaehlte, gruendlich geprueft Fragen aus einer weiteren Multiple-Choice-Sammlung mit Loesungsschluessel (gruene Hervorhebung), koest-142 bis koest-176; inhaltliche Dubletten zu bereits vorhandenen Fragen wurden nicht erneut aufgenommen.",
   "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025.",
   "fragen": [
     {
@@ -1251,23 +1251,6 @@
     },
     {
       "id": "koest-80",
-      "typ": "multiple",
-      "frage": "Welche Aussagen treffen auf den Mantelkauf (§ 8 Abs 4 lit c KStG) zu?",
-      "optionen": [
-        "Die Verlustverwertung bleibt bei einem Mantelkauf in jedem Fall in vollem Umfang bestehen",
-        "Zusaetzlich wird ein Wechsel eines wesentlichen Teils der Organe (organisatorische Struktur) vorausgesetzt",
-        "Ein Mantelkauf ist fuer die steuerliche Verlustverwertung stets unbeachtlich",
-        "Erforderlich ist eine wesentliche Aenderung der Gesellschafterstruktur auf entgeltlicher Grundlage",
-        "Bloss unwesentliche strukturelle Veraenderungen genuegen fuer die Annahme eines Mantelkaufs"
-      ],
-      "korrekt": [
-        1,
-        3
-      ],
-      "erklaerung": "Ein Mantelkauf iSd § 8 Abs 4 lit c KStG liegt vor, wenn sich Gesellschafterstruktur, organisatorische Struktur (insbesondere die Geschaeftsfuehrungs-/Vertretungsorgane) und wirtschaftliche Struktur einer Koerperschaft jeweils wesentlich und auf entgeltlicher Grundlage aendern (Gesamtbildbetrachtung). Rechtsfolge ist der Untergang des Rechts auf Verlustabzug fuer die vor der Aenderung entstandenen Verluste. Bloss unwesentliche Aenderungen fuehren nicht zum Mantelkauf, und die Aussage, ein Mantelkauf sei generell unbeachtlich, ist unzutreffend."
-    },
-    {
-      "id": "koest-81",
       "typ": "single",
       "frage": "Welcher Steuersatz gilt fuer die Koerperschaftsteuer ab dem Jahr 2024?",
       "optionen": [
@@ -1282,7 +1265,7 @@
       "erklaerung": "Im Zuge der Oekosozialen Steuerreform 2022 wurde der KoeSt-Satz stufenweise von 25 % (bis 2022) ueber 24 % (2023) auf 23 % ab dem Jahr 2024 gesenkt. Dieser lineare Satz von 23 % gilt auch fuer die Veranlagung 2025."
     },
     {
-      "id": "koest-82",
+      "id": "koest-81",
       "typ": "single",
       "frage": "Welche Konsequenz droht der Gesellschaft, wenn sie einer Aufforderung zur Empfaengerbenennung nach § 162 BAO nicht nachkommt?",
       "optionen": [
@@ -1297,7 +1280,7 @@
       "erklaerung": "Kommt die Koerperschaft einem Verlangen der Abgabenbehoerde nach genauer Bezeichnung der Empfaenger abgesetzter Betraege (§ 162 BAO) nicht nach, sind die entsprechenden Betraege grundsaetzlich nicht anzuerkennen; zusaetzlich sieht § 22 Abs 3 KStG eine Zusatzsteuer von 25 % auf den betroffenen Zahlungsbetrag vor - nicht auf den gesamten Gewinn der Gesellschaft."
     },
     {
-      "id": "koest-83",
+      "id": "koest-82",
       "typ": "multiple",
       "frage": "Welche Merkmale treffen auf die Veranlagung der Koerperschaftsteuer zu?",
       "optionen": [
@@ -1313,7 +1296,7 @@
       "erklaerung": "Veranlagungszeitraum ist grundsaetzlich das Kalenderjahr (bei abweichendem Wirtschaftsjahr das im jeweiligen Kalenderjahr endende Wirtschaftsjahr). Die KoeSt-Vorauszahlungen werden nicht einmalig, sondern in vierteljaehrlichen Raten faellig."
     },
     {
-      "id": "koest-84",
+      "id": "koest-83",
       "typ": "multiple",
       "frage": "Welche Voraussetzungen treffen auf die Mindestkoerperschaftsteuer (MiKoe) zu?",
       "optionen": [
@@ -1329,7 +1312,7 @@
       "erklaerung": "Die Hoehe der Mindestkoerperschaftsteuer haengt von Rechtsform und Betriebsgegenstand ab (z.B. GmbH/FlexKapG € 500, AG € 3.500, Kreditinstitute/Versicherungen € 5.452 jaehrlich) und ist unabhaengig vom tatsaechlich erzielten Ergebnis auch in Verlustjahren zu entrichten - sie entfaellt also gerade nicht bei negativen Einkuenften. Sie trifft unbeschraenkt steuerpflichtige inlaendische Kapitalgesellschaften (§ 24 Abs 4 KStG)."
     },
     {
-      "id": "koest-85",
+      "id": "koest-84",
       "typ": "multiple",
       "frage": "Wie hoch ist die Mindestkoerperschaftsteuer fuer eine neu gegruendete GmbH ab 1.1.2024?",
       "optionen": [
@@ -1346,7 +1329,7 @@
       "erklaerung": "Mit dem GesRAeG 2023 wurde das gesetzliche Mindeststammkapital einer GmbH ab 1.1.2024 auf € 10.000 gesenkt. Die Mindestkoerperschaftsteuer bemisst sich mit 5 % dieses Mindeststammkapitals und betraegt somit einheitlich € 500 pro Jahr (bzw € 125 pro Quartal) - beide Antwortoptionen beschreiben denselben Betrag."
     },
     {
-      "id": "koest-86",
+      "id": "koest-85",
       "typ": "multiple",
       "frage": "Welche Aussagen treffen auf eine offene Ausschuettung zu?",
       "optionen": [
@@ -1365,7 +1348,7 @@
       "erklaerung": "Die offene Ausschuettung ist Gewinnverwendung und setzt einen foermlichen Gewinnverwendungsbeschluss der Gesellschafter voraus. Sie mindert gemaess § 8 Abs 2 KStG nicht das steuerpflichtige Einkommen der Koerperschaft, da Einkommensverwendung steuerlich unbeachtlich ist. Grundsaetzlich richtet sich die Verteilung nach dem Verhaeltnis der Stammeinlagen (nicht willkuerlich); eine abweichende Gewinnverteilung bedarf einer entsprechenden Regelung im Gesellschaftsvertrag."
     },
     {
-      "id": "koest-87",
+      "id": "koest-86",
       "typ": "single",
       "frage": "Wie wird eine Ausschuettung beim Anteilseigner besteuert, wenn dieser eine natuerliche Person ist?",
       "optionen": [
@@ -1380,7 +1363,7 @@
       "erklaerung": "Ausschuettungen an natuerliche Personen unterliegen der Kapitalertragsteuer (KESt) iHv 27,5 % (§ 27a Abs 1 EStG), die von der Koerperschaft einbehalten und abgefuehrt wird und beim Empfaenger grundsaetzlich Endbesteuerungswirkung entfaltet."
     },
     {
-      "id": "koest-88",
+      "id": "koest-87",
       "typ": "multiple",
       "frage": "Welche Aussagen treffen auf die verdeckte Ausschuettung zu?",
       "optionen": [
@@ -1398,7 +1381,7 @@
       "erklaerung": "Eine verdeckte Ausschuettung setzt eine Eigentums- oder Nahebeziehung zur Koerperschaft voraus, durch die der Anteilsinhaber (oder eine ihm nahestehende Person) zu Lasten der Koerperschaft bereichert wird (objektives Tatbild), begleitet vom Wissen und Wollen der Koerperschaft (subjektives Tatbild). Gerade der Fremdvergleich ist zentral fuer die Beurteilung, nicht unbeachtlich; und die Vorteilszuwendung erfolgt an den Gesellschafter, nicht 'an die Kapitalgesellschaft' selbst."
     },
     {
-      "id": "koest-89",
+      "id": "koest-88",
       "typ": "multiple",
       "frage": "Welche der folgenden Sachverhalte koennte eine verdeckte Ausschuettung ausloesen?",
       "optionen": [
@@ -1414,7 +1397,7 @@
       "erklaerung": "Ein ueberhoehtes Geschaeftsfuehrergehalt und die Uebernahme privater Aufwendungen wie einer privaten Lebensversicherungspraemie sind typische Beispiele fremdunueblicher Vorteilszuwendungen und loesen eine verdeckte Ausschuettung aus. Erhaelt die Praktikantin dagegen ein fremduebliches Entgelt und wird das Firmenauto zum tatsaechlichen Verkehrswert verkauft, liegt jeweils ein fremduebliches Geschaeft ohne Bereicherung vor - keine vA."
     },
     {
-      "id": "koest-90",
+      "id": "koest-89",
       "typ": "multiple",
       "frage": "Welche Aussagen treffen auf die Fremdueblichkeit zu?",
       "optionen": [
@@ -1430,7 +1413,7 @@
       "erklaerung": "Fuer die Fremdueblichkeit einer Vereinbarung zwischen Koerperschaft und Gesellschafter (Angehoerigenjudikatur) werden Publizitaet sowie ein klarer, eindeutiger Inhalt der Vereinbarung verlangt. Rein muendliche Absprachen genuegen diesen Anforderungen in aller Regel nicht."
     },
     {
-      "id": "koest-91",
+      "id": "koest-90",
       "typ": "single",
       "frage": "Wem ist eine verdeckte Ausschuettung zuzurechnen, wenn der Vorteil einem nahen Angehoerigen des Gesellschafters zugutekommt?",
       "optionen": [
@@ -1445,7 +1428,7 @@
       "erklaerung": "Auch wenn der wirtschaftliche Vorteil tatsaechlich beim nahen Angehoerigen ankommt, wird die verdeckte Ausschuettung steuerlich dem Anteilsinhaber selbst zugerechnet - seine Nahebeziehung zur Koerperschaft ist der Anknuepfungspunkt. Der Anteilsinhaber gilt seinerseits als bereichert, weil er dem Angehoerigen etwas zuwendet, das er sonst aus eigenen, bereits versteuerten Mitteln haette aufbringen muessen."
     },
     {
-      "id": "koest-92",
+      "id": "koest-91",
       "typ": "multiple",
       "frage": "Welche Zuordnung von direkter und indirekter verdeckter Ausschuettung ist richtig?",
       "optionen": [
@@ -1461,7 +1444,7 @@
       "erklaerung": "Die direkte verdeckte Ausschuettung liegt vor, wenn der Koerperschaft ein ueberhoehter oder ungerechtfertigter Aufwand belastet wird (z.B. ein zu hohes Gehalt). Die indirekte verdeckte Ausschuettung liegt dagegen vor, wenn der Koerperschaft ein Ertrag vorenthalten wird, den sie bei fremdueblichem Verhalten erzielt haette (z.B. ein zu niedriger Miet- oder Kaufpreis)."
     },
     {
-      "id": "koest-93",
+      "id": "koest-92",
       "typ": "single",
       "frage": "Die Gesellschafterin Paule kauft mit der Firmenkreditkarte der GmbH Kleidung im Wert von € 1.500 fuer eine Preisverleihung und verbucht dies als 'Arbeitskleidung'. Was liegt vor?",
       "optionen": [
@@ -1476,7 +1459,7 @@
       "erklaerung": "Die private Kleidung fuer eine Preisverleihung ist keine betrieblich veranlasste Arbeitskleidung. Die Uebernahme dieser privaten Kosten durch die Gesellschaft bereichert Paule zu Lasten der Gesellschaft und stellt eine (direkte) verdeckte Ausschuettung in Hoehe der vollen € 1.500 dar - nicht bloss € 1.000, und auch keine Einlage, da der Vermoegensvorteil bei der Gesellschafterin und nicht bei der Gesellschaft ankommt."
     },
     {
-      "id": "koest-94",
+      "id": "koest-93",
       "typ": "multiple",
       "frage": "Im vorigen Sachverhalt (Paule, € 1.500 Kleidung als verdeckte Ausschuettung) - welche Aussagen treffen zu?",
       "optionen": [
@@ -1492,7 +1475,7 @@
       "erklaerung": "Die € 1.500 wurden zu Unrecht als Aufwand verbucht und sind daher in der Mehr-Weniger-Rechnung der Gesellschaft um € 1.500 zu erhoehen (direkte vA). Bei Paule liegen in dieser Hoehe Einkuenfte aus Kapitalvermoegen vor. Nicht Paule, sondern die Gesellschaft als Abzugsverpflichtete hat die KESt einzubehalten und an das Finanzamt abzufuehren (§ 95 Abs 2 EStG); fuer Paule ist die Ausschuettung damit keineswegs steuerlich irrelevant."
     },
     {
-      "id": "koest-95",
+      "id": "koest-94",
       "typ": "multiple",
       "frage": "Welche Aussagen treffen auf die Rueckgaengigmachung einer verdeckten Ausschuettung zu?",
       "optionen": [
@@ -1508,7 +1491,7 @@
       "erklaerung": "Eine bereits verwirklichte vA kann bis zum jeweiligen Bilanzstichtag rueckgaengig gemacht werden, wenn die Gesellschaft den Vorteil ernsthaft (rechtzeitig und nachweislich) vom Gesellschafter zurueckfordert; die Forderung ist dann in der Bilanz des betreffenden Wirtschaftsjahres auszuweisen. Nach dem Bilanzstichtag ist eine Rueckgaengigmachung nicht mehr moeglich - die Aussage, eine vA koenne 'niemals' rueckgaengig gemacht werden, ist daher zu pauschal."
     },
     {
-      "id": "koest-96",
+      "id": "koest-95",
       "typ": "multiple",
       "frage": "Welche Aussagen treffen auf den Vorteilsausgleich zu?",
       "optionen": [
@@ -1524,7 +1507,7 @@
       "erklaerung": "Ein steuerlich anzuerkennender Vorteilsausgleich setzt voraus, dass sich Leistung und Gegenleistung wechselseitig gegenueberstehen und - auch bei getrennten Vertraegen - ein enger zeitlicher und sachlicher Zusammenhang sowie eine ausdrueckliche, im Vorhinein getroffene vertragliche Vereinbarung hierueber bestehen. Ohne eine solche vertragliche Grundlage wird ein bloss nachtraeglich behaupteter Ausgleich nicht anerkannt."
     },
     {
-      "id": "koest-97",
+      "id": "koest-96",
       "typ": "single",
       "frage": "Max ist zu 80 % an der X-GmbH beteiligt. Er bezahlt fuer seine Tochter Studiengebuehren an einer Privatuniversitaet iHv € 40.000 und verbucht dies in der X-GmbH als 'Ausbildungskosten'. Wie ist dies aus Sicht der X-GmbH zu beurteilen?",
       "optionen": [
@@ -1539,7 +1522,7 @@
       "erklaerung": "Die Uebernahme privater Studiengebuehren der Tochter des Gesellschafters ist ein fremdunueblicher Vorteil, der einem nahen Angehoerigen zugutekommt. Da das objektive Tatbild der Bereicherung erfuellt ist, wird das subjektive Tatbild (Wissen und Wollen der Gesellschaft) vermutet. Die blosse Hoffnung auf eine kuenftige Mitarbeit der Tochter macht die Zahlung nicht betrieblich veranlasst. Es liegt eine direkte vA iHv € 40.000 vor; die Zuwendung an eine nahestehende Person wird dem Gesellschafter selbst zugerechnet."
     },
     {
-      "id": "koest-98",
+      "id": "koest-97",
       "typ": "single",
       "frage": "Im selben Sachverhalt (Max, 80 % Gesellschafter, € 40.000 Studiengebuehren fuer die Tochter als vA) - wie ist dies bei Max selbst zu beurteilen, wenn er die KESt traegt?",
       "optionen": [
@@ -1554,7 +1537,7 @@
       "erklaerung": "Die vA wird zwar wirtschaftlich der Tochter zugewendet, steuerlich aber Max als Anteilsinhaber zugerechnet. Er erzielt dadurch Einkuenfte aus Kapitalvermoegen iHv € 40.000, fuer die die Gesellschaft KESt iHv 27,5 % (€ 11.000) einzubehalten hat; damit sind diese Einkuenfte endbesteuert und nicht gesondert in die Einkommensteuererklaerung aufzunehmen."
     },
     {
-      "id": "koest-99",
+      "id": "koest-98",
       "typ": "single",
       "frage": "A verkauft der A-GmbH, an der sie zu 100 % beteiligt ist, eine Maschine um € 50.000. Der Verkehrswert der Maschine betraegt € 80.000. Wie ist dieser Sachverhalt zu beurteilen?",
       "optionen": [
@@ -1569,7 +1552,7 @@
       "erklaerung": "Der vereinbarte Kaufpreis liegt fremdunueblich unter dem Verkehrswert - der Vorteil aus dem Geschaeft liegt bei der Gesellschaft, nicht beim Gesellschafter. Es handelt sich daher um das Gegenteil einer vA, naemlich um eine verdeckte Einlage iHv € 30.000 (§ 8 Abs 1 KStG). Nach dem Tauschgrundsatz des § 6 Z 14 lit b EStG erhoeht sich der Beteiligungsansatz bei A und die Anschaffungskosten der Maschine bei der A-GmbH jeweils um € 30.000; eine KESt faellt mangels Ausschuettung nicht an."
     },
     {
-      "id": "koest-100",
+      "id": "koest-99",
       "typ": "multiple",
       "frage": "Frau B ist zu 100 % an der Y-GmbH beteiligt (Beteiligung im Privatvermoegen) und erwirbt von der Y-GmbH ein Gemaelde fuer € 1.000, dessen gemeiner Wert € 11.000 betraegt. Die Y-GmbH uebernimmt die anfallende KESt. Welche Aussagen treffen zu?",
       "optionen": [
@@ -1586,7 +1569,7 @@
       "erklaerung": "Der verbilligte Verkauf des Gemaeldes ist ein fehlender Ertrag - eine indirekte verdeckte Ausschuettung iHv € 10.000, die in der Mehr-Weniger-Rechnung als Gewinnerhoehung zu beruecksichtigen ist. Traegt die Gesellschaft die KESt selbst, muss der Nettovorteil auf einen Bruttobetrag hochgerechnet werden: Bei einer KESt von 27,5 % ergibt sich ein Aufschlag von 10.000 x 0,275/0,725 ≈ € 3.793, der zusaetzlich als KESt-Verbindlichkeit zu passivieren ist. Traegt hingegen der Gesellschafter selbst die KESt, bleibt es bei den einfachen € 10.000 - die Aussage, der Betrag sei immer € 10.000 unabhaengig davon wer die KESt traegt, ist daher unzutreffend."
     },
     {
-      "id": "koest-101",
+      "id": "koest-100",
       "typ": "single",
       "frage": "Frau B wendet ein, sie habe der Y-GmbH im Gegenzug ein Auto unentgeltlich zur Verfuegung gestellt, ohne dass darueber ein Vertrag besteht. Kann dieser Vorteilsausgleich beruecksichtigt werden?",
       "optionen": [
@@ -1601,7 +1584,7 @@
       "erklaerung": "Ein Vorteilsausgleich setzt eine im Vorhinein getroffene, ausdrueckliche vertragliche Vereinbarung ueber den wechselseitigen Zusammenhang der Leistungen voraus. Fehlt eine solche Vereinbarung - wie hier -, kann der Einwand nicht anerkannt werden, selbst wenn Frau B der Gesellschaft tatsaechlich ein Auto ueberlassen hat. Diese Ueberlassung waere fuer sich betrachtet ohnehin eine (grundsaetzlich steuerlich unbeachtliche) Nutzungseinlage."
     },
     {
-      "id": "koest-102",
+      "id": "koest-101",
       "typ": "multiple",
       "frage": "Die Mayer Handels GmbH vergibt an ihre 100%-Gesellschafterin, Frau Mayer (Beteiligung im Privatvermoegen), ein Darlehen von € 500.000 zu 1 % Zinsen p.a., obwohl im Vergleichszeitraum fremduebliche Kredite mit 4 % verzinst wurden. Ein schriftlicher Darlehensvertrag besteht. Welche Konsequenzen ergeben sich fuer die GmbH?",
       "optionen": [
@@ -1618,7 +1601,7 @@
       "erklaerung": "Auch bei einem schriftlichen Vertrag liegt eine vA vor, wenn die vereinbarten Konditionen (hier: 1 % statt fremdueblicher 4 %) nicht dem Fremdvergleich standhalten - Schriftlichkeit allein genuegt der Angehoerigenjudikatur nicht, wenn der Vertragsinhalt selbst fremdunueblich ist. Die Zinsdifferenz von € 15.000 ist als fehlender Ertrag (indirekte vA) der MWR hinzuzurechnen. Die darauf entfallende KESt (27,5 % = € 4.125) kann die Abgabenbehoerde der GmbH als Abzugsverpflichteter mittels Haftungsbescheid direkt vorschreiben."
     },
     {
-      "id": "koest-103",
+      "id": "koest-102",
       "typ": "single",
       "frage": "Welche steuerliche Folge ergibt sich fuer Frau Mayer aus der vA (Zinsdifferenz € 15.000), wenn die KESt von € 4.125 der GmbH mittels Haftungsbescheid vorgeschrieben wird?",
       "optionen": [
@@ -1632,7 +1615,7 @@
       "erklaerung": "Frau Mayer erzielt in Hoehe der Zinsdifferenz von € 15.000 Einkuenfte aus Kapitalvermoegen, die durch den KESt-Abzug endbesteuert sind und daher nicht gesondert in der Einkommensteuererklaerung zu erklaeren sind. Wirtschaftlich hat sie der Gesellschaft aber die von dieser vorfinanzierte KESt von € 4.125 zu ersetzen, wenn die Gesellschaft diese nicht endgueltig selbst tragen soll."
     },
     {
-      "id": "koest-104",
+      "id": "koest-103",
       "typ": "single",
       "frage": "Die A-AG verkauft ihrer 100%igen inlaendischen Tochter B-GmbH ein Grundstueck (Buchwert € 10.000, Verkehrswert € 25.000) um € 12.000. Wie ist dies zu beurteilen?",
       "optionen": [
@@ -1647,7 +1630,7 @@
       "erklaerung": "Der Kaufpreis liegt fremdunueblich unter dem Verkehrswert - der Vorteil liegt bei der Kaeuferin (Tochtergesellschaft). Es handelt sich um eine verdeckte Einlage iHv € 13.000, um die sich gemaess § 6 Z 14 lit b EStG der Beteiligungsansatz der A-AG an der B-GmbH erhoeht; bei der B-GmbH ist die Einlage gemaess § 8 Abs 1 KStG steuerneutral, keinesfalls ein steuerpflichtiger Ertrag."
     },
     {
-      "id": "koest-105",
+      "id": "koest-104",
       "typ": "multiple",
       "frage": "Die A-GmbH vermietet ihrer ungarischen Tochter B-Kft eine Maschine um € 500/Monat, waehrend eine vergleichbare Maschine an fremde Dritte um € 1.500/Monat vermietet wird. Welche Aussagen treffen zu?",
       "optionen": [
@@ -1664,7 +1647,7 @@
       "erklaerung": "Da nur die Nutzung, nicht das Eigentum an der Maschine uebertragen wird, handelt es sich um eine Nutzungseinlage, die im Inlandsfall grundsaetzlich steuerlich unbeachtlich ist (VwGH). Bei grenzueberschreitenden Sachverhalten sind jedoch aufgrund der OECD-Verrechnungspreisgrundsaetze und § 6 Z 6 EStG fremduebliche Bedingungen anzuwenden, weshalb der A-GmbH die Differenz von € 1.000/Monat zuzurechnen ist. Waere die Tochter hingegen inlaendisch, bliebe es - anders als in einer der Optionen behauptet - bei der steuerlichen Unbeachtlichkeit der Nutzungseinlage, es gaebe also gerade keine Zurechnung."
     },
     {
-      "id": "koest-106",
+      "id": "koest-105",
       "typ": "single",
       "frage": "Die A-GmbH hat gegenueber ihrer 100%igen Tochter B-GmbH eine unverzinste Darlehensforderung von € 50.000 (fremdueblicher Zinssatz 3 %). Am Bilanzstichtag x3 wird diese Forderung zu 100 % wertberichtigt, um der B-GmbH die Anschaffung eines Fuhrparks zu ermoeglichen. Wie ist die Wertberichtigung zu beurteilen?",
       "optionen": [
@@ -1679,7 +1662,7 @@
       "erklaerung": "Ein Forderungsverzicht, der aus gesellschaftsrechtlichen (und nicht aus fremdueblichen wirtschaftlichen) Gruenden erfolgt, ist als Einlage zu werten. Die eigentlich aufwandswirksame Wertberichtigung ist daher gemaess § 8 Abs 1 KStG bei der A-GmbH steuerneutral zu stellen (MWR-Zurechnung € 50.000) und erhoeht zugleich den Beteiligungsansatz an der B-GmbH. Bei der B-GmbH ist die Einlage ebenfalls gemaess § 8 Abs 1 KStG steuerneutral, kein steuerpflichtiger Ertrag."
     },
     {
-      "id": "koest-107",
+      "id": "koest-106",
       "typ": "single",
       "frage": "Einzelunternehmer A bringt eine Maschine (Buchwert 100, gemeiner Wert 150) aus seinem Betriebsvermoegen in seine alleinige A-GmbH ein. Wie ist dies zu beurteilen?",
       "optionen": [
@@ -1694,7 +1677,7 @@
       "erklaerung": "Auf Ebene der A-GmbH liegt eine steuerneutrale Einlage vor (§ 8 Abs 1 KStG); die Maschine ist daher mit dem gemeinen Wert von 150 zu aktivieren, nicht mit dem Buchwert fortzufuehren. Auf Ebene des A kommt es entsprechend dem Tauschgrundsatz zum Abgang der Maschine (Buchwert 100) gegen die fiktive Anschaffung eines Beteiligungszugangs von 150 - die Differenz von 50 sind stille Reserven, die bei A (nicht bei der GmbH) steuerpflichtig aufgedeckt werden."
     },
     {
-      "id": "koest-108",
+      "id": "koest-107",
       "typ": "multiple",
       "frage": "Herr A leistet einen Gesellschafterzuschuss von € 40.000 an die A-GmbH und erbringt zusaetzlich unentgeltlich Geschaeftsfuehrertaetigkeiten (Wert einer vergleichbaren Anstellung: € 30.000/Jahr). Spaeter zahlt er einen Nachschuss von € 50.000 ein, um die Gesellschaft liquide zu halten. Welche Aussagen treffen zu?",
       "optionen": [
@@ -1711,7 +1694,7 @@
       "erklaerung": "Gesellschafterzuschuss und Nachschuss sind offene Einlagen, die nach dem Tauschgrundsatz den Beteiligungsansatz des Herrn A erhoehen und bei der A-GmbH gemaess § 8 Abs 1 KStG steuerneutral in die Kapitalruecklage einzustellen sind. Die unentgeltliche Geschaeftsfuehrertaetigkeit stellt demgegenueber keine Sacheinlage, sondern eine blosse Nutzungseinlage dar, die steuerlich unbeachtlich bleibt und gerade nicht fiktiv gegengebucht wird."
     },
     {
-      "id": "koest-109",
+      "id": "koest-108",
       "typ": "single",
       "frage": "Die A-GmbH stellt eine erhaltene Zahlung ihrer Tochter B-GmbH iHv € 20.000 unter Berufung auf § 10 KStG steuerneutral. Das Innenfinanzierungssubkonto der B-GmbH weist jedoch einen Stand von € 0 auf; der Buchwert der Beteiligung an der B-GmbH betraegt € 10.000. Wie ist die Zahlung richtigerweise zu beurteilen?",
       "optionen": [
@@ -1726,7 +1709,7 @@
       "erklaerung": "Eine Gewinnausschuettung setzt einen positiven Stand des Innenfinanzierungssubkontos voraus; ist dieser null, kann keine Gewinnausschuettung, sondern nur eine Einlagenrueckzahlung iSd § 4 Abs 12 EStG vorliegen. Diese senkt zunaechst den Buchwert der Beteiligung bei der A-GmbH und ist nur bis zu dessen Hoehe (hier € 10.000) steuerneutral; der darueberhinausgehende Betrag von € 10.000 gilt als fiktive, grundsaetzlich steuerpflichtige Veraeusserung der Beteiligung."
     },
     {
-      "id": "koest-110",
+      "id": "koest-109",
       "typ": "multiple",
       "frage": "Die A-GmbH ist an der (inlaendischen) B-GmbH zu 90 % und an der (inlaendischen) C-GmbH zu 7 % beteiligt. Sie erhaelt Ausschuettungen von € 40.000 (B-GmbH) und € 10.000 (C-GmbH). Welche Aussagen treffen zu?",
       "optionen": [
@@ -1742,7 +1725,7 @@
       "erklaerung": "Im reinen Inlandsfall ist die Beteiligungsertragsbefreiung des § 10 Abs 1 Z 1 KStG von keinem Mindestbeteiligungsausmass abhaengig - beide Ausschuettungen (insgesamt € 50.000) sind bei der A-GmbH steuerfrei. Die 10 %-Grenze betrifft ausschliesslich die KESt-Abzugsbefreiung des § 94 Z 2 EStG: Da die C-GmbH-Beteiligung mit 7 % darunterliegt, hat die C-GmbH KESt einzubehalten, die die A-GmbH auf ihre KoeSt-Schuld anrechnen lassen kann; die B-GmbH ist mit 90 % von der KESt-Abzugspflicht befreit."
     },
     {
-      "id": "koest-111",
+      "id": "koest-110",
       "typ": "multiple",
       "frage": "Die G-AG ist seit 4 Jahren zu 100 % an der oesterreichischen M-AG und zu 10 % an der italienischen A-Srl beteiligt; die M-AG haelt ihrerseits 6 % an der A-Srl. 2018 schuettet die A-Srl € 200.000 an die G-AG aus; 2019 wird die Beteiligung mit einem Gewinn von € 3.000.000 verkauft. Eine Optionserklaerung wurde nicht abgegeben. Welche Aussagen treffen zu?",
       "optionen": [
@@ -1761,7 +1744,7 @@
       "erklaerung": "Fuer die Ermittlung des fuer § 10 Abs 2 KStG massgeblichen Beteiligungsausmasses werden unmittelbare und mittelbare (ueber verbundene Konzerngesellschaften gehaltene) Anteile zusammengerechnet - hier 10 % + 6 % = 16 %, womit die 10 %-Grenze samt Behaltedauer von ueber einem Jahr erfuellt ist und eine internationale Schachtelbeteiligung vorliegt. Sowohl die laufende Ausschuettung als auch der Substanzgewinn aus der Veraeusserung sind daher - mangels Optionserklaerung - gemaess § 10 Abs 1 Z 7 iVm Abs 3 KStG steuerfrei. Genau umgekehrt gilt: Ohne Optionserklaerung bleiben Wertaenderungen (auch ein Veraeusserungsverlust) ausser Ansatz und sind steuerlich nicht verwertbar - nur bei abgegebener Option waere ein Gewinn steuerpflichtig und ein Verlust (auf sieben Jahre verteilt) nutzbar."
     },
     {
-      "id": "koest-112",
+      "id": "koest-111",
       "typ": "multiple",
       "frage": "Die L-AG ist seit 5 Jahren zu 100 % an der oesterreichischen R-AG und zu 6 % an der italienischen A-Srl beteiligt; die R-AG haelt ebenfalls 6 % an der A-Srl. 2017 wird eine Teilwertabschreibung auf die A-Srl-Beteiligung iHv € 3.000.000 erforderlich. Welche Aussagen treffen zu?",
       "optionen": [
@@ -1778,7 +1761,7 @@
       "erklaerung": "Auch hier werden die Beteiligungen der L-AG (6 %) und der verbundenen R-AG (6 %) zusammengerechnet, sodass mit 12 % eine internationale Schachtelbeteiligung vorliegt. Ohne Optionserklaerung bleiben Wertaenderungen nach § 10 Abs 3 KStG generell ausser Ansatz, die Teilwertabschreibung ist daher zur Gaenze nicht abzugsfaehig (MWR-Zurechnung der vollen € 3.000.000). Erst mit Optionserklaerung wird die Teilwertabschreibung dem Grunde nach abzugsfaehig, ist aber gemaess § 12 Abs 3 Z 2 KStG verpflichtend auf sieben Jahre zu verteilen (im ersten Jahr daher 6/7 von € 3.000.000, rund € 2.571.429, der MWR zuzurechnen) - die Siebentelung setzt also gerade die Optionserklaerung voraus."
     },
     {
-      "id": "koest-113",
+      "id": "koest-112",
       "typ": "multiple",
       "frage": "Die H-GesmbH haelt 98 % an der deutschen D-GmbH (keine Optionserklaerung) und 9 % an der italienischen I-Srl. 2018 schuettet die D-GmbH € 10.000 und die I-Srl € 5.000 aus; zugleich werden Wertberichtigungen von € 300.000 (D-GmbH) bzw € 750.000 (I-Srl) vorgenommen. Welche Aussagen treffen zu?",
       "optionen": [
@@ -1795,7 +1778,7 @@
       "erklaerung": "Bei der mit 98 % gehaltenen D-GmbH liegt eine internationale Schachtelbeteiligung vor; ohne Optionserklaerung bleiben Wertaenderungen ausser Ansatz, die Wertberichtigung von € 300.000 ist daher zur Gaenze nicht abzugsfaehig, waehrend die Ausschuettung steuerfrei bleibt. Die nur 9%ige I-Srl-Beteiligung erreicht die 10 %-Grenze der internationalen Schachtelbeteiligung nicht, faellt aber unter die allgemeine Beteiligungsertragsbefreiung fuer Portfoliobeteiligungen in EU-Staaten bzw Staaten mit umfassender Amtshilfe (§ 10 Abs 1 Z 5 KStG); die Ausschuettung ist auch hier steuerfrei, die Wertberichtigung ist grundsaetzlich abzugsfaehig, muss aber gemaess § 12 Abs 3 Z 2 KStG auf sieben Jahre verteilt werden."
     },
     {
-      "id": "koest-114",
+      "id": "koest-113",
       "typ": "single",
       "frage": "Fuer eine GmbH wird 2017 ein Sanierungsplan mit einer Quote von 40 % abgeschlossen und im selben Jahr zur Gaenze erfuellt. Dadurch entsteht ein Sanierungsgewinn von € 60.000. Das Einkommen mit Sanierungsgewinn betraegt € 80.000, ohne Sanierungsgewinn € 20.000 (KoeSt-Satz im Beispiel 25 %, historischer Wert). Wie hoch ist die gemaess § 23a KStG nicht festzusetzende KoeSt?",
       "optionen": [
@@ -1810,7 +1793,7 @@
       "erklaerung": "Nach § 23a KStG ist zunaechst die Differenz zwischen der Steuer auf das Einkommen inklusive Sanierungsgewinn (im Beispiel 25 % von € 80.000 = € 20.000) und der Steuer auf das Einkommen ohne Sanierungsgewinn (25 % von € 20.000 = € 5.000) zu ermitteln; das ergibt € 15.000. Von dieser Differenz ist der Prozentsatz nicht festzusetzen, der der Sanierungsplanquote entspricht (hier 60 %, da bei 40 % Erfuellungsquote 60 % des Nachlasses beim Schuldner verbleiben) - somit € 9.000. Die tatsaechlich festzusetzende KoeSt betraegt folglich € 20.000 - € 9.000 = € 11.000. Hinweis: Das Beispiel verwendet den historischen KoeSt-Satz von 25 %; nach aktuellem Recht (23 % ab 2024) waeren die absoluten Betraege niedriger, das Berechnungsschema bleibt aber unveraendert."
     },
     {
-      "id": "koest-115",
+      "id": "koest-114",
       "typ": "multiple",
       "frage": "Bei einer Aussenpruefung finden sich in der Buchhaltung u.a. folgende als Aufwand verbuchte Positionen: Aufsichtsratsverguetung € 50.000, Kosten fuer den Opernball € 5.000, bezahlte Koerperschaftsteuer € 100.000, eine Spende an eine spendenbeguenstigte Einrichtung € 150, eine Teilwertabschreibung auf eine inlaendische Beteiligung € 35.000 sowie Rechtsanwaltskosten iZm einer Parkstrafe € 1.000. Bei welchen Positionen ist eine Kuerzung des Aufwands (MWR-Zurechnung) vorzunehmen?",
       "optionen": [
@@ -1831,7 +1814,7 @@
       "erklaerung": "Nicht abzugsfaehig sind gemaess § 12 KStG u.a. die Haelfte der Aufsichtsratsverguetung, Repraesentationsaufwendungen wie ein Opernballbesuch, die KoeSt selbst als Personensteuer sowie Kosten in unmittelbarem Zusammenhang mit nicht abzugsfaehigen Strafen (wie eine Parkstrafe). Die Teilwertabschreibung einer Beteiligung ist zwar dem Grunde nach abzugsfaehig, aber gemaess § 12 Abs 3 Z 2 KStG auf sieben Jahre zu verteilen; im ersten Jahr sind daher 6/7 von € 35.000 (rund € 30.000) der MWR hinzuzurechnen. Spenden an spendenbeguenstigte Einrichtungen bleiben demgegenueber im Rahmen der Grenzen des § 4a EStG abzugsfaehig und beduerfen keiner MWR-Korrektur."
     },
     {
-      "id": "koest-116",
+      "id": "koest-115",
       "typ": "single",
       "frage": "Die A-GmbH ist zu 100 % an der B-GmbH und zu 90 % an der C-GmbH beteiligt. Die B-GmbH erwirbt 2017 von der A-GmbH die Beteiligung an der C-GmbH um € 1.000.000 (fremdueblich) und finanziert dies ueber einen Bankkredit mit 1 % Zinsen p.a. Wie sind die 2018 aufwandswirksam verbuchten Zinsen (€ 10.000) bei der B-GmbH steuerlich zu behandeln?",
       "optionen": [
@@ -1844,6 +1827,1074 @@
         3
       ],
       "erklaerung": "§ 12 Abs 1 Z 9 KStG schliesst den Abzug von Zinsen aus der Fremdfinanzierung des Erwerbs von Kapitalanteilen aus, wenn der Erwerb von einem konzernzugehoerigen Unternehmen erfolgt - unabhaengig davon, ob der Kaufpreis selbst fremdueblich war. Da die B-GmbH die Beteiligung an der C-GmbH von der gemeinsamen Muttergesellschaft A-GmbH (konzernintern) erworben hat, sind die Fremdfinanzierungszinsen zur Gaenze nicht abzugsfaehig; der Gewinn ist um € 10.000 zu erhoehen."
+    },
+    {
+      "id": "koest-116",
+      "typ": "multiple",
+      "frage": "Welche Körperschaften sind von der Mindestkörperschaftsteuer (MiKö) betroffen?",
+      "optionen": [
+        "Inländische GmbH",
+        "Inländische AG",
+        "Privatstiftung",
+        "Verein"
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "Die Mindestkörperschaftsteuer nach § 24 Abs 4 KStG trifft unbeschränkt steuerpflichtige inländische Kapitalgesellschaften (GmbH, AG) und diesen vergleichbare ausländische Körperschaften. Ein gewöhnlicher Verein ist keine Kapitalgesellschaft und daher grundsätzlich nicht von der MiKö betroffen. Die Privatstiftung unterliegt ebenfalls keiner klassischen MiKö, sondern einer eigenen Zwischenbesteuerung (§ 13 KStG) auf bestimmte Kapitaleinkünfte – ein anderes Konzept als die Mindestkörperschaftsteuer der Kapitalgesellschaften."
+    },
+    {
+      "id": "koest-117",
+      "typ": "multiple",
+      "frage": "Welche der folgenden Zuordnungen von Gesellschaftsformen zu Personengesellschaft (PG) bzw. juristischer Person sind richtig?",
+      "optionen": [
+        "OG – Personengesellschaft",
+        "AG – juristische Person",
+        "GmbH & Co KG – Personengesellschaft",
+        "GmbH – juristische Person",
+        "KG – Personengesellschaft",
+        "Genossenschaft – Personengesellschaft"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "KG, OG und auch die GmbH & Co KG (trotz einer GmbH als Komplementärin bleibt sie im Kern eine Personengesellschaft) sind Personengesellschaften ohne eigene Körperschaftsteuerpflicht; ihr Gewinn wird den Gesellschaftern zugerechnet (Transparenzprinzip). AG und GmbH sind demgegenüber juristische Personen und eigenständige KöSt-Subjekte (Trennungsprinzip). Die Genossenschaft (Erwerbs- und Wirtschaftsgenossenschaft) ist ebenfalls eine juristische Person und – anders als in dieser Option behauptet – gerade keine Personengesellschaft."
+    },
+    {
+      "id": "koest-118",
+      "typ": "multiple",
+      "frage": "Welche Aussagen treffen auf juristische Personen/Körperschaften des privaten Rechts zu?",
+      "optionen": [
+        "Sie handeln durch ihre GesellschafterInnen",
+        "Das Vermögen steht im Eigentum der Körperschaft",
+        "Sie handeln durch ihre Organe",
+        "Das Vermögen steht im Eigentum der GesellschafterInnen",
+        "Sie verfügen über eine eigene Rechtspersönlichkeit"
+      ],
+      "korrekt": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Juristische Personen verfügen über eine eigene Rechtspersönlichkeit und sind – anders als Personengesellschaften – selbst Eigentümerin ihres Vermögens, nicht die dahinterstehenden GesellschafterInnen (Trennungsprinzip). Da eine juristische Person nicht selbst handlungsfähig ist, handelt sie durch ihre Organe (z.B. Geschäftsführung, Vorstand) und nicht unmittelbar durch ihre GesellschafterInnen."
+    },
+    {
+      "id": "koest-119",
+      "typ": "multiple",
+      "frage": "Welche Aussagen stimmen?",
+      "optionen": [
+        "Im KStG gibt es keinen Verlustvortrag",
+        "Die Körperschaftsteuer vom Einkommen (Bemessungsgrundlage) beträgt 23 %, es handelt sich um einen linearen Steuersatz",
+        "Neben dem linearen Tarif gibt es eine sogenannte Zusatzsteuer von weiteren 25 %"
+      ],
+      "korrekt": [
+        1,
+        2
+      ],
+      "erklaerung": "Neben dem linearen Tarif von 23 % kennt das KStG in bestimmten Fällen (z.B. bei Nichtbenennung des Empfängers gem § 162 BAO) eine Zusatzsteuer von 25 % (§ 22 Abs 3 KStG). Die Aussage, es gebe im KStG keinen Verlustvortrag, ist falsch: Verluste können grundsätzlich zeitlich unbegrenzt vorgetragen werden, allerdings ist die Verwertung pro Jahr auf 75 % des Gewinns beschränkt (Vortragsgrenze)."
+    },
+    {
+      "id": "koest-120",
+      "typ": "multiple",
+      "frage": "Was charakterisiert eine GmbH?",
+      "optionen": [
+        "Die Gesellschafter haften persönlich mit ihrem Vermögen",
+        "Eine GmbH ist eine Personengesellschaft",
+        "Eine GmbH ist eine juristische Person des privaten Rechts",
+        "Die Gesellschafter haften nicht persönlich",
+        "Die Gesellschafter sind mit ihren Einlagen am Stammkapital beteiligt"
+      ],
+      "korrekt": [
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Die GmbH ist eine juristische Person des privaten Rechts (Kapitalgesellschaft), keine Personengesellschaft. Die Gesellschafter sind mit ihren Stammeinlagen am Stammkapital beteiligt und haften grundsätzlich nicht persönlich mit ihrem Privatvermögen – die Haftung ist auf das Gesellschaftsvermögen beschränkt (daher 'Gesellschaft mit beschränkter Haftung')."
+    },
+    {
+      "id": "koest-121",
+      "typ": "multiple",
+      "frage": "Welche der folgenden Zuordnungen von Rechtsformen zu juristischen Personen des öffentlichen (ÖR) bzw. privaten Rechts (PR) sind richtig?",
+      "optionen": [
+        "GmbH – PR",
+        "Verein – PR",
+        "Kammern – PR",
+        "Bund – ÖR",
+        "Gemeinden – ÖR",
+        "Stiftung – PR"
+      ],
+      "korrekt": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Stiftungen, GmbH und Vereine sind juristische Personen des privaten Rechts. Bund und Gemeinden sind Gebietskörperschaften und damit juristische Personen des öffentlichen Rechts. Kammern (z.B. Wirtschaftskammer, Arbeiterkammer) sind demgegenüber – anders als in dieser Option behauptet – gesetzliche Interessenvertretungen und damit ebenfalls juristische Personen des öffentlichen Rechts, nicht des privaten Rechts."
+    },
+    {
+      "id": "koest-122",
+      "typ": "single",
+      "frage": "Herr Y ist zu 85 % an der Y-GmbH beteiligt. Die Y-GmbH verkauft ein Grundstück an den Sohn des Gesellschafters um € 125.000. Zur gleichen Zeit wurde ein gleich großes Nachbargrundstück zwischen fremden Dritten um € 275.000 verkauft. Etwaige Steuernachforderungen trägt der Gesellschafter selbst. Wie hoch ist die von der Y-GmbH abzuführende Kapitalertragsteuer?",
+      "optionen": [
+        "€ 56.897",
+        "€ 41.250",
+        "€ 34.500",
+        "€ 37.500"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Die Differenz zwischen dem fremdüblichen Verkehrswert (€ 275.000) und dem tatsächlichen Kaufpreis (€ 125.000) beträgt € 150.000 und stellt eine indirekte verdeckte Ausschüttung dar, die – da sie einem nahen Angehörigen (dem Sohn) zugutekommt – dem Gesellschafter Herrn Y zugerechnet wird. Da laut Sachverhalt der Gesellschafter selbst etwaige Steuernachforderungen trägt (die GmbH die KESt also nicht zusätzlich übernimmt), ist einfach mit dem regulären KESt-Satz von 27,5 % auf die Vorteilshöhe zu rechnen: € 150.000 × 27,5 % = € 41.250. Eine Hochrechnung auf einen Bruttobetrag (Bruttomethode, wie sie zu € 56.897 führen würde) ist nur nötig, wenn die Gesellschaft die KESt selbst übernimmt."
+    },
+    {
+      "id": "koest-123",
+      "typ": "multiple",
+      "frage": "Welche Umstände können auf verdeckte Ausschüttungen bei einer Körperschaft hinweisen?",
+      "optionen": [
+        "Überhöhte Aufwendungen",
+        "Zu niedrige Aufwendungen",
+        "Fehlende Erträge",
+        "Zu hohe Erträge"
+      ],
+      "korrekt": [
+        0,
+        2
+      ],
+      "erklaerung": "Fehlende bzw zu niedrige Erträge (die Gesellschaft verzichtet fremdunüblich auf einen Ertrag, z.B. durch einen zu niedrigen Verkaufspreis) begründen eine indirekte verdeckte Ausschüttung. Überhöhte, ungerechtfertigte Aufwendungen begründen eine direkte verdeckte Ausschüttung. Zu niedrige Aufwendungen oder zu hohe Erträge deuten dagegen – im Gegenteil – eher auf einen für die Gesellschaft günstigen Vorgang bzw. eine verdeckte Einlage hin, nicht auf eine vA."
+    },
+    {
+      "id": "koest-124",
+      "typ": "single",
+      "frage": "Die X-GmbH erwirtschaftet in diesem Jahr einen steuerlichen Gewinn von € 80.000. Aus den Vorjahren stehen nicht verwertete Verlustvorträge in Höhe von € 65.000 zur Verfügung. Für die Folgejahre verbleiben vortragsfähige Verluste in Höhe von:",
+      "optionen": [
+        "€ 0",
+        "€ 65.000",
+        "€ 20.000",
+        "€ 5.000"
+      ],
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "Verluste dürfen gemäß der 75 %-Vortragsgrenze höchstens im Ausmaß von 75 % des laufenden Gewinns verrechnet werden: 75 % von € 80.000 = € 60.000. Da der vorhandene Verlustvortrag von € 65.000 diese Grenze übersteigt, können heuer nur € 60.000 verwertet werden; die restlichen € 5.000 bleiben als Verlustvortrag für die Folgejahre bestehen."
+    },
+    {
+      "id": "koest-125",
+      "typ": "single",
+      "frage": "Die X-GmbH erwirtschaftet in diesem Jahr einen steuerlichen Gewinn von € 350.000. Aus den Vorjahren stehen nicht verwertete Verlustvorträge in Höhe von € 225.000 zur Verfügung. Die Körperschaftsteuer für dieses Jahr beträgt:",
+      "optionen": [
+        "€ 60.375",
+        "€ 28.750",
+        "€ 80.500",
+        "€ 20.125"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Die 75 %-Vortragsgrenze beträgt hier 75 % von € 350.000 = € 262.500. Da der vorhandene Verlustvortrag von € 225.000 unter dieser Grenze liegt, kann er zur Gänze verrechnet werden. Das steuerpflichtige Einkommen beträgt somit € 350.000 − € 225.000 = € 125.000, davon 23 % KöSt = € 28.750."
+    },
+    {
+      "id": "koest-126",
+      "typ": "multiple",
+      "frage": "Eine österreichische Mutter-GmbH hält 100 % der Anteile an einer österreichischen Tochter-GmbH. Welche Voraussetzungen müssen für die Beteiligungsertragsbefreiung iSd § 10 KStG erfüllt werden?",
+      "optionen": [
+        "Für die österreichische Tochter-GmbH muss die Mutter-GmbH keine Mindestbehaltedauer erfüllen",
+        "Die Mutter-GmbH ist eine unbeschränkt steuerpflichtige Körperschaft oder eine beschränkt steuerpflichtige Körperschaft",
+        "Es müssen von der Mutter-GmbH mindestens 10 % der Anteile an der Tochter-GmbH gehalten werden"
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "Im reinen Inlandsfall (§ 10 Abs 1 Z 1-4 KStG) ist auf Seiten der Obergesellschaft lediglich erforderlich, dass sie eine unbeschränkt oder beschränkt steuerpflichtige Körperschaft ist – ein Mindestausmaß der Beteiligung und eine Mindestbehaltedauer sind hingegen gerade nicht erforderlich. Die 10 %-Grenze betrifft nur die KESt-Abzugsbefreiung des § 94 Z 2 EStG, nicht die Beteiligungsertragsbefreiung selbst."
+    },
+    {
+      "id": "koest-127",
+      "typ": "single",
+      "frage": "Der Gesellschafterbeschluss der WE-GmbH bestimmt, dass der ganze Jahresgewinn an die zu je 50 % beteiligten Gesellschafter, Herrn W und die E-GmbH, auszuschütten ist. Der steuerliche Gewinn in diesem Jahr beträgt € 96.000. Wie viel KESt hat die WE-GmbH abzuführen?",
+      "optionen": [
+        "€ 26.400",
+        "€ 13.200",
+        "€ 6.600",
+        "€ 24.000"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Der Gewinn wird hälftig aufgeteilt: je € 48.000 an Herrn W und die E-GmbH. Auf den Anteil des Herrn W (natürliche Person) ist KESt von 27,5 % einzubehalten: € 48.000 × 27,5 % = € 13.200. Der Anteil der E-GmbH (Körperschaft mit 50 % Beteiligung, also über der 10 %-Grenze) fällt unter die KESt-Abzugsbefreiung des § 94 Z 2 EStG – hier ist keine KESt abzuführen. Insgesamt hat die WE-GmbH somit nur € 13.200 KESt abzuführen."
+    },
+    {
+      "id": "koest-128",
+      "typ": "multiple",
+      "frage": "Welche Aufwendungen bzw. Ausgaben sind gemäß § 12 KStG nicht abzugsfähig?",
+      "optionen": [
+        "Barzahlungen für Bauleistungen, wenn der Betrag € 500 übersteigt",
+        "Entgelte über € 100.000 pro Person im Sinne des § 20 Abs 1 Z 7 und 8 EStG",
+        "Steuern vom Einkommen",
+        "Schmier- und Bestechungsgelder",
+        "Büromiete",
+        "Kosten im Zusammenhang mit steuerfreien Einnahmen"
+      ],
+      "korrekt": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "erklaerung": "Nicht abzugsfähig sind u.a. Kosten im Zusammenhang mit steuerfreien Einnahmen (§ 12 Abs 2 KStG), Schmier- und Bestechungsgelder, Barzahlungen für Bauleistungen über € 500 (§ 12 Abs 1 Z 11 KStG) sowie die KöSt selbst als Personensteuer (§ 12 Abs 1 Z 6 KStG). Die Option zu den 'Managergehältern' ist eine bewusste Falle: Die Deckelung nach § 12 Abs 1 Z 8 KStG iVm § 20 Abs 1 Z 7 und 8 EStG greift erst bei Entgelten über € 500.000 pro Person und Wirtschaftsjahr, nicht schon ab € 100.000 – mit der hier genannten (falschen) Grenze ist die Aussage daher nicht richtig und darf nicht angekreuzt werden. Die Büromiete ist eine gewöhnliche, abzugsfähige Betriebsausgabe."
+    },
+    {
+      "id": "koest-129",
+      "typ": "multiple",
+      "frage": "Die Schön-GmbH veräußert eine bebaute Liegenschaft an ihre Gesellschafter-Geschäftsführerin, Frau Schön. Als Kaufpreis wird ein Betrag von € 4.000.000 vertraglich fixiert und bezahlt. Im Zuge einer späteren Außenprüfung wird festgestellt, dass die Liegenschaft zum Zeitpunkt der Veräußerung einen Verkehrswert von € 5.000.000 hatte.",
+      "optionen": [
+        "Es kann von einer verdeckten Einlage ausgegangen werden",
+        "Der KöSt-Satz für den Sachverhalt beträgt 23 %",
+        "Es kann von einer verdeckten Ausschüttung ausgegangen werden",
+        "Fremdüblichkeit liegt im gegenständlichen Sachverhalt nicht vor",
+        "Frau Schön kann eine verdeckte Ausschüttung im Nachhinein rückgängig machen"
+      ],
+      "korrekt": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Der Kaufpreis liegt fremdunüblich unter dem Verkehrswert – Fremdüblichkeit liegt daher nicht vor, und es handelt sich um eine verdeckte Ausschüttung (Differenz € 1.000.000) zugunsten der Gesellschafter-Geschäftsführerin, nicht um eine Einlage (der Vorteil liegt bei Frau Schön, nicht bei der Gesellschaft). Der aktuelle KöSt-Satz von 23 % gilt allgemein. Eine Rückgängigmachung ist nur bis zum jeweiligen Bilanzstichtag möglich; da der Sachverhalt erst im Zuge einer späteren Außenprüfung aufgedeckt wurde, kommt eine Rückgängigmachung nicht mehr in Betracht."
+    },
+    {
+      "id": "koest-130",
+      "typ": "multiple",
+      "frage": "Was sind Beispiele für (offene oder verdeckte) Einlagen im Sinne des § 8 Abs 1 KStG?",
+      "optionen": [
+        "Fremdunübliche Bereicherung der Gesellschafterin aus einem Geschäft mit ihrer GmbH",
+        "Anstellung eines Gesellschafters bei seiner GmbH ohne Gehalt",
+        "Gesellschafterzuschuss",
+        "Verkauf eines Grundstücks an eine GmbH durch die Gesellschafterin zu einem marktüblichen Preis"
+      ],
+      "korrekt": [
+        1,
+        2
+      ],
+      "erklaerung": "Die unentgeltliche Arbeitsleistung eines angestellten Gesellschafters ist eine (steuerlich unbeachtliche) Nutzungseinlage, der Gesellschafterzuschuss eine klassische offene Sacheinlage. Die 'fremdunübliche Bereicherung der Gesellschafterin' ist demgegenüber das Gegenteil einer Einlage – hier profitiert die Gesellschafterin auf Kosten der Gesellschaft, also eine verdeckte Ausschüttung. Ein Verkauf zu marktüblichem Preis ist ein gewöhnliches Austauschgeschäft ohne Vermögensvorteil für die Gesellschaft und daher ebenfalls keine Einlage."
+    },
+    {
+      "id": "koest-131",
+      "typ": "multiple",
+      "frage": "Welche Sachverhalte begründen eine Steuerpflicht gem. § 1 KStG (beschränkte oder unbeschränkte Steuerpflicht)?",
+      "optionen": [
+        "Die Anton GmbH hat ihren Sitz im Inland",
+        "Die österreichische Gemeinde XY betreibt ein Schwimmbad",
+        "Die Paula KG hat ihren Sitz in Wien; der Ort der Geschäftsleitung ist aber in München, auch der Geschäftsführer wohnt in München",
+        "Die Dora GmbH hat ihren Sitz in Deutschland und unterhält eine Betriebstätte in Österreich"
+      ],
+      "korrekt": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Die Anton GmbH ist mit Sitz im Inland unbeschränkt körperschaftsteuerpflichtig (§ 1 Abs 2 Z 1 iVm § 27 BAO). Die Dora GmbH begründet durch die inländische Betriebstätte trotz deutschen Sitzes eine beschränkte Steuerpflicht mit ihren inländischen Einkünften (§ 1 Abs 3 Z 1 KStG). Die Gemeinde XY ist mit dem Schwimmbadbetrieb ein Betrieb gewerblicher Art und insoweit unbeschränkt steuerpflichtig (§ 1 Abs 2 Z 2 KStG). Die Paula KG ist als Personengesellschaft demgegenüber gar kein eigenes Körperschaftsteuersubjekt – ihr Ergebnis wird unmittelbar den Gesellschaftern zugerechnet, unabhängig vom Ort ihres Sitzes oder ihrer Geschäftsleitung."
+    },
+    {
+      "id": "koest-132",
+      "typ": "single",
+      "frage": "Welche Gesellschaften sind beschränkt körperschaftsteuerpflichtig?",
+      "optionen": [
+        "Ausländische Körperschaften, die weder Sitz noch Geschäftsleitung im Inland haben, mit ihrem Welteinkommen",
+        "Ausländische Körperschaften, die weder Sitz noch Geschäftsleitung im Inland haben, mit ihrem inländischen Einkommen",
+        "Inländische Personengesellschaften, die entweder Sitz oder Geschäftsleitung im Inland haben, mit ihrem ausländischen Einkommen"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Beschränkt körperschaftsteuerpflichtig (1. Art, § 1 Abs 3 Z 1 KStG) sind ausländische Körperschaften ohne Sitz oder Geschäftsleitung im Inland, allerdings nur mit ihren inländischen Einkünften (§ 21 KStG iVm § 98 EStG) – nicht mit dem Welteinkommen, das wäre das Gegenteil (unbeschränkte Steuerpflicht nach dem Welteinkommensprinzip). Personengesellschaften sind ohnehin kein eigenes KöSt-Subjekt, unabhängig vom Sitz oder der Art ihrer Einkünfte."
+    },
+    {
+      "id": "koest-133",
+      "typ": "single",
+      "frage": "Die Fortuna GmbH betreibt einen Bioladen (Verlust € 5.000), erbringt gärtnerische Dienstleistungen wie Rasenmähen (Gewinn € 8.000) und vermietet ein Geschäftslokal (Plus € 3.600). Wie sind diese Ergebnisse einkommensteuerlich einzuordnen?",
+      "optionen": [
+        "Die GmbH erzielt immer Einkünfte aus Gewerbebetrieb",
+        "Die GmbH erzielt aus der Vermietung Einkünfte aus Vermietung und Verpachtung",
+        "Die GmbH erzielt aus der Dienstleistung selbständige Einkünfte"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Nach der Einkünftetransformation des § 7 Abs 3 KStG gelten bei buchführungspflichtigen Körperschaften (wie einer GmbH) sämtliche Einkünfte – unabhängig von ihrer eigentlichen Quelle – einheitlich als Einkünfte aus Gewerbebetrieb. Eine gesonderte Zuordnung zu selbständigen Einkünften oder Einkünften aus Vermietung und Verpachtung, wie sie bei natürlichen Personen erfolgen würde, findet bei der GmbH daher nicht statt."
+    },
+    {
+      "id": "koest-134",
+      "typ": "single",
+      "frage": "Eine Einlage im Sinne des § 8 Abs 1 KStG beschreibt die Vermögensübertragung zwischen:",
+      "optionen": [
+        "Zwei Personen – dem Anteilsinhaber und der zugehörigen Gesellschaft. Beide sind idente Rechtssubjekte, weshalb die Rechtsfolgen immer aus Sicht beider Beteiligter zu untersuchen sind",
+        "Keine der Antworten ist richtig",
+        "Einer Person von ihrem Privatvermögen in ihr Betriebsvermögen",
+        "Zwei Personen – dem Anteilsinhaber und der zugehörigen Gesellschaft. Beide sind unterschiedliche Rechtssubjekte, weshalb die Rechtsfolgen immer aus Sicht beider Beteiligter zu untersuchen sind"
+      ],
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "Die körperschaftsteuerliche Einlage nach § 8 Abs 1 KStG ist eine Vermögensübertragung zwischen zwei unterschiedlichen Rechtssubjekten – dem Anteilsinhaber und der Körperschaft (Trennungsprinzip). Da beide Seiten getrennte Steuersubjekte sind, müssen die steuerlichen Konsequenzen stets aus der Perspektive beider Beteiligter (Gesellschafter und Gesellschaft) untersucht werden. Die Übertragung von Privat- in Betriebsvermögen derselben Person ist demgegenüber eine einkommensteuerliche Einlage iSd § 4 Abs 1 EStG innerhalb ein und desselben Steuersubjekts, kein Anwendungsfall des § 8 Abs 1 KStG."
+    },
+    {
+      "id": "koest-135",
+      "typ": "multiple",
+      "frage": "Eine internationale Schachtelbeteiligung liegt vor, wenn nachweislich folgende Voraussetzungen gegeben sind:",
+      "optionen": [
+        "Die Beteiligung wird länger als ein Jahr gehalten oder beträgt 10 % und mehr",
+        "Die internationale Schachtelbeteiligung gilt nur, wenn mit dem Staat eine umfassende Amtshilfe besteht",
+        "Die Beteiligung wird länger als ein Jahr gehalten und beträgt 10 % und mehr",
+        "Die internationale Schachtelbeteiligung entsteht mit Abgabe der Option gem § 10 Abs 3 Z 1 KStG",
+        "Die Option kann nur innerhalb eines Monats ab Abgabe der Körperschaftsteuererklärung durch deren Berichtigung nachgeholt oder widerrufen werden"
+      ],
+      "korrekt": [
+        2,
+        4
+      ],
+      "erklaerung": "Die internationale Schachtelbeteiligung (§ 10 Abs 1 Z 7 KStG) setzt kumulativ (und, nicht oder) ein Beteiligungsausmaß von mindestens 10 % UND eine ununterbrochene Behaltedauer von mindestens einem Jahr voraus. Ein Amtshilfeabkommen mit dem Sitzstaat ist keine Voraussetzung der internationalen Schachtelbeteiligung selbst – dieses Erfordernis betrifft die Portfoliobeteiligung bei Drittstaaten (§ 10 Abs 1 Z 6 KStG). Die Schachtelbeteiligung entsteht automatisch mit Erfüllung der objektiven Voraussetzungen, nicht erst durch die Option; die Option betrifft nur die Steuerwirksamkeit von Wertänderungen und kann tatsächlich nur innerhalb eines Monats ab Abgabe der KöSt-Erklärung durch eine berichtigte Erklärung nachgeholt oder widerrufen werden (§ 10 Abs 3 Z 2 KStG)."
+    },
+    {
+      "id": "koest-136",
+      "typ": "multiple",
+      "frage": "Die M-GmbH hält 80 % der Anteile der österreichischen U-GmbH. Im Jahr 2021 erhält die M-GmbH von ihrer Tochter eine Ausschüttung in Höhe von € 800. Im Jahr 2022 verkauft die M-GmbH die Beteiligung mit einem Gewinn von € 300.",
+      "optionen": [
+        "MWR M-GmbH: −€ 800",
+        "Der 2021 empfangene Gewinnanteil von € 800 ist gem § 10 KStG bei der M-GmbH steuerfrei",
+        "Anders als die Ausschüttung führt der Substanzgewinn 2022 zu einer KöSt-Pflicht in Höhe des Veräußerungsgewinns von € 300 bei der M-GmbH",
+        "MWR M-GmbH: +€ 800"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Als reine Inlandsbeteiligung fällt die Ausschüttung der U-GmbH unter § 10 Abs 1 Z 1 KStG und ist bei der M-GmbH steuerfrei – zu kürzen in der MWR um € 800 (also −800, nicht +800). Anders als bei einer internationalen Schachtelbeteiligung ist bei einer reinen Inlandsbeteiligung aber nur der laufende Gewinnanteil, nicht jedoch der Substanzgewinn aus der Veräußerung begünstigt: Der Veräußerungsgewinn von € 300 unterliegt daher 2022 in voller Höhe der KöSt."
+    },
+    {
+      "id": "koest-137",
+      "typ": "single",
+      "frage": "Eine österreichische Kapitalgesellschaft hält eine 9-prozentige Beteiligung an einer iranischen Kapitalgesellschaft. Mit dem Iran besteht keine umfassende Amtshilfe.",
+      "optionen": [
+        "Keine der Antworten stimmt",
+        "Die Ausschüttungen fallen unter die § 10 KStG-Befreiung, da eine Portfoliobeteiligung vorliegt",
+        "Die Gewinnanteile sind befreit, aber die Substanzgewinne steuerpflichtig",
+        "Es liegt eine internationale Schachtelbeteiligung vor"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Mit 9 % liegt die Beteiligung unter der 10 %-Grenze der internationalen Schachtelbeteiligung – diese scheidet also aus. Die Portfoliobeteiligungsbefreiung des § 10 Abs 1 Z 5 u 6 KStG für Auslandsbeteiligungen unter 10 % setzt entweder eine EU-Körperschaft oder einen Staat mit umfassender Amtshilfe voraus. Da der Iran über kein solches Amtshilfeabkommen verfügt, greift keine der Befreiungen – die Gewinnanteile sind bei der österreichischen Kapitalgesellschaft in voller Höhe körperschaftsteuerpflichtig."
+    },
+    {
+      "id": "koest-138",
+      "typ": "multiple",
+      "frage": "Die Fortuna GmbH hält eine Beteiligung an der (inländischen) Neptun GmbH mit Anschaffungskosten von € 150.000. Im Jahr 01 wird die Beteiligung auf € 80.000 teilwertberichtigt.",
+      "optionen": [
+        "Unternehmensrechtlich mindert diese Teilwertabschreibung (TWA) den Gewinn um € 70.000",
+        "In der MWR 02 sind + € 10.000 hinzuzurechnen",
+        "In der MWR 01 sind + € 60.000 hinzuzurechnen",
+        "In der MWR 02 sind − € 10.000 abzuziehen",
+        "Die TWA ist dem Grunde nach steuerwirksam",
+        "Die TWA ist auf sieben Jahre zu verteilen"
+      ],
+      "korrekt": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Unternehmensrechtlich wird die volle Wertminderung von € 70.000 (150.000 − 80.000) im Jahr 01 aufwandswirksam. Steuerlich ist die Teilwertabschreibung auf Beteiligungen jedoch gemäß § 12 Abs 3 Z 2 KStG zwingend auf sieben Jahre zu verteilen (Siebtelung), bleibt aber dem Grunde nach abzugsfähig. Im Jahr 01 darf daher nur 1/7 (€ 10.000) sofort abgezogen werden; die restlichen € 60.000 sind in der MWR hinzuzurechnen. In den Folgejahren (z.B. Jahr 02) zeigt sich unternehmensrechtlich kein weiterer Aufwand, steuerlich ist aber ein weiteres Siebtel (€ 10.000) abzugsfähig – in der MWR 02 ist dieser Betrag daher abzuziehen (−10.000), nicht hinzuzurechnen."
+    },
+    {
+      "id": "koest-139",
+      "typ": "single",
+      "frage": "Der Gruppenträger Fortuna GmbH ist an dem inländischen Gruppenmitglied Neptun GmbH zu 70 % beteiligt. Die beiden Gesellschaften bilden seit Jahren eine Gruppe, alle Voraussetzungen sind erfüllt. Das Jahresergebnis der Neptun GmbH beträgt € 230.000.",
+      "optionen": [
+        "Dem Gruppenträger werden 100 % von € 230.000 zugerechnet",
+        "Dem Gruppenträger werden nur Gewinne zugerechnet",
+        "Dem Gruppenträger werden 75 % von € 230.000 zugerechnet",
+        "Dem Gruppenträger werden 70 % von € 230.000 zugerechnet"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Bei einem inländischen Gruppenmitglied wird dem Gruppenträger stets das gesamte steuerliche Ergebnis zu 100 % zugerechnet – unabhängig von der tatsächlichen Beteiligungshöhe, solange die Mindestbeteiligung von mehr als 50 % (finanzielle Verbindung nach § 9 Abs 4 KStG) erfüllt ist. Die 70 %-Beteiligung ist damit lediglich Voraussetzung für die Gruppenzugehörigkeit, nicht Maßstab für die Höhe der Ergebniszurechnung."
+    },
+    {
+      "id": "koest-140",
+      "typ": "single",
+      "frage": "Die inländische Fortuna GmbH ist an der englischen Amada Ltd zu 60 % beteiligt (ausländisches Gruppenmitglied). Die Amada Ltd erwirtschaftet einen Jahresverlust von € 280.000.",
+      "optionen": [
+        "Der Fortuna GmbH werden 100 % von € 280.000 zugerechnet",
+        "Keine der Antworten stimmt",
+        "Der Fortuna GmbH werden 60 % von € 280.000 zugerechnet",
+        "Der Fortuna GmbH werden 75 % von € 280.000 zugerechnet"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Verluste ausländischer Gruppenmitglieder werden – anders als bei inländischen Gruppenmitgliedern, wo stets 100 % zugerechnet werden – nur im Verhältnis der Beteiligungsquote zugerechnet (§ 9 Abs 6 Z 6 KStG). Der Fortuna GmbH werden daher 60 % von € 280.000 = € 168.000 als Verlust zugerechnet (Verlustimport, spätere Nachversteuerung bei Gewinnen der Amada Ltd vorbehalten)."
+    },
+    {
+      "id": "koest-141",
+      "typ": "single",
+      "frage": "Die inländische Fortuna GmbH ist an der englischen Amada Ltd zu 60 % beteiligt (ausländisches Gruppenmitglied). Die Amada Ltd erwirtschaftet einen Jahresgewinn von € 280.000.",
+      "optionen": [
+        "Der Fortuna GmbH werden 100 % von € 280.000 zugerechnet",
+        "Der Fortuna GmbH werden 60 % von € 280.000 zugerechnet",
+        "Der Fortuna GmbH werden 75 % von € 280.000 zugerechnet",
+        "Keine der Antworten stimmt"
+      ],
+      "korrekt": [
+        3
+      ],
+      "erklaerung": "Anders als Verluste werden laufende Gewinne ausländischer Gruppenmitglieder gar nicht in die Unternehmensgruppe einbezogen – es erfolgt keine Ergebniszurechnung von Auslandsgewinnen an den Gruppenträger (diese werden im Ausland selbst besteuert). Lediglich soweit zuvor Verluste des ausländischen Mitglieds zugerechnet und verwertet wurden, kommt es bei späteren Gewinnen zu einer Nachversteuerung in Höhe der seinerzeit verwerteten Verluste – eine schlichte prozentuale Gewinnzurechnung wie bei inländischen Mitgliedern findet aber nicht statt."
+    },
+    {
+      "id": "koest-142",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur verdeckten Ausschüttung sind zutreffend?",
+      "optionen": [
+        "Fremdübliche Vorgänge stellen verdeckte Ausschüttungen dar",
+        "Bei der verdeckten Ausschüttung wird die Körperschaft zum Nachteil der Gesellschafter bereichert",
+        "Bei der verdeckten Ausschüttung wird der Gesellschafter zum Nachteil der Körperschaft bereichert",
+        "Trägt der Gesellschafter die KESt selbst, erhöht sich der Prozentsatz auf 37,93 %",
+        "Beurteilung anhand von vier Tatbeständen (Nahverhältnis, objektives Tatbild, subjektives Tatbild, Fremdüblichkeit)"
+      ],
+      "korrekt": [
+        2,
+        4
+      ],
+      "erklaerung": "Die verdeckte Ausschüttung bereichert den Gesellschafter zu Lasten der Körperschaft (nicht umgekehrt) und wird anhand von vier Tatbestandsmerkmalen geprüft: Nahverhältnis, objektives Tatbild, subjektives Tatbild und Fremdüblichkeit. Fremdübliche Vorgänge sind gerade keine vA. Die Hochrechnung auf 37,93 % ist nur nötig, wenn die Körperschaft die KESt selbst trägt (Bruttomethode) – trägt der Gesellschafter die KESt selbst, bleibt es beim regulären Satz von 27,5 %."
+    },
+    {
+      "id": "koest-143",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur beschränkten Steuerpflicht sind richtig?",
+      "optionen": [
+        "Einkünfte aus Grundstücksveräußerungen fallen unter die beschränkte Steuerpflicht der 2. Art",
+        "Zinsen aus Forderungswertpapieren fallen unter die beschränkte Steuerpflicht der 2. Art",
+        "Bei der 1. Art werden nur Inlandseinkünfte gemäß § 98 EStG beschränkt besteuert",
+        "Inländische Körperschaften des öffentlichen Rechts und steuerbefreite Körperschaften sind von der beschränkten Steuerpflicht der 2. Art umfasst",
+        "Bei der 2. Art werden nur KESt-pflichtige Einkünfte beschränkt besteuert"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Die beschränkte Steuerpflicht 1. Art erfasst ausländische Körperschaften ohne Sitz/Geschäftsleitung im Inland mit ihren Inlandseinkünften nach § 98 EStG. Die 2. Art trifft Körperschaften öffentlichen Rechts und von der unbeschränkten Steuerpflicht befreite Körperschaften mit bestimmten kapitalertragsteuerpflichtigen Einkünften (z.B. Zinsen aus Forderungswertpapieren) UND mit Einkünften aus Grundstücksveräußerungen (Immo-ESt) – sie ist also nicht auf rein KESt-pflichtige Einkünfte beschränkt."
+    },
+    {
+      "id": "koest-144",
+      "typ": "single",
+      "frage": "Welche Aussagen zum Tarif der Körperschaftsteuer sind richtig?",
+      "optionen": [
+        "Die Körperschaftsteuer hat einen linearen Satz unabhängig von der Höhe des Einkommens",
+        "Der Tarif der Körperschaftsteuer ist ein progressiver Staffeltarif",
+        "KöSt-Bemessungsgrundlage ist der unternehmensrechtliche Gewinn abzüglich eines etwaigen Verlustvortrages",
+        "Es gibt zwei besondere Steuersätze von 12,5 % und 34 %",
+        "Es gibt einen besonderen Steuersatz von 12,5 %"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Die Körperschaftsteuer hat einen linearen Steuersatz (23 % seit 2024), unabhängig von der Höhe des Einkommens – anders als bei der progressiven Einkommensteuer natürlicher Personen. Die Bemessungsgrundlage ist nicht einfach der unternehmensrechtliche Gewinn, sondern das nach den steuerlichen Vorschriften (inkl. Mehr-Weniger-Rechnung) ermittelte Einkommen abzüglich eines etwaigen Verlustabzugs."
+    },
+    {
+      "id": "koest-145",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zu Betrieben gewerblicher Art sind zutreffend?",
+      "optionen": [
+        "Eine Körperschaft öffentlichen Rechts kann mehrere Betriebe gewerblicher Art haben",
+        "Land- und forstwirtschaftliche Betriebe stellen niemals Betriebe gewerblicher Art dar",
+        "Betriebe gewerblicher Art müssen mit Gewinnerzielungsabsicht arbeiten",
+        "Ein Verlustausgleich zwischen Betrieben gewerblicher Art einer Körperschaft öffentlichen Rechts ist nur bei Versorgungsbetrieben mit einheitlicher Leitung möglich",
+        "Erforderlich für das Vorliegen eines BgA sind eine wirtschaftlich selbständige Einrichtung und eine nachhaltige privatwirtschaftliche gewerbliche Tätigkeit von wirtschaftlichem Gewicht mit einem Jahresumsatz größer € 2.900"
+      ],
+      "korrekt": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Ein Betrieb gewerblicher Art (§ 2 KStG) benötigt gerade keine Gewinnerzielungsabsicht. Land- und forstwirtschaftliche Tätigkeiten sind explizit vom BgA-Begriff ausgenommen (§ 2 Abs 1 KStG verweist auf § 21 EStG). Eine Körperschaft öffentlichen Rechts kann mehrere BgA unterhalten; ein Verlustausgleich zwischen ihnen ist grundsätzlich nur bei organisatorisch zusammengefassten Versorgungsbetrieben mit einheitlicher Leitung möglich. Voraussetzung für einen BgA sind wirtschaftliche Selbständigkeit und eine nachhaltige Tätigkeit von wirtschaftlichem Gewicht (Richtwert: Jahresumsatz > € 2.900)."
+    },
+    {
+      "id": "koest-146",
+      "typ": "multiple",
+      "frage": "Welche Aussagen treffen auf die verdeckte Ausschüttung zu?",
+      "optionen": [
+        "Die verdeckte Ausschüttung wirkt sich immer im selben Zeitpunkt beim Gesellschafter und der Körperschaft aus",
+        "Die verdeckte Ausschüttung unterliegt der Gesellschaftssteuer",
+        "Eine verdeckte Ausschüttung erhöht die Anschaffungskosten der Beteiligung",
+        "Fremdübliche Vorgänge iSd Angehörigenjudikatur des VwGH stellen keine verdeckten Ausschüttungen dar",
+        "Bei einer verdeckten Ausschüttung vermindert sich das Eigenkapital der Gesellschaft"
+      ],
+      "korrekt": [
+        3,
+        4
+      ],
+      "erklaerung": "Fremdübliche, der Angehörigenjudikatur entsprechende Vorgänge sind per Definition keine verdeckten Ausschüttungen. Eine vA vermindert das Eigenkapital der Gesellschaft (durch den ungerechtfertigten Vermögensabfluss), unterliegt aber nicht der (ohnehin abgeschafften) Gesellschaftssteuer und erhöht – anders als eine Einlage – nicht die Anschaffungskosten der Beteiligung."
+    },
+    {
+      "id": "koest-147",
+      "typ": "multiple",
+      "frage": "Welche Aussagen treffen auf die Gruppenbesteuerung zu?",
+      "optionen": [
+        "Der Gruppenträger muss an einem Gruppenmitglied zu mehr als 50 % beteiligt sein und über die Mehrheit der Stimmrechte verfügen",
+        "Die Gruppenbesteuerung führt zu einer Durchbrechung des Prinzips der Individualbesteuerung",
+        "Ausländische Tochterunternehmen können niemals Gruppenmitglied sein",
+        "Die Gruppe muss länger als ein Jahr bestehen",
+        "Die Gruppenbesteuerung führt zu einer Durchbrechung des Trennungsprinzips"
+      ],
+      "korrekt": [
+        0,
+        1
+      ],
+      "erklaerung": "Die Gruppenbesteuerung durchbricht das Prinzip der Individualbesteuerung, indem Ergebnisse mehrerer Körperschaften zusammengeführt werden – das Trennungsprinzip selbst bleibt aber bestehen, da jedes Gruppenmitglied weiterhin ein eigenes Steuersubjekt ist, dessen Ergebnis lediglich zugerechnet wird. Erforderlich ist eine finanzielle Verbindung von mehr als 50 % an Kapital und Stimmrechten (§ 9 Abs 4 KStG). Ausländische Gesellschaften können unter bestimmten Voraussetzungen sehr wohl Gruppenmitglied sein, und die Mindestbestandsdauer der Gruppe beträgt drei (nicht ein) Jahre."
+    },
+    {
+      "id": "koest-148",
+      "typ": "multiple",
+      "frage": "Welche Aussagen treffen auf die Gruppenbesteuerung zu?",
+      "optionen": [
+        "Die Gruppenmitglieder errechnen weiterhin selbständig ihr steuerliches Ergebnis",
+        "Vorgruppenverluste der Gruppenmitglieder können ohne die 75 %ige Verlustvortragsgrenze, aber nur beim jeweiligen Gruppenmitglied selbst verrechnet werden",
+        "Das Ergebnis der Gruppenmitglieder wird im Beteiligungsverhältnis beim Gruppenträger berücksichtigt",
+        "Vorgruppenverluste der Gruppenmitglieder werden beim Gruppenträger berücksichtigt",
+        "Ist das Gruppenergebnis negativ, ist der Verlust beim Gruppenträger vortragsfähig (allerdings besteht hier die 75 %ige Verlustvortragsgrenze)"
+      ],
+      "korrekt": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Jedes Gruppenmitglied ermittelt sein steuerliches Ergebnis weiterhin selbständig; bei inländischen Mitgliedern wird dieses Ergebnis dann zu 100 % (nicht im Beteiligungsverhältnis) dem Gruppenträger zugerechnet. Vorgruppenverluste bleiben beim jeweiligen Gruppenmitglied 'eingefroren' und können nur mit dessen eigenem künftigen Ergebnis verrechnet werden – dabei gilt ausnahmsweise nicht die sonst übliche 75 %-Vortragsgrenze. Ein negatives Gesamtergebnis der Gruppe ist beim Gruppenträger selbst vortragsfähig, hier gilt aber wieder die reguläre 75 %-Grenze."
+    },
+    {
+      "id": "koest-149",
+      "typ": "multiple",
+      "frage": "Welche Aussagen treffen auf die Gruppenbesteuerung zu?",
+      "optionen": [
+        "Die Zurechnung von Verlusten ausländischer Gruppenmitglieder erfolgt im jeweiligen Beteiligungsverhältnis",
+        "Steuerwirksame Teilwertabschreibungen auf Gruppenmitglieder sind nicht zulässig, um mehrfache Verlustverwertungen in der Gruppe zu vermeiden",
+        "Der Gruppenträger kann seine gesamten vortragsfähigen Verluste, auch jene die vor der Gruppenbildung entstanden sind, mit dem Gruppenergebnis verrechnen",
+        "Der nach ausländischem Recht ermittelte Verlust ist nach österreichischem Steuerrecht umzurechnen",
+        "Für jedes mindeststeuerpflichtige Gruppenmitglied ist Mindestkörperschaftsteuer zu berechnen, aufzusummieren und vom Gruppenträger zu entrichten",
+        "Bei ausländischen Gruppenmitgliedern werden nur negative Ergebnisse dem Gruppenträger zugerechnet"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Alle genannten Aussagen treffen auf die Gruppenbesteuerung zu: Der Gruppenträger kann eigene Altverluste (vor Gruppenbildung) mit dem Gruppenergebnis verrechnen; Teilwertabschreibungen auf Beteiligungen an Gruppenmitgliedern sind gemäß § 9 Abs 7 KStG steuerlich nicht anzuerkennen, um Doppelverwertungen zu vermeiden; für jedes mindeststeuerpflichtige Gruppenmitglied wird die Mindestkörperschaftsteuer gesondert berechnet, aufsummiert und vom Gruppenträger entrichtet; bei ausländischen Gruppenmitgliedern werden ausschließlich Verluste (anteilig im Beteiligungsverhältnis) zugerechnet, und der nach ausländischem Recht ermittelte Verlust ist für die Zurechnung nach österreichischen Gewinnermittlungsvorschriften umzurechnen."
+    },
+    {
+      "id": "koest-150",
+      "typ": "multiple",
+      "frage": "Welche Aussagen treffen auf die Besteuerung von gemeinnützigen Vereinen zu?",
+      "optionen": [
+        "Der entbehrliche Hilfsbetrieb ist für die Erfüllung der gemeinnützigen Zwecke unbedingt notwendig, daher sind die erwirtschafteten Gewinne steuerfrei",
+        "Wirtschaftliche Geschäftsbetriebe eines steuerbefreiten Vereines sind steuerlich immer unbeachtlich und daher nicht KöSt-pflichtig",
+        "Voraussetzung für die beschränkte Steuerpflicht ist, dass der Verein kirchliche, gemeinnützige oder mildtätige Zwecke verfolgt",
+        "Vereine sind immer steuerbefreit",
+        "Begünstigungsschädliche Geschäftsbetriebe gefährden die beschränkte Steuerpflicht des Kernbereiches sowie die Steuerfreiheit des unentbehrlichen Hilfsbetriebes, wenn die Umsatzgrenze von € 100.000 überschritten wird und keine Ausnahmegenehmigung vom Finanzamt vorliegt"
+      ],
+      "korrekt": [
+        2,
+        4
+      ],
+      "erklaerung": "Ein Verein ist nur bei Verfolgung gemeinnütziger, mildtätiger oder kirchlicher Zwecke (§§ 34 ff BAO) begünstigt und wechselt dann von der unbeschränkten in die beschränkte Steuerpflicht – 'immer steuerbefreit' ist zu pauschal. Nicht der entbehrliche, sondern der unentbehrliche Hilfsbetrieb ist für die Zweckerfüllung unbedingt notwendig und steuerfrei; Gewinne aus entbehrlichen und anderen wirtschaftlichen Geschäftsbetrieben sind grundsätzlich sehr wohl KöSt-pflichtig. Begünstigungsschädliche Geschäftsbetriebe gefährden bei Überschreiten der € 100.000-Umsatzgrenze ohne Ausnahmegenehmigung sowohl die beschränkte Steuerpflicht des Kernbereichs als auch die Steuerfreiheit des unentbehrlichen Hilfsbetriebes."
+    },
+    {
+      "id": "koest-151",
+      "typ": "multiple",
+      "frage": "Welche Aussagen treffen auf die beschränkte Steuerpflicht zu?",
+      "optionen": [
+        "Körperschaften des öffentlichen Rechts und von der unbeschränkten Steuerpflicht befreite Körperschaften sind mit bestimmten Kapitaleinkünften und Einkünften aus Grundstücksveräußerungen beschränkt steuerpflichtig (2. Art)",
+        "Juristische Personen des privaten Rechts, die ihren Sitz im Ausland, aber ihren Ort der Geschäftsleitung im Inland haben, sind mit ihrem Inlandseinkommen beschränkt steuerpflichtig (1. Art)",
+        "Ausländische Körperschaften (weder Sitz noch Ort der Geschäftsleitung in Österreich) sind mit ihren Inlandseinkünften gemäß § 98 EStG beschränkt steuerpflichtig (1. Art)",
+        "Es gibt zwei Arten der beschränkten Steuerpflicht",
+        "Inländische Aktiengesellschaften sind mit ihren steuerabzugspflichtigen Einkünften, insbesondere mit Kapitalerträgen, beschränkt steuerpflichtig (2. Art)"
+      ],
+      "korrekt": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Es gibt zwei Arten der beschränkten Steuerpflicht: die 1. Art für ausländische Körperschaften ohne Sitz/Geschäftsleitung im Inland (nur Inlandseinkünfte, § 98 EStG) und die 2. Art für Körperschaften öffentlichen Rechts sowie befreite Körperschaften mit bestimmten Kapitaleinkünften und Grundstücksveräußerungsgewinnen. Eine unbeschränkt steuerpflichtige inländische AG benötigt für ihre Kapitalerträge keine gesonderte 'beschränkte Steuerpflicht 2. Art' – diese sind bereits von der unbeschränkten Steuerpflicht erfasst. Genügt bereits der Ort der Geschäftsleitung im Inland (auch bei ausländischem Sitz), liegt schon deshalb unbeschränkte, nicht beschränkte Steuerpflicht vor."
+    },
+    {
+      "id": "koest-152",
+      "typ": "multiple",
+      "frage": "Welche Aussagen sind in Bezug auf das Trennungsprinzip korrekt?",
+      "optionen": [
+        "Bei Mitunternehmerschaften gibt es zwei Besteuerungsebenen",
+        "Die Gesellschaft haftet für die KESt bei Ausschüttungen an natürliche Personen und an Gesellschaften mit einem Beteiligungsverhältnis kleiner 10 %",
+        "Es bestehen 2 Besteuerungsebenen: KöSt und ESt (KESt)",
+        "Gesellschafter und Körperschaft stellen getrennte Sphären dar",
+        "Leistungsbeziehungen zwischen Gesellschafter und Körperschaft sind nicht möglich",
+        "Die Gesellschaft ist kein eigenständiges Steuersubjekt im Bereich der Ertragsteuern"
+      ],
+      "korrekt": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Das Trennungsprinzip bedeutet, dass Gesellschafter und Körperschaft getrennte Sphären sind und es zwei Besteuerungsebenen gibt: KöSt bei der Körperschaft, ESt/KESt beim Gesellschafter. Bei Mitunternehmerschaften (Personengesellschaften) gilt demgegenüber das Transparenzprinzip mit nur einer Besteuerungsebene. Leistungsbeziehungen zwischen Gesellschaft und Gesellschafter sind sehr wohl möglich, sofern fremdüblich. Die Gesellschaft haftet als Abzugsverpflichtete für die KESt bei Ausschüttungen an natürliche Personen und an Körperschaften mit einer Beteiligung unter 10 % (bei ≥10 % greift die KESt-Abzugsbefreiung des § 94 Z 2 EStG)."
+    },
+    {
+      "id": "koest-153",
+      "typ": "multiple",
+      "frage": "Welche Aussagen sind in Bezug auf Ausschüttungen an natürliche Personen (Beteiligung im Privatvermögen) korrekt?",
+      "optionen": [
+        "Ausschüttungen werden in der Regel im Beteiligungsverhältnis der Gesellschafter aufgeteilt",
+        "Die Ausschüttung ist bei der Körperschaft Betriebsausgabe",
+        "Beim Gesellschafter führt die Ausschüttung zu Einkünften aus Kapitalvermögen",
+        "Der Gesellschafter muss die anfallende KESt an das zuständige Finanzamt abführen",
+        "Die Gesellschaft haftet für die KESt und muss diese im Namen des Gesellschafters an das Finanzamt abführen",
+        "Die Ausschüttung ist bei der Körperschaft Einkommensverwendung"
+      ],
+      "korrekt": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "erklaerung": "Die Ausschüttung ist bei der Körperschaft Einkommensverwendung (§ 8 Abs 2 KStG), keine Betriebsausgabe. Beim Gesellschafter führt sie zu Einkünften aus Kapitalvermögen und wird in der Regel im Verhältnis der Beteiligungen aufgeteilt. Nicht der Gesellschafter, sondern die Körperschaft als Abzugsverpflichtete haftet für die KESt und hat diese im Namen des Gesellschafters ans Finanzamt abzuführen."
+    },
+    {
+      "id": "koest-154",
+      "typ": "multiple",
+      "frage": "Welche Aussagen sind bezüglich der unbeschränkten Steuerpflicht gem. § 1 Abs 2 KStG zutreffend?",
+      "optionen": [
+        "Natürliche Personen, die ihren Wohnsitz oder gewöhnlichen Aufenthalt im Inland haben, sind unbeschränkt körperschaftsteuerpflichtig",
+        "Personengesellschaften, die ihren Sitz oder Ort der Geschäftsleitung im Inland haben, sind unbeschränkt körperschaftsteuerpflichtig",
+        "Juristische Personen des privaten Rechts, die ihren Sitz oder Ort der Geschäftsleitung im Inland haben, sind unbeschränkt körperschaftsteuerpflichtig",
+        "Betriebe gewerblicher Art (BgA) von Körperschaften öffentlichen Rechts, die ihren Sitz oder Ort der Geschäftsleitung im Inland haben, sind unbeschränkt körperschaftsteuerpflichtig"
+      ],
+      "korrekt": [
+        2,
+        3
+      ],
+      "erklaerung": "Unbeschränkt körperschaftsteuerpflichtig sind juristische Personen des privaten Rechts sowie Betriebe gewerblicher Art, sofern Sitz oder Geschäftsleitung im Inland liegen. Personengesellschaften sind kein eigenes KöSt-Subjekt (ihr Ergebnis wird den Gesellschaftern zugerechnet), und natürliche Personen unterliegen der Einkommensteuer, nicht der Körperschaftsteuer."
+    },
+    {
+      "id": "koest-155",
+      "typ": "multiple",
+      "frage": "Welche Aussagen sind auf Einlagen zutreffend?",
+      "optionen": [
+        "Eine Einlage wird auf das Konto Kapitalrücklage gebucht",
+        "Eine Einlage führt zu einer Erhöhung des Eigenkapitals der Gesellschaft",
+        "Eine Einlage führt beim Gesellschafter zu einem Tauschvorgang, der steuerbar sein kann",
+        "Eine Einlage ist von der Körperschaft in das Einlagenevidenzkonto (Eigenkapitalevidenzkonto) aufzunehmen",
+        "Eine Einlage erhöht die Anschaffungskosten des Gesellschafters an der Körperschaft",
+        "Eine Einlage ist bei der Körperschaft eine nicht steuerbare Vermögenserhöhung"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "Alle genannten Aussagen treffen zu: Die Einlage ist bei der Körperschaft eine nicht steuerbare Vermögenserhöhung (§ 8 Abs 1 KStG), die das Eigenkapital erhöht und unternehmensrechtlich als Kapitalrücklage sowie steuerlich im Einlagenevidenzkonto (§ 4 Abs 12 EStG) zu erfassen ist. Beim Gesellschafter erhöht sie nach dem Tauschgrundsatz die Anschaffungskosten der Beteiligung – ein Vorgang, der (z.B. bei einer Sacheinlage mit stillen Reserven) selbst steuerbar sein kann."
+    },
+    {
+      "id": "koest-156",
+      "typ": "multiple",
+      "frage": "Welche Aussagen bezüglich der wirtschaftlichen Betätigung von gemeinnützigen Vereinen sind richtig?",
+      "optionen": [
+        "Gewinne aus entbehrlichen Hilfsbetrieben sind steuerpflichtig",
+        "Im Vereinsbereich (Kernbereich) gilt die beschränkte Steuerpflicht der 2. Art (KESt und Immo-ESt)",
+        "Begünstigungsschädliche wirtschaftliche Geschäftsbetriebe können zum Verlust der Begünstigungen führen",
+        "Kantinen sind immer steuerbefreit",
+        "Gewinne aus unentbehrlichen Hilfsbetrieben sind steuerpflichtig"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Gewinne aus unentbehrlichen Hilfsbetrieben (die zur Zweckerfüllung unerlässlich sind) bleiben steuerfrei, während Gewinne aus entbehrlichen Hilfsbetrieben steuerpflichtig sind. Begünstigungsschädliche Geschäftsbetriebe können die gesamte Gemeinnützigkeit gefährden. Im Vereinskernbereich (ideeller Bereich) gilt die beschränkte Steuerpflicht 2. Art mit KESt und Immo-ESt auf bestimmte Kapital- und Grundstückseinkünfte. Kantinen sind nicht 'immer' steuerbefreit – das hängt von den Umständen des Einzelfalls ab."
+    },
+    {
+      "id": "koest-157",
+      "typ": "multiple",
+      "frage": "Welche Aussagen betreffend Einlagen sind wahr?",
+      "optionen": [
+        "Eine Einlage gilt ertragsteuerlich als Tausch",
+        "Einlagen sind nur bei der Gründung der Gesellschaft möglich",
+        "Einlagen erhöhen die Anschaffungskosten der Beteiligung",
+        "Eine Einlage ist bei der Körperschaft steuerpflichtiger Ertrag",
+        "Auch Schulden können auf die Gesellschaft übertragen werden",
+        "Eine Einlage eines Gesellschafters bleibt bei der Ermittlung des Einkommens außer Ansatz"
+      ],
+      "korrekt": [
+        0,
+        2,
+        5
+      ],
+      "erklaerung": "Eine Einlage bleibt bei der Körperschaft steuerlich außer Ansatz (kein steuerpflichtiger Ertrag) und gilt ertragsteuerlich als Tauschvorgang (Wirtschaftsgut gegen Anteil bzw. Erhöhung des Beteiligungswerts). Sie erhöht die Anschaffungskosten der Beteiligung beim Gesellschafter. Einlagen sind nicht nur bei Gründung, sondern jederzeit während des Bestehens der Gesellschaft möglich (z.B. Gesellschafterzuschuss)."
+    },
+    {
+      "id": "koest-158",
+      "typ": "multiple",
+      "frage": "Durch welche Maßnahmen ist eine verdeckte Ausschüttung zu korrigieren?",
+      "optionen": [
+        "Es muss eine Forderung an den Gesellschafter in Höhe der KESt eingestellt werden, ansonsten erhöht sich der Steuersatz auf 37,93 %",
+        "Eine anfallende KESt ist der Körperschaft als Haftender mit Haftungsbescheid vorzuschreiben",
+        "Bei der Körperschaft ist der steuerpflichtige Gewinn zu berichtigen",
+        "Beim Gesellschafter ergibt sich nie eine ertragsteuerliche Auswirkung",
+        "Die Körperschaft muss dem Gesellschafter eine offene Ausschüttung in gleicher Höhe bezahlen"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Eine verdeckte Ausschüttung wird korrigiert, indem bei der Körperschaft der steuerpflichtige Gewinn (MWR-Zurechnung) berichtigt wird und die auf die vA entfallende KESt der Körperschaft als Haftender mit Haftungsbescheid vorgeschrieben wird. Wird keine Forderung gegenüber dem Gesellschafter in Höhe der KESt eingestellt (die Gesellschaft trägt die KESt also endgültig selbst), ist von einer zusätzlichen vA in Form der KESt-Übernahme auszugehen, was rechnerisch einer Hochrechnung auf 37,93 % entspricht. Beim Gesellschafter ergeben sich sehr wohl ertragsteuerliche Folgen (Einkünfte aus Kapitalvermögen)."
+    },
+    {
+      "id": "koest-159",
+      "typ": "multiple",
+      "frage": "Wo sind die gesetzlichen Grundlagen der Körperschaftsteuer zu finden?",
+      "optionen": [
+        "Im Körperschaftsteuergesetz",
+        "Im Umsatzsteuergesetz",
+        "Im Organisationshandbuch",
+        "Im Umgründungssteuergesetz",
+        "Zum Teil im Einkommensteuergesetz"
+      ],
+      "korrekt": [
+        0,
+        4
+      ],
+      "erklaerung": "Die zentrale Rechtsgrundlage ist das KStG; zusätzlich verweist § 7 Abs 2 KStG für die Einkommensermittlung auf die Grundsätze des EStG, soweit das KStG keine Sonderregelungen trifft. Das UStG regelt die Umsatzsteuer und ist keine Rechtsgrundlage der Körperschaftsteuer; das UmgrStG betrifft nur Umgründungsvorgänge; ein 'Organisationshandbuch' ist keine Rechtsquelle."
+    },
+    {
+      "id": "koest-160",
+      "typ": "multiple",
+      "frage": "Wie wird die Körperschaftsteuer erhoben?",
+      "optionen": [
+        "Der unternehmensrechtliche Gewinn entspricht der KöSt-Bemessungsgrundlage",
+        "Die Körperschaftsteuer wird mit Hilfe der Gewinn- und Verlustrechnung berechnet",
+        "Durch anlassbezogene Überweisung",
+        "Der Veranlagungszeitraum ist frei wählbar",
+        "Es sind vierteljährliche Vorauszahlungen zu entrichten",
+        "Durch Veranlagung"
+      ],
+      "korrekt": [
+        4,
+        5
+      ],
+      "erklaerung": "Die Körperschaftsteuer wird im Wege der Veranlagung erhoben, unterlegt mit vierteljährlichen Vorauszahlungen. Der Veranlagungszeitraum ist nicht frei wählbar, sondern grundsätzlich das Kalenderjahr (bzw. das im Kalenderjahr endende abweichende Wirtschaftsjahr). Die Bemessungsgrundlage ist nicht einfach der unternehmensrechtliche Gewinn laut Gewinn- und Verlustrechnung, sondern das nach steuerlichen Vorschriften (MWR-Rechnung) ermittelte Einkommen."
+    },
+    {
+      "id": "koest-161",
+      "typ": "multiple",
+      "frage": "Wie werden inländische Beteiligungserträge behandelt?",
+      "optionen": [
+        "Gewinnanteile aufgrund einer Beteiligung an einer inländischen Körperschaft sind bei der empfangenden Körperschaft immer von der KöSt befreit",
+        "Wird eine Option zur Steuerpflicht abgegeben, sind die Beteiligungserträge steuerwirksam",
+        "Es sind offene und verdeckte Ausschüttungen befreit",
+        "Es sind nur offene Ausschüttungen befreit",
+        "Bei Ausschüttungen an eine Muttergesellschaft, die weniger als 10 % beteiligt ist, muss KESt von der Tochtergesellschaft im Haftungswege einbehalten werden",
+        "Die einbehaltene KESt kann auf die Körperschaftsteuer angerechnet werden"
+      ],
+      "korrekt": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "erklaerung": "Inländische Beteiligungserträge (§ 10 Abs 1 Z 1 KStG) sind unabhängig von Beteiligungshöhe und Behaltedauer sowie unabhängig davon, ob es sich um eine offene oder verdeckte Ausschüttung handelt, bei der empfangenden Körperschaft stets von der KöSt befreit. Ein Options-Wahlrecht zur Steuerpflicht gibt es im reinen Inlandsfall nicht – das betrifft nur die internationale Schachtelbeteiligung. Liegt die Beteiligung unter 10 %, muss die Tochtergesellschaft KESt einbehalten; diese kann die Muttergesellschaft auf ihre KöSt anrechnen lassen."
+    },
+    {
+      "id": "koest-162",
+      "typ": "multiple",
+      "frage": "Was ist bei einer Teilwertabschreibung einer Beteiligung steuerlich zu beachten?",
+      "optionen": [
+        "Der Aufwand ist auf sieben Jahre zu verteilen",
+        "Im Jahr der Teilwertabschreibung werden in der Mehr-Weniger-Rechnung 6/7 der TWA zugerechnet",
+        "Es muss ein Gutachten vorgelegt werden",
+        "Bei der Gruppenbesteuerung werden Teilwertabschreibungen auf Gruppenmitglieder steuerlich nicht anerkannt",
+        "Der Aufwand darf nach sieben Jahren geltend gemacht werden"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Die Teilwertabschreibung einer Beteiligung ist steuerlich zwingend auf sieben Jahre zu verteilen (§ 12 Abs 3 Z 2 KStG) – nicht erst nach sieben Jahren geltend zu machen, sondern von Anfang an über diesen Zeitraum gestreckt. Im Jahr der Abschreibung sind daher 6/7 in der MWR hinzuzurechnen (nur 1/7 sofort abzugsfähig). Die dauerhafte Wertminderung ist regelmäßig durch ein Gutachten nachzuweisen. Innerhalb einer Unternehmensgruppe sind Teilwertabschreibungen auf Beteiligungen an Gruppenmitgliedern gemäß § 9 Abs 7 KStG generell nicht anzuerkennen."
+    },
+    {
+      "id": "koest-163",
+      "typ": "multiple",
+      "frage": "Welche Unternehmensformen unterliegen der Körperschaftsteuer?",
+      "optionen": [
+        "Betriebe gewerblicher Art von Körperschaften des öffentlichen Rechts",
+        "Vereine",
+        "Kapitalgesellschaften",
+        "Personengesellschaften",
+        "Natürliche Personen"
+      ],
+      "korrekt": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Der Körperschaftsteuer unterliegen Kapitalgesellschaften, Vereine (soweit unbeschränkt steuerpflichtig bzw. mit ihrem wirtschaftlichen Geschäftsbetrieb) und Betriebe gewerblicher Art von Körperschaften öffentlichen Rechts. Personengesellschaften sind kein eigenes KöSt-Subjekt (Transparenzprinzip), natürliche Personen unterliegen der Einkommensteuer."
+    },
+    {
+      "id": "koest-164",
+      "typ": "multiple",
+      "frage": "Welche Personen bzw. Gesellschaften sind unbeschränkt körperschaftsteuerpflichtig?",
+      "optionen": [
+        "Personengesellschaften mit Sitz im Inland",
+        "Juristische Personen des privaten Rechts mit Sitz im Inland",
+        "Vereine mit Sitz im Inland",
+        "Juristische Personen des öffentlichen Rechts",
+        "Genossenschaften mit Sitz im Inland",
+        "Natürliche Personen mit Sitz im Inland"
+      ],
+      "korrekt": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Juristische Personen des privaten Rechts mit Sitz im Inland – dazu zählen auch Vereine und Genossenschaften – sind unbeschränkt körperschaftsteuerpflichtig. Juristische Personen des öffentlichen Rechts sind demgegenüber nur insoweit steuerpflichtig, als sie einen Betrieb gewerblicher Art unterhalten (nicht generell unbeschränkt); Personengesellschaften und natürliche Personen sind ohnehin kein KöSt-Subjekt."
+    },
+    {
+      "id": "koest-165",
+      "typ": "multiple",
+      "frage": "Welche Personen bzw. Gesellschaften sind juristische Personen?",
+      "optionen": [
+        "Natürliche Personen",
+        "Gesellschaften mit beschränkter Haftung",
+        "Personengesellschaften",
+        "Juristische Personen des öffentlichen Rechts",
+        "Aktiengesellschaften"
+      ],
+      "korrekt": [
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Juristische Personen des öffentlichen Rechts sowie AG und GmbH (juristische Personen des privaten Rechts) verfügen über eine eigene Rechtspersönlichkeit. Personengesellschaften und natürliche Personen sind demgegenüber keine juristischen Personen."
+    },
+    {
+      "id": "koest-166",
+      "typ": "multiple",
+      "frage": "Welche Eigenschaften sind charakteristisch für juristische Personen?",
+      "optionen": [
+        "Das Gesellschaftsvermögen steht im Eigentum der Mitglieder",
+        "Sie haften den Gesellschaftsgläubigern mit dem Gesellschaftsvermögen",
+        "Sie handeln durch ihre Mitglieder",
+        "Sie handeln durch ihre Organe",
+        "Sie sind Träger von Rechten und Pflichten"
+      ],
+      "korrekt": [
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Juristische Personen sind eigene Träger von Rechten und Pflichten, handeln durch ihre Organe (nicht unmittelbar durch ihre Mitglieder) und haften den Gesellschaftsgläubigern mit dem Gesellschaftsvermögen – nicht die Mitglieder mit ihrem Privatvermögen. Das Gesellschaftsvermögen steht im Eigentum der juristischen Person selbst, nicht ihrer Mitglieder (Trennungsprinzip)."
+    },
+    {
+      "id": "koest-167",
+      "typ": "multiple",
+      "frage": "Welche Beteiligungserträge sind gem. § 10 KStG von der Körperschaftsteuer befreit?",
+      "optionen": [
+        "Ausschüttungen aufgrund einer seit einem Monat gehaltenen 0,5 %-igen Beteiligung an einer österreichischen AG",
+        "Beteiligungsertrag einer langjährigen Tochtergesellschaft mit einem Beteiligungsausmaß von 13 % und Sitz in einem Land ohne umfassende Amtshilfe",
+        "Beteiligungsertrag einer langjährigen Tochtergesellschaft mit einem Beteiligungsausmaß von 3 % und Sitz in einem Land ohne umfassende Amtshilfe",
+        "Gewinnanteile aufgrund einer seit drei Jahren gehaltenen 25 %-igen Beteiligung an einer österreichischen Personengesellschaft",
+        "Ausschüttungen aufgrund einer seit zwei Jahren gehaltenen 8 %-igen Beteiligung an einer Schweizer AG",
+        "Gewinnausschüttungen aufgrund einer seit einem Jahr gehaltenen 15 %-igen Beteiligung an einer deutschen GmbH"
+      ],
+      "korrekt": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "erklaerung": "Bei einer Inlandsbeteiligung (0,5 % an einer österreichischen AG) ist die Befreiung unabhängig von Ausmaß und Behaltedauer anwendbar. Die 8 %ige Schweizer Beteiligung fällt unter die Portfoliobeteiligungsbefreiung, da mit der Schweiz umfassende Amtshilfe besteht. Die 15 %ige deutsche GmbH-Beteiligung erfüllt (>10 %, >1 Jahr, EU-Staat) die internationale Schachtelbeteiligung. Die 25 %ige Beteiligung an einer österreichischen Personengesellschaft ist schon deshalb nicht erfasst, weil eine PG keine Körperschaft ist. Bei nur 3 % Beteiligung ohne Amtshilfestaat greift weder die Schachtel- noch die Portfoliobefreiung. Bei 13 % Beteiligung ist dagegen die internationale Schachtelbeteiligung erfüllt – hier kommt es (anders als bei der Portfoliobeteiligung <10 %) auf eine umfassende Amtshilfe gerade nicht an."
+    },
+    {
+      "id": "koest-168",
+      "typ": "multiple",
+      "frage": "Was trifft auf eine internationale Schachtelbeteiligung zu?",
+      "optionen": [
+        "Das Beteiligungsausmaß muss größer oder gleich 10 % sein",
+        "Das Beteiligungsausmaß ist nicht relevant, aber die Beteiligung muss länger als ein Jahr im Vermögen der Gesellschaft sein",
+        "Die Tochtergesellschaft muss sich in einem Land mit umfassender Amtshilfe befinden",
+        "Es kann eine Option zur Steuerwirksamkeit der laufenden Beteiligungserträge ausgeübt werden",
+        "Die Beteiligung muss länger als ein Jahr bestehen"
+      ],
+      "korrekt": [
+        0,
+        4
+      ],
+      "erklaerung": "Die internationale Schachtelbeteiligung (§ 10 Abs 1 Z 7 KStG) setzt ein Beteiligungsausmaß von mindestens 10 % UND eine Behaltedauer von mehr als einem Jahr voraus – ein Amtshilfeabkommen ist (anders als bei der Portfoliobeteiligung) keine Voraussetzung. Die Option zur Steuerwirksamkeit betrifft nur Wertänderungen (Substanzgewinne/-verluste), nicht die laufenden Beteiligungserträge – diese bleiben in jedem Fall steuerfrei, unabhängig von einer Option."
+    },
+    {
+      "id": "koest-169",
+      "typ": "single",
+      "frage": "Welche Substanzgewinne oder -verluste sind nicht steuerwirksam?",
+      "optionen": [
+        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer niederländischen Tochtergesellschaft im Ausmaß von 8 %",
+        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer deutschen Tochtergesellschaft im Ausmaß von 35 % ohne Option",
+        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer italienischen Tochtergesellschaft im Ausmaß von 35 % mit Option",
+        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer inländischen Tochtergesellschaft im Ausmaß von 8 %",
+        "Substanzgewinne/-verluste aus dem Verkauf einer langjährigen Beteiligung an einer russischen Tochtergesellschaft im Ausmaß von 5 %"
+      ],
+      "korrekt": [
+        1
+      ],
+      "erklaerung": "Nur die deutsche Beteiligung (35 %, langjährig, EU-Staat, ohne Option) erfüllt die internationale Schachtelbeteiligung und bleibt daher ohne Optionserklärung mit ihren Substanzgewinnen/-verlusten steuerneutral. Bei der inländischen und der niederländischen 8 %-Beteiligung wird die 10 %-Grenze der Schachtelbeteiligung nicht erreicht – Substanzgewinne sind hier (auch bei Inlandsbeteiligungen und bei Portfoliobeteiligungen <10 %, die nur die laufenden Erträge, nicht aber Substanzgewinne begünstigen) steuerpflichtig. Bei der italienischen Beteiligung mit Option werden Wertänderungen gerade steuerwirksam. Die russische 5 %-Beteiligung erreicht die Schachtelgrenze ebenfalls nicht."
+    },
+    {
+      "id": "koest-170",
+      "typ": "multiple",
+      "frage": "Wann beginnt und endet die unbeschränkte Steuerpflicht einer juristischen Person?",
+      "optionen": [
+        "Wenn weder Sitz noch Ort der Geschäftsleitung mehr im Inland sind, kommt es zum Wechsel in die beschränkte Steuerpflicht",
+        "Die Steuerpflicht beginnt mit der Eintragung ins Firmenbuch",
+        "Die Steuerpflicht beginnt mit Abschluss eines Gründungsvertrages und dem erstmaligen Auftreten in der Außenwelt",
+        "Die Steuerpflicht endet mit der Löschung im Firmenbuch",
+        "Die Steuerpflicht endet mit dem Verlust der Rechtspersönlichkeit und dem Übergang des gesamten Vermögens auf andere"
+      ],
+      "korrekt": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Die Steuerpflicht beginnt bereits vor der Firmenbucheintragung – mit Abschluss des Gründungsvertrags und dem ersten Auftreten nach außen (Vorgesellschaft). Sie endet materiell mit dem Verlust der Rechtspersönlichkeit und der vollständigen Vermögensübertragung, nicht erst mit der (nur deklaratorischen) Löschung im Firmenbuch. Verlegt die Körperschaft sowohl Sitz als auch Geschäftsleitung ins Ausland, wechselt sie in die beschränkte Steuerpflicht."
+    },
+    {
+      "id": "koest-171",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zum Thema Einkünftetransformation gem. § 7 Abs 3 KStG sind richtig?",
+      "optionen": [
+        "AG und GmbH sind aufgrund ihrer Rechtsform rechnungslegungspflichtig und müssen Bücher führen, Umsatzgrenzen spielen keine Rolle",
+        "Bei GmbH und AG sind grundsätzlich alle Einkunftsarten mit Ausnahme der Einkünfte aus nichtselbständiger und selbständiger Arbeit möglich",
+        "Privatstiftungen und Vereine fallen nicht unter die Einkünftetransformation gem. § 7 Abs 3 KStG",
+        "Einkünfte von aufgrund ihrer Rechtsform rechnungslegungspflichtigen Körperschaften sind stets Einkünfte aus Gewerbebetrieb",
+        "GmbH und AG haben neben den Einkünften aus Gewerbebetrieb, wenn sie Beteiligungserträge erhalten, noch Einkünfte aus Kapitalvermögen"
+      ],
+      "korrekt": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "AG und GmbH sind kraft Rechtsform (unabhängig von Umsatzgrenzen) rechnungslegungspflichtig; ihre Einkünfte gelten daher nach § 7 Abs 3 KStG einheitlich als Einkünfte aus Gewerbebetrieb – eine gesonderte Einkunftsart wie Kapitalvermögen daneben gibt es nicht, ebenso wenig andere Einkunftsarten. Privatstiftungen und (in der Regel nicht rechnungslegungspflichtige) Vereine fallen nicht unter diese Transformation."
+    },
+    {
+      "id": "koest-172",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur Mindeststeuer (MiKö) sind richtig?",
+      "optionen": [
+        "Die MiKö fällt nur in Verlustjahren oder Jahren mit niedrigem Einkommen an und ist jedes volle Kalendervierteljahr zu entrichten",
+        "Die bezahlte MiKö ist eine Ertragsteuer und geht verloren",
+        "Die MiKö ist eine Vorauszahlung auf die tatsächliche Körperschaftsteuer späterer Jahre und wird als schwebende Mindestkörperschaftsteuer auf die KöSt angerechnet",
+        "Die MiKö ist abhängig von der gewählten Rechtsform und beträgt 10 % des gesetzlichen Mindestgrund- oder Stammkapitals",
+        "Die MiKö fällt immer an und ist am Ende des Wirtschaftsjahres fällig",
+        "Die Mindestkörperschaftsteuer fällt bei inländischen Kapitalgesellschaften (GmbH und AG) an"
+      ],
+      "korrekt": [
+        0,
+        2,
+        5
+      ],
+      "erklaerung": "Die MiKö trifft inländische Kapitalgesellschaften (GmbH, AG) und ist jedes volle Kalendervierteljahr zu entrichten – praktisch relevant wird sie in Verlust- oder niedrigen Gewinnjahren, in denen die tatsächliche KöSt die Mindeststeuer unterschreitet. Sie beträgt 5 % (nicht 10 %) des gesetzlichen Mindestkapitals. Sie geht nicht verloren, sondern wird als 'schwebende' Mindestkörperschaftsteuer zeitlich unbegrenzt vorgetragen und auf die KöSt-Schuld späterer Jahre angerechnet, sobald diese die MiKö übersteigt."
+    },
+    {
+      "id": "koest-173",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zum Thema Zusatzsteuer sind richtig?",
+      "optionen": [
+        "Wenn die Zusatzsteuer vorgeschrieben wird, wird die zugrundeliegende Zahlung als Betriebsausgabe anerkannt",
+        "Fällt bei jeder verdeckten Ausschüttung als Strafzahlung an",
+        "Fällt an, wenn eine Körperschaft den/die Empfänger einer Zahlung trotz Auftrag zur Empfängernennung nicht bekannt gibt",
+        "Neben der Zusatzsteuer in Höhe von 30 % wird auch die betreffende Betriebsausgabe nicht anerkannt und muss in der MWR zugerechnet werden",
+        "Die Zusatzsteuer beträgt 25 % der Zahlung, für die der Empfänger nicht bekannt gegeben wird"
+      ],
+      "korrekt": [
+        2,
+        4
+      ],
+      "erklaerung": "Die Zusatzsteuer nach § 22 Abs 3 KStG fällt nicht bei jeder vA an, sondern speziell dann, wenn die Körperschaft einer Aufforderung zur Empfängerbenennung (§ 162 BAO) nicht nachkommt; sie beträgt 25 % (nicht 30 %) der betroffenen Zahlung. Die zugrundeliegende Zahlung wird dabei zusätzlich als Betriebsausgabe nicht anerkannt und ist in der MWR zuzurechnen – sie wird also gerade nicht anerkannt."
+    },
+    {
+      "id": "koest-174",
+      "typ": "single",
+      "frage": "Welche Aussagen zur Angehörigenjudikatur treffen zu?",
+      "optionen": [
+        "Die Angehörigenjudikatur ist als Richterrecht des VwGH in der Bundesabgabenordnung ausdrücklich kodifiziert",
+        "Rechtsbeziehungen (Verträge) zwischen Körperschaften und deren Gesellschaftern werden immer steuerlich anerkannt",
+        "Rechtsbeziehungen (Verträge) zwischen Körperschaften und deren Gesellschaftern werden steuerlich nur anerkannt, wenn sie den Anforderungen der Angehörigenjudikatur entsprechen",
+        "Wenn es einen schriftlichen Vertrag gibt, werden Rechtsbeziehungen zwischen Gesellschaft und Gesellschafter immer steuerlich anerkannt",
+        "Die Kriterien der Angehörigenjudikatur sind Publizität, Plausibilität der wirtschaftlichen Gründe und Fremdvergleich"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Verträge zwischen Körperschaft und Gesellschafter werden steuerlich nur anerkannt, wenn sie den von der Rechtsprechung (VwGH) entwickelten Kriterien der Angehörigenjudikatur entsprechen – nicht 'immer', auch nicht allein aufgrund von Schriftlichkeit. Die Angehörigenjudikatur ist Richterrecht und nicht in der BAO kodifiziert. Die tatsächlichen Kriterien sind Publizität, klarer und eindeutiger Inhalt sowie Fremdvergleich – nicht 'Plausibilität', die hier als Verwechslung mit dem eigentlichen Kriterium des klaren Vertragsinhalts eingebaut ist."
+    },
+    {
+      "id": "koest-175",
+      "typ": "multiple",
+      "frage": "Welche Aussagen zur Körperschaftsteuer sind zutreffend?",
+      "optionen": [
+        "Der Veranlagungszeitraum ist immer das Kalenderjahr",
+        "Die Körperschaftsteuer ist eine lineare Steuer mit einem Steuersatz in Höhe von 25 % bis 2022, 24 % im Jahr 2023 und ab 2024 mit 23 %",
+        "Neben dem linearen Tarif gibt es eine sogenannte Zusatzsteuer von weiteren 25 %",
+        "Keine der Antworten ist richtig",
+        "Grundsätzlich erfolgt die Ermittlung nach den Vorschriften des EStG, außer es gelten besondere Vorschriften des KStG",
+        "Bei niedrigem Einkommen oder in Jahren, in denen ein Verlust erzielt wird, fällt eine Mindest-Vorauszahlung in Höhe von 10 % des Mindestgrund- oder Stammkapitals an"
+      ],
+      "korrekt": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Die KöSt sank stufenweise von 25 % (bis 2022) über 24 % (2023) auf 23 % (ab 2024); daneben gibt es die Zusatzsteuer von 25 % (§ 22 Abs 3 KStG). Die Einkommensermittlung folgt grundsätzlich dem EStG, soweit das KStG keine Sondervorschriften enthält (§ 7 Abs 2 KStG). Der Veranlagungszeitraum ist nicht 'immer' das Kalenderjahr (bei abweichendem Wirtschaftsjahr gilt das im Kalenderjahr endende Wirtschaftsjahr), und die Mindest-Vorauszahlung (MiKö) beträgt 5 %, nicht 10 %, des Mindestkapitals."
+    },
+    {
+      "id": "koest-176",
+      "typ": "multiple",
+      "frage": "Eine GmbH erwirtschaftet in den Jahren 2021 bis 2023 folgende Einkünfte aus Gewerbebetrieb: 2021: −€ 66.000, 2022: € 72.000, 2023: € 168.000. Wie hoch ist die KöSt-Bemessungsgrundlage und der Verlustvortrag?",
+      "optionen": [
+        "Einkommen 2023: € 156.000",
+        "Verlustvortrag 2021: € 66.000",
+        "Einkommen 2022: € 6.000",
+        "Einkommen 2023: € 168.000",
+        "Verlustvortrag 2022: € 12.000",
+        "Einkommen 2022: € 18.000"
+      ],
+      "korrekt": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "erklaerung": "2021 entsteht ein Verlustvortrag von € 66.000. 2022 beträgt die 75 %-Grenze 75 % von € 72.000 = € 54.000; da der Verlustvortrag (€ 66.000) diese Grenze übersteigt, werden nur € 54.000 verwertet – Einkommen 2022 = € 72.000 − € 54.000 = € 18.000, Restverlustvortrag = € 66.000 − € 54.000 = € 12.000. 2023 beträgt die 75 %-Grenze 75 % von € 168.000 = € 126.000; der Restverlustvortrag von € 12.000 liegt darunter und wird zur Gänze verwertet – Einkommen 2023 = € 168.000 − € 12.000 = € 156.000."
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "fach": "USt",
+  "thema": "Zusammenfassende Meldung",
+  "quelle_note": "Umsatzsteuer/Zusammenfassende Meldung.md",
+  "karten": [
+    {
+      "id": "ust-zusammenfassende-meldung-01",
+      "frage": "Was ist der Zweck der Zusammenfassenden Meldung?",
+      "antwort": "Sie ersetzt die weggefallenen Grenzkontrollen im Binnenmarkt, indem sie elektronisch meldet, welcher Unternehmer welche steuerfreien/übergegangenen Umsätze an welche ausländische UID getätigt hat. Die Daten fließen ins MIAS und ermöglichen den Mitgliedstaaten den Abgleich mit der Besteuerung beim Empfänger."
+    }
+  ]
+}

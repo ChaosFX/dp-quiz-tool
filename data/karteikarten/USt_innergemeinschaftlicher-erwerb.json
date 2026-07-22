@@ -1,0 +1,32 @@
+{
+  "fach": "USt",
+  "thema": "Innergemeinschaftlicher Erwerb",
+  "quelle_note": "Umsatzsteuer/Innergemeinschaftlicher Erwerb.md",
+  "karten": [
+    {
+      "id": "ust-innergemeinschaftlicher-erwerb-01",
+      "frage": "Was ist die zentrale Voraussetzung für eine igE, und warum entfällt hier die EUSt?",
+      "antwort": "Ein Gegenstand gelangt gegen Entgelt von einem Unternehmer für sein Unternehmen von einem Mitgliedstaat in einen anderen an einen Unternehmer (oder Schwellenerwerber über der Schwelle). Die EUSt entfällt, weil es **keine Zollgrenzen** innerhalb der EU mehr gibt - an ihre Stelle tritt die Erwerber selbst zu erklärende **Erwerbsteuer**."
+    },
+    {
+      "id": "ust-innergemeinschaftlicher-erwerb-02",
+      "frage": "Wo liegt der Ort des ig. Erwerbs - und warum unterscheidet er sich vom Lieferort?",
+      "antwort": "Der Erwerberort liegt dort, **wo die Warenbewegung endet**. Der Lieferort (§ 3 Abs 8) liegt dagegen dort, wo die Beförderung/Versendung **beginnt**. Beide fallen bei grenzüberschreitenden Lieferungen also auseinander - Lieferort im Ursprungsland (steuerfrei igL), Erwerbsort im Bestimmungsland (steuerpflichtig igE)."
+    },
+    {
+      "id": "ust-innergemeinschaftlicher-erwerb-03",
+      "frage": "Was passiert, wenn der Erwerber eine UID eines dritten Mitgliedstaates verwendet (2. Ort)?",
+      "antwort": "Zusätzlich zum Erwerb im tatsächlichen Bestimmungsland wird **auch** im \"UID-Mitgliedstaat\" ein igE fingiert - **ohne Vorsteuerabzug**, also mit echter Zahllast. Das entfällt erst **ex nunc**, wenn der Unternehmer die Besteuerung im tatsächlichen Bestimmungsland nachweist."
+    },
+    {
+      "id": "ust-innergemeinschaftlicher-erwerb-04",
+      "frage": "Wie hoch ist die Erwerbsschwelle für Schwellenerwerber, und was passiert bei Verzicht?",
+      "antwort": "**11.000** € (netto, Gesamtbetrag der Einkäufe im übrigen Gemeinschaftsgebiet). Unterhalb bleibt es bei der Besteuerung im Ursprungsland; bei **Verzicht** (Formular U15, bindet 2 Kalenderjahre) werden **alle** Erwerbe im Inland besteuert - der Verzicht gilt einheitlich, nicht wählbar pro Gegenstand/Staat."
+    },
+    {
+      "id": "ust-innergemeinschaftlicher-erwerb-05",
+      "frage": "Welche zwei Warengruppen sind von der Erwerbsschwellenregelung ausgenommen?",
+      "antwort": "**Verbrauchsteuerpflichtige Waren** (Mineralöle, Alkohol, Tabak, Energieerzeugnisse) und **neue Fahrzeuge** - beide sind von Schwellenerwerben **immer** im Bestimmungsland zu versteuern, unabhängig von der 11.000-€-Grenze."
+    }
+  ]
+}

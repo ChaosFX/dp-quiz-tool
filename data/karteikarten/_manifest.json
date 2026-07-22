@@ -47,8 +47,10 @@
     "KöSt_persoenliche-steuerpflicht-koest.json",
     "KöSt_steuerbefreiungen-koest.json",
     "KöSt_ueberblick-wesen-koest.json",
+    "USt_binnenmarkt.json",
     "USt_eigenverbrauch.json",
     "USt_entgelt.json",
+    "USt_innergemeinschaftlicher-erwerb.json",
     "USt_kleinunternehmer.json",
     "USt_leistungsbegriff-ust.json",
     "USt_lieferort.json",
@@ -60,6 +62,7 @@
     "USt_unternehmer.json",
     "USt_unternehmer-unternehmen.json",
     "USt_vorsteuerabzug-12-ustg.json",
-    "USt_vorsteuerberichtigung.json"
+    "USt_vorsteuerberichtigung.json",
+    "USt_zusammenfassende-meldung.json"
   ]
 }

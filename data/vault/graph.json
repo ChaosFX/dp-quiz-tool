@@ -535,6 +535,12 @@
       "pfad": "Rechtsquellen/UStG/§ 2 UStG.md"
     },
     {
+      "id": "Umsatzsteuer/Binnenmarkt",
+      "label": "Binnenmarkt",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Binnenmarkt.md"
+    },
+    {
       "id": "Umsatzsteuer/Eigenverbrauch USt",
       "label": "Eigenverbrauch",
       "fach": "USt",
@@ -551,6 +557,12 @@
       "label": "Entgelt",
       "fach": "USt",
       "pfad": "Umsatzsteuer/Entgelt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Innergemeinschaftliche Lieferung",
+      "label": "Innergemeinschaftliche Lieferung",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Innergemeinschaftliche Lieferung.md"
     },
     {
       "id": "Umsatzsteuer/Innergemeinschaftlicher Erwerb",
@@ -617,6 +629,12 @@
       "label": "Vorsteuerberichtigung",
       "fach": "USt",
       "pfad": "Umsatzsteuer/Vorsteuerberichtigung USt.md"
+    },
+    {
+      "id": "Umsatzsteuer/Zusammenfassende Meldung",
+      "label": "Zusammenfassende Meldung",
+      "fach": "USt",
+      "pfad": "Umsatzsteuer/Zusammenfassende Meldung.md"
     },
     {
       "id": "Umsatzsteuer/Überblick & Wesen UStG",
@@ -2368,6 +2386,10 @@
     },
     {
       "source": "Rechtsquellen/UStG/§ 1 UStG",
+      "target": "Umsatzsteuer/Binnenmarkt"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 1 UStG",
       "target": "Rechtsquellen/UStG/§ 2 UStG"
     },
     {
@@ -2393,6 +2415,26 @@
     {
       "source": "Rechtsquellen/UStG/§ 2 UStG",
       "target": "Einkommensteuer/Liebhaberei"
+    },
+    {
+      "source": "Umsatzsteuer/Binnenmarkt",
+      "target": "Umsatzsteuer/Innergemeinschaftliche Lieferung"
+    },
+    {
+      "source": "Umsatzsteuer/Binnenmarkt",
+      "target": "Umsatzsteuer/Innergemeinschaftlicher Erwerb"
+    },
+    {
+      "source": "Umsatzsteuer/Binnenmarkt",
+      "target": "Umsatzsteuer/Zusammenfassende Meldung"
+    },
+    {
+      "source": "Umsatzsteuer/Binnenmarkt",
+      "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
+    },
+    {
+      "source": "Umsatzsteuer/Binnenmarkt",
+      "target": "Umsatzsteuer/Steuerbefreiungen USt"
     },
     {
       "source": "Umsatzsteuer/Eigenverbrauch USt",
@@ -2435,6 +2477,30 @@
       "target": "Umsatzsteuer/Vorsteuerabzug"
     },
     {
+      "source": "Umsatzsteuer/Innergemeinschaftliche Lieferung",
+      "target": "Umsatzsteuer/Innergemeinschaftlicher Erwerb"
+    },
+    {
+      "source": "Umsatzsteuer/Innergemeinschaftliche Lieferung",
+      "target": "Umsatzsteuer/Zusammenfassende Meldung"
+    },
+    {
+      "source": "Umsatzsteuer/Innergemeinschaftlicher Erwerb",
+      "target": "Umsatzsteuer/Binnenmarkt"
+    },
+    {
+      "source": "Umsatzsteuer/Innergemeinschaftlicher Erwerb",
+      "target": "Umsatzsteuer/Innergemeinschaftliche Lieferung"
+    },
+    {
+      "source": "Umsatzsteuer/Innergemeinschaftlicher Erwerb",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
+      "source": "Umsatzsteuer/Innergemeinschaftlicher Erwerb",
+      "target": "Umsatzsteuer/Kleinunternehmer USt"
+    },
+    {
       "source": "Umsatzsteuer/Kleinunternehmer USt",
       "target": "Umsatzsteuer/Steuerbefreiungen USt"
     },
@@ -2472,6 +2538,10 @@
     },
     {
       "source": "Umsatzsteuer/Reverse Charge System USt",
+      "target": "Umsatzsteuer/Zusammenfassende Meldung"
+    },
+    {
+      "source": "Umsatzsteuer/Reverse Charge System USt",
       "target": "Umsatzsteuer/Vorsteuerabzug"
     },
     {
@@ -2484,15 +2554,19 @@
     },
     {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
+      "target": "Umsatzsteuer/Reverse Charge System USt"
+    },
+    {
+      "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
+      "target": "Umsatzsteuer/Zusammenfassende Meldung"
+    },
+    {
+      "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
       "target": "Umsatzsteuer/Unternehmer USt"
     },
     {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
       "target": "Umsatzsteuer/Leistungsbegriff USt"
-    },
-    {
-      "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
-      "target": "Umsatzsteuer/Reverse Charge System USt"
     },
     {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
@@ -2525,6 +2599,10 @@
     {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
       "target": "Umsatzsteuer/Überblick & Wesen UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbefreiungen USt",
+      "target": "Umsatzsteuer/Innergemeinschaftliche Lieferung"
     },
     {
       "source": "Umsatzsteuer/Steuerbefreiungen USt",
@@ -2605,6 +2683,26 @@
     {
       "source": "Umsatzsteuer/Vorsteuerberichtigung USt",
       "target": "Umsatzsteuer/Steuerbefreiungen USt"
+    },
+    {
+      "source": "Umsatzsteuer/Zusammenfassende Meldung",
+      "target": "Umsatzsteuer/Innergemeinschaftliche Lieferung"
+    },
+    {
+      "source": "Umsatzsteuer/Zusammenfassende Meldung",
+      "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
+    },
+    {
+      "source": "Umsatzsteuer/Zusammenfassende Meldung",
+      "target": "Umsatzsteuer/Reverse Charge System USt"
+    },
+    {
+      "source": "Umsatzsteuer/Zusammenfassende Meldung",
+      "target": "Umsatzsteuer/Binnenmarkt"
+    },
+    {
+      "source": "Umsatzsteuer/Zusammenfassende Meldung",
+      "target": "Umsatzsteuer/Innergemeinschaftlicher Erwerb"
     },
     {
       "source": "Umsatzsteuer/Überblick & Wesen UStG",
