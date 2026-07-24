@@ -1,8 +1,8 @@
 {
   "fach": "ESt",
   "quelle": "Zusammenführung quiz_ESt_v2 (70 Fragen) und quiz_ESt_learningapps (28 Fragen)",
-  "hinweis": "Fragen mit typ='multiple' erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025. GFB-Figuren (est-26) auf 2025er-Werte korrigiert (Schwelle € 33.000 / Grundfreibetrag € 4.950); Dublette est-70 entfernt. Ergänzt um est-71 bis est-76 aus den Übungsfragen-PDFs (Juli 2026): PKW-Luxustangente, Instandsetzung/Herstellungsaufwand V+V, Rententatbestände § 29 Z 1, Halbsatzbegünstigung bei Erwerbsunfähigkeit, Hauptwohnsitzbefreiung-Fristen. Ergänzt um est-77 bis est-79 mit den neuen Fragetypen (Lückentext, Permutation, Zuordnung) aus den Beispielen in KONZEPT.md; die Zuordnungsfrage est-79 behandelt dieselben Maßnahmen wie die Multiple-Choice-Frage est-72 in einem anderen Format. Umbau auf neue Fragetypen (Runde 2): est-72 gestrichen (Duplikat von est-79). est-30/est-la-14/est-la-15 (Bewirtung, redundant) zusammengelegt zu est-80 (zuordnung, 3 Kategorien). est-27/est-la-11 (Betriebsausgaben, redundant) zusammengelegt zu est-81 (zuordnung, 2 Kategorien). est-25 (invGFB) und est-la-20 (V+V Werbungskosten) von multiple auf zuordnung umgebaut, gleicher Inhalt. Qualitätskontrolle Batch 1 (est-01–est-20): Längen-Bias und Klammer-Giveaways in est-01, est-04, est-06, est-09, est-14, est-15, est-18 korrigiert (Distraktoren verlängert/präzisiert, Klammer-Tells entfernt), Inhalte unverändert. Qualitätskontrolle Batch 2 (est-21–est-40): Längen-Bias in est-21, est-22, est-23, est-24, est-29, est-34, est-36, est-38 korrigiert (Distraktoren verlängert/präzisiert), Inhalte unverändert. Qualitätskontrolle Batch 3 (est-41–est-60): Längen-Bias in est-42, est-44, est-45, est-46, est-48, est-49, est-52, est-56, est-57, est-59 korrigiert, Inhalte unverändert. est-42 von single auf multiple umgebaut (6 statt 4 Optionen), um den Längen-Bias zu entschärfen, der sich durch reines Umformulieren nicht vollständig beheben ließ. Nachkontrolle Batch 1+2 mit erweitertem Werkzeug (auch einzelne zu kurze Falsch-Optionen in Multiple-Choice-Fragen verlängert, est-10 um eine sechste Option erweitert): est-03, est-07, est-08, est-10, est-11, est-13, est-19, est-20, est-35 korrigiert. Feinjustierung: est-07, est-08, est-11, est-20, est-35 nach Übersteuerung moderat nachgekürzt (Balance statt Umkehr-Bias). Ergänzt um est-82 bis est-92: verbleibende Rechenbeispiele aus den PDFs auf 2025er-Recht geprüft und korrigiert. Wichtige Korrekturen ggü. Original: Herr Winter (Rechnungslegungspflicht erst Jahr 05, nicht Jahr 04 – Pufferjahr-Regel), Frau Stern (bei Pauschalierung nach § 17 EStG steht NUR der Grundfreibetrag zu, kein invGFB), Herr Holz (Bauland/Lizenzrechte/PKW alle drei vom invGFB ausgeschlossen, nur Grundfreibetrag € 4.950), Herr Neu (Luxustangente korrekt ≈ 77,8 %, nicht 85 %). Basispauschalierung 2025 (13,5 %/6 %, Grenze € 320.000) und Luxustangente-Grenze € 40.000 sowie degressive AfA (max. 30 %) sind unverändert und wurden bestätigt. IDs durchgehend neu vergeben (est-01 bis est-113) und Reihenfolge an die Stoffgliederung angeglichen; die frühere est-la-Unterscheidung (Herkunft LearningApps) wurde dabei aufgegeben.",
-  "anzahl": 113,
+  "hinweis": "Fragen mit typ='multiple' erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Veranlagung 2025. GFB-Figuren (est-26) auf 2025er-Werte korrigiert (Schwelle € 33.000 / Grundfreibetrag € 4.950); Dublette est-70 entfernt. Ergänzt um est-71 bis est-76 aus den Übungsfragen-PDFs (Juli 2026): PKW-Luxustangente, Instandsetzung/Herstellungsaufwand V+V, Rententatbestände § 29 Z 1, Halbsatzbegünstigung bei Erwerbsunfähigkeit, Hauptwohnsitzbefreiung-Fristen. Ergänzt um est-77 bis est-79 mit den neuen Fragetypen (Lückentext, Permutation, Zuordnung) aus den Beispielen in KONZEPT.md; die Zuordnungsfrage est-79 behandelt dieselben Maßnahmen wie die Multiple-Choice-Frage est-72 in einem anderen Format. Umbau auf neue Fragetypen (Runde 2): est-72 gestrichen (Duplikat von est-79). est-30/est-la-14/est-la-15 (Bewirtung, redundant) zusammengelegt zu est-80 (zuordnung, 3 Kategorien). est-27/est-la-11 (Betriebsausgaben, redundant) zusammengelegt zu est-81 (zuordnung, 2 Kategorien). est-25 (invGFB) und est-la-20 (V+V Werbungskosten) von multiple auf zuordnung umgebaut, gleicher Inhalt. Qualitätskontrolle Batch 1 (est-01–est-20): Längen-Bias und Klammer-Giveaways in est-01, est-04, est-06, est-09, est-14, est-15, est-18 korrigiert (Distraktoren verlängert/präzisiert, Klammer-Tells entfernt), Inhalte unverändert. Qualitätskontrolle Batch 2 (est-21–est-40): Längen-Bias in est-21, est-22, est-23, est-24, est-29, est-34, est-36, est-38 korrigiert (Distraktoren verlängert/präzisiert), Inhalte unverändert. Qualitätskontrolle Batch 3 (est-41–est-60): Längen-Bias in est-42, est-44, est-45, est-46, est-48, est-49, est-52, est-56, est-57, est-59 korrigiert, Inhalte unverändert. est-42 von single auf multiple umgebaut (6 statt 4 Optionen), um den Längen-Bias zu entschärfen, der sich durch reines Umformulieren nicht vollständig beheben ließ. Nachkontrolle Batch 1+2 mit erweitertem Werkzeug (auch einzelne zu kurze Falsch-Optionen in Multiple-Choice-Fragen verlängert, est-10 um eine sechste Option erweitert): est-03, est-07, est-08, est-10, est-11, est-13, est-19, est-20, est-35 korrigiert. Feinjustierung: est-07, est-08, est-11, est-20, est-35 nach Übersteuerung moderat nachgekürzt (Balance statt Umkehr-Bias). Ergänzt um est-82 bis est-92: verbleibende Rechenbeispiele aus den PDFs auf 2025er-Recht geprüft und korrigiert. Wichtige Korrekturen ggü. Original: Herr Winter (Rechnungslegungspflicht erst Jahr 05, nicht Jahr 04 – Pufferjahr-Regel), Frau Stern (bei Pauschalierung nach § 17 EStG steht NUR der Grundfreibetrag zu, kein invGFB), Herr Holz (Bauland/Lizenzrechte/PKW alle drei vom invGFB ausgeschlossen, nur Grundfreibetrag € 4.950), Herr Neu (Luxustangente korrekt ≈ 77,8 %, nicht 85 %). Basispauschalierung 2025 (13,5 %/6 %, Grenze € 320.000) und Luxustangente-Grenze € 40.000 sowie degressive AfA (max. 30 %) sind unverändert und wurden bestätigt. IDs durchgehend neu vergeben (est-01 bis est-113) und Reihenfolge an die Stoffgliederung angeglichen; die frühere est-la-Unterscheidung (Herkunft LearningApps) wurde dabei aufgegeben. Ergänzt um 6 Definitions-Lückentexte (Einkommensbegriff § 2, Betriebsausgaben § 4 Abs 4, Werbungskosten § 16, Teilwert § 6 Z 1, Liebhaberei, Verlustausgleich-Begriffe) an passender Stelle der Stoffgliederung eingefügt; IDs auf est-01 bis est-119 neu vergeben.",
+  "anzahl": 119,
   "fragen": [
     {
       "id": "est-01",
@@ -48,9 +48,9 @@
       "frage": "Was unterscheidet 'nicht steuerbar' von 'steuerfrei'?",
       "optionen": [
         "Nicht steuerbare Einkünfte fallen unter eine Einkunftsart, sind aber vom Gesetz ausdrücklich befreit; steuerfreie Einkünfte fallen unter keine Einkunftsart.",
-        "Nicht steuerbare Einkünfte fallen unter keine der sieben Einkunftsarten; steuerfreie Einkünfte würden grundsätzlich einer Einkunftsart zuzuordnen sein, sind aber ausdrücklich befreit.",
-        "Es gibt keinen Unterschied – beide Begriffe bedeuten dasselbe.",
-        "Nicht steuerbare Einkünfte entstehen nur bei natürlichen Personen; steuerfreie Einkünfte auch bei Körperschaften."
+        "Nicht steuerbare Einkünfte fallen unter keine der sieben Einkunftsarten; steuerfreie Einkünfte wären grundsätzlich einer Einkunftsart zuzuordnen, sind aber ausdrücklich befreit.",
+        "Es gibt keinen inhaltlichen Unterschied – beide Begriffe werden im EStG synonym und beliebig austauschbar verwendet.",
+        "Nicht steuerbare Einkünfte können ausschließlich bei natürlichen Personen entstehen, während steuerfreie Einkünfte nur bei Körperschaften vorkommen können."
       ],
       "korrekt": [
         1
@@ -62,9 +62,9 @@
       "typ": "multiple",
       "frage": "Welche Voraussetzungen begründen unbeschränkte Steuerpflicht in Österreich?",
       "optionen": [
-        "Wohnsitz im Inland",
+        "Wohnsitz im Inland (§ 1 Abs 2 EStG iVm § 26 BAO)",
         "Österreichische Staatsbürgerschaft",
-        "Gewöhnlicher Aufenthalt im Inland",
+        "Gewöhnlicher Aufenthalt im Inland (§ 1 Abs 2 EStG iVm § 26 BAO)",
         "Einkünfte aus einer österreichischen Einkunftsquelle",
         "Eintragung im österreichischen Firmenbuch"
       ],
@@ -115,9 +115,9 @@
       "frage": "Welche Aussagen zur beschränkten Steuerpflicht und zum Steuerabzug nach § 99 EStG sind richtig?",
       "optionen": [
         "§ 99 EStG sieht für bestimmte beschränkt steuerpflichtige Einkünfte (z.B. Künstler, Sportler) einen Steuerabzug vor.",
-        "Der Steuerabzug nach § 99 beträgt stets 20 % der Bruttovergütung.",
+        "Der Steuerabzug nach § 99 beträgt stets einheitlich 20 % der Bruttovergütung, unabhängig von der Art der Einkünfte.",
         "Abzugsverpflichteter ist in bestimmten Fällen der inländische Schuldner der Vergütung.",
-        "Beschränkte Steuerpflicht umfasst ausschließlich Einkünfte aus nsA.",
+        "Die beschränkte Steuerpflicht umfasst ausschließlich Einkünfte aus nichtselbständiger Arbeit, alle anderen Einkunftsarten sind davon ausgenommen.",
         "DBA-Freistellungen können beim Steuerabzug nach § 102 Abs 2 EStG zu berücksichtigen sein."
       ],
       "korrekt": [
@@ -188,8 +188,8 @@
         "Einnahmen minus BA/WK = Einkünfte je Einkunftsart.",
         "Summe aller Einkünfte (nach Verlustausgleich) minus Veranlagungsfreibetrag (§ 41 Abs 3) = Gesamtbetrag der Einkünfte.",
         "Gesamtbetrag der Einkünfte minus Sonderausgaben, aB und § 105-Freibetrag = Einkommen (= BMG für ESt).",
-        "Einkommen und Gesamtbetrag der Einkünfte sind identisch.",
-        "Einnahmen = Einkünfte (werden synonym verwendet)."
+        "Einkommen und Gesamtbetrag der Einkünfte sind identische Begriffe und werden im Gesetz synonym verwendet.",
+        "Einnahmen und Einkünfte sind gleichbedeutend und werden im EStG stets synonym verwendet."
       ],
       "korrekt": [
         0,
@@ -201,11 +201,53 @@
     },
     {
       "id": "est-12",
+      "typ": "luecke",
+      "thema": "Schema der Einkommensermittlung – Begriffe",
+      "frage": "Ergänze die gesetzliche Definition des Einkommensbegriffs (§ 2 Abs 2 EStG).",
+      "text": "Einkommen ist der {0} der Einkünfte aus den sieben Einkunftsarten nach {1} mit Verlusten, die sich aus den einzelnen Einkunftsarten ergeben, und nach Abzug der {2}, der {3} sowie bestimmter Freibeträge.",
+      "luecken": [
+        {
+          "optionen": [
+            "Gesamtbetrag",
+            "Durchschnittsbetrag",
+            "Höchstbetrag"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Vergleich",
+            "Ausgleich",
+            "Abzug"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Sonderausgaben",
+            "Betriebsausgaben",
+            "Werbungskosten"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "außergewöhnlichen Belastungen",
+            "Werbungskosten",
+            "Betriebsausgaben"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "§ 2 Abs 2 EStG definiert das Einkommen als Gesamtbetrag der Einkünfte aus den sieben Einkunftsarten nach Verlustausgleich, abzüglich Sonderausgaben (§ 18), außergewöhnlicher Belastungen (§§ 34 f) und bestimmter Freibeträge (§§ 104 f). Diese Größe bildet die Bemessungsgrundlage für den Einkommensteuertarif."
+    },
+    {
+      "id": "est-13",
       "typ": "single",
       "frage": "Steuerpflichtiger zahlt € 750 Kirchenbeitrag. Wie hoch ist der als Sonderausgabe abzugsfähige Betrag (§ 18 Abs 1 Z 5 EStG)?",
       "optionen": [
         "€ 750 (voller Betrag; keine Obergrenze für Kirchenbeiträge).",
-        "€ 400 (gesetzlicher Höchstbetrag).",
+        "€ 400 (gesetzlicher Höchstbetrag, § 18 Abs 1 Z 5 EStG).",
         "€ 300 (40 % von € 750 wie bei anderen Sonderausgaben).",
         "€ 0 (Kirchenbeiträge sind keine Sonderausgaben)."
       ],
@@ -216,7 +258,7 @@
       "thema": "Sonderausgaben – Kirchenbeitrag"
     },
     {
-      "id": "est-13",
+      "id": "est-14",
       "typ": "multiple",
       "frage": "Welche der folgenden Einkunftsarten sind betriebliche Einkunftsarten (Gewinneinkünfte)?",
       "optionen": [
@@ -235,7 +277,7 @@
       "thema": "Einkunftsarten – Überblick"
     },
     {
-      "id": "est-14",
+      "id": "est-15",
       "typ": "permutation",
       "thema": "Einkunftsarten – Zuordnung",
       "frage": "Ordne die Einkünfte des Elektrikers Manni der richtigen Einkunftsart zu.",
@@ -260,15 +302,15 @@
       "erklaerung": "Zinsen aus Bauspareinlagen und Dividenden aus Aktien zählen zu den Einkünften aus Kapitalvermögen (§ 27). Der Verkauf einer Ferienwohnung kurz nach der Anschaffung ist ein Spekulationsgeschäft bei den sonstigen Einkünften (§ 29 Z 2 iVm § 31). Die Vermietung des geerbten Eigenheims führt zu Einkünften aus Vermietung und Verpachtung (§ 28)."
     },
     {
-      "id": "est-15",
+      "id": "est-16",
       "typ": "single",
       "thema": "Einkunftsarten – Begriffe",
       "frage": "Wie bezeichnet man das Ergebnis bei außerbetrieblichen Einkunftsarten?",
       "optionen": [
-        "Gewinn oder Verlust",
+        "Gewinn oder Verlust, wie bei den betrieblichen Einkunftsarten üblich",
         "Überschuss oder Verlust (der Einnahmen über die Werbungskosten)",
-        "Betriebserfolg",
-        "Nettoeinkommen"
+        "Betriebserfolg, analog zur Terminologie im unternehmensrechtlichen Jahresabschluss",
+        "Nettoeinkommen nach Abzug sämtlicher Steuern und Abgaben"
       ],
       "korrekt": [
         1
@@ -276,7 +318,7 @@
       "erklaerung": "Bei den außerbetrieblichen Einkunftsarten (nichtselbständige Arbeit, Kapitalvermögen, Vermietung und Verpachtung, sonstige Einkünfte) ermittelt man einen Überschuss der Einnahmen über die Werbungskosten oder einen Verlust. Bei den betrieblichen Einkunftsarten (Land- und Forstwirtschaft, selbständige Arbeit, Gewerbebetrieb) ermittelt man einen Gewinn oder Verlust."
     },
     {
-      "id": "est-16",
+      "id": "est-17",
       "typ": "multiple",
       "thema": "Steuerbefreiungen §3 EStG",
       "frage": "Welche der folgenden Zahlungen sind gem. § 3 EStG steuerfrei?",
@@ -297,15 +339,15 @@
       "erklaerung": "Steuerfrei gem. § 3 EStG sind ua.: Transferleistungen der öffentlichen Hand wie Arbeitslosengeld, ortsübliche Trinkgelder (bei Angemessenheit und Branchenüblichkeit), der Klimabonus (§ 3 Abs 1 Z 37) und Mahlzeitengutscheine bis € 8,- (bei Konsumation am Arbeitsplatz/in einer Gaststätte). Dividenden unterliegen grundsätzlich der KESt (27,5%) und sind nicht gem. § 3 befreit. Das Urlaubsgeld ist als Teil des Jahressechstels (§ 67 EStG) begünstigt besteuert, nicht gänzlich steuerfrei."
     },
     {
-      "id": "est-17",
+      "id": "est-18",
       "typ": "single",
       "thema": "Steuerbefreiungen – Freibetrag vs. Freigrenze",
       "frage": "Was ist der Unterschied zwischen einem Freibetrag und einer Freigrenze?",
       "optionen": [
-        "Ein Freibetrag gilt nur für Arbeitnehmer, eine Freigrenze gilt für alle Steuerpflichtigen.",
-        "Ein Freibetrag wird stets von der Bemessungsgrundlage abgezogen; eine Freigrenze mindert die Bemessungsgrundlage nur, wenn sie von den betreffenden Einkünften nicht überschritten wird.",
-        "Freibeträge sind betragsmäßig begrenzt; Freigrenze bedeutet unbegrenzte Befreiung.",
-        "Es gibt keinen Unterschied in der steuerlichen Wirkung."
+        "Ein Freibetrag steht ausschließlich Arbeitnehmern zu, eine Freigrenze hingegen sämtlichen Steuerpflichtigen unabhängig von der Einkunftsart.",
+        "Ein Freibetrag wird stets von der Bemessungsgrundlage abgezogen; eine Freigrenze wirkt nur, wenn sie von den Einkünften nicht überschritten wird.",
+        "Freibeträge sind stets betragsmäßig begrenzt, während eine Freigrenze eine der Höhe nach unbegrenzte vollständige Befreiung bedeutet.",
+        "Es besteht zwischen beiden Begriffen kein Unterschied in der steuerlichen Wirkung, lediglich die Bezeichnung variiert."
       ],
       "korrekt": [
         1
@@ -313,7 +355,7 @@
       "erklaerung": "Ein Freibetrag wird auf jeden Fall von der Bemessungsgrundlage abgezogen (zB bei Veräußerungsgewinnen). Eine Freigrenze hingegen mindert die Steuerbemessungsgrundlage nur, solange die betreffenden Einkünfte die Freigrenze nicht übersteigen – wird sie überschritten, ist der gesamte Betrag steuerpflichtig (zB Spekulationseinkünfte: Freigrenze € 440,-)."
     },
     {
-      "id": "est-18",
+      "id": "est-19",
       "typ": "single",
       "thema": "Steuerbefreiungen – persönliche Befreiungen",
       "frage": "Gibt es im EStG persönliche Steuerbefreiungen (Befreiungen für bestimmte Personengruppen)?",
@@ -329,7 +371,7 @@
       "erklaerung": "Im EStG gibt es ausschließlich sachliche Befreiungen (bestimmte Einnahmen oder Einkünfte sind befreit), keine persönlichen Befreiungen (die einer bestimmten Personengruppe generell Steuerfreiheit gewähren). Sachliche Befreiungen können als Freibetrag, Freigrenze oder betraglich unbegrenzte Befreiung ausgestaltet sein."
     },
     {
-      "id": "est-19",
+      "id": "est-20",
       "typ": "single",
       "frage": "A hat zwei Vermietungsobjekte: Objekt 1 mit +€ 8.000, Objekt 2 mit −€ 3.000 Einkünften. Er hat außerdem Gewerbeeinkünfte von +€ 20.000. In welcher Reihenfolge erfolgt der Verlustausgleich?",
       "optionen": [
@@ -345,7 +387,57 @@
       "thema": "Verlustausgleich"
     },
     {
-      "id": "est-20",
+      "id": "est-21",
+      "typ": "luecke",
+      "thema": "Verlustausgleich",
+      "frage": "Ergänze die Begriffe zum Verlustausgleich.",
+      "text": "Der {0} Verlustausgleich bezeichnet die Verrechnung von positiven und negativen Ergebnissen innerhalb {1}. Der {2} Verlustausgleich erfolgt zwischen {3}. Der {4} Verlustausgleich erfolgt bereits innerhalb ein und desselben Betriebs, noch bevor überhaupt ein Einkünfte-Ergebnis der Einkunftsart feststeht.",
+      "luecken": [
+        {
+          "optionen": [
+            "horizontale",
+            "vertikale",
+            "innerbetriebliche"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "derselben Einkunftsart",
+            "verschiedener Einkunftsarten",
+            "desselben Betriebs"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "vertikale",
+            "horizontale",
+            "innerbetriebliche"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "verschiedenen Einkunftsarten",
+            "gleichen Einkunftsarten",
+            "Wirtschaftsgütern desselben Betriebs"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "innerbetriebliche",
+            "horizontale",
+            "vertikale"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Innerbetrieblicher Verlustausgleich: Verrechnung innerhalb ein und desselben Betriebs (zB zwischen Teilbereichen). Horizontaler Verlustausgleich: Verrechnung positiver und negativer Ergebnisse innerhalb derselben Einkunftsart. Vertikaler Verlustausgleich: Verrechnung zwischen unterschiedlichen Einkunftsarten im selben Jahr."
+    },
+    {
+      "id": "est-22",
       "typ": "multiple",
       "frage": "Welche Aussagen zu Wartetastenverlusten sind richtig?",
       "optionen": [
@@ -363,7 +455,41 @@
       "thema": "Verlustausgleich – Wartetastenverluste"
     },
     {
-      "id": "est-21",
+      "id": "est-23",
+      "typ": "luecke",
+      "thema": "Verlustausgleich – Wartetastenverluste",
+      "frage": "Ergänze die Definition der Liebhaberei.",
+      "text": "Von Liebhaberei spricht man bei einer Betätigung ohne {0}, bei der innerhalb eines absehbaren Zeitraums kein {1} zu erwarten ist. Verluste aus einer solchen Tätigkeit sind steuerlich {2} und daher weder ausgleichs- noch vortragsfähig.",
+      "luecken": [
+        {
+          "optionen": [
+            "Gewinnerzielungsabsicht",
+            "Umsatzabsicht",
+            "Fremdüblichkeit"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Gesamtgewinn bzw. Gesamtüberschuss",
+            "Einzeljahresgewinn",
+            "Umsatzsteuerüberschuss"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "unbeachtlich",
+            "voll abzugsfähig",
+            "vortragsfähig"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Liebhaberei liegt vor, wenn eine Betätigung objektiv nicht geeignet ist, innerhalb eines absehbaren Zeitraums einen Gesamtgewinn bzw. Gesamtüberschuss zu erwirtschaften (keine Einkunftsquelle iSd EStG). Die daraus resultierenden Verluste sind steuerlich unbeachtlich – sie dürfen weder mit anderen Einkünften ausgeglichen noch vorgetragen werden."
+    },
+    {
+      "id": "est-24",
       "typ": "multiple",
       "frage": "Welche Voraussetzungen gelten für den Verlustvortrag nach § 18 Abs 6 EStG?",
       "optionen": [
@@ -382,7 +508,7 @@
       "thema": "Verlustvortrag"
     },
     {
-      "id": "est-22",
+      "id": "est-25",
       "typ": "single",
       "frage": "Welcher Steuerpflichtige darf ein vom Kalenderjahr abweichendes Wirtschaftsjahr wählen?",
       "optionen": [
@@ -398,7 +524,7 @@
       "thema": "Zeitliche Zurechnung – Wirtschaftsjahr"
     },
     {
-      "id": "est-23",
+      "id": "est-26",
       "typ": "multiple",
       "frage": "Welche Aussagen zum Zufluss-Abfluss-Prinzip (§ 19 EStG) sind richtig?",
       "optionen": [
@@ -418,7 +544,7 @@
       "thema": "Zeitliche Zurechnung – Zufluss-Abfluss"
     },
     {
-      "id": "est-24",
+      "id": "est-27",
       "typ": "multiple",
       "frage": "Welche Gewinnermittlungsarten kennt das EStG für betriebliche Einkünfte?",
       "optionen": [
@@ -438,15 +564,15 @@
       "thema": "Gewinnermittlungsarten – Überblick"
     },
     {
-      "id": "est-25",
+      "id": "est-28",
       "typ": "single",
       "thema": "Gewinnermittlungsarten",
       "frage": "Wer ist zwingend zur Gewinnermittlung gem. § 5 EStG verpflichtet?",
       "optionen": [
-        "Alle Steuerpflichtigen mit Einkünften aus Gewerbebetrieb",
+        "Alle Steuerpflichtigen mit Einkünften aus Gewerbebetrieb, unabhängig von Rechtsform und Umsatzhöhe.",
         "Gewerbetreibende, die der Rechnungslegungspflicht gem. § 189 UGB unterliegen",
-        "Land- und Forstwirte mit Umsätzen über € 700.000,-",
-        "Alle freiberuflich Tätigen mit Umsätzen über € 700.000,-"
+        "Land- und Forstwirte mit Umsätzen über € 700.000,- in zwei aufeinanderfolgenden Wirtschaftsjahren.",
+        "Alle freiberuflich Tätigen mit Umsätzen über € 700.000,- in einem einzelnen Wirtschaftsjahr."
       ],
       "korrekt": [
         1
@@ -454,13 +580,13 @@
       "erklaerung": "Die Gewinnermittlung nach § 5 EStG ist zwingend für Steuerpflichtige mit Einkünften aus Gewerbebetrieb, die der Rechnungslegungspflicht nach § 189 UGB unterliegen (Umsatzgrenze > € 700.000,- in zwei aufeinanderfolgenden Jahren). Land- und Forstwirte über der Umsatzgrenze bilanzieren nach § 4 Abs 1 EStG. Freiberufler können nie zur Bilanzierung nach § 5 verpflichtet sein."
     },
     {
-      "id": "est-26",
+      "id": "est-29",
       "typ": "multiple",
       "thema": "Gewinnermittlungsarten",
       "frage": "Welche Aussagen zu den Unterschieden zwischen § 4 Abs 1 und § 5 EStG (Gewinnermittlung) sind richtig?",
       "optionen": [
         "Bei § 5 EStG ist gewillkürtes Betriebsvermögen möglich, bei § 4 Abs 1 EStG nicht.",
-        "Bei § 5 EStG können Rückstellungen und Rechnungsabgrenzungen wahlweise angesetzt werden; bei § 4 Abs 1 EStG sind sie zwingend.",
+        "Rückstellungen sind bei § 5 EStG wahlweise, bei § 4 Abs 1 EStG zwingend anzusetzen.",
         "Bei § 5 EStG gilt die Maßgeblichkeit der Unternehmensbilanz für die Steuerbilanz.",
         "Bei § 4 Abs 1 EStG ist ein abweichendes Wirtschaftsjahr vom Kalenderjahr möglich.",
         "Bei § 5 EStG können Rückstellungen zwingend angesetzt werden."
@@ -473,7 +599,7 @@
       "erklaerung": "Bei § 5 EStG ist gewillkürtes Betriebsvermögen möglich (bei § 4 Abs 1 EStG nur notwendiges BV); die Maßgeblichkeit der UGB-Bilanz für die Steuerbilanz gilt nur bei § 5 EStG; Rückstellungen und Rechnungsabgrenzungen sind bei § 5 EStG zwingend (bei § 4 Abs 1 EStG nur wahlweise). Ein abweichendes Wirtschaftsjahr ist nur bei § 5 EStG möglich, nicht bei § 4 Abs 1."
     },
     {
-      "id": "est-27",
+      "id": "est-30",
       "typ": "multiple",
       "frage": "Wer ist zur Führung von Büchern gem. § 5 EStG (iVm § 189 UGB) zwingend verpflichtet?",
       "optionen": [
@@ -491,17 +617,17 @@
       "thema": "Buchführungspflicht"
     },
     {
-      "id": "est-28",
+      "id": "est-31",
       "typ": "multiple",
       "thema": "Buchführungspflicht – Pufferjahr-Regel",
       "frage": "Herr Winter betreibt ein Speditionsunternehmen (Gewerbebetrieb) und führt bislang nicht freiwillig Bücher (Gewinnermittlung nach § 4 Abs 3 EStG). Die Umsätze betragen: Jahr 01 € 650.000, Jahr 02 € 710.000, Jahr 03 € 750.000, Jahr 04 € 720.000. Welche Aussagen treffen zu?",
       "optionen": [
-        "Herr Winter ist bereits ab dem Jahr 04 rechnungslegungspflichtig.",
-        "Da der Schwellenwert von € 700.000 in den Jahren 02 und 03 nachhaltig (zwei aufeinanderfolgende Jahre) überschritten wurde, tritt die Rechnungslegungspflicht erst im zweitfolgenden Geschäftsjahr, also im Jahr 05, ein.",
+        "Herr Winter ist bereits unmittelbar im auf das zweite Überschreitungsjahr folgenden Jahr, somit ab dem Jahr 04, rechnungslegungspflichtig.",
+        "Da der Schwellenwert von € 700.000 in den Jahren 02 und 03 zwei Jahre in Folge überschritten wird, tritt die Rechnungslegungspflicht erst im Jahr 05 ein (Pufferjahr-Regel).",
         "In den Jahren 01 bis 04 ist der Gewinn weiterhin nach § 4 Abs 3 EStG zu ermitteln, da die Rechnungslegungspflicht erst im Jahr 05 beginnt.",
         "Im Jahr 05 ist der Gewinn nach § 5 EStG zu ermitteln.",
-        "Herr Winter kann die Pauschalierung nach § 17 EStG in Anspruch nehmen.",
-        "Im Jahr 05 ist der Gewinn weiterhin nach § 4 Abs 3 EStG zu ermitteln."
+        "Herr Winter kann für seine Umsätze die Pauschalierung nach § 17 EStG in Anspruch nehmen.",
+        "Im Jahr 05 ist der Gewinn weiterhin nach § 4 Abs 3 EStG (Einnahmen-Ausgaben-Rechnung) zu ermitteln."
       ],
       "korrekt": [
         1,
@@ -511,7 +637,7 @@
       "erklaerung": "Der Schwellenwert von € 700.000 wird in den Jahren 02 (€ 710.000) und 03 (€ 750.000) zwei Jahre in Folge überschritten (nachhaltiges Überschreiten). Die Rechnungslegungspflicht nach § 189 UGB tritt in diesem Fall erst im zweitfolgenden Geschäftsjahr nach dem zweiten Überschreitungsjahr ein – hier also im Jahr 05, nicht bereits im Jahr 04 (Pufferjahr-Regel; vgl. Beispiel einer Buchhändlerin mit Erlösen 2020/2021, deren Rechnungslegungspflicht erst 2023 eintritt). Bis einschließlich Jahr 04 bleibt es daher bei der Gewinnermittlung nach § 4 Abs 3 EStG. Ab Jahr 05 ist Herr Winter als rechnungslegungspflichtiger Gewerbetreibender nach § 5 EStG zu veranlagen. Die Basispauschalierung scheidet in allen Jahren aus, da die Umsätze die Grenze von € 320.000 (2025) deutlich übersteigen."
     },
     {
-      "id": "est-29",
+      "id": "est-32",
       "typ": "single",
       "frage": "Ein § 5-Ermittler zahlt eine Lieferantenverbindlichkeit per Banküberweisung. Welche Gewinnauswirkung hat das?",
       "optionen": [
@@ -527,14 +653,14 @@
       "thema": "Betriebsvermögensvergleich §5"
     },
     {
-      "id": "est-30",
+      "id": "est-33",
       "typ": "multiple",
       "frage": "Welche Aussagen zum Betriebsvermögen eines Einzelunternehmers sind richtig?",
       "optionen": [
         "Notwendiges Betriebsvermögen umfasst Wirtschaftsgüter, die nahezu ausschließlich betrieblich genutzt werden.",
         "Gewillkürtes Betriebsvermögen ist nur bei § 5-Ermittlern möglich.",
         "Ein PKW mit 55 % betrieblicher Nutzung zählt zum notwendigen Betriebsvermögen.",
-        "Privat genutzte Wirtschaftsgüter können unter keinen Umständen, auch nicht anteilig, jemals zum Betriebsvermögen eines Einzelunternehmers gehören.",
+        "Privat genutzte Wirtschaftsgüter können nie, auch nicht anteilig, zum Betriebsvermögen eines Einzelunternehmers zählen.",
         "Wirtschaftsgüter zählen zum Betriebsvermögen unabhängig vom zivilrechtlichen Eigentum (wirtschaftliches Eigentum entscheidet)."
       ],
       "korrekt": [
@@ -547,7 +673,7 @@
       "thema": "Betriebsvermögen"
     },
     {
-      "id": "est-31",
+      "id": "est-34",
       "typ": "single",
       "frage": "Ein Arzt (§ 4 Abs 1-Ermittler) nutzt seinen PKW zu 55 % betrieblich, 45 % privat. Wie wird der PKW steuerlich behandelt?",
       "optionen": [
@@ -563,7 +689,7 @@
       "thema": "Betriebsvermögen – gemischte Nutzung"
     },
     {
-      "id": "est-32",
+      "id": "est-35",
       "typ": "multiple",
       "thema": "Betriebseinnahmen/-ausgaben – Abgrenzung",
       "frage": "Welche der folgenden Zahlungseingänge stellen KEINE Betriebseinnahmen dar?",
@@ -581,7 +707,7 @@
       "erklaerung": "Privateinlagen sind keine Betriebseinnahmen, weil sie aus dem Privatbereich stammen und den Gewinn nicht erhöhen sollen (§ 4 Abs 1 EStG neutralisiert Einlagen). Kreditaufnahmen sind Vermögensumschichtungen (dem Geldzugang steht eine Verbindlichkeit gegenüber), kein Ertrag. Warenerlöse, Forderungseinzug und steuerpflichtige Subventionen sind Betriebseinnahmen."
     },
     {
-      "id": "est-33",
+      "id": "est-36",
       "typ": "zuordnung",
       "thema": "Betriebsausgaben – Abgrenzung",
       "frage": "Ordne die folgenden Aufwendungen eines Einzelunternehmers der richtigen Kategorie zu.",
@@ -610,14 +736,56 @@
       "erklaerung": "Betriebsausgaben sind alle betrieblich veranlassten Aufwendungen: Betriebsmiete, GSVG-Pflichtbeiträge und betrieblich veranlasste Reisekosten (im gesetzlichen Ausmaß). Keine Betriebsausgaben sind: der Kirchenbeitrag (Sonderausgabe, keine betriebliche Veranlassung), die Einkommensteuer des Unternehmers (Einkommensverwendung, kein Betriebsaufwand), private Lebenshaltungskosten (Aufteilungsverbot des § 20 EStG) sowie Strafen und Geldbußen (ausdrückliches Abzugsverbot gem. § 20 Abs 1 Z 5 EStG)."
     },
     {
-      "id": "est-34",
+      "id": "est-37",
+      "typ": "luecke",
+      "thema": "Betriebsausgaben – Abgrenzung",
+      "frage": "Ergänze die gesetzliche Definition der Betriebsausgaben (§ 4 Abs 4 EStG).",
+      "text": "Betriebsausgaben sind {0} oder {1}, die durch den {2} veranlasst sind (§ 4 Abs 4 EStG). Das Pendant bei den außerbetrieblichen Einkunftsarten sind die {3} (§ 16 EStG).",
+      "luecken": [
+        {
+          "optionen": [
+            "Aufwendungen",
+            "Einnahmen",
+            "Erträge"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Ausgaben",
+            "Gewinne",
+            "Rückstellungen"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Betrieb",
+            "Privathaushalt",
+            "Gesellschaftsvertrag"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Werbungskosten",
+            "Sonderausgaben",
+            "Betriebseinnahmen"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "§ 4 Abs 4 EStG definiert Betriebsausgaben als Aufwendungen oder Ausgaben, die durch den Betrieb veranlasst sind. Maßgeblich ist der betriebliche Veranlassungszusammenhang, nicht die Notwendigkeit oder Üblichkeit der Ausgabe. Das strukturelle Pendant bei den außerbetrieblichen (Überschuss-)Einkunftsarten sind die Werbungskosten nach § 16 EStG."
+    },
+    {
+      "id": "est-38",
       "typ": "single",
       "frage": "Was versteht man im Zusammenhang mit der betrieblichen Gewinnermittlung unter Innenumsätzen?",
       "optionen": [
-        "Umsätze innerhalb eines Konzernverbundes zwischen verschiedenen Körperschaften.",
-        "Leistungsbeziehungen innerhalb desselben Steuersubjekts (z.B. zwischen Teilbetrieben eines Einzelunternehmers), die steuerlich nicht gewinnwirksam sind.",
-        "Inländische Umsätze im Gegensatz zu Auslandsumsätzen.",
-        "USt-freie Innenumsätze bei Organschaften."
+        "Umsätze innerhalb eines Konzernverbundes zwischen rechtlich selbständigen Körperschaften desselben Konzerns.",
+        "Leistungsbeziehungen innerhalb desselben Steuersubjekts (zB zwischen Teilbetrieben), die steuerlich nicht gewinnwirksam sind.",
+        "Ausschließlich inländische Umsätze im Gegensatz zu grenzüberschreitenden Auslandsumsätzen desselben Unternehmens.",
+        "Umsatzsteuerfreie Innenumsätze, die ausschließlich im Rahmen einer umsatzsteuerlichen Organschaft entstehen."
       ],
       "korrekt": [
         1
@@ -626,7 +794,7 @@
       "thema": "Gewinnermittlung – Innenumsätze"
     },
     {
-      "id": "est-35",
+      "id": "est-39",
       "typ": "multiple",
       "frage": "Welche Aufwendungen sind gem. § 20 Abs 1 EStG nicht abzugsfähig?",
       "optionen": [
@@ -646,7 +814,7 @@
       "thema": "Nicht abzugsfähige Aufwendungen §20"
     },
     {
-      "id": "est-36",
+      "id": "est-40",
       "typ": "single",
       "frage": "Ein Steuerberater arbeitet ausschließlich von zuhause (Home-Office ist sein einziger Arbeitsplatz). Kann er das häusliche Arbeitszimmer als Betriebsausgabe absetzen?",
       "optionen": [
@@ -662,7 +830,7 @@
       "thema": "Nicht abzugsfähige Aufwendungen – Arbeitszimmer"
     },
     {
-      "id": "est-37",
+      "id": "est-41",
       "typ": "multiple",
       "frage": "Unter welchen Voraussetzungen sind Spenden nach § 4a EStG als Betriebsausgabe abzugsfähig?",
       "optionen": [
@@ -681,7 +849,7 @@
       "thema": "Betriebsausgaben – Spenden §4a"
     },
     {
-      "id": "est-38",
+      "id": "est-42",
       "typ": "single",
       "frage": "Ein Unternehmer zahlt einem ausländischen Amtsträger € 5.000, um einen Auftrag zu erhalten. Steuerliche Folge?",
       "optionen": [
@@ -697,7 +865,7 @@
       "thema": "Nicht abzugsfähige Aufwendungen – Bestechung"
     },
     {
-      "id": "est-39",
+      "id": "est-43",
       "typ": "multiple",
       "frage": "Welche Aussagen zur Deckelung von Managergehältern (§ 20 Abs 1 Z 7 EStG) sind richtig?",
       "optionen": [
@@ -717,7 +885,7 @@
       "thema": "Nicht abzugsfähige Aufwendungen – Managergehälter"
     },
     {
-      "id": "est-40",
+      "id": "est-44",
       "typ": "single",
       "frage": "Ein Arzt erhält € 20.000 steuerfreie Corona-Förderung (§ 3 EStG). Er hat damit zusammenhängende BA von € 10.000. Können diese abgezogen werden?",
       "optionen": [
@@ -733,7 +901,7 @@
       "thema": "Nicht abzugsfähige Aufwendungen – §20 Abs 2 Generalklausel"
     },
     {
-      "id": "est-41",
+      "id": "est-45",
       "typ": "zuordnung",
       "thema": "§ 20 Repräsentationsaufwendungen – Bewirtung",
       "frage": "Ordne die folgenden Bewirtungsfälle der richtigen Abzugsfähigkeits-Kategorie zu.",
@@ -763,7 +931,7 @@
       "erklaerung": "0 % (zur Gänze nicht abzugsfähig): private oder gesellschaftliche Anlässe ohne unmittelbaren betrieblichen Werbezweck – Privathaushalt, Theater-/Konzertbesuch, Casino-Bewirtung. 50 % (Repräsentationskomponente untergeordnet, aber vorhanden): Bilanzpressekonferenz und Produktpräsentation im Betriebsraum sind werbewirksam, enthalten aber noch ein gesellschaftliches Element. 100 % (kein Repräsentationsanteil): Schulungsverpflegung, die bereits im Leistungspreis enthalten ist, sowie Kostproben im Rahmen der unmittelbaren Kundenakquise gelten nicht als Repräsentationsaufwand und sind daher zur Gänze abzugsfähig."
     },
     {
-      "id": "est-42",
+      "id": "est-46",
       "typ": "multiple",
       "frage": "Welche Bewertungsmaßstäbe sind in § 6 EStG ausdrücklich vorgesehen?",
       "optionen": [
@@ -785,15 +953,15 @@
       "thema": "Bewertungsmaßstäbe"
     },
     {
-      "id": "est-43",
+      "id": "est-47",
       "typ": "single",
       "thema": "Bewertungsmaßstäbe",
       "frage": "Was versteht man unter dem 'Teilwert' eines Wirtschaftsgutes?",
       "optionen": [
-        "Der Preis, der im gewöhnlichen Geschäftsverkehr bei Einzelveräußerung erzielt werden kann.",
-        "Der Betrag, den ein Erwerber des gesamten Betriebs im Rahmen des Gesamtkaufpreises für das einzelne Wirtschaftsgut ansetzen würde, unter Annahme der Betriebsfortführung.",
-        "Die um die AfA verminderten Anschaffungs- oder Herstellungskosten.",
-        "Der Buchwert des Wirtschaftsgutes zum Bilanzstichtag."
+        "Der Preis, der im gewöhnlichen Geschäftsverkehr bei einer Einzelveräußerung des Wirtschaftsguts außerhalb des Betriebszusammenhangs erzielt werden könnte.",
+        "Der Betrag, den ein Erwerber im Rahmen des Gesamtkaufpreises für dieses einzelne Wirtschaftsgut ansetzen würde, bei Fortführung des Betriebs.",
+        "Die um die bisherige Absetzung für Abnutzung verminderten historischen Anschaffungs- oder Herstellungskosten des Wirtschaftsguts.",
+        "Der zum jeweiligen Bilanzstichtag ausgewiesene Buchwert des Wirtschaftsgutes laut Anlagenverzeichnis."
       ],
       "korrekt": [
         1
@@ -801,7 +969,7 @@
       "erklaerung": "Der Teilwert ist gem. § 6 Z 1 EStG der Betrag, den ein Erwerber des ganzen Betriebes im Rahmen des Gesamtkaufpreises für das einzelne Wirtschaftsgut ansetzen würde; dabei ist von der Betriebsfortführung auszugehen (Going-Concern-Prinzip). Er unterscheidet sich vom gemeinen Wert, der den Einzelveräußerungswert ohne Betriebszusammenhang darstellt."
     },
     {
-      "id": "est-44",
+      "id": "est-48",
       "typ": "multiple",
       "thema": "Bewertungsmaßstäbe",
       "frage": "Welche Bewertungsmaßstäbe kennt das EStG?",
@@ -823,13 +991,47 @@
       "erklaerung": "Das EStG kennt folgende Bewertungsmaßstäbe: Anschaffungskosten, Herstellungskosten, Teilwert, gemeiner Wert und Buchwert. Der Liquidationswert ist kein gesetzlich normierter Bewertungsmaßstab des EStG."
     },
     {
-      "id": "est-45",
+      "id": "est-49",
+      "typ": "luecke",
+      "thema": "Bewertungsmaßstäbe",
+      "frage": "Ergänze die gesetzliche Definition des Teilwerts (§ 6 Z 1 EStG).",
+      "text": "Der Teilwert ist der Betrag, den ein {0} des ganzen Betriebs im Rahmen des {1} für das einzelne Wirtschaftsgut ansetzen würde, unter der Annahme, dass der Erwerber den Betrieb {2}.",
+      "luecken": [
+        {
+          "optionen": [
+            "Erwerber",
+            "Verkäufer",
+            "Gläubiger"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Gesamtkaufpreises",
+            "Einzelverkaufspreises",
+            "Buchwertes"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "fortführt",
+            "liquidiert",
+            "stilllegt"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "Der Teilwert (§ 6 Z 1 EStG) ist ein fiktiver Wert: der Betrag, den ein Erwerber des gesamten Betriebs im Rahmen des Gesamtkaufpreises auf das einzelne Wirtschaftsgut entfallen ließe – unter der Prämisse der Fortführung des Betriebs (Going-Concern). Er dient va als Untergrenze bei Teilwertabschreibungen und als Bewertungsmaßstab bei Entnahmen."
+    },
+    {
+      "id": "est-50",
       "typ": "single",
       "thema": "Bewertungsmaßstäbe – Anschaffungskosten",
       "frage": "Welche der folgenden Positionen gehört zu den Anschaffungskosten eines Grundstücks?",
       "optionen": [
         "Zinsen für einen Kredit zur Finanzierung des Kaufpreises",
-        "Grunderwerbsteuer (GrESt)",
+        "Die Grunderwerbsteuer (GrESt) als Anschaffungsnebenkosten.",
         "Kosten eines späteren Umbaus (Herstellungsaufwand)",
         "Laufende Betriebskosten nach der Anschaffung"
       ],
@@ -839,14 +1041,14 @@
       "erklaerung": "Die Grunderwerbsteuer (GrESt) gehört als unmittelbare Anschaffungsnebenkosten zu den Anschaffungskosten. Finanzierungskosten (Kreditzinsen) dürfen grundsätzlich nicht aktiviert werden (Aktivierungsverbot für Finanzierungskosten). Herstellungsaufwand erhöht zwar den Buchwert, ist aber von den ursprünglichen AKo zu trennen. Laufende Betriebskosten sind Betriebsausgaben."
     },
     {
-      "id": "est-46",
+      "id": "est-51",
       "typ": "multiple",
       "frage": "Welche allgemeinen Bewertungsgrundsätze gelten für die Steuerbilanz?",
       "optionen": [
-        "Einzelbewertungsgrundsatz",
-        "Wertzusammenhang (Bilanzkontinuität)",
-        "Going-Concern-Prinzip (Unternehmensfortführung)",
-        "Realisationsprinzip",
+        "Einzelbewertungsgrundsatz (jedes Wirtschaftsgut ist gesondert zu bewerten)",
+        "Wertzusammenhang / Grundsatz der Bilanzkontinuität",
+        "Going-Concern-Prinzip (Bewertung unter der Annahme der Unternehmensfortführung)",
+        "Realisationsprinzip (nur verwirklichte Gewinne dürfen ausgewiesen werden)",
         "Prinzip der offenen Reserven (jährliche Aufdeckungspflicht stiller Reserven)"
       ],
       "korrekt": [
@@ -859,15 +1061,15 @@
       "thema": "Bewertungsgrundsätze"
     },
     {
-      "id": "est-47",
+      "id": "est-52",
       "typ": "single",
       "thema": "Bewertung – Niederstwertprinzip",
       "frage": "Was gilt beim abnutzbaren Anlagevermögen eines § 4 Abs 1-Ermittlers, wenn der Teilwert unter den Buchwert (AK minus AfA) sinkt?",
       "optionen": [
-        "Der Teilwert ist zwingend anzusetzen (strenges Niederstwertprinzip).",
-        "Der Teilwert kann wahlweise angesetzt werden; bei voraussichtlich dauerhafter Wertminderung ist er zwingend anzusetzen (nur bei § 5 EStG).",
-        "Eine Teilwertabschreibung ist generell nicht möglich.",
-        "Der Teilwert ist wahlweise anzusetzen (Bewertungswahlrecht, unabhängig von der Dauerhaftigkeit)."
+        "Der niedrigere Teilwert ist stets zwingend anzusetzen, unabhängig von der Gewinnermittlungsart (strenges Niederstwertprinzip).",
+        "Der Teilwert kann wahlweise angesetzt werden; bei dauerhafter Wertminderung ist er nur bei § 5-Ermittlern zwingend anzusetzen.",
+        "Eine Teilwertabschreibung ist bei abnutzbarem Anlagevermögen generell und unter keinen Umständen möglich.",
+        "Der Teilwert ist wahlweise anzusetzen (Bewertungswahlrecht, unabhängig von der Dauerhaftigkeit der Wertminderung)."
       ],
       "korrekt": [
         1
@@ -875,7 +1077,7 @@
       "erklaerung": "Beim abnutzbaren Anlagevermögen gilt das bedingte Niederstwertprinzip: Bei § 5 EStG-Ermittlern muss der niedrigere Teilwert bei voraussichtlich dauerhafter Wertminderung zwingend angesetzt werden. Bei § 4 Abs 1-Ermittlern besteht ein Bewertungswahlrecht – die Teilwertabschreibung ist möglich, aber nicht zwingend. Anders beim Umlaufvermögen: dort gilt das strenge Niederstwertprinzip."
     },
     {
-      "id": "est-48",
+      "id": "est-53",
       "typ": "single",
       "frage": "Ein Drucker (netto € 800,-) wird am 3. März angeschafft (Inbetriebnahme). Nutzungsdauer: 4 Jahre. Was ist steuerlich richtig?",
       "optionen": [
@@ -891,7 +1093,7 @@
       "thema": "AfA – Grundlagen"
     },
     {
-      "id": "est-49",
+      "id": "est-54",
       "typ": "single",
       "thema": "AfA – Grundlagen",
       "frage": "Was gilt für eine unterlassene AfA in einem Wirtschaftsjahr?",
@@ -907,7 +1109,7 @@
       "erklaerung": "Gem. § 7 EStG iVm dem Grundsatz der Periodenbesteuerung gilt ein striktes Nachholverbot für unterlassene AfA. Die AfA ist eine zwingende Norm; eine in einem Jahr nicht geltend gemachte AfA ist endgültig verloren und kann in späteren Jahren nicht nachgeholt werden."
     },
     {
-      "id": "est-50",
+      "id": "est-55",
       "typ": "multiple",
       "thema": "AfA – degressive Abschreibung Maschine",
       "frage": "Im Februar des Jahres 01 wird eine Maschine um € 50.000 angeschafft. Zusätzlich fallen Transportkosten von € 6.000 an. Die geschätzte Nutzungsdauer beträgt 6 Jahre. Welche Aussagen treffen zu?",
@@ -917,8 +1119,8 @@
         "Die lineare AfA beträgt € 9.333,33 (€ 56.000 / 6 Jahre).",
         "Die degressive AfA im Jahr 01 beträgt bei einem Satz von 30 % € 16.800 (30 % von € 56.000).",
         "Die degressive AfA im Jahr 02 beträgt bei einem Satz von 30 % € 11.760 (30 % vom Restbuchwert € 39.200).",
-        "Der maximale degressive AfA-Satz beträgt 40 %.",
-        "Es kann von der linearen auf die degressive AfA gewechselt werden."
+        "Der maximale degressive AfA-Satz beträgt 40 % des jeweiligen Buchwerts.",
+        "Ein einmal begonnener Wechsel von der linearen zur degressiven AfA ist steuerlich jederzeit zulässig."
       ],
       "korrekt": [
         0,
@@ -929,16 +1131,16 @@
       "erklaerung": "Transportkosten zählen zu den Anschaffungsnebenkosten und erhöhen die AK auf € 56.000. Lineare AfA = € 56.000 / 6 = € 9.333,33 pro Jahr (volle Jahres-AfA, da Anschaffung im 1. Halbjahr). Degressive AfA (max. 30 %, für ungebrauchte, nach dem 30.6.2020 angeschaffte Wirtschaftsgüter): Jahr 01 = 30 % × € 56.000 = € 16.800; Jahr 02 = 30 % × (€ 56.000 − € 16.800) = 30 % × € 39.200 = € 11.760. Der Höchstsatz der degressiven AfA beträgt 30 %, nicht 40 %. Ein Wechsel ist nur von der degressiven zur linearen Methode zulässig, nicht umgekehrt."
     },
     {
-      "id": "est-51",
+      "id": "est-56",
       "typ": "multiple",
       "thema": "AfA – Inbetriebnahme vs. Lieferung",
       "frage": "Ein Unternehmen schafft eine neue IT-Ausstattung um € 40.000 an. Diese wird im Dezember des Jahres 01 geliefert und erst im Jänner des Jahres 02 in Betrieb genommen. Die Nutzungsdauer beträgt 4 Jahre. Welche Aussagen treffen zu?",
       "optionen": [
-        "Die lineare AfA im Jahr 01 beträgt € 5.000, da die Lieferung noch in diesem Jahr erfolgte.",
+        "Die lineare AfA im Jahr 01 beträgt bereits € 5.000, da mit der Lieferung im Dezember die Anschaffung abgeschlossen war.",
         "Im Jahr 01 steht keine AfA zu, da die AfA erst mit der Inbetriebnahme beginnt, nicht mit der Lieferung.",
-        "Die degressive AfA (30 %) im Jahr 02 beträgt € 8.400.",
+        "Die degressive AfA (30 %) im Jahr 02 beträgt € 8.400, da es sich bereits um das zweite Nutzungsjahr handelt.",
         "Die degressive AfA (30 %) im Jahr 02 beträgt € 12.000, da dies das erste Nutzungsjahr ist (30 % von € 40.000).",
-        "Die lineare AfA im Jahr 02 beträgt € 5.000.",
+        "Die lineare AfA im Jahr 02 beträgt lediglich € 5.000, da nur eine Halbjahres-AfA zusteht.",
         "Die lineare AfA im Jahr 02 beträgt € 10.000 (€ 40.000 / 4 Jahre), da die Inbetriebnahme im 1. Halbjahr erfolgte und Jahr 02 das erste Nutzungsjahr ist."
       ],
       "korrekt": [
@@ -949,14 +1151,14 @@
       "erklaerung": "Die AfA beginnt erst mit der Inbetriebnahme, nicht mit der Lieferung – im Jahr 01 (Lieferung im Dezember, aber noch keine Nutzung) steht daher noch keine AfA zu. Jahr 02 ist somit das erste Nutzungsjahr; da die Inbetriebnahme im Jänner (1. Halbjahr) erfolgte, steht die volle Jahres-AfA zu: linear € 40.000/4 = € 10.000, degressiv 30 % × € 40.000 = € 12.000 (im ersten Nutzungsjahr wird der volle Satz auf die ungeminderten AK angewendet, nicht auf einen bereits reduzierten Restbuchwert)."
     },
     {
-      "id": "est-52",
+      "id": "est-57",
       "typ": "multiple",
       "frage": "Welche Besonderheiten gelten für die Gebäudeabschreibung nach § 8 Abs 1 EStG?",
       "optionen": [
         "Für betrieblich genutzte Gebäude gilt ein gesetzlicher AfA-Satz von 2,5 % (= ND 40 Jahre).",
         "Für Gebäude, die zu Wohnzwecken im Rahmen von V+V vermietet werden, gilt ein AfA-Satz von 1,5 %.",
-        "Gebäude können nach geltendem Recht unter keinen Umständen schneller als mit dem gesetzlichen Regelsatz abgeschrieben werden.",
-        "Grund und Boden kann gemeinsam mit dem aufstehenden Gebäude über dieselbe Nutzungsdauer abgeschrieben werden, da beide eine wirtschaftliche Einheit bilden.",
+        "Gebäude können unter keinen Umständen schneller als mit dem gesetzlichen Regelsatz abgeschrieben werden.",
+        "Grund und Boden kann gemeinsam mit dem Gebäude über dieselbe Nutzungsdauer abgeschrieben werden.",
         "Eine beschleunigte Gebäude-AfA für bestimmte Gebäudetypen ist im Gesetz vorgesehen."
       ],
       "korrekt": [
@@ -968,7 +1170,7 @@
       "thema": "AfA – Gebäude"
     },
     {
-      "id": "est-53",
+      "id": "est-58",
       "typ": "multiple",
       "thema": "AfA – Gebäude beschleunigte Abschreibung",
       "frage": "Nach einem Brand wird eine vollkommen zerstörte, betrieblich genutzte Lagerhalle neu errichtet. Die Errichtungskosten betragen € 250.000. Welche Aussagen treffen zu?",
@@ -985,14 +1187,14 @@
       "erklaerung": "Für betrieblich genutzte Gebäude gilt ohne Nachweis ein AfA-Satz von 2,5 % (§ 8 Abs 1 EStG): € 250.000 × 2,5 % = € 6.250 pro Jahr. Für nach dem 30.6.2020 angeschaffte oder hergestellte Gebäude steht zusätzlich die beschleunigte Gebäude-AfA offen (§ 8 Abs 1a EStG): im ersten Jahr höchstens das Dreifache (7,5 %), im zweiten Jahr das Zweifache (5 %) des Normalsatzes – hier also im ersten Jahr höchstens € 250.000 × 7,5 % = € 18.750. Gebäude sind von der normalen degressiven AfA nach § 7 Abs 1a EStG ausdrücklich ausgeschlossen, da für sie mit § 8 eine Sonderform der AfA vorgesehen ist."
     },
     {
-      "id": "est-54",
+      "id": "est-59",
       "typ": "multiple",
       "frage": "Welche Aussagen zur PKW-Abschreibung (§ 8 Abs 6 EStG) sind richtig?",
       "optionen": [
         "Die gesetzliche Mindestnutzungsdauer eines PKW beträgt 8 Jahre.",
         "Für Elektrofahrzeuge mit CO2-Emissionswert 0 g/km gilt zwar die 8-jährige ND, aber keine Luxustangente.",
         "Die Luxustangente begrenzt die steuerlich anerkannten AK auf einen gesetzlichen Höchstbetrag.",
-        "PKW und Kombis mit einem CO2-Emissionswert über 0 g/km sind ebenfalls beim investitionsbedingten Gewinnfreibetrag begünstigt.",
+        "PKW und Kombis mit CO2 > 0 g/km sind ebenfalls investitionsbedingt gewinnfreibetragsbegünstigt.",
         "Für Taxis, die zu mindestens 80 % der gewerblichen Personenbeförderung dienen, gilt die 8-jährige Mindest-ND nicht."
       ],
       "korrekt": [
@@ -1005,7 +1207,7 @@
       "thema": "AfA – PKW"
     },
     {
-      "id": "est-55",
+      "id": "est-60",
       "typ": "single",
       "frage": "Unternehmer kauft PKW um € 80.000 netto. Angemessenheitsgrenze: € 40.000. Wie hoch ist die jährliche AfA (8 Jahre ND)?",
       "optionen": [
@@ -1021,7 +1223,7 @@
       "thema": "AfA – PKW – Luxustangente"
     },
     {
-      "id": "est-56",
+      "id": "est-61",
       "typ": "multiple",
       "thema": "AfA – PKW – Luxustangente",
       "frage": "Frau Denk kauft sich am 03.04.2023 einen Pkw um € 50.000,–. Für den Rest des Jahres fallen € 1.500 Versicherung und € 600 Treibstoffkosten an. Laut Fahrtenbuch wurden 10.000 km betrieblich und 2.000 km privat gefahren. Welche Aussagen treffen zu?",
@@ -1029,9 +1231,9 @@
         "Die Luxustangente beträgt 1/5 (Überschreitung der € 40.000-Angemessenheitsgrenze um € 10.000 von € 50.000).",
         "Die zu berücksichtigende AfA beträgt € 5.000,– (€ 40.000 gedeckelte AK ÷ 8 Jahre ND, volle Jahres-AfA wegen Anschaffung im 1. Halbjahr).",
         "Der Treibstoff ist nicht um die Luxustangente zu kürzen, da er nicht wertabhängig ist.",
-        "Der Privatanteil beträgt 20 %.",
-        "Der Pkw stellt Privatvermögen dar.",
-        "Versicherungsaufwand ist nach § 20 EStG generell nicht abzugsfähig."
+        "Der Privatanteil beträgt 20 % der gesamten gefahrenen Kilometer.",
+        "Der Pkw stellt zur Gänze Privatvermögen dar, weil er auch privat genutzt wird.",
+        "Versicherungsaufwand ist nach § 20 EStG generell und ausnahmslos nicht abzugsfähig."
       ],
       "korrekt": [
         0,
@@ -1041,15 +1243,15 @@
       "erklaerung": "Luxustangente: (€ 50.000 − € 40.000)/€ 50.000 = 1/5 = 20 %. Die AfA wird von der gedeckelten AK € 40.000 berechnet; bei gesetzlicher ND von 8 Jahren und Anschaffung im 1. Halbjahr steht die volle Jahres-AfA von € 5.000 zu. Treibstoff ist nicht wertabhängig und daher nicht um die Luxustangente zu kürzen (nur Versicherung und Zinsen sind wertabhängig und zu kürzen). Der Privatanteil beträgt tatsächlich 2.000/12.000 = 16,67 %, nicht 20 % – die 20 % sind die Luxustangente, nicht der Privatanteil (klassische Verwechslungsfalle). Da 10.000/12.000 = 83,3 % betrieblich gefahren werden, liegt überwiegende betriebliche Nutzung vor → der Pkw ist zur Gänze Betriebsvermögen (Überwiegensprinzip bei beweglichen WG). Versicherungsaufwand ist grundsätzlich abzugsfähig, muss aber (als wertabhängige Kostenposition) um die Luxustangente gekürzt werden – ein generelles Abzugsverbot nach § 20 EStG besteht nicht."
     },
     {
-      "id": "est-57",
+      "id": "est-62",
       "typ": "multiple",
       "thema": "AfA – PKW – Luxustangente Halbjahres-AfA",
       "frage": "Herr Neu erwirbt am 10.11.2023 ein Fahrzeug um € 180.000. Für den Rest des Jahres fallen € 2.000 Versicherung und € 400 Treibstoffkosten an (Angemessenheitsgrenze € 40.000, gesetzliche ND 8 Jahre). Welche Aussagen treffen zu?",
       "optionen": [
-        "Die Luxustangente beträgt 85 %.",
+        "Die Luxustangente beträgt 85 % des Anschaffungswertes, unabhängig von der Angemessenheitsgrenze.",
         "Die Luxustangente beträgt rund 77,8 % (Überschreitungsbetrag € 140.000 von € 180.000 AK).",
         "Da das Fahrzeug erst im November angeschafft wurde, steht nur eine Halbjahres-AfA zu; diese beträgt € 2.500 (halbe Jahres-AfA von € 40.000 / 8 Jahre).",
-        "Die zu berücksichtigende AfA beträgt € 5.000, da bei PKW immer die volle Jahres-AfA zusteht.",
+        "Die zu berücksichtigende AfA beträgt € 5.000, weil bei Personenkraftwagen unabhängig vom Anschaffungszeitpunkt stets die volle Jahres-AfA zusteht.",
         "Der zu berücksichtigende Versicherungsaufwand beträgt rund € 444 (€ 2.000 × € 40.000/€ 180.000).",
         "Insgesamt sind für diesen PKW rund € 3.344 an Betriebsausgaben zu berücksichtigen (AfA € 2.500 + Versicherung € 444 + Treibstoff € 400, da Treibstoff nicht wertabhängig ist)."
       ],
@@ -1062,7 +1264,7 @@
       "erklaerung": "Die Angemessenheitsgrenze von € 40.000 ist seit Jahren unverändert und gilt auch 2025 unverändert. Luxustangente = (€ 180.000 − € 40.000) / € 180.000 ≈ 77,8 %. Da die Anschaffung im November (2. Jahreshälfte) erfolgte, steht nur die Halbjahres-AfA zu: (€ 40.000/8 Jahre)/2 = € 2.500. Der wertabhängige Versicherungsaufwand ist im Verhältnis der Angemessenheitsgrenze zur AK zu kürzen: € 2.000 × (€ 40.000/€ 180.000) ≈ € 444. Treibstoff ist nicht wertabhängig und bleibt ungekürzt bei € 400. Gesamt: € 2.500 + € 444 + € 400 ≈ € 3.344."
     },
     {
-      "id": "est-58",
+      "id": "est-63",
       "typ": "multiple",
       "thema": "AfA – PKW – Luxustangente und Privatanteil",
       "frage": "Frau Frühling kauft am 16.05.2023 einen PKW um € 75.000. Es fallen € 1.500 Versicherung und € 2.000 wertabhängige Reparaturkosten an. Laut Fahrtenbuch wurden von insgesamt 5.000 gefahrenen Kilometern 1.000 km privat veranlasst (Angemessenheitsgrenze € 40.000, ND 8 Jahre). Welche Aussagen treffen zu?",
@@ -1083,10 +1285,10 @@
       "erklaerung": "Luxustangente = (€ 75.000 − € 40.000)/€ 75.000 ≈ 46,7 %. Bewegliche Wirtschaftsgüter werden nach dem Überwiegensprinzip zur Gänze der überwiegenden Nutzung zugeordnet (hier 80 % betrieblich = 4.000/5.000 km) – eine quotale 4/5-Aufteilung gibt es nur bei unbeweglichen Wirtschaftsgütern. Bei Anschaffung im Mai (1. Halbjahr) steht die volle Jahres-AfA zu. Wertabhängige Kosten (Versicherung, Reparatur) sind zunächst um die Luxustangente und danach zusätzlich um den privaten Nutzungsanteil (20 %) zu kürzen: Versicherung € 1.500 × (€ 40.000/€ 75.000) ≈ € 800, davon 80 % betrieblich ≈ € 640."
     },
     {
-      "id": "est-59",
+      "id": "est-64",
       "typ": "luecke",
       "thema": "PKW – Überwiegensprinzip",
-      "text": "Bei diesem PKW handelt es sich um ein {0} Wirtschaftsgut, weil er teils privat und teils betrieblich genutzt wird. Bewegliche Wirtschaftsgüter gehören nach dem {1} zur Gänze zum Betriebs- bzw. Privatvermögen. Da der PKW überwiegend betrieblich genutzt wird, stellt er zur Gänze {2} dar. Die Luxustangente beträgt {3}. Der Privatanteil von {4} ist auszuscheiden.",
+      "text": "Bei diesem PKW handelt es sich um ein {0} Wirtschaftsgut, weil er teils privat und teils betrieblich genutzt wird. Bewegliche Wirtschaftsgüter gehören nach dem {1} zur Gänze zum Betriebs- bzw. Privatvermögen. Da der PKW überwiegend betrieblich genutzt wird (7.500 von 10.000 km), stellt er zur Gänze {2} dar. Die Luxustangente beträgt (€ 60.000 − € 40.000) / € 60.000 = {3}. Der Privatanteil von 2.500/10.000 km = {4} ist zusätzlich auszuscheiden.",
       "luecken": [
         {
           "optionen": [
@@ -1130,15 +1332,16 @@
           "loesung": 0
         }
       ],
-      "erklaerung": "Gemischt genutzte bewegliche Wirtschaftsgüter werden nach dem Überwiegensprinzip zur Gänze jener Vermögenssphäre zugeordnet, in der die überwiegende Nutzung liegt – hier also zur Gänze dem Betriebsvermögen. Die Luxustangente kürzt die AfA-Bemessungsgrundlage auf die Angemessenheitsgrenze; der auf die Privatnutzung entfallende Anteil ist zusätzlich als Privatanteil auszuscheiden."
+      "erklaerung": "Gemischt genutzte bewegliche Wirtschaftsgüter werden nach dem Überwiegensprinzip zur Gänze jener Vermögenssphäre zugeordnet, in der die überwiegende Nutzung liegt – hier also zur Gänze dem Betriebsvermögen (7.500/10.000 km = 75 % betrieblich). Die Luxustangente kürzt die AfA-Bemessungsgrundlage auf die Angemessenheitsgrenze: (€ 60.000 − € 40.000) / € 60.000 = 33 %. Unabhängig davon ist zusätzlich der private Nutzungsanteil auszuscheiden: 2.500/10.000 km = 25 %.",
+      "frage": "Günter Moser (selbständiger Rechtsanwalt) schafft sich am 20.03. einen PKW um € 60.000,– brutto an (Angemessenheitsgrenze € 40.000). Laut Fahrtenbuch wurden 7.500 km betrieblich und 2.500 km privat gefahren (insgesamt 10.000 km). Wähle für jede Lücke die passende Option."
     },
     {
-      "id": "est-60",
+      "id": "est-65",
       "typ": "multiple",
       "frage": "Welche Aussagen zu geringwertigen Wirtschaftsgütern (§ 13 EStG) sind richtig?",
       "optionen": [
         "Die GWG-Grenze beträgt seit 2023 € 1.000,- netto (ohne abziehbare Vorsteuer).",
-        "GWG müssen zwingend im Jahr der Anschaffung als Betriebsausgabe sofort abgesetzt werden; eine Verteilung über die Nutzungsdauer ist ausgeschlossen.",
+        "GWG müssen stets sofort abgesetzt werden; eine Verteilung über die Nutzungsdauer ist nicht zulässig.",
         "Das Wahlrecht zur Sofortabsetzung kann für jedes Wirtschaftsgut einzeln ausgeübt werden.",
         "Die GWG-Regelung gilt für alle Gewinnermittlungsarten einschließlich EAR.",
         "GWG sind von der Begünstigung des investitionsbedingten Gewinnfreibetrages ausgeschlossen."
@@ -1153,7 +1356,7 @@
       "thema": "Geringwertige Wirtschaftsgüter"
     },
     {
-      "id": "est-61",
+      "id": "est-66",
       "typ": "single",
       "thema": "Geringwertige Wirtschaftsgüter",
       "frage": "Bis zu welchem Betrag können Anschaffungskosten eines abnutzbaren Wirtschaftsgutes im Jahr 2025 als geringwertiges Wirtschaftsgut (GWG) sofort abgesetzt werden?",
@@ -1169,15 +1372,15 @@
       "erklaerung": "Ab dem Jahr 2023 beträgt die GWG-Grenze gem. § 13 EStG € 1.000,- (netto, ohne abziehbare Vorsteuer). Bis einschließlich 2022 galt eine Grenze von € 800,-. Bei GWG können die Anschaffungs- oder Herstellungskosten sofort im Jahr der Anschaffung als Betriebsausgabe abgesetzt werden, unabhängig von der Nutzungsdauer."
     },
     {
-      "id": "est-62",
+      "id": "est-67",
       "typ": "single",
       "thema": "Gewinnermittlung – Zufluss-Abfluss-Prinzip",
       "frage": "Welches Prinzip gilt bei der Einnahmen-Ausgaben-Rechnung (§ 4 Abs 3 EStG) für die zeitliche Erfassung von Einnahmen und Ausgaben?",
       "optionen": [
-        "Sollgrundsatz: Maßgebend ist das wirtschaftliche Entstehen.",
+        "Sollgrundsatz: Maßgebend ist das wirtschaftliche Entstehen des Anspruchs, unabhängig vom Zahlungszeitpunkt.",
         "Istgrundsatz (Zufluss-Abfluss-Prinzip): Maßgebend ist der tatsächliche Zahlungsfluss.",
-        "Realisationsprinzip: Einnahmen werden beim Entstehen des Anspruchs erfasst.",
-        "Es gelten dieselben Grundsätze wie beim Betriebsvermögensvergleich."
+        "Realisationsprinzip: Einnahmen werden bereits beim rechtlichen Entstehen des Anspruchs erfasst, nicht erst bei Zahlung.",
+        "Es gelten dieselben zeitlichen Zurechnungsgrundsätze wie beim Betriebsvermögensvergleich nach § 4 Abs 1 EStG."
       ],
       "korrekt": [
         1
@@ -1185,15 +1388,15 @@
       "erklaerung": "Bei der EAR gilt das Zufluss-Abfluss-Prinzip (Istgrundsatz, § 19 EStG). Eine Einnahme ist erst dann erfasst, wenn der Empfänger tatsächlich und wirtschaftlich darüber verfügen kann. Beim Betriebsvermögensvergleich gilt dagegen der Sollgrundsatz: Einnahmen und Ausgaben werden nach ihrem wirtschaftlichen Entstehen erfasst, unabhängig vom Zahlungsfluss."
     },
     {
-      "id": "est-63",
+      "id": "est-68",
       "typ": "single",
       "thema": "Betriebsausgaben §4(3) – zeitliche Erfassung",
       "frage": "Ein EAR-Ermittler (§ 4 Abs 3 EStG) bezahlt im Dezember 2025 die Büromiete für Jänner 2026. Wann ist diese Ausgabe steuerlich abzugsfähig?",
       "optionen": [
         "Im Jahr 2025, weil die Zahlung im Dezember 2025 erfolgte (Abflussprinzip).",
-        "Im Jahr 2026, weil die Miete wirtschaftlich dem Jahr 2026 zugehört.",
-        "Aufgeteilt: 50% in 2025, 50% in 2026.",
-        "Gar nicht, weil Vorausleistungen nicht abzugsfähig sind."
+        "Im Jahr 2026, da die Miete wirtschaftlich dem Folgejahr zugehört.",
+        "Aufgeteilt zu gleichen Teilen auf beide Jahre (je 50 %).",
+        "Gar nicht, weil Vorausleistungen bei der EAR generell nicht abzugsfähig sind."
       ],
       "korrekt": [
         0
@@ -1201,12 +1404,12 @@
       "erklaerung": "Bei der EAR gilt das Zufluss-Abfluss-Prinzip: Ausgaben sind im Zeitpunkt des tatsächlichen Abflusses steuerlich zu berücksichtigen, also im Dezember 2025. Es kommt nicht auf den Zeitraum an, dem die Ausgabe wirtschaftlich zuzuordnen ist. Ausnahmen gelten nur für regelmäßig wiederkehrende Ausgaben kurz vor/nach dem Jahreswechsel (15-Tage-Regel)."
     },
     {
-      "id": "est-64",
+      "id": "est-69",
       "typ": "multiple",
       "frage": "Welche Voraussetzungen muss ein Steuerpflichtiger für die Basispauschalierung (§ 17 Abs 1 EStG) erfüllen?",
       "optionen": [
         "Die Umsätze des vorangegangenen Jahres dürfen € 320.000 nicht übersteigen.",
-        "Es muss zusätzlich eine vollständige, den unternehmensrechtlichen Vorschriften entsprechende Buchhaltung geführt werden.",
+        "Zusätzlich ist eine vollständige unternehmensrechtliche Buchhaltung zu führen.",
         "Es darf keine Buchführungspflicht bestehen.",
         "Sowohl Freiberufler als auch Gewerbetreibende können die Basispauschalierung nutzen.",
         "Betriebsausgaben werden mit 13,5 % (bestimmte Tätigkeiten: 6 %) der Umsätze pauschal angesetzt."
@@ -1221,17 +1424,17 @@
       "thema": "Pauschalierung – Basispauschalierung"
     },
     {
-      "id": "est-65",
+      "id": "est-70",
       "typ": "multiple",
       "thema": "Basispauschalierung – Warenhandel Berechnung",
       "frage": "Herr Licht betreibt einen Warenhandel, führt nicht freiwillig Bücher und erzielt im Jahr 01 Einnahmen von € 200.000. Er nimmt die Basispauschalierung nach § 17 EStG in Anspruch. Daneben fallen folgende Aufwendungen an: Mietaufwand € 2.800, Löhne € 6.000, Werbeaufwand € 2.000. Welche Aussagen treffen zu (2025)?",
       "optionen": [
         "Die pauschalen Betriebsausgaben betragen € 27.000 (13,5 % von € 200.000, da der Vorjahresumsatz die Grenze von € 320.000 nicht übersteigt).",
-        "Die pauschalen Betriebsausgaben decken auch den Lohnaufwand ab.",
+        "Die pauschalen Betriebsausgaben decken sowohl den Miet- als auch den Lohnaufwand vollständig ab.",
         "Neben den pauschalen Betriebsausgaben sind zusätzlich die Lohnaufwendungen von € 6.000 zu berücksichtigen.",
         "Der Werbeaufwand ist durch die pauschalen Betriebsausgaben bereits abgedeckt und nicht zusätzlich abzugsfähig.",
-        "Der Gewinn ist im Jahr 01 grundsätzlich nach § 4 Abs 1 EStG zu ermitteln.",
-        "Bei einer freiwilligen Buchführung müsste Herr Licht den Gewinn nach § 5 EStG ermitteln."
+        "Der Gewinn ist im Jahr 01 grundsätzlich nach § 4 Abs 1 EStG (Betriebsvermögensvergleich) zu ermitteln.",
+        "Bei einer freiwilligen Buchführung müsste Herr Licht seinen Gewinn zwingend nach § 5 EStG ermitteln."
       ],
       "korrekt": [
         0,
@@ -1241,7 +1444,7 @@
       "erklaerung": "Für den Warenhandel gilt der allgemeine Pauschalsatz von 13,5 % (Veranlagung 2025) bis zu einem Vorjahresumsatz von € 320.000; die Betriebsausgabenpauschale beträgt somit 13,5 % × € 200.000 = € 27.000. Neben der Pauschale dürfen ausdrücklich nur Wareneingang, Löhne/Fremdlöhne, Pflichtversicherungsbeiträge, das Arbeitsplatzpauschale und bestimmte Reisekosten separat abgezogen werden – die Lohnaufwendungen (€ 6.000) sind daher zusätzlich abzugsfähig, Mietaufwand und Werbeaufwand hingegen sind bereits durch die Pauschale abgegolten. Der Gewinn wird bei Pauschalierung im Rahmen einer Einnahmen-Ausgaben-Rechnung (§ 4 Abs 3 EStG) ermittelt, nicht nach § 4 Abs 1. Freiwillige Buchführung führt zur Gewinnermittlung nach § 4 Abs 1 EStG – § 5 EStG ist ausschließlich rechnungslegungspflichtigen Gewerbetreibenden vorbehalten."
     },
     {
-      "id": "est-66",
+      "id": "est-71",
       "typ": "single",
       "frage": "Eine Sängerin hat € 27.000 Einnahmen und will pauschalieren. Welche Pauschalierungsformen stehen zur Verfügung?",
       "optionen": [
@@ -1257,7 +1460,7 @@
       "thema": "Pauschalierung – Kleinunternehmer"
     },
     {
-      "id": "est-67",
+      "id": "est-72",
       "typ": "zuordnung",
       "thema": "Gewinnfreibetrag – invGFB",
       "frage": "Ordne die Wirtschaftsgüter der richtigen Kategorie beim investitionsbedingten Gewinnfreibetrag (§ 10 EStG) zu.",
@@ -1282,7 +1485,7 @@
       "erklaerung": "Vom invGFB ausgeschlossen sind: PKW/Kombi (außer CO2 = 0 g/km), Luftfahrzeuge, GWG, gebrauchte Wirtschaftsgüter sowie Wirtschaftsgüter von beherrschten Unternehmen bzw. mit Forschungsprämie. Begünstigt sind hingegen neue, abnutzbare körperliche Anlagegüter mit einer Nutzungsdauer von mind. 4 Jahren (zB neue Büromöbel) sowie bestimmte Wertpapiere gem. § 14 Abs 7 Z 4 EStG, wenn sie dem Betriebsvermögen mind. 4 Jahre gewidmet sind."
     },
     {
-      "id": "est-68",
+      "id": "est-73",
       "typ": "single",
       "frage": "Gewinn: € 93.000. Investitionen: Maschinen (neu) € 55.000, PKW (CO2 > 0) € 38.000. Wie hoch ist der Gesamt-GFB (Werte 2025)?",
       "optionen": [
@@ -1298,15 +1501,15 @@
       "thema": "Gewinnfreibetrag – Berechnung"
     },
     {
-      "id": "est-69",
+      "id": "est-74",
       "typ": "single",
       "thema": "Gewinnfreibetrag – invGFB Berechnung",
       "frage": "Herr Mond erzielt im Jahr 01 einen Gewinn vor Gewinnfreibetrag von € 200.000. Er investiert in neue Büroausstattung (ND 6 Jahre) um € 6.000 sowie in eine gebrauchte Maschine (ND 4 Jahre) um € 8.000. Wie hoch ist der Gesamt-Gewinnfreibetrag (Werte 2025)?",
       "optionen": [
-        "€ 6.770 – Grundfreibetrag € 4.950 zuzüglich invGFB von 13 % auf beide Investitionen (€ 6.000 + € 8.000) in Höhe von € 1.820.",
-        "€ 5.730 – Grundfreibetrag € 4.950 zuzüglich invGFB von 13 % × € 6.000 = € 780; die gebrauchte Maschine ist als gebrauchtes Wirtschaftsgut vom invGFB ausgeschlossen.",
-        "€ 4.950 – nur der Grundfreibetrag, da weder die Büroausstattung noch die Maschine als begünstigte Wirtschaftsgüter gelten.",
-        "€ 21.710 – Grundfreibetrag € 4.950 zuzüglich invGFB von 13 % auf den gesamten Restgewinn von € 129.000."
+        "€ 6.770 – Grundfreibetrag € 4.950 zzgl. invGFB von 13 % auf beide Investitionen zusammen (€ 14.000) in Höhe von € 1.820.",
+        "€ 5.730 – Grundfreibetrag € 4.950 zzgl. invGFB 13 % × € 6.000 = € 780; die gebrauchte Maschine ist ausgeschlossen.",
+        "€ 4.950 – nur der Grundfreibetrag, da weder die Büroausstattung noch die gebrauchte Maschine als begünstigte Wirtschaftsgüter gelten.",
+        "€ 21.710 – Grundfreibetrag € 4.950 zzgl. invGFB von 13 % auf den gesamten Restgewinn von € 129.000, unabhängig von der Investitionshöhe."
       ],
       "korrekt": [
         1
@@ -1314,16 +1517,16 @@
       "erklaerung": "Der Grundfreibetrag steht automatisch mit 15 % von € 33.000 = € 4.950 zu. Für den investitionsbedingten GFB zählen nur neue, abnutzbare, körperliche Wirtschaftsgüter mit mind. 4 Jahren Nutzungsdauer – die gebrauchte Maschine ist daher ausgeschlossen, nur die neue Büroausstattung (€ 6.000) ist begünstigt. invGFB = 13 % × € 6.000 = € 780 (der theoretische Höchstrahmen von 13 % × € 129.000 wird bei weitem nicht ausgeschöpft, da nur tatsächlich begünstigte Investitionen zählen, nicht der gesamte Restgewinn). Gesamt-GFB = € 4.950 + € 780 = € 5.730."
     },
     {
-      "id": "est-70",
+      "id": "est-75",
       "typ": "multiple",
       "thema": "Gewinnfreibetrag – Pauschalierung schließt invGFB aus",
       "frage": "Frau Stern ist als Vortragende tätig und erzielt Einnahmen von € 150.000. Sie nimmt die Pauschalierung nach § 17 EStG in Anspruch (6 % Durchschnittssatz für vortragende Tätigkeit) und schafft ein Notebook (ND 4 Jahre) um € 2.500 an. Welche Aussagen treffen zu (2025)?",
       "optionen": [
         "Der Gewinn vor Gewinnfreibetrag beträgt € 141.000 (Einnahmen € 150.000 abzüglich 6 % Betriebsausgabenpauschale von € 9.000).",
         "Frau Stern kann nur den Grundfreibetrag geltend machen, weil bei pauschaler Gewinnermittlung nach § 17 EStG kein investitionsbedingter Gewinnfreibetrag zusteht.",
-        "Das Notebook ist kein grundsätzlich begünstigtes Wirtschaftsgut iSd § 10 EStG, weil es unter der GWG-Grenze liegt.",
+        "Das Notebook ist kein grundsätzlich begünstigtes Wirtschaftsgut iSd § 10 EStG, weil es unter der GWG-Grenze von € 1.000 liegt und damit als geringwertig gilt.",
         "Der Gesamt-Gewinnfreibetrag beträgt € 4.950 (ausschließlich Grundfreibetrag, unabhängig von der Notebook-Anschaffung).",
-        "Der Gewinn nach Gewinnfreibetrag beträgt € 135.725.",
+        "Der Gewinn nach Gewinnfreibetrag beträgt € 135.725, weil zusätzlich zum Grundfreibetrag auch der investitionsbedingte GFB für das Notebook zusteht.",
         "Der Gewinn nach Gewinnfreibetrag beträgt € 136.050 (€ 141.000 − € 4.950)."
       ],
       "korrekt": [
@@ -1335,7 +1538,7 @@
       "erklaerung": "Als Vortragende fällt Frau Stern unter den reduzierten 6 %-Pauschalsatz des § 17 EStG; die Betriebsausgabenpauschale beträgt 6 % × € 150.000 = € 9.000, der Gewinn vor GFB somit € 141.000. Bei pauschaler Gewinnermittlung nach § 17 EStG steht ausschließlich der Grundfreibetrag zu – der investitionsbedingte GFB ist ausgeschlossen, unabhängig davon, ob das angeschaffte Wirtschaftsgut abstrakt begünstigungsfähig wäre. Das Notebook läge mit € 2.500 über der GWG-Grenze von € 1.000 und wäre für sich genommen ein begünstigtes WG (neu, körperlich, ND ≥ 4 Jahre) – das ändert aber nichts am generellen Ausschluss bei Pauschalierung. Gesamt-GFB = Grundfreibetrag € 4.950. Gewinn nach GFB = € 141.000 − € 4.950 = € 136.050."
     },
     {
-      "id": "est-71",
+      "id": "est-76",
       "typ": "multiple",
       "thema": "Gewinnfreibetrag – begünstigte Wirtschaftsgüter Abgrenzung",
       "frage": "Herr Holz erzielt einen Gewinn vor Gewinnfreibetrag von € 450.000 und investiert in unbebautes Bauland (€ 180.000), Lizenzrechte mit ND 8 Jahren (€ 60.000) sowie einen PKW mit ND 8 Jahren und CO2-Ausstoß > 0 g/km (€ 125.000). Welche Aussagen treffen zu (2025)?",
@@ -1356,7 +1559,7 @@
       "erklaerung": "Begünstigte Wirtschaftsgüter für den invGFB sind nur abnutzbare, KÖRPERLICHE Wirtschaftsgüter des Anlagevermögens mit mind. 4 Jahren Nutzungsdauer (oder bestimmte Wertpapiere gem. § 14 Abs 7 Z 4 EStG). Bauland ist nicht abnutzbar → ausgeschlossen. Lizenzrechte sind unkörperlich → ausgeschlossen (die Digitalisierungs-Ausnahme für unkörperliche WG gilt nur bei der degressiven AfA bzw. beim Investitionsfreibetrag nach § 11 EStG, nicht beim GFB). Der PKW mit CO2 > 0 g/km ist ausdrücklich vom invGFB ausgeschlossen. Da keine der drei Investitionen begünstigt ist, steht Herrn Holz nur der automatische Grundfreibetrag von 15 % × € 33.000 = € 4.950 zu – dieser steht unabhängig von Investitionen und unabhängig von der Gewinnhöhe zu."
     },
     {
-      "id": "est-72",
+      "id": "est-77",
       "typ": "multiple",
       "frage": "Welche Merkmale müssen für betriebliche Einkunftsarten kumulativ erfüllt sein?",
       "optionen": [
@@ -1364,7 +1567,7 @@
         "Nachhaltigkeit (Wiederholungsabsicht erkennbar)",
         "Gewinnabsicht (Streben nach einem Gesamtüberschuss über die gesamte Betriebsdauer)",
         "Beteiligung am allgemeinen wirtschaftlichen Verkehr",
-        "Zusätzlich muss eine gesetzlich festgelegte jährliche Mindestumsatzgrenze überschritten werden."
+        "Zusätzlich muss ein gesetzlicher jährlicher Mindestumsatz überschritten werden."
       ],
       "korrekt": [
         0,
@@ -1376,7 +1579,7 @@
       "thema": "Betriebliche Einkunftsarten – Merkmale"
     },
     {
-      "id": "est-73",
+      "id": "est-78",
       "typ": "multiple",
       "thema": "Betriebliche Einkunftsarten – Merkmale",
       "frage": "Welche Merkmale müssen für das Vorliegen von Einkünften aus Gewerbebetrieb (§ 23 EStG) erfüllt sein?",
@@ -1398,7 +1601,7 @@
       "erklaerung": "Einkünfte aus Gewerbebetrieb erfordern Selbständigkeit, Nachhaltigkeit, Gewinnabsicht, Beteiligung am allgemeinen wirtschaftlichen Verkehr und eine Tätigkeit, die über bloße Vermögensverwaltung hinausgeht. Die Ausübung eines freien Berufs ist kein Merkmal des Gewerbebetriebs – freiberufliche Tätigkeiten fallen unter § 22 (selbständige Arbeit)."
     },
     {
-      "id": "est-74",
+      "id": "est-79",
       "typ": "single",
       "frage": "Ein Taxifahrer (Einzelunternehmer) und ein Rechtsanwalt üben beide selbständige Tätigkeiten aus. Was unterscheidet ihre Einkunftsarten?",
       "optionen": [
@@ -1414,14 +1617,14 @@
       "thema": "Abgrenzung sA – Gewerbebetrieb"
     },
     {
-      "id": "est-75",
+      "id": "est-80",
       "typ": "single",
       "frage": "Peter ist zu 30 % an der P-GmbH beteiligt und Geschäftsführer. Welcher Einkunftsart sind seine Bezüge zuzuordnen?",
       "optionen": [
-        "Einkünfte aus nsA (§ 25), weil ein Dienstverhältnis vorliegt.",
+        "Einkünfte aus nichtselbständiger Arbeit (§ 25 EStG), weil zwischen Peter und der GmbH ein Dienstverhältnis vorliegt.",
         "Einkünfte aus selbständiger Arbeit (§ 22 Z 2 EStG), weil die Beteiligung mehr als 25 % beträgt.",
-        "Einkünfte aus Kapitalvermögen, weil er Gesellschafter ist.",
-        "Einkünfte aus Gewerbebetrieb, weil die GmbH gewerblich tätig ist."
+        "Einkünfte aus Kapitalvermögen, weil Peter als Gesellschafter am Vermögen der GmbH beteiligt ist.",
+        "Einkünfte aus Gewerbebetrieb, weil die P-GmbH selbst gewerblich tätig ist und Peter daran beteiligt ist."
       ],
       "korrekt": [
         1
@@ -1430,15 +1633,15 @@
       "thema": "Abgrenzung sA – nsA (Gesellschafter-GF)"
     },
     {
-      "id": "est-76",
+      "id": "est-81",
       "typ": "single",
       "thema": "Abgrenzung sA – GW (§22 vs §23)",
       "frage": "Worin liegt die steuerrechtliche Abgrenzung zwischen Einkünften aus selbständiger Arbeit (§ 22 EStG) und Einkünften aus Gewerbebetrieb (§ 23 EStG)?",
       "optionen": [
-        "Einkünfte aus sA erfordern immer eine behördliche Konzession; GW-Einkünfte nicht.",
-        "Einkünfte aus sA erzielen typischerweise Personen, die einen freien Beruf ausüben oder eine vorwiegend persönlich-schöpferische Leistung erbringen; GW-Einkünfte entstammen einer gewerblichen Betätigung, die über bloße Vermögensverwaltung hinausgeht und keiner Einkunftsart 1–3 zuzuordnen ist.",
-        "Einkünfte aus sA werden immer pauschiert; GW-Einkünfte nach dem BV-Vergleich.",
-        "Bei Einkünften aus sA besteht keine Buchführungspflicht; bei GW-Einkünften immer."
+        "Einkünfte aus sA erfordern stets eine behördliche Konzession oder Standesvertretung, GW-Einkünfte hingegen nie.",
+        "Einkünfte aus sA setzen eine freiberufliche oder künstlerisch-wissenschaftliche Tätigkeit voraus; GW-Einkünfte stammen aus sonstiger gewerblicher Betätigung.",
+        "Einkünfte aus sA werden ausnahmslos pauschal ermittelt, während GW-Einkünfte stets durch Betriebsvermögensvergleich zu ermitteln sind.",
+        "Bei Einkünften aus sA besteht grundsätzlich keine Buchführungspflicht, bei GW-Einkünften hingegen immer und unabhängig vom Umsatz."
       ],
       "korrekt": [
         1
@@ -1446,7 +1649,7 @@
       "erklaerung": "Einkünfte aus selbständiger Arbeit (§ 22 EStG) erzielen typischerweise freiberuflich Tätige (Ärzte, Rechtsanwälte, Wirtschaftstreuhänder) und Personen, die eine eigenverantwortliche, vorwiegend persönlich-schöpferische Tätigkeit ausüben. Einkünfte aus Gewerbebetrieb (§ 23 EStG) entstammen einer selbständigen, nachhaltigen, auf Gewinn gerichteten Tätigkeit unter Beteiligung am allgemeinen wirtschaftlichen Verkehr, die nicht unter §§ 21–22 fällt."
     },
     {
-      "id": "est-77",
+      "id": "est-82",
       "typ": "single",
       "frage": "Eine LuF-Unternehmerin überschreitet die Vollpauschalierungsgrenze. Welche Gewinnermittlungsart kommt zwingend zur Anwendung?",
       "optionen": [
@@ -1462,13 +1665,13 @@
       "thema": "Gewinnermittlung – Land- und Forstwirtschaft"
     },
     {
-      "id": "est-78",
+      "id": "est-83",
       "typ": "multiple",
       "thema": "Gewinnermittlung – Land- und Forstwirtschaft",
       "frage": "Herr Weide betreibt eine Landwirtschaft und führt keine Bücher. Die erwirtschafteten Umsätze betragen: Jahr 01 € 400.000, Jahr 02 € 340.000, Jahr 03 € 500.000, Jahr 04 € 430.000. Welche Aussagen treffen zu?",
       "optionen": [
         "Bei Einkünften aus Land- und Forstwirtschaft kann der Gewinn gegebenenfalls pauschal ermittelt werden (Voll- oder Teilpauschalierung nach der LuF-PauschalierungsVO).",
-        "Es liegt eine Buchführungspflicht nach der BAO vor, da die Umsätze in mehreren Jahren deutlich über € 340.000 liegen.",
+        "Es liegt eine Buchführungspflicht nach der BAO vor, da der Umsatz im Jahr 03 mit € 500.000 einen wesentlichen Betrag erreicht.",
         "Die Basispauschalierung nach § 17 EStG kann bei Einkünften aus Land- und Forstwirtschaft nicht in Anspruch genommen werden, da diese nur für Einkünfte nach §§ 22 und 23 EStG offensteht.",
         "Der Gewinn ist in den Jahren 01 bis 04, unbeachtlich allfälliger Pauschalierungsmöglichkeiten, grundsätzlich nach § 4 Abs 3 EStG zu ermitteln."
       ],
@@ -1480,7 +1683,7 @@
       "erklaerung": "Die für Land- und Forstwirte maßgebliche Buchführungsgrenze nach § 125 BAO liegt bei € 700.000 Umsatz in zwei aufeinanderfolgenden Jahren – diese wird hier in keinem Jahr überschritten, daher besteht keine Buchführungspflicht. Die eigenständige LuF-Pauschalierungsverordnung (Voll-/Teilpauschalierung, anknüpfend an den Einheitswert – die Teilpauschalierungsgrenze wurde bereits 2023 von € 130.000 auf € 165.000 Einheitswert angehoben) ist von der Basispauschalierung des § 17 EStG zu unterscheiden; Letztere steht nur bei Einkünften aus selbständiger Arbeit oder Gewerbebetrieb zu, nicht bei LuF-Einkünften. Ohne (Voll-/Teil-)Pauschalierung ist der Gewinn mangels Buchführungspflicht nach § 4 Abs 3 EStG (EAR) zu ermitteln."
     },
     {
-      "id": "est-79",
+      "id": "est-84",
       "typ": "multiple",
       "frage": "Welche der folgenden Gesellschaften sind steuerrechtliche Mitunternehmerschaften?",
       "optionen": [
@@ -1500,7 +1703,7 @@
       "thema": "Mitunternehmerschaft – Formen"
     },
     {
-      "id": "est-80",
+      "id": "est-85",
       "typ": "single",
       "frage": "Ein Kommanditist (kein Stimmrecht, keine Geschäftsführung) erleidet einen Verlustanteil, der seine Einlage übersteigt. Was gilt?",
       "optionen": [
@@ -1516,7 +1719,7 @@
       "thema": "Mitunternehmerschaft – Wartetastenverluste"
     },
     {
-      "id": "est-81",
+      "id": "est-86",
       "typ": "single",
       "frage": "OG-Gewinn: € 200.000. Gesellschafter A hat Vorabvergütung Geschäftsführung € 30.000, dann 50:50-Teilung. Was versteuert A insgesamt?",
       "optionen": [
@@ -1532,15 +1735,15 @@
       "thema": "Mitunternehmerschaft – Gewinnverteilung"
     },
     {
-      "id": "est-82",
+      "id": "est-87",
       "typ": "multiple",
       "frage": "Welche Aussagen zum Feststellungsverfahren (§ 188 BAO) bei Mitunternehmerschaften sind richtig?",
       "optionen": [
         "Einkünfte werden einheitlich und gesondert bei der Mitunternehmerschaft festgestellt.",
         "Der Feststellungsbescheid ist für die ESt-Bescheide der Gesellschafter bindend.",
-        "Jeder Gesellschafter gibt seine Einkünfte eigenständig in der ESt-Erklärung an, unabhängig vom Feststellungsverfahren.",
+        "Jeder Gesellschafter gibt seine Einkünfte eigenständig an, unabhängig vom Feststellungsverfahren.",
         "Das Verfahren gilt auch für die atypisch stille Gesellschaft.",
-        "Im Feststellungsverfahren werden die Absetzbeträge (§ 33) der Gesellschafter mitfestgestellt."
+        "Im Feststellungsverfahren werden auch die Absetzbeträge der Gesellschafter mitfestgestellt."
       ],
       "korrekt": [
         0,
@@ -1551,15 +1754,15 @@
       "thema": "Mitunternehmerschaft – Feststellungsverfahren"
     },
     {
-      "id": "est-83",
+      "id": "est-88",
       "typ": "multiple",
       "frage": "Was zählt zu den Tatbeständen des § 24 EStG (Veräußerungsgewinne)?",
       "optionen": [
-        "Veräußerung des ganzen Betriebs",
-        "Veräußerung eines Teilbetriebs",
-        "Veräußerung eines Mitunternehmeranteils",
-        "Aufgabe des ganzen Betriebs",
-        "Veräußerung einzelner Wirtschaftsgüter im laufenden Betrieb"
+        "Die Veräußerung des gesamten Betriebs als einheitliches Ganzes an einen Erwerber",
+        "Die Veräußerung eines selbständigen, lebensfähigen Teilbetriebs",
+        "Die entgeltliche Übertragung eines Mitunternehmeranteils",
+        "Die Aufgabe des gesamten Betriebs im Rahmen einer Betriebsaufgabe",
+        "Die Veräußerung einzelner Wirtschaftsgüter im Rahmen des laufenden Geschäftsbetriebs"
       ],
       "korrekt": [
         0,
@@ -1571,7 +1774,7 @@
       "thema": "Veräußerungsgewinn §24 – Tatbestände"
     },
     {
-      "id": "est-84",
+      "id": "est-89",
       "typ": "multiple",
       "frage": "Welche Aussagen zum Unterschied zwischen Betriebsveräußerung und Betriebsaufgabe treffen zu?",
       "optionen": [
@@ -1591,7 +1794,7 @@
       "thema": "Veräußerungsgewinn §24 – Veräußerung vs Aufgabe"
     },
     {
-      "id": "est-85",
+      "id": "est-90",
       "typ": "multiple",
       "frage": "Welche Begünstigungen können auf Veräußerungsgewinne iSd § 24 EStG angewendet werden?",
       "optionen": [
@@ -1610,12 +1813,12 @@
       "thema": "Veräußerungsgewinn §24 – Begünstigungen"
     },
     {
-      "id": "est-86",
+      "id": "est-91",
       "typ": "multiple",
       "thema": "Veräußerungsgewinn §24/§37 – Halbsatzbegünstigung bei Erwerbsunfähigkeit",
       "frage": "Der 58-jährige Alfons Adler muss seine Tischlerei wegen eines schweren Bandscheibenvorfalls mit dauerhafter, ärztlich bestätigter Erwerbsunfähigkeit aufgeben und verkauft den Betrieb (Veräußerungsgewinn € 250.000). Welche Voraussetzungen müssen erfüllt sein, damit er die Halbsatzbegünstigung gem. § 37 Abs 5 EStG aufgrund von Erwerbsunfähigkeit (statt Alter) in Anspruch nehmen kann?",
       "optionen": [
-        "Er muss das 60. Lebensjahr vollendet haben.",
+        "Er muss zum Zeitpunkt der Betriebsveräußerung bereits das 60. Lebensjahr vollendet haben.",
         "Er muss den Betrieb aufgrund der gesundheitlichen Erwerbsunfähigkeit endgültig aufgeben.",
         "Er muss seine bisherige Erwerbstätigkeit einstellen.",
         "Eine ärztliche bzw. amtliche Bestätigung der Erwerbsunfähigkeit ist erforderlich.",
@@ -1630,15 +1833,15 @@
       "erklaerung": "§ 37 Abs 5 EStG kennt drei alternative Tatbestände für die Halbsatzbegünstigung bei Betriebsveräußerung/-aufgabe: Tod, Erwerbsunfähigkeit oder Vollendung des 60. Lebensjahres (jeweils verbunden mit Einstellung der Erwerbstätigkeit). Beim Erwerbsunfähigkeits-Tatbestand ist das 60. Lebensjahr gerade NICHT erforderlich – es genügt eine ärztlich/amtlich nachgewiesene dauernde Erwerbsunfähigkeit, verbunden mit der endgültigen Aufgabe der Tätigkeit. Zusätzlich muss (unabhängig vom gewählten Tatbestand) der Betrieb seit mind. 7 Jahren bestanden haben."
     },
     {
-      "id": "est-87",
+      "id": "est-92",
       "typ": "single",
       "thema": "Veräußerungsgewinn §24/§37 – Halbsatzbegünstigung bei Erwerbsunfähigkeit",
       "frage": "Ist die Halbsatzbegünstigung nach § 37 Abs 5 EStG auch vor Vollendung des 60. Lebensjahres möglich?",
       "optionen": [
-        "Ja, wenn eine ärztlich bzw. amtlich nachgewiesene dauernde Erwerbsunfähigkeit vorliegt und die Tätigkeit deshalb endgültig eingestellt wird.",
-        "Nein, die Begünstigung gilt ausschließlich ab Vollendung des 60. Lebensjahres.",
-        "Ja, aber nur wenn der Veräußerungsgewinn unter € 100.000 liegt.",
-        "Nein, weil die Begünstigung nur Pensionisten offensteht."
+        "Ja, wenn eine ärztlich/amtlich nachgewiesene dauernde Erwerbsunfähigkeit vorliegt und die Tätigkeit deshalb eingestellt wird.",
+        "Nein, die Begünstigung gilt ausnahmslos erst ab Vollendung des 60. Lebensjahres, unabhängig von der Gesundheit.",
+        "Ja, allerdings nur, wenn der erzielte Veräußerungsgewinn den Betrag von € 100.000 nicht übersteigt.",
+        "Nein, weil die Begünstigung ausschließlich Personen offensteht, die bereits eine Pension beziehen."
       ],
       "korrekt": [
         0
@@ -1646,7 +1849,7 @@
       "erklaerung": "Die drei Tatbestände des § 37 Abs 5 EStG (Tod, Erwerbsunfähigkeit, 60. Lebensjahr) stehen gleichberechtigt nebeneinander. Erwerbsunfähigkeit ist daher unabhängig vom Lebensalter ein eigenständiger, vom Alter unabhängiger Anwendungsfall – es gibt keine Betragsgrenze und keine Beschränkung auf Pensionisten."
     },
     {
-      "id": "est-88",
+      "id": "est-93",
       "typ": "single",
       "frage": "Unternehmer gibt Betrieb auf und nutzt das betriebliche Gebäude fortan als Hauptwohnsitz. Welche steuerliche Möglichkeit besteht?",
       "optionen": [
@@ -1662,7 +1865,49 @@
       "thema": "Veräußerungsgewinn §24 – Gebäudebegünstigung"
     },
     {
-      "id": "est-89",
+      "id": "est-94",
+      "typ": "luecke",
+      "thema": "Werbungskosten §16",
+      "frage": "Ergänze die gesetzliche Definition der Werbungskosten (§ 16 Abs 1 EStG).",
+      "text": "Werbungskosten sind Aufwendungen oder Ausgaben zur {0}, {1} oder {2} der Einnahmen (§ 16 Abs 1 EStG). Sie sind bei den {3} Einkunftsarten das Pendant zu den Betriebsausgaben.",
+      "luecken": [
+        {
+          "optionen": [
+            "Erwerbung",
+            "Verwertung",
+            "Vermehrung"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Sicherung",
+            "Absicherung",
+            "Versicherung"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Erhaltung",
+            "Vermehrung",
+            "Verwaltung"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "außerbetrieblichen (Überschuss-)",
+            "betrieblichen",
+            "sämtlichen"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "§ 16 Abs 1 EStG definiert Werbungskosten als Aufwendungen oder Ausgaben zur Erwerbung, Sicherung oder Erhaltung der Einnahmen. Sie sind das strukturelle Pendant zu den Betriebsausgaben (§ 4 Abs 4 EStG), gelten aber bei den außerbetrieblichen (Überschuss-)Einkunftsarten wie nsA, KV, V+V und sonstigen Einkünften."
+    },
+    {
+      "id": "est-95",
       "typ": "single",
       "frage": "Wie unterscheiden sich Werbungskosten (§ 16 EStG) von Betriebsausgaben (§ 4 Abs 4 EStG)?",
       "optionen": [
@@ -1678,7 +1923,7 @@
       "thema": "Werbungskosten §16"
     },
     {
-      "id": "est-90",
+      "id": "est-96",
       "typ": "multiple",
       "frage": "Was bedeutet die Subsidiarität der Einkünfte aus Kapitalvermögen (§ 27 EStG)?",
       "optionen": [
@@ -1697,7 +1942,7 @@
       "thema": "Einkünfte aus Kapitalvermögen – Subsidiarität"
     },
     {
-      "id": "est-91",
+      "id": "est-97",
       "typ": "multiple",
       "frage": "Welche Aussagen zur Endbesteuerungswirkung der KESt sind richtig?",
       "optionen": [
@@ -1716,14 +1961,14 @@
       "thema": "Einkünfte aus Kapitalvermögen – Endbesteuerung"
     },
     {
-      "id": "est-92",
+      "id": "est-98",
       "typ": "single",
       "frage": "Werden endbesteuerte Kapitalerträge in die Bemessungsgrundlage für den Progressionstarif einbezogen?",
       "optionen": [
-        "Ja, immer – sie erhöhen das Einkommen und damit den Grenzsteuersatz.",
+        "Ja, immer – endbesteuerte Kapitalerträge erhöhen in jedem Fall das Einkommen und damit den anzuwendenden Grenzsteuersatz.",
         "Nein, bei Endbesteuerung werden sie aus der Veranlagung herausgehalten und erhöhen nicht die Progressionsbasis.",
-        "Nur wenn das Gesamteinkommen über € 100.000 liegt.",
-        "Ja, aber der besondere Steuersatz wird gegengerechnet."
+        "Nur dann, wenn das steuerpflichtige Gesamteinkommen des Steuerpflichtigen den Betrag von € 100.000 übersteigt.",
+        "Ja, sie werden einbezogen, der besondere Steuersatz von 27,5 % wird aber im Rahmen der Veranlagung gegengerechnet."
       ],
       "korrekt": [
         1
@@ -1732,7 +1977,7 @@
       "thema": "Einkünfte aus Kapitalvermögen – Endbesteuerung und Progression"
     },
     {
-      "id": "est-93",
+      "id": "est-99",
       "typ": "single",
       "frage": "Was sind echte stille Beteiligungserträge (§ 27 Abs 1 Z 4 EStG)?",
       "optionen": [
@@ -1748,7 +1993,7 @@
       "thema": "Einkünfte aus Kapitalvermögen – stille Beteiligung"
     },
     {
-      "id": "est-94",
+      "id": "est-100",
       "typ": "single",
       "frage": "Wann ist die Regelbesteuerungsoption (§ 27a Abs 5 EStG) vorteilhaft?",
       "optionen": [
@@ -1764,7 +2009,7 @@
       "thema": "Einkünfte aus Kapitalvermögen – Regelbesteuerungsoption"
     },
     {
-      "id": "est-95",
+      "id": "est-101",
       "typ": "single",
       "frage": "Welcher Steuersatz kommt bei Einkünften aus privater Vermietung und Verpachtung zur Anwendung?",
       "optionen": [
@@ -1780,7 +2025,7 @@
       "thema": "Einkünfte aus Vermietung und Verpachtung – Steuersatz"
     },
     {
-      "id": "est-96",
+      "id": "est-102",
       "typ": "multiple",
       "frage": "Wie wird die AfA-Bemessungsgrundlage bei einem entgeltlich erworbenen Mietwohngebäude ermittelt?",
       "optionen": [
@@ -1799,15 +2044,15 @@
       "thema": "Einkünfte aus Vermietung und Verpachtung – AfA"
     },
     {
-      "id": "est-97",
+      "id": "est-103",
       "typ": "multiple",
       "frage": "Wie werden Instandhaltung, Instandsetzung und Herstellungsaufwand bei vermieteten Gebäuden (§ 28 EStG) abgegrenzt?",
       "optionen": [
         "Instandhaltung: laufende Erhaltung ohne Nutzwerterhöhung; sofort als WK abzugsfähig oder wahlweise auf 10 Jahre verteilt.",
         "Instandsetzungsaufwand: wesentliche Nutzwert-/Nutzungsdauererhöhung; zwingend auf 15 Jahre zu verteilen.",
         "Herstellungsaufwand: wesentliche Verbesserung oder Erweiterung; zu aktivieren und über ND abzuschreiben.",
-        "Instandhaltung, Instandsetzung und Herstellungsaufwand sind bei vermieteten Gebäuden allesamt sofort und in voller Höhe als Werbungskosten abzugsfähig.",
-        "Instandsetzungsaufwand kann nach freier Wahl des Steuerpflichtigen entweder sofort oder gleichmäßig verteilt über 15 Jahre als Werbungskosten abgesetzt werden."
+        "Instandhaltung, Instandsetzung und Herstellungsaufwand sind bei Vermietung stets sofort in voller Höhe abzugsfähig.",
+        "Instandsetzungsaufwand kann wahlweise sofort oder über 15 Jahre verteilt abgesetzt werden."
       ],
       "korrekt": [
         0,
@@ -1818,7 +2063,7 @@
       "thema": "Einkünfte aus Vermietung und Verpachtung – Erhaltungsaufwand"
     },
     {
-      "id": "est-98",
+      "id": "est-104",
       "typ": "zuordnung",
       "thema": "V+V – Instandhaltung/Instandsetzung/Herstellungsaufwand",
       "frage": "Ordne die folgenden Maßnahmen der richtigen Kategorie zu.",
@@ -1846,7 +2091,7 @@
       "erklaerung": "Instandhaltung erhält den bisherigen Zustand und ist sofort abzugsfähig (laufende Reparaturen, Ausmalen, Bodentausch). Instandsetzung hebt den Nutzungswert oder verlängert die Nutzungsdauer wesentlich – bei Wohngebäuden zwingend auf 15 Jahre zu verteilen (Fenstertausch, Erneuerung von Elektrik/Heizung/Dach). Herstellungsaufwand ändert die Wesensart des Gebäudes (Ausbau zusätzlicher Wohnungen) und ist über die Restnutzungsdauer abzuschreiben."
     },
     {
-      "id": "est-99",
+      "id": "est-105",
       "typ": "single",
       "frage": "Vermieter übergibt Zinshaus durch Schenkung an sein Kind. Noch offene Fünfzehntelabsetzungen (€ 3.000/Jahr) für Instandsetzungsaufwand bestehen. Was gilt für das Kind?",
       "optionen": [
@@ -1862,7 +2107,7 @@
       "thema": "Einkünfte aus Vermietung und Verpachtung – Rechtsnachfolge"
     },
     {
-      "id": "est-100",
+      "id": "est-106",
       "typ": "single",
       "frage": "Vermieter saniert ein seit 3 Jahren leerstehendes Gebäude. Er inseriert nicht und bemüht sich nicht nachweislich um Mieter. Können die Sanierungskosten als WK abgezogen werden?",
       "optionen": [
@@ -1878,7 +2123,7 @@
       "thema": "Einkünfte aus Vermietung und Verpachtung – Leerstand"
     },
     {
-      "id": "est-101",
+      "id": "est-107",
       "typ": "zuordnung",
       "thema": "Einkünfte aus Vermietung und Verpachtung – Werbungskosten",
       "frage": "Ordne die folgenden Aufwendungen bei Einkünften aus Vermietung und Verpachtung (§ 28 EStG) der richtigen Kategorie zu.",
@@ -1905,14 +2150,14 @@
       "erklaerung": "Abzugsfähig sind AfA des vermieteten Gebäudes, Fremdkapitalzinsen für die Finanzierung des Mietobjekts sowie Verwaltungskosten. Schönheitsreparaturen im Privatbereich und private Lebenshaltungskosten des Vermieters fallen unter das Abzugsverbot des § 20 EStG. Vorgestreckte und weiterverrechnete Betriebskosten sind ein bloßer Durchlaufposten (neutralisieren sich als Einnahme/Ausgabe) und daher wirtschaftlich weder abzugsfähig noch belastend."
     },
     {
-      "id": "est-102",
+      "id": "est-108",
       "typ": "multiple",
       "frage": "Welche Tatbestände fallen unter die sonstigen Einkünfte iSd § 29 EStG?",
       "optionen": [
         "Wiederkehrende Bezüge (Renten) ab Überschreiten des Rentenbarwerts (§ 29 Z 1)",
         "Einkünfte aus privaten Grundstücksveräußerungen (§ 30)",
         "Einkünfte aus gelegentlichen Leistungen (§ 29 Z 3)",
-        "Einkünfte aus nichtselbständiger Arbeit (§ 25)",
+        "Einkünfte aus nichtselbständiger Arbeit im Rahmen eines Dienstverhältnisses (§ 25 EStG)",
         "Funktionsgebühren öffentlich-rechtlicher Körperschaften (§ 29 Z 4)"
       ],
       "korrekt": [
@@ -1925,7 +2170,7 @@
       "thema": "Sonstige Einkünfte §29"
     },
     {
-      "id": "est-103",
+      "id": "est-109",
       "typ": "multiple",
       "thema": "Sonstige Einkünfte – Rententatbestände § 29 Z 1",
       "frage": "Welche der folgenden Sachverhalte stellen einen Rententatbestand iSd § 29 Z 1 EStG dar?",
@@ -1942,7 +2187,7 @@
       "erklaerung": "§ 29 Z 1 EStG erfasst wiederkehrende Bezüge, die als Gegenleistung für eine Vermögensübertragung oder aufgrund eines Versicherungsverhältnisses geleistet werden. Fall A ist eine klassische Kaufpreis-/Versorgungsrente für die Übertragung eines Wirtschaftsguts. Fall D ist der klassische Fall einer Rentenversicherung mit Ertragsanteilsbesteuerung. Fall B ist mangels Gegenleistung und Rechtsanspruch eine freiwillige, nicht steuerbare Zuwendung (keine Rente). Fall C enthält keine Geld- oder vertretbare Sachrente, sondern eine Betreuungs-/Pflegeverpflichtung – dies begründet keinen Rententatbestand iSd § 29 Z 1. (Stufe 1 – Kennen)"
     },
     {
-      "id": "est-104",
+      "id": "est-110",
       "typ": "multiple",
       "frage": "Welche Befreiungen von der Immobilienertragsteuer (§ 30 Abs 2 EStG) gibt es?",
       "optionen": [
@@ -1960,16 +2205,16 @@
       "thema": "ImmoESt – Befreiungen"
     },
     {
-      "id": "est-105",
+      "id": "est-111",
       "typ": "multiple",
       "thema": "ImmoESt – Hauptwohnsitzbefreiung – Fristen",
       "frage": "Welche der folgenden Aussagen zu den zwei Varianten der Hauptwohnsitzbefreiung (§ 30 Abs 2 Z 1 EStG) treffen zu?",
       "optionen": [
         "Variante 2: Der Hauptwohnsitz muss innerhalb der letzten 10 Jahre vor der Veräußerung mind. durchgehend 5 Jahre vorgelegen haben.",
         "Variante 1: Der Hauptwohnsitz muss seit der Anschaffung bis zur Veräußerung durchgehend mind. 2 Jahre vorgelegen haben.",
-        "Der Hauptwohnsitz muss innerhalb der letzten 5 Jahre für mind. durchgehend 10 Monate vorgelegen haben.",
-        "Der Hauptwohnsitz muss nach der Veräußerung beibehalten werden, um die Befreiung zu behalten.",
-        "Der Hauptwohnsitz muss innerhalb der letzten 10 Jahre mind. durchgehend 2 Jahre vorgelegen haben."
+        "Der Hauptwohnsitz muss innerhalb der letzten 5 Jahre für mindestens durchgehend 10 Monate ununterbrochen vorgelegen haben.",
+        "Der Hauptwohnsitz muss auch nach der Veräußerung durchgehend beibehalten werden, um die Befreiung zu erhalten.",
+        "Der Hauptwohnsitz muss innerhalb der letzten 10 Jahre mindestens durchgehend 2 Jahre ununterbrochen vorgelegen haben."
       ],
       "korrekt": [
         0,
@@ -1978,7 +2223,7 @@
       "erklaerung": "§ 30 Abs 2 Z 1 EStG kennt zwei alternative Varianten: (1) durchgehend ab Anschaffung bis Veräußerung mind. 2 Jahre Hauptwohnsitz, oder (2) innerhalb der letzten 10 Jahre vor der Veräußerung mind. durchgehend 5 Jahre Hauptwohnsitz (auch mit Unterbrechung, zB durch zwischenzeitliche Vermietung). In beiden Varianten ist zusätzlich Voraussetzung, dass der Hauptwohnsitz im Zuge der Veräußerung aufgegeben wird – das Gegenteil von Option D. Option C und E vertauschen die Zahlenwerte der beiden echten Varianten (klassische Prüfungsfalle)."
     },
     {
-      "id": "est-106",
+      "id": "est-112",
       "typ": "single",
       "frage": "Privates Grundstück (Altvermögen, zum 31.3.2012 nicht steuerverfangen) wird um € 500.000 veräußert. Wie werden die Einkünfte ermittelt?",
       "optionen": [
@@ -1994,7 +2239,7 @@
       "thema": "ImmoESt – Altvermögen"
     },
     {
-      "id": "est-107",
+      "id": "est-113",
       "typ": "single",
       "frage": "Ein gewerblicher Bauträger baut ein Mehrfamilienhaus und verkauft es 3 Jahre nach Fertigstellung. Gilt die Herstellerbefreiung?",
       "optionen": [
@@ -2010,7 +2255,7 @@
       "thema": "ImmoESt – Herstellerbefreiung"
     },
     {
-      "id": "est-108",
+      "id": "est-114",
       "typ": "multiple",
       "frage": "Welche Aussagen zu Alt- und Neuvermögen bei privaten Grundstücksveräußerungen (§ 30 EStG) sind richtig?",
       "optionen": [
@@ -2030,14 +2275,14 @@
       "thema": "ImmoESt – Alt- und Neuvermögen"
     },
     {
-      "id": "est-109",
+      "id": "est-115",
       "typ": "multiple",
       "frage": "Welche Aussagen zu Funktionsgebühren (§ 29 Z 4 EStG) sind richtig?",
       "optionen": [
         "Sie sind Bezüge von Funktionären öffentlich-rechtlicher Körperschaften (z.B. Gemeinderäte, Kammerfunktionäre).",
         "Sie sind sonstige Einkünfte, soweit sie nicht einer anderen Einkunftsart zuzuordnen sind.",
-        "Funktionsgebühren privater Vereinsfunktionäre fallen ebenfalls unter § 29 Z 4.",
-        "Funktionsgebühren sind stets endbesteuert (KESt-Abzug).",
+        "Auch Funktionsgebühren privater Vereinsfunktionäre fallen ebenso unter die Bestimmung des § 29 Z 4 EStG.",
+        "Funktionsgebühren unterliegen stets einem KESt-Abzug und gelten damit als endbesteuert.",
         "Sie sind subsidiär gegenüber anderen Einkunftsarten."
       ],
       "korrekt": [
@@ -2049,7 +2294,7 @@
       "thema": "Sonstige Einkünfte – Funktionsgebühren"
     },
     {
-      "id": "est-110",
+      "id": "est-116",
       "typ": "multiple",
       "frage": "Welche Aussagen zum Einkommensteuertarif (§ 33 EStG) ab Veranlagung 2025 sind richtig?",
       "optionen": [
@@ -2069,7 +2314,7 @@
       "thema": "Tarif §33"
     },
     {
-      "id": "est-111",
+      "id": "est-117",
       "typ": "single",
       "frage": "Ein Schriftsteller erhält im Jahr 2025 ein Honorar für eine über 3 Jahre erarbeitete Arbeit (€ 90.000 auf einmal). Welche Progressionsbegünstigung kommt in Betracht?",
       "optionen": [
@@ -2085,7 +2330,7 @@
       "thema": "Tarif – Progressionsbegünstigungen §37"
     },
     {
-      "id": "est-112",
+      "id": "est-118",
       "typ": "single",
       "thema": "Reihenfolge der Absetzbeträge",
       "frage": "Welcher Absetzbetrag wird als ERSTER von der tarifmäßigen Einkommensteuer abgezogen?",
@@ -2101,7 +2346,7 @@
       "erklaerung": "Gem. § 33 Abs 2 EStG ist der Familienbonus Plus als erster Absetzbetrag von der tarifmäßigen Einkommensteuer abzuziehen. Er kann maximal bis zur Höhe der tarifmäßigen Steuer angesetzt werden (kein Negativsteuereffekt durch den Familienbonus Plus selbst). Danach folgen: Alleinverdienerabsetzbetrag, Alleinerzieherabsetzbetrag, Unterhaltsabsetzbetrag, Verkehrsabsetzbetrag, erhöhter VAB, Pendlereuro, Pensionistenabsetzbetrag, Kindermehrbetrag."
     },
     {
-      "id": "est-113",
+      "id": "est-119",
       "typ": "multiple",
       "thema": "Reihenfolge der Absetzbeträge",
       "frage": "Welche Absetzbeträge können zu einer Negativsteuer (Gutschrift) führen, wenn die tarifmäßige ESt null ist?",
