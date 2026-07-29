@@ -1,6 +1,6 @@
 {
   "fach": "USt",
-  "quelle": "Gesamt-Fragensatz USt (157 Fragen): 70 Basis (ust-01..70), 50 Kursbeispiele (ust-71..120), 20 Stufe-2 (ust-121..140), 17 Fallbeispiele mit KZ-Erfassung (ust-141..157)",
+  "quelle": "Gesamt-Fragensatz USt (157 Fragen): 70 Basis (ust-01..70), 50 Kursbeispiele (ust-71..120), 20 Stufe-2 (ust-121..140), 17 Fallbeispiele mit KZ-Erfassung (ust-141..157); ust-163..172: 10 neue Fragen zu Übungsblatt-Themen (RCS-Übersicht, Anzahlung-Fälligkeit, Ort ig. Erwerb, Dimitri/Max/Ulf-Fallbeispiele, Bewirtungskosten, KZ-Synthese)",
   "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Skriptum BMF Okt. 2025 (KU-Grenze 55.000). Hinweis: Eigenverbrauch wird in KZ 001 erfasst (nicht KZ 000).",
   "fragen": [
     {
@@ -2644,6 +2644,217 @@
         }
       ],
       "erklaerung": "Art. 1 BMR: Ein innergemeinschaftlicher Erwerb liegt vor, wenn ein Gegenstand bei einer Lieferung aus dem Gebiet eines anderen Mitgliedstaates in das Inland gelangt und vom Erwerber (regelmäßig einem Unternehmer) für sein Unternehmen erworben wird; für bestimmte Schwellenerwerber gelten Sonderregeln (Erwerbsschwelle)."
+    },
+    {
+      "id": "ust-163",
+      "typ": "single",
+      "frage": "Der Vorsteuerabzug ist immer nur dann möglich, wenn ... (wählen Sie die Voraussetzung, die ausnahmslos in jedem Fall gilt)",
+      "optionen": [
+        "die Leistung im Inland erbracht worden ist",
+        "die Rechnung bereits bezahlt worden ist",
+        "der Leistende Unternehmer ist",
+        "die Leistung bereits erbracht worden ist"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Die anderen drei Optionen kennen jeweils Ausnahmen: 'Im Inland erbracht' ist beim Übergang der Steuerschuld (RCS Katalogleistung) oft eine gesetzliche Fiktion über das Empfängerortprinzip, obwohl die Leistung physisch im Ausland erbracht wurde (z.B. Prozessvertretung in München); bei Einfuhr/ig. Erwerb ist die Voraussetzung ohnehin nicht einschlägig, da dort eigene Vorsteuertatbestände gelten. 'Bereits erbracht' hat die Ausnahme der Anzahlung (Mindest-Istbesteuerung: Vorsteuerabzug schon vor Leistungserbringung bei Rechnung + Zahlung). 'Rechnung bezahlt' ist nur bei Ist-/Anzahlungsbesteuerung Voraussetzung, nicht bei Sollbesteuerung. Nur die Unternehmereigenschaft des Leistenden gilt ausnahmslos immer."
+    },
+    {
+      "id": "ust-164",
+      "typ": "multiple",
+      "frage": "Bei welchen der folgenden Sachverhalte kann es zum Übergang der Steuerschuld (Reverse Charge) auf den Leistungsempfänger kommen?",
+      "optionen": [
+        "Leistungen der Versicherungsvertreter an Privatpersonen",
+        "Gewöhnliche Lieferung von Gebäuden (ohne Zwangsversteigerung/Sicherungseigentum)",
+        "Lieferungen im Zusammenhang mit Geschenkkörben",
+        "Sonstige Leistungen (mit Ausnahmen) von einem ausländischen Unternehmer an einen Unternehmer im Inland",
+        "Bauleistungen",
+        "Schrottlieferungen"
+      ],
+      "korrekt": [
+        3,
+        4,
+        5
+      ],
+      "erklaerung": "RCS-Tatbestände: § 19 Abs. 1 Satz 2 (Ausländer-Leistungen an inländische Unternehmer), § 19 Abs. 1a (Bauleistungen) und § 19 Abs. 1d (Schrott- und Abfallstoffe-VO). Versicherungsvertreterleistungen an Private sind schon unecht steuerbefreit und lösen keinen Steuerschuldübergang aus; eine gewöhnliche Gebäudelieferung (ohne die Sonderfälle Zwangsversteigerung/Sicherungseigentum nach § 19 Abs. 1b) und Geschenkkörbe sind keine RCS-Tatbestände."
+    },
+    {
+      "id": "ust-165",
+      "typ": "single",
+      "frage": "Wann wird die Umsatzsteuerschuld für eine Anzahlung bei einem grundsätzlich sollbesteuerten Unternehmer fällig?",
+      "optionen": [
+        "Mit Ablauf des Monats, in dem die Anzahlung erfolgt (Mindest-Istbesteuerung für Anzahlungen)",
+        "Am Tag des Vertragsschlusses",
+        "Am Tag der Leistungsannahme",
+        "Am Tag der Rechnungsstellung"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Für Anzahlungen gilt unabhängig vom sonst angewendeten Besteuerungssystem die Mindest-Istbesteuerung: Die Steuerschuld entsteht mit Ablauf des Kalendermonats, in dem das Entgelt vereinnahmt wurde – nicht erst bei Vertragsschluss, Leistungsannahme oder Rechnungsstellung."
+    },
+    {
+      "id": "ust-166",
+      "typ": "single",
+      "frage": "Wo befindet sich der Ort des innergemeinschaftlichen Erwerbes?",
+      "optionen": [
+        "Dort, wo sich der Gegenstand am Ende der Beförderung oder Versendung befindet (Bestimmungsort)",
+        "Dort, wo die Beförderung oder Versendung beginnt",
+        "Am Unternehmerort des Erwerbers, unabhängig vom tatsächlichen Warenort",
+        "Am Sitz des liefernden Unternehmers im Ursprungsmitgliedstaat"
+      ],
+      "korrekt": [
+        0
+      ],
+      "erklaerung": "Nach Art. 3 Abs. 8 BMR wird der ig. Erwerb dort bewirkt, wo sich der Gegenstand am Ende der Beförderung/Versendung befindet (Bestimmungslandprinzip). 'Wo die Beförderung beginnt' ist hingegen die Ortsregel für die (innerstaatliche) Beförderungs-/Versendungslieferung im Inland (§ 3 Abs. 8 UStG), nicht für den ig. Erwerb selbst."
+    },
+    {
+      "id": "ust-167",
+      "typ": "multiple",
+      "frage": "Der russische Tourist Dimitri kauft im Sportgeschäft X-GmbH (Steiermark) Bergschuhe um 300,-. Da im Reisegepäck kein Platz ist, lässt er sich die Schuhe von der X-GmbH gegen zusätzlich 50,- nach Moskau versenden. Wie ist der Umsatz der X-GmbH zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 350",
+        "KZ: 011: 300",
+        "KZ: 011: 350",
+        "KZ: 017: 300",
+        "KZ: 022: 350",
+        "Es liegt eine steuerfreie Ausfuhrlieferung vor.",
+        "Es liegt eine innergemeinschaftliche Lieferung vor."
+      ],
+      "korrekt": [
+        1,
+        3,
+        6
+      ],
+      "erklaerung": "Die Versandkosten sind unselbständige Nebenleistung zur Lieferung der Schuhe, daher Gesamtentgelt 300 + 50 = 350. Da die X-GmbH den Versand ins Drittland (Russland) selbst organisiert, liegt eine echt steuerfreie Ausfuhrlieferung gem. § 7 UStG vor (KZ 000 und 011 mit 350). Russland ist kein EU-Mitgliedstaat, daher keine innergemeinschaftliche Lieferung und kein KZ 017."
+    },
+    {
+      "id": "ust-168",
+      "typ": "multiple",
+      "frage": "Max betreibt in Wien eine Versicherungsagentur mit einem steuerbaren Jahresumsatz von 130.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
+      "optionen": [
+        "Nicht steuerbar (Keine Eintragung)",
+        "KZ: 000: 130.000",
+        "KZ: 015: 130.000",
+        "KZ: 020: 130.000",
+        "KZ: 022: 130.000",
+        "KZ: 029: 130.000",
+        "Die Umsätze sind unecht steuerbefreit.",
+        "Die Umsätze sind echt steuerbefreit."
+      ],
+      "korrekt": [
+        1,
+        3,
+        6
+      ],
+      "erklaerung": "Versicherungsvertreter-/Versicherungsagenturleistungen sind gem. § 6 Abs. 1 Z 13 UStG unecht steuerbefreit (kein Vorsteuerabzug für Vorleistungen) – ähnlich wie ärztliche Leistungen. Der Umsatz ist steuerbar, aber steuerfrei; zu erfassen unter KZ 000 (Gesamtsumme) und KZ 020 (unecht befreite Umsätze). Die Kleinunternehmergrenze spielt hier keine Rolle, da sich die Befreiung schon aus der Tätigkeit selbst ergibt."
+    },
+    {
+      "id": "ust-169",
+      "typ": "multiple",
+      "frage": "Unternehmer Ulf schafft im Jahr 01 eine Büroeinrichtung um netto 15.000 (+20% USt) an, die er auf 8 Jahre verteilt abschreibt; bei Anschaffung macht er die volle Vorsteuer geltend, da er zu diesem Zeitpunkt steuerpflichtige Umsätze erzielt. Ab dem Jahr 03 ist er ausschließlich Versicherungsvertreter und verwendet die Büroeinrichtung unverändert weiter. Welche Aussagen treffen zu?",
+      "optionen": [
+        "Im Jahr 03 kommt es zu einer Änderung der Verhältnisse, da Versicherungsumsätze unecht steuerfrei sind.",
+        "Im Jahr 03 kommt es zu einer Änderung der Verhältnisse, da Versicherungsumsätze echt steuerfrei sind.",
+        "Im Jahr 03 ergibt sich dadurch eine Vorsteuerberichtigung gem. § 12 Abs. 10 UStG.",
+        "Im Jahr 03 ergibt sich dadurch eine Vorsteuerberichtigung gem. § 12 Abs. 11 UStG.",
+        "Es ist keine Vorsteuerberichtigung erforderlich, da die Büroeinrichtung unverändert weiterverwendet wird."
+      ],
+      "korrekt": [
+        0,
+        2
+      ],
+      "erklaerung": "Die Büroeinrichtung ist Anlagevermögen; dafür gilt der 5-jährige Berichtigungszeitraum nach § 12 Abs. 10 UStG (Abs. 11 betrifft Umlaufvermögen). Da Ulf ab Jahr 03 ausschließlich unecht steuerbefreite Versicherungsumsätze (§ 6 Abs. 1 Z 13) erzielt, ändert sich das Verhältnis steuerpflichtiger zu steuerfreien Umsätzen innerhalb des Berichtigungszeitraums – eine Vorsteuerberichtigung zu Ulfs Ungunsten ist vorzunehmen, obwohl der Gegenstand unverändert weiterverwendet wird (entscheidend ist die geänderte Nutzung/das geänderte Umsatzverhältnis, nicht die physische Verwendung)."
+    },
+    {
+      "id": "ust-170",
+      "typ": "single",
+      "frage": "Für Bewirtungskosten, die der Werbung dienen und bei denen die betriebliche oder berufliche Veranlassung weitaus überwiegt, steht ertragsteuerlich nur ein hälftiger Betriebsausgabenabzug zu (§ 20 Abs. 1 Z 3 EStG). Welcher Vorsteuerabzug steht dem Unternehmer dennoch zu?",
+      "optionen": [
+        "Keine Vorsteuer",
+        "50 % Vorsteuer, entsprechend der ertragsteuerlichen Kürzung",
+        "100 % Vorsteuer",
+        "Vorsteuerabzug ja, aber mit anschließender Vorsteuerberichtigung gem. § 12 Abs. 3 UStG"
+      ],
+      "korrekt": [
+        2
+      ],
+      "erklaerung": "Die hälftige Kürzung nach § 20 Abs. 1 Z 3 EStG ist eine rein ertragsteuerliche Regelung und schlägt nicht auf § 12 UStG durch. Trotz nur 50%iger Abzugsfähigkeit als Betriebsausgabe steht bei werbewirksamer Bewirtung mit weit überwiegender betrieblicher/beruflicher Veranlassung der volle (100%) Vorsteuerabzug zu. Eine Vorsteuerberichtigung ist hier nicht einschlägig, da es sich nicht um Anlagevermögen mit Berichtigungszeitraum handelt."
+    },
+    {
+      "id": "ust-171",
+      "typ": "luecke",
+      "frage": "Vervollständigen Sie die Voraussetzungen für den Übergang der Steuerschuld bei ausländischen Unternehmern (§ 19 Abs. 1 Satz 2 UStG).",
+      "text": "Eine {0} oder Werklieferung eines {1} Unternehmers an einen {2} ist im Inland {3}; die Steuerschuld geht dabei auf den {4} über.",
+      "luecken": [
+        {
+          "optionen": [
+            "sonstige Leistung",
+            "Ausfuhrlieferung",
+            "innergemeinschaftliche Lieferung"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "ausländischen",
+            "inländischen",
+            "gemeinnützigen"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Unternehmer oder eine juristische Person öffentlichen Rechts",
+            "Privaten",
+            "Kleinunternehmer ohne Rücksicht auf dessen Status"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "steuerbar und steuerpflichtig",
+            "nicht steuerbar",
+            "unecht steuerbefreit"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "Leistungsempfänger",
+            "leistenden Unternehmer",
+            "Bundesminister für Finanzen"
+          ],
+          "loesung": 0
+        }
+      ],
+      "erklaerung": "§ 19 Abs. 1 Satz 2 UStG: Sonstige Leistung oder Werklieferung eines ausländischen (nicht im Inland ansässigen) Unternehmers an einen Unternehmer oder eine jur. Person öffentlichen Rechts, steuerbar und steuerpflichtig im Inland → Übergang der Steuerschuld auf den Leistungsempfänger (KZ 057, ggf. zusätzlich KZ 066 bei Vorsteuerabzug)."
+    },
+    {
+      "id": "ust-172",
+      "typ": "zuordnung",
+      "frage": "Ordne jedem Sachverhalt die Kennzahl zu, unter der die Bemessungsgrundlage bzw. der Steuerbetrag primär zu erfassen ist.",
+      "kategorien": [
+        "KZ 011 (Ausfuhrlieferung)",
+        "KZ 017 (ig. Lieferung)",
+        "KZ 057 (RCS Ausländer, Steuerbetrag)",
+        "KZ 001 (Eigenverbrauch)"
+      ],
+      "elemente": [
+        "Versandlieferung an einen Privaten in ein Drittland (Versand durch den Unternehmer organisiert)",
+        "Lieferung von Waren an einen Unternehmer in einem anderen EU-Mitgliedstaat",
+        "Sonstige Leistung eines ausländischen Unternehmers an einen inländischen Unternehmer",
+        "Dauerhafte Entnahme eines Gegenstandes für private Zwecke"
+      ],
+      "loesung": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Ausfuhrlieferungen (Drittland) → KZ 011; innergemeinschaftliche Lieferungen (EU) → KZ 017; Übergang der Steuerschuld bei ausländischen Unternehmern → KZ 057 beim Leistungsempfänger (Steuerbetrag, nicht Bemessungsgrundlage!); jede Form des Eigenverbrauchs (Entnahme-, Verwendungs- oder Aufwandseigenverbrauch) → immer KZ 001, nie KZ 000."
     }
   ]
 }

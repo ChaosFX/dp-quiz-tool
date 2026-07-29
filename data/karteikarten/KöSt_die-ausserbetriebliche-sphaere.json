@@ -1,0 +1,22 @@
+{
+  "fach": "KöSt",
+  "thema": "Die außerbetriebliche Sphäre",
+  "quelle_note": "Körperschaftsteuer/Außerbetriebliche Sphäre.md",
+  "karten": [
+    {
+      "id": "koest-die-ausserbetriebliche-sphaere-01",
+      "frage": "Wonach richtet sich, ob eine Immobilie zum Betriebsvermögen oder zur außerbetrieblichen Sphäre gehört?",
+      "antwort": "Danach, ob die Anschaffung/Herstellung der **Einkommenserzielung** dient oder nur im **Interesse der Gesellschafterin** (sozietär veranlasst) erfolgte."
+    },
+    {
+      "id": "koest-die-ausserbetriebliche-sphaere-02",
+      "frage": "Nenne die drei Prüfstufen bei Immobilienüberlassung an den Gesellschafter.",
+      "antwort": "1. Funktionierender Mietemarkt\n2. Ohne Mietemarkt: abstrakte Renditemiete (3-5 % der AK/HK)\n3. Luxusimmoblie: außerbetriebliche Sphäre, keine Betriebsausgaben/-einnahmen mehr, laufende vA."
+    },
+    {
+      "id": "koest-die-ausserbetriebliche-sphaere-03",
+      "frage": "Was passiert steuerlich, wenn eine Immoblie der außerbetrieblichen Sphäre zugeordnet wird?",
+      "antwort": "Aufwendungen verlieren die Betriebsausgabeneigenschaft, Mietverträge sind nicht steuerwirksam; die Differenz zwischen Miete und Renditemiete ist eine laufende vA bei der Gesellschafterin."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Einkünfte aus selbständiger Arbeit § 22 EStG",
+  "quelle_note": "Einkommensteuer/Selbstständige Arbeit.md",
+  "karten": [
+    {
+      "id": "est-einkuenfte-aus-selbstaendiger-arbeit-22-estg-01",
+      "frage": "Welche Merkmale kennzeichnen die selbständige Tätigkeit?",
+      "antwort": "Besondere Berufsbildung/persönliche Fähigkeiten/Fachkenntnisse; eigenes geistiges Vermögen und persönliche Arbeitsleistung im Vordergrund."
+    },
+    {
+      "id": "est-einkuenfte-aus-selbstaendiger-arbeit-22-estg-02",
+      "frage": "In welche Tätigkeitsbereiche gliedert sich § 22?",
+      "antwort": "Freiberufliche Tätigkeit (Z 1), sonstige selbständige Tätigkeit (Z 2), Mitunnternehmerschaft (Z 3), Bezüge aus sozialen Einrichtungen (Z 4), Veräußerungsgewinne (Z 5)."
+    },
+    {
+      "id": "est-einkuenfte-aus-selbstaendiger-arbeit-22-estg-03",
+      "frage": "Wer ist ein Gesellschafter-Geschäftsführer?",
+      "antwort": "Ein zu mehr als 25 % an einer Kapitalgesellschaft Beteiligter, der gleichzeitig in einem dienstnehmerähnlichen Beschäftigungsverhältnis (ohne persönliche Weisungsgebundenheit) steht."
+    },
+    {
+      "id": "est-einkuenfte-aus-selbstaendiger-arbeit-22-estg-04",
+      "frage": "Was besagen die eingeschränkte und uneingeschränkte Vervielfältiungstheorie?",
+      "antwort": "Eingeschränkt (Z 1): Hilfskräfte unschädlich, wenn der Steuerpflichtige selbst leitend/eigenverantwortlich tätig bleibt.\nUneingeschränkt (Z 2): Beschäftigung fachlich ausgebildeter Hilfskräfte macht die Tätigkeit sofort gewerblich."
+    }
+  ]
+}

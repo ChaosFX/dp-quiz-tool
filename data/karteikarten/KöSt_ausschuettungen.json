@@ -1,0 +1,52 @@
+{
+  "fach": "KöSt",
+  "thema": "Ausschüttungen",
+  "quelle_note": "Körperschaftsteuer/Ausschüttungen.md",
+  "karten": [
+    {
+      "id": "koest-ausschuettungen-01",
+      "frage": "Wie werden Ausschüttungen bei der Einkommensermittlung behandelt?",
+      "antwort": "Sie werden **neutralisiert** (§ 8 Abs 2 KStG) - dürfen die KöSt-Bemessungsgrundlage weder als offene noch als verdeckte Ausschüttung mindern."
+    },
+    {
+      "id": "koest-ausschuettungen-02",
+      "frage": "Nenne die vier Voraussetzungen einer verdeckten Ausschüttung.",
+      "antwort": "Eigentums-/Nahebeziehung; objektives Tatbild (Bereicherung/verhinderte Vermögensmehrung); subjektives Tatbild (Vorteilsgewährungsabsicht); Fremdüblichkeit."
+    },
+    {
+      "id": "koest-ausschuettungen-03",
+      "frage": "Wem wird eine vA zugerechnet, wenn der Vorteil einer nahestehenden Person zufießt?",
+      "antwort": "**Immer dem Anteilsinhaber** - nie der nahestehenden Person selbst."
+    },
+    {
+      "id": "koest-ausschuettungen-04",
+      "frage": "Was unterscheidet direkt und indirekte verdeckte Ausschüttungen?",
+      "antwort": "Direkte vA: unrichtiger **Aufwand** wird als Betriebsausgabe geltend gemacht.\nIndirekte vA: der Körperschaft werden **Erträge entzogen/vorenthalten**."
+    },
+    {
+      "id": "koest-ausschuettungen-05",
+      "frage": "Wie unterscheiden sich Variante 1 und 2 bei der KESt-Berechnung?",
+      "antwort": "Variante 1 (Gesellschafterin trägt die KESt): Bereicherung = Bruttobetrag, KESt = 27,5 % davon. \nVariante 2 (Gesellschaft trägt die KESt): Bereicherung = Nettobetrag, KESt = 37,93 % davon (hochgerechnet), bei der Gesellschaft nicht abzugsfähig."
+    },
+    {
+      "id": "koest-ausschuettungen-06",
+      "frage": "Unter welchen Voraussetzungen ist eine Ausschüttung an eine Muttergesellschaft KESt-befreit?",
+      "antwort": "§ 94 Z 2 EStG: unbeschränkt stpfl. Bzw. EU-Mutter/Tochter-Körperschaft als Empfänger, ausschüttende AG/GmbH/Genossenschaft, Beteiligung ≥ 10 % seit mindestens einem Jahr ununterbrochen."
+    },
+    {
+      "id": "koest-ausschuettungen-07",
+      "frage": "Wie kann eine verdeckte Ausschüttung rückgängig gemacht werden?",
+      "antwort": "Nur durch Rückforderung **spätestens am Bilanzstichtag** (Ausweis als Forderung). Eine spätere Rückzahlung gilt als Einlage (§ 8 Abs 1 KStG)."
+    },
+    {
+      "id": "koest-ausschuettungen-08",
+      "frage": "Wann liegt bei einem Verrechnungskonto eine vA vor?",
+      "antwort": "Wenn die Forderung der Gesellschaft gegenüber dem Gesellschafter **nicht werthaltig** ist - mangels Rückzahlungswillen oder Bonität. Dann vA im **gesamten** Ausmaß des Kontos."
+    },
+    {
+      "id": "koest-ausschuettungen-09",
+      "frage": "In welcher Reihenfolge werden vA-Korrektur und Liebhabereiprüfung durchgeführt?",
+      "antwort": "Erst die vA-Korrektur, dann (nur bei verbleibenden Verlust) die Liebhabereiprüfung."
+    }
+  ]
+}

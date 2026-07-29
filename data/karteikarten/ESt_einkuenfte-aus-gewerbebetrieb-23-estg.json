@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Einkünfte aus Gewerbebetrieb (§ 23 EStG)",
+  "quelle_note": "Einkommensteuer/Gewerbebetrieb.md",
+  "karten": [
+    {
+      "id": "est-einkuenfte-aus-gewerbebetrieb-23-estg-01",
+      "frage": "Wodurch sind sowohl Gewerbebetriebe als auch alle betrieblichen Einkünfte gekennzeichnet?",
+      "antwort": "Selbständigkeit, Nachhaltigkeit, Gewinnabsicht, Beteiligung am allgemeinen wirtschaftlichen Verkehr."
+    },
+    {
+      "id": "est-einkuenfte-aus-gewerbebetrieb-23-estg-02",
+      "frage": "Was bleibt nach Abzug von L+F und selbständiger Arbeit als Gewerbebetrieb übrig?",
+      "antwort": "Alle Tätigkeiten, die die gemeinsamen Merkmale erfüllen, keine L+F/selbständige Arbeit sind und über bloße Vermögensverwaltung hinausgehen."
+    },
+    {
+      "id": "est-einkuenfte-aus-gewerbebetrieb-23-estg-03",
+      "frage": "Wann wird aus einer Vermietung ein Gewerbebetrieb?",
+      "antwort": "Bei unbeweglichem Vermögen: durch zusätzliche, gewerbetypische Leistungen. Bei beweglichem Vermögen (einzelnes WG): praktisch nie - bleibt Vermögensverwaltung."
+    },
+    {
+      "id": "est-einkuenfte-aus-gewerbebetrieb-23-estg-04",
+      "frage": "Wann liegt gewerblicher Grundstückshandel vor?",
+      "antwort": "Bei nachhaltiger, planmäßiger, gewinnorientierter Veräußerung, wenn die Vermögensverwertung (nicht die Fruchtziehung) im Vordergrund steht."
+    }
+  ]
+}

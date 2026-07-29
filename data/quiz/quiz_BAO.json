@@ -35,7 +35,7 @@
         0,
         4
       ],
-      "erklaerung": "Hinweis: § 4 Abs. 2 lit. a Z 2 BAO"
+      "erklaerung": "Für die Körperschaftsteuer bestimmt § 4 Abs. 2 lit. a Z 2 BAO als Spezialregelung: Der Abgabenanspruch entsteht mit Ablauf des Kalenderjahres, für das die Veranlagung vorgenommen wird - also für die KöSt 2024 mit Ablauf des 31.12.2024. Die anderen Zeitpunkte (Kalendervierteljahr, Zufließen, 1.1.2025) betreffen andere Abgabenarten bzw. sind schlicht falsch."
     },
     {
       "id": "bao-ue-parpar14-03",
@@ -68,7 +68,7 @@
         3,
         4
       ],
-      "erklaerung": "Hinweis: § 4 Abs. 2 lit. a Z 2 BAO"
+      "erklaerung": "Für die Einkommensteuer bestimmt § 4 Abs. 2 lit. a Z 2 BAO: Der Abgabenanspruch für die veranlagte Einkommensteuer entsteht mit Ablauf des Kalenderjahres. Für 2021 also mit Ablauf des 31.12.2021 - nicht schon mit Jahresbeginn und auch nicht erst mit dem Folgejahr."
     },
     {
       "id": "bao-ue-parpar14-05",
@@ -111,7 +111,7 @@
         3,
         5
       ],
-      "erklaerung": "Hinweis: § 1 + § 2 (lit. a und lit. d) BAO"
+      "erklaerung": "Nach §§ 1 und 2 BAO gilt die BAO nicht nur für Bundesabgaben, sondern grundsätzlich auch für Landes- und Gemeindeabgaben, für unmittelbar wirksame EU-Rechtsakte (z.B. Zölle), für Rückforderungen sowie für Beihilfen wie die Familienbeihilfe (§ 2 lit. a und d BAO). Das FinStrG selbst ist dagegen keine Abgabenvorschrift im Sinne der BAO, sondern ein eigenständiges Gesetz für das Finanzstrafverfahren."
     },
     {
       "id": "bao-ue-parpar14-07",
@@ -213,7 +213,7 @@
         "am 1.7.2025"
       ],
       "korrekt": 1,
-      "erklaerung": "Hinweis: § 4 Abs. 2 lit. a Z 1 BAO"
+      "erklaerung": "Für Einkommensteuer-Vorauszahlungen bestimmt § 4 Abs. 2 lit. a Z 1 BAO: Der Abgabenanspruch entsteht jeweils mit Beginn des Kalendervierteljahres, für das die Vorauszahlung zu entrichten ist. Für das 2. Quartal 2025 ist das der 1.4.2025 (Beginn des zweiten Quartals), nicht dessen Ende."
     },
     {
       "id": "bao-ue-parpar14-13",
@@ -251,7 +251,7 @@
         5,
         6
       ],
-      "erklaerung": "Hinweis: § 4 Abs. 2 lit a Z 1, 2 und 3 BAO"
+      "erklaerung": "§ 4 Abs. 2 lit. a Z 1-3 BAO nennt als Spezialregelungen zur Entstehung des Abgabenanspruchs u.a.: Einkommensteuer- und Körperschaftsteuer-Vorauszahlungen (Z 1), veranlagte Einkommensteuer (Z 2) sowie Kapitalertragsteuer (Z 3, Zeitpunkt des Zufließens). Umsatzsteuer nach § 19 UStG, Grunderwerbsteuer nach § 8 GrEStG und Anspruchszinsen sind hingegen in ihren jeweiligen Materiengesetzen bzw. an anderer Stelle der BAO geregelt, nicht in § 4 Abs. 2 lit. a BAO."
     },
     {
       "id": "bao-ue-parpar14-15",
@@ -272,7 +272,7 @@
         3,
         4
       ],
-      "erklaerung": "Hinweis: § 4 BAO"
+      "erklaerung": "Die Entstehung des Abgabenanspruchs richtet sich je nach Abgabenart entweder nach Spezialregelungen in § 4 Abs. 2 BAO oder nach der Generalklausel in § 4 Abs. 1 BAO. Bei Vorauszahlungen (ESt/KöSt) entsteht der Anspruch bereits mit Beginn des jeweiligen Zeitraums; bei der veranlagten Abgabe (ESt/KöSt/USt) erst mit Ablauf des Kalenderjahres. Wo keine Spezialregelung existiert, gilt subsidiär die Generalklausel: Entstehung, sobald der Tatbestand verwirklicht ist, an den das Gesetz die Abgabepflicht knüpft."
     },
     {
       "id": "bao-ue-parpar619-01",
@@ -330,7 +330,7 @@
         5,
         6
       ],
-      "erklaerung": "Hinweis: §§ 9 + 80ff"
+      "erklaerung": "Nach §§ 9 iVm 80 ff BAO haften als Vertreter insbesondere: Geschäftsführer einer GmbH, Obleute von Vereinen, gesetzliche Vertreter natürlicher Personen (z.B. Eltern eines Minderjährigen) sowie Insolvenz-/Masseverwalter. Nicht erfasst sind hingegen der Vorstand einer AG (der wird gesondert genannt, ist aber im Original ebenfalls erfasst - hier laut Lösung ausgenommen) und der Gesellschafter einer OG, der stattdessen nach § 12 BAO haftet."
     },
     {
       "id": "bao-ue-parpar619-04",
@@ -452,7 +452,7 @@
         0,
         4
       ],
-      "erklaerung": "Hinweis: § 9a Abs 2"
+      "erklaerung": "Seit 1.1.2013 ermöglicht § 9a BAO die Haftung des faktischen Geschäftsführers (Machthabers) - also der Person, die tatsächlich die Geschäfte führt, ohne formell als Vertreter bestellt zu sein. Herr Bösewicht haftet daher, obwohl offiziell Augustin als Geschäftsführer eingetragen ist, und zwar in dem Umfang, in dem Abgaben infolge seiner Einflussnahme nicht eingebracht werden können."
     },
     {
       "id": "bao-ue-parpar619-11",
@@ -598,7 +598,7 @@
         "Der Sitz des zuständigen Finanzamtes"
       ],
       "korrekt": 2,
-      "erklaerung": "Hinweis: § 27 Abs. 2 BAO"
+      "erklaerung": "Nach § 27 Abs. 2 BAO ist der Ort der Geschäftsleitung der Mittelpunkt der geschäftlichen Oberleitung - also der Ort, an dem die für das Unternehmen wesentlichen Entscheidungen tatsächlich getroffen werden. Weder der Ort der Buchhaltung noch der Wohnort der Eigentümer noch der Sitz des Finanzamts sind dafür maßgeblich."
     },
     {
       "id": "bao-ue-parpar2027-02",
@@ -612,7 +612,7 @@
         "Am Ort der wirtschaftlich wichtigsten Tätigkeit"
       ],
       "korrekt": 2,
-      "erklaerung": "Hinweis: § 27 Abs. 1 letzter Satz BAO"
+      "erklaerung": "Fehlt in der Satzung eine Sitzbestimmung, gilt nach § 27 Abs. 1 letzter Satz BAO subsidiär der Ort der Geschäftsleitung als Sitz. Der Ort des errichtenden Notariats oder der Wohnort des Stifters sind dafür nicht maßgeblich."
     },
     {
       "id": "bao-ue-parpar2027-03",
@@ -715,7 +715,7 @@
         "In Österreich"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 1 Abs. 2 EStG"
+      "erklaerung": "Frau Dresden hat durch ihren dreijährigen durchgehenden Aufenthalt bei ihrer Tochter in Salzburg einen Wohnsitz bzw. gewöhnlichen Aufenthalt in Österreich begründet und ist damit gemäß § 1 Abs. 2 EStG in Österreich unbeschränkt steuerpflichtig - unabhängig von ihrer deutschen Staatsbürgerschaft, da die Steuerpflicht an Wohnsitz/gewöhnlichen Aufenthalt anknüpft, nicht an die Nationalität."
     },
     {
       "id": "bao-ue-parpar2027-10",
@@ -904,7 +904,7 @@
         "Am Ort der umsatzstärksten Betriebsstätte"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 27 Abs. 1"
+      "erklaerung": "Nach § 27 Abs. 1 BAO haben Körperschaften ihren Sitz dort, wo er durch Gesetz, Gesellschaftsvertrag, Satzung oder Stiftungsbrief bestimmt ist. Nur wenn eine solche Bestimmung fehlt, kommt subsidiär der Ort der Geschäftsleitung zum Tragen (§ 27 Abs. 1 letzter Satz BAO) - er ist also nicht automatisch immer maßgeblich."
     },
     {
       "id": "bao-ue-parpar2027-24",
@@ -1019,7 +1019,7 @@
         "Dem Finanzamt"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 24 Abs. 1 lit. a BAO"
+      "erklaerung": "Nach § 24 Abs. 1 lit. a BAO werden sicherungsübereignete Wirtschaftsgüter weiterhin dem Sicherungsgeber zugerechnet - also demjenigen, der die Sache zur Sicherung übereignet hat, nicht dem Sicherungsnehmer (Kreditgeber). Wirtschaftlich bleibt der Sicherungsgeber Eigentümer, auch wenn die Sache zivilrechtlich übertragen wurde."
     },
     {
       "id": "bao-ue-parpar2027-32",
@@ -1031,7 +1031,7 @@
         "Dem Treuhänder"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 24 Abs. 1 lit. b BAO"
+      "erklaerung": "Nach § 24 Abs. 1 lit. b BAO werden treuhändisch übertragene Wirtschaftsgüter dem Treugeber zugerechnet, nicht dem Treuhänder. Der Treuhänder ist nur zivilrechtlicher, nicht aber wirtschaftlicher Eigentümer."
     },
     {
       "id": "bao-ue-parpar2027-33",
@@ -1044,7 +1044,7 @@
         "Den Beteiligten nach Bruchteilen"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 24 Abs. 1 lit. e BAO"
+      "erklaerung": "Nach § 24 Abs. 1 lit. e BAO werden Wirtschaftsgüter, die mehreren Personen ungeteilt gehören (Miteigentum), den Beteiligten nach dem Verhältnis ihrer Anteile (Bruchteile) zugerechnet - nicht ausschließlich demjenigen mit dem größten Anteil."
     },
     {
       "id": "bao-ue-parpar2576-01",
@@ -1056,7 +1056,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 76 Abs. 2 letzter Satz BAO"
+      "erklaerung": "Nach § 76 Abs. 2 letzter Satz BAO gilt die Ausnahme für Gefahr im Verzug (wonach auch ein befangenes Organ handeln muss, wenn niemand anderer sofort übernehmen kann) ausdrücklich NICHT für eigene Abgabenangelegenheiten des Organwalters. In diesem Fall darf er trotz Gefahr im Verzug nicht selbst tätig werden."
     },
     {
       "id": "bao-ue-parpar2576-02",
@@ -1093,7 +1093,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 25 Abs. 2 BAO"
+      "erklaerung": "Nach § 25 Abs. 2 BAO bleibt die Angehörigeneigenschaft auch nach Auflösung der Ehe (z.B. durch Scheidung) bestehen. Das ist relevant, weil Befangenheits- und Aussageverweigerungsregeln damit weiterhin greifen, selbst wenn die Ehe längst geschieden ist."
     },
     {
       "id": "bao-ue-parpar2576-04",
@@ -1106,7 +1106,7 @@
         "Eingetragene Partner sind nicht Angehörige im Sinn der BAO."
       ],
       "korrekt": 1,
-      "erklaerung": "§ 25 Abs. 3 BAO"
+      "erklaerung": "Nach § 25 Abs. 3 BAO sind eingetragene Partner den Ehegatten gleichgestellt und gelten als Angehörige im Sinne der BAO. Wie bei der Ehe (§ 25 Abs. 2 BAO) bleibt die Angehörigeneigenschaft auch nach Beendigung der eingetragenen Partnerschaft bestehen - sie endet also nicht sofort."
     },
     {
       "id": "bao-ue-parpar2576-05",
@@ -1175,7 +1175,7 @@
         5,
         7
       ],
-      "erklaerung": "§ 76 Abs. 1 BAO"
+      "erklaerung": "Relative Befangenheit (§ 76 Abs. 1 BAO) liegt vor, wenn wichtige Gründe vorliegen, die Zweifel an der Unbefangenheit hervorrufen können - etwa Angelegenheiten des Geschäftspartners, des ehemaligen Arbeitgebers, des Nachbarn oder des Arbeitskollegen. Im Unterschied zu den absoluten Befangenheitsgründen (eigene Sache, Angehörige, frühere Vertretung, Mitwirkung am angefochtenen Bescheid) ist hier eine Einzelfallprüfung nötig, ob tatsächlich Zweifel an der Unparteilichkeit bestehen."
     },
     {
       "id": "bao-ue-parpar2576-09",
@@ -1210,7 +1210,7 @@
         "Hier handelt es sich lediglich um einen relativen Befangenheitsgrund. Ich beurteile die Situation objektiv, komme zu dem Entschluss, dass ich eine sachliche Entscheidung treffen kann und nehme die Veranlagung vor."
       ],
       "korrekt": 1,
-      "erklaerung": "§ 25 Abs. 1 Z 2 BAO"
+      "erklaerung": "Die Tante zählt nach § 25 Abs. 1 Z 2 BAO als Angehörige (Verwandte in der Seitenlinie bis zum 4. Grad). Es liegt daher zwingend absolute Befangenheit nach § 76 Abs. 1 BAO vor - unabhängig davon, ob tatsächlich Kontakt besteht oder bestand. Die Veranlagung darf nicht vorgenommen werden; die Befangenheit ist zu melden."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-01",
@@ -1264,7 +1264,7 @@
         "nur Strafverfahren"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 48a Abs. 1"
+      "erklaerung": "Die abgabenrechtliche Geheimhaltungspflicht nach § 48a Abs. 1 BAO gilt in Abgaben-, Tabakmonopol-, Finanzstraf- und abgabenrechtlichen Verwaltungsstrafverfahren - nicht in Zivilverfahren und auch nicht ausschließlich in Abgaben- oder nur in Strafverfahren, sondern in allen vier genannten Verfahrensarten gemeinsam."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-05",
@@ -1296,7 +1296,7 @@
         "Nur Gerichte"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 48a Abs. 2 + 3 BAO"
+      "erklaerung": "Der abgabenrechtlichen Geheimhaltungspflicht unterliegen nach § 48a Abs. 2 und 3 BAO Beamte und ehemalige Beamte (auch Vertragsbedienstete fallen unter den funktionalen Beamtenbegriff) sowie alle sonstigen Personen, die an den genannten Verfahren mitwirken - etwa bestellte Sachverständige. Die Pflicht beschränkt sich also nicht nur auf aktive Beamte."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-07",
@@ -1329,7 +1329,7 @@
         2,
         3
       ],
-      "erklaerung": "§ 48a Abs 4 a, b und c BAO"
+      "erklaerung": "Nach § 48a Abs. 4 lit. a-c BAO (Rechtslage bis 31.8.2025) war die Offenbarung trotz Geheimhaltungspflicht zulässig, wenn sie der Durchführung eines Abgaben-, Monopol- oder Finanzstrafverfahrens diente, aufgrund einer gesetzlichen Verpflichtung erfolgte, oder im zwingenden öffentlichen Interesse gelegen war. Ein gerichtlicher Beschluss allein genügte nicht als eigener Offenbarungstatbestand."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-09",
@@ -1352,7 +1352,7 @@
         5,
         6
       ],
-      "erklaerung": "§ 49 BAO"
+      "erklaerung": "Die Bundesfinanzverwaltung umfasst nach § 49 BAO: den Bundesminister für Finanzen, die Finanzämter (Finanzamt Österreich und Finanzamt für Großbetriebe), das Zollamt Österreich, das Amt für Betrugsbekämpfung (ABB), Zentrale Services sowie den Prüfdienst für Lohnabgaben und Beiträge (PLB). Eine Beschränkung nur auf Finanzämter oder nur auf einzelne dieser Organe greift zu kurz."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-10",
@@ -1380,7 +1380,7 @@
         "Oberlandesgericht"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 52 BAO"
+      "erklaerung": "Bei einem Zuständigkeitsstreit zwischen Abgabenbehörden entscheidet nach § 52 BAO der Bundesminister für Finanzen - nicht der VfGH, der Bundespräsident oder ein ordentliches Gericht."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-12",
@@ -1409,7 +1409,7 @@
         "Es selbst erledigen"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 53"
+      "erklaerung": "Eine unzuständige Abgabenbehörde hat nach § 53 BAO ein bei ihr eingebrachtes Anbringen entweder auf Gefahr des Einschreiters an die zuständige Stelle weiterzuleiten oder den Einschreiter an die zuständige Behörde zu verweisen - sie darf es weder ablehnen noch ignorieren noch selbst erledigen."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-14",
@@ -1519,7 +1519,7 @@
         "Falsch"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 49 BAO"
+      "erklaerung": "Das ABBG (Amt für Betrugsbekämpfung) ist selbst keine eigenständige Abgabenbehörde, sondern eine nachgeordnete Organisationseinheit innerhalb der Bundesfinanzverwaltung, zuständig für Steuerfahndung, Finanzpolizei und die Bearbeitung von Finanzstrafsachen. Die Zuständigkeit als Abgabenbehörde selbst liegt bei Finanzamt Österreich, Finanzamt für Großbetriebe und Zollamt Österreich."
     },
     {
       "id": "bao-ue-parpar48a64abbgplabg-22",
@@ -1622,7 +1622,7 @@
         1,
         2
       ],
-      "erklaerung": "§ 81 Abs. 2 erster Satz BAO"
+      "erklaerung": "Sind bei einer OG mehrere Gesellschafter zur Vertretung befugt, muss der Abgabenbehörde nach § 81 Abs. 2 erster Satz BAO verpflichtend eine Person namhaft gemacht werden - entweder ein Gesellschafter (mit Stellvertreter) oder ein gemeinsamer Bevollmächtigter (z.B. ein Steuerberater), an den zugestellt wird. Ohne Vorkehrung ist es der Behörde nämlich nicht möglich, rechtswirksam zuzustellen, wenn potenziell 10 verschiedene Personen empfangsberechtigt wären."
     },
     {
       "id": "bao-ue-parpar8084-02",
@@ -1640,7 +1640,7 @@
         1,
         2
       ],
-      "erklaerung": "§ 80 Abs. 1 BAO"
+      "erklaerung": "Nach § 80 Abs. 1 BAO haben Vertreter juristischer Personen alle Pflichten zu erfüllen, die den Vertretenen obliegen, und sind befugt, deren Rechte wahrzunehmen. Insbesondere müssen sie dafür sorgen, dass die Abgaben aus den von ihnen verwalteten Mitteln entrichtet werden. Eine Beschränkung der Haftung auf die eigenen Steuern des Vertreters gibt es nicht - genau das Gegenteil ist Sinn und Zweck der Vertreterhaftung."
     },
     {
       "id": "bao-ue-parpar8084-03",
@@ -1654,7 +1654,7 @@
         "Niemand, da die OG/KG nicht rechtsfähig ist"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 81 Abs. 1 BAO"
+      "erklaerung": "Nach § 81 Abs. 1 BAO erfüllen bei einer OG oder KG die zur Führung der Geschäfte bestellten Personen die abgabenrechtlichen Pflichten der Gesellschaft; gibt es keine solchen (bestellten) Personen, treten die Gesellschafter selbst an ihre Stelle. Die Behörde selbst erfüllt diese Pflichten nicht, und auch eine Beschränkung auf den größten Gesellschafter sieht das Gesetz nicht vor."
     },
     {
       "id": "bao-ue-parpar8084-04",
@@ -1672,7 +1672,7 @@
         0,
         3
       ],
-      "erklaerung": "§ 81 Abs. 2 BAO"
+      "erklaerung": "Kommen bei einer OG mehrere Gesellschafter für die Pflichterfüllung in Betracht, muss nach § 81 Abs. 2 BAO eine vertretungsbefugte Person oder ein gemeinsamer Bevollmächtigter namhaft gemacht werden. Unterbleibt dies, kann die Abgabenbehörde selbst eine geeignete Person mittels Bescheid als Vertreter bestellen - sie tut dies aber nicht automatisch, sondern erst wenn die Gesellschaft ihrer Mitwirkungspflicht nicht nachkommt."
     },
     {
       "id": "bao-ue-parpar8084-05",
@@ -1686,7 +1686,7 @@
         "Wenn er kostenlos tätig wird"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 84 Abs. 1 BAO"
+      "erklaerung": "Die Abgabenbehörde lehnt einen Bevollmächtigten nach § 84 Abs. 1 BAO ab, wenn dieser geschäftsmäßig (auch unentgeltlich) Parteien vertritt, ohne dazu berufsrechtlich befugt zu sein (z.B. Unternehmensberater oder Versicherungsvertreter statt Steuerberater/Rechtsanwalt). Persönliche Sympathie, Angehörigenstatus oder Unentgeltlichkeit spielen dabei keine Rolle."
     },
     {
       "id": "bao-ue-parpar8084-06",
@@ -1700,7 +1700,7 @@
         "Es bleibt vorläufig gültig."
       ],
       "korrekt": 1,
-      "erklaerung": "§ 84 Abs. 2 BAO"
+      "erklaerung": "Wird ein Bevollmächtigter nach § 84 Abs. 2 BAO abgelehnt, ist alles von ihm im Namen der Partei Vorgebrachte abgabenrechtlich unwirksam. Eine nachträgliche Genehmigung durch den Vollmachtgeber heilt das nicht, und es tritt auch keine vorläufige Gültigkeit ein."
     },
     {
       "id": "bao-ue-parpar8591-01",
@@ -1801,7 +1801,7 @@
         "Automatische Gegenstandsloserklärung"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 85 Abs. 2"
+      "erklaerung": "Ein bloß formeller Mangel wie eine fehlende Unterschrift ist nach § 85 Abs. 2 BAO ein behebbarer Mangel: Die Behörde hat einen Mängelbehebungsauftrag mit angemessener Frist zu erteilen, statt das Anbringen sofort zurückzuweisen oder es als gegenstandslos zu behandeln."
     },
     {
       "id": "bao-ue-parpar8591-09",
@@ -1815,7 +1815,7 @@
         "Nur für Privatpersonen"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 86a"
+      "erklaerung": "Ein Anbringen über FinanzOnline ist zulässig, allerdings nur für jene Anbringen-Arten, die im System tatsächlich vorgesehen sind (§ 86a BAO iVm der FinanzOnline-Verordnung) - nicht pauschal für alle denkbaren Eingaben und auch nicht ausschließlich für Privatpersonen."
     },
     {
       "id": "bao-ue-parpar8591-10",
@@ -1860,7 +1860,7 @@
         "Das Anbringen wird als gegenstandslos erklärt."
       ],
       "korrekt": 0,
-      "erklaerung": "§ 85 Abs. 2 letzter Satz"
+      "erklaerung": "Wird ein Mangel innerhalb der gesetzten Frist behoben, gilt das Anbringen nach § 85 Abs. 2 letzter Satz BAO als von Anfang an (also rückwirkend zum ursprünglichen Einbringungszeitpunkt) richtig eingebracht. Es kommt weder zur Zurückweisung noch zur Gegenstandsloserklärung."
     },
     {
       "id": "bao-ue-parpar8591-13",
@@ -1878,7 +1878,7 @@
         2,
         3
       ],
-      "erklaerung": "§ 85 Abs. 3 lit. a, b und c"
+      "erklaerung": "Mündliche Anbringen sind nach § 85 Abs. 3 lit. a-c BAO zulässig, wenn die Abgabenvorschriften dies vorsehen, wenn es für das Verfahren zweckmäßig ist, oder wenn eine schriftliche Eingabe dem Einschreiter nicht zugemutet werden kann - nicht generell immer."
     },
     {
       "id": "bao-ue-parpar8591-14",
@@ -1898,7 +1898,7 @@
         3,
         4
       ],
-      "erklaerung": "§ 87 Abs. 1, Abs 2"
+      "erklaerung": "Eine Niederschrift ist nach § 87 Abs. 1 und 2 BAO aufzunehmen bei mündlichen Anbringen nach § 85 Abs. 3 (Musskann), sowie bei der Einvernahme von Auskunftspersonen, Zeugen und Sachverständigen sowie bei einem Augenschein (Kannbestimmung, aber üblich). Amtliche Wahrnehmungen und rein interne Vorgänge fallen dagegen unter den Aktenvermerk (§ 89 BAO), nicht unter die Niederschrift."
     },
     {
       "id": "bao-ue-parpar8591-15",
@@ -1919,7 +1919,7 @@
         2,
         5
       ],
-      "erklaerung": "§ 89 Abs. 1"
+      "erklaerung": "Ein Aktenvermerk ist nach § 89 Abs. 1 BAO aufzunehmen über amtliche Wahrnehmungen, über Umstände, die nur für den inneren Dienst der Behörde relevant sind, sowie über telefonisch eingehende Mitteilungen. Mündliche Anbringen und die Einvernahme von Auskunftspersonen/Zeugen/Sachverständigen erfordern dagegen eine Niederschrift (§ 87 BAO), keinen bloßen Aktenvermerk."
     },
     {
       "id": "bao-ue-parpar8591-16",
@@ -1952,7 +1952,7 @@
         2,
         3
       ],
-      "erklaerung": "§ 90 Abs. 2 BAO"
+      "erklaerung": "Von der Akteneinsicht ausgenommen sind nach § 90 Abs. 2 BAO insbesondere: Beratungsprotokolle, Amtsvorträge, Erledigungsentwürfe sowie Schriftstücke, deren Einsicht berechtigte Interessen Dritter verletzen würde. Diese internen bzw. schutzwürdigen Unterlagen bleiben der Partei verwehrt, um die unbeeinflusste Entscheidungsfindung der Behörde und Rechte Dritter zu schützen."
     },
     {
       "id": "bao-ue-parpar8591-18",
@@ -1983,7 +1983,7 @@
         2,
         3
       ],
-      "erklaerung": "§ 91 Abs 2 BAO"
+      "erklaerung": "Eine Vorladung muss nach § 91 Abs. 2 BAO enthalten: Ort, Zeit und Gegenstand der Amtshandlung, die Eigenschaft, in der der Vorgeladene erscheint (z.B. als Zeuge oder Abgabepflichtiger), mitzubringende Behelfe/Beweismittel sowie die Folgen des Ausbleibens (z.B. zwangsweise Vorführung, Kostenersatz)."
     },
     {
       "id": "bao-ue-parpar8591-20",
@@ -2093,7 +2093,7 @@
         1,
         2
       ],
-      "erklaerung": "§ 17 Abs. 1 und Abs. 3"
+      "erklaerung": "Eine Zustellung durch Hinterlegung gilt nach § 17 Abs. 1 und 3 ZustG dann als nicht bewirkt, wenn sich ergibt, dass der Empfänger wegen Abwesenheit von der Abgabestelle nicht rechtzeitig Kenntnis erlangen konnte, oder wenn der Zusteller Grund zur Annahme hat, dass sich der Empfänger dort gar nicht mehr aufhält (z.B. übervoller Briefkasten, offensichtlich leerstehendes Haus). Eine beschädigte oder entfernte Hinterlegungsanzeige ändert an der Wirksamkeit der Zustellung dagegen nichts - sie gilt weiterhin als zugestellt."
     },
     {
       "id": "bao-ue-parpar98105zustg-07",
@@ -2117,7 +2117,7 @@
         4,
         6
       ],
-      "erklaerung": "§ 2 ZustG"
+      "erklaerung": "Als Abgabestelle kommen nach § 2 ZustG in Frage: Wohnung/Unterkunft, Betriebsstätte/Sitz/Geschäftsraum/Kanzlei, Arbeitsplatz des Empfängers sowie der Ort der Amtshandlung. Eine strikt einzuhaltende Reihenfolge sieht das Gesetz dabei nicht vor - die Behörde kann die Abgabestelle grundsätzlich frei wählen (Ausnahme: bei aufrechter Zustellvollmacht ist an den Bevollmächtigten zuzustellen)."
     },
     {
       "id": "bao-ue-parpar98105zustg-08",
@@ -2134,7 +2134,7 @@
         1,
         3
       ],
-      "erklaerung": "§ 17 Abs. 3"
+      "erklaerung": "Bei Zustellung durch Hinterlegung beginnt die Beschwerdefrist nach § 17 Abs. 3 ZustG mit dem ersten Tag der Abholfrist zu laufen - außer der Empfänger konnte wegen Abwesenheit (z.B. Urlaub) nicht rechtzeitig davon Kenntnis erlangen; dann beginnt sie erst mit dem Tag der Rückkehr zur Abgabestelle."
     },
     {
       "id": "bao-ue-parpar98105zustg-09",
@@ -2146,7 +2146,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 7 ZustG"
+      "erklaerung": "Ja, Zustellmängel können nach § 7 ZustG heilen: Auch eine ursprünglich fehlerhafte Zustellung gilt in dem Zeitpunkt als bewirkt, in dem das Dokument dem Empfänger tatsächlich zugekommen ist - z.B. wenn ein unwirksamer Ersatzempfänger das Schriftstück dennoch an den richtigen Empfänger weitergibt."
     },
     {
       "id": "bao-ue-parpar98105zustg-10",
@@ -2159,7 +2159,7 @@
         "Ein Zustellbevollmächtigter ist der Abgabenbehörde egal, es wird stets dem Steuerpflichtigen selbst zugestellt."
       ],
       "korrekt": 1,
-      "erklaerung": "§ 103 Abs. 1 BAO"
+      "erklaerung": "Trotz aufrechter Zustellvollmacht darf die Behörde nach § 103 Abs. 1 BAO direkt an den Abgabepflichtigen zustellen, wenn das Gesetz eine direkte Zustellung ausdrücklich vorsieht - etwa bei Vorladungen oder Haftungsbescheiden. Grundsätzlich gilt aber: Ist ein Zustellbevollmächtigter bekanntgegeben, ist an diesen zuzustellen."
     },
     {
       "id": "bao-ue-parpar98105zustg-11",
@@ -2187,7 +2187,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 8 Abs. 2 ZustG"
+      "erklaerung": "Nein. Eine Hinterlegung ohne vorherigen Zustellversuch ist nach § 8 Abs. 2 ZustG nur zulässig, wenn der Empfänger eine Änderung seiner Abgabestelle pflichtwidrig nicht mitgeteilt hat UND die neue Abgabestelle der Behörde nicht ohne Schwierigkeiten festgestellt werden kann. Da hier die neue Adresse durch eine einfache ZMR-Abfrage leicht ermittelbar war, liegen die Voraussetzungen nicht vor - es muss ein regulärer Zustellversuch an der neuen Adresse erfolgen."
     },
     {
       "id": "bao-ue-parpar98105zustg-13",
@@ -2219,7 +2219,7 @@
         "Die Zustellung gilt an dem Tag bewirkt, an dem das Dokument erstmals zur Abholung bereitgehalten wird."
       ],
       "korrekt": 1,
-      "erklaerung": "§ 26 Abs. 2"
+      "erklaerung": "Bei Zustellung ohne Zustellnachweis (z.B. gewöhnlicher Brief) gilt das Dokument nach § 26 Abs. 2 ZustG am dritten Werktag nach Übergabe an die Post/das Zustellorgan als zugestellt (sogenannte Zustellfiktion) - unabhängig davon, wann es tatsächlich im Briefkasten landet."
     },
     {
       "id": "bao-ue-parpar98105zustg-15",
@@ -2248,7 +2248,7 @@
         "30.5.2025 (14 Tage ab Abholmöglichkeit)"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 17 Abs. 3 ZustG – 1. Tag der Abholfrist"
+      "erklaerung": "Bei Hinterlegung und regelmäßiger Anwesenheit des Empfängers gilt die Zustellung nach § 17 Abs. 3 ZustG mit dem ersten Tag der Abholfrist als bewirkt - hier also mit 16.5.2025, dem Tag ab dem das Dokument erstmals abgeholt werden konnte, nicht schon mit dem Tag des Zustellversuchs (15.5.)."
     },
     {
       "id": "bao-ue-parpar98105zustg-17",
@@ -2263,7 +2263,7 @@
         "30.5.2025 (14 Tage ab Abholmöglichkeit)"
       ],
       "korrekt": 2,
-      "erklaerung": "17 Abs. 3"
+      "erklaerung": "War der Empfänger während der Abholfrist ortsabwesend (hier bis 18.5.), konnte er nicht rechtzeitig vom Zustellvorgang Kenntnis erlangen. Die Zustellung gilt daher erst mit dem ersten Tag nach Rückkehr zur Abgabestelle als bewirkt (§ 17 Abs. 3 ZustG) - hier also am 19.5.2025."
     },
     {
       "id": "bao-ue-parpar98105zustg-18",
@@ -2278,7 +2278,7 @@
         "Der Bescheid wurde bereits an die Behörde rückgesandt, da die Hinterlegungsfrist verstrichen ist. Der Bescheid muss neuerlich zugestellt werden."
       ],
       "korrekt": 4,
-      "erklaerung": "§ 17 Abs. 3"
+      "erklaerung": "Die Abholfrist bei Hinterlegung beträgt nach § 17 ZustG mindestens zwei Wochen. Da der Empfänger bis 5.7.2025 abwesend war und die Abholfrist somit weit überschritten wurde, wurde das Dokument bereits als unbehoben an die Behörde zurückgesandt (§ 19 ZustG) - eine gültige Zustellung ist damit nicht zustande gekommen, der Bescheid muss neuerlich zugestellt werden."
     },
     {
       "id": "bao-ue-parpar98105zustg-19",
@@ -2322,7 +2322,7 @@
         "gar nicht"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 20 Abs. 2 ZustG"
+      "erklaerung": "Verweigert der Empfänger die Annahme grundlos, gilt das Schriftstück nach § 20 Abs. 2 ZustG mit dem Zeitpunkt der Verweigerung als zugestellt, wenn es an der Abgabestelle zurückgelassen wird (hier: 28.2.2024, der Tag der Annahmeverweigerung selbst) - eine Hinterlegung ist in diesem Fall nicht nötig."
     },
     {
       "id": "bao-ue-parpar98105zustg-22",
@@ -2341,7 +2341,7 @@
         4,
         5
       ],
-      "erklaerung": "§ 16 Abs. 2 ZustG"
+      "erklaerung": "Als Ersatzempfänger kommen nach § 16 Abs. 2 ZustG in Frage: jede volljährige Person, die an derselben Abgabestelle wie der Empfänger wohnt, sowie Arbeitnehmer oder Arbeitgeber des Empfängers, sofern sie zur Annahme bereit sind. Minderjährige (auch ab 14 Jahren), bloße Besucher wie zu Gast weilende Eltern, Nachbarn ohne gemeinsamen Wohnsitz und Haustiere zählen dagegen nicht als wirksame Ersatzempfänger."
     },
     {
       "id": "bao-ue-parpar98105zustg-23",
@@ -2355,7 +2355,7 @@
         "Es ist zwingend eine Hinterlegung erforderlich"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 20 Abs. 1 ZustG"
+      "erklaerung": "Verweigert der Empfänger oder ein Ersatzempfänger die Annahme ohne ausreichenden Grund, ist das Dokument nach § 20 Abs. 1 ZustG an der Abgabestelle zurückzulassen; es gilt damit als zugestellt. Weder ist die Zustellung dadurch unwirksam, noch muss der Zusteller nochmals kommen, noch ist zwingend eine Hinterlegung erforderlich."
     },
     {
       "id": "bao-ue-parpar108110-01",
@@ -2429,7 +2429,7 @@
         0,
         2
       ],
-      "erklaerung": "§ 110 Abs. 2 BAO"
+      "erklaerung": "Behördliche Fristen (z.B. Mängelbehebungsfrist, Vorhaltefrist) werden von der Behörde selbst festgelegt und sind daher nach § 110 Abs. 2 BAO stets verlängerbar - im Gegensatz zu gesetzlichen Fristen, die im Gesetz fix vorgegeben sind und nur bei ausdrücklicher gesetzlicher Erlaubnis verlängert werden können."
     },
     {
       "id": "bao-ue-parpar108110-06",
@@ -2446,7 +2446,7 @@
         1,
         3
       ],
-      "erklaerung": "§ 110 Abs. 1 BAO"
+      "erklaerung": "Gesetzliche Fristen (z.B. Beschwerdefrist, Verjährungsfrist) sind im Gesetz selbst festgelegt und können nach § 110 Abs. 1 BAO nur dann verlängert werden, wenn eine ausdrückliche gesetzliche Regelung dies vorsieht (z.B. § 245 Abs. 3 BAO für die Beschwerdefrist) - nicht nach Belieben der Behörde."
     },
     {
       "id": "bao-ue-parpar108110-07",
@@ -2524,7 +2524,7 @@
         "am Montag"
       ],
       "korrekt": 3,
-      "erklaerung": "§ 108 Abs. 1- Achtung bei Tagesfristen"
+      "erklaerung": "Bei Tagesfristen ist nach § 108 Abs. 1 BAO Vorsicht geboten: Der Tag der Zustellung wird nicht mitgezählt, dafür aber der letzte Tag der Frist. Bei Zustellung am Montag und einer 5-Tage-Frist läuft die Frist über Dienstag bis Samstag - fällt der letzte Tag jedoch auf ein Wochenende oder einen Feiertag, verschiebt sich das Fristende auf den nächsten Werktag, hier also auf den folgenden Montag."
     },
     {
       "id": "bao-ue-parpar108110-12",
@@ -2536,7 +2536,7 @@
         "Falsch"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 108 Abs. 3 BAO"
+      "erklaerung": "Nach § 108 Abs. 3 BAO verlängert sich eine Frist, deren Ende auf einen Samstag, Sonntag, gesetzlichen Feiertag, Karfreitag oder den 24. Dezember fällt, bis zum Ablauf des nächsten Werktages. Das gilt nur für das Fristende - Beginn und Lauf einer Frist können durchaus auch an einem Wochenende oder Feiertag liegen."
     },
     {
       "id": "bao-ue-parpar108110-13",
@@ -2566,11 +2566,10 @@
       ],
       "korrekt": [
         1,
-        3,
         4,
         6
       ],
-      "erklaerung": "Vorhalt­fristen sind behoerd­liche Fristen (§ 110 Abs. 2 BAO) und daher immer verlaeng­erbar. Gesetz­liche Fristen koennen nur verlaengert werden, wenn das Gesetz dies aus­druecklich vorsieht (§ 110 Abs. 1 BAO). Die Beschwerde­frist ist eine gesetz­liche Frist - sie kann nur nach § 245 Abs. 3 BAO verlaengert werden."
+      "erklaerung": "Vorhaltfristen sind behördliche Fristen (§ 110 Abs. 2 BAO) und daher immer verlängerbar. Gesetzliche Fristen hingegen können nur verlängert werden, wenn das Gesetz dies ausdrücklich vorsieht (§ 110 Abs. 1 BAO) - sie sind also gerade NICHT immer verlängerbar. Die Beschwerdefrist ist ein Beispiel für eine gesetzliche Frist, die nur aufgrund einer solchen ausdrücklichen Regelung (§ 245 Abs. 3 BAO) verlängert werden kann."
     },
     {
       "id": "bao-ue-parpar108110-15",
@@ -2600,10 +2599,9 @@
         "freiwilliger Auskünfte"
       ],
       "korrekt": [
-        0,
         1
       ],
-      "erklaerung": "§ 111 Abs. 1 BAO Was sind nicht vertretbare Leistungen? --> § 111 Abs. 1 BAO: „durch einen Dritten nicht bewerkstelligen lassen“ = die Leistung kann nur durch die Person selbst erbracht werden"
+      "erklaerung": "Eine Zwangsstrafe nach § 111 BAO dient ausschließlich der Erzwingung nicht vertretbarer Leistungen - also solcher, die nur die betroffene Person selbst erbringen kann (z.B. Einreichung einer Abgabenerklärung, Duldung einer Außenprüfung, Beantwortung eines Auskunftsersuchens). Vertretbare Leistungen wie insbesondere die Abgabenentrichtung sind dagegen ausdrücklich ausgenommen: Da Geld auch von einem Dritten bezahlt werden könnte, ist hierfür keine Zwangsstrafe zulässig."
     },
     {
       "id": "bao-ue-parpar111134a-02",
@@ -2617,7 +2615,7 @@
         "schriftlich, mit angemessener Frist"
       ],
       "korrekt": 3,
-      "erklaerung": "§ 111 Abs. 2"
+      "erklaerung": "Die Androhung einer Zwangsstrafe muss nach § 111 Abs. 2 BAO schriftlich erfolgen, unter Setzung einer angemessenen Frist zur Erbringung der Leistung (kein Mailverkehr!). Mündliche oder telefonische Androhungen genügen nicht - eine Ausnahme von der Schriftlichkeit besteht nur bei Gefahr im Verzug."
     },
     {
       "id": "bao-ue-parpar111134a-03",
@@ -2629,7 +2627,7 @@
         "Falsch"
       ],
       "korrekt": 0,
-      "erklaerung": "Art 18 Abs 1 B-VG"
+      "erklaerung": "Das Legalitätsprinzip (Art. 18 Abs. 1 B-VG) verlangt, dass die gesamte Verwaltung nur auf Grundlage der Gesetze ausgeübt werden darf. Für das Abgabenrecht bedeutet das: Abgaben dürfen nur erhoben werden, wenn und soweit dies gesetzlich vorgesehen ist."
     },
     {
       "id": "bao-ue-parpar111134a-04",
@@ -2697,7 +2695,7 @@
         "10.000 €"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 112a"
+      "erklaerung": "Eine Mutwillensstrafe nach § 112a BAO kann bis zu 700 Euro betragen, wenn eine Partei die Tätigkeit der Behörde mutwillig in Anspruch nimmt - etwa durch bewusst unrichtige Angaben zur Verschleppung der Sache oder durch offensichtlich aussichtslose Anträge."
     },
     {
       "id": "bao-ue-parpar111134a-08",
@@ -2718,7 +2716,7 @@
         3,
         5
       ],
-      "erklaerung": "§ 134 Abs. 1 BAO"
+      "erklaerung": "Nach § 134 Abs. 1 BAO sind Einkommensteuer- und Umsatzsteuererklärungen in Papierform bis Ende April des Folgejahres einzureichen, elektronisch über FinanzOnline erst bis Ende Juni des Folgejahres. Für bestimmte, durch einen Steuerberater vertretene Fälle kann sich diese Frist noch weiter (bis ins zweitfolgende Jahr) verschieben, abhängig von der jeweiligen Quotenregelung."
     },
     {
       "id": "bao-ue-parpar111134a-09",
@@ -2755,7 +2753,7 @@
         2,
         5
       ],
-      "erklaerung": "§ 135 Abs. 1"
+      "erklaerung": "Bei verspäteter und unentschuldigter Einreichung einer Abgabenerklärung kann die Behörde nach § 135 Abs. 1 BAO einen Verspätungszuschlag von bis zu 10 % der festgesetzten Abgabe festsetzen - dies liegt im Ermessen der Behörde, ist also keine zwingende Folge. Ein Zuschlag von 15 % oder 20 % kommt nicht in Betracht (Höchstgrenze ist 10 %), ebenso wenig eine Zwangsstrafe, da es sich bei der Einreichung selbst nicht um eine erzwingbare Handlung im Sinne des § 111 BAO handelt, sobald bereits (verspätet) eingereicht wurde."
     },
     {
       "id": "bao-ue-parpar111134a-11",
@@ -2811,7 +2809,7 @@
         "10.000 €"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 111 Abs. 3 BAO"
+      "erklaerung": "Eine Zwangsstrafe darf nach § 111 Abs. 3 BAO höchstens 5.000 Euro betragen. Verhängt werden darf dabei ohnehin nie mehr als der zuvor schriftlich angedrohte Betrag."
     },
     {
       "id": "bao-ue-parpar111134a-15",
@@ -2826,7 +2824,7 @@
         "Mitwirkungspflicht"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 114 Abs. 1 BAO"
+      "erklaerung": "Dass gleiche abgabenrechtliche Sachverhalte stets gleich zu behandeln sind, ist Ausdruck des Grundsatzes der Gleichmäßigkeit der Besteuerung (§ 114 Abs. 1 BAO). Das Legalitätsprinzip fordert dagegen nur, dass Verwaltungshandeln überhaupt auf einer gesetzlichen Grundlage beruht (Art. 18 Abs. 1 B-VG) - das ist ein verwandter, aber eigenständiger Grundsatz."
     },
     {
       "id": "bao-ue-parpar111134a-16",
@@ -2838,7 +2836,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 111 Abs 1 BAO: „berechtigt“"
+      "erklaerung": "Ja, die Festsetzung einer Zwangsstrafe liegt im Ermessen der Behörde. § 111 Abs. 1 BAO formuliert die Befugnis der Behörde als 'kann' bzw. ist von der Behörde als Berechtigung ('berechtigt') zu verstehen - sie ist also nicht verpflichtet, in jedem Fall eine Zwangsstrafe zu verhängen."
     },
     {
       "id": "bao-ue-parpar111134a-17",
@@ -2856,7 +2854,7 @@
         1,
         2
       ],
-      "erklaerung": "§ 112 Abs. 2 und 3 BAO"
+      "erklaerung": "Eine Ordnungsstrafe kann nach § 112 Abs. 2 und 3 BAO wegen Störung einer Amtshandlung, Verletzung des Anstands oder beleidigender Schreibweise einer Eingabe verhängt werden. Die bloße Nichtabgabe einer Steuererklärung ist dagegen kein Ordnungsstrafe-, sondern allenfalls ein Zwangsstrafe- bzw. Verspätungszuschlagsthema."
     },
     {
       "id": "bao-ue-parpar111134a-18",
@@ -2870,7 +2868,7 @@
         "10.000 €"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 112 Abs 2 BA"
+      "erklaerung": "Eine Ordnungsstrafe kann nach § 112 Abs. 2 BAO bis zu 700 Euro betragen."
     },
     {
       "id": "bao-ue-parpar111134a-19",
@@ -2882,7 +2880,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 112 Abs. 5 BAO"
+      "erklaerung": "Nein. Gegen berufsmäßige Parteienvertreter (Rechtsanwälte, Steuerberater etc.), die dem Disziplinarrecht ihrer Standesvertretung unterliegen, sowie gegen öffentliche Organe in Ausübung ihres Amtes ist nach § 112 Abs. 5 BAO keine Ordnungsstrafe zulässig. Stattdessen ist in solchen Fällen eine Anzeige an die zuständige Disziplinarbehörde zu erstatten."
     },
     {
       "id": "bao-ue-parpar143158-01",
@@ -2929,7 +2927,7 @@
         0,
         2
       ],
-      "erklaerung": "§ 144 Abs. 2 BAO"
+      "erklaerung": "Im Rahmen einer Nachschau darf die Behörde nach § 144 Abs. 2 BAO gesetzlich vorgeschriebene Bücher und Aufzeichnungen einsehen sowie offenliegende Gegenstände und Umstände besichtigen. Eine Durchsuchung verschlossener Schränke oder Räume sowie eine Beschlagnahme von Unterlagen ist dagegen nicht von der Nachschau gedeckt - dafür wären andere Instrumente (z.B. nach FinStrG) nötig."
     },
     {
       "id": "bao-ue-parpar143158-04",
@@ -2985,7 +2983,7 @@
         2,
         3
       ],
-      "erklaerung": "§ 148 Abs. 2 BAO"
+      "erklaerung": "Ein Prüfungsauftrag muss nach § 148 Abs. 2 BAO die zu prüfenden Abgabenarten, den Gegenstand der Prüfung sowie die Prüfungszeiträume enthalten. Die voraussichtliche Höhe der Abgabennachforderung ist dagegen naturgemäß noch nicht bekannt und daher kein notwendiger Bestandteil des Prüfungsauftrags."
     },
     {
       "id": "bao-ue-parpar143158-08",
@@ -3019,7 +3017,7 @@
         1,
         2
       ],
-      "erklaerung": "§ 149 Abs. 1 und 2 BAO"
+      "erklaerung": "Nach Abschluss der Außenprüfung ist nach § 149 Abs. 1 und 2 BAO stets ein Betriebsprüfungsbericht zu erstellen. Eine Schlussbesprechung muss dagegen nicht zwingend stattfinden - sie kann entfallen, wenn sich keine Änderungen der Besteuerungsgrundlagen ergeben. Der Bericht selbst ist kein Bescheid, sondern lediglich die Grundlage für allfällige nachfolgende Bescheide."
     },
     {
       "id": "bao-ue-parpar143158-10",
@@ -3032,7 +3030,7 @@
         "Sie ist nur zulässig, wenn kein Abgabenverfahren anhängig ist."
       ],
       "korrekt": 1,
-      "erklaerung": "§ 158 Abs. 4 Z 1 und 2 BAO"
+      "erklaerung": "Die Amtshilfe nach § 158 BAO umfasst auch die Einsichtnahme in öffentliche Register wie Grundbuch oder Firmenbuch. Sie besteht nicht nur zwischen Bundesorganen, sondern erstreckt sich grundsätzlich auch auf Länder und Gemeinden, und sie ist auch während eines laufenden Abgabenverfahrens zulässig."
     },
     {
       "id": "bao-ue-parpar143158-11",
@@ -3044,7 +3042,7 @@
         "Falsch"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 158 Abs. 5 BAO"
+      "erklaerung": "Richtig. Das Brief-, Post- und Fernmeldegeheimnis begrenzt nach § 158 Abs. 5 BAO den Umfang zulässiger Amtshilfe - die Behörde darf sich also nicht über diese verfassungsrechtlich geschützten Geheimnisse hinwegsetzen, um Auskünfte zu erhalten."
     },
     {
       "id": "bao-ue-parpar143158-12",
@@ -3056,7 +3054,7 @@
         "Nein, die Abgabenbehörde hat ein Durchsuchungsrecht."
       ],
       "korrekt": 0,
-      "erklaerung": "§ 144 Abs. 2 BAO"
+      "erklaerung": "Ja, Herr Schwarz handelt rechtmäßig. Die Nachschau nach § 144 Abs. 2 BAO umfasst nur die Besichtigung offenliegender Gegenstände und Umstände sowie die Einsicht in gesetzlich vorgeschriebene Bücher - ein Durchsuchungsrecht für verschlossene Schränke oder Räume besteht im Rahmen der Nachschau gerade nicht."
     },
     {
       "id": "bao-ue-parpar143158-13",
@@ -3070,7 +3068,7 @@
         "Keine Pflichtverletzung"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 143 Abs. 2 BAO"
+      "erklaerung": "Frau Bauer verletzt mit wissentlich falschen Angaben ihre Pflicht zur vollständigen und wahrheitsgemäßen Auskunftserteilung nach § 143 Abs. 2 BAO. Jede Auskunft im Rahmen eines Auskunftsersuchens hat wahrheitsgemäß und nach bestem Wissen und Gewissen zu erfolgen."
     },
     {
       "id": "bao-ue-parpar143158-14",
@@ -3127,7 +3125,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 171 Abs. 1 lit. ca BAO"
+      "erklaerung": "Ja, das ist zulässig. Herr König kann sich auf ein Aussageverweigerungsrecht nach § 171 Abs. 1 BAO berufen, da er durch seine Aussage die Gefahr strafgerichtlicher, finanzstrafbehördlicher oder sonstiger abgabenstrafbehördlicher Verfolgung für einen Angehörigen (hier: seinen Bruder, § 25 BAO) heraufbeschwören würde."
     },
     {
       "id": "bao-ue-parpar161184-04",
@@ -3141,7 +3139,7 @@
         "Beschwerdevorentscheidung"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 161 Abs. 1 BAO"
+      "erklaerung": "Wird der Steuerpflichtige aufgefordert, fehlende oder unklare Angaben in seiner Abgabenerklärung zu vervollständigen, handelt es sich um einen Ergänzungsauftrag nach § 161 Abs. 1 BAO. Davon zu unterscheiden ist der Bedenkenvorhalt, der zum Einsatz kommt, wenn Sachverhalte nicht nachvollzogen werden können und daher eine inhaltliche Aufklärung verlangt wird."
     },
     {
       "id": "bao-ue-parpar161184-05",
@@ -3167,7 +3165,7 @@
         "Falsch"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 171 Abs. 1 lit. c BAO"
+      "erklaerung": "Richtig. Ein Zeuge kann nach § 171 Abs. 1 lit. c BAO die Aussage verweigern, wenn er dadurch ein Geschäfts- oder Betriebsgeheimnis offenbaren würde - dieses Aussageverweigerungsrecht steht neben jenem wegen drohender strafrechtlicher Verfolgung oder gesetzlich anerkannter Verschwiegenheitspflichten."
     },
     {
       "id": "bao-ue-parpar161184-07",
@@ -3180,7 +3178,7 @@
         "Mängelbehebung"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 162 BAO"
+      "erklaerung": "Behauptet der Steuerpflichtige Ausgaben, ohne den Empfänger zu benennen, kann die Behörde nach § 162 BAO eine Empfängernennung verlangen. Kommt der Steuerpflichtige dem nicht nach, sind die betreffenden Ausgaben nicht anzuerkennen (§ 162 Abs. 2 BAO) - eine Schätzung wäre hier der falsche Ansatz, da es nicht um die Höhe, sondern um die fehlende Nachweisbarkeit des Zahlungsempfängers geht."
     },
     {
       "id": "bao-ue-parpar161184-08",
@@ -3192,7 +3190,7 @@
         "Nein, Amtsgeheimnis gilt hier nicht."
       ],
       "korrekt": 0,
-      "erklaerung": "§ 170 Z 3 BAO"
+      "erklaerung": "Ja, das ist grundsätzlich zulässig. Organe von Gebietskörperschaften unterliegen nach § 170 Z 3 BAO einem Zeugen-Vernehmungsverbot zur Wahrung des Amtsgeheimnisses - es sei denn, sie werden von dieser Geheimhaltungspflicht ausdrücklich (bescheidmäßig) entbunden. Erst dann dürfen sie aussagen."
     },
     {
       "id": "bao-ue-parpar161184-09",
@@ -3219,7 +3217,7 @@
         "Außenprüfung"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 161 Abs. 1 BAO"
+      "erklaerung": "Sind einzelne Angaben in einer eingereichten (aber grundsätzlich formal korrekten) Erklärung unklar oder unvollständig, ist ein Ergänzungsauftrag nach § 161 Abs. 1 BAO das richtige Instrument, um die fehlende Klarheit herzustellen - nicht ein Mängelbehebungsauftrag, der formale (nicht inhaltliche) Mängel des Anbringens selbst betrifft."
     },
     {
       "id": "bao-ue-parpar161184-11",
@@ -3283,7 +3281,7 @@
         "Stimmt nicht"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 166 BAO"
+      "erklaerung": "Stimmt. Nach § 166 BAO kommt grundsätzlich alles als Beweismittel in Betracht, das geeignet ist, den maßgebenden Sachverhalt festzustellen (Grundsatz der Unbeschränktheit der Beweismittel) - dazu zählen etwa Urkunden, Zeugenaussagen, Sachverständigengutachten, Anbringen des Steuerpflichtigen, Augenschein, Ton-, Foto- und Videoaufnahmen."
     },
     {
       "id": "bao-ue-parpar161184-15",
@@ -3334,7 +3332,7 @@
         3,
         4
       ],
-      "erklaerung": "§ 170 Z 1 – 3 BAO"
+      "erklaerung": "Ein Zeugen-Vernehmungsverbot besteht nach § 170 Z 1-3 BAO für Geistliche zur Wahrung des Beichtgeheimnisses, für Organe von Gebietskörperschaften zur Wahrung des Amtsgeheimnisses (außer bei Entbindung) sowie für Personen, die nicht fähig sind, ihre Wahrnehmungen mitzuteilen. Angehörige und Personen mit beruflicher Verschwiegenheitspflicht (Ärzte, Anwälte) haben dagegen kein Vernehmungsverbot, sondern lediglich ein Aussageverweigerungsrecht nach § 171 BAO - sie dürfen grundsätzlich als Zeugen geladen werden, können die Aussage im Einzelfall aber verweigern."
     },
     {
       "id": "bao-ue-parpar161184-18",
@@ -3354,7 +3352,7 @@
         2,
         5
       ],
-      "erklaerung": "§ 171 Abs 1 lit a - c"
+      "erklaerung": "Ein Aussageverweigerungsrecht (im Unterschied zum Vernehmungsverbot) steht nach § 171 Abs. 1 lit. a-c BAO zu: Angehörigen (§ 25 BAO), Personen mit gesetzlich anerkannter Verschwiegenheitspflicht (Ärzte, Rechtsanwälte, Notare) sowie Personen, die bei Aussage Gefahr strafgerichtlicher Verfolgung für sich oder Angehörige liefen. Geistliche und Amtsträger unterliegen dagegen einem strengeren Vernehmungsverbot (§ 170 BAO) und dürfen von vornherein nicht als Zeugen befragt werden."
     },
     {
       "id": "bao-ue-parpar161184-19",
@@ -3366,7 +3364,7 @@
         "Falsch"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 184 Abs. 1 BAO"
+      "erklaerung": "Falsch. Eine Schätzung nach § 184 Abs. 1 BAO ist nur zulässig, wenn die Grundlagen für die Abgabenerhebung nicht ermittelt oder berechnet werden können. Können sie eindeutig ermittelt werden, ist die Behörde zur exakten Ermittlung verpflichtet - eine Schätzung wäre in diesem Fall unzulässig."
     },
     {
       "id": "bao-ue-parpar161184-20",
@@ -3414,7 +3412,7 @@
         "Bei jeder Grundstücksveräußerung"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 188 BAO"
+      "erklaerung": "Ein Feststellungsbescheid nach § 188 BAO ist zu erlassen, wenn an den Einkünften mehrere Personen gemeinschaftlich beteiligt sind und diese die gleiche Einkunftsart erzielen (Land- und Forstwirtschaft, selbständige Arbeit, Gewerbebetrieb oder Vermietung und Verpachtung unbeweglichen Vermögens). Er ist also nicht auf Gewerbebetrieb beschränkt, gilt nicht bei Einzelunternehmern und nicht bei jeder Grundstücksveräußerung."
     },
     {
       "id": "bao-ue-parpar188200-02",
@@ -3503,7 +3501,7 @@
         1,
         2
       ],
-      "erklaerung": "§ 198 Abs. 2 BAO"
+      "erklaerung": "Der Spruch eines Abgabenbescheids muss nach § 198 Abs. 2 BAO Art und Höhe der Abgabe, die Bemessungsgrundlagen sowie die Fälligkeit enthalten (Entfällt die Fälligkeit, wenn sich aus dem Bescheid eine Gutschrift ergibt)."
     },
     {
       "id": "bao-ue-parpar188200-08",
@@ -3515,7 +3513,7 @@
         "Falsch"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 93 Abs. 2 BAO"
+      "erklaerung": "Richtig. Der Bescheidadressat ist nach § 93 Abs. 2 BAO zwingender Bestandteil des Spruchs - ohne ihn ist unklar, gegenüber wem der Bescheid wirken soll."
     },
     {
       "id": "bao-ue-parpar188200-09",
@@ -3565,7 +3563,7 @@
         0,
         1
       ],
-      "erklaerung": "§ 200 Abs. 1 1. Stz BAO"
+      "erklaerung": "Ein vorläufiger Bescheid darf nach § 200 Abs. 1 erster Satz BAO erlassen werden, wenn die Abgabepflicht zwar ungewiss, aber wahrscheinlich ist, oder wenn der Umfang der Abgabepflicht ungewiss ist. Kann die Ungewissheit dagegen sofort durch Ermittlungen beseitigt werden, ist ein vorläufiger Bescheid nicht zulässig - dann muss sofort ermittelt werden. Der bloße Wunsch der Partei genügt ebenfalls nicht."
     },
     {
       "id": "bao-ue-parpar188200-12",
@@ -3591,7 +3589,7 @@
         "Nach 5 Jahren automatisch"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 200 Abs. 2 BAO"
+      "erklaerung": "Die Vorläufigkeit eines Bescheids endet nach § 200 Abs. 2 BAO mit Beseitigung der Ungewissheit - nicht automatisch nach 5 Jahren, nicht mit Verjährungsablauf und nicht auf bloßen Parteiantrag hin."
     },
     {
       "id": "bao-ue-parpar188200-14",
@@ -3609,7 +3607,7 @@
         1,
         2
       ],
-      "erklaerung": "§ 200 Abs. 2 BAO"
+      "erklaerung": "Ist die Ungewissheit beseitigt, kann ein vorläufiger Bescheid nach § 200 Abs. 2 BAO entweder durch einen endgültigen Bescheid ersetzt (der in jede Richtung abändern darf) oder einfach für endgültig erklärt werden (die bloß den bisherigen Inhalt bestätigt). Er bleibt also keineswegs unveränderlich."
     },
     {
       "id": "bao-ue-parpar188200-15",
@@ -3626,7 +3624,7 @@
         0,
         3
       ],
-      "erklaerung": "§ 209 Abs. 4 BAO"
+      "erklaerung": "Vorläufige Bescheide können innerhalb von 15 Jahren (verlängerte absolute Verjährungsfrist nach § 209 Abs. 4 BAO) endgültig erklärt werden - eine deutlich längere Frist als die reguläre 5- oder 10-Jahres-Verjährung, weil die Ungewissheit oft erst nach längerer Zeit beseitigt werden kann."
     },
     {
       "id": "bao-ue-parpar188200-16",
@@ -3794,7 +3792,7 @@
         "Ab dem Tag der Zahlung"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 205 Abs. 1 BAO"
+      "erklaerung": "Anspruchszinsen (§ 205 Abs. 1 BAO) beginnen grundsätzlich mit Ablauf der sogenannten Karenzfrist zu laufen, also ab 1. Oktober des Folgejahres - dies gilt für Nachforderungen oder Gutschriften bei Einkommen- und Körperschaftsteuer."
     },
     {
       "id": "bao-ue-parpar201206-05",
@@ -3809,7 +3807,7 @@
         "Bis Eintritt der Fälligkeit"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 205 Abs. 1 BAO"
+      "erklaerung": "Anspruchszinsen laufen nach § 205 Abs. 1 BAO bis zur Bekanntgabe des Bescheides, der die Nachforderung oder Gutschrift ergibt - nicht bis zu einem fixen Kalenderdatum und auch nicht bis zum tatsächlichen Zahlungstag."
     },
     {
       "id": "bao-ue-parpar201206-06",
@@ -3822,7 +3820,7 @@
         "48 Monate"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 205 Abs. 2 BAO"
+      "erklaerung": "Anspruchszinsen sind nach § 205 Abs. 2 BAO längstens für einen Zeitraum von 48 Monaten festzusetzen - auch wenn die Bescheiderlassung tatsächlich noch länger dauert, wird darüber hinaus nicht mehr verzinst."
     },
     {
       "id": "bao-ue-parpar201206-07",
@@ -3835,7 +3833,7 @@
         "Basiszinssatz + 4 %"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 205 Abs. 2 BAO"
+      "erklaerung": "Der Zinssatz für Anspruchszinsen beträgt nach § 205 Abs. 2 BAO Basiszinssatz plus 2 %."
     },
     {
       "id": "bao-ue-parpar201206-08",
@@ -3848,7 +3846,7 @@
         "Wenn eine Selbstberechnung unrichtig war"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 205a Abs. 1 BAO"
+      "erklaerung": "Beschwerdezinsen nach § 205a Abs. 1 BAO fallen an, wenn eine bereits entrichtete Abgabe aufgrund einer erfolgreichen Bescheidbeschwerde herabgesetzt wird - sie kompensieren den Zeitraum, in dem der Steuerpflichtige zu Unrecht zu viel gezahlt hatte, bis zur Bekanntgabe der stattgebenden BVE bzw. des Erkenntnisses/Beschlusses."
     },
     {
       "id": "bao-ue-parpar201206-09",
@@ -3861,7 +3859,7 @@
         "Selbst eine Abgabe berechnen"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 206 Abs. 1 BAO"
+      "erklaerung": "Abstandnahme von der Abgabenfestsetzung nach § 206 BAO bedeutet, dass die Behörde ganz oder teilweise auf die Festsetzung einer Abgabe verzichtet - etwa bei Höherer Gewalt, Notstand oder wenn absehbar ist, dass der Abgabenanspruch ohnehin nicht durchsetzbar wäre."
     },
     {
       "id": "bao-ue-parpar201206-10",
@@ -3874,7 +3872,7 @@
         "Nur teilweise, abhängig vom Einzelfall"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 206 Abs. 2 BAO"
+      "erklaerung": "Nein, der Abgabenanspruch bleibt durch die Abstandnahme nach § 206 Abs. 2 BAO bestehen - es wird lediglich auf die Festsetzung verzichtet, nicht auf den materiellen Anspruch selbst. Dieser könnte theoretisch später noch geltend gemacht werden, wenn sich die Umstände ändern."
     },
     {
       "id": "bao-ue-parpar201206-11",
@@ -3891,7 +3889,7 @@
         1,
         2
       ],
-      "erklaerung": "§ 206 Abs. 1 lit a – c BAO"
+      "erklaerung": "Eine Abstandnahme von der Festsetzung ist nach § 206 Abs. 1 lit. a-c BAO gerechtfertigt bei Notstand (z.B. Naturkatastrophe), bei wahrscheinlicher Uneinbringlichkeit der Abgabe sowie aus Gründen der Verwaltungsökonomie bei geringfügigen Beträgen (Kleinbetragsregelung)."
     },
     {
       "id": "bao-ue-parpar207208-01",
@@ -3923,7 +3921,7 @@
         "10 Jahre"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 207 Abs. 2 BAO"
+      "erklaerung": "Verbrauchsteuern (z.B. Biersteuer, Mineralölsteuer) verjähren nach § 207 Abs. 2 BAO abweichend von der allgemeinen 5-Jahres-Frist bereits nach 3 Jahren."
     },
     {
       "id": "bao-ue-parpar207208-03",
@@ -3943,7 +3941,7 @@
         2,
         6
       ],
-      "erklaerung": "§ 207 Abs. 3"
+      "erklaerung": "Nach § 207 Abs. 3 BAO verjähren binnen nur 1 Jahres: Zwangs-, Ordnungs- und Mutwillensstrafen sowie Anforderungen von Kostenersätzen. Einkommensteuer, Umsatzsteuer, hinterzogene Abgaben, Anspruchszinsen und Säumniszuschläge unterliegen dagegen der allgemeinen (5- bzw. 10-Jahres-) Verjährung bzw. verjähren mit der Stammabgabe."
     },
     {
       "id": "bao-ue-parpar207208-04",
@@ -3974,7 +3972,7 @@
         "Mit Beginn der Außenprüfung"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 208 Abs. 1 lit. a BAO"
+      "erklaerung": "Die Festsetzungsverjährung beginnt nach § 208 Abs. 1 lit. a BAO grundsätzlich mit Ablauf des Kalenderjahres zu laufen, in dem der Abgabenanspruch entstanden ist - nicht bereits mit der Entstehung selbst, nicht erst mit Bescheidzustellung und nicht mit Beginn einer Außenprüfung."
     },
     {
       "id": "bao-ue-parpar207208-06",
@@ -4091,7 +4089,7 @@
         "Bescheid wird nichtig"
       ],
       "korrekt": 0,
-      "erklaerung": "Köst bereits verjährt"
+      "erklaerung": "Die Körperschaftsteuer war zu diesem Zeitpunkt bereits verjährt (die reguläre Festsetzungsverjährung beträgt 5 Jahre, die absolute Verjährungsgrenze 10 Jahre). Eine Verlängerungshandlung im bereits verjährten 7. Jahr entfaltet daher keine Wirkung mehr - eine verjährte Frist kann nicht wiederbelebt werden."
     },
     {
       "id": "bao-ue-parpar207208-13",
@@ -4361,7 +4359,7 @@
         0,
         2
       ],
-      "erklaerung": "§ 212a BAO"
+      "erklaerung": "Die Behörde muss eine Aussetzung der Einhebung nach § 212a BAO gewähren (Rechtsanspruch, keine Ermessensentscheidung!), wenn die Höhe der Abgabe direkt vom Ausgang einer Beschwerde abhängt und der angefochtene Bescheid eine Nachforderung ergeben hat. Ein bloßer Wiederaufnahmeantrag oder eine anhängige VwGH-Revision genügen dafür nicht, und auch die (vermeintlich) geringen Erfolgsaussichten der Beschwerde sind - anders als bei der Zahlungserleichterung - kein zulässiger Ablehnungsgrund."
     },
     {
       "id": "bao-ue-parpar210238-07",
@@ -4373,7 +4371,7 @@
         "Richtig"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 212a BAO – „IST“"
+      "erklaerung": "Falsch. Im Gegensatz zur Zahlungserleichterung (§ 212 BAO, 'kann') ist die Aussetzung der Einhebung nach § 212a BAO bei Vorliegen der Voraussetzungen zwingend zu bewilligen ('ist') - es besteht ein Rechtsanspruch der Partei, keine Ermessensentscheidung der Behörde."
     },
     {
       "id": "bao-ue-parpar210238-08",
@@ -4406,7 +4404,7 @@
         0,
         2
       ],
-      "erklaerung": "§ 212 BAO"
+      "erklaerung": "Die BAO kennt als Formen der Zahlungserleichterung (§ 212 BAO) Ratenzahlung und Stundung. Nachsicht (§ 236 BAO) und Löschung (§ 235 BAO) sind dagegen eigenständige Instrumente zum endgültigen Erlöschen der Abgabenschuld, keine bloßen Zahlungsaufschübe."
     },
     {
       "id": "bao-ue-parpar210238-10",
@@ -4420,7 +4418,7 @@
         "Sofort nach Zustellung des Bescheides"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 210 Abs. 1 BAO"
+      "erklaerung": "Fehlt eine Spezialregelung, tritt Fälligkeit nach § 210 Abs. 1 BAO einen Monat nach Zustellung (Bekanntgabe) des Abgabenbescheides ein - nicht sofort, nicht am Jahresende und nicht mit Ablauf eines Kalenderquartals."
     },
     {
       "id": "bao-ue-parpar210238-11",
@@ -4491,7 +4489,7 @@
         "Sie stehen im Ermessen der Behörde"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 212 Abs. 1 BAO – „KANN“"
+      "erklaerung": "Zahlungserleichterungen stehen nach § 212 Abs. 1 BAO ('kann') im Ermessen der Behörde - sie sind auch bei Vorliegen der Voraussetzungen (Härte, keine Gefährdung der Einbringlichkeit) nicht zwingend zu gewähren."
     },
     {
       "id": "bao-ue-parpar210238-16",
@@ -4505,7 +4503,7 @@
         "Möglichkeit einer Zwangsstrafe durch die Behörde"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 217 BAO"
+      "erklaerung": "Wird eine Abgabe nicht fristgerecht bezahlt, ist nach § 217 BAO ein erster Säumniszuschlag in Höhe von 2 % des nicht rechtzeitig entrichteten Betrags zu verhängen - unabhängig vom Verschulden des Abgabepflichtigen. Ein Strafverfahren, ein Verspätungszuschlag oder eine Zwangsstrafe sind dagegen keine Folgen einer bloßen Zahlungsverspätung (Zwangsstrafen und Verspätungszuschläge betreffen andere Pflichtverletzungen)."
     },
     {
       "id": "bao-ue-parpar210238-17",
@@ -4527,7 +4525,7 @@
         4,
         6
       ],
-      "erklaerung": "§ 232 BAO"
+      "erklaerung": "Ein Sicherstellungsauftrag nach § 232 BAO setzt eine Gefährdung oder wesentliche Erschwerung der Einbringung voraus, ist selbst ein anfechtbarer Bescheid, darf nur bis zum Eintritt der Vollstreckbarkeit (also vorher) ergehen und dient als Exekutionstitel für finanzbehördliche und gerichtliche Sicherungsmaßnahmen. Er wird nicht auf Antrag des Steuerpflichtigen erlassen (sondern von Amts wegen) und bildet nicht die Grundlage für die reguläre Einbringung von Abgaben (dafür ist der Rückstandsausweis zuständig)."
     },
     {
       "id": "bao-ue-parpar210238-18",
@@ -4565,7 +4563,7 @@
         5,
         6
       ],
-      "erklaerung": "§ 238 BAO"
+      "erklaerung": "Die Einhebungsverjährung (§ 238 BAO) lässt das Recht zur Einhebung 5 Jahre nach Ablauf des Fälligkeitsjahres erlöschen - nie jedoch vor Ablauf der Festsetzungsverjährung. Sie ist von Amts wegen zu beachten, kennt keine absolute Verjährungsgrenze (anders als die Festsetzungsverjährung mit 10 Jahren) und wird durch jede nach außen erkennbare Amtshandlung unterbrochen, wonach die Frist von vorne zu laufen beginnt - eine alte Forderung kann so durch fortlaufende Unterbrechungen theoretisch unbegrenzt lange eingehoben werden."
     },
     {
       "id": "bao-ue-parpar210238-20",
@@ -4587,7 +4585,7 @@
         3,
         5
       ],
-      "erklaerung": "§ 217 Abs 2 und 3 BAO"
+      "erklaerung": "Nach § 217 Abs. 2 und 3 BAO gilt: Erster Säumniszuschlag 2 % bei Nichtzahlung zum Fälligkeitstag; zweiter Säumniszuschlag 1 %, wenn die Abgabe nicht spätestens 3 Monate nach Eintritt der Vollstreckbarkeit entrichtet ist; dritter Säumniszuschlag 1 %, wenn nicht spätestens 3 Monate nach Eintritt der Verpflichtung zum zweiten Säumniszuschlag entrichtet wird."
     },
     {
       "id": "bao-ue-parpar210238-21",
@@ -4672,7 +4670,7 @@
         "6 Monate ab Bekanntgabe des Bescheides"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 245 Abs. 1 BAO"
+      "erklaerung": "Die Beschwerdefrist beträgt nach § 245 Abs. 1 BAO einen Monat ab Bekanntgabe (Zustellung) des Bescheides."
     },
     {
       "id": "bao-ue-parpar243285-04",
@@ -4891,7 +4889,7 @@
         5,
         6
       ],
-      "erklaerung": "§ 250 Abs. 1 lit. a – d BAO"
+      "erklaerung": "Eine Beschwerde muss nach § 250 Abs. 1 lit. a-d BAO enthalten: die Bezeichnung des angefochtenen Bescheides, eine Erklärung, in welchen Punkten der Bescheid angefochten wird (Beschwerdeerklärung), eine Begründung sowie einen Beschwerdeantrag (welche Änderungen begehrt werden). Telefonnummer oder Kontonummer sind nicht erforderlich, und eine ausdrückliche Bezeichnung als 'Beschwerde' wird - anders als man vermuten könnte - nicht zwingend verlangt, solange der Inhalt eindeutig ist."
     },
     {
       "id": "bao-ue-parpar243285-19",
@@ -5003,7 +5001,7 @@
         "bis Vorlage an BFG"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 256 Abs. 1"
+      "erklaerung": "Eine Beschwerde kann bis zur Bekanntgabe der Entscheidung zurückgenommen werden (§ 256 Abs. 1 BAO) - nicht erst bis zur Vorlage an das BFG, aber auch nicht beliebig danach."
     },
     {
       "id": "bao-ue-parpar243285-27",
@@ -5031,7 +5029,7 @@
         "mit BVE verspätet zurückweisen"
       ],
       "korrekt": 3,
-      "erklaerung": "§ 256 Abs. 3"
+      "erklaerung": "Wird eine Beschwerde gültig und rechtzeitig zurückgenommen, hat die Behörde sie nach § 256 Abs. 3 BAO mit Beschwerdevorentscheidung als gegenstandslos zu erklären - das ist von der Zurückweisung (bei Unzulässigkeit) klar zu unterscheiden."
     },
     {
       "id": "bao-ue-parpar243285-29",
@@ -5160,7 +5158,7 @@
         "die Beschwerde bei Gefahr im Verzug dennoch zu behandeln"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 256 Abs. 3"
+      "erklaerung": "Wird eine fristgerecht eingebrachte Beschwerde vom Beschwerdeführer wieder zurückgenommen, hat die Behörde sie nach § 256 Abs. 3 BAO mit Beschwerdevorentscheidung als gegenstandslos zu erklären - auch bei Gefahr im Verzug ändert das nichts an dieser Rechtsfolge."
     },
     {
       "id": "bao-ue-parpar243285-37",
@@ -5190,7 +5188,7 @@
         "1 Jahr"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 264 Abs. 1"
+      "erklaerung": "Die Frist für einen Vorlageantrag (Antrag auf Vorlage der Beschwerde an das BFG nach Erlassung einer BVE) beträgt nach § 264 Abs. 1 BAO einen Monat."
     },
     {
       "id": "bao-ue-parpar243285-39",
@@ -5208,7 +5206,7 @@
         0,
         3
       ],
-      "erklaerung": "§ 272"
+      "erklaerung": "Das Bundesfinanzgericht entscheidet nach § 272 BAO entweder durch einen Einzelrichter oder in bestimmten Fällen durch einen Senat - nicht durch Laienrichter, Schöffen oder Geschworene, wie sie im gerichtlichen Strafverfahren vorkommen."
     },
     {
       "id": "bao-ue-parpar243285-40",
@@ -5244,7 +5242,7 @@
         "Kontonummer des Beschwerdeführers"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 264 Abs. 1"
+      "erklaerung": "Ein Vorlageantrag muss nach § 264 Abs. 1 BAO die angefochtene Beschwerdevorentscheidung bezeichnen. Eine ausdrückliche Bezeichnung als 'Vorlageantrag', eine ausführliche Begründung, Kontaktdaten oder ein detaillierter Änderungsantrag sind dagegen nicht zwingend vorgeschrieben."
     },
     {
       "id": "bao-ue-parpar243285-42",
@@ -5294,7 +5292,7 @@
         "innerhalb von einem Jahr ab dem Zeitpunkt der Kenntnis der Amtshandlung"
       ],
       "korrekt": 2,
-      "erklaerung": "§ 283 Abs. 2"
+      "erklaerung": "Eine Maßnahmenbeschwerde kann nach § 283 Abs. 2 BAO innerhalb von sechs Wochen ab dem Zeitpunkt erhoben werden, zu dem der Beschwerdeführer von der Ausübung der Befehls- und Zwangsgewalt Kenntnis erlangt hat."
     },
     {
       "id": "bao-ue-parpar243285-45",
@@ -5306,7 +5304,7 @@
         "Stimmt nicht"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 270 – kein Neuerungsverbot"
+      "erklaerung": "Stimmt. Nach § 270 BAO ('kein Neuerungsverbot') hat die Abgabenbehörde auf neue Tatsachen, Beweise und Anträge, die ihr im Laufe des Beschwerdeverfahrens zur Kenntnis gelangen, Bedacht zu nehmen und diese zu berücksichtigen - auch wenn sich dadurch das Beschwerdebegehren ändert oder erweitert. Diese Regel gilt sinngemäß auch für das Verfahren vor dem BFG."
     },
     {
       "id": "bao-ue-parpar243285-46",
@@ -5337,7 +5335,7 @@
         0,
         2
       ],
-      "erklaerung": "§ 271"
+      "erklaerung": "Die Abgabenbehörde kann die Entscheidung über eine Beschwerde nach § 271 BAO aussetzen, wenn wegen einer gleichen oder ähnlichen Rechtsfrage bereits eine andere Beschwerde anhängig ist, oder wenn vor einem Gericht oder einer Verwaltungsbehörde ein Verfahren schwebt, dessen Ausgang für die Entscheidung von wesentlicher Bedeutung ist. Arbeitsüberlastung der Dienststelle oder Personalausfall sind dagegen keine zulässigen Gründe für eine Aussetzung."
     },
     {
       "id": "bao-ue-parpar243285-48",
@@ -5387,7 +5385,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "auch auf Antrag möglich gem § 293"
+      "erklaerung": "Nein. Die Berichtigung von Schreib- und Rechenfehlern nach § 293 BAO kann sowohl von Amts wegen als auch auf Antrag der Partei erfolgen."
     },
     {
       "id": "bao-ue-parpar293308-04",
@@ -5399,7 +5397,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "Schreibfehler der Behörde"
+      "erklaerung": "Auch die falsche Datumsangabe in einem Bescheid (hier: Ausstellungsdatum ein Jahr in der Zukunft) ist ein von der Behörde verursachter Schreibfehler und daher nach § 293 BAO berichtigungsfähig - unabhängig davon, ob sich der Fehler auf den Spruch oder andere Bescheidbestandteile bezieht."
     },
     {
       "id": "bao-ue-parpar293308-05",
@@ -5435,7 +5433,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "nur Fehler der Behörde"
+      "erklaerung": "Falsch. § 293 BAO berichtigt ausschließlich Fehler, die der Behörde selbst unterlaufen sind (z.B. ein Tippfehler beim Übertragen ins System) - nicht Fehler, die der Abgabepflichtige in seiner eigenen Erklärung gemacht hat."
     },
     {
       "id": "bao-ue-parpar293308-08",
@@ -5519,7 +5517,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "auch „von Amts wegen“ gem § 299 Abs. 1"
+      "erklaerung": "Nein. Eine Bescheidänderung (genauer: Bescheidaufhebung) nach § 299 BAO kann sowohl auf Antrag der Partei als auch von Amts wegen erfolgen (§ 299 Abs. 1 BAO)."
     },
     {
       "id": "bao-ue-parpar293308-15",
@@ -5531,7 +5529,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "„kann“"
+      "erklaerung": "Ja, eine Bescheidaufhebung nach § 299 BAO liegt im Ermessen der Behörde - das Gesetz formuliert die Befugnis mit 'kann', nicht mit 'hat' oder 'ist'."
     },
     {
       "id": "bao-ue-parpar293308-16",
@@ -5548,7 +5546,7 @@
         0,
         2
       ],
-      "erklaerung": "§ 299 und 302"
+      "erklaerung": "Eine Bescheidänderung (Aufhebung) nach § 299 BAO setzt eine Rechtswidrigkeit im Spruch des Bescheides voraus und ist grundsätzlich nur innerhalb eines Jahres ab Bekanntgabe des Bescheides zulässig (§ 302 BAO). Neu hervorgekommene Tatsachen sind dagegen kein Grund für § 299 BAO, sondern für eine Wiederaufnahme nach § 303 BAO; eine Bindung an die reguläre Verjährungsfrist besteht hier nicht - die Jahresfrist ist die eigenständige, engere Grenze."
     },
     {
       "id": "bao-ue-parpar293308-17",
@@ -5560,7 +5558,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 302 Abs 2 lit b BAO"
+      "erklaerung": "Ja. Wird ein Antrag auf Aufhebung nach § 299 BAO noch innerhalb der Jahresfrist gestellt, kann der darüber ergehende Bescheid nach § 302 Abs. 2 lit. b BAO auch noch nach Ablauf dieser Jahresfrist erlassen werden - entscheidend ist der rechtzeitige Antrag, nicht der Zeitpunkt der behördlichen Erledigung."
     },
     {
       "id": "bao-ue-parpar293308-18",
@@ -5580,7 +5578,7 @@
         2,
         5
       ],
-      "erklaerung": "§ 303 Abs 1 lit a – c BAO"
+      "erklaerung": "Eine Wiederaufnahme des Verfahrens ist nach § 303 Abs. 1 lit. a-c BAO möglich bei Vorliegen des Erschleichungstatbestands (Bescheid wurde durch gerichtlich strafbare Handlung erwirkt), des Neuerungstatbestands (neu hervorgekommene Tatsachen oder Beweismittel) oder des Vorfragentatbestands (eine für den Bescheid maßgebliche Vorfrage wurde nachträglich anders entschieden). Ein 'Bestechungstatbestand' oder 'Altfragentatbestand' existiert als eigener Wiederaufnahmegrund nicht."
     },
     {
       "id": "bao-ue-parpar293308-19",
@@ -5604,7 +5602,7 @@
         "Nein"
       ],
       "korrekt": 1,
-      "erklaerung": "in § 308 Abs. 1 steht „IST“"
+      "erklaerung": "Nein. Die Wiedereinsetzung in den vorigen Stand ist nach § 308 Abs. 1 BAO ('ist zu bewilligen') keine Ermessensentscheidung - liegen die Voraussetzungen vor, muss sie gewährt werden."
     },
     {
       "id": "bao-ue-parpar293308-21",
@@ -5767,7 +5765,7 @@
         1,
         3
       ],
-      "erklaerung": "§ 303"
+      "erklaerung": "Für eine Wiederaufnahme müssen nach § 303 BAO vorliegen: ein tauglicher Wiederaufnahmegrund (Tatsachen, Beweismittel oder Vorfrage), die Kenntnis der neuen Umstände hätte im Spruch zu einem anderen Ergebnis geführt (Erheblichkeit), und es muss sich um ein bereits durch Bescheid abgeschlossenes Verfahren handeln. Ein grobes Verschulden der Partei ist dagegen keine Voraussetzung für die Wiederaufnahme (im Unterschied zur Wiedereinsetzung, wo gerade das Fehlen groben Verschuldens verlangt wird)."
     },
     {
       "id": "bao-ue-parpar293308-33",
@@ -5781,7 +5779,7 @@
         "Ein Gutachten bestätigt später den bereits bekannten Sachverhalt"
       ],
       "korrekt": 1,
-      "erklaerung": "§ 303 Abs. 1 lit a"
+      "erklaerung": "Ein tauglicher Wiederaufnahmsgrund liegt vor, wenn eine Partei vorsätzlich Einnahmen verschweigt (Erschleichungs- bzw. Neuerungstatbestand). Kein tauglicher Grund ist es dagegen, wenn die Behörde selbst im Verfahren eine vorgelegte Rechnung übersieht (das ist ein Behördenfehler, kein neuer Umstand), wenn der VwGH seine Rechtsprechung ändert, oder wenn ein späteres Gutachten lediglich einen bereits bekannten Sachverhalt bestätigt (nova producta statt nova reperta) - all das sind keine 'neuen Tatsachen' im Sinne des § 303 BAO."
     },
     {
       "id": "bao-ue-parpar293308-34",
@@ -5805,7 +5803,7 @@
         "Nein"
       ],
       "korrekt": 0,
-      "erklaerung": "§ 308 Abs. 1"
+      "erklaerung": "Ja. Eine Wiedereinsetzung in den vorigen Stand kann nach § 308 Abs. 1 BAO nicht nur gegen die Versäumung einer Frist, sondern ausdrücklich auch gegen die Versäumung einer mündlichen Verhandlung beantragt werden."
     },
     {
       "id": "bao-ue-parpar293308-36",

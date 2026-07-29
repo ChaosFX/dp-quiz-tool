@@ -1,0 +1,37 @@
+{
+  "fach": "BAO",
+  "thema": "Beschwerdeverfahren",
+  "quelle_note": "Bundesabgabenordnung/Beschwerdeverfahren.md",
+  "karten": [
+    {
+      "id": "bao-beschwerdeverfahren-01",
+      "frage": "Wie lange ist die Frist für den Vorlageantrag?",
+      "antwort": "**1 Monat** ab Zustellung der BVE (§ 264 Abs 1)."
+    },
+    {
+      "id": "bao-beschwerdeverfahren-02",
+      "frage": "Gilt im Beschwerdeverfahren ein Neuerungsverbot?",
+      "antwort": "**NEIN** - weder vor der Abgabenbehörde noch vor dem BFG (§ 270). Neu Tatsachen/Beweise/Anträge sind stets zu berücksichtigen, auch wenn sich dadurch das Beschwerdebegehren ändert. \n**Ausnahme:** vor VwGH/VfGH gilt ein Neuerungsverbot."
+    },
+    {
+      "id": "bao-beschwerdeverfahren-03",
+      "frage": "In welchen Fällen entscheidet das BFG mit Beschluss, in welchen mit Erkenntnis?",
+      "antwort": "**Beschluss:** Zurückweisung, Gegenstandsloserklärung, Aufhebung unter Zurückverweisung. \n**Erkenntnis:** alle anderen Fälle, insb. Abweisung, Abänderung, ersatzlose Aufhebung."
+    },
+    {
+      "id": "bao-beschwerdeverfahren-04",
+      "frage": "Kann gegen einen abgeleiteten Bescheid vorgebracht werden, der Grundlagenbescheid sei rechtswidrig?",
+      "antwort": "**NEIN** - solche Einwendungen sind nur im Beschwerdeverfahren gegen den **Feststellungsbescheid selbst** vorzubringen; eine entsprechenden Beschwerde gegen den abgeleiteten Bescheid ist als unbegründet **abzuweisen**."
+    },
+    {
+      "id": "bao-beschwerdeverfahren-05",
+      "frage": "Hat eine Beschwerde aufschiebende Wirkung?",
+      "antwort": "**NEIN** (§ 254) - dafür ist ein gesonderter Antrag auf **Aussetzung der Einhebung** (§ 212a) nötig."
+    },
+    {
+      "id": "bao-beschwerdeverfahren-06",
+      "frage": "Wann ist die Erlassung einer BVE nicht zwingend?",
+      "antwort": "Bei Verzicht mit Direktvorlagebeantragung (+ Vorlage binnen 3 Monaten) oder wenn die Beschwerde ausschließlich Verfassungs-/Gesetz-/Staatsvertragswidrigkeiten geltend macht."
+    }
+  ]
+}

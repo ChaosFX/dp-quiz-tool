@@ -1,0 +1,52 @@
+{
+  "fach": "KöSt",
+  "thema": "Nichtabzugsfähige Aufwendungen KöSt",
+  "quelle_note": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt.md",
+  "karten": [
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-01",
+      "frage": "Gilt § 12 KStG für alle Körperschaften gleich?",
+      "antwort": "Ja - unabhängig von Rechtsform, Gewinnermittlung und unbeschränkter/beschränkter Steuerpflicht."
+    },
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-02",
+      "frage": "Was passiert bei unangemessen hohen Luxus-Wirtschaftsgütern (Z 2)?",
+      "antwort": "Die damit zusammenhängenden Aufwendungen (AfA, Finanzierung, Betriebskosten) werden **anteilig gekürzt** - bei PKW ab einem Anschaffungspreis über 40.000 €."
+    },
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-03",
+      "frage": "Wann sind Repräsentationsaufwendungen zur Hälfte abzugsfähig?",
+      "antwort": "Wann die Körperschaft nachweist, dass die Bewirtung **überwiegend der Werbung** dient."
+    },
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-04",
+      "frage": "Ist eine Verurteilung Voraussetzung für das Abzugsverbot bei Schmiergeldern (Z 4)?",
+      "antwort": "Nein - es genügt, dass Gewährung/Annahme im Inland **mit gerichtlicher Strafe bedroht** ist."
+    },
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-05",
+      "frage": "Wie funktioniert die Siebentelung nach § 12 Abs 3 Z 2 KStG?",
+      "antwort": "Der **steuerliche Buchwert** sinkt sofort um den vollen TWA-Betrag; der **Aufwand** wird aber verteilt: 6/7 werden im Jahr der TWA hinzugerechnet, dir restlichen 6 Jahre je 1/7 abgesetzt."
+    },
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-06",
+      "frage": "Welche Beteiligung sind von der Siebentelung ausgenommen?",
+      "antwort": "**Minderheitsbeteiligungen < 5 % im Umlaufvermögen** - dort sind TWA/Veräußerungsverluste sofort voll abzugsfähig."
+    },
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-07",
+      "frage": "Was ist eine ausschüttungsbedingte Teilwertsabschreibung?",
+      "antwort": "Eine TWA, die entsteht, weil im Kaufpreis der Beteiligung enthaltene thesaurierte Gewinne/eingekaufte stille Reserven später ausgeschüttet werden und dadurch den Teilwert mindern. Gelingt der Gegenbeweis nicht, ist sie **steuerlich nicht abzugsfähig**."
+    },
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-08",
+      "frage": "Welche Ebene darf bei einer einlagenbedingten TWA (Großmutter-Zuschuss) steuerlich abschreiben?",
+      "antwort": "**Nur die Großmuttergesellschaft** (Beteiligung an der Mutter). Die Abschreibung der Mutter an der Enkelgesellschaft ist steuerlich **nicht** absetzbar."
+    },
+    {
+      "id": "koest-nichtabzugsfaehige-aufwendungen-koest-09",
+      "frage": "Woran unterscheidet man Fehlmaßnahem und Sanierungsmaßnahme bei einem Gesellschafterzuschuss?",
+      "antwort": "Fehlmaßnahme: reine Verlustabdeckung ohne Besserungsaussicht (TWA möglich).\nSanierungsmaßnahme: dient der künftigen Rentabilität (i.d.R. noch keine TWA) - Beurteilung nach 2-4 Jahren Beobachtungszeitraum."
+    }
+  ]
+}

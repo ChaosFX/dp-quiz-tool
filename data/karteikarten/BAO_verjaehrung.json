@@ -1,0 +1,32 @@
+{
+  "fach": "BAO",
+  "thema": "Verjährung",
+  "quelle_note": "Bundesabgabenordnung/Verjährung.md",
+  "karten": [
+    {
+      "id": "bao-verjaehrung-01",
+      "frage": "Was unterscheidet Bemessungs- und Einhebungsverjährung grundlegend?",
+      "antwort": "Bemessungsverjährung befristet die **Festsetzung**, Einhebungsverjährung die **Einhebung/Vollstreckung**. Verlängerungshandlungen wirken bei der Bemessungsverjährung nur **+1 Jahr** (mit absoluter Grenze von 10 Jahren), bei der Einhebungsverjährung beginnt die Frist **komplett neu** (ohne absolute Grenze)."
+    },
+    {
+      "id": "bao-verjaehrung-02",
+      "frage": "Wie lange beträgt die reguläre Bemessungsverjährung, wie lange die absolute?",
+      "antwort": "Regulär **5 Jahre** (Verbrauchsteuern 3 Jahre, hinterzogene Abgaben 10 Jahre), absolute Verjährung **10 Jahre** - **weder hemmbar noch verlängerbar**."
+    },
+    {
+      "id": "bao-verjaehrung-03",
+      "frage": "Welche Voraussetzungen muss einen Verlängerungshandlung erfüllen?",
+      "antwort": "**Nach außen erkennbar**, **notwendig und rechtsmäßig** - **nicht** zwingend dem Abgabepflichtigen bekannt."
+    },
+    {
+      "id": "bao-verjaehrung-04",
+      "frage": "Was passiert, wenn die Behörde trotz eingetretener Verjährung eine Bescheid erlässt?",
+      "antwort": "Der Bescheid ist **kein Nichtbescheid** - Beschwerde innerhalb der Rechtsmittelfrist erheben; die Rechtsmittelbehörde hat ihn **ersatzlos aufzuheben**."
+    },
+    {
+      "id": "bao-verjaehrung-05",
+      "frage": "Wovon hängt § 209a BAO ab?",
+      "antwort": "Davon, dass eine Beschwerde/ein Antrag **vor Verjährungseintritt** eingebracht wurde - dann steht die (auch absolute) Verjährung der darauf beruhenden Festsetzung **nicht entgegen**."
+    }
+  ]
+}

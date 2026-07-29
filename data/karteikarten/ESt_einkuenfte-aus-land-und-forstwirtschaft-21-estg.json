@@ -1,0 +1,32 @@
+{
+  "fach": "ESt",
+  "thema": "Einkünfte aus Land- und Forstwirtschaft (§ 21 EStG)",
+  "quelle_note": "Einkommensteuer/Einkünfte Land Forstwirtschaft.md",
+  "karten": [
+    {
+      "id": "est-einkuenfte-aus-land-und-forstwirtschaft-21-estg-01",
+      "frage": "Welche Tätigkeiten umfasst die Land- und Forstwirtschaft?",
+      "antwort": "Lnadwirtschaft, Forstwirtschaft, Weinbau, Garten/Obst/Gemüsebau, Tierzucht/-haltung, Binnenfischerei/Fischzucht/Teichwirtschaft/Bienenzucht, Jagd (im Zusammenhang der L+F), Nebenbetriebe, Veräußerungsgewinne."
+    },
+    {
+      "id": "est-einkuenfte-aus-land-und-forstwirtschaft-21-estg-02",
+      "frage": "Wie erfolgt die Abgrenzung zum Gewerbebetrieb?",
+      "antwort": "Über die 25 %-Zukaufsgrenze (Einkaufswert zugekaufter Erzeugnisse ≤ 25 % des Nettoumsatzes); bei nachhaltigem Überschreiten (2 Jahre in Folge) ab dem 3. Jahr Gewerbebetrieb."
+    },
+    {
+      "id": "est-einkuenfte-aus-land-und-forstwirtschaft-21-estg-03",
+      "frage": "Was ist ein landwirtschaftlicher Nebenbetrieb?",
+      "antwort": "Ein Betrieb, der dem L+F-Hauptbetrieb funktional dient, ohne diesen Zusammenhang aber Gewerbebetrieb währe (Verarbeitungs- oder Substanzbetrieb)."
+    },
+    {
+      "id": "est-einkuenfte-aus-land-und-forstwirtschaft-21-estg-04",
+      "frage": "Wie kann ein Land- und Forstwirt seinen Gewinn ermitteln?",
+      "antwort": "Je nach Einheitswert/Umsatz: Vollpauschlierung, Teilpauschalierung, EAR oder (ab € 700.000 Umsatz) Bilanzierung."
+    },
+    {
+      "id": "est-einkuenfte-aus-land-und-forstwirtschaft-21-estg-05",
+      "frage": "Was versteht man unter Beitragsgrundlagenoption?",
+      "antwort": "Wahlrecht, wonach die SV-Beiträge statt vom Einheitswert vom steuerlichen Gewinn berechnet werden (§ 23 ABs 1a BSVG)."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "fach": "KöSt",
+  "thema": "Darlehen an Gesellschafter",
+  "quelle_note": "Körperschaftsteuer/Darlehen an Gesellschafter.md",
+  "karten": [
+    {
+      "id": "koest-darlehen-an-gesellschafter-01",
+      "frage": "Welche drei Fragen sind bei der Prüfung eines Gesellschafterdarlehens zu stellen?",
+      "antwort": "1) Ist die Vertragsgestaltung (außer Zinssatz) fremdüblich?\n2) Wurde die Rückzahlung tatsächlich fremdüblich eingehalten?\n3) Ist die höhe der Zinsen fremdüblich?"
+    }
+  ]
+}

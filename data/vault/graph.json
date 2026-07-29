@@ -19,6 +19,12 @@
       "pfad": "Bundesabgabenordnung/Bescheid.md"
     },
     {
+      "id": "Bundesabgabenordnung/Beschwerdeverfahren",
+      "label": "Beschwerdeverfahren",
+      "fach": "BAO",
+      "pfad": "Bundesabgabenordnung/Beschwerdeverfahren.md"
+    },
+    {
       "id": "Bundesabgabenordnung/Ermessen",
       "label": "Ermessen",
       "fach": "BAO",
@@ -115,6 +121,12 @@
       "pfad": "Einkommensteuer/Einkunftsarten.md"
     },
     {
+      "id": "Einkommensteuer/Einkünfte Land Forstwirtschaft",
+      "label": "Einkünfte aus Land- und Forstwirtschaft (§ 21 EStG)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Einkünfte Land Forstwirtschaft.md"
+    },
+    {
       "id": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
       "label": "Einnahmen-Ausgaben-Rechnung (EAR)",
       "fach": "ESt",
@@ -127,10 +139,16 @@
       "pfad": "Einkommensteuer/Forschungsprämie.md"
     },
     {
-      "id": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "id": "Einkommensteuer/Gewerbebetrieb",
+      "label": "Einkünfte aus Gewerbebetrieb (§ 23 EStG)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Gewerbebetrieb.md"
+    },
+    {
+      "id": "Einkommensteuer/Gewinnermittlung",
       "label": "Gewinnermittlung - Überblick",
       "fach": "ESt",
-      "pfad": "Einkommensteuer/Gewinnermittlung - Überblick.md"
+      "pfad": "Einkommensteuer/Gewinnermittlung.md"
     },
     {
       "id": "Einkommensteuer/Gewinnfreibetrag",
@@ -151,10 +169,22 @@
       "pfad": "Einkommensteuer/Investitionsförderungen.md"
     },
     {
+      "id": "Einkommensteuer/KESt",
+      "label": "KESt",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/KESt.md"
+    },
+    {
       "id": "Einkommensteuer/Liebhaberei",
       "label": "Liebhaberei",
       "fach": "ESt",
       "pfad": "Einkommensteuer/Liebhaberei.md"
+    },
+    {
+      "id": "Einkommensteuer/Mitunternehmerschaften",
+      "label": "Mitunternehmerschaften",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Mitunternehmerschaften.md"
     },
     {
       "id": "Einkommensteuer/Nicht abzugsfähige Aufwendungen",
@@ -197,6 +227,12 @@
       "label": "Sachliche Steuerpflicht Einkommen",
       "fach": "ESt",
       "pfad": "Einkommensteuer/Sachliche Steuerpflicht Einkommen.md"
+    },
+    {
+      "id": "Einkommensteuer/Selbstständige Arbeit",
+      "label": "Einkünfte aus selbständiger Arbeit § 22 EStG",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Selbstständige Arbeit.md"
     },
     {
       "id": "Einkommensteuer/Sonderausgaben",
@@ -259,6 +295,18 @@
       "pfad": "Einkommensteuer/Überblick & Wesen ESt.md"
     },
     {
+      "id": "Körperschaftsteuer/Ausschüttungen",
+      "label": "Ausschüttungen",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Ausschüttungen.md"
+    },
+    {
+      "id": "Körperschaftsteuer/Außerbetriebliche Sphäre",
+      "label": "Die außerbetriebliche Sphäre",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Außerbetriebliche Sphäre.md"
+    },
+    {
       "id": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht",
       "label": "Beginn & Ende der Steuerpflicht",
       "fach": "KöSt",
@@ -277,6 +325,12 @@
       "pfad": "Körperschaftsteuer/Betriebe gewerblicher Art (BgA).md"
     },
     {
+      "id": "Körperschaftsteuer/Darlehen an Gesellschafter",
+      "label": "Darlehen an Gesellschafter",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Darlehen an Gesellschafter.md"
+    },
+    {
       "id": "Körperschaftsteuer/Einlagen",
       "label": "Einlagen",
       "fach": "KöSt",
@@ -289,6 +343,12 @@
       "pfad": "Körperschaftsteuer/Gemeinnützige Körperschaften.md"
     },
     {
+      "id": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "label": "Nichtabzugsfähige Aufwendungen KöSt",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt.md"
+    },
+    {
       "id": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
       "label": "Persönliche Steuerpflicht KöSt",
       "fach": "KöSt",
@@ -299,6 +359,12 @@
       "label": "Sachliche Steuerpflicht",
       "fach": "KöSt",
       "pfad": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt.md"
+    },
+    {
+      "id": "Körperschaftsteuer/Sonderausgaben KöSt",
+      "label": "Sonderausgaben",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Sonderausgaben KöSt.md"
     },
     {
       "id": "Körperschaftsteuer/Steuerbefreiungen KöSt",
@@ -493,6 +559,12 @@
       "pfad": "Rechtsquellen/KStG/§ 10 KStG.md"
     },
     {
+      "id": "Rechtsquellen/KStG/§ 12 KStG",
+      "label": "Nichtabzugsfähige Aufwendungen",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 12 KStG.md"
+    },
+    {
       "id": "Rechtsquellen/KStG/§ 2 KStG",
       "label": "Betrieb gewerblicher Art einer Körperschaft öffentlichen Rechts",
       "fach": "KöSt",
@@ -533,6 +605,12 @@
       "label": "Unternehmer, Unternehmen",
       "fach": "USt",
       "pfad": "Rechtsquellen/UStG/§ 2 UStG.md"
+    },
+    {
+      "id": "Rechtsquellen/UStG/§ 6 UStG",
+      "label": "§ 6 UStG",
+      "fach": "USt",
+      "pfad": "Rechtsquellen/UStG/§ 6 UStG.md"
     },
     {
       "id": "Umsatzsteuer/Binnenmarkt",
@@ -674,10 +752,34 @@
     },
     {
       "source": "Bundesabgabenordnung/Bescheid",
+      "target": "Bundesabgabenordnung/Beschwerdeverfahren"
+    },
+    {
+      "source": "Bundesabgabenordnung/Bescheid",
       "target": "Bundesabgabenordnung/Anbringen & Mängelbehebung"
     },
     {
       "source": "Bundesabgabenordnung/Bescheid",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Beschwerdeverfahren",
+      "target": "Bundesabgabenordnung/Bescheid"
+    },
+    {
+      "source": "Bundesabgabenordnung/Beschwerdeverfahren",
+      "target": "Bundesabgabenordnung/Anbringen & Mängelbehebung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Beschwerdeverfahren",
+      "target": "Bundesabgabenordnung/Fristen & Strafen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Beschwerdeverfahren",
+      "target": "Bundesabgabenordnung/Verjährung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Beschwerdeverfahren",
       "target": "Bundesabgabenordnung/Ermessen"
     },
     {
@@ -753,6 +855,10 @@
       "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
     },
     {
+      "source": "Bundesabgabenordnung/Legalitätsprinzip",
+      "target": "Bundesabgabenordnung/Beschwerdeverfahren"
+    },
+    {
       "source": "Bundesabgabenordnung/Parteien & Vertreter",
       "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
     },
@@ -775,6 +881,26 @@
     {
       "source": "Bundesabgabenordnung/Parteien & Vertreter",
       "target": "Rechtsquellen/BAO/§ 9 BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Verjährung",
+      "target": "Bundesabgabenordnung/Ermessen"
+    },
+    {
+      "source": "Bundesabgabenordnung/Verjährung",
+      "target": "Bundesabgabenordnung/Haftung"
+    },
+    {
+      "source": "Bundesabgabenordnung/Verjährung",
+      "target": "Bundesabgabenordnung/Beschwerdeverfahren"
+    },
+    {
+      "source": "Bundesabgabenordnung/Verjährung",
+      "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
+    },
+    {
+      "source": "Bundesabgabenordnung/Verjährung",
+      "target": "Rechtsquellen/BAO/§ 4 BAO"
     },
     {
       "source": "Bundesabgabenordnung/Wirtschaftliche Betrachtungsweise",
@@ -813,6 +939,10 @@
       "target": "Bundesabgabenordnung/Überblick & Wesen BAO"
     },
     {
+      "source": "Bundesabgabenordnung/Zustellung",
+      "target": "Bundesabgabenordnung/Beschwerdeverfahren"
+    },
+    {
       "source": "Bundesabgabenordnung/Überblick & Wesen BAO",
       "target": "Rechtsquellen/BAO/§ 1 BAO"
     },
@@ -842,7 +972,7 @@
     },
     {
       "source": "Einkommensteuer/AfA",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/AfA",
@@ -854,7 +984,7 @@
     },
     {
       "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
@@ -886,7 +1016,7 @@
     },
     {
       "source": "Einkommensteuer/Betriebsvermögen",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Betriebsvermögen",
@@ -918,7 +1048,7 @@
     },
     {
       "source": "Einkommensteuer/Betriebsvermögensvergleich",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Betriebsvermögensvergleich",
@@ -950,7 +1080,7 @@
     },
     {
       "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Bewertung Wirtschaftsgüter",
@@ -974,7 +1104,7 @@
     },
     {
       "source": "Einkommensteuer/Buchführungspflicht",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Buchführungspflicht",
@@ -998,7 +1128,15 @@
     },
     {
       "source": "Einkommensteuer/Einkunftsarten",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Selbstständige Arbeit"
+    },
+    {
+      "source": "Einkommensteuer/Einkunftsarten",
+      "target": "Einkommensteuer/Gewerbebetrieb"
+    },
+    {
+      "source": "Einkommensteuer/Einkunftsarten",
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Einkunftsarten",
@@ -1009,12 +1147,24 @@
       "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
     },
     {
+      "source": "Einkommensteuer/Einkünfte Land Forstwirtschaft",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Einkommensteuer/Einkünfte Land Forstwirtschaft",
+      "target": "Einkommensteuer/Pauschalierung"
+    },
+    {
+      "source": "Einkommensteuer/Einkünfte Land Forstwirtschaft",
+      "target": "Einkommensteuer/Buchführungspflicht"
+    },
+    {
       "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
       "target": "Einkommensteuer/Zeitliche Zurechnung"
     },
     {
       "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
@@ -1061,39 +1211,55 @@
       "target": "Rechtsquellen/EStG/§ 108c EStG"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewerbebetrieb",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Einkommensteuer/Gewerbebetrieb",
+      "target": "Einkommensteuer/Mitunternehmerschaften"
+    },
+    {
+      "source": "Einkommensteuer/Gewerbebetrieb",
+      "target": "Einkommensteuer/Selbstständige Arbeit"
+    },
+    {
+      "source": "Einkommensteuer/Gewerbebetrieb",
+      "target": "Einkommensteuer/Einkünfte Land Forstwirtschaft"
+    },
+    {
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Einkommensteuer/Betriebsvermögen"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Einkommensteuer/Zeitliche Zurechnung"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Einkommensteuer/Pauschalierung"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Einkommensteuer/Betriebsvermögensvergleich"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Einkommensteuer/Einnahmen Ausgaben Rechnung"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Einkommensteuer/Buchführungspflicht"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Rechtsquellen/EStG/§ 4 EStG"
     },
     {
-      "source": "Einkommensteuer/Gewinnermittlung - Überblick",
+      "source": "Einkommensteuer/Gewinnermittlung",
       "target": "Rechtsquellen/EStG/§ 5 EStG"
     },
     {
@@ -1134,7 +1300,7 @@
     },
     {
       "source": "Einkommensteuer/Investitionsförderungen",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Investitionsförderungen",
@@ -1151,6 +1317,18 @@
     {
       "source": "Einkommensteuer/Liebhaberei",
       "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Mitunternehmerschaften",
+      "target": "Rechtsquellen/EStG/§ 1 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Mitunternehmerschaften",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Einkommensteuer/Mitunternehmerschaften",
+      "target": "Einkommensteuer/Gewerbebetrieb"
     },
     {
       "source": "Einkommensteuer/Nicht abzugsfähige Aufwendungen",
@@ -1174,7 +1352,11 @@
     },
     {
       "source": "Einkommensteuer/Pauschalierung",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
+    },
+    {
+      "source": "Einkommensteuer/Pauschalierung",
+      "target": "Einkommensteuer/Einkünfte Land Forstwirtschaft"
     },
     {
       "source": "Einkommensteuer/Pauschalierung",
@@ -1207,6 +1389,10 @@
     {
       "source": "Einkommensteuer/Persönliche Steuerpflicht",
       "target": "Rechtsquellen/BAO/§ 26 BAO"
+    },
+    {
+      "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
+      "target": "Einkommensteuer/KESt"
     },
     {
       "source": "Einkommensteuer/Prinzipien der Einkommensteuer",
@@ -1250,7 +1436,7 @@
     },
     {
       "source": "Einkommensteuer/Rückstellungen",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Rückstellungen",
@@ -1279,6 +1465,14 @@
     {
       "source": "Einkommensteuer/Sachliche Steuerpflicht Einkommen",
       "target": "Einkommensteuer/Sonderausgaben"
+    },
+    {
+      "source": "Einkommensteuer/Selbstständige Arbeit",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Einkommensteuer/Selbstständige Arbeit",
+      "target": "Einkommensteuer/Gewerbebetrieb"
     },
     {
       "source": "Einkommensteuer/Steuerbefreiungen",
@@ -1426,6 +1620,10 @@
     },
     {
       "source": "Einkommensteuer/Überblick & Wesen ESt",
+      "target": "Einkommensteuer/Mitunternehmerschaften"
+    },
+    {
+      "source": "Einkommensteuer/Überblick & Wesen ESt",
       "target": "Einkommensteuer/Prinzipien der Einkommensteuer"
     },
     {
@@ -1438,11 +1636,51 @@
     },
     {
       "source": "Einkommensteuer/Überblick & Wesen ESt",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Einkommensteuer/Überblick & Wesen ESt",
       "target": "Rechtsquellen/EStG/§ 2 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Ausschüttungen",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Ausschüttungen",
+      "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Körperschaftsteuer/Ausschüttungen",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
+    },
+    {
+      "source": "Körperschaftsteuer/Ausschüttungen",
+      "target": "Umsatzsteuer/Kleinunternehmer USt"
+    },
+    {
+      "source": "Körperschaftsteuer/Ausschüttungen",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Ausschüttungen",
+      "target": "Körperschaftsteuer/Gemeinnützige Körperschaften"
+    },
+    {
+      "source": "Körperschaftsteuer/Ausschüttungen",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Außerbetriebliche Sphäre",
+      "target": "Körperschaftsteuer/Ausschüttungen"
+    },
+    {
+      "source": "Körperschaftsteuer/Außerbetriebliche Sphäre",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Außerbetriebliche Sphäre",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
     },
     {
       "source": "Körperschaftsteuer/Beginn & Ende der Steuerpflicht",
@@ -1466,7 +1704,15 @@
     },
     {
       "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Rechtsquellen/KStG/§ 12 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
       "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Körperschaftsteuer/Ausschüttungen"
     },
     {
       "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
@@ -1521,6 +1767,22 @@
       "target": "Rechtsquellen/KStG/§ 5 KStG"
     },
     {
+      "source": "Körperschaftsteuer/Darlehen an Gesellschafter",
+      "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Körperschaftsteuer/Darlehen an Gesellschafter",
+      "target": "Körperschaftsteuer/Ausschüttungen"
+    },
+    {
+      "source": "Körperschaftsteuer/Darlehen an Gesellschafter",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Darlehen an Gesellschafter",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
       "source": "Körperschaftsteuer/Einlagen",
       "target": "Rechtsquellen/KStG/§ 8 KStG"
     },
@@ -1551,6 +1813,14 @@
     {
       "source": "Körperschaftsteuer/Einlagen",
       "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Körperschaftsteuer/Ausschüttungen"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Körperschaftsteuer/Darlehen an Gesellschafter"
     },
     {
       "source": "Körperschaftsteuer/Einlagen",
@@ -1589,6 +1859,42 @@
       "target": "Rechtsquellen/KStG/§ 10 KStG"
     },
     {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Rechtsquellen/KStG/§ 12 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Körperschaftsteuer/Ausschüttungen"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Körperschaftsteuer/Einlagen"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
       "source": "Körperschaftsteuer/Persönliche Steuerpflicht KöSt",
       "target": "Rechtsquellen/KStG/§ 1 KStG"
     },
@@ -1619,6 +1925,10 @@
     {
       "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
       "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
+      "target": "Körperschaftsteuer/Sonderausgaben KöSt"
     },
     {
       "source": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt",
@@ -1694,6 +2004,10 @@
     },
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Körperschaftsteuer/Ausschüttungen"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Körperschaftsteuer/Einlagen"
     },
     {
@@ -1707,6 +2021,10 @@
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Einkommensteuer/ImmoESt"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Einkommensteuer/KESt"
     },
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
@@ -2126,7 +2444,7 @@
     },
     {
       "source": "Rechtsquellen/EStG/§ 4 EStG",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Rechtsquellen/EStG/§ 4 EStG",
@@ -2150,7 +2468,7 @@
     },
     {
       "source": "Rechtsquellen/EStG/§ 5 EStG",
-      "target": "Einkommensteuer/Gewinnermittlung - Überblick"
+      "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
       "source": "Rechtsquellen/EStG/§ 5 EStG",
@@ -2203,6 +2521,10 @@
     {
       "source": "Rechtsquellen/EStG/§ 6 EStG",
       "target": "Rechtsquellen/EStG/§ 5 EStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Körperschaftsteuer/Ausschüttungen"
     },
     {
       "source": "Rechtsquellen/EStG/§ 9 EStG",
@@ -2262,6 +2584,10 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 10 KStG",
+      "target": "Körperschaftsteuer/Ausschüttungen"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 10 KStG",
       "target": "Körperschaftsteuer/Überblick & Wesen KöSt"
     },
     {
@@ -2270,11 +2596,43 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 10 KStG",
+      "target": "Rechtsquellen/KStG/§ 12 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 10 KStG",
       "target": "Rechtsquellen/KStG/§ 1 KStG"
     },
     {
       "source": "Rechtsquellen/KStG/§ 10 KStG",
       "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Körperschaftsteuer/Ausschüttungen"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Rechtsquellen/EStG/§ 6 EStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Rechtsquellen/EStG/§ 20 EStG"
     },
     {
       "source": "Rechtsquellen/KStG/§ 2 KStG",
@@ -2354,6 +2712,10 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 7 KStG",
+      "target": "Körperschaftsteuer/Sonderausgaben KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 7 KStG",
       "target": "Rechtsquellen/EStG/§ 2 EStG"
     },
     {
@@ -2366,7 +2728,23 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Körperschaftsteuer/Ausschüttungen"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Körperschaftsteuer/Sonderausgaben KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Körperschaftsteuer/Darlehen an Gesellschafter"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
       "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
     },
     {
       "source": "Rechtsquellen/KStG/§ 8 KStG",
@@ -2402,6 +2780,14 @@
     },
     {
       "source": "Rechtsquellen/UStG/§ 2 UStG",
+      "target": "Umsatzsteuer/Vorsteuerabzug"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 2 UStG",
+      "target": "Rechtsquellen/UStG/§ 6 UStG"
+    },
+    {
+      "source": "Rechtsquellen/UStG/§ 2 UStG",
       "target": "Umsatzsteuer/Überblick & Wesen UStG"
     },
     {
@@ -2439,6 +2825,10 @@
     {
       "source": "Umsatzsteuer/Eigenverbrauch USt",
       "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Umsatzsteuer/Eigenverbrauch USt",
+      "target": "Rechtsquellen/KStG/§ 12 KStG"
     },
     {
       "source": "Umsatzsteuer/Eigenverbrauch USt",
@@ -2490,6 +2880,10 @@
     },
     {
       "source": "Umsatzsteuer/Innergemeinschaftlicher Erwerb",
+      "target": "Einkommensteuer/Einkünfte Land Forstwirtschaft"
+    },
+    {
+      "source": "Umsatzsteuer/Innergemeinschaftlicher Erwerb",
       "target": "Umsatzsteuer/Innergemeinschaftliche Lieferung"
     },
     {
@@ -2511,6 +2905,10 @@
     {
       "source": "Umsatzsteuer/Kleinunternehmer USt",
       "target": "Umsatzsteuer/Unternehmer USt"
+    },
+    {
+      "source": "Umsatzsteuer/Kleinunternehmer USt",
+      "target": "Rechtsquellen/UStG/§ 6 UStG"
     },
     {
       "source": "Umsatzsteuer/Leistungsbegriff USt",
@@ -2594,6 +2992,10 @@
     },
     {
       "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
+      "target": "Rechtsquellen/KStG/§ 12 KStG"
+    },
+    {
+      "source": "Umsatzsteuer/Steuerbare Tatbestände USt",
       "target": "Umsatzsteuer/Steuerbefreiungen USt"
     },
     {
@@ -2621,8 +3023,16 @@
       "target": "Umsatzsteuer/Lieferort USt"
     },
     {
+      "source": "Umsatzsteuer/Steuerbefreiungen USt",
+      "target": "Rechtsquellen/UStG/§ 6 UStG"
+    },
+    {
       "source": "Umsatzsteuer/Unternehmer USt",
       "target": "Rechtsquellen/UStG/§ 2 UStG"
+    },
+    {
+      "source": "Umsatzsteuer/Unternehmer USt",
+      "target": "Rechtsquellen/UStG/§ 6 UStG"
     },
     {
       "source": "Umsatzsteuer/Unternehmer USt",
@@ -2651,6 +3061,10 @@
     {
       "source": "Umsatzsteuer/Vorsteuerabzug",
       "target": "Rechtsquellen/EStG/§ 20 EStG"
+    },
+    {
+      "source": "Umsatzsteuer/Vorsteuerabzug",
+      "target": "Rechtsquellen/KStG/§ 12 KStG"
     },
     {
       "source": "Umsatzsteuer/Vorsteuerabzug",
