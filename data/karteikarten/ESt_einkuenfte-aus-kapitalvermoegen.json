@@ -1,0 +1,27 @@
+{
+  "fach": "ESt",
+  "thema": "Einkünfte aus Kapitalvermögen",
+  "quelle_note": "Einkommensteuer/Kapitalvermögen.md",
+  "karten": [
+    {
+      "id": "est-einkuenfte-aus-kapitalvermoegen-01",
+      "frage": "Was umfasst § 27 EStG?",
+      "antwort": "Früchte aus Kapitalüberlassung (Zinsen, Dividenden) und Wertänderungen des Kapitalstamms (Substanzgewinne/-verluste) sowie Derivateeinkünfte - unabhängig von Behaltedauer/Beteiligungshöhe."
+    },
+    {
+      "id": "est-einkuenfte-aus-kapitalvermoegen-02",
+      "frage": "Was bedeutet Endbesteuerung?",
+      "antwort": "KESt-Abzug an der Quelle gilt als Abgeltung der Einkommensteuer; die Erträge müssen nicht in der Steuererklärung angegeben werden."
+    },
+    {
+      "id": "est-einkuenfte-aus-kapitalvermoegen-03",
+      "frage": "Wann liegt keine Endbesteuerung vor?",
+      "antwort": "Bei echten stillen Beteiligungen, bestimmten nicht öffentlich angebotenen Wertpapieren/Immobilienfondsanteilen, Privatdarlehen ohne Bankgeschäftscharakter, ausländischen Kapitalerträgen (grds Erklärungspflicht) und betrieblichen Substanzgewinnen (eigene Veranlagungspflicht mit Flatrate)."
+    },
+    {
+      "id": "est-einkuenfte-aus-kapitalvermoegen-04",
+      "frage": "Was bewirkt die Regelbesteuerungoption?",
+      "antwort": "Veranlagung statt KESt-Endbesteuerung, wenn der Grenzsteuersatz niedriger ist als 25/27,5 %; erfasst zwingend alle Kapitalerträge gemeinsam."
+    }
+  ]
+}

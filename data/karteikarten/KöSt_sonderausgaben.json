@@ -1,0 +1,37 @@
+{
+  "fach": "KöSt",
+  "thema": "Sonderausgaben",
+  "quelle_note": "Körperschaftsteuer/Sonderausgaben KöSt.md",
+  "karten": [
+    {
+      "id": "koest-sonderausgaben-01",
+      "frage": "Was unterscheidet Verlustvortrag und Verlustabzug begrifflich?",
+      "antwort": "Verlustvortrag = Verschiebung nicht verwertbarer Verluste in Folgejahre. Verlustabzug = tatsächliche Verwertung in einem Jahr mit positiven Gesamtbetrag der Einkünfte. In der Praxis oft synonym verwendet."
+    },
+    {
+      "id": "koest-sonderausgaben-02",
+      "frage": "Wann wird der Verlustvortrag wegen Buchführungsmängel versagt?",
+      "antwort": "Nur bei **schwerwiegenden** Mängeln. Ist die Verlusthöhe überprüfbar berechenbar, genügen auch pauschale Teilschätzungen nicht, um das Vortragsrecht zu verlieren."
+    },
+    {
+      "id": "koest-sonderausgaben-03",
+      "frage": "Was besagt die 75 %-Vortragsgrenze?",
+      "antwort": "Der Verlustabzug ist auf maximal 75 % des Gesamtbetrags der Einkünfte des jeweiligen Jahres begrenzt. Ist der Restverlust kleiner als die Grenze, wird er zu Gänze abgezogen."
+    },
+    {
+      "id": "koest-sonderausgaben-04",
+      "frage": "Welchen Zweck verfolgt die Mantelkauf-Regelung?",
+      "antwort": "Verhindter den Handel mit wirtschaftlich inaktiven \"GmbH-Mäntel\", um deren Verlustvortrag unzulässig zu nutzen."
+    },
+    {
+      "id": "koest-sonderausgaben-05",
+      "frage": "Welche zwei kumulativen Voraussetzungen begründen einen Mantelkauf?",
+      "antwort": "Wesentliche entgeltliche Änderung der Gesellschafterstruktur (Richtwert ≥ 75 % der Anteilsrechte) **und** gesamthafte wesentliche Änderung sowohl der organisatorischen (≥ 75 % Organwechsel) als auch der wirtschaftlichen Struktur."
+    },
+    {
+      "id": "koest-sonderausgaben-06",
+      "frage": "Nenne zwei Fälle, in denen trotz Gesellschafterwechsel kein Mantelkauf vorliegt.",
+      "antwort": "Unentgeltliche Anteilsübertragung (z.B. Schenkung) oder keine wesentliche Änderung der wirtschaftlichen/organisatorischen Struktur nach dem Erwerb."
+    }
+  ]
+}

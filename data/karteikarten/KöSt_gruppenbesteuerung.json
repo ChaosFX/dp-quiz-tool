@@ -1,0 +1,47 @@
+{
+  "fach": "KöSt",
+  "thema": "Gruppenbesteuerung",
+  "quelle_note": "Körperschaftsteuer/Gruppenbesteuerung.md",
+  "karten": [
+    {
+      "id": "koest-gruppenbesteuerung-01",
+      "frage": "Welche Voraussetzungen begründet die finanzielle Verbindung für eine Gruppe?",
+      "antwort": "Beteiligung **> 50 %** sowohl am **Kapital** als auch an den **Stimmrechten** - auf allen Ebenen der Gruppe."
+    },
+    {
+      "id": "koest-gruppenbesteuerung-02",
+      "frage": "Wie lange muss die Mindestbetandsdauer sein, und was gilt bei ihrer Verletzung?",
+      "antwort": "**3 Jahre**. Scheidet ein GM vorzeitig aus, werden die Wirkungen der Gruppenzugehörigkeit **rückwirkend** (§ 29a BAO) rückabgewickelt; nach erfüllter Mindestdauer wirkt das Ausscheiden nur für die Zukunft."
+    },
+    {
+      "id": "koest-gruppenbesteuerung-03",
+      "frage": "Wie unterscheidet sich die Ergebniszurechnung bei inländischen und ausländischen Gruppenmitgliedern?",
+      "antwort": "Inländische GM: **100 % des gesamten** Ergebnisses (Gewinn **und** Verlust), unabhängig vom Beteiligungsausmaß. \nAusländische GM: **nur Verluste**, und nur **im Ausmaß der Beteiligung**."
+    },
+    {
+      "id": "koest-gruppenbesteuerung-04",
+      "frage": "Was passiert bei Beteiligungsgemeinschaften, die gemeinsam die Mehrheit halten?",
+      "antwort": "Das volle (100 %) Ergebnis des GM wird **im Verhältnis** der jeweiligen Beteiligungen auf die beteiligten Körperschaften aufgeteilt."
+    },
+    {
+      "id": "koest-gruppenbesteuerung-05",
+      "frage": "Welche 75 %-Grenze betrifft den Gruppenträger, und wo gilt sie nicht?",
+      "antwort": "Der GT ist bei der Verlustverwertung an die **75%-Vortragsgrenze** (§ 8 Abs 4 Z 2 lit a) gebunden. Sie gilt **nicht** bei Vor-/Außergruppenverlusten von Gruppenmitgliedern - diese sind nur bis zur Höhe des eigene laufenden Gewinns verrechenbar, ohne 75%-Deckel."
+    },
+    {
+      "id": "koest-gruppenbesteuerung-06",
+      "frage": "Warum sind Teilwertabschreibungen auf Beteiligungen an Gruppenmitgliedern nicht steuerwirksam?",
+      "antwort": "Um eine **doppelte Verlustverwertung** zu vermeiden - die Verluste des GM mindern das Gruppeneinkommen ohnehin bereits über die Ergebniszurechnung."
+    },
+    {
+      "id": "koest-gruppenbesteuerung-07",
+      "frage": "Für welche Beteiligung ist eine Firmenwertabschreibung noch möglich?",
+      "antwort": "Nur für **vor dem 1.3.2014** angeschaffte Beteiligungen an betriebsführenden inländischen Gruppenmitgliedern (Altfälle, 15-jährige Verteilung); danach ist keine FWA mehr zulässig."
+    },
+    {
+      "id": "koest-gruppenbesteuerung-08",
+      "frage": "Wie wird die Mindestkörperschaftsteuer in der Gruppe erhoben?",
+      "antwort": "Nicht auf Ebene der Gruppenmitglieder; die MiKö wird je mindeststeuerpflichtiger Gruppengesellschaft berechnet, aufsummiert und **vom Gruppenträger** entrichtet."
+    }
+  ]
+}

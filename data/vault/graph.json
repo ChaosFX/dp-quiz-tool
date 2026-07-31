@@ -169,6 +169,12 @@
       "pfad": "Einkommensteuer/Investitionsförderungen.md"
     },
     {
+      "id": "Einkommensteuer/Kapitalvermögen",
+      "label": "Einkünfte aus Kapitalvermögen",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Kapitalvermögen.md"
+    },
+    {
       "id": "Einkommensteuer/KESt",
       "label": "KESt",
       "fach": "ESt",
@@ -277,6 +283,12 @@
       "pfad": "Einkommensteuer/Vermeidung von Doppelbesteuerung.md"
     },
     {
+      "id": "Einkommensteuer/Vermietung & Verpachtung",
+      "label": "Einkünfte aus Vermietung und Verpachtung (§ 28 EStG)",
+      "fach": "ESt",
+      "pfad": "Einkommensteuer/Vermietung & Verpachtung.md"
+    },
+    {
       "id": "Einkommensteuer/Verträge Nahe Angehörige",
       "label": "Verträge Nahe Angehörige",
       "fach": "ESt",
@@ -341,6 +353,12 @@
       "label": "Gemeinnützige Körperschaften",
       "fach": "KöSt",
       "pfad": "Körperschaftsteuer/Gemeinnützige Körperschaften.md"
+    },
+    {
+      "id": "Körperschaftsteuer/Gruppenbesteuerung",
+      "label": "Gruppenbesteuerung",
+      "fach": "KöSt",
+      "pfad": "Körperschaftsteuer/Gruppenbesteuerung.md"
     },
     {
       "id": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
@@ -517,6 +535,12 @@
       "pfad": "Rechtsquellen/EStG/§ 20 EStG.md"
     },
     {
+      "id": "Rechtsquellen/EStG/§ 27 EStG",
+      "label": "Einkünfte aus Kapitalvermögen",
+      "fach": "ESt",
+      "pfad": "Rechtsquellen/EStG/§ 27 EStG.md"
+    },
+    {
       "id": "Rechtsquellen/EStG/§ 3 EStG",
       "label": "Steuerbefreiungen",
       "fach": "ESt",
@@ -595,6 +619,12 @@
       "pfad": "Rechtsquellen/KStG/§ 8 KStG.md"
     },
     {
+      "id": "Rechtsquellen/KStG/§ 9 KStG",
+      "label": "Unternehmensgruppen",
+      "fach": "KöSt",
+      "pfad": "Rechtsquellen/KStG/§ 9 KStG.md"
+    },
+    {
       "id": "Rechtsquellen/UStG/§ 1 UStG",
       "label": "Steuerbare Umsätze",
       "fach": "USt",
@@ -661,10 +691,10 @@
       "pfad": "Umsatzsteuer/Leistungsbegriff USt.md"
     },
     {
-      "id": "Umsatzsteuer/Lieferort USt",
+      "id": "Umsatzsteuer/Lieferort",
       "label": "Lieferort",
       "fach": "USt",
-      "pfad": "Umsatzsteuer/Lieferort USt.md"
+      "pfad": "Umsatzsteuer/Lieferort.md"
     },
     {
       "id": "Umsatzsteuer/Reverse Charge System USt",
@@ -691,10 +721,10 @@
       "pfad": "Umsatzsteuer/Steuerbefreiungen USt.md"
     },
     {
-      "id": "Umsatzsteuer/Unternehmer USt",
+      "id": "Umsatzsteuer/Unternehmer",
       "label": "Unternehmer",
       "fach": "USt",
-      "pfad": "Umsatzsteuer/Unternehmer USt.md"
+      "pfad": "Umsatzsteuer/Unternehmer.md"
     },
     {
       "id": "Umsatzsteuer/Vorsteuerabzug",
@@ -983,6 +1013,10 @@
       "target": "Einkommensteuer/Betriebsvermögen"
     },
     {
+      "source": "Einkommensteuer/AfA",
+      "target": "Einkommensteuer/Vermietung & Verpachtung"
+    },
+    {
       "source": "Einkommensteuer/Betriebseinnahmen & Betriebsausgaben",
       "target": "Einkommensteuer/Gewinnermittlung"
     },
@@ -1136,6 +1170,14 @@
     },
     {
       "source": "Einkommensteuer/Einkunftsarten",
+      "target": "Einkommensteuer/Kapitalvermögen"
+    },
+    {
+      "source": "Einkommensteuer/Einkunftsarten",
+      "target": "Einkommensteuer/Vermietung & Verpachtung"
+    },
+    {
+      "source": "Einkommensteuer/Einkunftsarten",
       "target": "Einkommensteuer/Gewinnermittlung"
     },
     {
@@ -1197,6 +1239,10 @@
     {
       "source": "Einkommensteuer/Einnahmen Ausgaben Rechnung",
       "target": "Rechtsquellen/EStG/§ 4 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Forschungsprämie",
+      "target": "Rechtsquellen/KStG/§ 9 KStG"
     },
     {
       "source": "Einkommensteuer/Forschungsprämie",
@@ -1307,12 +1353,28 @@
       "target": "Einkommensteuer/AfA"
     },
     {
+      "source": "Einkommensteuer/Kapitalvermögen",
+      "target": "Rechtsquellen/EStG/§ 27 EStG"
+    },
+    {
+      "source": "Einkommensteuer/Kapitalvermögen",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Einkommensteuer/Kapitalvermögen",
+      "target": "Einkommensteuer/Vermietung & Verpachtung"
+    },
+    {
       "source": "Einkommensteuer/Liebhaberei",
       "target": "Einkommensteuer/Sachliche Steuerpflicht Einkommen"
     },
     {
       "source": "Einkommensteuer/Liebhaberei",
       "target": "Einkommensteuer/Verlustausgleich"
+    },
+    {
+      "source": "Einkommensteuer/Liebhaberei",
+      "target": "Einkommensteuer/Vermietung & Verpachtung"
     },
     {
       "source": "Einkommensteuer/Liebhaberei",
@@ -1571,12 +1633,20 @@
       "target": "Einkommensteuer/Persönliche Steuerpflicht"
     },
     {
+      "source": "Einkommensteuer/Vermietung & Verpachtung",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
       "source": "Einkommensteuer/Verträge Nahe Angehörige",
       "target": "Einkommensteuer/Persönliche Einkommenszurechnung"
     },
     {
       "source": "Einkommensteuer/Verträge Nahe Angehörige",
       "target": "Einkommensteuer/Verlassenschaft & Erbauseinandersetzung"
+    },
+    {
+      "source": "Einkommensteuer/Verträge Nahe Angehörige",
+      "target": "Einkommensteuer/Vermietung & Verpachtung"
     },
     {
       "source": "Einkommensteuer/Zeitliche Zurechnung",
@@ -1652,6 +1722,10 @@
     },
     {
       "source": "Körperschaftsteuer/Ausschüttungen",
+      "target": "Rechtsquellen/EStG/§ 27 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Ausschüttungen",
       "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
     },
     {
@@ -1724,6 +1798,10 @@
     },
     {
       "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
+      "target": "Körperschaftsteuer/Gruppenbesteuerung"
+    },
+    {
+      "source": "Körperschaftsteuer/Beteiligungsertragsbefreiung",
       "target": "Rechtsquellen/KStG/§ 8 KStG"
     },
     {
@@ -1783,6 +1861,10 @@
       "target": "Rechtsquellen/KStG/§ 8 KStG"
     },
     {
+      "source": "Körperschaftsteuer/Darlehen an Gesellschafter",
+      "target": "Rechtsquellen/EStG/§ 27 EStG"
+    },
+    {
       "source": "Körperschaftsteuer/Einlagen",
       "target": "Rechtsquellen/KStG/§ 8 KStG"
     },
@@ -1801,6 +1883,10 @@
     {
       "source": "Körperschaftsteuer/Einlagen",
       "target": "Einkommensteuer/ImmoESt"
+    },
+    {
+      "source": "Körperschaftsteuer/Einlagen",
+      "target": "Rechtsquellen/EStG/§ 27 EStG"
     },
     {
       "source": "Körperschaftsteuer/Einlagen",
@@ -1859,6 +1945,38 @@
       "target": "Rechtsquellen/KStG/§ 10 KStG"
     },
     {
+      "source": "Körperschaftsteuer/Gruppenbesteuerung",
+      "target": "Rechtsquellen/KStG/§ 9 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Gruppenbesteuerung",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Gruppenbesteuerung",
+      "target": "Körperschaftsteuer/Sonderausgaben KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Gruppenbesteuerung",
+      "target": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Gruppenbesteuerung",
+      "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
+    },
+    {
+      "source": "Körperschaftsteuer/Gruppenbesteuerung",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Gruppenbesteuerung",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Gruppenbesteuerung",
+      "target": "Rechtsquellen/KStG/§ 12 KStG"
+    },
+    {
       "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
       "target": "Rechtsquellen/KStG/§ 12 KStG"
     },
@@ -1869,6 +1987,14 @@
     {
       "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
       "target": "Körperschaftsteuer/Beteiligungsertragsbefreiung"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Körperschaftsteuer/Gruppenbesteuerung"
+    },
+    {
+      "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
+      "target": "Rechtsquellen/KStG/§ 9 KStG"
     },
     {
       "source": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt",
@@ -1959,6 +2085,30 @@
       "target": "Rechtsquellen/EStG/§ 5 EStG"
     },
     {
+      "source": "Körperschaftsteuer/Sonderausgaben KöSt",
+      "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Sonderausgaben KöSt",
+      "target": "Körperschaftsteuer/Gruppenbesteuerung"
+    },
+    {
+      "source": "Körperschaftsteuer/Sonderausgaben KöSt",
+      "target": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Sonderausgaben KöSt",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Sonderausgaben KöSt",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Sonderausgaben KöSt",
+      "target": "Rechtsquellen/KStG/§ 9 KStG"
+    },
+    {
       "source": "Körperschaftsteuer/Steuerbefreiungen KöSt",
       "target": "Rechtsquellen/KStG/§ 10 KStG"
     },
@@ -2012,6 +2162,10 @@
     },
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Rechtsquellen/EStG/§ 27 EStG"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Rechtsquellen/KStG/§ 10 KStG"
     },
     {
@@ -2032,7 +2186,15 @@
     },
     {
       "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Körperschaftsteuer/Gruppenbesteuerung"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
       "target": "Körperschaftsteuer/Sachliche Steuerpflicht KöSt"
+    },
+    {
+      "source": "Körperschaftsteuer/Überblick & Wesen KöSt",
+      "target": "Rechtsquellen/KStG/§ 9 KStG"
     },
     {
       "source": "Rechtsquellen/BAO/§ 1 BAO",
@@ -2276,6 +2438,10 @@
     },
     {
       "source": "Rechtsquellen/EStG/§ 108c EStG",
+      "target": "Rechtsquellen/KStG/§ 9 KStG"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 108c EStG",
       "target": "Rechtsquellen/EStG/§ 10 EStG"
     },
     {
@@ -2403,6 +2569,18 @@
       "target": "Rechtsquellen/EStG/§ 18 EStG"
     },
     {
+      "source": "Rechtsquellen/EStG/§ 27 EStG",
+      "target": "Einkommensteuer/Kapitalvermögen"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 27 EStG",
+      "target": "Einkommensteuer/Einkunftsarten"
+    },
+    {
+      "source": "Rechtsquellen/EStG/§ 27 EStG",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
       "source": "Rechtsquellen/EStG/§ 3 EStG",
       "target": "Einkommensteuer/Steuerbefreiungen"
     },
@@ -2527,6 +2705,10 @@
       "target": "Körperschaftsteuer/Ausschüttungen"
     },
     {
+      "source": "Rechtsquellen/EStG/§ 6 EStG",
+      "target": "Rechtsquellen/EStG/§ 27 EStG"
+    },
+    {
       "source": "Rechtsquellen/EStG/§ 9 EStG",
       "target": "Einkommensteuer/Rückstellungen"
     },
@@ -2616,6 +2798,10 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Körperschaftsteuer/Gruppenbesteuerung"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
       "target": "Körperschaftsteuer/Ausschüttungen"
     },
     {
@@ -2625,6 +2811,10 @@
     {
       "source": "Rechtsquellen/KStG/§ 12 KStG",
       "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 12 KStG",
+      "target": "Rechtsquellen/KStG/§ 9 KStG"
     },
     {
       "source": "Rechtsquellen/KStG/§ 12 KStG",
@@ -2760,6 +2950,38 @@
     },
     {
       "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Rechtsquellen/EStG/§ 27 EStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 8 KStG",
+      "target": "Rechtsquellen/KStG/§ 10 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 9 KStG",
+      "target": "Körperschaftsteuer/Gruppenbesteuerung"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 9 KStG",
+      "target": "Körperschaftsteuer/Sonderausgaben KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 9 KStG",
+      "target": "Körperschaftsteuer/Nichtabzugsfähige Aufwendungen KöSt"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 9 KStG",
+      "target": "Rechtsquellen/KStG/§ 7 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 9 KStG",
+      "target": "Rechtsquellen/KStG/§ 8 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 9 KStG",
+      "target": "Rechtsquellen/KStG/§ 12 KStG"
+    },
+    {
+      "source": "Rechtsquellen/KStG/§ 9 KStG",
       "target": "Rechtsquellen/KStG/§ 10 KStG"
     },
     {
@@ -2772,7 +2994,7 @@
     },
     {
       "source": "Rechtsquellen/UStG/§ 2 UStG",
-      "target": "Umsatzsteuer/Unternehmer USt"
+      "target": "Umsatzsteuer/Unternehmer"
     },
     {
       "source": "Rechtsquellen/UStG/§ 2 UStG",
@@ -2844,7 +3066,7 @@
     },
     {
       "source": "Umsatzsteuer/Eigenverbrauch USt",
-      "target": "Umsatzsteuer/Lieferort USt"
+      "target": "Umsatzsteuer/Lieferort"
     },
     {
       "source": "Umsatzsteuer/Eigenverbrauch USt",
@@ -2904,7 +3126,7 @@
     },
     {
       "source": "Umsatzsteuer/Kleinunternehmer USt",
-      "target": "Umsatzsteuer/Unternehmer USt"
+      "target": "Umsatzsteuer/Unternehmer"
     },
     {
       "source": "Umsatzsteuer/Kleinunternehmer USt",
@@ -2919,19 +3141,19 @@
       "target": "Umsatzsteuer/Reverse Charge System USt"
     },
     {
-      "source": "Umsatzsteuer/Lieferort USt",
+      "source": "Umsatzsteuer/Lieferort",
       "target": "Umsatzsteuer/Leistungsbegriff USt"
     },
     {
-      "source": "Umsatzsteuer/Lieferort USt",
+      "source": "Umsatzsteuer/Lieferort",
       "target": "Umsatzsteuer/Eigenverbrauch USt"
     },
     {
-      "source": "Umsatzsteuer/Lieferort USt",
+      "source": "Umsatzsteuer/Lieferort",
       "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
     },
     {
-      "source": "Umsatzsteuer/Lieferort USt",
+      "source": "Umsatzsteuer/Lieferort",
       "target": "Umsatzsteuer/Einfuhr USt"
     },
     {
@@ -2948,7 +3170,7 @@
     },
     {
       "source": "Umsatzsteuer/Reverse Charge System USt",
-      "target": "Umsatzsteuer/Lieferort USt"
+      "target": "Umsatzsteuer/Lieferort"
     },
     {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
@@ -2960,7 +3182,7 @@
     },
     {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
-      "target": "Umsatzsteuer/Unternehmer USt"
+      "target": "Umsatzsteuer/Unternehmer"
     },
     {
       "source": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt",
@@ -3020,34 +3242,34 @@
     },
     {
       "source": "Umsatzsteuer/Steuerbefreiungen USt",
-      "target": "Umsatzsteuer/Lieferort USt"
+      "target": "Umsatzsteuer/Lieferort"
     },
     {
       "source": "Umsatzsteuer/Steuerbefreiungen USt",
       "target": "Rechtsquellen/UStG/§ 6 UStG"
     },
     {
-      "source": "Umsatzsteuer/Unternehmer USt",
+      "source": "Umsatzsteuer/Unternehmer",
       "target": "Rechtsquellen/UStG/§ 2 UStG"
     },
     {
-      "source": "Umsatzsteuer/Unternehmer USt",
+      "source": "Umsatzsteuer/Unternehmer",
       "target": "Rechtsquellen/UStG/§ 6 UStG"
     },
     {
-      "source": "Umsatzsteuer/Unternehmer USt",
+      "source": "Umsatzsteuer/Unternehmer",
       "target": "Umsatzsteuer/Sonstige Leistung & Leistungsort USt"
     },
     {
-      "source": "Umsatzsteuer/Unternehmer USt",
+      "source": "Umsatzsteuer/Unternehmer",
       "target": "Rechtsquellen/KStG/§ 2 KStG"
     },
     {
-      "source": "Umsatzsteuer/Unternehmer USt",
+      "source": "Umsatzsteuer/Unternehmer",
       "target": "Einkommensteuer/Liebhaberei"
     },
     {
-      "source": "Umsatzsteuer/Unternehmer USt",
+      "source": "Umsatzsteuer/Unternehmer",
       "target": "Umsatzsteuer/Steuerbare Tatbestände USt"
     },
     {
