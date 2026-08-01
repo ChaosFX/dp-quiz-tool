@@ -2712,11 +2712,9 @@
       ],
       "korrekt": [
         0,
-        2,
-        3,
-        5
+        2
       ],
-      "erklaerung": "Nach § 134 Abs. 1 BAO sind Einkommensteuer- und Umsatzsteuererklärungen in Papierform bis Ende April des Folgejahres einzureichen, elektronisch über FinanzOnline erst bis Ende Juni des Folgejahres. Für bestimmte, durch einen Steuerberater vertretene Fälle kann sich diese Frist noch weiter (bis ins zweitfolgende Jahr) verschieben, abhängig von der jeweiligen Quotenregelung."
+      "erklaerung": "Nach § 134 Abs. 1 BAO sind Einkommensteuer- und Umsatzsteuererklärungen in Papierform bis Ende April des Folgejahres einzureichen, elektronisch über FinanzOnline dagegen erst bis Ende Juni des Folgejahres. Die weiteren Antwortoptionen (Dezember des Folgejahres bzw. Juni des zweitfolgenden Jahres) sind fehlerhafte bzw. verunglückte Formulierungen der Sonderregel für steuerlich vertretene (quotenmäßig erfasste) Fälle, bei denen sich die Frist tatsächlich bis weit ins zweitfolgende Jahr verschieben kann - die genaue Frist hängt dabei von der jeweiligen Quotenregelung des Steuerberaters ab und lässt sich nicht pauschal auf ein fixes Datum festlegen."
     },
     {
       "id": "bao-ue-parpar111134a-09",
