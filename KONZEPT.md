@@ -647,8 +647,14 @@ Lücke), analog zur bestehenden Multiple-Choice-Darstellung.
 - Sekundäre Anzeige: z. B. „12 vollständig richtig, 6 teilweise richtig,
   5 falsch" — gibt einen schnellen Überblick über die Verteilung.
 - Aufschlüsselung nach Fach, falls mehrere Fächer getestet wurden.
-- Bei Fächern mit `abschnitt`-Feld (z. B. BAO): optionale Aufschlüsselung
-  auch nach Abschnitt (z. B. „§§ 1–4: 4.5/5 Punkte").
+- Untergruppen-Aufschlüsselung je Fach, sobald die Fragen ein `abschnitt`-
+  oder ein `thema`-Feld haben (z. B. „§§ 1–4: 4.5/5 Punkte"). Als Gruppenname
+  gilt `abschnitt`, ersatzweise `thema`. Fragen ohne beides landen in einer
+  Sammelzeile „Ohne Zuordnung" am Listenende, damit die Summe der Gruppen
+  immer der Fach-Gesamtzahl entspricht.
+- Die Untergruppen sind pro Fach **auf-/zuklappbar** und standardmäßig
+  **eingeklappt**; der Fach-Kopf zeigt die Anzahl der Untergruppen. Fächer
+  ganz ohne Untergruppen bleiben eine einfache, nicht klickbare Zeile.
 - **Falsch-Liste** (Partial Credit < 1.0): alle nicht perfekt beantworteten
   Fragen mit:
   - der gestellten Frage

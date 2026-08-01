@@ -657,32 +657,59 @@ function zeigeAuswertung() {
   $('results-pct').style.color = pctColor(pct);
   $('results-count').textContent = `${voll} vollständig · ${teil} teilweise · ${falsch} falsch`;
 
-  // Aufschlüsselung nach Fach und (falls vorhanden) Abschnitt — punktebasiert
+  // Aufschlüsselung nach Fach und Untergruppe — punktebasiert.
+  // Untergruppe = `abschnitt`, ersatzweise `thema` (beide Felder sind optional).
+  const OHNE = 'Ohne Zuordnung';
   const fachMap = {};
   quiz.items.forEach((q,i)=>{
-    const f = (fachMap[q.fach] ??= { pts:0, t:0, abschnitte:{} });
+    const f = (fachMap[q.fach] ??= { pts:0, t:0, gruppen:{}, hatGruppe:false });
     const p = fragePunkte(i); f.t++; f.pts += p;
-    if (q.abschnitt) { const ab = (f.abschnitte[q.abschnitt] ??= { pts:0, t:0 }); ab.t++; ab.pts += p; }
+    const gruppe = q.abschnitt || q.thema || null;
+    if (gruppe) f.hatGruppe = true;
+    const g = (f.gruppen[gruppe || OHNE] ??= { pts:0, t:0 });
+    g.t++; g.pts += p;
   });
   const keys = Object.keys(fachMap);
-  const hatAbschnitte = keys.some(n => Object.keys(fachMap[n].abschnitte).length > 0);
+  const hatGruppen = keys.some(n => fachMap[n].hatGruppe);
 
-  const balkenRow = (name, s, sub=false) => {
+  const balken = s => {
     const pr = Math.round(s.pts/s.t*100);
-    return `<div class="fach-balken-row${sub?' fb-sub':''}"><div class="fb-name">${name}</div>
-      <div class="fb-bar-wrap"><div class="fb-bar-fill" style="width:${pr}%;background:${pctColor(pr)}"></div></div>
-      <div class="fb-score" style="color:${pctColor(pr)}">${fmtPts(s.pts)}/${s.t}</div></div>`;
+    return `<div class="fb-bar-wrap"><div class="fb-bar-fill" style="width:${pr}%;background:${pctColor(pr)}"></div></div>
+      <div class="fb-score" style="color:${pctColor(pr)}">${fmtPts(s.pts)}/${s.t}</div>`;
   };
 
-  if (keys.length > 1 || hatAbschnitte) {
+  if (keys.length > 1 || hatGruppen) {
     $('fach-balken').classList.remove('hidden');
     $('fach-balken').innerHTML = keys.map(n => {
       const f = fachMap[n];
-      let rows = (keys.length > 1) ? balkenRow(n, f) : '';
-      const absKeys = Object.keys(f.abschnitte).sort((a,b)=>a.localeCompare(b,'de',{numeric:true}));
-      rows += absKeys.map(ab => balkenRow(ab, f.abschnitte[ab], keys.length > 1)).join('');
-      return rows;
+      // Nur Fächer mit echter Untergruppe bekommen einen aufklappbaren Kopf.
+      if (!f.hatGruppe) return `<div class="fach-balken-row"><div class="fb-name">${n}</div>${balken(f)}</div>`;
+
+      // „Ohne Zuordnung" immer ans Ende, der Rest natürlich sortiert (§§ 1–4 vor §§ 20–27)
+      const gKeys = Object.keys(f.gruppen).sort((a,b)=>
+        a === OHNE ? 1 : b === OHNE ? -1 : a.localeCompare(b,'de',{numeric:true}));
+      const subRows = gKeys.map(g =>
+        `<div class="fach-balken-row fb-sub"><div class="fb-name">${g}</div>${balken(f.gruppen[g])}</div>`).join('');
+
+      return `<div class="fach-gruppe">
+        <button class="fach-balken-row fb-head" aria-expanded="false">
+          <span class="fb-caret">▸</span>
+          <div class="fb-name">${n}</div>${balken(f)}
+          <span class="fb-count">${gKeys.length}</span>
+        </button>
+        <div class="fb-sub-liste hidden">${subRows}</div>
+      </div>`;
     }).join('');
+
+    // Standardmäßig eingeklappt; Klick auf den Fach-Kopf schaltet um.
+    $('fach-balken').querySelectorAll('.fb-head').forEach(head => {
+      head.onclick = () => {
+        const offen = head.getAttribute('aria-expanded') === 'true';
+        head.setAttribute('aria-expanded', String(!offen));
+        head.querySelector('.fb-caret').textContent = offen ? '▸' : '▾';
+        head.nextElementSibling.classList.toggle('hidden', offen);
+      };
+    });
   } else $('fach-balken').classList.add('hidden');
 
   // Nicht perfekt beantwortete Fragen (Partial Credit < 1.0)

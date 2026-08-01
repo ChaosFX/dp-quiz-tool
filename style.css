@@ -502,11 +502,39 @@ h2 {
   font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 500;
   min-width: 52px; text-align: right;
 }
-.fach-balken-row.fb-sub { padding-left: 16px; }
+.fach-balken-row.fb-sub { padding-left: 26px; }
 .fach-balken-row.fb-sub .fb-name {
   font-weight: 400; font-size: 12.5px; color: var(--muted);
   font-family: 'IBM Plex Mono', monospace;
+  width: 118px;   /* schmaler, da eingerückt → Balken bleiben bündig */
 }
+
+/* Aufklappbarer Fach-Kopf */
+.fach-gruppe { border-bottom: 1px solid var(--border); }
+.fach-gruppe:last-child { border-bottom: none; }
+.fach-gruppe .fach-balken-row { border-bottom: none; }
+
+button.fb-head {
+  width: 100%; background: none; border: none;
+  font-family: 'IBM Plex Sans', sans-serif; color: var(--text);
+  text-align: left; cursor: pointer; border-radius: 8px;
+  transition: background .12s;
+}
+button.fb-head:hover { background: var(--surface-2); }
+.fb-caret {
+  font-size: 11px; color: var(--muted); width: 12px;
+  flex-shrink: 0; line-height: 1;
+}
+.fb-count {
+  font-family: 'IBM Plex Mono', monospace; font-size: 11px;
+  color: var(--muted); background: var(--surface-2);
+  border: 1px solid var(--border); border-radius: 99px;
+  padding: 1px 7px; flex-shrink: 0;
+}
+button.fb-head[aria-expanded="true"] .fb-caret { color: var(--accent); }
+/* Kopf-Name um die Caret-Breite kürzen, damit alle Balken auf einer Linie starten */
+button.fb-head .fb-name { width: 116px; }
+.fb-sub-liste { padding-bottom: 4px; }
 
 .fk-label {
   font-size: 12px; text-transform: uppercase; letter-spacing: .05em;
@@ -676,6 +704,9 @@ h2 {
   .luecke-text { font-size: 15px; line-height: 2.2; }
   .results-pct { font-size: 48px; }
   .fb-name { width: 90px; font-size: 12.5px; }
+  button.fb-head .fb-name { width: 78px; }
+  .fach-balken-row.fb-sub { padding-left: 18px; }
+  .fach-balken-row.fb-sub .fb-name { width: 72px; }
   .fc-inhalt.frage { font-size: 19px; }
   .fc-footer { flex-wrap: wrap; }
   .dash-grid { gap: 16px 28px; }
