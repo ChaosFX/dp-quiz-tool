@@ -2712,9 +2712,11 @@
       ],
       "korrekt": [
         0,
-        2
+        2,
+        3,
+        5
       ],
-      "erklaerung": "Nach § 134 Abs. 1 BAO sind Einkommensteuer- und Umsatzsteuererklärungen in Papierform bis Ende April des Folgejahres einzureichen, elektronisch über FinanzOnline dagegen erst bis Ende Juni des Folgejahres. Die weiteren Antwortoptionen (Dezember des Folgejahres bzw. Juni des zweitfolgenden Jahres) sind fehlerhafte bzw. verunglückte Formulierungen der Sonderregel für steuerlich vertretene (quotenmäßig erfasste) Fälle, bei denen sich die Frist tatsächlich bis weit ins zweitfolgende Jahr verschieben kann - die genaue Frist hängt dabei von der jeweiligen Quotenregelung des Steuerberaters ab und lässt sich nicht pauschal auf ein fixes Datum festlegen."
+      "erklaerung": "Nach § 134 Abs. 1 BAO sind Einkommensteuer- und Umsatzsteuererklärungen in Papierform bis Ende April des Folgejahres einzureichen, elektronisch über FinanzOnline erst bis Ende Juni des Folgejahres. Für bestimmte, durch einen Steuerberater vertretene Fälle kann sich diese Frist noch weiter (bis ins zweitfolgende Jahr) verschieben, abhängig von der jeweiligen Quotenregelung."
     },
     {
       "id": "bao-ue-parpar111134a-09",
@@ -4134,7 +4136,6 @@
       ],
       "korrekt": [
         2,
-        4,
         5
       ],
       "erklaerung": "Die absolute Verjaeehrung betraegt 10 Jahre (§ 209 Abs. 3 BAO) und ist nicht verlaengerbar - im Gegensatz zur regulaeren 5-Jahres-Frist, die durch Verlaengerungs­handlungen (§ 209 Abs. 1 BAO) um jeweils 1 Jahr verlaengert werden kann."
@@ -5860,6 +5861,353 @@
       ],
       "korrekt": 0,
       "erklaerung": "§ 182 BAO: Der Augenschein ist ein eigenständiges Beweismittel im Abgabenverfahren; er kann von der Behörde selbst, nicht nur von Sachverständigen, vorgenommen werden."
+    },
+    {
+      "id": "bao-new-01",
+      "typ": "zuordnung",
+      "thema": "Bescheid - Nichtbescheid vs. Verfahrensmangel",
+      "frage": "Ordne die folgenden fehlenden Bescheidbestandteile der richtigen Kategorie zu: Führt das Fehlen zu einem Nichtbescheid, oder bleibt der Bescheid gültig (bloßer Verfahrensmangel)?",
+      "kategorien": [
+        "Fehlt → Nichtbescheid (keine Rechtswirkung)",
+        "Fehlt → bloßer Verfahrensmangel (Bescheid bleibt gültig)"
+      ],
+      "elemente": [
+        "Bezeichnung der erlassenden Behörde",
+        "Spruch",
+        "Unterschrift bzw. automationsunterstützte Fertigung",
+        "Begründung",
+        "Rechtsmittelbelehrung"
+      ],
+      "loesung": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "erklaerung": "Nach §§ 93/96 BAO sind Behördenbezeichnung, Spruch und Unterschrift/automationsunterstützte Fertigung unverzichtbar - sie begründen die Bescheidqualität überhaupt erst; fehlen sie, liegt ein Nichtbescheid ohne Rechtswirkung vor. Begründung und Rechtsmittelbelehrung sind hingegen zwar vorgeschrieben, ihr Fehlen führt aber nur zu einem Verfahrensmangel - der Bescheid bleibt gültig und ist mit ordentlichem Rechtsmittel bekämpfbar."
+    },
+    {
+      "id": "bao-new-02",
+      "typ": "permutation",
+      "thema": "Haftungstatbestände §§ 9, 12, 14 BAO",
+      "frage": "Ordne jedes Merkmal dem passenden Haftungstatbestand zu.",
+      "kategorien": [
+        "§ 9 BAO – Vertreterhaftung",
+        "§ 12 BAO – Gesellschafterhaftung",
+        "§ 14 BAO – Erwerberhaftung"
+      ],
+      "elemente": [
+        "Ausfallhaftung, die schuldhafte Pflichtverletzung und Kausalität voraussetzt",
+        "Haftung kraft Gesellschafterstellung – weder Ausfallhaftung noch Verschulden erforderlich",
+        "Haftung der Höhe nach begrenzt auf den Wert der übertragenen Gegenstände, nur bei Kennen(müssen)"
+      ],
+      "loesung": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "§ 9 ist eine Ausfallhaftung: Uneinbringlichkeit beim Vertretenen, schuldhafte Pflichtverletzung (leichte Fahrlässigkeit reicht) und Kausalität müssen kumulativ vorliegen. § 12 knüpft demgegenüber allein an die Gesellschafterstellung (z. B. OG/KG) an - kein Verschulden, keine Ausfallhaftung nötig. § 14 begrenzt die Haftung des Betriebserwerbers der Höhe nach auf den Wert des Übertragenen und setzt voraus, dass er die Abgabenschulden kannte oder kennen musste."
+    },
+    {
+      "id": "bao-new-03",
+      "typ": "zuordnung",
+      "thema": "Wiederaufnahme - Neuerungstatbestand: nova reperta vs. nova producta",
+      "frage": "Ordne die folgenden Sachverhalte danach zu, ob sie einen tauglichen Neuerungstatbestand (nova reperta) für eine Wiederaufnahme nach § 303 BAO darstellen oder nicht (nova producta).",
+      "kategorien": [
+        "Nova reperta – tauglicher Wiederaufnahmsgrund",
+        "Nova producta – kein Wiederaufnahmsgrund"
+      ],
+      "elemente": [
+        "Eine bereits bei Bescheiderlassung existierende, der Behörde aber unbekannte Urkunde wird nachträglich entdeckt",
+        "Der VwGH ändert nach Bescheiderlassung seine Rechtsprechung zu einer Auslegungsfrage",
+        "Ein erst nach Bescheiderlassung erstelltes Gutachten stützt sich auf bereits bekannte Tatsachen",
+        "Eine Partei verschweigt im ursprünglichen Verfahren vorsätzlich bereits bestehende Einnahmen, die erst später hervorkommen",
+        "Die Abgabenbehörde würdigt dieselben, bereits bekannten Beweismittel im Nachhinein bloß anders",
+        "Der Zufluss bisher unbekannter, im betreffenden Veranlagungszeitraum bereits erhaltener Betriebseinnahmen wird erst später bekannt"
+      ],
+      "loesung": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "erklaerung": "Der Neuerungstatbestand (§ 303 Abs 1 lit b) erfasst nur nova reperta - Tatsachen/Beweismittel, die im Zeitpunkt der Bescheiderlassung bereits existierten, der Behörde aber unbekannt waren. Nova producta - Umstände, die erst nachträglich entstanden sind (geänderte Judikatur, ein auf bereits bekannten Tatsachen beruhendes späteres Gutachten, eine bloß geänderte Beweiswürdigung) - reichen nicht aus."
+    },
+    {
+      "id": "bao-new-04",
+      "typ": "luecke",
+      "thema": "Fristen im Überblick - Beschwerde, Vorlageantrag, § 299, Wiedereinsetzung",
+      "text": "Die Beschwerdefrist beträgt gem. § 245 BAO {0} ab Zustellung des Bescheides. Wird eine Beschwerdevorentscheidung erlassen, ist der Vorlageantrag binnen {1} ab deren Zustellung zu stellen. Eine Bescheidaufhebung nach § 299 BAO ist nur binnen {2} ab Bekanntgabe des Bescheides zulässig, während eine Wiedereinsetzung in den vorigen Stand binnen {3} ab Wegfall des Hindernisses zu beantragen ist - absolut jedoch höchstens binnen {4}.",
+      "luecken": [
+        {
+          "optionen": [
+            "1 Woche",
+            "1 Monat",
+            "3 Monate"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "2 Wochen",
+            "1 Monat",
+            "2 Monate"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "6 Monaten",
+            "1 Jahr",
+            "5 Jahren"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "1 Monat",
+            "3 Monaten",
+            "6 Monaten"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "3 Jahren",
+            "5 Jahren",
+            "10 Jahren"
+          ],
+          "loesung": 1
+        }
+      ],
+      "erklaerung": "Beschwerdefrist (§ 245) und Vorlageantragsfrist (§ 264) betragen jeweils 1 Monat. Die Aufhebung nach § 299 ist nur binnen 1 Jahr ab Bekanntgabe des Bescheides zulässig. Die Wiedereinsetzung (§ 308) ist binnen 3 Monaten ab Wegfall des Hindernisses zu beantragen, absolut jedoch nur innerhalb von 5 Jahren (§ 309) ab dem Ereignis."
+    },
+    {
+      "id": "bao-new-05",
+      "typ": "zuordnung",
+      "thema": "Bemessungsverjährung vs. Einhebungsverjährung",
+      "frage": "Ordne die folgenden Merkmale der Bemessungsverjährung (§§ 207-209a) oder der Einhebungsverjährung (§ 238) zu.",
+      "kategorien": [
+        "Bemessungsverjährung (§§ 207–209a)",
+        "Einhebungsverjährung (§ 238)"
+      ],
+      "elemente": [
+        "Eine Verlängerungshandlung schiebt das Fristende jeweils nur um ein Jahr hinaus, unabhängig von der Anzahl der Handlungen",
+        "Eine nach außen gerichtete Amtshandlung lässt die gesamte Frist neu zu laufen beginnen",
+        "Es gibt eine absolute Grenze von 10 Jahren, die weder gehemmt noch verlängert werden kann",
+        "Es existiert keine absolute zeitliche Obergrenze",
+        "Befristet das Recht der Behörde, eine Abgabe festzusetzen",
+        "Befristet das Recht der Behörde, eine bereits festgesetzte Abgabe einzuheben bzw. zu vollstrecken"
+      ],
+      "loesung": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "erklaerung": "Bei der Bemessungsverjährung verlängert jede Verlängerungshandlung die Frist nur um ein Jahr, begrenzt durch die absolute 10-Jahres-Grenze. Bei der Einhebungsverjährung beginnt die 5-Jahres-Frist nach jeder Unterbrechungshandlung komplett neu, es gibt aber keine absolute Obergrenze. Ersteres betrifft das Festsetzungsrecht, letzteres das Einhebungs-/Vollstreckungsrecht."
+    },
+    {
+      "id": "bao-new-06",
+      "typ": "permutation",
+      "thema": "Verfahrenstitel der Bescheidänderung",
+      "frage": "Ordne jede Beschreibung dem passenden Verfahrenstitel zu.",
+      "kategorien": [
+        "§ 293 BAO – Berichtigung",
+        "§ 295 BAO – Anpassung abgeleiteter Bescheid",
+        "§ 299 BAO – Aufhebung",
+        "§ 303 BAO – Wiederaufnahme"
+      ],
+      "elemente": [
+        "Offenbare Schreib- oder Rechenfehler werden korrigiert; der berichtigende Bescheid tritt dem ursprünglichen nur hinzu (Teilrechtskraft)",
+        "Ein abgeleiteter Bescheid wird zwingend an einen geänderten Grundlagenbescheid angepasst - keine Ermessensentscheidung",
+        "Ein Bescheid mit rechtswidrigem Spruch wird binnen eines Jahres zur Gänze durch einen neuen ersetzt",
+        "Ein rechtskräftig abgeschlossenes Verfahren wird bei Vorliegen eines der drei Wiederaufnahmsgründe zur Gänze neu aufgerollt"
+      ],
+      "loesung": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "§ 293 korrigiert nur offenbare Versehen und tritt dem Bescheid als Teilrechtskraft hinzu. § 295 ist eine Muss-Bestimmung zur automatischen Anpassung abgeleiteter Bescheide an einen geänderten Grundlagenbescheid. § 299 ersetzt einen im Spruch rechtswidrigen Bescheid vollständig, ist aber nur binnen 1 Jahr ab Bekanntgabe zulässig (Ermessen). § 303 rollt bei Vorliegen eines Wiederaufnahmsgrundes das gesamte rechtskräftig abgeschlossene Verfahren neu auf (Ermessen, innerhalb der Bemessungsverjährung)."
+    },
+    {
+      "id": "bao-new-07",
+      "typ": "zuordnung",
+      "thema": "Zustellung - Ersatzzustellung, Hinterlegung, Heilung",
+      "frage": "Ordne die folgenden Sachverhalte der richtigen Zustellkonstellation zu.",
+      "kategorien": [
+        "Ersatzzustellung wirksam",
+        "Hinterlegung",
+        "Heilung des Zustellmangels (§ 7 ZustG)",
+        "Zustellung unwirksam / Neuzustellung nötig"
+      ],
+      "elemente": [
+        "Das Schriftstück wird an eine erwachsene Person übergeben, die an derselben Abgabestelle wohnt",
+        "Der Empfänger ist nicht anzutreffen, hält sich aber regelmäßig an der Abgabestelle auf; das Schriftstück wird beim Postamt hinterlegt",
+        "Das Schriftstück wird versehentlich einer Person übergeben, die nicht an der Abgabestelle wohnt, gelangt aber später unversehrt in die Hände des Empfängers",
+        "Der Empfänger war während der gesamten Hinterlegungsfrist ortsabwesend (mehrwöchiger Kuraufenthalt)",
+        "Das Schriftstück wird dem Arbeitgeber des Empfängers übergeben, der zur Annahme bereit ist",
+        "Das an eine nicht zustellungsberechtigte Person übergebene Schriftstück kommt beim Empfänger zerstört und unleserlich an"
+      ],
+      "loesung": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      "erklaerung": "Ersatzzustellung (§ 16 ZustG) ist wirksam an eine an derselben Abgabestelle wohnende erwachsene Person oder an Arbeitgeber/-nehmer mit Annahmebereitschaft. Hinterlegung (§ 17 ZustG) setzt voraus, dass der Empfänger regelmäßig an der Abgabestelle anzutreffen ist. Wird ein Schriftstück an eine ungültige Person übergeben, heilt der Mangel (§ 7 ZustG), sobald es dem Empfänger tatsächlich und unversehrt zukommt - kommt es hingegen zerstört an oder war der Empfänger länger als die Hinterlegungsfrist abwesend, gilt es nicht als zugestellt und muss neu zugestellt werden."
+    },
+    {
+      "id": "bao-new-08",
+      "typ": "permutation",
+      "thema": "Die drei Strafinstrumente der BAO",
+      "frage": "Ordne jede Beschreibung dem passenden Strafinstrument (inkl. Höchstbetrag) zu.",
+      "kategorien": [
+        "Zwangsstrafe (§ 111) – bis € 5.000",
+        "Ordnungsstrafe (§ 112) – bis € 700",
+        "Mutwillensstrafe (§ 112a) – bis € 700"
+      ],
+      "elemente": [
+        "Erzwingt eine nicht vertretbare Leistung (z. B. Abgabe einer Steuererklärung); Androhung mit konkretem Betrag ist zwingend erforderlich",
+        "Ahndet die Störung einer Amtshandlung, eine Anstandsverletzung oder eine beleidigende Schreibweise in einer Eingabe",
+        "Sanktioniert die mutwillige Inanspruchnahme der Behörde, z. B. Verschleppungsabsicht oder Anträge im Bewusstsein ihrer Aussichtslosigkeit"
+      ],
+      "loesung": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Die Zwangsstrafe (§ 111, bis € 5.000) erzwingt nur nicht vertretbare Leistungen und muss vorher schriftlich mit konkretem Betrag angedroht werden - verhängt werden darf höchstens der angedrohte Betrag. Die Ordnungsstrafe (§ 112, bis € 700) betrifft das Verhalten bei Amtshandlungen bzw. in Eingaben. Die Mutwillensstrafe (§ 112a, bis € 700) sanktioniert den missbräuchlichen Einsatz von Verfahrensrechten, ohne die berechtigte Rechtsausübung selbst zu behindern."
+    },
+    {
+      "id": "bao-new-09",
+      "typ": "zuordnung",
+      "thema": "Entscheidungsformen des BFG - Beschluss vs. Erkenntnis",
+      "frage": "Entscheidet das BFG in den folgenden Fällen mit Beschluss (§ 278) oder mit Erkenntnis (§ 279)?",
+      "kategorien": [
+        "Beschluss (§ 278)",
+        "Erkenntnis (§ 279)"
+      ],
+      "elemente": [
+        "Zurückweisung der Beschwerde",
+        "Abweisung der Beschwerde",
+        "Gegenstandsloserklärung",
+        "Abänderung des angefochtenen Bescheides",
+        "Aufhebung unter Zurückverweisung an die Abgabenbehörde",
+        "Ersatzlose Aufhebung des Bescheides"
+      ],
+      "loesung": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "erklaerung": "§ 278 zählt abschließend auf, wann mit Beschluss zu entscheiden ist: Zurückweisung, Gegenstandsloserklärung, Aufhebung unter Zurückverweisung. In allen anderen Fällen - insbesondere Abweisung, Abänderung und ersatzlose Aufhebung - entscheidet das BFG mit Erkenntnis (§ 279), dem Auffangtatbestand."
+    },
+    {
+      "id": "bao-new-10",
+      "typ": "luecke",
+      "thema": "Grundsätze des Abgabenverfahrens (§§ 114-116)",
+      "text": "Nach dem Grundsatz der {0} sind Abgabenverfahren grundsätzlich ohne Antrag der Partei einzuleiten, wobei die Behörde die {1} zu erforschen hat. Dem gegenüber steht die {2} der Partei, die insbesondere bei Auslandssachverhalten verstärkt zum Tragen kommt. Nach § 115 Abs 4 BAO gilt im Abgabenverfahren {3}: nicht offengelegte Tatsachen können auch nachträglich noch berücksichtigt werden.",
+      "luecken": [
+        {
+          "optionen": [
+            "Amtswegigkeit",
+            "Rechtskraft",
+            "Zuständigkeit"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "formelle Wahrheit",
+            "materielle Wahrheit",
+            "wirtschaftliche Wahrheit"
+          ],
+          "loesung": 1
+        },
+        {
+          "optionen": [
+            "Mitwirkungspflicht",
+            "Verschwiegenheitspflicht",
+            "Aufbewahrungspflicht"
+          ],
+          "loesung": 0
+        },
+        {
+          "optionen": [
+            "ein strenges Neuerungsverbot",
+            "kein Neuerungsverbot",
+            "ein beschränktes Neuerungsverbot"
+          ],
+          "loesung": 1
+        }
+      ],
+      "erklaerung": "§ 115 Abs 1 BAO verankert die Amtswegigkeit und die Pflicht zur Erforschung der materiellen Wahrheit. Je stärker die amtswegige Ermittlung eingeschränkt ist, desto höher wird die Mitwirkungspflicht der Partei (§ 119 BAO). § 115 Abs 4 BAO normiert, dass kein Neuerungsverbot gilt - auch später bekannt werdende, ursprünglich nicht offengelegte Tatsachen sind zu berücksichtigen."
+    },
+    {
+      "id": "bao-new-11",
+      "typ": "permutation",
+      "thema": "Vertretertypen §§ 80, 81, 83 BAO",
+      "frage": "Ordne jedes Beispiel dem passenden Vertretertypus zu.",
+      "kategorien": [
+        "§ 80 BAO – gesetzlicher Vertreter",
+        "§ 81 BAO – Vertreter von Personenvereinigungen ohne Rechtspersönlichkeit",
+        "§ 83 BAO – gewillkürter Vertreter"
+      ],
+      "elemente": [
+        "Geschäftsführer einer GmbH bzw. Vorstand einer AG",
+        "Von der Behörde amtswegig bestellte Person, weil eine OG keinen gemeinsamen Vertreter bekanntgegeben hat",
+        "Rechtsanwalt oder Wirtschaftstreuhänder, der aufgrund einer erteilten Vollmacht einschreitet"
+      ],
+      "loesung": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "§ 80 erfasst die gesetzlichen Vertreter natürlicher und juristischer Personen (Eltern, Geschäftsführer, Vorstand). § 81 betrifft die Vertretung von Personenvereinigungen ohne eigene Rechtspersönlichkeit (OG, KG, GesbR): Gibt die Vereinigung keinen gemeinsamen Vertreter bekannt, bestellt die Behörde selbst eine Person (Ermessen). § 83 regelt die gewillkürte, auf Vollmacht beruhende Vertretung, etwa durch berufsmäßige Parteienvertreter."
+    },
+    {
+      "id": "bao-new-12",
+      "typ": "zuordnung",
+      "thema": "Ermessensentscheidung vs. gebundene Entscheidung in der BAO",
+      "frage": "Ordne die folgenden Entscheidungen der Abgabenbehörde danach zu, ob es sich um eine Ermessensentscheidung oder eine gebundene Entscheidung handelt.",
+      "kategorien": [
+        "Ermessensentscheidung",
+        "gebundene Entscheidung"
+      ],
+      "elemente": [
+        "Bewilligung einer Zahlungserleichterung (§ 212 BAO)",
+        "Anpassung eines abgeleiteten Bescheides an einen geänderten Grundlagenbescheid (§ 295 BAO)",
+        "Bewilligung der Aussetzung der Einhebung bei Vorliegen der Voraussetzungen (§ 212a BAO)",
+        "Festsetzung einer Zwangsstrafe (§ 111 BAO)",
+        "Bewilligung einer Wiedereinsetzung bei Vorliegen der Voraussetzungen (§ 308 BAO)",
+        "Erlassung einer Beschwerdevorentscheidung bei zulässiger, rechtzeitiger und mängelfreier Beschwerde (§ 262 BAO)",
+        "Aufhebung eines im Spruch rechtswidrigen Bescheides (§ 299 BAO)",
+        "Bestellung eines Vertreters für eine Personenvereinigung ohne gemeinsamen Vertreter (§ 81 BAO)"
+      ],
+      "loesung": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "erklaerung": "Erkennbar an Formulierungen wie 'kann/darf' (Ermessen) versus 'ist/hat zu' (gebunden). §§ 212, 111, 299 und 81 sind klassische Ermessensentscheidungen ('kann'). §§ 295, 212a und 308 sind hingegen Muss-Bestimmungen ('ist') - liegen die Voraussetzungen vor, besteht kein Spielraum. § 262 (BVE) ist bei zulässiger, rechtzeitiger und mängelfreier Beschwerde ebenfalls zwingend zu erlassen, kein Ermessen."
     }
   ]
 }
