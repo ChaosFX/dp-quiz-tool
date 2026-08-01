@@ -20,6 +20,48 @@
       </button>
       <div class="header-right">
         <div class="countdown" id="countdown"></div>
+
+        <div class="rechner-wrap">
+          <button class="theme-btn" id="rechner-btn" aria-expanded="false"
+                  aria-controls="rechner-panel" title="Taschenrechner (Alt+R)">Rechner</button>
+
+          <div class="rechner-panel hidden" id="rechner-panel" role="dialog" aria-label="Taschenrechner">
+            <div class="rechner-display">
+              <div class="rechner-eingabe" id="rechner-eingabe">0</div>
+              <div class="rechner-ergebnis" id="rechner-ergebnis"></div>
+            </div>
+            <div class="rechner-tasten" id="rechner-tasten">
+              <button data-r="(">(</button>
+              <button data-r=")">)</button>
+              <button data-r="C" class="r-fn">C</button>
+              <button data-r="back" class="r-fn">←</button>
+
+              <button data-r="7">7</button>
+              <button data-r="8">8</button>
+              <button data-r="9">9</button>
+              <button data-r="/" class="r-op">÷</button>
+
+              <button data-r="4">4</button>
+              <button data-r="5">5</button>
+              <button data-r="6">6</button>
+              <button data-r="*" class="r-op">×</button>
+
+              <button data-r="1">1</button>
+              <button data-r="2">2</button>
+              <button data-r="3">3</button>
+              <button data-r="-" class="r-op">−</button>
+
+              <button data-r="0">0</button>
+              <button data-r=".">,</button>
+              <button data-r="%" class="r-op">%</button>
+              <button data-r="+" class="r-op">+</button>
+
+              <button data-r="=" class="r-eq">=</button>
+            </div>
+            <div class="rechner-hinweis">Tastatur nutzbar · Enter = · Esc schließt</div>
+          </div>
+        </div>
+
         <button class="theme-btn" id="theme-btn" aria-label="Theme wechseln"></button>
       </div>
     </div>

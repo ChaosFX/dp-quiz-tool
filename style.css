@@ -79,6 +79,63 @@ body {
 }
 .theme-btn:hover { background: var(--border); color: var(--text); }
 
+/* ── TASCHENRECHNER ── */
+.rechner-wrap { position: relative; }
+#rechner-btn[aria-expanded="true"] {
+  background: var(--accent); color: var(--accent-text); border-color: transparent;
+}
+
+.rechner-panel {
+  position: absolute; top: calc(100% + 10px); right: 0; z-index: 200;
+  width: 268px; padding: 12px;
+  background: var(--surface); border: 1px solid var(--border-strong);
+  border-radius: 14px; box-shadow: var(--shadow);
+  animation: dpfade .18s ease both;
+}
+
+.rechner-display {
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 10px 12px; margin-bottom: 10px;
+  min-height: 62px;
+  display: flex; flex-direction: column; justify-content: center; gap: 3px;
+}
+.rechner-eingabe {
+  font-family: 'IBM Plex Mono', monospace; font-size: 17px; font-weight: 500;
+  color: var(--text); text-align: right; word-break: break-all; line-height: 1.3;
+}
+.rechner-ergebnis {
+  font-family: 'IBM Plex Mono', monospace; font-size: 13px;
+  color: var(--muted); text-align: right; min-height: 17px;
+}
+.rechner-ergebnis.fehler { color: var(--no); }
+
+.rechner-tasten { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.rechner-tasten button {
+  padding: 10px 0; border-radius: 9px;
+  background: var(--surface-2); border: 1px solid var(--border);
+  color: var(--text); cursor: pointer;
+  font-family: 'IBM Plex Mono', monospace; font-size: 15px;
+  transition: background .12s, border-color .12s;
+}
+.rechner-tasten button:hover { background: var(--border); border-color: var(--border-strong); }
+.rechner-tasten button:active { transform: translateY(1px); }
+.rechner-tasten .r-op { color: var(--accent); font-weight: 500; }
+.rechner-tasten .r-fn { color: var(--muted); }
+.rechner-tasten .r-eq {
+  grid-column: span 4; background: var(--accent);
+  color: var(--accent-text); border-color: transparent; font-weight: 600;
+}
+.rechner-tasten .r-eq:hover { background: var(--accent); filter: brightness(1.1); }
+
+.rechner-hinweis {
+  margin-top: 9px; text-align: center;
+  font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; color: var(--muted);
+}
+
+@media (max-width: 420px) {
+  .rechner-panel { width: calc(100vw - 32px); right: -8px; }
+}
+
 /* ── MAIN / SCREENS ── */
 main { max-width: 840px; margin: 0 auto; padding: 34px 22px 120px; }
 .screen { display: none; animation: dpfade .28s ease both; }

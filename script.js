@@ -128,6 +128,146 @@ function updateCountdown() {
   $('countdown').innerHTML = `<strong>${diff}</strong> Tage bis 05.08.`;
 }
 
+// ════════════════════════════════════════════════════════════════════════════
+//  TASCHENRECHNER
+// ════════════════════════════════════════════════════════════════════════════
+let rechnerOffen = false;
+let rechnerTerm  = '';   // Eingabe immer maschinenlesbar: „.“ als Dezimaltrenner
+let nachGleich   = false; // direkt nach „=“: neue Zahl ersetzt, Operator rechnet weiter
+
+// Kleiner Recursive-Descent-Parser — bewusst kein eval().
+//   expr    := term (('+'|'-') term)*
+//   term    := factor (('*'|'/') factor)*
+//   factor  := ('-'|'+')* primary '%'*        ('%' = postfix /100)
+//   primary := zahl | '(' expr ')'
+function rechne(src) {
+  const s = src.replace(/,/g, '.');           // Komma-Eingabe zulassen
+  let i = 0;
+  const ws = () => { while (s[i] === ' ') i++; };
+  const peek = () => { ws(); return s[i]; };
+
+  function primary() {
+    ws();
+    if (s[i] === '(') {
+      i++; const v = expr(); ws();
+      if (s[i] !== ')') throw new Error('Klammer nicht geschlossen');
+      i++; return v;
+    }
+    const start = i;
+    while (i < s.length && /[0-9.]/.test(s[i])) i++;
+    if (i === start) throw new Error('Zahl erwartet');
+    const zahl = Number(s.slice(start, i));
+    if (!Number.isFinite(zahl)) throw new Error('Ungültige Zahl');
+    return zahl;
+  }
+  function factor() {
+    ws();
+    if (s[i] === '-') { i++; return -factor(); }
+    if (s[i] === '+') { i++; return  factor(); }
+    let v = primary();
+    while (peek() === '%') { i++; v /= 100; }
+    return v;
+  }
+  function term() {
+    let v = factor();
+    for (;;) {
+      const op = peek();
+      if (op !== '*' && op !== '/') return v;
+      i++;
+      const r = factor();
+      if (op === '/' && r === 0) throw new Error('Division durch 0');
+      v = op === '*' ? v * r : v / r;
+    }
+  }
+  function expr() {
+    let v = term();
+    for (;;) {
+      const op = peek();
+      if (op !== '+' && op !== '-') return v;
+      i++;
+      v = op === '+' ? v + term() : v - term();
+    }
+  }
+
+  const wert = expr();
+  ws();
+  if (i < s.length) throw new Error('Unerwartetes Zeichen');
+  if (!Number.isFinite(wert)) throw new Error('Kein endliches Ergebnis');
+  return wert;
+}
+
+const fmtZahl = n => n.toLocaleString('de-AT', { maximumFractionDigits: 6 });
+
+function rechnerAnzeige() {
+  $('rechner-eingabe').textContent = (rechnerTerm || '0').replace(/\./g, ',');
+  const erg = $('rechner-ergebnis');
+  if (!rechnerTerm) { erg.textContent = ''; erg.className = 'rechner-ergebnis'; return; }
+  try {
+    erg.textContent = '= ' + fmtZahl(rechne(rechnerTerm));
+    erg.className = 'rechner-ergebnis';
+  } catch {
+    erg.textContent = '';           // unvollständige Eingabe ist kein Fehler
+    erg.className = 'rechner-ergebnis';
+  }
+}
+
+function rechnerTaste(t) {
+  const warNachGleich = nachGleich;
+  nachGleich = false;
+
+  if (t === 'C')     { rechnerTerm = ''; }
+  else if (t === 'back') { rechnerTerm = rechnerTerm.slice(0, -1); }
+  else if (t === '=') {
+    if (!rechnerTerm) return;
+    try {
+      // Ergebnis mit „.“ übernehmen, damit weitergerechnet werden kann
+      rechnerTerm = String(Number(rechne(rechnerTerm).toFixed(6)));
+      nachGleich = true;
+      $('rechner-ergebnis').className = 'rechner-ergebnis';
+    } catch (err) {
+      const erg = $('rechner-ergebnis');
+      erg.textContent = err.message;
+      erg.className = 'rechner-ergebnis fehler';
+      return;
+    }
+  }
+  else {
+    // Nach „=“ beginnt eine getippte Zahl neu; ein Operator rechnet weiter.
+    if (warNachGleich && /[0-9.(]/.test(t)) rechnerTerm = '';
+    rechnerTerm += t;
+  }
+  rechnerAnzeige();
+}
+
+function rechnerToggle(auf) {
+  rechnerOffen = auf ?? !rechnerOffen;
+  $('rechner-panel').classList.toggle('hidden', !rechnerOffen);
+  $('rechner-btn').setAttribute('aria-expanded', String(rechnerOffen));
+  if (rechnerOffen) rechnerAnzeige();
+}
+
+$('rechner-btn').onclick = e => { e.stopPropagation(); rechnerToggle(); };
+$('rechner-tasten').onclick = e => {
+  const b = e.target.closest('button[data-r]');
+  if (b) rechnerTaste(b.dataset.r);
+};
+// Klick daneben schließt; Klicks im Panel selbst nicht
+$('rechner-panel').onclick = e => e.stopPropagation();
+document.addEventListener('click', () => { if (rechnerOffen) rechnerToggle(false); });
+
+// Tastatur: greift nur, solange der Rechner offen ist (danach hat das Quiz Vorrang)
+function rechnerTastatur(e) {
+  const k = e.key;
+  if (/^[0-9]$/.test(k))                 { rechnerTaste(k); return true; }
+  if (k === ',' || k === '.')            { rechnerTaste('.'); return true; }
+  if ('+-*/()%'.includes(k) && k.length === 1) { rechnerTaste(k); return true; }
+  if (k === 'Enter' || k === '=')        { rechnerTaste('='); return true; }
+  if (k === 'Backspace')                 { rechnerTaste('back'); return true; }
+  if (k === 'Delete')                    { rechnerTaste('C'); return true; }
+  if (k === 'Escape')                    { rechnerToggle(false); return true; }
+  return false;
+}
+
 // ── Laden ────────────────────────────────────────────────────────────────────
 async function ladeFaecher() {
   const man = await fetch(QUIZ_MANIFEST).then(x => x.ok ? x.json() : null).catch(() => null);
@@ -968,7 +1108,13 @@ $('fc-neu').onclick = () => { bauFcSelect(); zeige('fcSelect'); };
 
 // ── Globale Tastatur ─────────────────────────────────────────────────────────
 document.addEventListener('keydown', e => {
+  // Alt+R öffnet/schließt den Rechner
+  if (e.altKey && (e.key === 'r' || e.key === 'R')) { e.preventDefault(); rechnerToggle(); return; }
   if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+  // Offener Rechner hat Vorrang — sonst würden Ziffern zugleich
+  // Quiz-Antworten auswählen.
+  if (rechnerOffen) { if (rechnerTastatur(e)) e.preventDefault(); return; }
 
   if (activeScreen === 'quiz') {
     const q = quiz.items[quiz.i], ans = quiz.answers[quiz.i];

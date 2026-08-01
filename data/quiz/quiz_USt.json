@@ -1,11 +1,12 @@
 {
   "fach": "USt",
-  "quelle": "Gesamt-Fragensatz USt (157 Fragen): 70 Basis (ust-01..70), 50 Kursbeispiele (ust-71..120), 20 Stufe-2 (ust-121..140), 17 Fallbeispiele mit KZ-Erfassung (ust-141..157); ust-163..172: 10 neue Fragen zu Übungsblatt-Themen (RCS-Übersicht, Anzahlung-Fälligkeit, Ort ig. Erwerb, Dimitri/Max/Ulf-Fallbeispiele, Bewirtungskosten, KZ-Synthese)",
+  "quelle": "Gesamt-Fragensatz USt (157 Fragen): 70 Basis (ust-01..70), 50 Kursbeispiele (ust-71..120), 20 Stufe-2 (ust-121..140), 17 Fallbeispiele mit KZ-Erfassung (ust-141..157)",
   "hinweis": "Fragen mit typ=multiple erfordern das Ankreuzen ALLER richtigen Antworten. Stand: Skriptum BMF Okt. 2025 (KU-Grenze 55.000). Hinweis: Eigenverbrauch wird in KZ 001 erfasst (nicht KZ 000).",
   "fragen": [
     {
       "id": "ust-01",
       "typ": "multiple",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Welche der folgenden Sachverhalte zählen zu den steuerbaren Tatbeständen nach § 1 UStG 1994?",
       "optionen": [
         "Der innergemeinschaftliche Erwerb neuer Fahrzeuge durch Privatpersonen, der systematisch nicht in § 1 UStG, sondern in der Binnenmarktregelung (Art. 1 UStG) geregelt ist",
@@ -24,6 +25,7 @@
     {
       "id": "ust-02",
       "typ": "single",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Was versteht man unter Eigenverbrauch nach § 1 Abs 1 Z 2 UStG?",
       "optionen": [
         "Eigenverbrauch betrifft ausschließlich den Export von Waren in Drittstaaten und ist daher stets echt steuerbefreit",
@@ -39,6 +41,7 @@
     {
       "id": "ust-03",
       "typ": "single",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Was ist der Unterschied zwischen den Kennzahlen (KZ) 083 und 061 bei der Einfuhr?",
       "optionen": [
         "Beide Kennzahlen bezeichnen exakt denselben Betrag und dienen lediglich der doppelten Kontrolle durch das Finanzamt ohne funktionalen Unterschied",
@@ -54,6 +57,7 @@
     {
       "id": "ust-04",
       "typ": "single",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Wer gilt als Unternehmer im Sinne des § 2 UStG?",
       "optionen": [
         "Nur wer im Firmenbuch eingetragen ist und über eine aufrechte Gewerbeberechtigung verfügt",
@@ -69,6 +73,7 @@
     {
       "id": "ust-05",
       "typ": "single",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Was ist ein Betrieb gewerblicher Art (BgA) einer Körperschaft öffentlichen Rechts im umsatzsteuerlichen Kontext (§ 2 Abs 3 UStG)?",
       "optionen": [
         "Ein rein körperschaftsteuerlicher Begriff ohne jede umsatzsteuerliche Bedeutung, der im UStG an keiner Stelle Erwähnung findet",
@@ -84,6 +89,7 @@
     {
       "id": "ust-06",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Welche Aussagen zum Leistungsbegriff nach § 3 UStG (Abgrenzung Lieferung/sonstige Leistung) treffen zu?",
       "optionen": [
         "Sonstige Leistungen sind alle Leistungen, die keine Lieferungen sind",
@@ -102,6 +108,7 @@
     {
       "id": "ust-07",
       "typ": "single",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Was unterscheidet eine Werklieferung von einer Werkleistung (§§ 3 Abs 4, 3a Abs 3 UStG)?",
       "optionen": [
         "Es handelt sich um zwei gesetzliche Bezeichnungen für ein und denselben Sachverhalt, zwischen denen das UStG inhaltlich nicht weiter differenziert",
@@ -117,6 +124,7 @@
     {
       "id": "ust-08",
       "typ": "single",
+      "thema": "Lieferort",
       "frage": "Wie wird der Lieferort bei einer Beförderungs- oder Versendungslieferung nach § 3 Abs 7 und 8 UStG grundsätzlich bestimmt?",
       "optionen": [
         "Der Lieferort liegt unabhängig vom Beginn der Beförderung stets am Sitz oder an der Betriebsstätte des liefernden Unternehmers",
@@ -132,6 +140,7 @@
     {
       "id": "ust-09",
       "typ": "single",
+      "thema": "Lieferort",
       "frage": "Was ist ein Reihengeschäft (§ 3 Abs 15 UStG) und welche Unterscheidung ist dabei zentral?",
       "optionen": [
         "Ein Reihengeschäft betrifft begrifflich ausschließlich Liefergeschäfte, an denen genau zwei Unternehmer beteiligt sind und die Ware direkt übergeben wird",
@@ -147,6 +156,7 @@
     {
       "id": "ust-10",
       "typ": "single",
+      "thema": "Lieferort",
       "frage": "Was ist bei der Entnahme nach § 3 Abs 2 UStG hinsichtlich der Bemessungsgrundlage zu beachten?",
       "optionen": [
         "Es ist stets ausnahmslos der ursprüngliche Anschaffungspreis heranzuziehen, unabhängig von einer zwischenzeitlichen Wertminderung",
@@ -162,6 +172,7 @@
     {
       "id": "ust-11",
       "typ": "single",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Wie wird der Leistungsort bei sonstigen Leistungen zwischen Unternehmern grundsätzlich bestimmt (Generalklausel § 3a Abs 6 UStG)?",
       "optionen": [
         "Stets an jenem Ort, an dem die Leistung physisch tatsächlich erbracht bzw. ausgeführt wird",
@@ -177,6 +188,7 @@
     {
       "id": "ust-12",
       "typ": "single",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Wo liegt der Leistungsort bei Grundstücksleistungen nach § 3a Abs 9 UStG?",
       "optionen": [
         "Stets am Wohnsitz oder gewöhnlichen Aufenthalt des Leistungsempfängers, unabhängig von der Lage des Grundstücks",
@@ -192,6 +204,7 @@
     {
       "id": "ust-13",
       "typ": "single",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Was versteht man unter Verwendungseigenverbrauch (§ 3a Abs 1a Z 1 UStG)?",
       "optionen": [
         "Verwendungseigenverbrauch betrifft begrifflich ausschließlich unentgeltlich erbrachte Dienstleistungen an unternehmensfremde Dritte",
@@ -207,6 +220,7 @@
     {
       "id": "ust-14",
       "typ": "single",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Was versteht man unter Leistungseigenverbrauch (§ 3a Abs 1a Z 2 UStG)?",
       "optionen": [
         "Die Einfuhr einer Dienstleistung aus dem Drittland, für die im Inland Einfuhrumsatzsteuer entrichtet werden muss",
@@ -222,6 +236,7 @@
     {
       "id": "ust-15",
       "typ": "single",
+      "thema": "Bemessungsgrundlage",
       "frage": "Wie wird das Entgelt nach § 4 UStG als Bemessungsgrundlage grundsätzlich bestimmt?",
       "optionen": [
         "Als alles, was der Empfänger aufzuwenden hat, um die Lieferung oder sonstige Leistung zu erhalten, abzüglich der Umsatzsteuer selbst",
@@ -237,6 +252,7 @@
     {
       "id": "ust-16",
       "typ": "single",
+      "thema": "Bemessungsgrundlage",
       "frage": "Wann kommt der Normalwert (§ 4 Abs 9 UStG) als Bemessungsgrundlage zur Anwendung?",
       "optionen": [
         "Der Normalwert ersetzt das vereinbarte Entgelt generell bei jeder grenzüberschreitenden Lieferung, unabhängig von einem Naheverhältnis der beteiligten Parteien",
@@ -252,6 +268,7 @@
     {
       "id": "ust-17",
       "typ": "single",
+      "thema": "Bemessungsgrundlage",
       "frage": "Auf welche Fälle ist die Änderung der Bemessungsgrundlage nach § 16 UStG in der GAB-Stoffgliederung primär begrenzt?",
       "optionen": [
         "Ausschließlich auf uneinbringliche Forderungsausfälle, während Rabatte davon nicht erfasst sind",
@@ -267,6 +284,7 @@
     {
       "id": "ust-18",
       "typ": "single",
+      "thema": "Steuerbefreiungen",
       "frage": "Was ist der Unterschied zwischen echter und unechter Steuerbefreiung (§ 6 UStG)?",
       "optionen": [
         "Es handelt sich um zwei Bezeichnungen für denselben Rechtsfolgen-Mechanismus, zwischen denen praktisch kein Unterschied im Vorsteuerabzug besteht",
@@ -282,6 +300,7 @@
     {
       "id": "ust-19",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Welche der folgenden Umsätze sind nach § 6 Abs 1 UStG typischerweise unecht steuerbefreit?",
       "optionen": [
         "Sämtliche land- und forstwirtschaftlichen Umsätze unabhängig von deren Art",
@@ -300,6 +319,7 @@
     {
       "id": "ust-20",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Welche Aussagen zur unechten Steuerbefreiung für Kleinunternehmer (§ 6 Abs 1 Z 27 UStG) treffen zu?",
       "optionen": [
         "Unternehmer, deren Umsätze im Veranlagungszeitraum die gesetzliche Grenze nicht übersteigen, sind unecht steuerbefreit",
@@ -318,6 +338,7 @@
     {
       "id": "ust-21",
       "typ": "single",
+      "thema": "Steuersätze",
       "frage": "Welcher Steuersatz gilt grundsätzlich als Normalsteuersatz nach § 10 UStG?",
       "optionen": [
         "20 %",
@@ -333,6 +354,7 @@
     {
       "id": "ust-22",
       "typ": "single",
+      "thema": "Steuersätze",
       "frage": "Welche ermäßigten Steuersätze sieht § 10 Abs 2 f UStG vor?",
       "optionen": [
         "10 % und 13 %",
@@ -348,6 +370,7 @@
     {
       "id": "ust-23",
       "typ": "single",
+      "thema": "Steuersätze",
       "frage": "Welcher Steuersatz kommt grundsätzlich auf die Reparatur eines Fahrrades zur Anwendung?",
       "optionen": [
         "Der Normalsteuersatz von 20 %, sofern keine speziellere gesetzliche Begünstigung greift",
@@ -363,6 +386,7 @@
     {
       "id": "ust-24",
       "typ": "single",
+      "thema": "Steuersätze",
       "frage": "Welcher Steuersatz kommt grundsätzlich auf die Reparatur eines Autos zur Anwendung?",
       "optionen": [
         "Der Normalsteuersatz von 20 %",
@@ -378,6 +402,7 @@
     {
       "id": "ust-25",
       "typ": "multiple",
+      "thema": "Rechnung",
       "frage": "Welche Angaben muss eine zum Vorsteuerabzug berechtigende Rechnung nach § 11 UStG grundsätzlich enthalten?",
       "optionen": [
         "Name und Anschrift des leistenden Unternehmers und des Leistungsempfängers",
@@ -396,6 +421,7 @@
     {
       "id": "ust-26",
       "typ": "single",
+      "thema": "Rechnung",
       "frage": "Welche Rechnungsangaben genügen bei einer Rechnung über 150 EUR brutto?",
       "optionen": [
         "Es genügen die erleichterten Angaben einer Kleinbetragsrechnung nach § 11 Abs 6 UStG, da 150 EUR die Grenze von 400 EUR brutto nicht übersteigt",
@@ -411,6 +437,7 @@
     {
       "id": "ust-27",
       "typ": "single",
+      "thema": "Rechnung",
       "frage": "Was ist eine elektronische Rechnung nach § 11 Abs 2 UStG?",
       "optionen": [
         "Eine Rechnung, die in einem elektronischen Format ausgestellt und empfangen wird, sofern Echtheit der Herkunft, Unversehrtheit des Inhalts und Lesbarkeit gewährleistet sind und der Empfänger zustimmt",
@@ -426,6 +453,7 @@
     {
       "id": "ust-28",
       "typ": "single",
+      "thema": "Rechnung",
       "frage": "Was ist eine Gutschrift im Sinne des § 11 Abs 7 f UStG?",
       "optionen": [
         "Eine vom Leistungsempfänger anstelle des leistenden Unternehmers ausgestellte Abrechnung über eine Leistung, die unter bestimmten Voraussetzungen als Rechnung gilt",
@@ -441,6 +469,7 @@
     {
       "id": "ust-29",
       "typ": "single",
+      "thema": "Rechnung",
       "frage": "Was versteht man unter 'Steuerschuld kraft Rechnung' (§ 11 Abs 12 ff UStG)?",
       "optionen": [
         "Wenn ein höherer Steuerbetrag in einer Rechnung ausgewiesen wird, als gesetzlich geschuldet ist, schuldet der Aussteller diesen Betrag aufgrund der Rechnung, kann ihn aber berichtigen",
@@ -456,6 +485,7 @@
     {
       "id": "ust-30",
       "typ": "multiple",
+      "thema": "Vorsteuerabzug",
       "frage": "Welche Aussagen zu den Grundvoraussetzungen für den Vorsteuerabzug nach § 12 UStG treffen zu?",
       "optionen": [
         "Die Lieferung oder sonstige Leistung muss von einem anderen Unternehmer für das Unternehmen des Leistungsempfängers ausgeführt worden sein",
@@ -472,6 +502,7 @@
     {
       "id": "ust-31",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Worin besteht der Unterschied zwischen Vorsteuer bei EUSt (§ 12 Abs 1 Z 2 lit a UStG) und Vorsteuer bei RCS (§ 12 Abs 1 Z 3 UStG)?",
       "optionen": [
         "Bei der EUSt ist die anlässlich der Einfuhr entstandene Einfuhrumsatzsteuer abziehbar, beim RCS die als Leistungsempfänger selbst geschuldete Umsatzsteuer aus dem Übergang der Steuerschuld",
@@ -487,6 +518,7 @@
     {
       "id": "ust-32",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Was bedeutet 'Leistung für das Unternehmen' nach § 12 Abs 2 Z 1 UStG als Voraussetzung für den Vorsteuerabzug?",
       "optionen": [
         "Die bezogene Leistung muss zumindest zu 10 % unternehmerischen Zwecken dienen, damit sie dem Unternehmen zugeordnet werden kann",
@@ -502,6 +534,7 @@
     {
       "id": "ust-33",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Wann ist die Vorsteuer im Zusammenhang mit ertragsteuerlich nicht abzugsfähigen Aufwendungen ausgeschlossen (§ 12 Abs 2 Z 2 lit a UStG)?",
       "optionen": [
         "Soweit die Aufwendungen ertragsteuerlich als nicht abzugsfähige Repräsentationsaufwendungen oder ähnliche Kosten der Lebensführung gelten, ist auch der Vorsteuerabzug ausgeschlossen",
@@ -517,6 +550,7 @@
     {
       "id": "ust-34",
       "typ": "multiple",
+      "thema": "Vorsteuerabzug",
       "frage": "Welche Aussagen zum Vorsteuerabzug bei PKW, Kombi und Krafträdern (§ 12 Abs 2 Z 2 lit b UStG) treffen zu?",
       "optionen": [
         "Der Vorsteuerabzug ist grundsätzlich ausgeschlossen, sofern keine gesetzliche Ausnahme vorliegt",
@@ -533,6 +567,7 @@
     {
       "id": "ust-35",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Was gilt beim Vorsteuerabzug für PKW/Kombi mit CO2-Emissionswert von 0 g/km (§ 12 Abs. 2 Z 2a UStG)?",
       "optionen": [
         "Für solche Fahrzeuge (insb. Elektrofahrzeuge) steht unter den gesetzlichen Voraussetzungen der Vorsteuerabzug zu, wobei bei Privatnutzung ein Eigenverbrauch zu berücksichtigen ist",
@@ -548,6 +583,7 @@
     {
       "id": "ust-36",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Wie erfolgt die Aufteilung der Vorsteuer bei gemischter (steuerpflichtiger und unecht steuerfreier) Verwendung von Eingangsleistungen (§ 12 Abs 3-6 UStG)?",
       "optionen": [
         "Nach Möglichkeit nach der direkten Zurechenbarkeit, ansonsten im Wege einer sachgerechten Aufteilung, z.B. nach dem Umsatzverhältnis",
@@ -563,6 +599,7 @@
     {
       "id": "ust-37",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Wann kommt eine Vorsteuerberichtigung nach § 12 Abs 10 UStG bei Anlagevermögen zur Anwendung?",
       "optionen": [
         "Wenn sich innerhalb des gesetzlichen Beobachtungszeitraums (idR 5 Jahre bei beweglichen, 20 Jahre bei unbeweglichen Wirtschaftsgütern) die für den ursprünglichen Vorsteuerabzug maßgeblichen Verhältnisse ändern",
@@ -578,6 +615,7 @@
     {
       "id": "ust-38",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Wie unterscheidet sich die Vorsteuerberichtigung beim Umlaufvermögen (§ 12 Abs 11 UStG) von jener beim Anlagevermögen?",
       "optionen": [
         "Beim Umlaufvermögen erfolgt die Berichtigung punktuell im Zeitpunkt der Änderung der Verwendung, nicht über einen mehrjährigen Beobachtungszeitraum verteilt wie beim Anlagevermögen",
@@ -593,6 +631,7 @@
     {
       "id": "ust-39",
       "typ": "single",
+      "thema": "Aufzeichnungspflichten & Entstehung der Steuerschuld",
       "frage": "Was regeln die Aufzeichnungspflichten nach § 18 UStG (exkl. Plattformen)?",
       "optionen": [
         "Die Verpflichtung des Unternehmers, Aufzeichnungen zu führen, aus denen sich die für die Umsatzsteuer maßgeblichen Grundlagen (Entgelte, Steuersätze, Vorsteuern) zweifelsfrei ermitteln lassen",
@@ -608,6 +647,7 @@
     {
       "id": "ust-40",
       "typ": "single",
+      "thema": "Aufzeichnungspflichten & Entstehung der Steuerschuld",
       "frage": "Was unterscheidet die Sollbesteuerung von der Istbesteuerung (§§ 17 u 19 Abs 2 UStG)?",
       "optionen": [
         "Bei der Sollbesteuerung entsteht die Steuerschuld grundsätzlich bereits mit Ablauf des Voranmeldungszeitraums der Leistungserbringung, bei der Istbesteuerung erst mit Vereinnahmung des Entgelts",
@@ -623,6 +663,7 @@
     {
       "id": "ust-41",
       "typ": "single",
+      "thema": "Aufzeichnungspflichten & Entstehung der Steuerschuld",
       "frage": "Wer ist nach § 19 Abs 1 UStG grundsätzlich Steuerschuldner?",
       "optionen": [
         "Grundsätzlich der leistende Unternehmer, mit gesetzlich vorgesehenen Ausnahmen wie dem Übergang der Steuerschuld auf den Leistungsempfänger",
@@ -638,6 +679,7 @@
     {
       "id": "ust-42",
       "typ": "single",
+      "thema": "Reverse Charge System (RCS)",
       "frage": "Wann kommt der Übergang der Steuerschuld bei Leistungen ausländischer Unternehmer (RCS Ausländer, § 19 Abs 1 Satz 2) zur Anwendung, und welche Kennzahl trägt der Empfänger ein?",
       "optionen": [
         "Bei sonstiger Leistung/Werklieferung eines ausländischen Unternehmers an einen inländischen Unternehmer, steuerpflichtig im Inland; der Empfänger trägt den Steuerbetrag bei KZ 057 (bei Vorsteuerabzug zusätzlich KZ 066) ein",
@@ -653,6 +695,7 @@
     {
       "id": "ust-43",
       "typ": "single",
+      "thema": "Reverse Charge System (RCS)",
       "frage": "Was regelt das Reverse-Charge-System bei Bauleistungen (§ 19 Abs 1a UStG), und mit welcher Kennzahl wird es erklärt?",
       "optionen": [
         "Bei bestimmten Bauleistungen geht die Steuerschuld auf den empfangenden, selbst bauleistenden Unternehmer über (KZ 048, bei Vorsteuerabzug zusätzlich KZ 082), um Betrug in dieser Branche zu bekämpfen",
@@ -668,6 +711,7 @@
     {
       "id": "ust-44",
       "typ": "multiple",
+      "thema": "Reverse Charge System (RCS)",
       "frage": "Welche Aussagen zu den weiteren Reverse-Charge-Fällen nach § 19 Abs 1b, 1d UStG treffen zu?",
       "optionen": [
         "Bei Sicherungseigentum, Vorbehaltseigentum und Grundstücken im Zwangsversteigerungsverfahren (§ 19 Abs 1b) geht die Steuerschuld über und wird bei KZ 044 (VSt: KZ 087) erklärt",
@@ -685,6 +729,7 @@
     {
       "id": "ust-45",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Was versteht man unter dem Veranlagungszeitraum bei der Umsatzsteuer (§ 20 UStG)?",
       "optionen": [
         "Grundsätzlich das Kalenderjahr, für das die Umsatzsteuer im Rahmen der Jahreserklärung veranlagt wird, neben den unterjährigen Voranmeldungszeiträumen",
@@ -700,6 +745,7 @@
     {
       "id": "ust-46",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Wie hängen UVA, Jahreserklärung und Bescheid (§ 21 UStG) zusammen?",
       "optionen": [
         "Die UVA dient der unterjährigen Selbstberechnung und Vorauszahlung, die Jahreserklärung fasst das Kalenderjahr zusammen und kann zu Zahllast, Gutschrift oder einem Bescheid führen",
@@ -715,6 +761,7 @@
     {
       "id": "ust-47",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Was regelt die USt-Rückerstattung nach § 21 Abs 9 UStG?",
       "optionen": [
         "Die Erstattung österreichischer Vorsteuern an nicht im Inland ansässige Unternehmer im Rahmen eines eigenen Erstattungsverfahrens ohne reguläre Veranlagung",
@@ -730,6 +777,7 @@
     {
       "id": "ust-48",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Was versteht man unter der pauschalierten Land- und Forstwirtschaft (§ 22 UStG)?",
       "optionen": [
         "Eine Sonderregelung, nach der bestimmte nicht buchführungspflichtige LuF-Betriebe Umsatzsteuer und Vorsteuer pauschal nach festen Durchschnittssätzen ermitteln können",
@@ -745,6 +793,7 @@
     {
       "id": "ust-49",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Was ist die Differenzbesteuerung nach § 24 UStG?",
       "optionen": [
         "Eine Sonderregelung für Wiederverkäufer von Gebrauchtgegenständen, bei der nur die Differenz zwischen Verkaufs- und Einkaufspreis der Umsatzsteuer unterliegt",
@@ -760,6 +809,7 @@
     {
       "id": "ust-50",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Was regelt die Haftung nach § 27 UStG (insbesondere Abs 4) im Wesentlichen?",
       "optionen": [
         "Eine Haftung des Leistungsempfängers, wenn dieser wusste oder wissen musste, dass der Lieferant die geschuldete Umsatzsteuer vorsätzlich nicht entrichtet (Betrugsbekämpfung)",
@@ -775,6 +825,7 @@
     {
       "id": "ust-51",
       "typ": "single",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Was versteht man unter dem Binnenmarkt im umsatzsteuerlichen Sinn (Art 1 BMR)?",
       "optionen": [
         "Den gemeinsamen Wirtschaftsraum der EU-Mitgliedstaaten, in dem für den Warenverkehr eigene Regelungen wie ig Erwerb/Lieferung anstelle der Ein-/Ausfuhrregelungen gelten",
@@ -790,6 +841,7 @@
     {
       "id": "ust-52",
       "typ": "single",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Was gilt für den privaten Reiseverkehr innerhalb der EU (Ursprungslandprinzip)?",
       "optionen": [
         "Käufe von Privatpersonen im EU-Ausland unterliegen grundsätzlich der Umsatzsteuer des Ursprungslandes, eine zusätzliche Versteuerung im Wohnsitzstaat erfolgt grundsätzlich nicht",
@@ -805,6 +857,7 @@
     {
       "id": "ust-53",
       "typ": "single",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Was ist ein innergemeinschaftlicher Erwerb (Art 1 BMR)?",
       "optionen": [
         "Der entgeltliche Erwerb eines Gegenstandes durch einen Unternehmer für sein Unternehmen, der bei einer Lieferung aus einem anderen Mitgliedstaat in das Inland gelangt",
@@ -820,6 +873,7 @@
     {
       "id": "ust-54",
       "typ": "single",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Was regelt der 'zweite Ort' beim innergemeinschaftlichen Erwerb (Art 3 Abs 8 zweiter Satz BMR)?",
       "optionen": [
         "Verwendet der Erwerber eine UID eines anderen Mitgliedstaates als des Bestimmungslandes, gilt der Erwerb zusätzlich dort als bewirkt, bis die Erwerbsbesteuerung im Bestimmungsland nachgewiesen wird",
@@ -835,6 +889,7 @@
     {
       "id": "ust-55",
       "typ": "single",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Was ist beim innergemeinschaftlichen Erwerb neuer Fahrzeuge (Art 1 Abs 7 ff BMR) zu beachten?",
       "optionen": [
         "Der Erwerb neuer Fahrzeuge unterliegt abweichend von der allgemeinen Regelung auch dann der Erwerbsbesteuerung im Bestimmungsland, wenn der Erwerber eine Privatperson ist",
@@ -850,6 +905,7 @@
     {
       "id": "ust-56",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Personengruppen zählen zu den Schwellenerwerbern bzw. atypischen Erwerbern (Art 1 Abs 4 BMR)?",
       "optionen": [
         "Unecht steuerbefreite Unternehmer ohne Vorsteuerabzugsberechtigung",
@@ -868,6 +924,7 @@
     {
       "id": "ust-57",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Aussagen zum innergemeinschaftlichen Versandhandel (Art 3 BMR) und zum EU-OSS treffen zu?",
       "optionen": [
         "Beim Versandhandel an Privatpersonen in anderen Mitgliedstaaten verlagert sich der Lieferort ab Überschreiten einer unionsweiten Geringfügigkeitsgrenze ins Bestimmungsland",
@@ -884,6 +941,7 @@
     {
       "id": "ust-58",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Voraussetzungen müssen für eine echt steuerbefreite innergemeinschaftliche Lieferung (Art 7 BMR) u.a. erfüllt sein?",
       "optionen": [
         "Der Gegenstand gelangt von Österreich in einen anderen Mitgliedstaat an einen dort erwerbsteuerpflichtigen Abnehmer",
@@ -902,6 +960,7 @@
     {
       "id": "ust-59",
       "typ": "single",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Wie sieht die Rechnung bei einer innergemeinschaftlichen Lieferung grundsätzlich aus (Art 11 BMR)?",
       "optionen": [
         "Sie enthält neben den allgemeinen Rechnungsmerkmalen einen Hinweis auf die Steuerfreiheit sowie die UID-Nummern von Lieferant und Abnehmer, ohne gesonderten Steuerausweis",
@@ -917,6 +976,7 @@
     {
       "id": "ust-60",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Funktionen erfüllt die Umsatzsteuer-Identifikationsnummer (UID-Nummer)?",
       "optionen": [
         "Sie dient als Nachweis der Unternehmereigenschaft im innergemeinschaftlichen Geschäftsverkehr",
@@ -935,6 +995,7 @@
     {
       "id": "ust-61",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Aussagen zu den One-Stop-Shop-Systemen (EU-OSS, Nicht-EU-OSS, IOSS) treffen zu?",
       "optionen": [
         "Der EU-OSS erfasst u.a. den EU-Versandhandel und bestimmte sonstige B2C-Leistungen von EU-Unternehmern",
@@ -953,6 +1014,7 @@
     {
       "id": "ust-62",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Funktion haben die Zusammenfassende Meldung (ZM) und das MIAS-System (Art 21 BMR)?",
       "optionen": [
         "Die ZM dient der Meldung innergemeinschaftlicher Lieferungen und bestimmter sonstiger Leistungen an die Finanzverwaltung",
@@ -969,6 +1031,7 @@
     {
       "id": "ust-63",
       "typ": "single",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Wo liegt der Leistungsort bei einer kulturellen Veranstaltung (z.B. Auftritt eines Opernsängers) nach der Unternehmerortregel (§ 3a Abs 6 UStG)?",
       "optionen": [
         "Bei einer Leistung an einen Unternehmer gilt grundsätzlich das Empfängerortprinzip, sodass der Leistungsort dort liegt, wo der empfangende Unternehmer (z.B. Veranstalter) sein Unternehmen betreibt",
@@ -984,6 +1047,7 @@
     {
       "id": "ust-64",
       "typ": "single",
+      "thema": "Steuerbefreiungen",
       "frage": "Was ist eine Ausfuhrlieferung (§ 7 UStG) und wie wird sie behandelt?",
       "optionen": [
         "Die Lieferung eines Gegenstandes in das Drittlandsgebiet, die unter den gesetzlichen Voraussetzungen (insb. Ausfuhr- und Buchnachweis) echt steuerbefreit ist",
@@ -999,6 +1063,7 @@
     {
       "id": "ust-65",
       "typ": "single",
+      "thema": "Steuerbefreiungen",
       "frage": "Was ist der Touristenexport und wie unterscheidet er sich von der 'normalen' Ausfuhrlieferung?",
       "optionen": [
         "Die Ausfuhr von Waren im persönlichen Reisegepäck durch nicht in der EU ansässige Privatpersonen, die unter besonderen Nachweis- und Wertgrenzen ebenfalls steuerfrei sein kann",
@@ -1014,6 +1079,7 @@
     {
       "id": "ust-66",
       "typ": "single",
+      "thema": "Steuerbefreiungen",
       "frage": "Was gilt bei einer Ausfuhr nach Afrika hinsichtlich der umsatzsteuerlichen Behandlung?",
       "optionen": [
         "Es handelt sich um eine Lieferung in das Drittlandsgebiet, die als Ausfuhrlieferung unter den gesetzlichen Nachweisvoraussetzungen echt steuerbefreit ist",
@@ -1029,6 +1095,7 @@
     {
       "id": "ust-67",
       "typ": "single",
+      "thema": "Aufzeichnungspflichten & Entstehung der Steuerschuld",
       "frage": "Wie ist die Mindest-Ist-Besteuerung bei Anzahlungsrechnungen grundsätzlich zu verstehen?",
       "optionen": [
         "Wird vor Leistungsausführung eine Anzahlung vereinnahmt und mit gesondertem Steuerausweis in Rechnung gestellt, entsteht die Steuerschuld bereits mit Vereinnahmung, unabhängig vom sonst geltenden Besteuerungssystem",
@@ -1044,6 +1111,7 @@
     {
       "id": "ust-68",
       "typ": "single",
+      "thema": "Steuerbefreiungen",
       "frage": "Kurt ist Rechtsanwalt mit 320.000 EUR Gewinn im Jahr und übersteigt damit deutlich die Kleinunternehmergrenze. Wie sind seine Umsätze grundsätzlich umsatzsteuerlich zu behandeln?",
       "optionen": [
         "Da die Kleinunternehmergrenze deutlich überschritten ist, unterliegen seine Umsätze der Regelbesteuerung und sind in UVA bzw. Jahreserklärung entsprechend zu melden",
@@ -1059,6 +1127,7 @@
     {
       "id": "ust-69",
       "typ": "single",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Wie ist bei einem innergemeinschaftlichen Doppelerwerb hinsichtlich des Vorsteuerabzugs vorzugehen?",
       "optionen": [
         "Die Erwerbsteuer im 'zweiten' Mitgliedstaat (UID-Mitgliedstaat) berechtigt grundsätzlich nicht zum Vorsteuerabzug; dieser steht nur im tatsächlichen Bestimmungsland zu",
@@ -1074,6 +1143,7 @@
     {
       "id": "ust-70",
       "typ": "multiple",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Welche Kennzahlen sind für eine innergemeinschaftliche Lieferung bzw. eine Ausfuhrlieferung in der UVA typischerweise relevant?",
       "optionen": [
         "KZ 000 erfasst die Gesamtsumme der Bemessungsgrundlagen aller Umsätze",
@@ -1092,6 +1162,7 @@
     {
       "id": "ust-71",
       "typ": "single",
+      "thema": "Steuersätze",
       "frage": "John Müller bringt seine Schuhe zum Schuster zur Reparatur. Welcher Steuersatz ist anzuwenden?",
       "optionen": [
         "20 %",
@@ -1108,6 +1179,7 @@
     {
       "id": "ust-72",
       "typ": "multiple",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Die deutsche Schauspielerin Natalie Schiach wird von der Film GmbH (Sitz Wien) für eine Filmrolle engagiert. Gedreht wird teils in der Schweiz, teils in Italien; die Gage beträgt 5.000. Welche Aussagen sind richtig?",
       "optionen": [
         "Künstlerische Leistung, am Tätigkeitsort zu besteuern",
@@ -1125,6 +1197,7 @@
     {
       "id": "ust-73",
       "typ": "multiple",
+      "thema": "Vorsteuerabzug",
       "frage": "Die österreichische Brilla GmbH kauft vom südafrikanischen Unternehmer Joe Bananen um 5.000. Joe versendet sie mit einem Frachtführer nach Österreich; Lieferklausel: unverzollt und unversteuert. Die 5.000 sind Bemessungsgrundlage für die Einfuhr. Welche Aussagen sind richtig?",
       "optionen": [
         "Die Einfuhr erfolgt durch Brilla GmbH",
@@ -1144,6 +1217,7 @@
     {
       "id": "ust-74",
       "typ": "multiple",
+      "thema": "Aufzeichnungspflichten & Entstehung der Steuerschuld",
       "frage": "Istbesteuerung ist vorgesehen bei …",
       "optionen": [
         "Freiberuflern",
@@ -1160,6 +1234,7 @@
     {
       "id": "ust-75",
       "typ": "multiple",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Folgende Unternehmer müssen eine Umsatzsteuervoranmeldung abgeben …",
       "optionen": [
         "Umsatz über 100.000",
@@ -1177,6 +1252,7 @@
     {
       "id": "ust-76",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Die Zahllast aufgrund der UVA für Mai ist fällig am …",
       "optionen": [
         "15. Mai",
@@ -1192,6 +1268,7 @@
     {
       "id": "ust-77",
       "typ": "single",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Bestimmen Sie den Ort der sonstigen Leistung nach der Generalklausel B2C.",
       "optionen": [
         "Unternehmerort",
@@ -1208,6 +1285,7 @@
     {
       "id": "ust-78",
       "typ": "multiple",
+      "thema": "Bemessungsgrundlage",
       "frage": "Was gehört NICHT zum Entgelt?",
       "optionen": [
         "Freiwillige Aufwendungen vom Leistungsempfänger",
@@ -1227,6 +1305,7 @@
     {
       "id": "ust-79",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Welche Leistung ist echt steuerfrei?",
       "optionen": [
         "Ärztliche Heilbehandlung",
@@ -1245,6 +1324,7 @@
     {
       "id": "ust-80",
       "typ": "single",
+      "thema": "Steuersätze",
       "frage": "Ein Unternehmer verkauft an eine Privatperson einen Regenschirm um 10,- (netto). Berechnen Sie die USt.",
       "optionen": [
         "4",
@@ -1259,6 +1339,7 @@
     {
       "id": "ust-81",
       "typ": "multiple",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Welche Sachverhalte sind in der UVA/Jahreserklärung zu erfassen?",
       "optionen": [
         "Der Elektrohändler schenkt seiner Tochter einen Fernseher, der auf Lager liegt und ursprünglich zum Verkauf bestimmt war",
@@ -1275,6 +1356,7 @@
     {
       "id": "ust-82",
       "typ": "multiple",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Welche Aussagen treffen auf die USt NICHT zu?",
       "optionen": [
         "Mit der Umsatzsteuer wird das Welteinkommen besteuert",
@@ -1291,6 +1373,7 @@
     {
       "id": "ust-83",
       "typ": "single",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Sie kaufen ein Paar handgefertigte Schuhe um 1.000. Welche Leistung erbringt der Schuster aus umsatzsteuerlicher Sicht?",
       "optionen": [
         "Eine Lieferung, weil die Verfügungsmacht an einem körperlichen Gegenstand verschafft wird",
@@ -1306,6 +1389,7 @@
     {
       "id": "ust-84",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Welche Merkmale hat eine Leistung im umsatzsteuerlichen Sinn?",
       "optionen": [
         "Leistungsempfänger",
@@ -1324,6 +1408,7 @@
     {
       "id": "ust-85",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Welche Umstände sind NICHT maßgeblich für den Beginn der Unternehmereigenschaft?",
       "optionen": [
         "Vergabe einer Steuernummer",
@@ -1346,6 +1431,7 @@
     {
       "id": "ust-86",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Wann wird eine Tätigkeit nachhaltig ausgeübt?",
       "optionen": [
         "Eine einmalige Leistung wird erbracht, für die eine gewisse Dauer erforderlich ist",
@@ -1362,6 +1448,7 @@
     {
       "id": "ust-87",
       "typ": "single",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Wann liegt eine Einfuhr vor?",
       "optionen": [
         "Eine Dienstleistung wird von einem ausländischen Unternehmer an einen österreichischen Unternehmer erbracht",
@@ -1377,6 +1464,7 @@
     {
       "id": "ust-88",
       "typ": "zuordnung",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Ordne die folgenden Vorgänge der richtigen Kategorie zu.",
       "erklaerung": "Sonstige Leistungen: Warenbeförderung (Tun), Ausmalen eines Zimmers (Werkleistung an fremder unbeweglicher Sache, Farbe ist Nebensache), Wohnungsvermietung (Dulden), Restaurationsumsatz. Der Verkauf eines Buches ist hingegen eine Lieferung (Verschaffung der Verfügungsmacht über einen körperlichen Gegenstand).",
       "kategorien": [
@@ -1401,6 +1489,7 @@
     {
       "id": "ust-89",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Wer kann Unternehmer sein?",
       "optionen": [
         "Natürliche Personen",
@@ -1418,6 +1507,7 @@
     {
       "id": "ust-90",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Innenumsätze sind …",
       "optionen": [
         "Nicht steuerbar",
@@ -1434,6 +1524,7 @@
     {
       "id": "ust-91",
       "typ": "multiple",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Der österreichische Rechtsanwalt vertritt die tschechische Terpsichore s.r.o. bei einem Gewährleistungsprozess in Wien. Beide treten unter der gültigen UID ihres Sitzstaates auf. Welche Aussagen sind zutreffend?",
       "optionen": [
         "Es kommt zum Übergang der Steuerschuld auf die Terpsichore s.r.o.",
@@ -1451,6 +1542,7 @@
     {
       "id": "ust-92",
       "typ": "multiple",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Welche Voranmeldungszeiträume sind möglich?",
       "optionen": [
         "Quartal",
@@ -1468,6 +1560,7 @@
     {
       "id": "ust-93",
       "typ": "multiple",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Wie erfolgt die Übermittlung der UVA? (Trifft zu)",
       "optionen": [
         "Grundsätzlich über FinanzOnline",
@@ -1486,6 +1579,7 @@
     {
       "id": "ust-94",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Friedrich Meier vermietet ein Mehrfamilienhaus in Wien: EG an einen Rechtsanwalt, 1. Stock an den Zahnarzt Dr. Plohmbe (Praxis), 2. Stock an eine Familie zu Wohnzwecken. Welche Aussagen treffen zu?",
       "optionen": [
         "Die Mieteinnahmen aus den Wohnungen sind mit 10 % steuerpflichtig",
@@ -1503,6 +1597,7 @@
     {
       "id": "ust-95",
       "typ": "multiple",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Welche Aussagen zur Steuerbarkeit treffen zu?",
       "optionen": [
         "Eine steuerbare Leistung ist immer steuerfrei",
@@ -1519,6 +1614,7 @@
     {
       "id": "ust-96",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Aussagen zu Inland, Ausland, Gemeinschaftsgebiet und Drittland treffen zu?",
       "optionen": [
         "Inland ist das Bundesgebiet",
@@ -1535,6 +1631,7 @@
     {
       "id": "ust-97",
       "typ": "multiple",
+      "thema": "Vorsteuerabzug",
       "frage": "Welche Voraussetzungen müssen für den Vorsteuerabzug aufgrund einer Rechnung vorliegen?",
       "optionen": [
         "Unterschrift des Leistungsempfängers",
@@ -1552,6 +1649,7 @@
     {
       "id": "ust-98",
       "typ": "multiple",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Folgende Lieferungen bzw. sonstige Leistungen sind in der UVA/Jahreserklärung zu erfassen.",
       "optionen": [
         "Sonstige Leistungen, deren Ort der sonstigen Leistung im Inland ist",
@@ -1569,6 +1667,7 @@
     {
       "id": "ust-99",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Welche Eigenschaften muss ein Unternehmer iSd § 2 UStG 1994 erfüllen?",
       "optionen": [
         "Er muss österreichischer Staatsbürger sein",
@@ -1587,6 +1686,7 @@
     {
       "id": "ust-100",
       "typ": "single",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Welche Umstände sind maßgeblich für den Beginn der Unternehmereigenschaft?",
       "optionen": [
         "Nach außen gerichtete Handlungen, die jeder Dritte als Vorbereitungshandlung ansieht",
@@ -1602,6 +1702,7 @@
     {
       "id": "ust-101",
       "typ": "multiple",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Worin kann eine sonstige Leistung bestehen?",
       "optionen": [
         "Der Friseur schneidet die Haare gegen Entgelt",
@@ -1617,6 +1718,7 @@
     {
       "id": "ust-102",
       "typ": "single",
+      "thema": "Steuerbefreiungen",
       "frage": "Was trifft auf echte Steuerbefreiungen zu?",
       "optionen": [
         "Sie sind vom Vorsteuerabzug ausgeschlossen",
@@ -1632,6 +1734,7 @@
     {
       "id": "ust-103",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Aussagen treffen auf die echt steuerfreie innergemeinschaftliche Lieferung zu?",
       "optionen": [
         "Warenbewegung vom Inland in das übrige Gemeinschaftsgebiet",
@@ -1649,6 +1752,7 @@
     {
       "id": "ust-104",
       "typ": "multiple",
+      "thema": "Rechnung",
       "frage": "Welche Merkmale müssen in einer ordnungsgemäßen Rechnung (§ 11 Abs 1 UStG 1994) enthalten sein?",
       "optionen": [
         "Kontonummer des Rechnungsausstellers",
@@ -1667,6 +1771,7 @@
     {
       "id": "ust-105",
       "typ": "multiple",
+      "thema": "Aufzeichnungspflichten & Entstehung der Steuerschuld",
       "frage": "Welche Aussagen zur Sollbesteuerung treffen zu?",
       "optionen": [
         "Durch späteres Ausstellen der Rechnung verschiebt sich die Entstehung der Steuerschuld um max. 1 Monat nach Leistungserbringung",
@@ -1683,6 +1788,7 @@
     {
       "id": "ust-106",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Der Steuerberater kauft für seine Kanzlei einen Schreibtisch um 10.000 netto. Bestellung im Oktober, Lieferung im November, Rechnung im Dezember, Zahlung im Jänner. Wann kann die Vorsteuer geltend gemacht werden?",
       "optionen": [
         "November",
@@ -1698,6 +1804,7 @@
     {
       "id": "ust-107",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Die x-GmbH leistet eine Anzahlung für eine Produktionsstraße. Die Rechnung erhält sie im Jänner, die Anzahlung wird im März geleistet. Wann kann Vorsteuer abgezogen werden?",
       "optionen": [
         "Jänner",
@@ -1713,6 +1820,7 @@
     {
       "id": "ust-108",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Wozu dient die UID?",
       "optionen": [
         "Rechnungsbestandteil",
@@ -1729,6 +1837,7 @@
     {
       "id": "ust-109",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Welche Aussagen bzgl. Kleinunternehmer sind zutreffend?",
       "optionen": [
         "Die 55.000-Grenze ist eine Nettogrenze",
@@ -1745,6 +1854,7 @@
     {
       "id": "ust-110",
       "typ": "multiple",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Wann liegt ein steuerbarer Tatbestand vor?",
       "optionen": [
         "Vorsteuerabzug",
@@ -1761,6 +1871,7 @@
     {
       "id": "ust-111",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Wer kann Unternehmer sein?",
       "optionen": [
         "Juristische Personen des Privatrechts",
@@ -1777,6 +1888,7 @@
     {
       "id": "ust-112",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Emil Müller (Wohnsitz in Hamburg) hat ein Einfamilienhaus in Klagenfurt geerbt und vermietet es um mtl. 1.000 an eine Familie zu Wohnzwecken. Weitere Einnahmen in Österreich hat er nicht, auch keinen Wohnsitz oder gewöhnlichen Aufenthalt in Österreich. Welche Aussagen treffen zu?",
       "optionen": [
         "Müller kann die Kleinunternehmerbefreiung in Anspruch nehmen",
@@ -1793,6 +1905,7 @@
     {
       "id": "ust-113",
       "typ": "zuordnung",
+      "thema": "Steuersätze",
       "frage": "Ordne die folgenden Umsätze dem zutreffenden Steuersatz zu.",
       "erklaerung": "10 % (Anlage 1): Bücher, Arzneimittel, Vermietung zu Wohnzwecken. 13 % (§ 10 Abs. 3 / Anlage 2): Eintritt ins Schwimmbad, Ab-Hof-Verkauf von Wein. 20 % Normalsteuersatz gilt mangels Begünstigung für gewöhnliche Waren wie z.B. einen Laptop.",
       "kategorien": [
@@ -1820,6 +1933,7 @@
     {
       "id": "ust-114",
       "typ": "multiple",
+      "thema": "Rechnung",
       "frage": "Welche Aussagen über die Rechnung iSd § 11 sind zutreffend?",
       "optionen": [
         "Die Rechnung kann auch vom Leistungsempfänger berichtigt werden",
@@ -1836,6 +1950,7 @@
     {
       "id": "ust-115",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Der nicht buchführungspflichtige Unternehmer Müller hat im Vorjahr steuerpflichtige Umsätze iHv 70.000 netto erzielt. Wie muss er seine Umsätze im Folgejahr melden?",
       "optionen": [
         "Monatlich",
@@ -1851,6 +1966,7 @@
     {
       "id": "ust-116",
       "typ": "single",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Wie berechnet sich die Umsatzsteuerzahllast in der UVA?",
       "optionen": [
         "Umsatz x 20 %",
@@ -1866,6 +1982,7 @@
     {
       "id": "ust-117",
       "typ": "multiple",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Welche Aussagen zur Umsatzsteuer treffen zu?",
       "optionen": [
         "Die Umsatzsteuer ist eine direkte Steuer",
@@ -1883,6 +2000,7 @@
     {
       "id": "ust-118",
       "typ": "multiple",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Welche Vorgänge sind einer Lieferung bzw. sonstigen Leistung gegen Entgelt gleichgestellt?",
       "optionen": [
         "Aufwands-Eigenverbrauch",
@@ -1900,6 +2018,7 @@
     {
       "id": "ust-119",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Welche Sachverhalte sind 'unecht' steuerbefreit?",
       "optionen": [
         "Leistungen im Gesundheitsbereich (Psychotherapeut, Hebamme etc.)",
@@ -1916,6 +2035,7 @@
     {
       "id": "ust-120",
       "typ": "single",
+      "thema": "Lieferort",
       "frage": "Mehrere Unternehmer schließen über denselben Gegenstand Umsatzgeschäfte in einer Kette ab, es liegt aber nur eine Warenbewegung vor. Wie wird dieser Vorgang bezeichnet und wie verteilen sich die Lieferungen?",
       "optionen": [
         "Reihengeschäft - eine bewegte Lieferung, alle übrigen sind ruhende Lieferungen",
@@ -1931,6 +2051,7 @@
     {
       "id": "ust-121",
       "typ": "multiple",
+      "thema": "Vorsteuerabzug",
       "frage": "Welche Aussagen zur Vorsteuerberichtigung nach § 12 Abs 10 treffen zu?",
       "optionen": [
         "Der Berichtigungszeitraum für bewegliche Anlagegüter beträgt 5 Jahre (Jahr der erstmaligen Verwendung + 4 Folgejahre)",
@@ -1948,6 +2069,7 @@
     {
       "id": "ust-122",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Ein Unternehmer kauft im Jahr 01 ein Gebäude (Vorsteuer 200.000) und nutzt es steuerpflichtig. Im Jahr 04 verkauft er es unecht steuerfrei (ohne Option zur Steuerpflicht). Wie viele Zwanzigstel der Vorsteuer sind zu berichtigen?",
       "optionen": [
         "3/20",
@@ -1963,6 +2085,7 @@
     {
       "id": "ust-123",
       "typ": "multiple",
+      "thema": "Vorsteuerabzug",
       "frage": "In welchen Fällen liegt KEINE Änderung der Verhältnisse iSd § 12 Abs 10 vor (somit keine Vorsteuerberichtigung)?",
       "optionen": [
         "Erbschaft (Gesamtrechtsnachfolge)",
@@ -1980,6 +2103,7 @@
     {
       "id": "ust-124",
       "typ": "multiple",
+      "thema": "Reverse Charge System (RCS)",
       "frage": "Wann geht die Steuerschuld nach § 19 Abs 1 Satz 2 (grenzüberschreitendes Reverse Charge) auf den Leistungsempfänger über?",
       "optionen": [
         "Es handelt sich um eine sonstige Leistung oder Werklieferung",
@@ -1997,6 +2121,7 @@
     {
       "id": "ust-125",
       "typ": "single",
+      "thema": "Reverse Charge System (RCS)",
       "frage": "Ein Subunternehmer erbringt eine Bauleistung an einen Generalunternehmer, der seinerseits mit einer Bauleistung beauftragt wurde. Wer schuldet die USt?",
       "optionen": [
         "Der Generalunternehmer (Leistungsempfänger) – Übergang der Steuerschuld nach § 19 Abs 1a",
@@ -2012,6 +2137,7 @@
     {
       "id": "ust-126",
       "typ": "single",
+      "thema": "Vorsteuerabzug",
       "frage": "Zu welchem Zeitpunkt steht dem Leistungsempfänger bei Übergang der Steuerschuld (Reverse Charge) der Vorsteuerabzug zu?",
       "optionen": [
         "Im Zeitpunkt des Übergangs der Steuerschuld – auch ohne ordnungsgemäße Rechnung",
@@ -2027,6 +2153,7 @@
     {
       "id": "ust-127",
       "typ": "multiple",
+      "thema": "Rechnung",
       "frage": "Eine GmbH stellt Rechnungen mit offenem USt-Ausweis über Leistungen aus, die nie erbracht wurden (Scheinrechnungen). Was gilt?",
       "optionen": [
         "Die GmbH schuldet die ausgewiesene USt allein aufgrund der Rechnungslegung (§ 11 Abs 14)",
@@ -2044,6 +2171,7 @@
     {
       "id": "ust-128",
       "typ": "single",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Ein österreichischer Architekt plant ein Bürogebäude, das in Spanien errichtet wird; Auftraggeber ist ein österreichisches Unternehmen. Wo ist die Planungsleistung steuerbar?",
       "optionen": [
         "In Spanien – am Grundstücksort (§ 3a Abs 9), unabhängig von B2B/B2C",
@@ -2059,6 +2187,7 @@
     {
       "id": "ust-129",
       "typ": "permutation",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Ordne jeder Leistungsart die zutreffende Leistungsort-Regel zu.",
       "erklaerung": "Restaurant-/Verpflegungsleistungen: Tätigkeitsort (§ 3a Abs. 11 lit d). Kurzfristige Vermietung eines Beförderungsmittels: Übergabeort (§ 3a Abs. 12). Personenbeförderung: Beförderungsstrecke (§ 3a Abs. 10). Grundstücksleistungen: Grundstücksort (§ 3a Abs. 9) — unabhängig vom Sitz des Leistungsempfängers.",
       "kategorien": [
@@ -2083,6 +2212,7 @@
     {
       "id": "ust-130",
       "typ": "multiple",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Welche Aussagen zur Differenzbesteuerung (§ 24) treffen zu?",
       "optionen": [
         "Sie gilt für Wiederverkäufer von Gebrauchtgegenständen, Kunst, Antiquitäten und Sammlungsstücken",
@@ -2100,6 +2230,7 @@
     {
       "id": "ust-131",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Welche Aussagen zum innergemeinschaftlichen Erwerb (Art 1) treffen zu?",
       "optionen": [
         "Der Gegenstand gelangt aus einem anderen Mitgliedstaat ins Inland",
@@ -2117,6 +2248,7 @@
     {
       "id": "ust-132",
       "typ": "single",
+      "thema": "Reverse Charge System (RCS)",
       "frage": "Ein ausländischer Unternehmer erbringt im Inland eine steuerpflichtige Leistung, bei der es NICHT zum Reverse Charge kommt. Was sieht § 27 Abs 4 für den inländischen unternehmerischen Leistungsempfänger vor?",
       "optionen": [
         "Er muss die auf die Leistung entfallende USt einbehalten und für Rechnung des ausländischen Unternehmers an das Finanzamt abführen",
@@ -2132,6 +2264,7 @@
     {
       "id": "ust-133",
       "typ": "multiple",
+      "thema": "Bemessungsgrundlage",
       "frage": "Wie bemisst sich die Bemessungsgrundlage beim Eigenverbrauch?",
       "optionen": [
         "Entnahme eines Gegenstands: Einkaufspreis bzw. Wiederbeschaffungskosten (mangels solcher die Selbstkosten) im Zeitpunkt der Entnahme",
@@ -2148,6 +2281,7 @@
     {
       "id": "ust-134",
       "typ": "single",
+      "thema": "Aufzeichnungspflichten & Entstehung der Steuerschuld",
       "frage": "Ein sollbesteuerter Unternehmer erhält im November eine Anzahlung für eine erst im Folgejahr zu erbringende Lieferung. Wann entsteht insoweit die Steuerschuld?",
       "optionen": [
         "Mit Ablauf des Monats der Vereinnahmung der Anzahlung (Mindest-Istbesteuerung)",
@@ -2163,6 +2297,7 @@
     {
       "id": "ust-135",
       "typ": "multiple",
+      "thema": "Aufzeichnungspflichten & Entstehung der Steuerschuld",
       "frage": "Wer versteuert seine Umsätze grundsätzlich nach vereinnahmten Entgelten (Istbesteuerung)?",
       "optionen": [
         "Angehörige freier Berufe (selbständige Arbeit, § 22 Z 1 EStG)",
@@ -2180,6 +2315,7 @@
     {
       "id": "ust-137",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Welche Aussagen zur Ausfuhrlieferung (§ 7) treffen zu?",
       "optionen": [
         "Sie ist echt steuerfrei (mit Vorsteuerabzug)",
@@ -2197,6 +2333,7 @@
     {
       "id": "ust-138",
       "typ": "multiple",
+      "thema": "Rechnung",
       "frage": "Welche Aussagen zur Rechnung (§ 11) treffen zu?",
       "optionen": [
         "Bei Kleinbetragsrechnungen bis 400 brutto genügen reduzierte Angaben",
@@ -2214,6 +2351,7 @@
     {
       "id": "ust-139",
       "typ": "permutation",
+      "thema": "Veranlagung & Erklärung",
       "frage": "Ordne jedem Sachverhalt die zutreffende Kennzahl (KZ) in der UVA zu.",
       "erklaerung": "KZ 061 = entrichtete Einfuhrumsatzsteuer, bare Methode (unbare Methode: KZ 083). KZ 063 = Vorsteuerberichtigung nach § 12 Abs. 10/11 UStG (mit Vorzeichen). KZ 057 = übergegangene Steuer bei RCS Ausländer (Steuerbetrag; zugehörige Vorsteuer KZ 066). KZ 060 = allgemeine (laufende) Vorsteuer aus Eingangsrechnungen.",
       "kategorien": [
@@ -2238,6 +2376,7 @@
     {
       "id": "ust-140",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Welche Aussagen zur Kleinunternehmerregelung (Rechtslage ab 2025) treffen zu?",
       "optionen": [
         "Auch in einem anderen Mitgliedstaat ansässige Unternehmer können die Befreiung nutzen, wenn ihr unionsweiter Umsatz 100.000 nicht übersteigt und sie das Verfahren nach Art 6a beantragen",
@@ -2255,6 +2394,7 @@
     {
       "id": "ust-141",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Hr. A ist selbständiger Tischler und kauft 25 Sessel von einem italienischen Produzenten um 5.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "Nicht steuerbar (Keine Eintragung)",
@@ -2278,6 +2418,7 @@
     {
       "id": "ust-142",
       "typ": "multiple",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Hr. A ist selbständiger Tischler und verkauft 20 Sessel an ein italienisches Möbelhaus (Unternehmer). Er verlangt für die Sessel 4.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "Nicht steuerbar (Keine Eintragung)",
@@ -2303,6 +2444,7 @@
     {
       "id": "ust-143",
       "typ": "multiple",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Dr. A ist selbständiger Rechtsanwalt und vertritt bei einem Gewährleistungsprozess in Deutschland ein österreichisches Unternehmen. Sein Honorar beträgt 8.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "KZ: 001: 8.000",
@@ -2324,6 +2466,7 @@
     {
       "id": "ust-144",
       "typ": "multiple",
+      "thema": "Lieferort",
       "frage": "Hr. A ist selbständiger Tischler und verkauft einem privaten Kunden einen Tisch um 900. Für die Zustellung des Tisches in Linz verlangt er zusätzlich 50. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "Nicht steuerbar (Keine Eintragung)",
@@ -2345,6 +2488,7 @@
     {
       "id": "ust-145",
       "typ": "multiple",
+      "thema": "Lieferort",
       "frage": "Hr. A ist selbständiger Tischler und entnimmt einen Tisch aus seinem Verkaufsraum, um ihn zukünftig in seiner privaten Wohnung zu verwenden. Von seinen Kunden würde er ein Entgelt in Höhe von 1.300 verlangen. Im Einkauf kostet ihn der Tisch derzeit 600. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "Nicht steuerbar (Keine Eintragung)",
@@ -2366,6 +2510,7 @@
     {
       "id": "ust-146",
       "typ": "multiple",
+      "thema": "Sonstige Leistungen & Leistungsort",
       "frage": "Hr. A ist Bauunternehmer und verwendet seinen betrieblichen Bagger für den Aushub seines privaten Pools. Für die Nutzung des Baggers fallen Kosten in Höhe von 2.000 an. Von seinen Kunden würde er ein Entgelt in Höhe von 4.500 verlangen. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "Nicht steuerbar (Keine Eintragung)",
@@ -2387,6 +2532,7 @@
     {
       "id": "ust-147",
       "typ": "multiple",
+      "thema": "Steuersätze",
       "frage": "Die Hotel-GmbH betreibt 2 große Hotels in Innsbruck und Dornbirn. Sie erzielt Umsätze aus Übernachtungen von Privatpersonen aus Österreich netto 640.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "Nicht steuerbar (Keine Eintragung)",
@@ -2409,6 +2555,7 @@
     {
       "id": "ust-148",
       "typ": "multiple",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Welche Merkmale muss eine Leistung im umsatzsteuerlichen Sinn (Leistungsaustausch) aufweisen?",
       "optionen": [
         "Innere Verknüpfung von Leistung und Gegenleistung",
@@ -2425,6 +2572,7 @@
     {
       "id": "ust-149",
       "typ": "zuordnung",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Ordne die folgenden Sachverhalte der zutreffenden umsatzsteuerlichen Kategorie zu.",
       "erklaerung": "Schenkung im rein privaten Bereich: nicht steuerbar, da kein Handeln als Unternehmer (§ 1 Abs. 1 Z 1). Entnahme eines dem Unternehmen zugeordneten Gegenstandes (Fahrradhändler): Entnahmeeigenverbrauch, steuerbar und steuerpflichtig. Ärztliche Heilbehandlung: steuerbar, aber unecht steuerbefreit (§ 6 Abs. 1 Z 19). Verkauf einer Torte: gewöhnliche Lieferung, steuerbar und steuerpflichtig (10 %). Vermietung von Geschäftsräumen: unecht steuerbefreit (§ 6 Abs. 1 Z 16), Option scheidet aus, da der Mieter (Kleinunternehmer) nicht überwiegend vorsteuerabzugsberechtigt ist. B2B-Leistung des Rechtsanwalts an einen deutschen Unternehmer: Empfängerortprinzip verlagert den Leistungsort nach Deutschland, in Österreich nicht steuerbar. Verwendungseigenverbrauch beim Taxi: steuerbar und steuerpflichtig, sofern für das Fahrzeug Vorsteuerabzug zustand.",
       "kategorien": [
@@ -2454,6 +2602,7 @@
     {
       "id": "ust-156",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Elisabeth ist selbständige Friseurin mit einem steuerbaren Jahresumsatz von 120.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "Nicht steuerbar (Keine Eintragung)",
@@ -2473,6 +2622,7 @@
     {
       "id": "ust-157",
       "typ": "multiple",
+      "thema": "Steuerbefreiungen",
       "frage": "Kurt ist Unternehmensberater mit einem steuerbaren Jahresumsatz von 420.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
       "optionen": [
         "Nicht steuerbar (Keine Eintragung)",
@@ -2491,6 +2641,7 @@
     {
       "id": "ust-158",
       "typ": "luecke",
+      "thema": "Einführung & steuerbare Tatbestände",
       "frage": "Vervollständigen Sie die Definition des grundlegenden steuerbaren Tatbestandes.",
       "text": "Der Umsatzsteuer unterliegen die Lieferungen und sonstigen Leistungen, die ein Unternehmer im Inland gegen {0} im Rahmen {1} ausführt.",
       "luecken": [
@@ -2516,6 +2667,7 @@
     {
       "id": "ust-159",
       "typ": "luecke",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Vervollständigen Sie die Definition des Unternehmerbegriffs.",
       "text": "Unternehmer ist, wer eine {0} Tätigkeit {1} und {2} ausübt, wobei eine {3} nicht erforderlich ist.",
       "luecken": [
@@ -2557,6 +2709,7 @@
     {
       "id": "ust-160",
       "typ": "luecke",
+      "thema": "Unternehmer & Leistungsbegriff",
       "frage": "Vervollständigen Sie die Definition der Lieferung.",
       "text": "Eine Lieferung ist die Verschaffung der {0} über einen {1} Gegenstand.",
       "luecken": [
@@ -2582,6 +2735,7 @@
     {
       "id": "ust-161",
       "typ": "luecke",
+      "thema": "Steuerbefreiungen",
       "frage": "Vervollständigen Sie die Definition der Kleinunternehmerregelung.",
       "text": "Kleinunternehmer sind Unternehmer, deren {0} im Veranlagungszeitraum {1} EUR nicht übersteigen; es handelt sich um eine {2} Steuerbefreiung, auf die durch Option zur Steuerpflicht verzichtet werden kann.",
       "luecken": [
@@ -2615,6 +2769,7 @@
     {
       "id": "ust-162",
       "typ": "luecke",
+      "thema": "Binnenmarkt / Innergemeinschaftlich",
       "frage": "Vervollständigen Sie die Definition des innergemeinschaftlichen Erwerbs.",
       "text": "Ein innergemeinschaftlicher Erwerb liegt vor, wenn ein Gegenstand bei einer Lieferung aus einem anderen {0} in das Inland gelangt und der Erwerb durch einen {1} für sein {2} erfolgt.",
       "luecken": [
@@ -2644,217 +2799,6 @@
         }
       ],
       "erklaerung": "Art. 1 BMR: Ein innergemeinschaftlicher Erwerb liegt vor, wenn ein Gegenstand bei einer Lieferung aus dem Gebiet eines anderen Mitgliedstaates in das Inland gelangt und vom Erwerber (regelmäßig einem Unternehmer) für sein Unternehmen erworben wird; für bestimmte Schwellenerwerber gelten Sonderregeln (Erwerbsschwelle)."
-    },
-    {
-      "id": "ust-163",
-      "typ": "single",
-      "frage": "Der Vorsteuerabzug ist immer nur dann möglich, wenn ... (wählen Sie die Voraussetzung, die ausnahmslos in jedem Fall gilt)",
-      "optionen": [
-        "die Leistung im Inland erbracht worden ist",
-        "die Rechnung bereits bezahlt worden ist",
-        "der Leistende Unternehmer ist",
-        "die Leistung bereits erbracht worden ist"
-      ],
-      "korrekt": [
-        2
-      ],
-      "erklaerung": "Die anderen drei Optionen kennen jeweils Ausnahmen: 'Im Inland erbracht' ist beim Übergang der Steuerschuld (RCS Katalogleistung) oft eine gesetzliche Fiktion über das Empfängerortprinzip, obwohl die Leistung physisch im Ausland erbracht wurde (z.B. Prozessvertretung in München); bei Einfuhr/ig. Erwerb ist die Voraussetzung ohnehin nicht einschlägig, da dort eigene Vorsteuertatbestände gelten. 'Bereits erbracht' hat die Ausnahme der Anzahlung (Mindest-Istbesteuerung: Vorsteuerabzug schon vor Leistungserbringung bei Rechnung + Zahlung). 'Rechnung bezahlt' ist nur bei Ist-/Anzahlungsbesteuerung Voraussetzung, nicht bei Sollbesteuerung. Nur die Unternehmereigenschaft des Leistenden gilt ausnahmslos immer."
-    },
-    {
-      "id": "ust-164",
-      "typ": "multiple",
-      "frage": "Bei welchen der folgenden Sachverhalte kann es zum Übergang der Steuerschuld (Reverse Charge) auf den Leistungsempfänger kommen?",
-      "optionen": [
-        "Leistungen der Versicherungsvertreter an Privatpersonen",
-        "Gewöhnliche Lieferung von Gebäuden (ohne Zwangsversteigerung/Sicherungseigentum)",
-        "Lieferungen im Zusammenhang mit Geschenkkörben",
-        "Sonstige Leistungen (mit Ausnahmen) von einem ausländischen Unternehmer an einen Unternehmer im Inland",
-        "Bauleistungen",
-        "Schrottlieferungen"
-      ],
-      "korrekt": [
-        3,
-        4,
-        5
-      ],
-      "erklaerung": "RCS-Tatbestände: § 19 Abs. 1 Satz 2 (Ausländer-Leistungen an inländische Unternehmer), § 19 Abs. 1a (Bauleistungen) und § 19 Abs. 1d (Schrott- und Abfallstoffe-VO). Versicherungsvertreterleistungen an Private sind schon unecht steuerbefreit und lösen keinen Steuerschuldübergang aus; eine gewöhnliche Gebäudelieferung (ohne die Sonderfälle Zwangsversteigerung/Sicherungseigentum nach § 19 Abs. 1b) und Geschenkkörbe sind keine RCS-Tatbestände."
-    },
-    {
-      "id": "ust-165",
-      "typ": "single",
-      "frage": "Wann wird die Umsatzsteuerschuld für eine Anzahlung bei einem grundsätzlich sollbesteuerten Unternehmer fällig?",
-      "optionen": [
-        "Mit Ablauf des Monats, in dem die Anzahlung erfolgt (Mindest-Istbesteuerung für Anzahlungen)",
-        "Am Tag des Vertragsschlusses",
-        "Am Tag der Leistungsannahme",
-        "Am Tag der Rechnungsstellung"
-      ],
-      "korrekt": [
-        0
-      ],
-      "erklaerung": "Für Anzahlungen gilt unabhängig vom sonst angewendeten Besteuerungssystem die Mindest-Istbesteuerung: Die Steuerschuld entsteht mit Ablauf des Kalendermonats, in dem das Entgelt vereinnahmt wurde – nicht erst bei Vertragsschluss, Leistungsannahme oder Rechnungsstellung."
-    },
-    {
-      "id": "ust-166",
-      "typ": "single",
-      "frage": "Wo befindet sich der Ort des innergemeinschaftlichen Erwerbes?",
-      "optionen": [
-        "Dort, wo sich der Gegenstand am Ende der Beförderung oder Versendung befindet (Bestimmungsort)",
-        "Dort, wo die Beförderung oder Versendung beginnt",
-        "Am Unternehmerort des Erwerbers, unabhängig vom tatsächlichen Warenort",
-        "Am Sitz des liefernden Unternehmers im Ursprungsmitgliedstaat"
-      ],
-      "korrekt": [
-        0
-      ],
-      "erklaerung": "Nach Art. 3 Abs. 8 BMR wird der ig. Erwerb dort bewirkt, wo sich der Gegenstand am Ende der Beförderung/Versendung befindet (Bestimmungslandprinzip). 'Wo die Beförderung beginnt' ist hingegen die Ortsregel für die (innerstaatliche) Beförderungs-/Versendungslieferung im Inland (§ 3 Abs. 8 UStG), nicht für den ig. Erwerb selbst."
-    },
-    {
-      "id": "ust-167",
-      "typ": "multiple",
-      "frage": "Der russische Tourist Dimitri kauft im Sportgeschäft X-GmbH (Steiermark) Bergschuhe um 300,-. Da im Reisegepäck kein Platz ist, lässt er sich die Schuhe von der X-GmbH gegen zusätzlich 50,- nach Moskau versenden. Wie ist der Umsatz der X-GmbH zu beurteilen und in der UVA zu erfassen?",
-      "optionen": [
-        "Nicht steuerbar (Keine Eintragung)",
-        "KZ: 000: 350",
-        "KZ: 011: 300",
-        "KZ: 011: 350",
-        "KZ: 017: 300",
-        "KZ: 022: 350",
-        "Es liegt eine steuerfreie Ausfuhrlieferung vor.",
-        "Es liegt eine innergemeinschaftliche Lieferung vor."
-      ],
-      "korrekt": [
-        1,
-        3,
-        6
-      ],
-      "erklaerung": "Die Versandkosten sind unselbständige Nebenleistung zur Lieferung der Schuhe, daher Gesamtentgelt 300 + 50 = 350. Da die X-GmbH den Versand ins Drittland (Russland) selbst organisiert, liegt eine echt steuerfreie Ausfuhrlieferung gem. § 7 UStG vor (KZ 000 und 011 mit 350). Russland ist kein EU-Mitgliedstaat, daher keine innergemeinschaftliche Lieferung und kein KZ 017."
-    },
-    {
-      "id": "ust-168",
-      "typ": "multiple",
-      "frage": "Max betreibt in Wien eine Versicherungsagentur mit einem steuerbaren Jahresumsatz von 130.000. Wie ist der Sachverhalt umsatzsteuerlich zu beurteilen und in der UVA zu erfassen?",
-      "optionen": [
-        "Nicht steuerbar (Keine Eintragung)",
-        "KZ: 000: 130.000",
-        "KZ: 015: 130.000",
-        "KZ: 020: 130.000",
-        "KZ: 022: 130.000",
-        "KZ: 029: 130.000",
-        "Die Umsätze sind unecht steuerbefreit.",
-        "Die Umsätze sind echt steuerbefreit."
-      ],
-      "korrekt": [
-        1,
-        3,
-        6
-      ],
-      "erklaerung": "Versicherungsvertreter-/Versicherungsagenturleistungen sind gem. § 6 Abs. 1 Z 13 UStG unecht steuerbefreit (kein Vorsteuerabzug für Vorleistungen) – ähnlich wie ärztliche Leistungen. Der Umsatz ist steuerbar, aber steuerfrei; zu erfassen unter KZ 000 (Gesamtsumme) und KZ 020 (unecht befreite Umsätze). Die Kleinunternehmergrenze spielt hier keine Rolle, da sich die Befreiung schon aus der Tätigkeit selbst ergibt."
-    },
-    {
-      "id": "ust-169",
-      "typ": "multiple",
-      "frage": "Unternehmer Ulf schafft im Jahr 01 eine Büroeinrichtung um netto 15.000 (+20% USt) an, die er auf 8 Jahre verteilt abschreibt; bei Anschaffung macht er die volle Vorsteuer geltend, da er zu diesem Zeitpunkt steuerpflichtige Umsätze erzielt. Ab dem Jahr 03 ist er ausschließlich Versicherungsvertreter und verwendet die Büroeinrichtung unverändert weiter. Welche Aussagen treffen zu?",
-      "optionen": [
-        "Im Jahr 03 kommt es zu einer Änderung der Verhältnisse, da Versicherungsumsätze unecht steuerfrei sind.",
-        "Im Jahr 03 kommt es zu einer Änderung der Verhältnisse, da Versicherungsumsätze echt steuerfrei sind.",
-        "Im Jahr 03 ergibt sich dadurch eine Vorsteuerberichtigung gem. § 12 Abs. 10 UStG.",
-        "Im Jahr 03 ergibt sich dadurch eine Vorsteuerberichtigung gem. § 12 Abs. 11 UStG.",
-        "Es ist keine Vorsteuerberichtigung erforderlich, da die Büroeinrichtung unverändert weiterverwendet wird."
-      ],
-      "korrekt": [
-        0,
-        2
-      ],
-      "erklaerung": "Die Büroeinrichtung ist Anlagevermögen; dafür gilt der 5-jährige Berichtigungszeitraum nach § 12 Abs. 10 UStG (Abs. 11 betrifft Umlaufvermögen). Da Ulf ab Jahr 03 ausschließlich unecht steuerbefreite Versicherungsumsätze (§ 6 Abs. 1 Z 13) erzielt, ändert sich das Verhältnis steuerpflichtiger zu steuerfreien Umsätzen innerhalb des Berichtigungszeitraums – eine Vorsteuerberichtigung zu Ulfs Ungunsten ist vorzunehmen, obwohl der Gegenstand unverändert weiterverwendet wird (entscheidend ist die geänderte Nutzung/das geänderte Umsatzverhältnis, nicht die physische Verwendung)."
-    },
-    {
-      "id": "ust-170",
-      "typ": "single",
-      "frage": "Für Bewirtungskosten, die der Werbung dienen und bei denen die betriebliche oder berufliche Veranlassung weitaus überwiegt, steht ertragsteuerlich nur ein hälftiger Betriebsausgabenabzug zu (§ 20 Abs. 1 Z 3 EStG). Welcher Vorsteuerabzug steht dem Unternehmer dennoch zu?",
-      "optionen": [
-        "Keine Vorsteuer",
-        "50 % Vorsteuer, entsprechend der ertragsteuerlichen Kürzung",
-        "100 % Vorsteuer",
-        "Vorsteuerabzug ja, aber mit anschließender Vorsteuerberichtigung gem. § 12 Abs. 3 UStG"
-      ],
-      "korrekt": [
-        2
-      ],
-      "erklaerung": "Die hälftige Kürzung nach § 20 Abs. 1 Z 3 EStG ist eine rein ertragsteuerliche Regelung und schlägt nicht auf § 12 UStG durch. Trotz nur 50%iger Abzugsfähigkeit als Betriebsausgabe steht bei werbewirksamer Bewirtung mit weit überwiegender betrieblicher/beruflicher Veranlassung der volle (100%) Vorsteuerabzug zu. Eine Vorsteuerberichtigung ist hier nicht einschlägig, da es sich nicht um Anlagevermögen mit Berichtigungszeitraum handelt."
-    },
-    {
-      "id": "ust-171",
-      "typ": "luecke",
-      "frage": "Vervollständigen Sie die Voraussetzungen für den Übergang der Steuerschuld bei ausländischen Unternehmern (§ 19 Abs. 1 Satz 2 UStG).",
-      "text": "Eine {0} oder Werklieferung eines {1} Unternehmers an einen {2} ist im Inland {3}; die Steuerschuld geht dabei auf den {4} über.",
-      "luecken": [
-        {
-          "optionen": [
-            "sonstige Leistung",
-            "Ausfuhrlieferung",
-            "innergemeinschaftliche Lieferung"
-          ],
-          "loesung": 0
-        },
-        {
-          "optionen": [
-            "ausländischen",
-            "inländischen",
-            "gemeinnützigen"
-          ],
-          "loesung": 0
-        },
-        {
-          "optionen": [
-            "Unternehmer oder eine juristische Person öffentlichen Rechts",
-            "Privaten",
-            "Kleinunternehmer ohne Rücksicht auf dessen Status"
-          ],
-          "loesung": 0
-        },
-        {
-          "optionen": [
-            "steuerbar und steuerpflichtig",
-            "nicht steuerbar",
-            "unecht steuerbefreit"
-          ],
-          "loesung": 0
-        },
-        {
-          "optionen": [
-            "Leistungsempfänger",
-            "leistenden Unternehmer",
-            "Bundesminister für Finanzen"
-          ],
-          "loesung": 0
-        }
-      ],
-      "erklaerung": "§ 19 Abs. 1 Satz 2 UStG: Sonstige Leistung oder Werklieferung eines ausländischen (nicht im Inland ansässigen) Unternehmers an einen Unternehmer oder eine jur. Person öffentlichen Rechts, steuerbar und steuerpflichtig im Inland → Übergang der Steuerschuld auf den Leistungsempfänger (KZ 057, ggf. zusätzlich KZ 066 bei Vorsteuerabzug)."
-    },
-    {
-      "id": "ust-172",
-      "typ": "zuordnung",
-      "frage": "Ordne jedem Sachverhalt die Kennzahl zu, unter der die Bemessungsgrundlage bzw. der Steuerbetrag primär zu erfassen ist.",
-      "kategorien": [
-        "KZ 011 (Ausfuhrlieferung)",
-        "KZ 017 (ig. Lieferung)",
-        "KZ 057 (RCS Ausländer, Steuerbetrag)",
-        "KZ 001 (Eigenverbrauch)"
-      ],
-      "elemente": [
-        "Versandlieferung an einen Privaten in ein Drittland (Versand durch den Unternehmer organisiert)",
-        "Lieferung von Waren an einen Unternehmer in einem anderen EU-Mitgliedstaat",
-        "Sonstige Leistung eines ausländischen Unternehmers an einen inländischen Unternehmer",
-        "Dauerhafte Entnahme eines Gegenstandes für private Zwecke"
-      ],
-      "loesung": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "erklaerung": "Ausfuhrlieferungen (Drittland) → KZ 011; innergemeinschaftliche Lieferungen (EU) → KZ 017; Übergang der Steuerschuld bei ausländischen Unternehmern → KZ 057 beim Leistungsempfänger (Steuerbetrag, nicht Bemessungsgrundlage!); jede Form des Eigenverbrauchs (Entnahme-, Verwendungs- oder Aufwandseigenverbrauch) → immer KZ 001, nie KZ 000."
     }
   ]
 }
